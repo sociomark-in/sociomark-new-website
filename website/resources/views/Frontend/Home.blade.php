@@ -11,7 +11,7 @@
         <div class="row align-items-end">
             <div class="col-xl-6">
                 <div class="hero-style1">
-                    <span class="sub-title ">SEO & Marketing Agency</span>
+                    <span class="sub-title ">socio & Marketing Agency</span>
                     <h1 class="hero-title ">Empowering Growth Unlock SEO Solutions</h1>
                     <p class="hero-text">At Saor, we are dedicated to helping businesses navigate the complex digital
                         landscape with ease. We specialize in providing a full spectrum of SEO.</p>
