@@ -10,6 +10,7 @@
     <div id="app">
         @yield('content')
     </div>
+    @include('Frontend/partial/Footer')
     @include('Frontend/partial/jsLinks')
 
 </body>
