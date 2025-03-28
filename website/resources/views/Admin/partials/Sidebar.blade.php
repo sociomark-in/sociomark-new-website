@@ -37,10 +37,13 @@
                 <div class="collapse" data-bs-parent="#sidebarNav" id="emails">
                     <ul class="nav sub-menu">
                         <li class="nav-item">
-                            <a href="{{ route('showblogs') }}" class="nav-link">Blogs</a>
+                            <a href="{{ route('blogs.index') }}" class="nav-link">Blogs</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('blogForm') }}" class="nav-link">Add Blog</a>
+                            <a href="{{ route('blogs.create') }}" class="nav-link">Add Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('tags.create') }}" class="nav-link">Add Tag</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a href="pages/email/compose.html" class="nav-link">Compose</a>
@@ -49,7 +52,7 @@
                 </div>
             </li>
             <li class="nav-item">
-                <a href="{{ route('categoryForm') }}" class="nav-link">
+                <a href="{{ route('categories.create') }}" class="nav-link">
                     <i class="link-icon" data-feather="message-square"></i>
                     <span class="link-title">Category</span>
                 </a>

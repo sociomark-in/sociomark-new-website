@@ -3,142 +3,159 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+
+use App\Models\Blog;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
-use App\Models\Post;
-use App\Models\Category;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use PhpParser\Node\Expr\PostInc;
+use App\Models\Category;
+use App\Models\Tag;
+use Illuminate\Support\Facades\Storage;
 
 class BlogController extends Controller
 {
+    // Show all blogs
+    // public function index()
+    // {
+
+    //     $blogs = Blog::with('category')->latest()->get();
+    //     return view('Admin/Pages/Blog/Blogs', compact('blogs'));
+    // }
     public function index()
     {
-        $blogs = Post::with('category')->latest()->get();
-        return view('Admin/Blogs', compact('blogs'));
+        $blogs = Blog::latest()->get();
+        return view('Admin/Pages/Blog/Blogs', compact('blogs'));
     }
+
+    // Show form to create blog
     public function create()
     {
-        $categories = Category::all();
-        return view('Admin/AddBlog', compact('categories'));
+        $categories = Category::all(); // Fetch all categories
+        $tags = Tag::all(); // Fetch all tags
+        return view('Admin/Pages/Blog/AddBlog', compact('categories', 'tags'));
     }
 
+
+
+    // Store blog
     public function store(Request $request)
     {
-        // Validate the request
         $request->validate([
-            'title' => 'required',
+            'blog_name' => 'required|string|max:255',
             'content' => 'required',
-            'cat_id' => 'required|exists:categories,id', // Ensure category exists
-            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'meta_title' => 'nullable|string|max:255',
+            'meta_description' => 'nullable|string',
+            'meta_keywords' => 'nullable|string',
+            'tags' => 'nullable|array',
+            'categories' => 'nullable|array',
+            'images.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048', // Validate each image
+            'status' => 'required|in:active,draft,inactive',
+            'display_on_home' => 'boolean',
         ]);
 
-        // Handle Image Upload
-        $imagePath = null;
-        if ($request->hasFile('image')) {
-            $imagePath = $request->file('image')->store('blog_images', 'public');
+        // Store images
+        $imagePaths = [];
+        if ($request->hasFile('images')) {
+            foreach ($request->file('images') as $image) {
+                $path = $image->store('blog_images', 'public');
+                $imagePaths[] = $path;
+            }
         }
 
-        // Create a new blog post
-        Post::create([
-            'title' => $request->title,
+        // Create blog
+        Blog::create([
+            'blog_name' => $request->blog_name,
             'content' => $request->content,
-            'meta_title' => $request->meta_title ?? '', // Default empty string
-            'meta_description' => $request->meta_description ?? '',
-            'meta_keywords' => $request->meta_keywords ?? '',
-            'tags' => $request->tags ?? '',
-            'cat_id' => $request->cat_id, // Fixed this field
-            'image' => $imagePath,
-            'display_on_home' => $request->display_on_home ?? 'no', // Default to 'no'
-            'status' => $request->status ?? 's_act', // Default to 'Active'
+            'meta_title' => $request->meta_title,
+            'meta_description' => $request->meta_description,
+            'meta_keywords' => $request->meta_keywords,
+            'slug' => Str::slug($request->blog_name),
+            'tags' => $request->tags,
+            'categories' => $request->categories,
+            'images' => $imagePaths,
+            'status' => $request->status,
+            'display_on_home' => $request->display_on_home ?? false,
         ]);
 
-        return redirect()->back()->with('success', 'Blog post created successfully!');
+        return redirect()->route('blogs.index')->with('success', 'Blog created successfully.');
     }
+
+
+    // Show blog details
+    // public function show(Blog $blog)
+    // {
+    //     return view('Admin/Pages/Blog/EditBlog', compact('blog'));
+    // }
+
+    // Show form to edit blog
+
     public function edit($id)
     {
-        $blog = Post::findOrFail($id);
-        $categories = Category::all();
-        return view('Admin.EditBlog', compact('blog', 'categories'));
+        $blog = Blog::findOrFail($id);
+        $categories = Category::all(); // Assuming you have a Category model
+        $tags = Tag::all();
+        return view('Admin/Pages/Blog/EditBlog', compact('blog', 'categories', 'tags'));
     }
 
-    /**
-     * Update the specified post in storage.
-     */
+    
     public function update(Request $request, $id)
     {
-        $blog = Post::findOrFail($id);
+        $blog = Blog::findOrFail($id);
     
         $request->validate([
-            'title' => 'required',
+            'blog_name' => 'required|string|max:255',
             'content' => 'required',
-            'cat_id' => 'required|exists:categories,id', // Ensure category exists
-            'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'status' => 'required|in:draft,active,inactive',
+            'tags' => 'required|string', // Ensure it's a string
+            'categories' => 'required|array', // Categories should remain an array
+            'meta_title' => 'nullable|string|max:255',
+            'meta_description' => 'nullable|string|max:500',
+            'meta_keywords' => 'nullable|string|max:500',
+            'slug' => 'nullable|string|max:255|unique:blogs,slug,' . $id,
+            'images.*' => 'image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
     
-        // Keep the existing image if no new image is uploaded
-        $imagePath = $blog->image;
-    
-        // Handle image upload
-        if ($request->hasFile('image')) {
-            $imagePath = $request->file('image')->store('blog_images', 'public');
+        // Delete old images if new images are uploaded
+        if ($request->hasFile('images')) {
+            if (!empty($blog->images)) {
+                foreach ($blog->images as $oldImage) {
+                    Storage::disk('public')->delete($oldImage); // Delete old images
+                }
+            }
         }
     
-        // Update the blog post
+        $imagePaths = [];
+    
+        // Store new images
+        if ($request->hasFile('images')) {
+            foreach ($request->file('images') as $image) {
+                $path = $image->store('blog_images', 'public');
+                $imagePaths[] = $path;
+            }
+        }
+    
         $blog->update([
-            'title' => $request->title,
+            'blog_name' => $request->blog_name,
             'content' => $request->content,
-            'meta_title' => $request->meta_title ?? '', // Default empty string
-            'meta_description' => $request->meta_description ?? '',
-            'meta_keywords' => $request->meta_keywords ?? '',
-            'tags' => $request->tags ?? '',
-            'cat_id' => $request->cat_id,
-            'image' => $imagePath, // Ensure image is updated correctly
-            'display_on_home' => $request->display_on_home ?? 'no', // Default to 'no'
-            'status' => $request->status ?? 's_act', // Default to 'Active'
+            'meta_title' => $request->meta_title,
+            'meta_description' => $request->meta_description,
+            'meta_keywords' => $request->meta_keywords,
+            'slug' => Str::slug($request->blog_name),
+            'tags' => explode(',', $request->tags), // Convert string to array
+            'categories' => $request->categories,
+            'images' => $imagePaths, // Only store new images
+            'status' => $request->status,
+            'display_on_home' => $request->display_on_home ?? false,
         ]);
     
-        return redirect()->route('showblogs')->with('success', 'Blog post updated successfully!');
+        return redirect()->route('blogs.index')->with('success', 'Blog updated successfully.');
     }
     
 
-    /**
-     * Remove the specified post from storage.
-     */
-    public function destroy($id)
+
+    // Delete blog
+    public function destroy(Blog $blog)
     {
-        $blog = Post::findOrFail($id);
         $blog->delete();
-
-        return redirect()->route('showblogs')->with('success', 'Blog post deleted successfully!');
+        return redirect()->route('blogs.index')->with('success', 'Blog deleted successfully!');
     }
-
-    // public function store(Request $request)
-    // {
-    //     $request->validate([
-    //         'title' => 'required|string|max:255',
-    //         'content' => 'required',
-    //         'meta_title' => 'nullable|string|max:255',
-    //         'meta_description' => 'nullable|string|max:255',
-    //         'meta_keywords' => 'nullable|string|max:255',
-    //         'tags' => 'nullable|string',
-    //         'image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
-    //         'display_on_home' => 'boolean',
-    //         'status' => 'required|boolean', // Ensures status is 0 or 1
-    //         'cat_id' => 'required|exists:categories,id',
-    //     ]);
-
-    //     $data = $request->all();
-    //     $data['slug'] = Str::slug($request->title);
-    //     $data['tags'] = json_encode(explode(',', $request->tags));
-
-    //     if ($request->hasFile('image')) {
-    //         $data['image'] = $request->file('image')->store('blog_images', 'public');
-    //     }
-
-    //     Post::create($data);
-
-    //     return redirect()->route('addblog')->with('success', 'Blog post created successfully!');
-    // }
 }

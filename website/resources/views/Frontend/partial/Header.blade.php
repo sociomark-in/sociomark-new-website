@@ -82,7 +82,7 @@ Mobile Menu
                         <a href="#">Pages</a>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="#">Blog</a>
+                        <a href="{{ route('blog') }}">Blog</a>
                     </li>
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
@@ -116,7 +116,7 @@ Header Area
                                     <li class="menu-item-has-children">
                                         <a href="#">Case Studies</a>
                                     </li>
-                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="{{ route('blog') }}">Blog</a></li>
                                     <li><a href="#">Carrers</a></li>
                                     <li><a href="#">Work Culture</a></li>
                                     <li><a href="#">Contact Us</a></li>

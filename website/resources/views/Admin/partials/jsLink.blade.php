@@ -2,7 +2,7 @@
  <script src="{{ asset('admin-assets/vendors/core/core.js') }}"></script>
 
 <!-- Plugin JS -->
-<script src="{{ asset('admin-assets/vendors/jquery/jquery.min.js') }}"></script>
+<!-- <script src="{{ asset('admin-assets/vendors/jquery/jquery.min.js') }}"></script> -->
 <script src="{{ asset('admin-assets/vendors/datatables.net/dataTables.js') }}"></script>
 <script src="{{ asset('admin-assets/vendors/datatables.net-bs5/dataTables.bootstrap5.js') }}"></script>
 

@@ -4,41 +4,53 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Str;
 
 class Blog extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'title', 
-        'content', 
-        'seo_meta_title', 
-        'seo_meta_description', 
-        'seo_meta_keywords',
+        'blog_name',
+        'content',
+        'meta_title',
+        'meta_description',
+        'meta_keywords',
+        'slug',
         'tags',
-        'image', 
-        'display_on_home', 
-        'slug', 
-        'status', 
-        'category_id'
+        'categories',
+        'images',
+        'status',
+        'display_on_home',
     ];
 
     protected $casts = [
         'tags' => 'array',
+        'categories' => 'array',
+        'images' => 'array',
         'display_on_home' => 'boolean',
     ];
 
-    public static function boot()
+    // ✅ Retrieve categories based on stored category IDs (JSON field)
+    public function categoryObjects()
     {
-        parent::boot();
-        static::creating(function ($blog) {
-            $blog->slug = Str::slug($blog->title);
-        });
+        return Category::whereIn('id', $this->categories)->get();
     }
 
-    public function category()
+    // ✅ Retrieve tags based on stored tag IDs (JSON field)
+    public function tagObjects()
     {
-        return $this->belongsTo(Category::class);
+        return Tag::whereIn('id', $this->tags)->get();
+    }
+    public function getCategoryNames()
+    {
+        return Category::whereIn('id', $this->categories)->pluck('category_name')->toArray();
+    }
+    public function getTagNames()
+    {
+        return Tag::whereIn('id', $this->tags)->pluck('name')->toArray();
+    }
+    public function getCategoryNamesAttribute()
+    {
+        return Category::whereIn('id', $this->categories ?? [])->pluck('category_name')->toArray();
     }
 }
