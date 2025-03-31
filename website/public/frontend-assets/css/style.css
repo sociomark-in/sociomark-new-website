@@ -86,7 +86,7 @@ Version: 1.0.0
 /*------------------- 1.2. Function -------------------*/
 /*------------------- 1.3. Variable-------------------*/
 :root {
-  --theme-color: #FED91F;
+  --theme-color: #106c97;
   --theme-color2: #F93E5E;
   --title-color: #121212;
   --body-color: #797E88;
@@ -29420,3 +29420,34 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+
+
+
+.text-blue{
+  color: #106c97;
+}
+.text-orange{
+  color: #ff900b;
+}
+.process-item .box-number {
+  color: #ffffff;
+}
+.th-btn {
+  color: #ffffff;
+}
+.space-extra2, .space-extra2-bottom {
+  padding-bottom: calc(var(--section-space) - 40px);
+  padding-top: calc(var(--section-space) - 40px);
+}
+.brand-item.style2 img.original {
+  -webkit-filter: none;
+  filter: none;
+}
+.discount-tag {
+  color: #ffffff;
+}
+.discount-tag span {
+  --rotate-letter: 9deg;
+}
