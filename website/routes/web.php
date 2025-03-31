@@ -21,6 +21,9 @@ Route::get('/dashboard', function () {
 Route::get('/', [HomeController::class, 'Home'])->name('home');
 Route::get('/about', [HomeController::class, 'About'])->name('about');
 Route::get('/blog', [BlogWebController::class, 'index'])->name('blog');
+Route::get('/blog-inner/{id}', [BlogWebController::class, 'innerBlog'])->name('blog-inner');
+Route::get('/blog-category/{id}', [BlogWebController::class, 'categoryBlog'])->name('categoryBlog');
+Route::get('/blog-tag/{id}', [BlogWebController::class, 'tagBlog'])->name('tagBlog');
 Route::get('/services', [HomeController::class, 'Services'])->name('services');
 Route::get('/contact', [HomeController::class, 'Contact'])->name('contact');
 

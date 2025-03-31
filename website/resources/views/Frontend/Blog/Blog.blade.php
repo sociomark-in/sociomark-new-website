@@ -56,9 +56,7 @@
 </style>
 
 <main>
-    <!--==============================
-    Breadcumb
-============================== -->
+
     <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg')}}">
         <div class="container">
             <div class="breadcumb-content">
@@ -69,15 +67,12 @@
                 </ul>
             </div>
         </div>
-    </div><!--==============================
-Blog Area
-==============================-->
-
+    </div>
     <section class="th-blog-wrapper space-top space-extra-bottom" id="Blog_Section">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-8 col-lg-8">
-                    @if($firstBlog)
+                    <!-- @if($firstBlog)
                     <div class="box-blog th-blog blog-single has-post-thumbnail">
                         <div class="swiper-slide">
                             <a href="">
@@ -107,39 +102,35 @@ Blog Area
                             </a>
                         </div>
                     </div>
-                    @endif
+                    @endif -->
 
                     <div class="row">
-                        @foreach($otherBlogs->chunk(2) as $blogChunk) <!-- Group blogs in pairs -->
+                        @foreach($blogs->chunk(2) as $blogChunk) <!-- Group blogs in pairs -->
                         @foreach($blogChunk as $blog)
-                        <div class="col-6" data-category="{{ implode(',', $blog->getCategoryNames()) }}">
+                        <div class="col-md-6" data-category="{{ implode(',', $blog->getCategoryNames()) }}">
+
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
                                 <div class="blog-img box-blog">
-                                    <a href="">
-                                    <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image"  width="100%" style="height: 270px; object-fit: cover; margin-right: 5px;">
-
-                                       
+                                    <a href="{{ route('blog-inner', $blog->id) }}">
+                                        <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image" width="100%" style="height: 270px; object-fit: cover; margin-right: 5px;">
                                     </a>
                                 </div>
                                 <div class="blog-content content-padding">
                                     <div class="blog-meta">
                                         <a href="#"><i class="fa-light fa-calendar"></i> {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}</a>
-                                        <a href="#"><i class="fa-regular fa-clock"></i> 08 min read</a>
+                                        <!-- <a href="#"><i class="fa-regular fa-clock"></i> 08 min read</a> -->
                                         <a href="#"><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->getCategoryNames()) ?? 'No Category' }}</a>
                                     </div>
-                                    <h3 class="blog-title blog-title-text"><a href="">{{ $blog->blog_name }}</a></h3>
+                                    <h3 class="blog-title blog-title-text"><a href="{{ route('blog-inner', $blog->id) }}">{{ $blog->blog_name }}</a></h3>
                                     <p class="blog-text">{{ Str::limit(strip_tags($blog->content), 100) }}</p>
-                                    <a href="" class="th-btn black-border th-icon th-radius">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                                    <a href="{{ route('blog-inner', $blog->id) }}" class="th-btn black-border th-icon th-radius">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                                 </div>
                             </div>
+
                         </div>
                         @endforeach
                         @endforeach
                     </div>
-
-
-
-
                     <div class="th-pagination">
                         <ul>
                             {{-- Previous Page Link --}}
@@ -210,130 +201,22 @@ Blog Area
                         <div class="box widget widget_tag_cloud   ">
                             <h3 class="widget_title">Popular Tags</h3>
                             <div class="tagcloud">
-                                <a href="blog.html">SEO Marketing</a>
+                                @foreach ($tags as $tag)
+                                <a href="{{ route('tagBlog', $tag->id) }}">{{ $tag->name }}</a>
+                                @endforeach
+                                <!-- <a href="blog.html">SEO Marketing</a>
                                 <a href="blog.html">Design</a>
                                 <a href="blog.html">Marketing</a>
                                 <a href="blog.html">Branding</a>
                                 <a href="blog.html">Development</a>
-                                <a href="blog.html">UI/UX</a>
+                                <a href="blog.html">UI/UX</a> -->
                             </div>
                         </div>
                     </aside>
                 </div>
             </div>
         </div>
-    </section><!--==============================
-Brand Area  
-==============================-->
-
-    <div class="brand-sec overflow-hidden space-bottom">
-        <div class="container th-container">
-            <div class="slider-area text-center">
-                <div class="swiper th-slider" id="brandSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"476":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"4"},"1400":{"slidesPerView":"6"}}}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <a href="">
-                                    <img class="original" src="{{ asset('frontend-assets/img/brand/brand_1_1.svg')}}" alt="Brand Logo">
-                                    <img class="gray" src="{{ asset('frontend-assets/img/brand/brand_1_1.svg')}}" alt="Brand Logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <a href="">
-                                    <img class="original" src="{{ asset('frontend-assets/img/brand/brand_1_2.svg')}}" alt="Brand Logo">
-                                    <img class="gray" src="{{ asset('frontend-assets/img/brand/brand_1_2.svg')}}" alt="Brand Logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <a href="">
-                                    <img class="original" src="{{ asset('frontend-assets/img/brand/brand_1_3.svg')}}" alt="Brand Logo">
-                                    <img class="gray" src="{{ asset('frontend-assets/img/brand/brand_1_3.svg')}}" alt="Brand Logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <a href="">
-                                    <img class="original" src="{{ asset('frontend-assets/img/brand/brand_1_4.svg')}}" alt="Brand Logo">
-                                    <img class="gray" src="{{ asset('frontend-assets/img/brand/brand_1_4.svg')}}" alt="Brand Logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <a href="">
-                                    <img class="original" src="{{ asset('frontend-assets/img/brand/brand_1_5.svg')}}" alt="Brand Logo">
-                                    <img class="gray" src="{{ asset('frontend-assets/img/brand/brand_1_5.svg')}}" alt="Brand Logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <a href="">
-                                    <img class="original" src="{{ asset('frontend-assets/img/brand/brand_1_6.svg')}}" alt="Brand Logo">
-                                    <img class="gray" src="{{ asset('frontend-assets/img/brand/brand_1_6.svg')}}" alt="Brand Logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <a href="">
-                                    <img class="original" src="{{ asset('frontend-assets/img/brand/brand_1_1.svg')}}" alt="Brand Logo">
-                                    <img class="gray" src="{{ asset('frontend-assets/img/brand/brand_1_1.svg')}}" alt="Brand Logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <a href="">
-                                    <img class="original" src="{{ asset('frontend-assets/img/brand/brand_1_2.svg')}}" alt="Brand Logo">
-                                    <img class="gray" src="{{ asset('frontend-assets/img/brand/brand_1_2.svg')}}" alt="Brand Logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <a href="">
-                                    <img class="original" src="{{ asset('frontend-assets/img/brand/brand_1_3.svg')}}" alt="Brand Logo">
-                                    <img class="gray" src="{{ asset('frontend-assets/img/brand/brand_1_3.svg')}}" alt="Brand Logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <a href="">
-                                    <img class="original" src="{{ asset('frontend-assets/img/brand/brand_1_4.svg')}}" alt="Brand Logo">
-                                    <img class="gray" src="{{ asset('frontend-assets/img/brand/brand_1_4.svg')}}" alt="Brand Logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <a href="">
-                                    <img class="original" src="{{ asset('frontend-assets/img/brand/brand_1_5.svg')}}" alt="Brand Logo">
-                                    <img class="gray" src="{{ asset('frontend-assets/img/brand/brand_1_5.svg')}}" alt="Brand Logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="brand-item">
-                                <a href="">
-                                    <img class="original" src="{{ asset('frontend-assets/img/brand/brand_1_6.svg')}}" alt="Brand Logo">
-                                    <img class="gray" src="{{ asset('frontend-assets/img/brand/brand_1_6.svg')}}" alt="Brand Logo">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
+    </section>
 </main>
 
 @endsection

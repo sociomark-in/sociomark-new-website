@@ -38,7 +38,7 @@ class CategoryController extends Controller
             'slug' => Str::slug($request->category_name),
         ]);
 
-        return redirect()->route('blogForm')->with('success', 'Category created successfully.');
+        return redirect()->route('blogs.index')->with('success', 'Category created successfully.');
     }
 
     public function show(Category $category)

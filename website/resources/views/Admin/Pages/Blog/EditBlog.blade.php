@@ -74,7 +74,7 @@
                             <label class="form-label">Status</label>
                             <div>
                                 <div class="form-check form-check-inline">
-                                    <input type="radio" class="form-check-input" name="status" id="draft" value="draft">
+                                    <input type="radio" class="form-check-input" name="status" id="draft" value="{{$blog->status}}">
                                     <label class="form-check-label" for="draft">
                                         Draft
                                     </label>
@@ -259,3 +259,4 @@
     });
 </script>
 @endsection
+
