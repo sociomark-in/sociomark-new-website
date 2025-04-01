@@ -1,12 +1,16 @@
 @extends('Frontend.layout.app')
 <style>
     #contact .contact-head {
-        padding: 4rem;
+        padding: 4rem 4rem 1rem 4rem;
     }
 
     #contact .head-text {
         font-size: 35px;
         line-height: 42px;
+    }
+
+    #contact .head-text-div {
+        margin: 0px;
     }
 
     #contact .para-text {
@@ -44,10 +48,14 @@
         z-index: 2;
     }
 
+    #contact .space-bottom {
+        padding-bottom: 35px;
+    }
+
     #contact .contact-form {
         background: transparent;
         border-radius: 10px;
-        padding: 40px 20px;
+        padding: 45px 23px;
         box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
         -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
         -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
@@ -57,8 +65,49 @@
         font-size: 2rem;
         line-height: 2.5rem;
     }
-    #contact .space-bottom .contact-media{
+
+    #contact .space-bottom .contact-media {
         border: none;
+        padding: 20px;
+    }
+
+    #contact .contact-media .icon-btn {
+        width: 46px;
+        height: 46px;
+        border-radius: 10px;
+        background: transparent;
+    }
+
+    #contact .business-contact,
+    #contact .careers-contact {
+        font-size: 17px;
+        margin-bottom: 2px;
+        font-weight: 500;
+    }
+
+    #contact #map {
+        margin: 0px 0px 2rem 0px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        #contact .contact-head {
+            padding: 2rem 0.5rem;
+        }
+
+        #contact .head-text-div {
+            margin-bottom: 13px;
+        }
+
+        #contact .head-mbl-text,
+        #contact .space-bottom .head-mbl-text {
+            font-size: 30px;
+            line-height: 31px;
+        }
+    }
+
+    .invalid-feedback {
+        color: red;
+        display: block;
     }
 </style>
 @section('content')
@@ -77,10 +126,10 @@
     <div class="overflow-hidden space contact-head">
         <div class="container">
             <div class="row">
-                <div class="title-area mb-30 text-center text-xl-start col-4">
-                    <h2 class="sec-title head-text">Have Any Questions Have Any Questions?</h2>
+                <div class="title-area text-center text-xl-start col-md-4 head-text-div">
+                    <h2 class="sec-title head-text head-mbl-text">Don’t hesitate to contact us for any information.</h2>
                 </div>
-                <div class="text-center text-xl-start col-8">
+                <div class="text-center text-xl-start col-md-8">
                     <p class="para-text">We identify the most relevant and high-traffic keywords for your business. Our team conducts thorough research to understand.</p>
                     <p class="para-text">We identify the most relevant and high-traffic keywords for your business. Our team conducts thorough research to understand yourer.</p>
                 </div>
@@ -93,13 +142,13 @@
     <div class="space-bottom">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-4">
-                    <div class="title-area text-center">
-                    </div>
+                <div class="col-md-4">
+                    <!-- <div class="title-area text-center">
+                    </div> -->
                     <div class="row gy-4 flex-column">
                         <div class="col-xl-12 col-md-12">
                             <div class="contact-media">
-                                <div class="icon-btn">
+                                <div class="icon-btn d-flex justify-content-center align-items-center">
                                     <i class="fa-sharp fa-light fa-location-dot"></i>
                                 </div>
                                 <div class="media-body">
@@ -110,11 +159,17 @@
                         </div>
                         <div class="col-xl-12 col-md-12">
                             <div class="contact-media">
-                                <div class="icon-btn">
+                                <div class="icon-btn d-flex justify-content-center align-items-center">
                                     <i class="fa-light fa-phone"></i>
                                 </div>
                                 <div class="media-body">
                                     <h5 class="box-title">Contact Number</h5>
+                                    <h6 class="business-contact">For Business</h6>
+                                    <p class="box-text">
+                                        <a href="tel:+13217322978">Mobile: +13217322978</a>
+                                        <a href="mailto:saorhelp@gmail.com">Email: saorhelp@gmail.com</a>
+                                    </p>
+                                    <h6 class="careers-contact">For Careers</h6>
                                     <p class="box-text">
                                         <a href="tel:+13217322978">Mobile: +13217322978</a>
                                         <a href="mailto:saorhelp@gmail.com">Email: saorhelp@gmail.com</a>
@@ -124,7 +179,7 @@
                         </div>
                         <div class="col-xl-12 col-md-12">
                             <div class="contact-media">
-                                <div class="icon-btn">
+                                <div class="icon-btn d-flex justify-content-center align-items-center">
                                     <i class="fa-light fa-clock"></i>
                                 </div>
                                 <div class="media-body">
@@ -135,90 +190,115 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-md-8 mt-sm-2">
                     <div class="">
-                        <h3 class="text-center mb-20 form-head">Please Fill In The Form Below</h3>
+                        <h3 class="text-center mb-15 form-head head-mbl-text">Please Fill In The Form Below</h3>
+                        @if (session('success'))
+                        <div class="alert alert-success">
+                            {{ session('success') }}
+                        </div>
+                        @endif
 
-                        <form action="mail.php" method="POST" class="contact-form style2 ajax-contact">
 
+                        <form action="{{ route('contact.store') }}" method="POST" class="contact-form style2">
+                            @csrf
                             <div class="row">
-
                                 <div class="form-group col-md-6">
-                                    <i class="far fa-user"></i>
-                                    <label for="nameInput">Your Name</label>
-                                    <input type="text" class="form-control" name="nameInput" id="nameInput" placeholder="Enter your Name">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" class="form-control @error('name') is-invalid @enderror" name="name" id="name" placeholder="Enter your Name" value="{{ old('name') }}">
+                                    @error('name')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
                                 </div>
 
                                 <div class="form-group col-md-6">
                                     <i class="far fa-envelope"></i>
-                                    <label for="emailInput">Email</label>
-                                    <input type="text" class="form-control" name="emailInput" id="emailInput" placeholder="Enter your Email">
+                                    <label for="email">Email</label>
+                                    <input type="text" class="form-control @error('email') is-invalid @enderror" name="email" id="email" placeholder="Enter your Email" value="{{ old('email') }}">
+                                    @error('email')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
                                 </div>
-
-
-
                                 <div class="form-group col-md-6">
                                     <i class="fal fa-phone"></i>
-                                    <label for="phoneInput">Phone</label>
-                                    <input type="text" class="form-control" name="phoneInput" id="phoneInput" placeholder="Enter your Phone">
+                                    <label for="phone">Phone</label>
+                                    <input type="text" class="form-control @error('phone') is-invalid @enderror" name="phone" id="phone" placeholder="Enter your Phone" value="{{ old('phone') }}">
+                                    @error('phone')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
                                 </div>
 
                                 <div class="form-group col-md-6">
 
-                                    <label for="serviceSelect">Service you want?</label>
-                                    <select class="form-select" id="serviceSelect">
+                                    <label for="service">Service you want?</label>
+                                    <select class="form-select @error('service') is-invalid @enderror" id="service" name="service">
                                         <option selected disabled>Choose an option</option>
                                         <option value="1">Option 1</option>
                                         <option value="2">Option 2</option>
                                         <option value="3">Option 3</option>
                                     </select>
 
-
+                                    @error('service')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
                                 </div>
 
                                 <div class="form-group col-md-6">
 
-                                    <label for="budgetSelect">Marketing Budget</label>
-                                    <select class="form-select" id="budgetSelect">
+                                    <label for="budget">Marketing Budget</label>
+                                    <select class="form-select @error('budget') is-invalid @enderror" id="budget" name="budget">
                                         <option selected disabled>Choose an option</option>
                                         <option value="1">Option 1</option>
                                         <option value="2">Option 2</option>
                                         <option value="3">Option 3</option>
                                     </select>
-
-
+                                    @error('budget')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
                                 </div>
 
                                 <div class="form-group col-md-6">
 
-                                    <label for="aboutUsSelect">How did you hear about Us?</label>
-                                    <select class="form-select" id="aboutUsSelect">
+                                    <label for="aboutUs">How did you hear about Us?</label>
+                                    <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs" name="aboutUs">
                                         <option selected disabled>Choose an option</option>
                                         <option value="1">Option 1</option>
                                         <option value="2">Option 2</option>
                                         <option value="3">Option 3</option>
                                     </select>
-
-
+                                    @error('aboutUs')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
                                 </div>
                                 <div class="form-group col-12">
 
                                     <label for="messageforus">Your Message</label>
-                                    <textarea class="form-control" id="messageforus" placeholder="Enter your message" rows="4"></textarea>
+                                    <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus" placeholder="Enter your message" rows="4" name="messageforus"></textarea>
                                     <i class="fal fa-pencil"></i>
-                                    <!-- <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Write a message*"></textarea> -->
-
+                                    @error('messageforus')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
                                 </div>
                                 <div class="col-12 form-group mb-0 text-center">
                                     <button class="th-btn th-radius">Submit Message</button>
                                 </div>
                             </div>
-                            <p class="form-messages mb-0 mt-3"></p>
+
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div id="map">
+        <div class="container text-center">
+            <div class="ratio ratio-16x9 " style="height: 450px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093706!2d-122.41941548468129!3d37.77492927975967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c5a2ff8fb%3A0xe4c2f0cfe65f3f3!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1617843256256!5m2!1sen!2sus"
+                    allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+
+
 </main>
 @endsection

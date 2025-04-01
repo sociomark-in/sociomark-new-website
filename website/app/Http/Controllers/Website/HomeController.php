@@ -18,7 +18,5 @@ class HomeController extends Controller
         return view("Frontend/Services");
     }
 
-    public function Contact(){
-        return view("Frontend/ContactUs");
-    }
+   
 }

@@ -22,28 +22,34 @@ class BlogWebController extends Controller
 
         return view('Frontend/Blog/Blog', compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags'));
     }
-    public function innerBlog($id)
+    public function innerBlog($slug)
     {
         $categories = Category::all();
-        $blog = Blog::findOrFail($id);
+        // $blog = Blog::findOrFail($slug);
+        $blog = Blog::where('slug', $slug)->firstOrFail();
         $blogs = Blog::get();
         $tags = Tag::all();
         return view('Frontend/Blog/InnerBlog', compact('categories', 'blogs', 'blog', 'tags'));
     }
-    public function categoryBlog($id)
+    public function categoryBlog($slug)
     {
-        $category = Category::findOrFail($id); // Fetch the category
+        // Find the category by slug
+        $category = Category::where('slug', $slug)->firstOrFail();
         $categories = Category::all();
         $tags = Tag::all();
-        $blogs = Blog::whereJsonContains('categories', (string) $id)->paginate(10); 
-        return view('Frontend/Blog/CategoryBlog', compact('categories', 'blogs','category', 'tags'));
+        // Fetch blogs that contain the category name in the JSON field
+        $blogs = Blog::whereJsonContains('categories', (string) $category->id)->paginate(10);
+        return view('Frontend/Blog/CategoryBlog', compact('categories', 'blogs', 'category', 'tags'));
     }
-    public function tagBlog($id)
+
+    public function tagBlog($slug)
     {
-        $tag = Tag::findOrFail($id); // Fetch the category
+        // Find the category by slug
+        $tag = Tag::where('slug', $slug)->firstOrFail();
         $categories = Category::all();
-        $tags = Tag::all(); 
-        $blogs = Blog::whereJsonContains('tags', (string) $id)->paginate(10); 
-        return view('Frontend/Blog/TagBlog', compact('categories', 'blogs','tag', 'tags'));
+        $tags = Tag::all();
+        // Fetch blogs that contain the category name in the JSON field
+        $blogs = Blog::whereJsonContains('tags', (string) $tag->id)->paginate(10);
+        return view('Frontend/Blog/CategoryBlog', compact('categories', 'blogs', 'tag', 'tags'));
     }
 }

@@ -338,11 +338,11 @@
 
             @can('business-access')
             <!-- <p>Business Access is working!</p> -->
-            <li class="nav-item nav-category">Docs</li>
+            <li class="nav-item nav-category">Business Leads</li>
             <li class="nav-item">
-                <a href="https://www.nobleui.com/html/documentation/docs.html" target="_blank" class="nav-link">
+                <a href="{{ route('contactList') }}"  class="nav-link">
                     <i class="link-icon" data-feather="hash"></i>
-                    <span class="link-title">Documentation</span>
+                    <span class="link-title">Leads</span>
                 </a>
             </li>
             @endcan

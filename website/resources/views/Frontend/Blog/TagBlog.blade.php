@@ -126,7 +126,7 @@
                             <ul>
                                 <li><a href="{{ route('blog') }}" class="category-filter" data-category="all">All Categories</a></li>
                                 @foreach ($categories as $category)
-                                <li><a href="{{ route('categoryBlog', $category->id) }}" class="category-filter">{{ $category->category_name }}</a></li>
+                                <li><a href="{{ route('categoryBlog', ['slug' => $category->slug]) }}">{{ $category->name }}</a>" class="category-filter">{{ $category->category_name }}</a></li>
                                 @endforeach
                             </ul>
                         </div>
@@ -156,14 +156,9 @@
                             <h3 class="widget_title">Popular Tags</h3>
                             <div class="tagcloud">
                                 @foreach ($tags as $tag)
-                                <a href="{{ route('tagBlog', $tag->id) }}">{{ $tag->name }}</a>
+                                <a href="{{ route('tagBlog', ['slug' => $tag->slug]) }}">{{ $tag->name }}</a>
                                 @endforeach
-                                <!-- <a href="blog.html">SEO Marketing</a>
-                                <a href="blog.html">Design</a>
-                                <a href="blog.html">Marketing</a>
-                                <a href="blog.html">Branding</a>
-                                <a href="blog.html">Development</a>
-                                <a href="blog.html">UI/UX</a> -->
+                               
                             </div>
                         </div>
                     </aside>

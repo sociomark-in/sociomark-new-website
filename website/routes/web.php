@@ -2,12 +2,14 @@
 
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\BlogController;
+use App\Http\Controllers\Admin\ContatListController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\ServicesController;
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\TagController;
 use App\Http\Controllers\Website\HomeController;
 use App\Http\Controllers\Website\BlogWebController;
+use App\Http\Controllers\Website\ContactController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/welcome', function () {
@@ -24,8 +26,12 @@ Route::get('/blog', [BlogWebController::class, 'index'])->name('blog');
 Route::get('/blog-inner/{id}', [BlogWebController::class, 'innerBlog'])->name('blog-inner');
 Route::get('/blog-category/{id}', [BlogWebController::class, 'categoryBlog'])->name('categoryBlog');
 Route::get('/blog-tag/{id}', [BlogWebController::class, 'tagBlog'])->name('tagBlog');
+Route::get('/blog-category/{categoryName}', [BlogWebController::class, 'categoryBlog'])->name('categoryBlog');
+
+
 Route::get('/services', [HomeController::class, 'Services'])->name('services');
-Route::get('/contact', [HomeController::class, 'Contact'])->name('contact');
+Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');
 
 // admin
 
@@ -43,6 +49,7 @@ Route::middleware(['admin:admin,hr,business,user'])->group(function () {
     Route::resource('categories', CategoryController::class);
     Route::resource('tags', TagController::class);
     Route::resource('blogs', BlogController::class);
+    Route::get('admin/enquiryList', [ContatListController::class,'index'])->name('contactList');
     // Route::get('/categories', [CategoryController::class, 'Create'])->name('categoryForm');
     // Route::post('/categories', [CategoryController::class, 'store'])->name('categoryStore');
     // Route::get('/blogList', [BlogController::class, 'index'])->name('showblogs');
