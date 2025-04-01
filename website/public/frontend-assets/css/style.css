@@ -1,12 +1,5 @@
 @charset "UTF-8";
-/*
-Template Name: saor
-Template URL: http://themeholy.com/html/saor
-Description: saor - SEO Digital Marketing Agency HTML Template
-Author: Themeholy
-Author URI: https://themeforest.net/user/themeholy 
-Version: 1.0.0
-*/
+
 /*=================================
     CSS Index Here
 ==================================*/
@@ -109,7 +102,7 @@ Version: 1.0.0
   --icon-font: "Font Awesome 6 Pro";
   --main-container: 1290px;
   --container-gutters: 24px;
-  --section-space: 120px;
+  --section-space: 100px;
   --section-space-mobile: 80px;
   --section-title-space: 60px;
   --ripple-ani-duration: 5s;
@@ -134,7 +127,9 @@ body {
 body.theme-bg {
   background-color: #F0EFE9;
 }
-
+ main{
+  margin-top: 100px;
+ }
 iframe {
   border: none;
   width: 100%;
@@ -163,13 +158,13 @@ input:focus {
   box-shadow: none;
 }
 
-img:not([draggable]),
+/* img:not([draggable]),
 embed,
 object,
 video {
   max-width: 100%;
   height: auto;
-}
+} */
 
 ul {
   list-style-type: disc;
@@ -5743,6 +5738,7 @@ ol.widget_recent_comments,
   box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.06);
   border-radius: 100px;
   color: var(--white-color);
+  align-content: center;
 }
 
 .widget .th-social a:hover {
@@ -29450,4 +29446,63 @@ span.select2-selection.select2-selection--single:focus {
 }
 .discount-tag span {
   --rotate-letter: 9deg;
+}
+.main-menu.style2 > ul > li > a:hover {
+  color: #ffffff;
+}
+
+
+/* portfolio flip image css  */
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  aspect-ratio: 1;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  /* position: relative; */
+  width: 100%;
+  aspect-ratio: 1;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 1rem;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: #106c97;
+  transform: rotateY(180deg);
+  padding: 0.5rem;
+  align-content: center;
+}
+.flip-box-back h2{
+  font-size: 30px;
+}
+.flip-box-back *{
+  color: white !important;
 }
