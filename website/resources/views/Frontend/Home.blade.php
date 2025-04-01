@@ -1,5 +1,5 @@
 @extends('Frontend.layout.app')
-@section('title', 'Home Page')
+@section('title', 'Sociomark')
 @section('author', 'Your Company Name')
 @section('description', 'This is a dynamic description for the home page.')
 @section('keywords', 'seo, marketing, agency, web design')
@@ -8,10 +8,10 @@
 @section('content')
 
     <main>
-        <div class="about-area space" id="about-sec">
+        <div class="about-area" id="about-sec">
             <div class="container-fluid">
                 <div class="row justify-content-center">
-                    <div class="col-12">
+                    <div class="col-12 p-0">
                         <picture>
                             <source media="(min-width: 768px)" srcset="https://placehold.co/1920x800" type="image/webp">
                             <source media="(min-width: 768px)" srcset="https://placehold.co/1920x800" type="image/jpg')}}">
@@ -19,16 +19,16 @@
                             <img loading="lazy" src="https://placehold.co/1000x800" alt="" class="w-100">
                         </picture>
                         <!-- <div class="img">
-                                <img src="https://placehold.co/1920x800" alt="" srcset="">
-                            </div> -->
+                                    <img src="https://placehold.co/1920x800" alt="" srcset="">
+                                </div> -->
                     </div>
                 </div>
             </div>
         </div>
 
         <!--======== / Hero Section ========--><!--==============================
-        About Area
-        ==============================-->
+            About Area
+            ==============================-->
         <div class="about-area space" id="about-sec">
             <div class="container">
                 <div class="row justify-content-center">
@@ -73,7 +73,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-sm-4 mb-30 mb-xl-0">
+                    <div class="col-xl-3 col-sm-4 mb-30 mb-xl-0 d-none d-md-block">
                         <div class="img-box1 ps-xl-4">
                             <div class="img1 th-anim">
                                 <img src="https://placehold.co/270x453" alt="About">
@@ -82,7 +82,7 @@
                     </div>
                     <div class="col-xl-5 col-sm-8 mb-30 mb-xl-0">
                         <div class="about-wrapp justify-content-center">
-                            <!-- <div class="about-shape"><img src="{{ asset('frontend-assets/img/shape/shape-5.png')}}" alt=""></div> -->
+                            <!-- <div class="about-shape"><img src="{{ asset('frontend-assets/img/shape/shape-5.png') }}" alt=""></div> -->
                             <div class="discount-wrapp">
                                 <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video">
                                     <i class="fa-solid fa-play"></i></a>
@@ -100,8 +100,8 @@
                 </div>
             </div>
         </div><!--==============================
-        Counter Area
-        ==============================-->
+            Counter Area
+            ==============================-->
         <div class="space-extra2-bottom bg-white">
             <div class="container">
                 <div class="counter-card-wrap">
@@ -141,80 +141,18 @@
                 </div>
             </div>
         </div>
-        <div class="marquee-area d-none">
-            <div class="marquee-content positive-relative overflow-hidden">
-                <div class="marquee">
-                    <div class="marquee-group">
-                        <div class="item "><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Monitoring Business
-                                Analytics</span></div>
-                        <div class="item"><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Marketing
-                                Solutions</span></div>
-                        <div class="item "><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>SEO Strategy
-                                Development</span></div>
-                        <div class="item"><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Search Engine
-                                Optimization</span></div>
-                        <div class="item "><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Research &
-                                Analysis</span></div>
-                        <div class="item "><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Monitoring Business
-                                Analytics</span></div>
-                        <div class="item"><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Marketing
-                                Solutions</span></div>
-                        <div class="item "><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>SEO Strategy
-                                Development</span></div>
-                        <div class="item"><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Search Engine
-                                Optimization</span></div>
-                        <div class="item "><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Research &
-                                Analysis</span></div>
-                        <div class="item "><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Monitoring Business
-                                Analytics</span></div>
-                        <div class="item"><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Marketing
-                                Solutions</span></div>
-
-                    </div>
-                    <div aria-hidden="true" class="marquee-group">
-                        <div class="item "><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Monitoring Business
-                                Analytics</span></div>
-                        <div class="item"><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Marketing
-                                Solutions</span></div>
-                        <div class="item "><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>SEO Strategy
-                                Development</span></div>
-                        <div class="item"><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Search Engine
-                                Optimization</span></div>
-                        <div class="item "><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Research &
-                                Analysis</span></div>
-                        <div class="item "><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Monitoring Business
-                                Analytics</span></div>
-                        <div class="item"><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Marketing
-                                Solutions</span></div>
-                        <div class="item "><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>SEO Strategy
-                                Development</span></div>
-                        <div class="item"><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Search Engine
-                                Optimization</span></div>
-                        <div class="item "><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Research &
-                                Analysis</span></div>
-                        <div class="item "><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Monitoring Business
-                                Analytics</span></div>
-                        <div class="item"><img src="{{ asset('frontend-assets/img/icon/star.svg')}}" alt=""><span>Marketing
-                                Solutions</span></div>
-                    </div>
-                </div>
-            </div>
-        </div><!--==============================
-        Service Area
-        ==============================-->
-        <section class="overflow-hidden space-extra-top space-bottom d-none">
+        <!--==============================
+    Service Area
+    ==============================-->
+        <section class="overflow-hidden space-extra-top space-bottom">
             <div class="container">
                 <div class="row justify-content-lg-between justify-content-center align-items-end">
-                    <div class="col-lg-8">
-                        <div class="title-area text-center text-lg-start pe-xl-5">
-                            <span class="sub-title sub-title2 style1 ">Our Services</span>
-                            <h2 class="sec-title ">Boost your SEO ranking with excellent effective services</h2>
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="sec-btn">
-                            <a href="service.html" class="th-btn ser-btn th-icon">More About<i
-                                    class="fa-regular fa-arrow-right ms-2"></i> </a>
+                    <div class="col-lg-12">
+                        <div class="title-area text-center text-lg-center pe-xl-5">
+                            <span class="sub-title sub-title2 style1">Our Services</span>
+                            <h2 class="sec-title">
+                                Boost your SEO ranking with excellent effective services
+                            </h2>
                         </div>
                     </div>
                 </div>
@@ -225,27 +163,27 @@
                             <div class="service-accordion-content" id="serviceAccordion">
                                 <div class="accordion-item">
                                     <div class="accordion-header" id="collapse-item-1">
-                                        <div class="accordion-button " role="button" data-bs-toggle="collapse"
+                                        <div class="accordion-button" role="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
                                             <span class="accordion-item_info">
                                                 <span class="accordion-item_wrapp">
-                                                    <span class="box-title">Search Engine Optimization</span>
+                                                    <span class="box-title">Lorum Ipsum</span>
                                                 </span>
-                                                <span class="icon"> <i
-                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="icon">
+                                                    <i class="fa-sharp fa-regular fa-arrow-right"></i></span>
                                             </span>
-
                                         </div>
                                     </div>
                                     <div id="collapse-1" class="accordion-collapse collapse show"
                                         aria-labelledby="collapse-item-1" data-bs-parent="#serviceAccordion">
                                         <div class="accordion-body">
-                                            <p class="faq-text">Our SEO services ensure your website ranks higher on search
-                                                engines like Google, helping your business.</p>
+                                            <p class="faq-text">
+                                                Our SEO services ensure your website ranks higher on
+                                                search engines like Google, helping your business.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
-
 
                                 <div class="accordion-item">
                                     <div class="accordion-header" id="collapse-item-2">
@@ -254,23 +192,23 @@
                                             aria-controls="collapse-2">
                                             <span class="accordion-item_info">
                                                 <span class="accordion-item_wrapp">
-                                                    <span class="box-title">Pay-Per-Click (PPC) Advertising</span>
+                                                    <span class="box-title">Lorum Ipsum</span>
                                                 </span>
-                                                <span class="icon"> <i
-                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="icon">
+                                                    <i class="fa-sharp fa-regular fa-arrow-right"></i></span>
                                             </span>
-
                                         </div>
                                     </div>
-                                    <div id="collapse-2" class="accordion-collapse collapse "
+                                    <div id="collapse-2" class="accordion-collapse collapse"
                                         aria-labelledby="collapse-item-2" data-bs-parent="#serviceAccordion">
                                         <div class="accordion-body">
-                                            <p class="faq-text">Pay-Per-Click (PPC) advertising is a digital marketing
-                                                model in which advertisers pay a fee each time</p>
+                                            <p class="faq-text">
+                                                Pay-Per-Click (PPC) advertising is a digital marketing
+                                                model in which advertisers pay a fee each time
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
-
 
                                 <div class="accordion-item">
                                     <div class="accordion-header" id="collapse-item-3">
@@ -279,23 +217,23 @@
                                             aria-controls="collapse-3">
                                             <span class="accordion-item_info">
                                                 <span class="accordion-item_wrapp">
-                                                    <span class="box-title">Content Marketing</span>
+                                                    <span class="box-title">Lorum Ipsum</span>
                                                 </span>
-                                                <span class="icon"> <i
-                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="icon">
+                                                    <i class="fa-sharp fa-regular fa-arrow-right"></i></span>
                                             </span>
-
                                         </button>
                                     </div>
-                                    <div id="collapse-3" class="accordion-collapse collapse "
+                                    <div id="collapse-3" class="accordion-collapse collapse"
                                         aria-labelledby="collapse-item-3" data-bs-parent="#serviceAccordion">
                                         <div class="accordion-body">
-                                            <p class="faq-text">Content marketing is a strategic approach focused on
-                                                creating, publishing, and distributing valuable</p>
+                                            <p class="faq-text">
+                                                Content marketing is a strategic approach focused on
+                                                creating, publishing, and distributing valuable
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
-
 
                                 <div class="accordion-item">
                                     <div class="accordion-header" id="collapse-item-4">
@@ -304,19 +242,20 @@
                                             aria-controls="collapse-4">
                                             <span class="accordion-item_info">
                                                 <span class="accordion-item_wrapp">
-                                                    <span class="box-title">Email Marketing</span>
+                                                    <span class="box-title">Lorum Ipsum</span>
                                                 </span>
-                                                <span class="icon"> <i
-                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="icon">
+                                                    <i class="fa-sharp fa-regular fa-arrow-right"></i></span>
                                             </span>
-
                                         </button>
                                     </div>
-                                    <div id="collapse-4" class="accordion-collapse collapse "
+                                    <div id="collapse-4" class="accordion-collapse collapse"
                                         aria-labelledby="collapse-item-4" data-bs-parent="#serviceAccordion">
                                         <div class="accordion-body">
-                                            <p class="faq-text">Email marketing is a digital marketing strategy that
-                                                involves sending targeted emails</p>
+                                            <p class="faq-text">
+                                                Email marketing is a digital marketing strategy that
+                                                involves sending targeted emails
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -328,19 +267,20 @@
                                             aria-controls="collapse-5">
                                             <span class="accordion-item_info">
                                                 <span class="accordion-item_wrapp">
-                                                    <span class="box-title">Social Media Marketing</span>
+                                                    <span class="box-title">Lorum Ipsum</span>
                                                 </span>
-                                                <span class="icon"> <i
-                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="icon">
+                                                    <i class="fa-sharp fa-regular fa-arrow-right"></i></span>
                                             </span>
-
                                         </button>
                                     </div>
-                                    <div id="collapse-5" class="accordion-collapse collapse "
+                                    <div id="collapse-5" class="accordion-collapse collapse"
                                         aria-labelledby="collapse-item-5" data-bs-parent="#serviceAccordion">
                                         <div class="accordion-body">
-                                            <p class="faq-text">Social media marketing is a form of digital marketing that
-                                                uses social media platforms</p>
+                                            <p class="faq-text">
+                                                Social media marketing is a form of digital marketing
+                                                that uses social media platforms
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -352,19 +292,20 @@
                                             aria-controls="collapse-6">
                                             <span class="accordion-item_info">
                                                 <span class="accordion-item_wrapp">
-                                                    <span class="box-title">Conversion Rate Optimization</span>
+                                                    <span class="box-title">Lorum Ipsum</span>
                                                 </span>
-                                                <span class="icon"> <i
-                                                        class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                <span class="icon">
+                                                    <i class="fa-sharp fa-regular fa-arrow-right"></i></span>
                                             </span>
-
                                         </button>
                                     </div>
-                                    <div id="collapse-6" class="accordion-collapse collapse "
+                                    <div id="collapse-6" class="accordion-collapse collapse"
                                         aria-labelledby="collapse-item-6" data-bs-parent="#serviceAccordion">
                                         <div class="accordion-body">
-                                            <p class="faq-text">Conversion Rate Optimization (CRO) is the process of
-                                                improving a website or landing page</p>
+                                            <p class="faq-text">
+                                                Conversion Rate Optimization (CRO) is the process of
+                                                improving a website or landing page
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -372,22 +313,146 @@
                         </div>
                         <div class="col-lg-7">
                             <div class="th-accordion_images">
-                                <img class="active" src="{{ asset('frontend-assets/img/normal/ser_img_1.jpg')}}" alt="">
-                                <img src="{{ asset('frontend-assets/img/normal/ser_img_2.jpg')}}" alt="">
-                                <img src="{{ asset('frontend-assets/img/normal/ser_img_3.jpg')}}" alt="">
-                                <img src="{{ asset('frontend-assets/img/normal/ser_img_4.jpg')}}" alt="">
-                                <img src="{{ asset('frontend-assets/img/normal/ser_img_5.jpg')}}" alt="">
-                                <img src="{{ asset('frontend-assets/img/normal/ser_img_6.jpg')}}" alt="">
+                                <img class="active" src="https://placehold.co/600x600" alt="" />
+                                <img src="https://placehold.co/600x600" alt="" />
+                                <img src="https://placehold.co/600x600" alt="" />
+                                <img src="https://placehold.co/600x600" alt="" />
+                                <img src="https://placehold.co/600x600" alt="" />
+                                <img src="https://placehold.co/600x600" alt="" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section> <!--==============================
-        Project Area
-        ==============================-->
+        </section>
+        <!--==============================
+      portfolio Area
+      ==============================-->
+        <div class="overflow-hidden position-relative space-extra-top space-bottom" id="portfolio-sec">
+            <div class="container">
+                <div class="title-area text-center mb-25">
+                    <h2 class="sec-title">Creative Work Portfolio</h2>
+                </div>
+                <div class="filter-menu filter-menu-active">
+                    <button data-filter="*" class="tab-btn active" type="button">
+                        All Works
+                    </button>
+                    <button data-filter=".cat1" class="tab-btn" type="button">
+                        Apps
+                    </button>
+                    <button data-filter=".cat2" class="tab-btn" type="button">
+                        Branding
+                    </button>
+                    <button data-filter=".cat3" class="tab-btn" type="button">
+                        Creative
+                    </button>
+                </div>
+                <div class="portfolio-area">
+                    <div class="row gy-4 justify-content-center filter-active">
+                        <div class="col-auto col-md-6 col-xl-auto filter-item cat1 cat5 cat7 cat3">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img src="https://placehold.co/300x300" alt="Lorum Ipsum" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h2>Lorum Ipsum</h2>
+                                        <p>Lorum Ipsum</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto col-md-6 col-xl-auto filter-item cat1 cat5 cat7 cat3">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img src="https://placehold.co/300x300" alt="Lorum Ipsum" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h2>Lorum Ipsum</h2>
+                                        <p>Lorum Ipsum</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto col-md-6 col-xl-auto filter-item cat1 cat5 cat7 cat3">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img src="https://placehold.co/300x300" alt="Lorum Ipsum" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h2>Lorum Ipsum</h2>
+                                        <p>Lorum Ipsum</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto col-md-6 col-xl-auto filter-item cat1 cat5 cat7 cat3">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img src="https://placehold.co/300x300" alt="Lorum Ipsum" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h2>Lorum Ipsum</h2>
+                                        <p>Lorum Ipsum</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto col-md-6 col-xl-auto filter-item cat1 cat5 cat7 cat3">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img src="https://placehold.co/300x300" alt="Lorum Ipsum" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h2>Lorum Ipsum</h2>
+                                        <p>Lorum Ipsum</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto col-md-6 col-xl-auto filter-item cat1 cat5 cat7 cat3">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img src="https://placehold.co/300x300" alt="Lorum Ipsum" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h2>Lorum Ipsum</h2>
+                                        <p>Lorum Ipsum</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto col-md-6 col-xl-auto filter-item cat1 cat5 cat7 cat3">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img src="https://placehold.co/300x300" alt="Lorum Ipsum" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h2>Lorum Ipsum</h2>
+                                        <p>Lorum Ipsum</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="project-btn mt-60">
+                  <a href="#" class="th-btn th-radius">View All Portfolio</a>
+                </div> -->
+                </div>
+            </div>
+        </div>
+        
+        <!--==============================
+            Project Area
+            ==============================-->
         <section class="project-area bg-white position-relative overflow-hidden space d-none" id="project-sec"
-            data-bg-src="{{ asset('frontend-assets/img/bg/project_bg_1.png')}}">
+            data-bg-src="{{ asset('frontend-assets/img/bg/project_bg_1.png') }}">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
@@ -400,7 +465,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="project-image th-anim">
-                            <img src="{{ asset('frontend-assets/img/normal/project-image.jpg')}}" alt="">
+                            <img src="{{ asset('frontend-assets/img/normal/project-image.jpg') }}" alt="">
                             <div class="discount-wrapp">
                                 <h2 class="project-counter"><span class="counter-number">24</span></h2>
                                 <div class="discount-tag">
@@ -436,9 +501,10 @@
 
                 </div>
             </div>
-        </section><!--==============================
-        Team Area
-        ==============================-->
+        </section>
+        <!--==============================
+            Team Area
+            ==============================-->
         <section class="team-area pb-20 space-top d-none">
             <div class="container">
                 <div class="title-area text-center">
@@ -455,7 +521,8 @@
                                 <div class="th-team team-box">
                                     <div class="team-img-wrap">
                                         <div class="box-img">
-                                            <img src="{{ asset('frontend-assets/img/team/team_2_1.jpg')}}" alt="Team">
+                                            <img src="{{ asset('frontend-assets/img/team/team_2_1.jpg') }}"
+                                                alt="Team">
                                         </div>
                                         <div class="th-social">
                                             <a target="_blank" href="https://facebook.com/"><i
@@ -482,7 +549,8 @@
                                 <div class="th-team team-box">
                                     <div class="team-img-wrap">
                                         <div class="box-img">
-                                            <img src="{{ asset('frontend-assets/img/team/team_2_2.jpg')}}" alt="Team">
+                                            <img src="{{ asset('frontend-assets/img/team/team_2_2.jpg') }}"
+                                                alt="Team">
                                         </div>
                                         <div class="th-social">
                                             <a target="_blank" href="https://facebook.com/"><i
@@ -509,7 +577,8 @@
                                 <div class="th-team team-box">
                                     <div class="team-img-wrap">
                                         <div class="box-img">
-                                            <img src="{{ asset('frontend-assets/img/team/team_2_3.jpg')}}" alt="Team">
+                                            <img src="{{ asset('frontend-assets/img/team/team_2_3.jpg') }}"
+                                                alt="Team">
                                         </div>
                                         <div class="th-social">
                                             <a target="_blank" href="https://facebook.com/"><i
@@ -536,7 +605,8 @@
                                 <div class="th-team team-box">
                                     <div class="team-img-wrap">
                                         <div class="box-img">
-                                            <img src="{{ asset('frontend-assets/img/team/team_2_1.jpg')}}" alt="Team">
+                                            <img src="{{ asset('frontend-assets/img/team/team_2_1.jpg') }}"
+                                                alt="Team">
                                         </div>
                                         <div class="th-social">
                                             <a target="_blank" href="https://facebook.com/"><i
@@ -563,7 +633,8 @@
                                 <div class="th-team team-box">
                                     <div class="team-img-wrap">
                                         <div class="box-img">
-                                            <img src="{{ asset('frontend-assets/img/team/team_2_2.jpg')}}" alt="Team">
+                                            <img src="{{ asset('frontend-assets/img/team/team_2_2.jpg') }}"
+                                                alt="Team">
                                         </div>
                                         <div class="th-social">
                                             <a target="_blank" href="https://facebook.com/"><i
@@ -590,7 +661,8 @@
                                 <div class="th-team team-box">
                                     <div class="team-img-wrap">
                                         <div class="box-img">
-                                            <img src="{{ asset('frontend-assets/img/team/team_2_3.jpg')}}" alt="Team">
+                                            <img src="{{ asset('frontend-assets/img/team/team_2_3.jpg') }}"
+                                                alt="Team">
                                         </div>
                                         <div class="th-social">
                                             <a target="_blank" href="https://facebook.com/"><i
@@ -632,149 +704,173 @@
                 <div class="marquee">
                     <div class="marquee-group style2">
                         <div class="item ">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-1.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Monitoring Business
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-1.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Monitoring Business
                                 Analytics</span>
                         </div>
                         <div class="item">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-2.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Marketing Solutions</span>
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-2.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Marketing Solutions</span>
                         </div>
                         <div class="item ">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-3.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>SEO Strategy
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-3.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>SEO Strategy
                                 Development</span>
                         </div>
                         <div class="item">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-4.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Search Engine
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-4.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Search Engine
                                 Optimization</span>
                         </div>
                         <div class="item ">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-1.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Research & Analysis</span>
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-1.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Research & Analysis</span>
                         </div>
                         <div class="item ">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-2.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Monitoring Business
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-2.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Monitoring Business
                                 Analytics</span>
                         </div>
                         <div class="item">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-3.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Marketing Solutions</span>
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-3.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Marketing Solutions</span>
                         </div>
                         <div class="item ">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-4.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>SEO Strategy
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-4.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>SEO Strategy
                                 Development</span>
                         </div>
                         <div class="item">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-1.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Search Engine
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-1.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Search Engine
                                 Optimization</span>
                         </div>
                         <div class="item ">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-2.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Research & Analysis</span>
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-2.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Research & Analysis</span>
                         </div>
                         <div class="item ">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-3.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Monitoring Business
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-3.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Monitoring Business
                                 Analytics</span>
                         </div>
                         <div class="item">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-4.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Marketing Solutions</span>
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-4.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Marketing Solutions</span>
                         </div>
 
                     </div>
                     <div aria-hidden="true" class="marquee-group style2">
                         <div class="item ">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-1.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Monitoring Business
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-1.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Monitoring Business
                                 Analytics</span>
                         </div>
                         <div class="item">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-2.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Marketing Solutions</span>
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-2.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Marketing Solutions</span>
                         </div>
                         <div class="item ">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-3.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>SEO Strategy
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-3.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>SEO Strategy
                                 Development</span>
                         </div>
                         <div class="item">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-4.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Search Engine
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-4.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Search Engine
                                 Optimization</span>
                         </div>
                         <div class="item ">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-1.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Research & Analysis</span>
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-1.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Research & Analysis</span>
                         </div>
                         <div class="item ">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-2.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Monitoring Business
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-2.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Monitoring Business
                                 Analytics</span>
                         </div>
                         <div class="item">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-3.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Marketing Solutions</span>
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-3.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Marketing Solutions</span>
                         </div>
                         <div class="item ">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-4.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>SEO Strategy
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-4.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>SEO Strategy
                                 Development</span>
                         </div>
                         <div class="item">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-1.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Search Engine
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-1.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Search Engine
                                 Optimization</span>
                         </div>
                         <div class="item ">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-2.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Research & Analysis</span>
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-2.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Research & Analysis</span>
                         </div>
                         <div class="item ">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-3.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Monitoring Business
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-3.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Monitoring Business
                                 Analytics</span>
                         </div>
                         <div class="item">
-                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-4.png')}}" alt=""> <a
-                                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i
-                                        class="fa-sharp fa-solid fa-play"></i></a></div><span>Marketing Solutions</span>
+                            <div class="video-img"><img src="{{ asset('frontend-assets/img/normal/ser-cta-4.png') }}"
+                                    alt=""> <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                                    class="play-btn popup-video"><i class="fa-sharp fa-solid fa-play"></i></a></div>
+                            <span>Marketing Solutions</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!--==============================
-        Process Area
-        ==============================-->
+            Process Area
+            ==============================-->
         <section class="space-extra-top space-bottom overflow-hidden" id="process-sec">
             <div class="container">
                 <div class="row flex-row-reverse align-items-end">
@@ -825,14 +921,17 @@
                         </div>
                         <div class="process-wrapp d-none">
                             <div class="process-img">
-                                <div class="img1"><img src="{{ asset('frontend-assets/img/normal/process_1_1.jpg')}}" alt="Faq"></div>
-                                <div class="shape-1"><img src="{{ asset('frontend-assets/img/shape/shape-8.png')}}" alt=""></div>
+                                <div class="img1"><img src="{{ asset('frontend-assets/img/normal/process_1_1.jpg') }}"
+                                        alt="Faq"></div>
+                                <div class="shape-1"><img src="{{ asset('frontend-assets/img/shape/shape-8.png') }}"
+                                        alt=""></div>
                             </div>
                             <div class="process-img">
                                 <div class="shape-2"></div>
-                                <div class="img1"><img src="{{ asset('frontend-assets/img/normal/process_1_2.jpg')}}" alt="Faq"></div>
+                                <div class="img1"><img src="{{ asset('frontend-assets/img/normal/process_1_2.jpg') }}"
+                                        alt="Faq"></div>
                                 <div class="arrow text-center">
-                                    <img src="{{ asset('frontend-assets/img/shape/arrow-down.png')}}" alt="">
+                                    <img src="{{ asset('frontend-assets/img/shape/arrow-down.png') }}" alt="">
                                 </div>
                                 <div class="sec-btn text-center">
                                     <a href="service.html" class="th-btn ser-btn th-icon">More About<i
@@ -843,11 +942,11 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="shape-mockup spin  d-none d-xl-block" data-top="3%" data-right="18%"><img src="{{ asset('frontend-assets/img/shape/shape-9.png')}}" alt=""></div> -->
+            <!-- <div class="shape-mockup spin  d-none d-xl-block" data-top="3%" data-right="18%"><img src="{{ asset('frontend-assets/img/shape/shape-9.png') }}" alt=""></div> -->
         </section>
         <!--==============================
-        Testimonial Area
-        ==============================-->
+            Testimonial Area
+            ==============================-->
         <section class="overflow-hidden bg-white space" id="testi-sec">
             <div class="container">
                 <div class="row justify-content-center">
@@ -875,7 +974,8 @@
                                     <div class="box-wrapp">
                                         <div class="box-profile">
                                             <div class="box-author">
-                                                <img src="{{ asset('frontend-assets/img/testimonial/testi_1_1.jpg')}}" alt="Avater">
+                                                <img src="{{ asset('frontend-assets/img/testimonial/testi_1_1.jpg') }}"
+                                                    alt="Avater">
                                             </div>
                                             <div class="box-info">
                                                 <h3 class="box-title">Michel Smith</h3>
@@ -898,7 +998,8 @@
                                     <div class="box-wrapp">
                                         <div class="box-profile">
                                             <div class="box-author">
-                                                <img src="{{ asset('frontend-assets/img/testimonial/testi_1_2.jpg')}}" alt="Avater">
+                                                <img src="{{ asset('frontend-assets/img/testimonial/testi_1_2.jpg') }}"
+                                                    alt="Avater">
                                             </div>
                                             <div class="box-info">
                                                 <h3 class="box-title">Abraham Khalil</h3>
@@ -921,7 +1022,8 @@
                                     <div class="box-wrapp">
                                         <div class="box-profile">
                                             <div class="box-author">
-                                                <img src="{{ asset('frontend-assets/img/testimonial/testi_1_3.jpg')}}" alt="Avater">
+                                                <img src="{{ asset('frontend-assets/img/testimonial/testi_1_3.jpg') }}"
+                                                    alt="Avater">
                                             </div>
                                             <div class="box-info">
                                                 <h3 class="box-title">Jenny Wilson</h3>
@@ -944,7 +1046,8 @@
                                     <div class="box-wrapp">
                                         <div class="box-profile">
                                             <div class="box-author">
-                                                <img src="{{ asset('frontend-assets/img/testimonial/testi_1_1.jpg')}}" alt="Avater">
+                                                <img src="{{ asset('frontend-assets/img/testimonial/testi_1_1.jpg') }}"
+                                                    alt="Avater">
                                             </div>
                                             <div class="box-info">
                                                 <h3 class="box-title">Michel Smith</h3>
@@ -967,7 +1070,8 @@
                                     <div class="box-wrapp">
                                         <div class="box-profile">
                                             <div class="box-author">
-                                                <img src="{{ asset('frontend-assets/img/testimonial/testi_1_2.jpg')}}" alt="Avater">
+                                                <img src="{{ asset('frontend-assets/img/testimonial/testi_1_2.jpg') }}"
+                                                    alt="Avater">
                                             </div>
                                             <div class="box-info">
                                                 <h3 class="box-title">Abraham Khalil</h3>
@@ -990,7 +1094,8 @@
                                     <div class="box-wrapp">
                                         <div class="box-profile">
                                             <div class="box-author">
-                                                <img src="{{ asset('frontend-assets/img/testimonial/testi_1_3.jpg')}}" alt="Avater">
+                                                <img src="{{ asset('frontend-assets/img/testimonial/testi_1_3.jpg') }}"
+                                                    alt="Avater">
                                             </div>
                                             <div class="box-info">
                                                 <h3 class="box-title">Jenny Wilson</h3>
@@ -1013,12 +1118,12 @@
                 <div class="particle-3" id="particle-3"></div>
             </div>
             <div class="shape-mockup spin  d-none d-xl-block" data-top="20%" data-left="12%"><img
-                    src="{{ asset('frontend-assets/img/shape/shape-1.png')}}" alt=""></div>
+                    src="{{ asset('frontend-assets/img/shape/shape-1.png') }}" alt=""></div>
             <div class="shape-mockup moving  d-none d-xl-block" data-bottom="40%" data-left="5%"><img
-                    src="{{ asset('frontend-assets/img/shape/shape-7.png')}}" alt=""></div>
+                    src="{{ asset('frontend-assets/img/shape/shape-7.png') }}" alt=""></div>
         </section><!--==============================
-        Brand Area
-        ==============================-->
+            Brand Area
+            ==============================-->
         <div class="brand-area overflow-hidden">
             <div class="container th-container">
                 <div class="slider-area text-center">
@@ -1128,13 +1233,13 @@
             </div>
         </div>
         <!--==============================
-        Blog Area
-        ==============================-->
+            Blog Area
+            ==============================-->
         <section class="blog-area overflow-hidden bg-smoke2 space" id="blog-sec">
             <div class="container">
                 <div class="title-area text-center">
                     <div class="shadow-title">Blog</div>
-                    <span class="sub-title sub-title4 ">News & Blog</span>
+                    <span class="sub-title sub-title4 d-none">News & Blog</span>
                     <h2 class="sec-title">Latest Release News & Articles</h2>
                 </div>
 
@@ -1145,7 +1250,8 @@
                             <div class="swiper-slide">
                                 <div class="blog-grid">
                                     <div class="box-img global-img">
-                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_1.jpg')}}" alt="blog image">
+                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_1.jpg') }}"
+                                            alt="blog image">
                                     </div>
                                     <div class="box-content">
                                         <div class="blog-meta">
@@ -1164,7 +1270,8 @@
                             <div class="swiper-slide">
                                 <div class="blog-grid">
                                     <div class="box-img global-img">
-                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_2.jpg')}}" alt="blog image">
+                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_2.jpg') }}"
+                                            alt="blog image">
                                     </div>
                                     <div class="box-content">
                                         <div class="blog-meta">
@@ -1183,7 +1290,8 @@
                             <div class="swiper-slide">
                                 <div class="blog-grid">
                                     <div class="box-img global-img">
-                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_3.jpg')}}" alt="blog image">
+                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_3.jpg') }}"
+                                            alt="blog image">
                                     </div>
                                     <div class="box-content">
                                         <div class="blog-meta">
@@ -1202,7 +1310,8 @@
                             <div class="swiper-slide">
                                 <div class="blog-grid">
                                     <div class="box-img global-img">
-                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_1.jpg')}}" alt="blog image">
+                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_1.jpg') }}"
+                                            alt="blog image">
                                     </div>
                                     <div class="box-content">
                                         <div class="blog-meta">
@@ -1221,7 +1330,8 @@
                             <div class="swiper-slide">
                                 <div class="blog-grid">
                                     <div class="box-img global-img">
-                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_2.jpg')}}" alt="blog image">
+                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_2.jpg') }}"
+                                            alt="blog image">
                                     </div>
                                     <div class="box-content">
                                         <div class="blog-meta">
@@ -1240,7 +1350,8 @@
                             <div class="swiper-slide">
                                 <div class="blog-grid">
                                     <div class="box-img global-img">
-                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_3.jpg')}}" alt="blog image">
+                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_3.jpg') }}"
+                                            alt="blog image">
                                     </div>
                                     <div class="box-content">
                                         <div class="blog-meta">
@@ -1265,9 +1376,9 @@
                 </div>
 
             </div>
-            <!-- <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img src="{{ asset('frontend-assets/img/shape/shape-9.png')}}" alt=""></div> -->
-            <!-- <div class="shape-mockup d-none d-lg-block" data-top="2%" data-left="0%"><img src="{{ asset('frontend-assets/img/shape/shape-13.png')}}" alt=""></div> -->
-            <!-- <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img src="{{ asset('frontend-assets/img/shape/shape-14.png')}}" alt=""></div> -->
+            <!-- <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img src="{{ asset('frontend-assets/img/shape/shape-9.png') }}" alt=""></div> -->
+            <!-- <div class="shape-mockup d-none d-lg-block" data-top="2%" data-left="0%"><img src="{{ asset('frontend-assets/img/shape/shape-13.png') }}" alt=""></div> -->
+            <!-- <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img src="{{ asset('frontend-assets/img/shape/shape-14.png') }}" alt=""></div> -->
         </section>
     </main>
 

@@ -4,7 +4,7 @@
     <div class="preloader ">
         <button class="th-btn style1 preloaderCls">Cancel Preloader </button>
         <div class="preloader-inner">
-            <img src="{{ asset('assets/img/logo.svg') }}" alt="Rasm">
+            <img src="{{ asset('frontend-assets/img/logo/sociomark-new-logo.png') }}" alt="Sociomark" height="200">
             <span class="loader"></span>
         </div>
     </div>
@@ -21,63 +21,15 @@ Mobile Menu
         <div class="th-menu-area text-center">
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="home-seo-agency.html"><img src="{{ asset('assets/img/logo.svg') }}" alt="Saor"></a>
+                <a href="{{ route('home') }}"><img src="{{ asset('frontend-assets/img/logo/sc-white-horizontal.png') }}" alt="Sociomark"></a>
             </div>
 
             <div class="th-mobile-menu">
                 <ul>
                     <li class="menu-item-has-children">
-                        <a href="home-seo-agency.html">Home</a>
-                        <ul class="mega-menu mega-menu-content allow-natural-scroll">
-                            <li>
-                                <div class="container">
-                                    <div class="row gy-4">
-                                        <div class="col-lg-4">
-                                            <div class="mega-menu-box">
-                                                <div class="mega-menu-img">
-                                                    <img src="{{ asset('assets/img/pages/home-seo-agency.jpg') }}"
-                                                        alt="Home One">
-                                                </div>
-                                                <h3 class="mega-menu-title"><a href="home-seo-agency.html">Home SEO
-                                                        Agency</a></h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="mega-menu-box">
-                                                <div class="mega-menu-img">
-                                                    <img src="{{ asset('assets/img/pages/home-digital-agency.jpg') }}"
-                                                        alt="Home Two">
-                                                </div>
-                                                <h3 class="mega-menu-title"><a href="home-digital-agency.html">Home
-                                                        Digital Agency</a></h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="mega-menu-box">
-                                                <div class="mega-menu-img">
-                                                    <img src="{{ asset('assets/img/pages/home-seo-Analysis.jpg') }}"
-                                                        alt="Home Three">
-                                                </div>
-                                                <h3 class="mega-menu-title"><a href="home-seo-analysis.html">Home SEO
-                                                        Analysis Agency</a></h3>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-4">
-                                            <div class="mega-menu-box">
-                                                <div class="mega-menu-img">
-                                                    <img src="{{ asset('assets/img/pages/home-seo-marketing.jpg') }}"
-                                                        alt="Home four">
-                                                </div>
-                                                <h3 class="mega-menu-title"><a href="home-seo-marketing.html">Home SEO
-                                                        Analysis Agency</a></h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
+                        <a href="{{ route('home') }}">Home</a>
                     </li>
-                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="{{ route('about') }}">About Us</a></li>
                     <li class="menu-item-has-children">
                         <a href="#">Pages</a>
                     </li>
@@ -91,7 +43,7 @@ Mobile Menu
     </div><!--==============================
 Header Area
 ==============================-->
-    <header class="th-header header-layout1 header-absolute">
+    <header class="th-header header-layout1 bg-white header-absolute">
         <div class="sticky-wrapper">
             <!-- Main Menu Area -->
             <div class="container-fluid th-container">
@@ -100,27 +52,53 @@ Header Area
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="#"><img src="https://placehold.co/100x100" alt="Saor"></a>
+                                <a href="{{ route('home') }}"><img src="{{ asset('frontend-assets/img/logo/sociomark-new-logo.png') }}" alt="Sociomark" height="80"></a>
                             </div>
                         </div>
                         <div class="col-auto">
                             <nav class="main-menu style2 d-none d-lg-inline-block">
+                              
                                 <ul>
                                     <li class="">
-                                        <a href="#">Home</a>
+                                      <a href="#">Home</a>
                                     </li>
                                     <li><a href="#">About Us</a></li>
                                     <li class="menu-item-has-children">
-                                        <a href="#">Services</a>
+                                      <a href="#">Services</a>
+                                      <ul class="sub-menu">
+                                        <li><a href="#">Digital Marketing</a></li>
+                                        <li><a href="#">SEO</a></li>
+                                        <li><a href="#">Social Media Marketing</a></li>
+                                        <li><a href="#">Website Development</a></li>
+                                        <li><a href="#">Content Marketing</a></li>
+                                        <li><a href="#">SEM</a></li>
+                                        <li><a href="#">Photography & Video Production</a></li>
+                                      </ul>
                                     </li>
                                     <li class="menu-item-has-children">
-                                        <a href="#">Case Studies</a>
+                                      <a href="#">Industries</a>
+                                      <ul class="sub-menu">
+                                        <li><a href="#">Education</a></li>
+                                        <li><a href="#">Healthcare</a></li>
+                                        <li><a href="#">FMCG</a></li>
+                                        <li><a href="#">News & Media</a></li>
+                                        <li><a href="#">Real Estate</a></li>
+                                        <li><a href="#">Logistics</a></li>
+                                        <li><a href="#">Fashion & Lifestyle</a></li>
+                                        <li><a href="#">Gaming</a></li>
+                                        <li><a href="#">Home & Interior</a></li>
+                                        <li><a href="#">Automobile</a></li>
+                                      </ul>
                                     </li>
+                                    <li class="menu-item-has-children">
+                                      <a href="#">Case Studies</a>
+                                    </li>
+                                    <li><a href="#">Portfolio</a></li>
                                     <li><a href="{{ route('blog') }}">Blog</a></li>
                                     <li><a href="#">Carrers</a></li>
                                     <li><a href="#">Work Culture</a></li>
-                                    <li><a href="#">Contact Us</a></li>
-                                </ul>
+                                    <li><a href="{{ route('contact') }}">Contact Us</a></li>
+                                  </ul>
                             </nav>
                             <div class="header-button">
                                 <button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i
