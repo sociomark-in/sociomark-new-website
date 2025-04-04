@@ -48,6 +48,13 @@
         object-fit: cover;
         border-radius: 10px;
     }
+    #Blog_section .widget_categories a:hover,
+    #Blog_section .tagcloud a:hover,
+    #Blog_Section .widget_categories a.active,
+    #Blog_section .tagcloud a:active {
+        background-color: #106c97 !important;
+        color: white !important;
+    }
 </style>
 
 <main>
@@ -106,24 +113,30 @@
                                
                             </ul>
                         </div>
-                        <div class="widget box ">
+                        <div class="widget box">
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
                                 @foreach ($blogs->take(3) as $blog)
                                 <div class="recent-post">
                                     <div class="media-img recent_blog_img">
-                                        <a href="blog-details.html">
+                                        <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
                                             <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image">
                                         </a>
                                     </div>
                                     <div class="media-body">
                                         <div class="recent-post-meta">
-                                            <a href="blog.html"><i class="fa-sharp fa-solid fa-calendar-days"></i> {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}</a>
+                                            <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
+                                                <i class="fa-sharp fa-solid fa-calendar-days"></i>
+                                                {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}
+                                            </a>
                                         </div>
-                                        <h4 class="post-title recent_post_title"><a class="text-inherit" href="blog-details.html">{{ $blog->blog_name }}</a></h4>
+                                        <h4 class="post-title recent_post_title">
+                                            <a class="text-inherit" href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
+                                                {{ $blog->blog_name }}
+                                            </a>
+                                        </h4>
                                     </div>
                                 </div>
-
                                 @endforeach
                             </div>
                         </div>

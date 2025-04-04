@@ -6,7 +6,8 @@
 
 <style>
     #seo-service #about-sec3,
-    #seo-service #about-sec5 {
+    #seo-service #about-sec5,
+    #seo-service #contact {
         background-color: #F5F5F5;
     }
 
@@ -23,7 +24,9 @@
     #seo-service #about-sec3 .sec-title,
     #portfolio-sec .sec-title,
     #seo-service #about-sec5 .sec-title,
-    #seo-service #about-sec6 .sec-title {
+    #seo-service #about-sec6 .sec-title,
+    #seo-service #services-tab .sec-title,
+    #seo-service #contact .sec-title {
         font-size: 35px;
         line-height: 42px;
     }
@@ -35,7 +38,9 @@
     #seo-service .about-area2 .sec-para,
     #seo-service #about-sec2 .sec-para,
     #seo-service #about-sec3 .sec-para,
-    #seo-service #about-sec6 .sec-para {
+    #seo-service #about-sec6 .sec-para,
+    #seo-service #services-tab .sec-para,
+    #seo-service #contact .sec-para {
         line-height: 28px;
         font-size: 20px;
         letter-spacing: .10px;
@@ -43,11 +48,57 @@
     }
 
     @media (max-width: 576px) {
-        #seo-service .about-area2 .sec-title {
-            width: auto;
+
+        #seo-service .about-area2 .sec-title,
+        #seo-service #about-sec2 .sec-title,
+        #seo-service #about-sec3 .sec-title,
+        #portfolio-sec .sec-title,
+        #seo-service #about-sec5 .sec-title,
+        #seo-service #about-sec6 .sec-title,
+        #seo-service #services-tab .sec-title,
+        #seo-service #contact .sec-title {
+            padding-bottom: 0.5rem;
+            font-size: 24px;
+            font-weight: 600;
             line-height: 26px;
+            width: auto;
+            text-align: center;
+        }
+
+        #seo-service .about-area2 .sec-para,
+        #seo-service #about-sec2 .sec-para,
+        #seo-service #about-sec3 .sec-para,
+        #seo-service #about-sec6 .sec-para,
+        #seo-service #services-tab .sec-para,
+        #seo-service #contact .sec-para,
+        #seo-service #about-sec3 .box-title {
+            font-size: 16px !important;
+            line-height: 20px !important;
+            text-align: center;
+        }
+
+        #seo-service #about-sec2,
+        #seo-service #services-tab {
+            padding: 3rem 0 3rem 0 !important;
+        }
+
+        .according-list-area {
+            margin-bottom: 290px;
+        }
+
+        #seo-service #services-tab .side-padding-mbl {
+            padding: 0px 1.5rem;
+        }
+
+        #seo-service #services-tab .sec-para {
+            text-align: left;
+        }
+
+        #seo-service #contact {
+            padding: 40px 2px !important;
         }
     }
+
 
     /* section 2 */
     #seo-service #about-sec2 {
@@ -254,7 +305,128 @@
         border: none;
     }
 
+    #seo-service #about-sec6 #faqAccordion {
+        height: 500px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    #seo-service #about-sec6 #faqAccordion::-webkit-scrollbar {
+        width: 3px;
+        height: 30px;
+    }
+
+    /* Track */
+    #seo-service #about-sec6 #faqAccordion::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    #seo-service #about-sec6 #faqAccordion::-webkit-scrollbar-thumb {
+        background: #106c97;
+        border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    #seo-service #about-sec6 #faqAccordion::-webkit-scrollbar-thumb:hover {
+        background: #106c97;
+    }
+
+    /* #seo-service #about-sec6 .accordion-card .accordion-button {
+        background-color: #106c97 !important;
+        color: white !important;
+    } */
+    .accordion-button:not(.collapsed) {
+        background-color: #106c97 !important;
+        color: white !important;
+    }
+
     /* end faq */
+
+    /* services tab */
+    #seo-service #services-tab .nav-pills .nav-link {
+        border-radius: 0.25rem;
+        background-color: #106c97;
+        color: white;
+        border: none;
+        border-radius: 0px;
+        text-align: left;
+        padding-left: 35px !important;
+    }
+
+    #seo-service #services-tab .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        background-color: white !important;
+        color: #106c97 !important;
+    }
+
+    #seo-service #services-tab #v-pills-tab {
+        padding: 20px 20px 20px 0px;
+        background-color: #106c97;
+    }
+
+    #seo-service #services-tab .sec-para-list,
+    #seo-service #about-sec6 .sec-para-faq {
+        font-size: 17px;
+        color: #797E88;
+        line-height: 28px;
+        letter-spacing: .10px;
+    }
+
+    /* services tab end */
+    /* contact form */
+    #seo-service #contact {
+        padding: 30px;
+    }
+
+    #contact .contact-form input,
+    #contact .contact-form textarea,
+    #contact .contact-form select {
+        border-radius: 10px;
+    }
+
+    #contact .contact-form .form-group {
+        position: relative;
+        margin-bottom: 2.5rem;
+    }
+
+    #contact .contact-form .form-group input,
+    #contact .contact-form .form-group select,
+    #contact .contact-form .form-group textarea {
+        padding: 15px 10px 10px 15px;
+    }
+
+    #contact .contact-form .form-group label {
+        position: absolute;
+        top: 3px;
+        left: 24px;
+        font-weight: 500;
+        font-size: 18px;
+        transform: translateY(-50%);
+        background-color: white;
+        padding: 0px 12px;
+        pointer-events: none;
+        z-index: 2;
+    }
+
+    #contact .space-bottom {
+        padding-bottom: 35px;
+    }
+
+    #contact .contact-form {
+        background: white;
+        border-radius: 10px;
+        padding: 55px 30px;
+        border: 1px solid black;
+        /* box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        border: 2px solid transparent; */
+        box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
+        -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
+        -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
+    }
+
+    /* contact form end */
 </style>
 @section('content')
 <main id="seo-service">
@@ -280,8 +452,8 @@
                     </div>
                 </div> -->
                 <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
-                    <div class="title-area mb-25 mt-n1">
-                        <h2 class="sec-title text-center">Expand Your Global Reach with Our Comprehensive International SEO Solutions</h2>
+                    <div class="title-area mb-md-3 mb-2 mt-n1">
+                        <h2 class="sec-title text-center ">Expand Your Global Reach with Our Comprehensive International SEO Solutions</h2>
                     </div>
                     <p class="mt-n2 mb-25 sec-para text-center">Established in 1995, Saor has been a leading force in the digital landscape for
                         over two decades. We're a passionate team of designers, developers, and strategists driven by a
@@ -448,12 +620,206 @@
 
     </section>
 
-    <div class="overflow-hidden position-relative space-extra-top space-bottom garally mt-5" id="portfolio-sec">
+    <section class="overflow-hidden space" id="services-tab">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="title-area mb-md-3 mb-2">
+                    <h2 class="sec-title text-center">International <span class="text-blue"> SEO</span> Service</h2>
+                </div>
+
+                <div class="d-lg-flex align-items-center ps-0">
+                    <div class="col-lg-3 col-12">
+                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <button class="nav-link p-3 fs-5 " data-bs-toggle="pill"
+                                data-bs-target="#" type="button" role="tab"
+                                aria-controls="v-pills-profile" aria-selected="false"><span class="border-bottom border-4 d-inline-block">Services</span></button>
+                            <button class="nav-link active p-3 fs-5" id="v-pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-home" type="button" role="tab"
+                                aria-controls="v-pills-home" aria-selected="true">Education institutions</button>
+                            <button class="nav-link p-3 fs-5" id="v-pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-profile" type="button" role="tab"
+                                aria-controls="v-pills-profile" aria-selected="false">Healthcare industry</button>
+                            <button class="nav-link p-3 fs-5" id="v-pills-messages-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-messages" type="button" role="tab"
+                                aria-controls="v-pills-messages" aria-selected="false">Technology companies</button>
+                            <button class="nav-link p-3 fs-5" id="v-pills-settings-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-settings" type="button" role="tab"
+                                aria-controls="v-pills-settings" aria-selected="false">Publication</button>
+                            <button class="nav-link p-3 fs-5" id="v-pills-settings-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-settings" type="button" role="tab"
+                                aria-controls="v-pills-settings" aria-selected="false">E-commerce businesses</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-12">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                aria-labelledby="v-pills-home-tab" tabindex="0">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 col-12 text-center side-padding-mbl">
+                                        <div class="page-img mt-md-0 mt-3">
+                                            <img class="w-50" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12 side-padding-mbl">
+                                        <h4 class="mb-20 text-blue">How We Can Help</h4>
+                                        <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
+                                            touchpoints.
+                                        </p>
+                                        <div class="checklist style4 mb-20">
+                                            <ul>
+                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
+                                                    Engagement &
+                                                    Conversion Rates</li>
+                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
+                                                    Perception
+                                                </li>
+                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
+                                                    Accessibility</li>
+                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
+                                                    Costs
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                aria-labelledby="v-pills-profile-tab" tabindex="0">
+
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 col-12 text-center side-padding-mbl">
+                                        <div class="row mt-md-0 mt-3">
+                                            <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
+                                                <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                            </div>
+                                            <div class="col-lg-6 col-6 page-img side-padding-mbl" data-aos="fade-right" data-aos-duration="5000">
+                                                <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6 col-12 side-padding-mbl">
+                                        <h4 class="mb-20 text-blue">How We Can Help</h4>
+                                        <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
+                                            touchpoints.
+                                        </p>
+                                        <div class="checklist style4 mb-20">
+                                            <ul>
+                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
+                                                    Engagement &
+                                                    Conversion Rates</li>
+                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
+                                                    Perception
+                                                </li>
+                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
+                                                    Accessibility</li>
+                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
+                                                    Costs
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="col-lg-4 col-12">
+                                        <div class="page-img" data-aos="fade-left" data-aos-duration="3000">
+                                            <img class="w-50" src="https://placehold.co/400x800" alt="service">
+                                        </div>
+                                    </div> -->
+
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                aria-labelledby="v-pills-messages-tab" tabindex="0">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 col-12 text-center side-padding-mbl">
+                                        <div class="page-img mt-md-0 mt-3">
+                                            <img class="w-50" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12 side-padding-mbl">
+                                        <h4 class="mb-20 text-blue">How We Can Help</h4>
+                                        <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
+                                            touchpoints.
+                                        </p>
+                                        <div class="checklist style4 mb-20">
+                                            <ul>
+                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
+                                                    Engagement &
+                                                    Conversion Rates</li>
+                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
+                                                    Perception
+                                                </li>
+                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
+                                                    Accessibility</li>
+                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
+                                                    Costs
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                aria-labelledby="v-pills-settings-tab" tabindex="0">
+
+                                <div class="row align-items-center">
+                                    <div class="col-lg-6 col-12 text-center side-padding-mbl">
+                                        <div class="row mt-md-0 mt-3">
+                                            <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
+                                                <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                            </div>
+                                            <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
+                                                <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-6 col-12 side-padding-mbl">
+                                        <h4 class="mb-20 text-blue">How We Can Help</h4>
+                                        <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
+                                            touchpoints.
+                                        </p>
+                                        <div class="checklist style4 mb-20">
+                                            <ul>
+                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
+                                                    Engagement &
+                                                    Conversion Rates</li>
+                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
+                                                    Perception
+                                                </li>
+                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
+                                                    Accessibility</li>
+                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
+                                                    Costs
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="col-lg-4 col-12">
+                                        <div class="page-img" data-aos="fade-left" data-aos-duration="3000">
+                                            <img class="w-50" src="https://placehold.co/400x800" alt="service">
+                                        </div>
+                                    </div> -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="overflow-hidden position-relative space-extra-top space-bottom garally mt-md-5" id="portfolio-sec">
         <div class="container">
             <div class="title-area text-center mb-25">
                 <h2 class="sec-title">Clients We've Worked With</h2>
             </div>
-            <div class="filter-menu filter-menu-active mt-5 mb-4">
+            <div class="filter-menu filter-menu-active mt-md-5 mb-md-4">
                 <button data-filter="*" class="tab-btn active" type="button">All</button>
                 <button data-filter=".cat1" class="tab-btn" type="button">Education</button>
                 <button data-filter=".cat2" class="tab-btn" type="button">Healthcare</button>
@@ -526,7 +892,7 @@
     <section class="th-blog-wrapper space-top space-extra-bottom" id="about-sec5">
         <div class="container">
             <div class="title-area text-center mb-25">
-                <h2 class="sec-title mb-md-5">From The Blog: Blogs worth binging on. Dive in!</h2>
+                <h2 class="sec-title mb-md-5">From The Blog: Blogs worth binging on.<span class="text-blue"> Dive in!</span></h2>
             </div>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
@@ -566,40 +932,42 @@
     </section>
     <div class="overflow-hidden space" id="about-sec6">
         <div class="container">
-            <div class="row">
+            <div class="title-area text-center mb-25">
+                <h2 class="sec-title">Frequently Asked Questions</h2>
+            </div>
+            <div class="row justify-content-center align-items-center mt-5">
                 <div class="col-xl-5">
                     <div class="me-xl-5 pe-xl-3">
                         <div class="title-area mb-30 text-center text-xl-start">
+                            <img src="https://www.gbim.com/about-us/sm_faq.png" alt="">
                             <!-- <span class="sub-title sub-title7 style1 ">FAQS</span> -->
-                            <h2 class="sec-title ">Have Any Questions?</h2>
-                            <p class="sec-para ">We identify the most relevant and high-traffic keywords for your business. Our team conducts thorough research to understand your industry, competitors, and target audience to ensure your website ranks for terms that matter.</p>
+                            <!-- <h2 class="sec-title ">Have Any Questions?</h2>
+                            <p class="sec-para ">We identify the most relevant and high-traffic keywords for your business. Our team conducts thorough research to understand your industry, competitors, and target audience to ensure your website ranks for terms that matter.</p> -->
                         </div>
 
                     </div>
                 </div>
-                <div class="col-xl-7 mt-35 mt-xl-0">
-                    <div class="accordion-area accordion" id="faqAccordion">
-
-
-                        <div class="accordion-card ">
+                <div class="col-xl-7 mt-35 mt-xl-0" id="faqAccordion">
+                    <div class="accordion-area accordion">
+                        <div class="accordion-card">
                             <div class="accordion-header" id="collapse-item-1">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">How long does it take to see results from SEO?</button>
+                                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">How long does it take to see results from SEO?</button>
                             </div>
-                            <div id="collapse-1" class="accordion-collapse collapse " aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
+                            <div id="collapse-1" class="accordion-collapse collapse show" aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">SEO is an ongoing process, but you can expect to see initial improvements in website traffic and rankings within 3-6 months with a well-defined strategy. Long-term results and significant traffic growth. We are a five-star rated holistic full-service digital marketing agencies, serving thousands of clients. Our digital agency covers all aspects of internet marketing:</p>
+                                    <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see initial improvements in website traffic and rankings within 3-6 months with a well-defined strategy. Long-term results and significant traffic growth. We are a five-star rated holistic full-service digital marketing agencies, serving thousands of clients. Our digital agency covers all aspects of internet marketing:</p>
                                 </div>
                             </div>
                         </div>
 
 
-                        <div class="accordion-card active">
+                        <div class="accordion-card ">
                             <div class="accordion-header" id="collapse-item-2">
-                                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">How will I be kept informed about my SEO progress?</button>
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">How will I be kept informed about my SEO progress?</button>
                             </div>
-                            <div id="collapse-2" class="accordion-collapse collapse show" aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
+                            <div id="collapse-2" class="accordion-collapse collapse " aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">SEO is an ongoing process, but you can expect to see initial improvements in website traffic and rankings within 3-6 months with a well-defined strategy. Long-term results and significant traffic growth. We are a five-star rated holistic full-service digital marketing agencies, serving thousands of clients. Our digital agency covers all aspects of internet marketing:</p>
+                                    <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see initial improvements in website traffic and rankings within 3-6 months with a well-defined strategy. Long-term results and significant traffic growth. We are a five-star rated holistic full-service digital marketing agencies, serving thousands of clients. Our digital agency covers all aspects of internet marketing:</p>
                                 </div>
                             </div>
                         </div>
@@ -611,7 +979,7 @@
                             </div>
                             <div id="collapse-3" class="accordion-collapse collapse " aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">SEO is an ongoing process, but you can expect to see initial improvements in website traffic and rankings within 3-6 months with a well-defined strategy. Long-term results and significant traffic growth. We are a five-star rated holistic full-service digital marketing agencies, serving thousands of clients. Our digital agency covers all aspects of internet marketing:</p>
+                                    <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see initial improvements in website traffic and rankings within 3-6 months with a well-defined strategy. Long-term results and significant traffic growth. We are a five-star rated holistic full-service digital marketing agencies, serving thousands of clients. Our digital agency covers all aspects of internet marketing:</p>
                                 </div>
                             </div>
                         </div>
@@ -623,7 +991,7 @@
                             </div>
                             <div id="collapse-4" class="accordion-collapse collapse " aria-labelledby="collapse-item-4" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">SEO is an ongoing process, but you can expect to see initial improvements in website traffic and rankings within 3-6 months with a well-defined strategy. Long-term results and significant traffic growth. We are a five-star rated holistic full-service digital marketing agencies, serving thousands of clients. Our digital agency covers all aspects of internet marketing:</p>
+                                    <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see initial improvements in website traffic and rankings within 3-6 months with a well-defined strategy. Long-term results and significant traffic growth. We are a five-star rated holistic full-service digital marketing agencies, serving thousands of clients. Our digital agency covers all aspects of internet marketing:</p>
                                 </div>
                             </div>
                         </div>
@@ -635,7 +1003,7 @@
                             </div>
                             <div id="collapse-5" class="accordion-collapse collapse " aria-labelledby="collapse-item-5" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">SEO is an ongoing process, but you can expect to see initial improvements in website traffic and rankings within 3-6 months with a well-defined strategy. Long-term results and significant traffic growth. We are a five-star rated holistic full-service digital marketing agencies, serving thousands of clients. Our digital agency covers all aspects of internet marketing:</p>
+                                    <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see initial improvements in website traffic and rankings within 3-6 months with a well-defined strategy. Long-term results and significant traffic growth. We are a five-star rated holistic full-service digital marketing agencies, serving thousands of clients. Our digital agency covers all aspects of internet marketing:</p>
                                 </div>
                             </div>
                         </div>
@@ -647,7 +1015,7 @@
                             </div>
                             <div id="collapse-6" class="accordion-collapse collapse " aria-labelledby="collapse-item-6" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="faq-text">SEO is an ongoing process, but you can expect to see initial improvements in website traffic and rankings within 3-6 months with a well-defined strategy. Long-term results and significant traffic growth. We are a five-star rated holistic full-service digital marketing agencies, serving thousands of clients. Our digital agency covers all aspects of internet marketing:</p>
+                                    <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see initial improvements in website traffic and rankings within 3-6 months with a well-defined strategy. Long-term results and significant traffic growth. We are a five-star rated holistic full-service digital marketing agencies, serving thousands of clients. Our digital agency covers all aspects of internet marketing:</p>
                                 </div>
                             </div>
                         </div>
@@ -657,25 +1025,132 @@
         </div>
 
     </div>
+    <div class="th-blog-wrapper space-top space-extra-bottom" id="contact" data-mask-src="{{ asset('frontend-assets/img/bg/choose_bg_3.png') }}">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-xl-5 pe-md-5">
+                    <div class="title-area mb-20">
+                        <h2 class="sec-title ">The Powerful Benefits of Saor SEO</h2>
+                    </div>
+                    <p class="sec-para mb-35 ">In today's digital landscape, a strong online presence is critical for business success. But simply having a website isn't enough.</p>
 
+                </div>
+                <div class="col-xl-7">
+                    <form action="{{ route('contact.store') }}" method="POST" class="contact-form style2">
+                        @csrf
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Your Name</label>
+                                <input type="text" class="form-control @error('name') is-invalid @enderror" name="name" id="name" placeholder="Enter your Name" value="{{ old('name') }}">
+                                @error('name')
+                                <span class="text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+
+                            <div class="form-group col-md-6">
+                                <i class="far fa-envelope"></i>
+                                <label for="email">Email</label>
+                                <input type="text" class="form-control @error('email') is-invalid @enderror" name="email" id="email" placeholder="Enter your Email" value="{{ old('email') }}">
+                                @error('email')
+                                <span class="text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+                            <div class="form-group col-md-6">
+                                <i class="fal fa-phone"></i>
+                                <label for="phone">Phone</label>
+                                <input type="text" class="form-control @error('phone') is-invalid @enderror" name="phone" id="phone" placeholder="Enter your Phone" value="{{ old('phone') }}">
+                                @error('phone')
+                                <span class="text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+
+                            <div class="form-group col-md-6">
+
+                                <label for="service">Service you want?</label>
+                                <select class="form-select @error('service') is-invalid @enderror" id="service" name="service">
+                                    <option selected disabled>Choose an option</option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                </select>
+
+                                @error('service')
+                                <span class="text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+
+                            <div class="form-group col-md-6">
+
+                                <label for="budget">Marketing Budget</label>
+                                <select class="form-select @error('budget') is-invalid @enderror" id="budget" name="budget">
+                                    <option selected disabled>Choose an option</option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                </select>
+                                @error('budget')
+                                <span class="text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+
+                            <div class="form-group col-md-6">
+
+                                <label for="aboutUs">How did you hear about Us?</label>
+                                <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs" name="aboutUs">
+                                    <option selected disabled>Choose an option</option>
+                                    <option value="1">Option 1</option>
+                                    <option value="2">Option 2</option>
+                                    <option value="3">Option 3</option>
+                                </select>
+                                @error('aboutUs')
+                                <span class="text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+                            <div class="form-group col-12">
+
+                                <label for="messageforus">Your Message</label>
+                                <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus" placeholder="Enter your message" rows="4" name="messageforus"></textarea>
+                                <i class="fal fa-pencil"></i>
+                                @error('messageforus')
+                                <span class="text-danger">{{ $message }}</span>
+                                @enderror
+                            </div>
+                            <div class="col-12 form-group mb-0 text-center">
+                                <button class="th-btn th-radius">Submit Message</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 @endsection
 
 @push('scripts')
 <script>
-    const swiper = new Swiper('.mySwiper', {
+    var swiper = new Swiper(".mySwiper", {
         slidesPerView: 3,
-        spaceBetween: 20,
-        loop: true,
+        spaceBetween: 30,
         pagination: {
-            el: '.swiper-pagination',
+            el: ".swiper-pagination",
             clickable: true,
         },
-        autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-        },
-        speed: 800,
+        breakpoints: {
+            // when window width is >= 0px
+            0: {
+                slidesPerView: 1,
+            },
+            // when window width is >= 768px
+            768: {
+                slidesPerView: 2,
+            },
+            // when window width is >= 992px
+            992: {
+                slidesPerView: 3,
+            }
+        }
     });
 </script>
 @endpush
