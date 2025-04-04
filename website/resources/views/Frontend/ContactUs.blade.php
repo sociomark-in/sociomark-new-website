@@ -155,7 +155,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-4">
                         <!-- <div class="title-area text-center">
-                            </div> -->
+                                </div> -->
                         <div class="row gy-4 flex-column">
                             <div class="col-xl-12 col-md-12">
                                 <div class="contact-media">
@@ -330,43 +330,7 @@
 
 
     </main>
-    <link href="{{ asset('frontend-assets/css/ihover.css')}}" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/2.0.0/css/imagehover.min.css" integrity="sha512-SYBBAnJsPEzSQ/kBqkR/9krJ+EUgF624c8uaMBww1Q26pnCw5k7zVmtc48BfXjZ9MRNNBveIdhx/na1xRLWgjw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <section>
-        <div class="container">
-            <div class="row">
-              <!-- Bottom to top-->
-<div class="row">
-    <div class="col-sm-6">
-   
-      <!-- normal -->
-      <div class="ih-item square effect3 bottom_to_top"><a href="#">
-          <div class="img"><img src="images/assets/rect/1.jpg" alt="img"></div>
-          <div class="info">
-            <h3>Heading here</h3>
-            <p>Description goes here</p>
-          </div></a></div>
-      <!-- end normal -->
-   
-    </div>
-    <div class="col-sm-6">
-   
-      <!-- colored -->
-      <div class="ih-item square colored effect3 bottom_to_top"><a href="#">
-          <div class="img"><img src="images/assets/rect/4.jpg" alt="img"></div>
-          <div class="info">
-            <h3>Heading here</h3>
-            <p>Description goes here</p>
-          </div></a></div>
-      <!-- end colored -->
-   
-    </div>
-  </div>
-  <!-- end Bottom to top-->
+    
 
-            </div>
-        </div>
-    </section>
-   
-    @endsection
+@endsection
