@@ -1,4 +1,10 @@
 @extends('Frontend.layout.app')
+@section('title', 'Contact')
+@section('author', 'Your Company Name')
+@section('description', 'This is a dynamic description for the home page.')
+@section('keywords', 'seo, marketing, agency, web design')
+@section('robots', 'INDEX,FOLLOW')
+
 <style>
     #contact .contact-head {
         padding: 4rem 4rem 1rem 4rem;
@@ -153,7 +159,7 @@
                                 </div>
                                 <div class="media-body">
                                     <h5 class="box-title">Our Address</h5>
-                                    <p class="box-text">374 William S Canning Blvd, Fall River MA 2721, USA</p>
+                                    <p class="box-text">The Affaires, 6th Floor, 603, Sector 17, Palm Beach Road, Sanpada,Navi Mumbai 400705</p>
                                 </div>
                             </div>
                         </div>
@@ -166,13 +172,16 @@
                                     <h5 class="box-title">Contact Number</h5>
                                     <h6 class="business-contact">For Business</h6>
                                     <p class="box-text">
-                                        <a href="tel:+13217322978">Mobile: +13217322978</a>
-                                        <a href="mailto:saorhelp@gmail.com">Email: saorhelp@gmail.com</a>
+                                        <a href="tel:+918169482831">Mobile: +918169482831</a>
+                                        <a href="mailto:
+                                        business@sociomark.in">Email: 
+                                            business@sociomark.in</a>
                                     </p>
                                     <h6 class="careers-contact">For Careers</h6>
                                     <p class="box-text">
                                         <a href="tel:+13217322978">Mobile: +13217322978</a>
-                                        <a href="mailto:saorhelp@gmail.com">Email: saorhelp@gmail.com</a>
+                                        <a href="mailto:hr@sociomark.in">Email: 
+                                            hr@sociomark.in</a>
                                     </p>
                                 </div>
                             </div>

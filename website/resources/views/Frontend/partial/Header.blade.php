@@ -118,20 +118,111 @@ Header Area
             </div>
         </div>
     </header>
+    
     <!-- popup modal  start-->
     <!-- Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header d-none">
                     <h1 class="modal-title fs-5" id="exampleModalLabel">Let's schedule a Call & Explore.</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
+                    <div class="">
+                        <h3 class="text-center mb-15 form-head head-mbl-text">Please Fill In The Form Below</h3>
+                        @if (session('success'))
+                        <div class="alert alert-success">
+                            {{ session('success') }}
+                        </div>
+                        @endif
 
+
+                        <form action="{{ route('contact.store') }}" method="POST" class="contact-form style2">
+                            @csrf
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" class="form-control @error('name') is-invalid @enderror" name="name" id="name" placeholder="Enter your Name" value="{{ old('name') }}">
+                                    @error('name')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <label for="email">Email</label>
+                                    <input type="text" class="form-control @error('email') is-invalid @enderror" name="email" id="email" placeholder="Enter your Email" value="{{ old('email') }}">
+                                    @error('email')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="phone">Phone</label>
+                                    <input type="text" class="form-control @error('phone') is-invalid @enderror" name="phone" id="phone" placeholder="Enter your Phone" value="{{ old('phone') }}">
+                                    @error('phone')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+
+                                <div class="form-group col-md-6">
+
+                                    <label for="service">Service you want?</label>
+                                    <select class="form-select @error('service') is-invalid @enderror" id="service" name="service">
+                                        <option selected disabled>Choose an option</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+
+                                    @error('service')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+
+                                <div class="form-group col-md-6">
+
+                                    <label for="budget">Marketing Budget</label>
+                                    <select class="form-select @error('budget') is-invalid @enderror" id="budget" name="budget">
+                                        <option selected disabled>Choose an option</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+                                    @error('budget')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+
+                                <div class="form-group col-md-6">
+
+                                    <label for="aboutUs">How did you hear about Us?</label>
+                                    <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs" name="aboutUs">
+                                        <option selected disabled>Choose an option</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+                                    @error('aboutUs')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-12">
+                                    <label for="messageforus">Your Message</label>
+                                    <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus" placeholder="Enter your message" rows="4" name="messageforus"></textarea>
+                                    @error('messageforus')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="col-12 form-group mb-0 text-center">
+                                    <button class="th-btn th-radius">Submit Message</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer d-none">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     <button type="button" class="btn btn-primary">Save changes</button>
                 </div>

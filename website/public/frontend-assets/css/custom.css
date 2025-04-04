@@ -1,0 +1,147 @@
+:root {
+    --theme-color: #106c97;
+    --theme-color2: #ff900b;
+    --color-white: #fff;
+    --color-black: #000000;
+}
+
+p {
+    color: var(--color-black);
+}
+.text-blue {
+    color: var(--theme-color);
+}
+
+.text-orange {
+    color: var(--theme-color2);
+}
+
+.service-process_img {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    background: #f1f1f1;
+    margin-left: 35%;
+}
+.service-process:hover .service-process_img{
+    background-color: #ffffff;
+    border: 3px solid var(--theme-color2);
+}
+.service-process:hover .service-process_title{
+    color: var(--theme-color);
+}
+.service-process_title{
+    font-weight: 800;
+}
+.process-item .box-number {
+    color: #ffffff;
+}
+
+.th-btn {
+    color: #ffffff;
+}
+
+.space-extra2,
+.space-extra2-bottom {
+    padding-bottom: calc(var(--section-space) - 40px);
+    padding-top: calc(var(--section-space) - 40px);
+}
+
+.brand-item.style2 img.original {
+    -webkit-filter: none;
+    filter: none;
+}
+
+.discount-tag {
+    color: #ffffff;
+}
+
+.discount-tag span {
+    --rotate-letter: 9deg;
+}
+
+.main-menu.style2>ul>li>a:hover {
+    color: #ffffff;
+}
+
+
+
+
+/* portfolio flip image css  */
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    aspect-ratio: 1;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+    /* position: relative; */
+    width: 100%;
+    aspect-ratio: 1;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 1rem;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+    background-color: #bbb;
+    color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+    background-color: #106c97;
+    transform: rotateY(180deg);
+    padding: 0.5rem;
+    align-content: center;
+}
+
+.flip-box-back h2 {
+    font-size: 30px;
+}
+
+.flip-box-back * {
+    color: white !important;
+}
+
+.footer-widget.widget_nav_menu {
+    color: var(--theme-color2);
+}
+
+.footer-widget.widget_nav_menu a:hover {
+    color: var(--color-white);
+}
+.footer-widget.widget_nav_menu a:before {
+    color: var(--theme-color2);
+}
+
+.footer-widget .widget_title:before{
+    background: var(--theme-color2) ;
+}
+.footer-widget .th-social a:hover{
+    color: var(--color-white);
+    background: var(--theme-color2) ;
+}

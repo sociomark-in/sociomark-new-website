@@ -84,7 +84,7 @@
                         <div class="about-wrapp justify-content-center">
                             <!-- <div class="about-shape"><img src="{{ asset('frontend-assets/img/shape/shape-5.png') }}" alt=""></div> -->
                             <div class="discount-wrapp">
-                                <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video">
+                                <a href="https://youtu.be/fUcECL2KLeg" class="play-btn popup-video">
                                     <i class="fa-solid fa-play"></i></a>
                                 <div class="discount-tag">
                                     <span class="discount-anime">Build a success brand with Sociomark</span>

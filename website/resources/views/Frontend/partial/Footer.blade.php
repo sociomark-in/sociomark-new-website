@@ -58,7 +58,8 @@
                                 <div class="box-icon">
                                     <img src="assets/img/icon/location.svg" alt="">
                                 </div>
-                                <p class="box-text">The Affaires, 6th Floor, 603, Sector 17, Palm Beach Road, Sanpada,Navi Mumbai 400705</p>
+                                <p class="box-text">
+                                    <a class="box-link">The Affaires, 6th Floor, 603, Sector 17, Palm Beach Road, Sanpada,Navi Mumbai 400705</a></p>
                             </div>
                             <div class="info-box">
                                 <div class="box-icon">
@@ -80,7 +81,7 @@
                                 <div class="box-icon">
                                     <img src="assets/img/icon/clock.svg" alt="">
                                 </div>
-                                <p class="box-text">09am - 05pm Mon-Sat</p>
+                                <p class="box-text"><a class="box-link">10 AM - 07 PM MON-SAT</a></p>
                             </div>
                         </div>
                     </div>
@@ -113,3 +114,9 @@
         </path>
     </svg>
 </div>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
