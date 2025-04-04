@@ -245,7 +245,7 @@
                 </div>
                 <div class="col-lg-8">
                     <div class="title-area mb-25 mt-n1">
-                        <span class="sub-title sub-title4 style1 ">About Us</span>
+                        {{-- <span class="sub-title sub-title4 style1 ">About Us</span> --}}
                         <h2 class="sec-title ">Innovative Digital Solutions for Modern Businesses</h2>
                     </div>
                     <p class="mt-n2 mb-25 sec-para">Established in 1995, Saor has been a leading force in the digital landscape for
@@ -259,6 +259,90 @@
 
     </div>
 
+    <div class="overflow-hidden position-relative space-extra-top space-bottom garally" id="portfolio-sec">
+        <div class="container">
+            <div class="title-area text-center mb-25">
+                <h2 class="sec-title">Our Work Culture</h2>
+            </div>
+            <div class="filter-menu filter-menu-active mt-5 mb-4">
+                <button data-filter="*" class="tab-btn active" type="button">All Works</button>
+                <button data-filter=".cat1" class="tab-btn" type="button">Apps</button>
+                <button data-filter=".cat2" class="tab-btn" type="button">Branding</button>
+                <button data-filter=".cat3" class="tab-btn" type="button">Creative</button>
+
+            </div>
+            <div class="portfolio-area">
+                <div class="row gy-4 filter-active garally-row-height">
+                    <div class="col-md-6 col-xl-auto filter-item cat1 cat5 cat7 cat3">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto filter-item cat5 cat5 cat8 cat1">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto filter-item cat5 cat3 cat2">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto filter-item cat4 cat1 cat6">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto filter-item cat2 cat3">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto filter-item cat7 cat5 cat3">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto filter-item cat4 cat6">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto filter-item cat1 cat2 cat5">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-auto filter-item cat1 cat2 cat5">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    
     <div class="key-point-about-us mb-md-5 mb-3" id="key-point-about-us">
         <div class="container">
             <div class="row d-flex justify-content-between align-items-center">
@@ -358,88 +442,6 @@
         </div>
     </div>
 
-    <div class="overflow-hidden position-relative space-extra-top space-bottom garally" id="portfolio-sec">
-        <div class="container">
-            <div class="title-area text-center mb-25">
-                <h2 class="sec-title">Creative Work Portfolio</h2>
-            </div>
-            <div class="filter-menu filter-menu-active mt-5 mb-4">
-                <button data-filter="*" class="tab-btn active" type="button">All Works</button>
-                <button data-filter=".cat1" class="tab-btn" type="button">Apps</button>
-                <button data-filter=".cat2" class="tab-btn" type="button">Branding</button>
-                <button data-filter=".cat3" class="tab-btn" type="button">Creative</button>
-
-            </div>
-            <div class="portfolio-area">
-                <div class="row gy-4 filter-active garally-row-height">
-                    <div class="col-md-6 col-xl-auto filter-item cat1 cat5 cat7 cat3">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto filter-item cat5 cat5 cat8 cat1">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto filter-item cat5 cat3 cat2">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto filter-item cat4 cat1 cat6">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto filter-item cat2 cat3">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto filter-item cat7 cat5 cat3">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto filter-item cat4 cat6">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto filter-item cat1 cat2 cat5">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto filter-item cat1 cat2 cat5">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
-                </div> -->
-            </div>
-        </div>
-    </div>
+    
 </main>
 @endsection

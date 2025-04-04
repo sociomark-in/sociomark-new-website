@@ -10,7 +10,10 @@
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
                             <div class="about-logo">
-                                <a class="icon-masking" href="index.html"><img src="{{ asset('frontend-assets/img/logo/sc-white-horizontal.png') }}" alt="sociomark"></a>
+                                <a class="icon-masking" href="index.html">
+                                    {{-- <img src="{{ asset('frontend-assets/img/logo/sc-white-horizontal.png') }}" alt="sociomark"> --}}
+                                    <img src="{{ asset('frontend-assets/img/logo/sociomark-new-logo.png') }}"  height="200" alt="sociomark">
+                                </a>
                             </div>
                             {{-- <p class="about-text">Saor, meaning "free" in Gaelic, embodies our dedication to liberating your brand's potential in the digital realm. Founded in 1995, we boast a rich history.</p> --}}
                             <div class="th-social">

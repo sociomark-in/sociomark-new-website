@@ -98,7 +98,7 @@ p {
     position: absolute;
     width: 100%;
     aspect-ratio: 1;
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
     overflow: hidden;
     -webkit-backface-visibility: hidden;
     /* Safari */
@@ -145,3 +145,43 @@ p {
     color: var(--color-white);
     background: var(--theme-color2) ;
 }
+
+
+/* homw page css start */
+.testi-card {
+    border: 1px solid black !important;
+}
+.th-btn.th-black2:hover {
+    color: white;
+}
+.work-portfolio .filter-menu .tab-btn.active {
+    background: #106c97;
+    padding: 10px 25px;
+    color: white;
+    border-left: none;
+}
+.work-portfolio .filter-menu .tab-btn:not(:last-child):before {
+    right: -28%;
+    background-color: #ffffff;
+}
+.work-portfolio .filter-menu .tab-btn {
+    border: 1px solid black;
+    padding: 10px 25px;
+    color: black;
+}
+.accordion-item .accordion-button:not(.collapsed) .icon {
+    background-color: var(--theme-color);
+    color: white;
+}
+.arrow-wrap .slider-arrow {
+    opacity: 1;
+    visibility: visible;
+}
+.arrow-wrap .slider-arrow:hover{
+    color: white;
+}
+.slider-arrow.style3 {
+    background-color: #106c97;
+    color: white !important;
+}
+/* work culture css start */
