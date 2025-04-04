@@ -71,7 +71,7 @@
 
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
                                 <div class="blog-img box-blog">
-                                    <a href="{{ route('blog-inner', $blog->id) }}">
+                                    <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
                                         <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image" width="100%" style="height: 270px; object-fit: cover; margin-right: 5px;">
                                     </a>
                                 </div>
@@ -81,9 +81,9 @@
                                         <!-- <a href="#"><i class="fa-regular fa-clock"></i> 08 min read</a> -->
                                         <a href="#"><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->getCategoryNames()) ?? 'No Category' }}</a>
                                     </div>
-                                    <h3 class="blog-title blog-title-text"><a href="{{ route('blog-inner', $blog->id) }}">{{ $blog->blog_name }}</a></h3>
+                                    <h3 class="blog-title blog-title-text"><a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">{{ $blog->blog_name }}</a></h3>
                                     <p class="blog-text">{{ Str::limit(strip_tags($blog->content), 100) }}</p>
-                                    <a href="{{ route('blog-inner', $blog->id) }}" class="th-btn black-border th-icon th-radius">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
+                                    <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}" class="th-btn black-border th-icon th-radius">Read More<i class="fa-regular fa-arrow-right ms-2"></i></a>
                                 </div>
                             </div>
 

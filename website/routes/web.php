@@ -10,6 +10,10 @@ use App\Http\Controllers\Admin\TagController;
 use App\Http\Controllers\Website\HomeController;
 use App\Http\Controllers\Website\BlogWebController;
 use App\Http\Controllers\Website\ContactController;
+use App\Http\Controllers\Website\IndustryController;
+use App\Http\Controllers\Website\WorkCultureController;
+use App\Http\Controllers\Admin\AdminWorkCultureController;
+use App\Http\Controllers\Website\ServiceController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/welcome', function () {
@@ -23,13 +27,18 @@ Route::get('/dashboard', function () {
 Route::get('/', [HomeController::class, 'Home'])->name('home');
 Route::get('/about', [HomeController::class, 'About'])->name('about');
 Route::get('/blog', [BlogWebController::class, 'index'])->name('blog');
-Route::get('/blog-inner/{id}', [BlogWebController::class, 'innerBlog'])->name('blog-inner');
-Route::get('/blog-category/{id}', [BlogWebController::class, 'categoryBlog'])->name('categoryBlog');
-Route::get('/blog-tag/{id}', [BlogWebController::class, 'tagBlog'])->name('tagBlog');
-Route::get('/blog-category/{categoryName}', [BlogWebController::class, 'categoryBlog'])->name('categoryBlog');
+// Route::get('/blog-inner/{id}', [BlogWebController::class, 'innerBlog'])->name('blog-inner');
+// Route::get('/blog-category/{id}', [BlogWebController::class, 'categoryBlog'])->name('categoryBlog');
+// Route::get('/blog-tag/{id}', [BlogWebController::class, 'tagBlog'])->name('tagBlog');
+// Route::get('/blog-category/{categoryName}', [BlogWebController::class, 'categoryBlog'])->name('categoryBlog');
 
-
+Route::get('/blog-inner/{slug}', [BlogWebController::class, 'innerBlog'])->name('blog-inner');
+Route::get('/categoryBlog/{slug}', [BlogWebController::class, 'categoryBlog'])->name('categoryBlog');
+Route::get('/tagBlog/{slug}', [BlogWebController::class, 'tagBlog'])->name('tagBlog');
 Route::get('/services', [HomeController::class, 'Services'])->name('services');
+Route::get('/service/seo', [ServiceController::class, 'index'])->name('seo');
+Route::get('/work-culture', [WorkCultureController::class, 'index'])->name('workculture');
+Route::get('/industries/ecommerce', [IndustryController::class, 'index'])->name('industry');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');
 
@@ -49,6 +58,7 @@ Route::middleware(['admin:admin,hr,business,user'])->group(function () {
     Route::resource('categories', CategoryController::class);
     Route::resource('tags', TagController::class);
     Route::resource('blogs', BlogController::class);
+    Route::get('Admin/Work-gallary/create', [AdminWorkCultureController::class, 'create']);
     Route::get('admin/enquiryList', [ContatListController::class,'index'])->name('contactList');
     // Route::get('/categories', [CategoryController::class, 'Create'])->name('categoryForm');
     // Route::post('/categories', [CategoryController::class, 'store'])->name('categoryStore');

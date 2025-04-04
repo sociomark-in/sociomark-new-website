@@ -62,6 +62,8 @@
         background: transparent;
         border-radius: 10px;
         padding: 45px 23px;
+        /* box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        border: 2px solid transparent; */
         box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
         -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
         -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
