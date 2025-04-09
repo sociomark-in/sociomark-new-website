@@ -444,31 +444,33 @@
     <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden overflow-hidden space" id="about-sec">
         <div class="container">
             <div class="row align-items-end">
-                <!-- <div class="col-lg-4 mb-30 mb-xl-0">
-                    <div class="imgBox img-box2 me-xl-4 mt-lg-60">
-                        <div class="img1 th-anim mb-35">
-                            <img src="{{ asset('frontend-assets/img/normal/about_2_1.png') }}" alt="About">
-                        </div>
-                    </div>
-                </div> -->
                 <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
                     <div class="title-area mb-md-3 mb-2 mt-n1">
-                        <h2 class="sec-title text-center ">Expand Your Global Reach with Our Comprehensive International SEO Solutions</h2>
+                        <h2 class="text-center fw-bold sec-title my-3"
+                            data-aos="zoom-in"
+                            data-aos-delay="100"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
+                            Expand Your Global Reach with <span class="text-blue"> Our Comprehensive International</span> SEO Solutions
+                        </h2>
                     </div>
-                    <p class="mt-n2 mb-25 sec-para text-center">Established in 1995, Saor has been a leading force in the digital landscape for
-                        over two decades. We're a passionate team of designers, developers, and strategists driven by a
-                        shared vision. Our digital agency combines innovation, strategy, and expertise to fuel your online
-                        success. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, animi voluptatem esse quis tenetur, quidem harum ipsa tempore laborum reprehenderit nam! Voluptatum, hic minima temporibus vero pariatur accusamus ipsam qui?
+                    <p class="mt-n2 mb-25 sec-para text-center" data-aos="fade-down"
+                        data-aos-delay="200"
+                        data-aos-duration="1200"
+                        data-aos-easing="ease-in-out">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis voluptas doloremque culpa reiciendis repellendus vel quasi ad blanditiis sint doloribus incidunt, asperiores mollitia atque, expedita quisquam nemo eos consequatur deserunt. Ipsam repudiandae ab fuga cupiditate? Odit exercitationem ea culpa dignissimos. Lorem ipsum dolor sit, amet consectetur.
                     </p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="choose-area overflow-hidden mb-md-3 mt-md-3 mt-0 md-0" id="about-sec2" data-mask-src="{{ asset('frontend-assets/img/bg/choose_bg_3.png') }}">
+    <div class="choose-area overflow-hidden mb-md-3 mt-md-3 mt-0 md-0" id="about-sec2">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6">
+                <div class="col-xl-6" data-aos="fade-left"
+                    data-aos-delay="300"
+                    data-aos-duration="1200"
+                    data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
                         <span class="sub-title style1">Benefits You Can't Ignore</span>
                         <h2 class="sec-title ">The Powerful Benefits of Saor SEO</h2>
@@ -504,7 +506,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-6" data-aos="fade-right"
+                    data-aos-delay="300"
+                    data-aos-duration="1200"
+                    data-aos-easing="ease-in-out">
                     <div class="choose-image">
                         <div class="img1 tilt-active">
                             <img src="{{ asset('frontend-assets/img/normal/choose_1.png') }}" alt="Choose">
@@ -523,7 +528,14 @@
                     <div class="title-area text-center">
                         <!-- <div class="shadow-title">GOALS</div> -->
                         <!-- <span class="sub-title sub-title4 ">Our Strategy<span></span></span> -->
-                        <h2 class="sec-title ">International Seo Roadmap</h2>
+                        <!-- <h2 class="sec-title "> </h2> -->
+                        <h2 class="fw-bold mb-5 sec-title"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
+                            International Seo <span class="text-blue"> Roadmap</span>
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -532,7 +544,10 @@
                     <div class="accordion-item2">
                         <h3 class="box-title">Keyword research and localization</h3>
                     </div>
-                    <div class="according-img">
+                    <div class="according-img"  data-aos="fade-right"
+                            data-aos-delay="100"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
                         <img src="{{ asset('frontend-assets/img/normal/ser_2_1.jpg') }}" alt="">
                         <p class="sec-para text">Appeals to clients looking for innovative and creative digital
                             solutions,
@@ -1025,7 +1040,7 @@
         </div>
 
     </div>
-    <div class="th-blog-wrapper space-top space-extra-bottom" id="contact" data-mask-src="{{ asset('frontend-assets/img/bg/choose_bg_3.png') }}">
+    <div class="th-blog-wrapper space-top space-extra-bottom" id="contact">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-xl-5 pe-md-5">

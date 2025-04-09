@@ -36,7 +36,7 @@ Mobile Menu
                     <li class="menu-item-has-children">
                         <a href="{{ route('blog') }}">Blog</a>
                     </li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="{{ route('contact') }}">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -60,14 +60,14 @@ Header Area
                               
                                 <ul>
                                     <li class="">
-                                      <a href="#">Home</a>
+                                      <a href="{{ route('home') }}">Home</a>
                                     </li>
-                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="{{ route('about') }}">About Us</a></li>
                                     <li class="menu-item-has-children">
-                                      <a href="#">Services</a>
+                                      <a href="{{ route('services') }}">Services</a>
                                       <ul class="sub-menu">
                                         <li><a href="#">Digital Marketing</a></li>
-                                        <li><a href="#">SEO</a></li>
+                                        <li><a href="{{ route('seo') }}">SEO</a></li>
                                         <li><a href="#">Social Media Marketing</a></li>
                                         <li><a href="#">Website Development</a></li>
                                         <li><a href="#">Content Marketing</a></li>
@@ -78,7 +78,7 @@ Header Area
                                     <li class="menu-item-has-children">
                                       <a href="#">Industries</a>
                                       <ul class="sub-menu">
-                                        <li><a href="#">Education</a></li>
+                                        <li><a href="{{ route('industry') }}">Education</a></li>
                                         <li><a href="#">Healthcare</a></li>
                                         <li><a href="#">FMCG</a></li>
                                         <li><a href="#">News & Media</a></li>
@@ -96,7 +96,7 @@ Header Area
                                     <li><a href="#">Portfolio</a></li>
                                     <li><a href="{{ route('blog') }}">Blog</a></li>
                                     <li><a href="#">Carrers</a></li>
-                                    <li><a href="#">Work Culture</a></li>
+                                    <li><a href="{{ route('workculture') }}">Work Culture</a></li>
                                     <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                   </ul>
                             </nav>

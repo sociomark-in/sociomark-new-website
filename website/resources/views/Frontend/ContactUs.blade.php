@@ -80,8 +80,8 @@
     }
 
     #contact .contact-media .icon-btn {
-        width: 46px;
-        height: 46px;
+        width: 55px;
+        height: 55px;
         border-radius: 10px;
         background: #106c97;
         color: white;
@@ -227,7 +227,6 @@
                                             <span class="text-danger">{{ $message }}</span>
                                         @enderror
                                     </div>
-
                                     <div class="form-group col-md-6">
                                         <i class="far fa-envelope"></i>
                                         <label for="email">Email</label>
@@ -330,43 +329,6 @@
 
 
     </main>
-    <link href="{{ asset('frontend-assets/css/ihover.css')}}" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/2.0.0/css/imagehover.min.css" integrity="sha512-SYBBAnJsPEzSQ/kBqkR/9krJ+EUgF624c8uaMBww1Q26pnCw5k7zVmtc48BfXjZ9MRNNBveIdhx/na1xRLWgjw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <section>
-        <div class="container">
-            <div class="row">
-              <!-- Bottom to top-->
-<div class="row">
-    <div class="col-sm-6">
    
-      <!-- normal -->
-      <div class="ih-item square effect3 bottom_to_top"><a href="#">
-          <div class="img"><img src="images/assets/rect/1.jpg" alt="img"></div>
-          <div class="info">
-            <h3>Heading here</h3>
-            <p>Description goes here</p>
-          </div></a></div>
-      <!-- end normal -->
-   
-    </div>
-    <div class="col-sm-6">
-   
-      <!-- colored -->
-      <div class="ih-item square colored effect3 bottom_to_top"><a href="#">
-          <div class="img"><img src="images/assets/rect/4.jpg" alt="img"></div>
-          <div class="info">
-            <h3>Heading here</h3>
-            <p>Description goes here</p>
-          </div></a></div>
-      <!-- end colored -->
-   
-    </div>
-  </div>
-  <!-- end Bottom to top-->
-
-            </div>
-        </div>
-    </section>
    
     @endsection

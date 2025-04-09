@@ -3,7 +3,8 @@
     #industries #about-sec .sec-title,
     #industries #about-sec2 .sec-title,
     #industries #about-sec3 .sec-title,
-    #industries #about-sec4 .sec-title {
+    #industries #about-sec4 .sec-title,
+    #industries #portfolio-sec .sec-title{
         font-size: 35px;
         line-height: 42px;
     }
@@ -19,7 +20,8 @@
 
     #industries #about-sec .sec-para,
     #industries #about-sec2 .sec-para,
-    #industries #about-sec3 .sec-para {
+    #industries #about-sec3 .sec-para,
+    #industries #portfolio-sec .sec-para {
         line-height: 28px;
         font-size: 20px;
         letter-spacing: .10px;
@@ -53,6 +55,75 @@
         color: white;
         font-size: 66px;
     }
+
+    #industries #about-sec2 .choose-feature .box-icon {
+        min-width: 50px;
+        height: 50px;
+    }
+
+    /* client section */
+  /* gallary :start */
+
+  #portfolio-sec {
+        padding-top: 20px;
+    }
+
+    #industries .filter-menu .tab-btn:hover,
+    #industries .garally .filter-menu .tab-btn.active {
+        padding: 10px 25px !important;
+        font-weight: 500;
+        border-bottom: 3px solid #106c97;
+        background: transparent;
+        border-radius: 0px;
+        border-left: none;
+        color: #106c97;
+        border-bottom: 4px solid #106c97;
+    }
+
+    #industries .garally .filter-menu .tab-btn {
+        padding: 10px 11px !important;
+        border-radius: 0px;
+        outline: none;
+        border-bottom: 1px solid black;
+        line-height: 28px;
+        font-size: 20px;
+        letter-spacing: .10px;
+    }
+
+    .garally .filter-menu .tab-btn:not(:last-child):before {
+        height: 0px;
+    }
+
+    .garally .garally-row-height {
+        height: 748px;
+    }
+
+    #portfolio-sec .global-img:before,
+    #portfolio-sec .project-item:before {
+        content: none;
+        width: 0;
+        height: 0;
+    }
+
+    #portfolio-sec .project-item {
+        border-radius: 10px;
+    }
+
+    #portfolio-sec .project-item {
+        box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
+        -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
+        -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
+        transform: none;
+    }
+
+    #portfolio-sec .global-img:hover img {
+        transform: none;
+        transition: none;
+    }
+
+
+    /* gallary end */
+    /* client end */
 </style>
 @section('content')
 <main id="industries">
@@ -96,34 +167,40 @@
             <div class="row">
                 <div class="col-xl-6">
                     <div class="title-area mb-20">
-                        <span class="sub-title style1  text-white">Benefits You Can't Ignore</span>
+                        <!-- <span class="sub-title style1  text-white">Benefits You Can't Ignore</span> -->
                         <h2 class="sec-title  text-white">The Powerful Benefits of Saor SEO</h2>
                     </div>
                     <p class="sec-para mb-35">In today's digital landscape, a strong online presence is critical for business success. But simply having a website isn't enough.</p>
                     <div class="choose-feature-wrap">
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_1.svg') }}" alt="Icon">
+                                <!-- <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_1.svg') }}" alt="Icon"> -->
+                                <i class="fa-light fa-calendar"></i>
                             </div>
                             <div class="media-body">
+
                                 <h3 class="box-title">Increased Website Traffic</h3>
                                 <p class="box-text">Our SEO strategies will attract more qualified visitors to your website, bringing you closer.</p>
                             </div>
                         </div>
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_2.svg') }}" alt="Icon">
+                                <!-- <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_2.svg') }}" alt="Icon"> -->
+                                <i class="fa-light fa-calendar"></i>
                             </div>
                             <div class="media-body">
+
                                 <h3 class="box-title">Enhanced Brand Awareness</h3>
                                 <p class="box-text">Increased website traffic and the improved rankings naturally lead to greater brand awareness.</p>
                             </div>
                         </div>
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_3.svg') }}" alt="Icon">
+                                <!-- <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_3.svg') }}" alt="Icon"> -->
+                                <i class="fa-light fa-calendar"></i>
                             </div>
                             <div class="media-body">
+
                                 <h3 class="box-title">More Leads & Conversions</h3>
                                 <p class="box-text">By attracting qualified the traffic and optimizing your website for conversions, we'll help you.</p>
                             </div>
@@ -141,7 +218,81 @@
             </div>
         </div>
     </div>
-    <div class="about-area2 mb-md-5 mt-md-5 mt-0 md-0 pt-5 pb-5 overflow-hidden overflow-hidden space" id="about-sec3">
+    <div class="overflow-hidden position-relative space-extra-top space-bottom garally mt-md-5" id="portfolio-sec">
+        <div class="container">
+            <div class="title-area text-center mb-25">
+                <h2 class="sec-title">Clients We've Worked With</h2>
+            </div>
+            <div class="filter-menu filter-menu-active mt-md-5 mb-md-4">
+                <button data-filter="*" class="tab-btn active" type="button">All</button>
+                <button data-filter=".cat1" class="tab-btn" type="button">Education</button>
+                <button data-filter=".cat2" class="tab-btn" type="button">Healthcare</button>
+                <button data-filter=".cat3" class="tab-btn" type="button">News & Media</button>
+                <button data-filter=".cat4" class="tab-btn" type="button">Real Eastate</button>
+                <button data-filter=".cat5" class="tab-btn" type="button">Logistist</button>
+                <button data-filter=".cat6" class="tab-btn" type="button">Gaming</button>
+
+            </div>
+            <div class="portfolio-area">
+                <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
+                    <div class="col-md-6 col-xl-3 filter-item cat1 cat5 cat7 cat3">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 filter-item cat5 cat5 cat8 cat1">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 filter-item cat5 cat3 cat2">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 filter-item cat4 cat1 cat6">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-xl-3 filter-item cat4 cat6">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 filter-item cat4 cat6">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3 filter-item cat4 cat6">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- <div class="about-area2 mb-md-5 mt-md-5 mt-0 md-0 pt-5 pb-5 overflow-hidden overflow-hidden space" id="about-sec3">
         <div class="container">
             <div class="row ">
                 <div class="col-lg-8 pe-4">
@@ -167,11 +318,11 @@
             </div>
         </div>
 
-    </div>
+    </div> -->
     <div class="space mb-md-3 mt-md-3 mt-0 md-0" id="about-sec4">
         <div class="container">
             <div class="title-area text-center">
-            <h3 class="box-title text-white fs-5 ls-1">STATISTICS</h3>
+                <h3 class="box-title text-white fs-5 ls-1">STATISTICS</h3>
                 <h2 class="sec-title mt-3">We are a results driven while label seo agency</h2>
             </div>
             <div class="row gy-4">
@@ -222,6 +373,7 @@
             </div>
         </div>
     </div>
+
 
 </main>
 @endsection
