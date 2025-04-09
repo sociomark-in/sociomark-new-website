@@ -3,6 +3,7 @@
 
 <head>
     @include('Frontend/partial/styleLinks')
+    @yield('custome-style')
 </head>
 
 <body>

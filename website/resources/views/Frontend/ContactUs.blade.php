@@ -5,7 +5,7 @@
 @section('keywords', 'seo, marketing, agency, web design')
 @section('robots', 'INDEX,FOLLOW')
 
-@section('custom_head')
+@section('custome-style')
     <style>
         #contact .contact-head {
             padding: 4rem 4rem 1rem 4rem;
