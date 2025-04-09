@@ -63,14 +63,18 @@ p {
 .main-menu.style2>ul>li>a:hover {
     color: #ffffff;
 }
-
-
+.brand-item {
+    height: 100px;
+}
+.brand-area {
+    padding: 30px 0;
+}
 
 
 /* portfolio flip image css  */
 .flip-box {
     background-color: transparent;
-    width: 300px;
+    width: 100%;
     aspect-ratio: 1;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
