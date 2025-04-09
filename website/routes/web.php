@@ -13,6 +13,7 @@ use App\Http\Controllers\Website\ContactController;
 use App\Http\Controllers\Website\IndustryController;
 use App\Http\Controllers\Website\WorkCultureController;
 use App\Http\Controllers\Admin\AdminWorkCultureController;
+use App\Http\Controllers\Website\PortfolioController;
 use App\Http\Controllers\Website\ServiceController;
 use Illuminate\Support\Facades\Route;
 
@@ -38,6 +39,7 @@ Route::get('/tagBlog/{slug}', [BlogWebController::class, 'tagBlog'])->name('tagB
 Route::get('/services', [HomeController::class, 'Services'])->name('services');
 Route::get('/service/seo', [ServiceController::class, 'index'])->name('seo');
 Route::get('/work-culture', [WorkCultureController::class, 'index'])->name('workculture');
+Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');
 Route::get('/industries/ecommerce', [IndustryController::class, 'index'])->name('industry');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');

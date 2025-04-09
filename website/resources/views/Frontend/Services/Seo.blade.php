@@ -3,12 +3,12 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
+@section('custome-style')
 <style>
     #seo-service #about-sec3,
     #seo-service #about-sec5,
     #seo-service #contact {
-        background-color: #F5F5F5;
+        background-color: #F5F5F5 !important;
     }
 
     #seo-service #about-sec {
@@ -99,7 +99,6 @@
         }
     }
 
-
     /* section 2 */
     #seo-service #about-sec2 {
         /* background-color: #F5F5F5; */
@@ -125,6 +124,26 @@
     /* section 2 end */
 
     /* section3 */
+    .according-img {
+        opacity: 0;
+        transform: scale(0.8);
+        /* Start smaller */
+        transition: all 0.6s ease;
+        pointer-events: none;
+        height: 0;
+        overflow: hidden;
+    }
+
+    /* Zoom in on hover */
+    .hover-item:hover .according-img {
+        opacity: 1;
+        transform: scale(1);
+        /* Zoom to normal size */
+        pointer-events: auto;
+        height: auto;
+        overflow: visible;
+    }
+
     #seo-service #about-sec3 .box-title {
         line-height: 32px;
         font-size: 25px;
@@ -224,6 +243,10 @@
     #seo-service #about-sec5 .box {
         padding: 28px 20px;
         border-radius: 10px;
+    }
+
+    #seo-service #about-sec5 .blog-single.has-post-thumbnail {
+        background-color: white !important;
     }
 
     #seo-service #about-sec5 .box-blog,
@@ -345,6 +368,65 @@
     /* end faq */
 
     /* services tab */
+    /* Slide-in animations */
+    @keyframes slideInRight {
+        from {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes slideInLeft {
+        from {
+            opacity: 0;
+            transform: translateX(-100px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    /* Zoom-in animation */
+    @keyframes zoomIn {
+        from {
+            opacity: 0;
+            transform: scale(0.85);
+        }
+
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+    /* Apply animations */
+    .animate-slide-in-right {
+        animation: slideInRight 0.6s ease forwards;
+    }
+
+    .animate-slide-in-left {
+        animation: slideInLeft 0.6s ease forwards;
+    }
+
+    .animate-zoom-in {
+        animation: zoomIn 0.6s ease forwards;
+    }
+
+    .animate-slide-in-right,
+    .animate-slide-in-left,
+    .animate-zoom-in {
+        animation-duration: 0.8s;
+        animation-delay: 0.1s;
+        animation-fill-mode: both;
+    }
+
     #seo-service #services-tab .nav-pills .nav-link {
         border-radius: 0.25rem;
         background-color: #106c97;
@@ -428,6 +510,8 @@
 
     /* contact form end */
 </style>
+@endsection
+
 @section('content')
 <main id="seo-service">
     <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg') }}">
@@ -526,9 +610,6 @@
             <div class="row justify-content-center">
                 <div class="col-xl-8">
                     <div class="title-area text-center">
-                        <!-- <div class="shadow-title">GOALS</div> -->
-                        <!-- <span class="sub-title sub-title4 ">Our Strategy<span></span></span> -->
-                        <!-- <h2 class="sec-title "> </h2> -->
                         <h2 class="fw-bold mb-5 sec-title"
                             data-aos="fade-up"
                             data-aos-delay="100"
@@ -544,10 +625,7 @@
                     <div class="accordion-item2">
                         <h3 class="box-title">Keyword research and localization</h3>
                     </div>
-                    <div class="according-img"  data-aos="fade-right"
-                            data-aos-delay="100"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
+                    <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/normal/ser_2_1.jpg') }}" alt="">
                         <p class="sec-para text">Appeals to clients looking for innovative and creative digital
                             solutions,
@@ -640,11 +718,20 @@
             <div class="row">
 
                 <div class="title-area mb-md-3 mb-2">
-                    <h2 class="sec-title text-center">International <span class="text-blue"> SEO</span> Service</h2>
+                    <h2 class="fw-bold mb-5 sec-title text-center"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        International Seo <span class="text-blue"> Roadmap</span>
+                    </h2>
                 </div>
 
-                <div class="d-lg-flex align-items-center ps-0">
-                    <div class="col-lg-3 col-12">
+                <div class="d-lg-flex ps-0">
+                    <div class="col-lg-3 col-12" data-aos="fade-right"
+                        data-aos-delay="200"
+                        data-aos-duration="1200"
+                        data-aos-easing="ease-in-out">
                         <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
                             aria-orientation="vertical">
                             <button class="nav-link p-3 fs-5 " data-bs-toggle="pill"
@@ -671,13 +758,19 @@
                         <div class="tab-content" id="v-pills-tabContent">
                             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                                 aria-labelledby="v-pills-home-tab" tabindex="0">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6 col-12 text-center side-padding-mbl">
+                                <div class="row ">
+                                    <div class="col-lg-6 col-12 text-center side-padding-mbl" data-aos="zoom-in"
+                                        data-aos-delay="200"
+                                        data-aos-duration="1200"
+                                        data-aos-easing="ease-in-out">
                                         <div class="page-img mt-md-0 mt-3">
                                             <img class="w-50" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 col-12 side-padding-mbl">
+                                    <div class="col-lg-6 col-12 side-padding-mbl" data-aos="fade-left"
+                                        data-aos-delay="200"
+                                        data-aos-duration="1200"
+                                        data-aos-easing="ease-in-out">
                                         <h4 class="mb-20 text-blue">How We Can Help</h4>
                                         <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
                                             touchpoints.
@@ -704,7 +797,7 @@
                             <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
                                 aria-labelledby="v-pills-profile-tab" tabindex="0">
 
-                                <div class="row align-items-center">
+                                <div class="row ">
                                     <div class="col-lg-6 col-12 text-center side-padding-mbl">
                                         <div class="row mt-md-0 mt-3">
                                             <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
@@ -748,7 +841,7 @@
                             </div>
                             <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
                                 aria-labelledby="v-pills-messages-tab" tabindex="0">
-                                <div class="row align-items-center">
+                                <div class="row ">
                                     <div class="col-lg-6 col-12 text-center side-padding-mbl">
                                         <div class="page-img mt-md-0 mt-3">
                                             <img class="w-50" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
@@ -781,7 +874,7 @@
                             <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
                                 aria-labelledby="v-pills-settings-tab" tabindex="0">
 
-                                <div class="row align-items-center">
+                                <div class="row ">
                                     <div class="col-lg-6 col-12 text-center side-padding-mbl">
                                         <div class="row mt-md-0 mt-3">
                                             <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
@@ -832,7 +925,13 @@
     <div class="overflow-hidden position-relative space-extra-top space-bottom garally mt-md-5" id="portfolio-sec">
         <div class="container">
             <div class="title-area text-center mb-25">
-                <h2 class="sec-title">Clients We've Worked With</h2>
+                <h2 class="fw-bold sec-title my-3"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                    Clients We've <span class="text-blue"> Worked With</span>
+                </h2>
             </div>
             <div class="filter-menu filter-menu-active mt-md-5 mb-md-4">
                 <button data-filter="*" class="tab-btn active" type="button">All</button>
@@ -844,7 +943,10 @@
                 <button data-filter=".cat6" class="tab-btn" type="button">Gaming</button>
 
             </div>
-            <div class="portfolio-area">
+            <div class="portfolio-area" data-aos="zoom-in"
+                data-aos-delay="200"
+                data-aos-duration="1200"
+                data-aos-easing="ease-in-out">
                 <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
                     <div class="col-md-6 col-xl-3 filter-item cat1 cat5 cat7 cat3">
                         <div class="project-item">
@@ -907,7 +1009,13 @@
     <section class="th-blog-wrapper space-top space-extra-bottom" id="about-sec5">
         <div class="container">
             <div class="title-area text-center mb-25">
-                <h2 class="sec-title mb-md-5">From The Blog: Blogs worth binging on.<span class="text-blue"> Dive in!</span></h2>
+                <h2 class="fw-bold sec-title my-3"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                    From The Blog: Blogs worth binging on. <span class="text-blue"> Dive in!</span>
+                </h2>
             </div>
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
@@ -948,16 +1056,23 @@
     <div class="overflow-hidden space" id="about-sec6">
         <div class="container">
             <div class="title-area text-center mb-25">
-                <h2 class="sec-title">Frequently Asked Questions</h2>
+                <!-- <h2 class="sec-title">Frequently Asked Questions</h2> -->
+                <h2 class="fw-bold sec-title my-3"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                    Frequently Asked <span class="text-blue"> Questions</span>
+                </h2>
             </div>
             <div class="row justify-content-center align-items-center mt-5">
                 <div class="col-xl-5">
                     <div class="me-xl-5 pe-xl-3">
                         <div class="title-area mb-30 text-center text-xl-start">
-                            <img src="https://www.gbim.com/about-us/sm_faq.png" alt="">
-                            <!-- <span class="sub-title sub-title7 style1 ">FAQS</span> -->
-                            <!-- <h2 class="sec-title ">Have Any Questions?</h2>
-                            <p class="sec-para ">We identify the most relevant and high-traffic keywords for your business. Our team conducts thorough research to understand your industry, competitors, and target audience to ensure your website ranks for terms that matter.</p> -->
+                            <img src="https://www.gbim.com/about-us/sm_faq.png" alt="" data-aos="zoom-in"
+                                data-aos-delay="200"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out">
                         </div>
 
                     </div>
@@ -1167,5 +1282,39 @@
             }
         }
     });
+    // services tab
+    const tabTriggers = document.querySelectorAll('[data-bs-toggle="pill"]');
+
+    tabTriggers.forEach(trigger => {
+        trigger.addEventListener('shown.bs.tab', (event) => {
+            const targetPaneId = event.target.getAttribute('data-bs-target');
+            const targetPane = document.querySelector(targetPaneId);
+
+            // Animate text content
+            const textCols = targetPane.querySelectorAll('.col-lg-6.col-12.side-padding-mbl');
+            textCols.forEach(col => {
+                col.classList.remove('animate-slide-in-right');
+                void col.offsetWidth;
+                col.classList.add('animate-slide-in-right');
+            });
+
+            // Animate images
+            const images = targetPane.querySelectorAll('.page-img img');
+            if (images.length === 1) {
+                images[0].classList.remove('animate-zoom-in');
+                void images[0].offsetWidth;
+                images[0].classList.add('animate-zoom-in');
+            } else if (images.length === 2) {
+                images[0].classList.remove('animate-slide-in-left');
+                images[1].classList.remove('animate-slide-in-right');
+                void images[0].offsetWidth; // force reflow
+                void images[1].offsetWidth;
+                images[0].classList.add('animate-slide-in-left');
+                images[1].classList.add('animate-slide-in-right');
+            }
+        });
+    });
+    // services tab end
 </script>
+
 @endpush

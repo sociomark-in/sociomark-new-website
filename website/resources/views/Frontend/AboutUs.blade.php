@@ -630,8 +630,8 @@
 
             </div>
             <div class="portfolio-area" data-aos="zoom-in"
-                data-aos-delay="300"
-                data-aos-duration="800"
+                data-aos-delay="200"
+                data-aos-duration="1200"
                 data-aos-easing="ease-in-out">
                 <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
                     <div class="col-md-6 col-xl-3 filter-item cat1 cat5 cat7 cat3">

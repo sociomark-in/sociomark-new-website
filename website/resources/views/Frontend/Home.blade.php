@@ -1700,12 +1700,3 @@
 </main>
 
 @endsection
-=======
-<style>
-    /* .brand-item {
-    width: 300px;
-    height: 100px;
-} */
-</style>
-@endsection
->>>>>>> f49bc012477f91eefa928b5170e74d0dd197d387
