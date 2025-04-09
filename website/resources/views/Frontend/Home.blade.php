@@ -32,12 +32,14 @@
     a {
         border-radius: 55px !important;
     }
-/* about-sec */
-#home .about-sec-title{
-    font-size: 24px;
-    font-weight: 500;
-}
-/* about-sec end */
+
+    /* about-sec */
+    #home .about-sec-title {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    /* about-sec end */
     /* section3 */
     /* #home #about-sec3 .accordion-item .accordion-button:not(.collapsed) .box-title {
         color: #106c97;
@@ -164,7 +166,7 @@
             <div class="row gy-5 ">
                 <div class="col-xl-5">
                     <div class=" pe-xl-4">
-                    <!-- <h4 class="about-sec-title ">Innovative Digital Solutions </h4> -->
+                        <!-- <h4 class="about-sec-title ">Innovative Digital Solutions </h4> -->
                         <p class="sec-para">In today's digital age, a sth4ong online presence is no longer a luxury but a necessity.
                             Sociomark is your trusted partner in navigating the tough digital landscape. As a leading
                             Digital Marketing agency based in Navi Mumbai,
@@ -1049,16 +1051,228 @@
                             <div class="arrow text-center">
                                 <img src="{{ asset('frontend-assets/img/shape/arrow-down.png') }}" alt="">
                             </div>
-                            <div class="sec-btn text-center">
+                            <<<<<<< HEAD
+                                <div class="sec-btn text-center">
                                 <a href="service.html" class="th-btn ser-btn th-icon">More About<i
                                         class="fa-regular fa-arrow-right ms-2"></i> </a>
+                                =======
+
+                                <div class="swiper-slide">
+                                    <div class="blog-grid">
+                                        <div class="box-img global-img">
+                                            <img src="{{ asset('frontend-assets/img/blog/blog_2_2.jpg') }}" alt="blog image">
+                                        </div>
+                                        <div class="box-content">
+                                            <div class="blog-meta">
+                                                <a href="blog.html"><i class="fa-light fa-calendar"></i>january 10,
+                                                    2025</a>
+                                            </div>
+                                            <h3 class="box-title"><a href="blog-details.html">6 Tips for Personal Selling in
+                                                    that Guarantee Success</a></h3>
+                                            <a href="blog-details.html" class="line-btn th-icon">Read More <i
+                                                    class="fa-regular fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="blog-grid">
+                                        <div class="box-img global-img">
+                                            <img src="{{ asset('frontend-assets/img/blog/blog_2_3.jpg') }}" alt="blog image">
+                                        </div>
+                                        <div class="box-content">
+                                            <div class="blog-meta">
+                                                <a href="blog.html"><i class="fa-light fa-calendar"></i>january 10,
+                                                    2025</a>
+                                            </div>
+                                            <h3 class="box-title"><a href="blog-details.html">8 Things About Web Design Your
+                                                    Boss Wants To Know</a></h3>
+                                            <a href="blog-details.html" class="line-btn th-icon">Read More <i
+                                                    class="fa-regular fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="blog-grid">
+                                        <div class="box-img global-img">
+                                            <img src="{{ asset('frontend-assets/img/blog/blog_2_1.jpg') }}" alt="blog image">
+                                        </div>
+                                        <div class="box-content">
+                                            <div class="blog-meta">
+                                                <a href="blog.html"><i class="fa-light fa-calendar"></i>january 10,
+                                                    2025</a>
+                                            </div>
+                                            <h3 class="box-title"><a href="blog-details.html">How Chatbots Can Help You
+                                                    Drive More Sales</a></h3>
+                                            <a href="blog-details.html" class="line-btn th-icon">Read More <i
+                                                    class="fa-regular fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="blog-grid">
+                                        <div class="box-img global-img">
+                                            <img src="{{ asset('frontend-assets/img/blog/blog_2_2.jpg') }}" alt="blog image">
+                                        </div>
+                                        <div class="box-content">
+                                            <div class="blog-meta">
+                                                <a href="blog.html"><i class="fa-light fa-calendar"></i>january 10,
+                                                    2025</a>
+                                            </div>
+                                            <h3 class="box-title"><a href="blog-details.html">6 Tips for Personal Selling in
+                                                    that Guarantee Success</a></h3>
+                                            <a href="blog-details.html" class="line-btn th-icon">Read More <i
+                                                    class="fa-regular fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="blog-grid">
+                                        <div class="box-img global-img">
+                                            <img src="{{ asset('frontend-assets/img/blog/blog_2_3.jpg') }}" alt="blog image">
+                                        </div>
+                                        <div class="box-content">
+                                            <div class="blog-meta">
+                                                <a href="blog.html"><i class="fa-light fa-calendar"></i>january 10,
+                                                    2025</a>
+                                            </div>
+                                            <h3 class="box-title"><a href="blog-details.html">8 Things About Web Design Your
+                                                    Boss Wants To Know</a></h3>
+                                            <a href="blog-details.html" class="line-btn th-icon">Read More <i
+                                                    class="fa-regular fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                        </div>
+                    </div>
+                    <button data-slider-prev="#blogSlider3" class="slider-arrow style3 slider-prev"><i
+                            class="far fa-arrow-left"></i></button>
+                    <button data-slider-next="#blogSlider3" class="slider-arrow style3 slider-next"><i
+                            class="far fa-arrow-right"></i></button>
+                </div>
+
+            </div>
+            <!-- <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img src="{{ asset('frontend-assets/img/shape/shape-9.png') }}" alt=""></div> -->
+            <!-- <div class="shape-mockup d-none d-lg-block" data-top="2%" data-left="0%"><img src="{{ asset('frontend-assets/img/shape/shape-13.png') }}" alt=""></div> -->
+            <!-- <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img src="{{ asset('frontend-assets/img/shape/shape-14.png') }}" alt=""></div> -->
+    </section>
+
+    <!--==============================
+                Brand Area
+                ==============================-->
+    <div class="brand-area bg-white overflow-hidden">
+        <div class="container th-container">
+            <div class="slider-area text-center">
+                <div class="swiper th-slider" id="brandSlider1"
+                    data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"476":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"5"},"1400":{"slidesPerView":"6"}}}'>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="brand-item style2">
+                                <a href="">
+                                    <img class="original w-75 h-100" src="https://www.sociomark.in/lp/assets/media/clients/buildtrack (1).png" alt="Brand Logo">
+                                    <img class="gray w-75 h-100" src="https://www.sociomark.in/lp/assets/media/clients/buildtrack (1).png" alt="Brand Logo">
+                                </a>
                             </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item style2">
+                                <a href="">
+                                    <img class="original w-75 h-100" src="https://www.sociomark.in/lp/assets/media/clients/euro.jpg" alt="Brand Logo">
+                                    <img class="gray w-75 h-100" src="https://www.sociomark.in/lp/assets/media/clients/euro.jpg" alt="Brand Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item style2">
+                                <a href="">
+                                    <img class="original w-75 h-100" src="https://www.sociomark.in/lp/assets/media/clients/tataplay.png" alt="Brand Logo">
+                                    <img class="gray w-75 h-100" src="https://www.sociomark.in/lp/assets/media/clients/tataplay.png" alt="Brand Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item style2">
+                                <a href="">
+                                    <img class="original" src="https://placehold.co/400x100" alt="Brand Logo">
+                                    <img class="gray" src="https://placehold.co/400x100" alt="Brand Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item style2">
+                                <a href="">
+                                    <img class="original" src="https://placehold.co/400x100" alt="Brand Logo">
+                                    <img class="gray" src="https://placehold.co/400x100" alt="Brand Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item style2">
+                                <a href="">
+                                    <img class="original" src="https://placehold.co/400x100" alt="Brand Logo">
+                                    <img class="gray" src="https://placehold.co/400x100" alt="Brand Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item style2">
+                                <a href="">
+                                    <img class="original" src="https://placehold.co/400x100" alt="Brand Logo">
+                                    <img class="gray" src="https://placehold.co/400x100" alt="Brand Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item style2">
+                                <a href="">
+                                    <img class="original" src="https://placehold.co/400x100" alt="Brand Logo">
+                                    <img class="gray" src="https://placehold.co/400x100" alt="Brand Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item style2">
+                                <a href="">
+                                    <img class="original" src="https://placehold.co/400x100" alt="Brand Logo">
+                                    <img class="gray" src="https://placehold.co/400x100" alt="Brand Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item style2">
+                                <a href="">
+                                    <img class="original" src="https://placehold.co/400x100" alt="Brand Logo">
+                                    <img class="gray" src="https://placehold.co/400x100" alt="Brand Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item style2">
+                                <a href="">
+                                    <img class="original" src="https://placehold.co/400x100" alt="Brand Logo">
+                                    <img class="gray" src="https://placehold.co/400x100" alt="Brand Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brand-item style2">
+                                <a href="">
+                                    <img class="original" src="https://placehold.co/400x100" alt="Brand Logo">
+                                    <img class="gray" src="https://placehold.co/400x100" alt="Brand Logo">
+                                </a>
+                            </div>
+                            >>>>>>> f49bc012477f91eefa928b5170e74d0dd197d387
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- <div class="shape-mockup spin  d-none d-xl-block" data-top="3%" data-right="18%"><img src="{{ asset('frontend-assets/img/shape/shape-9.png') }}" alt=""></div> -->
+    </div>
+    <!-- <div class="shape-mockup spin  d-none d-xl-block" data-top="3%" data-right="18%"><img src="{{ asset('frontend-assets/img/shape/shape-9.png') }}" alt=""></div> -->
     </section>
     <!--==============================
                 Testimonial Area
@@ -1217,19 +1431,21 @@
                             </div>
                         </div>
 
+                        <<<<<<< HEAD
+                            </div>
                     </div>
+                    <button data-slider-prev="#testiSlide1" class="slider-arrow slider-prev"><i
+                            class="far fa-arrow-left"></i></button>
+                    <button data-slider-next="#testiSlide1" class="slider-arrow slider-next"><i
+                            class="far fa-arrow-right"></i></button>
                 </div>
-                <button data-slider-prev="#testiSlide1" class="slider-arrow slider-prev"><i
-                        class="far fa-arrow-left"></i></button>
-                <button data-slider-next="#testiSlide1" class="slider-arrow slider-next"><i
-                        class="far fa-arrow-right"></i></button>
             </div>
-        </div>
-        {{-- <div class="shape-mockup" data-top="0" data-right="0">
+            {{-- <div class="shape-mockup" data-top="0" data-right="0">
                 <div class="particle-3" id="particle-3"></div>
             </div> --}}
-        {{-- <div class="shape-mockup spin  d-none d-xl-block" data-top="20%" data-left="12%"><img
-                    src="{{ asset('frontend-assets/img/shape/shape-1.png') }}" alt=""></div>
+            {{-- <div class="shape-mockup spin  d-none d-xl-block" data-top="20%" data-left="12%"><img
+                    src="{{ asset('frontend-assets/img/shape/shape-1.png') }}" alt="">
+        </div>
         <div class="shape-mockup moving  d-none d-xl-block" data-bottom="40%" data-left="5%"><img
                 src="{{ asset('frontend-assets/img/shape/shape-7.png') }}" alt=""></div> --}}
     </section>
@@ -1484,3 +1700,12 @@
 </main>
 
 @endsection
+=======
+<style>
+    /* .brand-item {
+    width: 300px;
+    height: 100px;
+} */
+</style>
+@endsection
+>>>>>>> f49bc012477f91eefa928b5170e74d0dd197d387
