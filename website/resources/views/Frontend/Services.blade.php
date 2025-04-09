@@ -21,8 +21,8 @@
             </div>
         </div>
         <!--==============================
-                                                                                                                                                        Service Area
-                                                                                                                                                    ==============================-->
+                                                                                                                                                            Service Area
+                                                                                                                                                        ==============================-->
         <section class="space-top space-extra-bottom">
             <div class="container">
                 <div class="row">
@@ -548,10 +548,10 @@
                                 viewBox="0 0 21 20" enable-background="new 0 0 21 20" xml:space="preserve">
                                 <path fill="#FFFFFF"
                                     d="M19.998,6.766l-5.759-0.544c-0.362-0.032-0.676-0.264-0.822-0.61l-2.064-4.999
-                                                                    c-0.329-0.825-1.5-0.825-1.83,0L7.476,5.611c-0.132,0.346-0.462,0.578-0.824,0.61L0.894,6.766C0.035,6.848-0.312,7.921,0.333,8.499
-                                                                    l4.338,3.811c0.279,0.246,0.395,0.609,0.314,0.975l-1.304,5.345c-0.199,0.842,0.708,1.534,1.468,1.089l4.801-2.822
-                                                                    c0.313-0.181,0.695-0.181,1.006,0l4.803,2.822c0.759,0.445,1.666-0.23,1.468-1.089l-1.288-5.345
-                                                                    c-0.081-0.365,0.035-0.729,0.313-0.975l4.34-3.811C21.219,7.921,20.855,6.848,19.998,6.766z" />
+                                                                        c-0.329-0.825-1.5-0.825-1.83,0L7.476,5.611c-0.132,0.346-0.462,0.578-0.824,0.61L0.894,6.766C0.035,6.848-0.312,7.921,0.333,8.499
+                                                                        l4.338,3.811c0.279,0.246,0.395,0.609,0.314,0.975l-1.304,5.345c-0.199,0.842,0.708,1.534,1.468,1.089l4.801-2.822
+                                                                        c0.313-0.181,0.695-0.181,1.006,0l4.803,2.822c0.759,0.445,1.666-0.23,1.468-1.089l-1.288-5.345
+                                                                        c-0.081-0.365,0.035-0.729,0.313-0.975l4.34-3.811C21.219,7.921,20.855,6.848,19.998,6.766z" />
                             </svg>
 
                         </div>
@@ -572,11 +572,11 @@
                                 <g>
                                     <path fill="#FFFFFF"
                                         d="M17.92,3.065l-1.669-2.302c-0.336-0.464-0.87-0.75-1.479-0.755C14.732,0.008,7.653,0,7.653,0v5.6
-                                                                        c0,0.096-0.047,0.185-0.127,0.237c-0.081,0.052-0.181,0.06-0.268,0.02l-1.413-0.64C5.773,5.183,5.69,5.183,5.617,5.215l-1.489,0.65
-                                                                        c-0.087,0.038-0.19,0.029-0.271-0.023c-0.079-0.052-0.13-0.141-0.13-0.235V0H2.191C1.655,0,1.233,0.434,1.233,0.97
-                                                                        c0,0,0.025,15.952,0.031,15.993c0.084,0.509,0.379,0.962,0.811,1.242l2.334,1.528C4.671,19.905,4.974,20,5.286,20h10.307
-                                                                        c1.452,0,2.634-1.189,2.634-2.64V4.007C18.227,3.666,18.12,3.339,17.92,3.065z M16.42,17.36c0,0.464-0.361,0.833-0.827,0.833H5.341
-                                                                        l-1.675-1.089h10.341c0.537,0,0.953-0.44,0.953-0.979V2.039l1.459,2.027V17.36L16.42,17.36z" />
+                                                                            c0,0.096-0.047,0.185-0.127,0.237c-0.081,0.052-0.181,0.06-0.268,0.02l-1.413-0.64C5.773,5.183,5.69,5.183,5.617,5.215l-1.489,0.65
+                                                                            c-0.087,0.038-0.19,0.029-0.271-0.023c-0.079-0.052-0.13-0.141-0.13-0.235V0H2.191C1.655,0,1.233,0.434,1.233,0.97
+                                                                            c0,0,0.025,15.952,0.031,15.993c0.084,0.509,0.379,0.962,0.811,1.242l2.334,1.528C4.671,19.905,4.974,20,5.286,20h10.307
+                                                                            c1.452,0,2.634-1.189,2.634-2.64V4.007C18.227,3.666,18.12,3.339,17.92,3.065z M16.42,17.36c0,0.464-0.361,0.833-0.827,0.833H5.341
+                                                                            l-1.675-1.089h10.341c0.537,0,0.953-0.44,0.953-0.979V2.039l1.459,2.027V17.36L16.42,17.36z" />
                                 </g>
                             </svg>
 
@@ -598,10 +598,10 @@
                                 viewBox="0 0 21 20" enable-background="new 0 0 21 20" xml:space="preserve">
                                 <path fill="#FFFFFF"
                                     d="M19.998,6.766l-5.759-0.544c-0.362-0.032-0.676-0.264-0.822-0.61l-2.064-4.999
-                                                                    c-0.329-0.825-1.5-0.825-1.83,0L7.476,5.611c-0.132,0.346-0.462,0.578-0.824,0.61L0.894,6.766C0.035,6.848-0.312,7.921,0.333,8.499
-                                                                    l4.338,3.811c0.279,0.246,0.395,0.609,0.314,0.975l-1.304,5.345c-0.199,0.842,0.708,1.534,1.468,1.089l4.801-2.822
-                                                                    c0.313-0.181,0.695-0.181,1.006,0l4.803,2.822c0.759,0.445,1.666-0.23,1.468-1.089l-1.288-5.345
-                                                                    c-0.081-0.365,0.035-0.729,0.313-0.975l4.34-3.811C21.219,7.921,20.855,6.848,19.998,6.766z" />
+                                                                        c-0.329-0.825-1.5-0.825-1.83,0L7.476,5.611c-0.132,0.346-0.462,0.578-0.824,0.61L0.894,6.766C0.035,6.848-0.312,7.921,0.333,8.499
+                                                                        l4.338,3.811c0.279,0.246,0.395,0.609,0.314,0.975l-1.304,5.345c-0.199,0.842,0.708,1.534,1.468,1.089l4.801-2.822
+                                                                        c0.313-0.181,0.695-0.181,1.006,0l4.803,2.822c0.759,0.445,1.666-0.23,1.468-1.089l-1.288-5.345
+                                                                        c-0.081-0.365,0.035-0.729,0.313-0.975l4.34-3.811C21.219,7.921,20.855,6.848,19.998,6.766z" />
                             </svg>
 
                         </div>
@@ -623,11 +623,11 @@
                                 <g>
                                     <path fill="#FFFFFF"
                                         d="M17.92,3.065l-1.669-2.302c-0.336-0.464-0.87-0.75-1.479-0.755C14.732,0.008,7.653,0,7.653,0v5.6
-                                                                        c0,0.096-0.047,0.185-0.127,0.237c-0.081,0.052-0.181,0.06-0.268,0.02l-1.413-0.64C5.773,5.183,5.69,5.183,5.617,5.215l-1.489,0.65
-                                                                        c-0.087,0.038-0.19,0.029-0.271-0.023c-0.079-0.052-0.13-0.141-0.13-0.235V0H2.191C1.655,0,1.233,0.434,1.233,0.97
-                                                                        c0,0,0.025,15.952,0.031,15.993c0.084,0.509,0.379,0.962,0.811,1.242l2.334,1.528C4.671,19.905,4.974,20,5.286,20h10.307
-                                                                        c1.452,0,2.634-1.189,2.634-2.64V4.007C18.227,3.666,18.12,3.339,17.92,3.065z M16.42,17.36c0,0.464-0.361,0.833-0.827,0.833H5.341
-                                                                        l-1.675-1.089h10.341c0.537,0,0.953-0.44,0.953-0.979V2.039l1.459,2.027V17.36L16.42,17.36z" />
+                                                                            c0,0.096-0.047,0.185-0.127,0.237c-0.081,0.052-0.181,0.06-0.268,0.02l-1.413-0.64C5.773,5.183,5.69,5.183,5.617,5.215l-1.489,0.65
+                                                                            c-0.087,0.038-0.19,0.029-0.271-0.023c-0.079-0.052-0.13-0.141-0.13-0.235V0H2.191C1.655,0,1.233,0.434,1.233,0.97
+                                                                            c0,0,0.025,15.952,0.031,15.993c0.084,0.509,0.379,0.962,0.811,1.242l2.334,1.528C4.671,19.905,4.974,20,5.286,20h10.307
+                                                                            c1.452,0,2.634-1.189,2.634-2.64V4.007C18.227,3.666,18.12,3.339,17.92,3.065z M16.42,17.36c0,0.464-0.361,0.833-0.827,0.833H5.341
+                                                                            l-1.675-1.089h10.341c0.537,0,0.953-0.44,0.953-0.979V2.039l1.459,2.027V17.36L16.42,17.36z" />
                                 </g>
                             </svg>
 
@@ -646,16 +646,6 @@
         </section>
 
 
-        <!-- Gallery -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lg-zoom.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lg-thumbnail.min.css">
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/zoom/lg-zoom.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/thumbnail/lg-thumbnail.min.js"></script>
-
-        <!-- Gallery -->
 
         <section>
             <div class="container">
@@ -919,404 +909,6 @@
             </div>
         </section>
 
-        <section class="d-none" id="highlights">
-            <div class="container">
-                <div class="title text-center">
-                    <!-- <h5 class=" m-0">Gallery</h5> -->
-                    <h1 data-aos="fade-up" class="text-red text-uppercase">Gallery</h1>
-                </div>
-                <div class="">
-                    <ul class="nav nav-pills justify-content-center" id="myTab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="2024-tab" data-bs-toggle="tab"
-                                data-bs-target="#2024-tab-pane" type="button" role="tab"
-                                aria-controls="2024-tab-pane" aria-selected="true">TNS 2024</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link " id="2023-tab" data-bs-toggle="tab"
-                                data-bs-target="#2023-tab-pane" type="button" role="tab"
-                                aria-controls="2023-tab-pane" aria-selected="false">TNS 2023</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="2022-tab" data-bs-toggle="tab" data-bs-target="#2022-tab-pane"
-                                type="button" role="tab" aria-controls="2022-tab-pane" aria-selected="false">TNS
-                                2022</button>
-                        </li>
-
-                    </ul>
-                    <div class="tab-content" id="myTabContent">
-                        <article class="tab-pane py-3 fade show active" id="2024-tab-pane" role="tabpanel"
-                            aria-labelledby="2024-tab" tabindex="0">
-                            <div class="row justify-content-center mb-md-5 mb-3">
-                                <div class="col-12">
-                                    <div id="animated-thumbnails-gallery-2024" class="gallery-masonry">
-                                        <a href="assets/events/2024/gallery/1.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/1.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/2.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/2.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/3.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/3.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/4.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/4.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/5.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/5.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/6.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/6.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/7.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/7.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/8.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/8.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/9.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/9.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/10.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/10.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/11.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/11.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/12.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/12.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/13.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/13.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/14.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/14.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/15.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/15.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/16.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/16.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/17.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/17.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/18.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/18.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/19.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/19.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/20.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/20.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/21.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/21.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/22.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/22.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/23.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/23.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/24.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/24.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/25.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/25.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/26.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/26.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/27.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/27.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/28.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/28.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/29.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/29.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/30.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/30.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/31.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/31.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2024/gallery/32.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2024/gallery/thumbnails/32.jpg?v=1.2" />
-                                        </a>
-                                    </div>
-                                    <script type="text/javascript">
-                                        lightGallery(document.getElementById('animated-thumbnails-gallery-2024'), {
-                                            plugins: [lgZoom, lgThumbnail],
-                                            licenseKey: 'your_license_key',
-                                            speed: 500,
-                                            // ... other settings
-                                        });
-                                    </script>
-                                </div>
-                            </div>
-
-                        </article>
-                        <article class="tab-pane py-3 fade" id="2023-tab-pane" role="tabpanel"
-                            aria-labelledby="2023-tab" tabindex="0">
-                            <div class="row justify-content-center mb-md-5 mb-3">
-                                <!-- <div class="col-lg-10 col-12">
-                                                <div class="title text-center">
-                                                    <h5 class="text-uppercase m-0">Times Now Summit 2022</h5>
-                                                    <h2 class="text-red">Gallery</h2>
-                                                </div>
-                                            </div> -->
-                                <div class="col-12">
-                                    <div id="animated-thumbnails-gallery-2023" class="gallery-masonry">
-                                        <a href="assets/events/2023/gallery/1.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/1.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/2.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/2.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/3.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/3.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/4.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/4.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/5.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/5.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/6.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/6.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/7.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/7.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/8.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/8.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/9.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/9.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/10.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/10.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/11.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/11.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/12.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/12.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/13.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/13.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/14.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/14.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/15.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/15.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/16.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/16.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/17.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/17.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/18.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/18.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/19.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/19.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/20.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/20.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/21.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/21.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/22.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/22.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/23.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/23.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/24.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/24.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2023/gallery/25.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2023/gallery/thumbnails/25.jpg?v=1.2" />
-                                        </a>
-                                    </div>
-                                    <script type="text/javascript">
-                                        lightGallery(document.getElementById('animated-thumbnails-gallery-2023'), {
-                                            plugins: [lgZoom, lgThumbnail],
-                                            licenseKey: 'your_license_key',
-                                            speed: 500,
-                                            // ... other settings
-                                        });
-                                    </script>
-                                </div>
-                            </div>
-                            <!-- <div class="row justify-content-center">
-                                            <div class="col-lg-10 col-12">
-                                                <div class="title text-center">
-                                                    <h5 class="text-uppercase m-0">Times Now Summit 2022</h5>
-                                                    <h2>Impact</h2>
-                                                </div>
-                                            </div>
-                                        </div> -->
-                        </article>
-                        <article class="tab-pane py-3 fade" id="2022-tab-pane" role="tabpanel"
-                            aria-labelledby="2022-tab" tabindex="0">
-                            <div class="row justify-content-center mb-md-5 mb-3">
-                                <!-- <div class="col-lg-10 col-12">
-                                                <div class="title text-center">
-                                                    <h5 class="text-uppercase m-0">Times Now Summit 2021</h5>
-                                                    <h2 class="text-red">Gallery</h2>
-                                                </div>
-                                            </div> -->
-                                <div class="col-12">
-                                    <div id="animated-thumbnails-gallery-2022" class="gallery-masonry">
-                                        <a href="assets/events/2022/gallery/1.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/1.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/2.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/2.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/3.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/3.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/4.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/4.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/4a.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/4a.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/5.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/5.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/5a.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/5a.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/6.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/6.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/6a.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/6a.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/7.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/7.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/7a.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/7a.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/7b.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/7b.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/8.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/8.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/9.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/9.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/10.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/10.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/10a.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/10a.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/11.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/11.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/11a.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/11a.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/12.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/12.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/13.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/13.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/14.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/14.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/15.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/15.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/16.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/16.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/16a.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/16a.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/17.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/17.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/18.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/18.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/19.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/19.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/19a.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/19a.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/20.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/20.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/21.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/21.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/22.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/22.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/23.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/23.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/24.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/24.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/25.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/25.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/26.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/26.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/27.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/27.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/28.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/28.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/29.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/29.jpg?v=1.2" />
-                                        </a>
-                                        <a href="assets/events/2022/gallery/30.jpg?v=1.2" data-lg-size="1000-700">
-                                            <img src="assets/events/2022/gallery/thumbnails/30.jpg?v=1.2" />
-                                        </a>
-                                    </div>
-                                    <script type="text/javascript">
-                                        lightGallery(document.getElementById('animated-thumbnails-gallery-2022'), {
-                                            plugins: [lgZoom, lgThumbnail],
-                                            licenseKey: 'your_license_key',
-                                            speed: 500,
-                                            // ... other settings
-                                        });
-                                    </script>
-                                </div>
-                            </div>
-                            <!-- <div class="row justify-content-center">
-                                            <div class="col-lg-10 col-12">
-                                                <div class="title text-center">
-                                                    <h5 class="text-uppercase m-0">Times Now Summit 2021</h5>
-                                                    <h2>Impact</h2>
-                                                </div>
-                                            </div>
-                                        </div> -->
-                        </article>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <script>
             var swiper = new Swiper(".servicesSwiper", {
@@ -1382,8 +974,6 @@
 
         <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
         <style>
-            /* gallery css */
-
             /* Gallery Section */
             .gallery-thumb {
                 overflow: hidden;

@@ -1264,33 +1264,33 @@
         <!--==============================
                 Brand Area
                 ==============================-->
-        <div class="brand-area overflow-hidden">
+        <div class="brand-area bg-white overflow-hidden">
             <div class="container th-container">
                 <div class="slider-area text-center">
                     <div class="swiper th-slider" id="brandSlider1"
-                        data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"476":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"4"},"1400":{"slidesPerView":"6"}}}'>
+                        data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"476":{"slidesPerView":"2"},"768":{"slidesPerView":"3"},"992":{"slidesPerView":"4"},"1200":{"slidesPerView":"5"},"1400":{"slidesPerView":"6"}}}'>
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="brand-item style2">
                                     <a href="">
-                                        <img class="original" src="https://placehold.co/400x100" alt="Brand Logo">
-                                        <img class="gray" src="https://placehold.co/400x100" alt="Brand Logo">
+                                        <img class="original w-75 h-100" src="https://www.sociomark.in/lp/assets/media/clients/buildtrack (1).png" alt="Brand Logo">
+                                        <img class="gray w-75 h-100" src="https://www.sociomark.in/lp/assets/media/clients/buildtrack (1).png" alt="Brand Logo">
                                     </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="brand-item style2">
                                     <a href="">
-                                        <img class="original" src="https://placehold.co/400x100" alt="Brand Logo">
-                                        <img class="gray" src="https://placehold.co/400x100" alt="Brand Logo">
+                                        <img class="original w-75 h-100" src="https://www.sociomark.in/lp/assets/media/clients/euro.jpg" alt="Brand Logo">
+                                        <img class="gray w-75 h-100" src="https://www.sociomark.in/lp/assets/media/clients/euro.jpg" alt="Brand Logo">
                                     </a>
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="brand-item style2">
                                     <a href="">
-                                        <img class="original" src="https://placehold.co/400x100" alt="Brand Logo">
-                                        <img class="gray" src="https://placehold.co/400x100" alt="Brand Logo">
+                                        <img class="original w-75 h-100" src="https://www.sociomark.in/lp/assets/media/clients/tataplay.png" alt="Brand Logo">
+                                        <img class="gray w-75 h-100" src="https://www.sociomark.in/lp/assets/media/clients/tataplay.png" alt="Brand Logo">
                                     </a>
                                 </div>
                             </div>
@@ -1374,4 +1374,10 @@
         </div>
     </main>
 
+    <style>
+        /* .brand-item {
+    width: 300px;
+    height: 100px;
+} */
+    </style>
 @endsection

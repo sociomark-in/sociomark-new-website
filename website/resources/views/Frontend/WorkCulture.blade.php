@@ -189,7 +189,7 @@
         overflow-x: hidden;
         /* Disable horizontal scrolling */
         /* scrollbar-width: thin;
-        /* Firefox 
+        /* Firefox
         scrollbar-color: #888 #106c97; */
         /* Firefox */
     }
@@ -221,218 +221,237 @@
     /* gallary end */
 </style>
 @section('content')
-<main id="work-culture">
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg') }}">
-        <div class="container">
-            <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Work Culture</h1>
-                <ul class="breadcumb-menu">
-                    <li><a href="home-seo-agency.html">Home</a></li>
-                    <li>Work Culture</li>
-                </ul>
+    <main id="work-culture">
+        <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg') }}">
+            <div class="container">
+                <div class="breadcumb-content">
+                    <h1 class="breadcumb-title">Work Culture</h1>
+                    <ul class="breadcumb-menu">
+                        <li><a href="home-seo-agency.html">Home</a></li>
+                        <li>Work Culture</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="about-area2 mb-md-5 mt-md-5 mt-0 md-0 overflow-hidden overflow-hidden space" id="about-sec">
-        <div class="container">
-            <div class="row align-items-end">
-                <div class="col-lg-4 mb-30 mb-xl-0">
-                    <div class="imgBox img-box2 me-xl-4 mt-lg-60">
-                        <div class="img1 th-anim mb-35">
-                            <img src="{{ asset('frontend-assets/img/normal/about_2_1.png') }}" alt="About">
+        <div class="about-area2 mb-md-5 mt-md-5 mt-0 md-0 overflow-hidden overflow-hidden space" id="about-sec">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-lg-4 mb-30 mb-xl-0">
+                        <div class="imgBox img-box2 me-xl-4 mt-lg-60">
+                            <div class="img1 th-anim mb-35">
+                                <img src="{{ asset('frontend-assets/img/normal/about_2_1.png') }}" alt="About">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="title-area mb-25 mt-n1">
-                        {{-- <span class="sub-title sub-title4 style1 ">About Us</span> --}}
-                        <h2 class="sec-title ">Innovative Digital Solutions for Modern Businesses</h2>
+                    <div class="col-lg-8">
+                        <div class="title-area mb-25 mt-n1">
+                            {{-- <span class="sub-title sub-title4 style1 ">About Us</span> --}}
+                            <h2 class="sec-title ">Innovative Digital Solutions for Modern Businesses</h2>
+                        </div>
+                        <p class="mt-n2 mb-25 sec-para">Established in 1995, Saor has been a leading force in the digital
+                            landscape for
+                            over two decades. We're a passionate team of designers, developers, and strategists driven by a
+                            shared vision. Our digital agency combines innovation, strategy, and expertise to fuel your
+                            online
+                            success. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, animi voluptatem esse
+                            quis tenetur, quidem harum ipsa tempore laborum reprehenderit nam! Voluptatum, hic minima
+                            temporibus vero pariatur accusamus ipsam qui?
+                        </p>
                     </div>
-                    <p class="mt-n2 mb-25 sec-para">Established in 1995, Saor has been a leading force in the digital landscape for
-                        over two decades. We're a passionate team of designers, developers, and strategists driven by a
-                        shared vision. Our digital agency combines innovation, strategy, and expertise to fuel your online
-                        success. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, animi voluptatem esse quis tenetur, quidem harum ipsa tempore laborum reprehenderit nam! Voluptatum, hic minima temporibus vero pariatur accusamus ipsam qui?
-                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="overflow-hidden position-relative space-extra-top space-bottom garally" id="portfolio-sec">
+            <div class="container">
+                <div class="title-area text-center mb-25">
+                    <h2 class="sec-title">Our Work Culture</h2>
+                </div>
+                <div class="filter-menu filter-menu-active mt-5 mb-4">
+                    <button data-filter="*" class="tab-btn active" type="button">All Works</button>
+                    <button data-filter=".cat1" class="tab-btn" type="button">Apps</button>
+                    <button data-filter=".cat2" class="tab-btn" type="button">Branding</button>
+                    <button data-filter=".cat3" class="tab-btn" type="button">Creative</button>
+
+                </div>
+                <div class="portfolio-area">
+                    <div class="row gy-4 filter-active garally-row-height">
+                        {{-- <div class="col-md-6 col-xl-auto filter-item cat1 cat5 cat7 cat3">
+                            <div class="project-item img-box img-fluid">
+                                <img src="https://i.ibb.co/T1cgh0R/manja-vitolic-g-KXKBY-C-Dk-unsplash.jpg" alt="image"
+                                     loading="lazy" class="image1" />
+                                <img src="https://i.ibb.co/F397vF3/jack-brind-EOIL6h-BE8tg-unsplash.jpg" alt="image"
+                                    loading="lazy" class="image2" />
+                            </div>
+                        </div> --}}
+                        <div class="col-md-6 col-xl-auto filter-item cat5 cat5 cat8 cat1">
+                            <div class="project-item">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}"
+                                        alt="project image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-auto filter-item cat5 cat3 cat2">
+                            <div class="project-item">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}"
+                                        alt="project image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-auto filter-item cat4 cat1 cat6">
+                            <div class="project-item">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}"
+                                        alt="project image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-auto filter-item cat2 cat3">
+                            <div class="project-item">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}"
+                                        alt="project image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-auto filter-item cat7 cat5 cat3">
+                            <div class="project-item">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}"
+                                        alt="project image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-auto filter-item cat4 cat6">
+                            <div class="project-item">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}"
+                                        alt="project image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-auto filter-item cat1 cat2 cat5">
+                            <div class="project-item">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}"
+                                        alt="project image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-auto filter-item cat1 cat2 cat5">
+                            <div class="project-item">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}"
+                                        alt="project image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
+                            </div> -->
                 </div>
             </div>
         </div>
 
-    </div>
-
-    <div class="overflow-hidden position-relative space-extra-top space-bottom garally" id="portfolio-sec">
-        <div class="container">
-            <div class="title-area text-center mb-25">
-                <h2 class="sec-title">Our Work Culture</h2>
-            </div>
-            <div class="filter-menu filter-menu-active mt-5 mb-4">
-                <button data-filter="*" class="tab-btn active" type="button">All Works</button>
-                <button data-filter=".cat1" class="tab-btn" type="button">Apps</button>
-                <button data-filter=".cat2" class="tab-btn" type="button">Branding</button>
-                <button data-filter=".cat3" class="tab-btn" type="button">Creative</button>
-
-            </div>
-            <div class="portfolio-area">
-                <div class="row gy-4 filter-active garally-row-height">
-                    <div class="col-md-6 col-xl-auto filter-item cat1 cat5 cat7 cat3">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
+        <div class="key-point-about-us mb-md-5 mb-3" id="key-point-about-us">
+            <div class="container">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="col-md-4 pe-md-5">
+                        <div class="row gy-4 flex-column">
+                            <div class="">
+                                <div class="media-body">
+                                    <h3 class="box-title"><span class="text-themeRed text-xl md:text-3xl font-medium">What
+                                            Make</span><br> <span
+                                            class="text-themeBlue text-xl md:text-5xl font-semibold sec-title">Us
+                                            Special?</span></h3>
+                                    <p class="sec-para">Experience, Expertise, and an Excellent team fuel our growth and
+                                        make us unique. Our passion for building long-lasting partnerships with our clients
+                                        makes us a forerunner in digital marketing.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-auto filter-item cat5 cat5 cat8 cat1">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto filter-item cat5 cat3 cat2">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto filter-item cat4 cat1 cat6">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto filter-item cat2 cat3">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto filter-item cat7 cat5 cat3">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto filter-item cat4 cat6">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto filter-item cat1 cat2 cat5">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-auto filter-item cat1 cat2 cat5">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="{{ asset('frontend-assets/img/project/project_1_1.jpg') }}" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
-                </div> -->
-            </div>
-        </div>
-    </div>
-    
-    <div class="key-point-about-us mb-md-5 mb-3" id="key-point-about-us">
-        <div class="container">
-            <div class="row d-flex justify-content-between align-items-center">
-                <div class="col-md-4 pe-md-5">
-                    <div class="row gy-4 flex-column">
-                        <div class="">
-                            <div class="media-body">
-                                <h3 class="box-title"><span class="text-themeRed text-xl md:text-3xl font-medium">What Make</span><br> <span class="text-themeBlue text-xl md:text-5xl font-semibold sec-title">Us Special?</span></h3>
-                                <p class="sec-para">Experience, Expertise, and an Excellent team fuel our growth and make us unique. Our passion for building long-lasting partnerships with our clients makes us a forerunner in digital marketing.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-8 mt-5 mt-md-0">
-                    <div class="row justify-content-center gx-4 gy-5 ">
-                        <!-- Card 1 -->
-                        <div class="col-md-4 col-6">
-                            <div class="card text-center">
-                                <div class="card-top-left"></div>
-                                <div class="card-bottom-right"></div>
-                                <div class="position-absolute-img">
-                                    <img src="{{ asset('frontend-assets/img/ourCulture/1.png') }}" alt="">
-                                </div>
-                                <div class="position-absolute-text">
-                                    <h5 class="card-title">24/7 Support</h5>
+                    <div class="col-md-8 mt-5 mt-md-0">
+                        <div class="row justify-content-center gx-4 gy-5 ">
+                            <!-- Card 1 -->
+                            <div class="col-md-4 col-6">
+                                <div class="card text-center">
+                                    <div class="card-top-left"></div>
+                                    <div class="card-bottom-right"></div>
+                                    <div class="position-absolute-img">
+                                        <img src="{{ asset('frontend-assets/img/ourCulture/1.png') }}" alt="">
+                                    </div>
+                                    <div class="position-absolute-text">
+                                        <h5 class="card-title">24/7 Support</h5>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Card 2 -->
-                        <div class="col-md-4 col-6">
-                            <div class="card text-center">
-                                <div class="card-top-left"></div>
-                                <div class="card-bottom-right"></div>
-                                <div class="position-absolute-img" style="background-color: rgb(255 235 245);">
-                                    <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
-                                </div>
-                                <div class="position-absolute-text">
-                                    <h5 class="card-title">Top Guide</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Card 3 -->
-                        <div class="col-md-4 col-6">
-                            <div class="card text-center">
-                                <div class="card-top-left"></div>
-                                <div class="card-bottom-right"></div>
-                                <div class="position-absolute-img" style="background-color: rgb(252 243 233);">
-                                    <img src="{{ asset('frontend-assets/img/ourCulture/3.png') }}" alt="">
-                                </div>
-                                <div class="position-absolute-text">
-                                    <h5 class="card-title">Best Course</h5>
+                            <!-- Card 2 -->
+                            <div class="col-md-4 col-6">
+                                <div class="card text-center">
+                                    <div class="card-top-left"></div>
+                                    <div class="card-bottom-right"></div>
+                                    <div class="position-absolute-img" style="background-color: rgb(255 235 245);">
+                                        <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
+                                    </div>
+                                    <div class="position-absolute-text">
+                                        <h5 class="card-title">Top Guide</h5>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Card 4 -->
-                        <div class="col-md-4 col-6">
-                            <div class="card text-center">
-                                <div class="card-top-left"></div>
-                                <div class="card-bottom-right"></div>
-                                <div class="position-absolute-img" style="background-color: rgb(238 251 229);">
-                                    <img src="{{ asset('frontend-assets/img/ourCulture/4.png') }}" alt="">
-                                </div>
-                                <div class="position-absolute-text">
-                                    <h5 class="card-title">24/7 Support</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Card 5 -->
-                        <div class="col-md-4 col-6">
-                            <div class="card text-center">
-                                <div class="card-top-left"></div>
-                                <div class="card-bottom-right"></div>
-                                <div class="position-absolute-img" style="background-color: rgb(252 243 233);">
-                                    <img src="{{ asset('frontend-assets/img/ourCulture/5.png') }}" alt="">
-                                </div>
-                                <div class="position-absolute-text">
-                                    <h5 class="card-title">Top Guide</h5>
+                            <!-- Card 3 -->
+                            <div class="col-md-4 col-6">
+                                <div class="card text-center">
+                                    <div class="card-top-left"></div>
+                                    <div class="card-bottom-right"></div>
+                                    <div class="position-absolute-img" style="background-color: rgb(252 243 233);">
+                                        <img src="{{ asset('frontend-assets/img/ourCulture/3.png') }}" alt="">
+                                    </div>
+                                    <div class="position-absolute-text">
+                                        <h5 class="card-title">Best Course</h5>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Card 6 -->
-                        <div class="col-md-4 col-6">
-                            <div class="card text-center">
-                                <div class="card-top-left"></div>
-                                <div class="card-bottom-right"></div>
-                                <div class="position-absolute-img">
-                                    <img src="{{ asset('frontend-assets/img/ourCulture/6.png') }}" alt="">
+                            <!-- Card 4 -->
+                            <div class="col-md-4 col-6">
+                                <div class="card text-center">
+                                    <div class="card-top-left"></div>
+                                    <div class="card-bottom-right"></div>
+                                    <div class="position-absolute-img" style="background-color: rgb(238 251 229);">
+                                        <img src="{{ asset('frontend-assets/img/ourCulture/4.png') }}" alt="">
+                                    </div>
+                                    <div class="position-absolute-text">
+                                        <h5 class="card-title">24/7 Support</h5>
+                                    </div>
                                 </div>
-                                <div class="position-absolute-text">
-                                    <h5 class="card-title">Best Course</h5>
+                            </div>
+                            <!-- Card 5 -->
+                            <div class="col-md-4 col-6">
+                                <div class="card text-center">
+                                    <div class="card-top-left"></div>
+                                    <div class="card-bottom-right"></div>
+                                    <div class="position-absolute-img" style="background-color: rgb(252 243 233);">
+                                        <img src="{{ asset('frontend-assets/img/ourCulture/5.png') }}" alt="">
+                                    </div>
+                                    <div class="position-absolute-text">
+                                        <h5 class="card-title">Top Guide</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 6 -->
+                            <div class="col-md-4 col-6">
+                                <div class="card text-center">
+                                    <div class="card-top-left"></div>
+                                    <div class="card-bottom-right"></div>
+                                    <div class="position-absolute-img">
+                                        <img src="{{ asset('frontend-assets/img/ourCulture/6.png') }}" alt="">
+                                    </div>
+                                    <div class="position-absolute-text">
+                                        <h5 class="card-title">Best Course</h5>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -440,8 +459,62 @@
                 </div>
             </div>
         </div>
-    </div>
 
-    
-</main>
+        <section class="d-none">
+            <div class="wrapper">
+                <div class="img-box img-fluid">
+                    <img src="https://i.ibb.co/T1cgh0R/manja-vitolic-g-KXKBY-C-Dk-unsplash.jpg" alt="image"
+                        height="300" width="500" loading="lazy" class="image1" />
+                    <img src="https://i.ibb.co/F397vF3/jack-brind-EOIL6h-BE8tg-unsplash.jpg" alt="image"
+                        height="300" width="500" loading="lazy" class="image2" />
+                </div>
+            </div>
+
+        </section>
+
+
+        <style>
+            .wrapper {
+                height: 100vh;
+                display: flex;
+                margin: auto;
+            }
+
+            .img-box {
+                height: 300px;
+                width: 500px;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+                display: flex;
+            }
+
+            .image1 {
+                border-radius: 1rem;
+                position: relative;
+                transition: 0.5s ease-in-out;
+            }
+
+            .image2 {
+                position: absolute;
+                border-radius: 1rem;
+                transition: 0.5s ease-in-out;
+                opacity: 0;
+            }
+
+            .img-box:hover .image1 {
+                opacity: 0;
+            }
+
+            .img-box:hover .image2 {
+                opacity: 100%;
+            }
+
+            .watermark {
+                position: absolute;
+                margin-top: 25rem;
+            }
+        </style>
+
+    </main>
 @endsection
