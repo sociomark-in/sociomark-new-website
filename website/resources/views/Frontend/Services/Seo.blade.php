@@ -133,10 +133,12 @@
         height: 0;
         overflow: hidden;
     }
+
     .according-list.item-active .according-img {
         transform: scale(1);
         /* height: auto; */
     }
+
     /* Zoom in on hover */
     .hover-item:hover .according-img {
         opacity: 1;
@@ -158,16 +160,13 @@
     /* #seo-service #about-sec3 .sec-para{
         font-weight: 400;
     } */
-    #seo-service #about-sec3 .accordion-item2 {
-        max-width: 510px;
-    }
-
     #seo-service #about-sec3 .according-list .according-img {
         max-width: 700px;
     }
 
     #seo-service #about-sec3 .accordion-item2 {
-        padding-bottom: 5px;
+        padding-bottom: 15px;
+        max-width: 510px;
     }
 
     #seo-service #about-sec3 .accordion-item2 .box-title:before {
@@ -544,7 +543,14 @@
                     <p class="mt-n2 mb-25 sec-para text-center" data-aos="fade-down"
                         data-aos-delay="200"
                         data-aos-duration="1200"
-                        data-aos-easing="ease-in-out">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis voluptas doloremque culpa reiciendis repellendus vel quasi ad blanditiis sint doloribus incidunt, asperiores mollitia atque, expedita quisquam nemo eos consequatur deserunt. Ipsam repudiandae ab fuga cupiditate? Odit exercitationem ea culpa dignissimos. Lorem ipsum dolor sit, amet consectetur.
+                        data-aos-easing="ease-in-out">SEO stands for Search Engine Optimization. It involves optimizing a website to rank higher in search engine results by inculcating relevant keywords and improving content quality. It also includes technical improvements like enhancing a website’s speed and mobile friendliness. Additionally, building high-quality backlinks helps increase your site’s authority and visibility.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para text-center" data-aos="fade-down"
+                        data-aos-delay="200"
+                        data-aos-duration="1200"
+                        data-aos-easing="ease-in-out">The main goal of optimization is to have your website rank up in the search results. The higher the page appears, people are more likely to visit the website, and your business generate sales. SEO is one of the major marketing strategies that businesses opt for in order to increase their business. No matter the size of the company of the stage, whether it is a small startup or a big well-established Multi National Company, SEO is needed for all. It helps your business to have a competitive advantage over others.
+                        Search Engine Optimization enhances the impact of <strong>Content Marketing Social Media Marketing</strong> and <strong> Website Development</strong>   making it an essential strategy for any business.
+
                     </p>
                 </div>
             </div>
@@ -618,7 +624,7 @@
                             data-aos-delay="100"
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
-                            International Seo <span class="text-blue"> Roadmap</span>
+                            Our Approach For <span class="text-blue"> Online Presence</span>  
                         </h2>
                     </div>
                 </div>
@@ -626,15 +632,11 @@
             <div class="according-list-area">
                 <div class="according-list hover-item item-active">
                     <div class="accordion-item2">
-                        <h3 class="box-title">Keyword research and localization</h3>
+                        <h3 class="box-title">Content Strategy</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/normal/ser_2_1.jpg') }}" alt="">
-                        <p class="sec-para text">Appeals to clients looking for innovative and creative digital
-                            solutions,
-                            positioning the agency as a leader in creativity. Conveys a collaborative approach,
-                            suggesting that the agency works closely with clients to achieve their digital
-                            goals.
+                        <p class="sec-para text">Creating relevant, relatable and creative content as per the clients and their niche, that resonates with the target audience and thus help building a strong community around the brand.
                         </p>
 
                     </div>
@@ -642,63 +644,55 @@
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title">International website structure and URL optimization</h3>
+                        <h3 class="box-title">Competitor Analysis</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/normal/ser_2_2.jpg') }}" alt="">
-                        <p class="sec-para text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde reiciendis nesciunt perferendis dignissimos accusantium nostrum, laboriosam cupiditate dolores tenetur blanditiis.
+                        <p class="sec-para text">Conducting research of the competitors to understand their strategies and methods. An in-depth competitor analysis to identify opportunities and create a winning strategy.
                         </p>
 
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title">Multilingual content creation and translation</h3>
+                        <h3 class="box-title">Technical SEO Audit</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/normal/ser_2_3.jpg') }}" alt="">
-                        <p class="sec-para text">Appeals to clients looking for innovative and creative digital
-                            solutions,
-                            positioning the agency as a leader in creativity. Conveys a collaborative approach,
-                            suggesting that the agency works closely with clients to achieve their digital
-                            goals.
+                        <p class="sec-para text">A comprehensive audit to identify areas for improvement. Closely examine your website's structure, content, and technical aspects to pinpoint opportunities for optimization.
                         </p>
 
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title">Hreflang implementation</h3>
+                        <h3 class="box-title">On Page SEO </h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/normal/ser_2_4.jpg') }}" alt="">
-                        <p class="sec-para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora adipisci provident, magnam cupiditate quod voluptatibus consequuntur eaque voluptatem, animi totam repudiandae facilis facere quo tempore, ad laudantium ducimus sunt?
+                        <p class="sec-para text">Creating compelling content that both users and search engines love. Further we optimize it with relevant keywords and engaging writing styles to improve search rankings and keep visitors interested.
                         </p>
 
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title">Country-specific domain or subdomain strategy</h3>
+                        <h3 class="box-title">GMB Optimisation</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/normal/ser_2_5.jpg') }}" alt="">
-                        <p class="sec-para text">Appeals to clients looking for innovative and creative digital
-                            solutions,
-                            positioning the agency as a leader in creativity. Conveys a collaborative approach,
-                            suggesting that the agency works closely with clients to achieve their digital
-                            goals.
+                        <p class="sec-para text">We ensure that your Google My Business listing is correct, complete and optimized to rank higher in the search result, thus enhancing your business’s online visibility and attracting local customers.
                         </p>
 
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title">International link building and outreach</h3>
+                        <h3 class="box-title">Traffic Analysis</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/normal/ser_2_6.jpg') }}" alt="">
-                        <p class="sec-para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam similique modi accusantium odit recusandae laudantium, vel, illo rerum cum sequi, minima eaque mollitia quos odio beatae iste nam temporibus accusamus.
+                        <p class="sec-para text">Uncover valuable insights about your website visitors. Analyse website traffic to understand user behaviour, identify trends, and discover opportunities to enhance user experience and conversions.
                         </p>
 
                     </div>

@@ -42,6 +42,7 @@ Route::get('/services', [HomeController::class, 'Services'])->name('services');
 Route::get('/service/seo', [ServiceController::class, 'index'])->name('seo');
 Route::get('/work-culture', [WorkCultureController::class, 'index'])->name('workculture');
 Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');
+Route::get('/portfolio/inside', [PortfolioController::class, 'portfolioInside'])->name('portfolioinside');
 Route::get('/industries/ecommerce', [IndustryController::class, 'index'])->name('industry');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');

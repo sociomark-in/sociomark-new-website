@@ -11,7 +11,8 @@
     #portfolio-sec,
     #about-sec5,
     #contact,
-    #testi-sec {
+    #testi-sec,
+    #number {
         position: relative;
         z-index: 2;
         background: #fff;
@@ -825,6 +826,111 @@
 
 
     }
+
+    /* number :start */
+
+    .number {
+        padding: 100px 0;
+    }
+
+    .tab-image-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+    }
+
+    .tab-image {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 4px solid #dff9d9;
+        transition: 0.3s ease;
+        cursor: pointer;
+        position: absolute;
+
+    }
+
+    .tab-image-wrapper .tab-image:nth-child(1) {
+        top: -47px;
+    }
+
+    .tab-image-wrapper .tab-image:nth-child(2) {
+        top: 44px;
+        right: 45px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .tab-image-wrapper .tab-image:nth-child(3) {
+        bottom: -35px;
+
+    }
+
+    .tab-image.active {
+        border-color: #106c97;
+        transform: scale(1.05);
+    }
+
+    .tab-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .carousel h3 {
+        font-size: 20px;
+        font-weight: 600;
+        color: rgba(0, 0, 0, .5);
+        margin-bottom: 0;
+    }
+
+    .carousel h1 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+
+    .quote-wrapper {
+        margin-top: 40px;
+    }
+
+    .quote-wrapper p {
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.7);
+        font-weight: 500;
+        line-height: 1.7;
+    }
+
+    .quote-wrapper h3 {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-top: 30px;
+    }
+
+    .indicator-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        gap: 10px;
+    }
+
+    .indicator {
+        width: 30px;
+        height: 2px;
+        background-color: #000;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .indicator.active {
+        background-color: #106c97;
+    }
+
+    /* number :end */
 </style>
 @endsection
 
@@ -873,18 +979,18 @@
                 height="800" />
             <!-- <text fill="#fff" x="50" y="100" class="sec-title"> Services We Provide To Grow Your Brand’s</text> -->
             <foreignObject x="50" y="100" width="600" height="800">
+                <!-- <text x="50" y="50" fill="#162a43" class="sec-title">FURTHER</text> -->
+                <div xmlns="http://www.w3.org/1999/xhtml" style="padding-right: 60px;">
                     <!-- <text x="50" y="50" fill="#162a43" class="sec-title">FURTHER</text> -->
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="padding-right: 60px;">
-                        <!-- <text x="50" y="50" fill="#162a43" class="sec-title">FURTHER</text> -->
-                        <h2 class="sec-title mt-2 mb-2"
-                            data-aos="fade-up"
-                            data-aos-delay="100"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out" style="color:white;">
-                            Services We Provide To <span class="text-blue"> Grow Your Brand’s</span>
-                        </h2>
-                    </div>
-                </foreignObject>
+                    <h2 class="sec-title mt-2 mb-2"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out" style="color:white;">
+                        Services We Provide To <span class="text-blue"> Grow Your Brand’s</span>
+                    </h2>
+                </div>
+            </foreignObject>
 
             <!-- <polyline class="arrow" fill="#fff"
                 points="599,250 599,289 590,279 590,282 600,292 610,282 610,279 601,289 601,250" /> -->
@@ -1328,6 +1434,65 @@
         </div>
     </section>
 
+
+    <section class="number overflow-hidden position-relative space-extra-top space-bottom garally" id="number">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-none d-lg-flex justify-content-center">
+                    <div class="tab-image-wrapper">
+                        <div class="tab-image active" data-slide="0">
+                            <img src="https://www.gbim.com/our-team-new/kripa-patel.webp" alt="Client 1" />
+                        </div>
+                        <div class="tab-image" data-slide="1">
+                            <img src="https://www.gbim.com/our-team-new/kripa-patel.webp" alt="Client 2" />
+                        </div>
+                        <div class="tab-image" data-slide="2">
+                            <img src="https://www.gbim.com/our-team-new/kripa-patel.webp" alt="Client 3" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center">
+                    <div id="carouselExampleIndicators" data-interval="false" class="carousel slide"
+                        data-ride="carousel">
+                        <h2 class="sec-title">About Us</h2>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="quote-wrapper">
+                                    <p class="sec-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Eligendi cum assumenda dolore sint repellendus ad reprehenderit pariatur? Aut
+                                        saepe cupiditate quas nesciunt. Mollitia, eum ipsam?
+                                    </p>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="quote-wrapper">
+                                    <p class="sec-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Eligendi cum assumenda dolore sint repellendus ad reprehenderit pariatur? Aut
+                                        saepe cupiditate quas nesciunt. Mollitia, eum ipsam?
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="quote-wrapper">
+                                    <p class="sec-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Eligendi cum assumenda dolore sint repellendus ad reprehenderit pariatur? Aut
+                                        saepe cupiditate quas nesciunt. Mollitia, eum ipsam?
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="indicator-wrapper">
+                            <div class="indicator active" data-slide="0"></div>
+                            <div class="indicator" data-slide="1"></div>
+                            <div class="indicator" data-slide="2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="th-blog-wrapper bg-smoke2 space-top space-extra-bottom" id="about-sec5">
         <div class="container">
             <div class="title-area text-center mb-25">
@@ -1673,6 +1838,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 <script>
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: 3,
@@ -1803,6 +1972,38 @@
             ease: 'power1.inOut'
         })
     })
+
+    // end
+
+    // number start
+
+
+    $(document).ready(function() {
+        function setActive(index) {
+            $('.tab-image').removeClass('active');
+            $('.tab-image[data-slide="' + index + '"]').addClass('active');
+
+            $('.indicator').removeClass('active');
+            $('.indicator[data-slide="' + index + '"]').addClass('active');
+        }
+
+        $('.tab-image').click(function() {
+            const index = $(this).data('slide');
+            $('#carouselExampleIndicators').carousel(index);
+            setActive(index);
+        });
+
+        $('.indicator').click(function() {
+            const index = $(this).data('slide');
+            $('#carouselExampleIndicators').carousel(index);
+            setActive(index);
+        });
+
+        $('#carouselExampleIndicators').on('slide.bs.carousel', function(e) {
+            setActive(e.to);
+        });
+    });
+    // Number end
 </script>
 
 @endpush
