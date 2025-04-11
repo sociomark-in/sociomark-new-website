@@ -96,8 +96,8 @@
   --success-color: #28a745;
   --error-color: #dc3545;
   --th-border-color: #E0E0E0;
-  --title-font: "Space Grotesk", sans-serif;
-  --body-font: "Kanit", sans-serif;
+  --title-font: "Metropolis", sans-serif;
+  --body-font: "Metropolis", sans-serif;
   --body-font2: "DM Sans", sans-serif;
   --icon-font: "Font Awesome 6 Pro";
   --main-container: 1290px;
@@ -108,6 +108,11 @@
   --ripple-ani-duration: 5s;
 }
 
+
+@font-face {
+  font-family: "Metropolis";
+  src: url('../fonts/metropolis/Metropolis-Medium.otf');
+}
 /*------------------- 1.5. Typography -------------------*/
 html,
 body {
