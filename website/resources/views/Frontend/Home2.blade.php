@@ -800,7 +800,7 @@
                     data-aos-easing="ease-in-out">
                     <div class="choose-image">
                         <div class="img1 tilt-active">
-                            <img src="{{ asset('frontend-assets/img/normal/choose_1.png') }}" alt="Choose">
+                            <img src="https://placehold.co/804x610" alt="Choose">
                             <div class="choose-shape"><img src="{{ asset('frontend-assets/img/shape/choose-shape.png') }}" alt=""></div>
                         </div>
                     </div>
@@ -830,7 +830,7 @@
                         <h3 class="box-title">Keyword research and localization</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/normal/ser_2_1.jpg') }}" alt="">
+                        <img src="https://placehold.co/720x291" alt="">
                         <p class="sec-para text">Appeals to clients looking for innovative and creative digital
                             solutions,
                             positioning the agency as a leader in creativity. Conveys a collaborative approach,
@@ -848,7 +848,7 @@
                         <h3 class="box-title">International website structure and URL optimization</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/normal/ser_2_2.jpg') }}" alt="">
+                        <img src="https://placehold.co/720x291" alt="">
                         <p class="sec-para text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde reiciendis nesciunt perferendis dignissimos accusantium nostrum, laboriosam cupiditate dolores tenetur blanditiis.
                         </p>
                         <a href="" class="th-btn black-border th-icon th-radius">
@@ -860,7 +860,7 @@
                         <h3 class="box-title">Multilingual content creation and translation</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/normal/ser_2_3.jpg') }}" alt="">
+                        <img src="https://placehold.co/720x291" alt="">
                         <p class="sec-para text">Appeals to clients looking for innovative and creative digital
                             solutions,
                             positioning the agency as a leader in creativity. Conveys a collaborative approach,
@@ -876,7 +876,7 @@
                         <h3 class="box-title">Hreflang implementation</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/normal/ser_2_4.jpg') }}" alt="">
+                        <img src="https://placehold.co/720x291" alt="">
                         <p class="sec-para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora adipisci provident, magnam cupiditate quod voluptatibus consequuntur eaque voluptatem, animi totam repudiandae facilis facere quo tempore, ad laudantium ducimus sunt?
                         </p>
                         <a href="" class="th-btn black-border th-icon th-radius">
@@ -888,7 +888,7 @@
                         <h3 class="box-title">Country-specific domain or subdomain strategy</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/normal/ser_2_5.jpg') }}" alt="">
+                        <img src="https://placehold.co/720x291" alt="">
                         <p class="sec-para text">Appeals to clients looking for innovative and creative digital
                             solutions,
                             positioning the agency as a leader in creativity. Conveys a collaborative approach,
@@ -904,7 +904,7 @@
                         <h3 class="box-title">International link building and outreach</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/normal/ser_2_6.jpg') }}" alt="">
+                        <img src="https://placehold.co/720x291" alt="">
                         <p class="sec-para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam similique modi accusantium odit recusandae laudantium, vel, illo rerum cum sequi, minima eaque mollitia quos odio beatae iste nam temporibus accusamus.
                         </p>
                         <a href="" class="th-btn black-border th-icon th-radius">
@@ -1061,7 +1061,7 @@
                     Why Should You <span class="text-blue"> Choose Us</span>
                 </h2>
             </div>
-            <div class="row clearfix">
+            <div class="row clearfix align-items-center">
 
                 <!-- Left Column -->
                 <div class="left-column col-lg-4 col-md-6 col-sm-12">
@@ -1260,7 +1260,7 @@
             </div>
             <div class="slider-area">
                 <div class="swiper th-slider has-shadow" id="testiSlide1"
-                    data-slider-options='{"loop":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"2"},"1300":{"slidesPerView":"3"}}}'>
+                    data-slider-options='{"loop":true}'>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="testi-card">

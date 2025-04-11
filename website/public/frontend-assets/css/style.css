@@ -96,8 +96,8 @@
   --success-color: #28a745;
   --error-color: #dc3545;
   --th-border-color: #E0E0E0;
-  --title-font: "Metropolis", sans-serif;
-  --body-font: "Metropolis", sans-serif;
+  --title-font: "Metropolis Medium", sans-serif;
+  --body-font: "Metropolis regular", sans-serif;
   --body-font2: "DM Sans", sans-serif;
   --icon-font: "Font Awesome 6 Pro";
   --main-container: 1290px;
@@ -110,8 +110,12 @@
 
 
 @font-face {
-  font-family: "Metropolis";
+  font-family: "Metropolis Medium";
   src: url('../fonts/metropolis/Metropolis-Medium.otf');
+}
+@font-face {
+  font-family: "Metropolis regular";
+  src: url('../fonts/metropolis/Metropolis-Regular.otf');
 }
 /*------------------- 1.5. Typography -------------------*/
 html,

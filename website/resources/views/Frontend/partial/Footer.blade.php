@@ -35,7 +35,7 @@
                                 <li><a href="#">About Us</a></li>
                                 <li><a href="#">Services</a></li>
                                 <li><a href="#">Creator</a></li>
-                                <li><a href="contact.html">Blogs</a></li>
+                                <li><a href="{{route('blog')}}">Blogs</a></li>
                                 <li><a href="#">Case Study</a></li>
                             </ul>
                         </div>
@@ -47,8 +47,8 @@
                         <div class="menu-all-pages-container">
                             <ul class="menu">
                                 <li><a href="#">Careers</a></li>
-                                <li><a href="#">Work</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="{{route('workculture')}}">Work</a></li>
+                                <li><a href="{{route('contact')}}">Contact</a></li>
                             </ul>
                         </div>
                     </div>

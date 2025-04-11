@@ -27,36 +27,6 @@
         color: #797E88 !important;
     }
 
-    #contact .contact-form input,
-    #contact .contact-form textarea,
-    #contact .contact-form select {
-        border-radius: 10px;
-    }
-
-    #contact .contact-form .form-group {
-        position: relative;
-        margin-bottom: 2.5rem;
-    }
-
-    #contact .contact-form .form-group input,
-    #contact .contact-form .form-group select,
-    #contact .contact-form .form-group textarea {
-        padding: 15px 10px 10px 15px;
-    }
-
-    #contact .contact-form .form-group label {
-        position: absolute;
-        top: 3px;
-        left: 24px;
-        font-weight: 500;
-        font-size: 18px;
-        transform: translateY(-50%);
-        background-color: white;
-        padding: 0px 12px;
-        pointer-events: none;
-        z-index: 2;
-    }
-
     #contact .space-bottom {
         padding-bottom: 35px;
     }
@@ -133,7 +103,7 @@
 @endsection
 @section('content')
 <main id="contact">
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg') }}">
+    <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x520">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Contact Us</h1>
@@ -246,7 +216,7 @@
                             @csrf
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="name">Your Name</label>
+                                    <label class="form-label" for="name">Your Name</label>
                                     <input type="text" class="form-control @error('name') is-invalid @enderror"
                                         name="name" id="name" placeholder="Enter your Name"
                                         value="{{ old('name') }}">
@@ -256,7 +226,7 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <i class="far fa-envelope"></i>
-                                    <label for="email">Email</label>
+                                    <label class="form-label" for="email">Email</label>
                                     <input type="text" class="form-control @error('email') is-invalid @enderror"
                                         name="email" id="email" placeholder="Enter your Email"
                                         value="{{ old('email') }}">
@@ -266,7 +236,7 @@
                                 </div>
                                 <div class="form-group col-md-6">
                                     <i class="fal fa-phone"></i>
-                                    <label for="phone">Phone</label>
+                                    <label class="form-label" for="phone">Phone</label>
                                     <input type="text" class="form-control @error('phone') is-invalid @enderror"
                                         name="phone" id="phone" placeholder="Enter your Phone"
                                         value="{{ old('phone') }}">
@@ -277,7 +247,7 @@
 
                                 <div class="form-group col-md-6">
 
-                                    <label for="service">Service you want?</label>
+                                    <label class="form-label" for="service">Service you want?</label>
                                     <select class="form-select @error('service') is-invalid @enderror" id="service"
                                         name="service">
                                         <option selected disabled>Choose an option</option>
@@ -293,7 +263,7 @@
 
                                 <div class="form-group col-md-6">
 
-                                    <label for="budget">Marketing Budget</label>
+                                    <label class="form-label" for="budget">Marketing Budget</label>
                                     <select class="form-select @error('budget') is-invalid @enderror" id="budget"
                                         name="budget">
                                         <option selected disabled>Choose an option</option>
@@ -308,7 +278,7 @@
 
                                 <div class="form-group col-md-6">
 
-                                    <label for="aboutUs">How did you hear about Us?</label>
+                                    <label class="form-label" for="aboutUs">How did you hear about Us?</label>
                                     <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs"
                                         name="aboutUs">
                                         <option selected disabled>Choose an option</option>
@@ -322,7 +292,7 @@
                                 </div>
                                 <div class="form-group col-12">
 
-                                    <label for="messageforus">Your Message</label>
+                                    <label class="form-label" for="messageforus">Your Message</label>
                                     <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus"
                                         placeholder="Enter your message" rows="4" name="messageforus"></textarea>
                                     <i class="fal fa-pencil"></i>

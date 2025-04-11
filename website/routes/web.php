@@ -23,6 +23,9 @@ Route::get('/welcome', function () {
 Route::get('/dashboard', function () {
     return view('Frontend/dashboard');
 });
+Route::get('/test', function () {
+    return view('Frontend/test');
+});
 
 
 Route::get('/', [HomeController::class, 'Home'])->name('home');
