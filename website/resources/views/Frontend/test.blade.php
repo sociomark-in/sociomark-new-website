@@ -120,10 +120,10 @@
     <!-- End Business Section -->
 
 
- <!-- Link Swiper's CSS -->
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <!-- Swiper JS -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
 
@@ -133,23 +133,76 @@
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="row">
-                                <div class="col-md-6 col-6">
-                                    <img src="https://placehold.co/400x100" alt="" srcset="" class="w-100">
-                                </div>
-                                <div class="col-md-6 col-6">
-                                    <img src="https://placehold.co/400x100" alt="" srcset="" class="w-100">
+                            <div class="container-fluid">
+                                <div class="row p-4 align-items-center">
+                                    <div class="col-md-6 col-6">
+                                       <div class="text-center">
+                                        <img src="https://placehold.co/800x800" alt="" srcset=""
+                                        class="w-50">
+                                       </div>
+                                            
+                                    </div>
+                                    <div class="col-md-6 col-6 text-start">
+                                        <h2>Next, we set up the scrolling animation</h2>
+                                        <p>We track the view() position of the section elements using the named timeline view-timeline: --section;. We had previously set the timeline-scope: --section up in our HTML element, so we can access it from anywhere in the document.</p>
+                                        <p>We animate the .content children using animation-timeline: --section;. The .content element will now animate based on its parent section's position. This is important due to how we're handling the layout in the next section.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img src="https://placehold.co/400x100" alt="" srcset="">
+                            <div class="container-fluid">
+                                <div class="row p-4 align-items-center">
+                                    <div class="col-md-6 col-6">
+                                       <div class="text-center">
+                                        <img src="https://placehold.co/800x800" alt="" srcset=""
+                                        class="w-50">
+                                       </div>
+                                            
+                                    </div>
+                                    <div class="col-md-6 col-6 text-start">
+                                        <h2>Next, we set up the scrolling animation</h2>
+                                        <p>We track the view() position of the section elements using the named timeline view-timeline: --section;. We had previously set the timeline-scope: --section up in our HTML element, so we can access it from anywhere in the document.</p>
+                                        <p>We animate the .content children using animation-timeline: --section;. The .content element will now animate based on its parent section's position. This is important due to how we're handling the layout in the next section.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="swiper-slide">
-                            <img src="https://placehold.co/400x100" alt="" srcset="">
+                            <div class="container-fluid">
+                                <div class="row p-4 align-items-center">
+                                    <div class="col-md-6 col-6">
+                                       <div class="text-center">
+                                        <img src="https://placehold.co/800x800" alt="" srcset=""
+                                        class="w-50">
+                                       </div>
+                                            
+                                    </div>
+                                    <div class="col-md-6 col-6 text-start">
+                                        <h2>Next, we set up the scrolling animation</h2>
+                                        <p>We track the view() position of the section elements using the named timeline view-timeline: --section;. We had previously set the timeline-scope: --section up in our HTML element, so we can access it from anywhere in the document.</p>
+                                        <p>We animate the .content children using animation-timeline: --section;. The .content element will now animate based on its parent section's position. This is important due to how we're handling the layout in the next section.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="swiper-slide">
-                            <img src="https://placehold.co/400x100" alt="" srcset="">
+                            <div class="container-fluid">
+                                <div class="row p-4 align-items-center">
+                                    <div class="col-md-6 col-6">
+                                       <div class="text-center">
+                                        <img src="https://placehold.co/800x800" alt="" srcset=""
+                                        class="w-50">
+                                       </div>
+                                            
+                                    </div>
+                                    <div class="col-md-6 col-6 text-start">
+                                        <h2>Next, we set up the scrolling animation</h2>
+                                        <p>We track the view() position of the section elements using the named timeline view-timeline: --section;. We had previously set the timeline-scope: --section up in our HTML element, so we can access it from anywhere in the document.</p>
+                                        <p>We animate the .content children using animation-timeline: --section;. The .content element will now animate based on its parent section's position. This is important due to how we're handling the layout in the next section.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -162,7 +215,12 @@
             direction: "vertical",
             slidesPerView: 1,
             spaceBetween: 30,
-            mousewheel: true,
+            // mousewheel: true,
+            mousewheel: {
+    forceToAxis: true,
+    sensitivity: 1,
+    releaseOnEdges: true,
+},
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
@@ -173,7 +231,7 @@
     <style>
         .swiper {
             width: 100%;
-            height: 100vh;
+            height: 80vh;
         }
 
         .swiper-slide {
@@ -185,11 +243,11 @@
             align-items: center;
         }
 
-        .swiper-slide img {
-            display: block;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+        
+
+        .swiper-pagination-bullets .swiper-pagination-bullet {
+            width: 20px;
+            height: 20px;
         }
     </style>
 @endsection
