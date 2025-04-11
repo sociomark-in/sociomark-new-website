@@ -605,7 +605,7 @@
   <!-- 3 services end -->
 
   <!-- company overview -->
-  <div class="my-5 py-5 container tracking-section">
+  <div class="container tracking-section">
     <p class="text-warning">Sociomark Making a Mark</p>
     <h1 class="tracking-title fs-3">Tracking Progress, <br> Proof of Success in Numbers</h1>
     <div class="row align-items-center mt-4">

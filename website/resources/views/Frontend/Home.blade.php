@@ -130,14 +130,7 @@
             <div class="container-fluid">
                 <div class="row justify-content-center">
                     <div class="col-12 p-0">
-                        {{-- <picture>
-                            <source media="(min-width: 768px)" srcset="https://placehold.co/1920x800" type="image/webp">
-                            <source media="(min-width: 768px)" srcset="https://placehold.co/1920x800" type="image/jpg')}}">
-                    <source srcset="https://placehold.co/1000x800" type="image/webp">
-                    <img loading="lazy" src="https://placehold.co/1000x800" alt="" class="w-100">
-                    </picture> --}}
                         <div class="img">
-                            {{-- <img src="https://placehold.co/1920x800" alt="" srcset=""> --}}
                             <iframe width="100%" height="800"
                                 src="https://www.youtube.com/embed/fUcECL2KLeg?controls=0&autoplay=1&mute=1"
                                 title="Sociomark Showreel" frameborder="0" allow="autoplay;  picture-in-picture; web-share"
