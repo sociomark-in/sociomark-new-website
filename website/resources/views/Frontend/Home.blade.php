@@ -42,8 +42,8 @@
         /* about-sec end */
         /* section3 */
         /* #home #about-sec3 .accordion-item .accordion-button:not(.collapsed) .box-title {
-                        color: #106c97;
-                    } */
+                                color: #106c97;
+                            } */
 
         #home #about-sec3 .accordion-item .accordion-button:not(.collapsed) .accordion-item_info {
             background-color: #106c97 !important;
@@ -143,8 +143,8 @@
         </div>
 
         <!--======== / Hero Section ========--><!--==============================
-                                About Area
-                                ==============================-->
+                                        About Area
+                                        ==============================-->
         <div class="about-area space" id="about-sec">
             <div class="container">
                 <div class="row justify-content-center">
@@ -196,10 +196,10 @@
                     </div>
                     <div class="col-xl-3 col-sm-4 mb-30 mb-xl-0 d-none d-md-block">
                         <!-- <div class="img-box1 ps-xl-4">
-                                        <div class="img1 th-anim"> -->
+                                                <div class="img1 th-anim"> -->
                         <img src="https://www.sociomark.in/assets/img/owner/award2.jpeg" alt="About">
                         <!-- </div>
-                                    </div> -->
+                                            </div> -->
                     </div>
                     <div class="col-xl-4 col-sm-8 mb-30 mb-xl-0">
                         <div class="about-wrapp justify-content-center">
@@ -221,8 +221,8 @@
                 </div>
             </div>
         </div><!--==============================
-                                Counter Area
-                                ==============================-->
+                                        Counter Area
+                                        ==============================-->
         <div class="space-extra2-bottom bg-white" id="about-sec2">
             <div class="container">
                 <div class="counter-card-wrap">
@@ -263,8 +263,8 @@
             </div>
         </div>
         <!--==============================
-                        Service Area
-                        ==============================-->
+                                Service Area
+                                ==============================-->
         <section class="overflow-hidden space-extra-top space-bottom" id="about-sec3">
             <div class="container">
                 <div class="row justify-content-lg-between justify-content-center align-items-end">
@@ -447,8 +447,8 @@
             </div>
         </section>
         <!--==============================
-                          portfolio Area
-                          ==============================-->
+                                  portfolio Area
+                                  ==============================-->
         <div class="overflow-hidden position-relative space-extra-top space-bottom garally" id="portfolio-sec">
             <div class="container-fluid">
                 <div class="title-area text-center mb-25">
@@ -548,15 +548,15 @@
                         </div>
                     </div>
                     <!-- <div class="project-btn mt-60">
-                                      <a href="#" class="th-btn th-radius">View All Portfolio</a>
-                                    </div> -->
+                                              <a href="#" class="th-btn th-radius">View All Portfolio</a>
+                                            </div> -->
                 </div>
             </div>
         </div>
 
         <!--==============================
-                                Project Area
-                                ==============================-->
+                                        Project Area
+                                        ==============================-->
         <section class="project-area bg-white position-relative overflow-hidden space d-none" id="project-sec"
             data-bg-src="{{ asset('frontend-assets/img/bg/project_bg_1.png') }}">
             <div class="container">
@@ -609,8 +609,8 @@
             </div>
         </section>
         <!--==============================
-                                Team Area
-                                ==============================-->
+                                        Team Area
+                                        ==============================-->
         <section class="team-area pb-20 space-top d-none">
             <div class="container">
                 <div class="title-area text-center">
@@ -975,8 +975,8 @@
             </div>
         </div>
         <!--==============================
-                                Process Area
-                                ==============================-->
+                                        Process Area
+                                        ==============================-->
         <section class="space-extra-top space-bottom overflow-hidden" id="process-sec">
             <div class="container">
                 <div class="row flex-row-reverse align-items-end">
@@ -1158,7 +1158,7 @@
                 <!-- <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img src="{{ asset('frontend-assets/img/shape/shape-14.png') }}" alt=""></div> -->
         </section>
 
-       
+
         <!--============================== Testimonial Area ==============================-->
         <section class="overflow-hidden brand-area space" id="testi-sec">
             <div class="container">
@@ -1172,7 +1172,7 @@
                 </div>
                 <div class="slider-area">
                     <div class="swiper th-slider has-shadow" id="testiSlide1"
-                        data-slider-options='{"loop":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"2"},"1300":{"slidesPerView":"3"}}}'>
+                        data-slider-options='{"loop":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"1"}}}'>
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="testi-card">
@@ -1313,19 +1313,18 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <<<<<<< HEAD </div>
                         </div>
-                        <button data-slider-prev="#testiSlide1" class="slider-arrow slider-prev"><i
-                                class="far fa-arrow-left"></i></button>
-                        <button data-slider-next="#testiSlide1" class="slider-arrow slider-next"><i
-                                class="far fa-arrow-right"></i></button>
                     </div>
+                    <button data-slider-prev="#testiSlide1" class="slider-arrow slider-prev"><i
+                            class="far fa-arrow-left"></i></button>
+                    <button data-slider-next="#testiSlide1" class="slider-arrow slider-next"><i
+                            class="far fa-arrow-right"></i></button>
                 </div>
-                {{-- <div class="shape-mockup" data-top="0" data-right="0">
+            </div>
+            {{-- <div class="shape-mockup" data-top="0" data-right="0">
                 <div class="particle-3" id="particle-3"></div>
             </div> --}}
-                {{-- <div class="shape-mockup spin  d-none d-xl-block" data-top="20%" data-left="12%"><img
+            {{-- <div class="shape-mockup spin  d-none d-xl-block" data-top="20%" data-left="12%"><img
                     src="{{ asset('frontend-assets/img/shape/shape-1.png') }}" alt="">
         </div>
         <div class="shape-mockup moving  d-none d-xl-block" data-bottom="40%" data-left="5%"><img
@@ -1347,8 +1346,7 @@
                             <div class="swiper-slide">
                                 <div class="blog-grid">
                                     <div class="box-img global-img">
-                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_1.jpg') }}"
-                                            alt="blog image">
+                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_1.jpg') }}" alt="blog image">
                                     </div>
                                     <div class="box-content">
                                         <div class="blog-meta">
@@ -1366,8 +1364,7 @@
                             <div class="swiper-slide">
                                 <div class="blog-grid">
                                     <div class="box-img global-img">
-                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_2.jpg') }}"
-                                            alt="blog image">
+                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_2.jpg') }}" alt="blog image">
                                     </div>
                                     <div class="box-content">
                                         <div class="blog-meta">
@@ -1385,8 +1382,7 @@
                             <div class="swiper-slide">
                                 <div class="blog-grid">
                                     <div class="box-img global-img">
-                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_3.jpg') }}"
-                                            alt="blog image">
+                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_3.jpg') }}" alt="blog image">
                                     </div>
                                     <div class="box-content">
                                         <div class="blog-meta">
@@ -1404,8 +1400,7 @@
                             <div class="swiper-slide">
                                 <div class="blog-grid">
                                     <div class="box-img global-img">
-                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_1.jpg') }}"
-                                            alt="blog image">
+                                        <img src="{{ asset('frontend-assets/img/blog/blog_2_1.jpg') }}" alt="blog image">
                                     </div>
                                     <div class="box-content">
                                         <div class="blog-meta">
@@ -1471,7 +1466,142 @@
             <!-- <div class="shape-mockup d-none d-lg-block" data-top="2%" data-left="0%"><img src="{{ asset('frontend-assets/img/shape/shape-13.png') }}" alt=""></div> -->
             <!-- <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img src="{{ asset('frontend-assets/img/shape/shape-14.png') }}" alt=""></div> -->
         </section>
+      
+        <style>
+            .card {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                display: inline-block;
+            }
 
+            .card .img-top {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 99;
+            }
+
+            .card:hover .img-top {
+                display: inline;
+            }
+
+            .team-card .team-social .th-social {
+                min-height: 90px;
+            }
+        </style>
+
+        <!--==============================
+        Team Area
+        ==============================-->
+
+        <section class="space">
+            <div class="container">
+                <div class="title-area text-center">
+                    <h2 class="sec-title ">Expert Team</h2>
+                </div>
+                <div class="row gy-40">
+                    <!-- Single Item -->
+                    <div class="col-xl-4 col-xxl-3 col-md-6">
+                        <div class="th-team team-card style2">
+                            <div class="box-img card">
+                                <img src="{{ asset('frontend-assets/img/team/Pushkar Singh Dhami TNS25.jpg') }}"
+                                    alt="Card Back">
+                                <img src="{{ asset('frontend-assets/img/team/vijay_shekhar.jpg') }}" class="img-top"
+                                    alt="Card Front">
+                            </div>
+                            <div class="box-content">
+                                <div>
+                                    <h3 class="box-title"><a href="team-details.html">Lorum Ipsum</a></h3>
+                                    <span class="team-desig">UI/UX Designer</span>
+                                </div>
+                                <div class="team-social">
+                                    <div class="icon-btn"><i class="fa-light fa-plus"></i></div>
+                                    <div class="th-social">
+                                        <a target="_blank" href="https://linkedin.com/"><i
+                                                class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-xxl-3 col-md-6">
+                        <div class="th-team team-card style2">
+                            <div class="box-img card">
+                                <img src="{{ asset('frontend-assets/img/team/Pushkar Singh Dhami TNS25.jpg') }}"
+                                    alt="Card Back">
+                                <img src="{{ asset('frontend-assets/img/team/vijay_shekhar.jpg') }}" class="img-top"
+                                    alt="Card Front">
+                            </div>
+                            <div class="box-content">
+                                <div>
+                                    <h3 class="box-title"><a href="team-details.html">Lorum Ipsum</a></h3>
+                                    <span class="team-desig">UI/UX Designer</span>
+                                </div>
+                                <div class="team-social">
+                                    <div class="icon-btn"><i class="fa-light fa-plus"></i></div>
+                                    <div class="th-social">
+                                        <a target="_blank" href="https://linkedin.com/"><i
+                                                class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-xxl-3 col-md-6">
+                        <div class="th-team team-card style2">
+                            <div class="box-img card">
+                                <img src="{{ asset('frontend-assets/img/team/Pushkar Singh Dhami TNS25.jpg') }}"
+                                    alt="Card Back">
+                                <img src="{{ asset('frontend-assets/img/team/vijay_shekhar.jpg') }}" class="img-top"
+                                    alt="Card Front">
+                            </div>
+                            <div class="box-content">
+                                <div>
+                                    <h3 class="box-title"><a href="team-details.html">Lorum Ipsum</a></h3>
+                                    <span class="team-desig">UI/UX Designer</span>
+                                </div>
+                                <div class="team-social">
+                                    <div class="icon-btn"><i class="fa-light fa-plus"></i></div>
+                                    <div class="th-social">
+                                        <a target="_blank" href="https://linkedin.com/"><i
+                                                class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-xxl-3 col-md-6">
+                        <div class="th-team team-card style2">
+                            <div class="box-img card">
+                                <img src="{{ asset('frontend-assets/img/team/Pushkar Singh Dhami TNS25.jpg') }}"
+                                    alt="Card Back">
+                                <img src="{{ asset('frontend-assets/img/team/vijay_shekhar.jpg') }}" class="img-top"
+                                    alt="Card Front">
+                            </div>
+                            <div class="box-content">
+                                <div>
+                                    <h3 class="box-title"><a href="team-details.html">Lorum Ipsum</a></h3>
+                                    <span class="team-desig">UI/UX Designer</span>
+                                </div>
+                                <div class="team-social">
+                                    <div class="icon-btn"><i class="fa-light fa-plus"></i></div>
+                                    <div class="th-social">
+                                        <a target="_blank" href="https://linkedin.com/"><i
+                                                class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!--============================== Brand Area ==============================-->
         <div class="brand-area bg-white overflow-hidden">
             <div class="container th-container">
@@ -1558,8 +1688,8 @@
         </div>
 
         <!--==============================
-                                Brand Area
-                                ==============================-->
+                                        Brand Area
+                                        ==============================-->
         <div class="brand-area overflow-hidden d-none">
             <div class="container th-container">
                 <div class="slider-area text-center">
@@ -1668,6 +1798,12 @@
                 </div>
             </div>
         </div>
+
+
+
+
+
+        
     </main>
 
 @endsection

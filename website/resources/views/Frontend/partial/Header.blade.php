@@ -1,8 +1,8 @@
     <!--==============================
      Preloader
   ==============================-->
-    <div class="preloader ">
-        <button class="th-btn style1 preloaderCls">Cancel Preloader </button>
+    <div class="preloader">
+        <button class="th-btn style1 preloaderCls mt-3">Cancel Preloader </button>
         <div class="preloader-inner">
             <img src="{{ asset('frontend-assets/img/logo/sociomark-new-logo.png') }}" alt="Sociomark" height="200">
             <span class="loader"></span>
@@ -94,9 +94,9 @@ Header Area
                                       <a href="#">Case Studies</a>
                                     </li>
                                     <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
-                                    <li><a href="{{ route('blog') }}">Blog</a></li>
+                                    {{-- <li><a href="{{ route('blog') }}">Blog</a></li>
                                     <li><a href="#">Carrers</a></li>
-                                    <li><a href="{{ route('workculture') }}">Work Culture</a></li>
+                                    <li><a href="{{ route('workculture') }}">Work Culture</a></li> --}}
                                     <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                   </ul>
                             </nav>
@@ -124,14 +124,13 @@ Header Area
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header d-none">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Let's schedule a Call & Explore.</h1>
+            <div class="modal-content contact-form style2">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Please Fill In The Form Below</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="">
-                        <h3 class="text-center mb-15 form-head head-mbl-text">Please Fill In The Form Below</h3>
                         @if (session('success'))
                         <div class="alert alert-success">
                             {{ session('success') }}
@@ -139,7 +138,7 @@ Header Area
                         @endif
 
 
-                        <form action="{{ route('contact.store') }}" method="POST" class="contact-form style2">
+                        <form action="{{ route('contact.store') }}" method="POST" class="">
                             @csrf
                             <div class="row">
                                 <div class="form-group col-md-6">
