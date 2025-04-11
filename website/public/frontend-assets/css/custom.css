@@ -61,6 +61,10 @@ p {
     --rotate-letter: 9deg;
 }
 
+main{
+    margin: 0;
+}
+
 .main-menu.style2>ul>li>a:hover {
     color: #ffffff;
 }
