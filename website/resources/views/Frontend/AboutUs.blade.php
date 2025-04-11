@@ -198,7 +198,6 @@
         padding: 40px 20px;
         text-align: center;
         /* background-color: white; */
-        border: 1px solid #eee;
         height: 100%;
 
     }
@@ -206,9 +205,9 @@
     #about-us #about-sec3 .first-feature-card:nth-child(odd) .flip-box-front {
         background-color: #ffffff;
     }
-#about-us #about-sec3 .flip-box{
-    width: 300px;
-}
+    #about-us #about-sec3 .flip-box{
+        width: 300px;
+    }
     #about-us #about-sec3 .first-feature-card:nth-child(even) .flip-box-front {
 
         background-color: #f6f9ff;
@@ -319,36 +318,6 @@
         padding: 30px;
     }
 
-    #contact .contact-form input,
-    #contact .contact-form textarea,
-    #contact .contact-form select {
-        border-radius: 10px;
-    }
-
-    #contact .contact-form .form-group {
-        position: relative;
-        margin-bottom: 2.5rem;
-    }
-
-    #contact .contact-form .form-group input,
-    #contact .contact-form .form-group select,
-    #contact .contact-form .form-group textarea {
-        padding: 15px 10px 10px 15px;
-    }
-
-    #contact .contact-form .form-group label {
-        position: absolute;
-        top: 3px;
-        left: 24px;
-        font-weight: 500;
-        font-size: 18px;
-        transform: translateY(-50%);
-        background-color: white;
-        padding: 0px 12px;
-        pointer-events: none;
-        z-index: 2;
-    }
-
     #contact .space-bottom {
         padding-bottom: 35px;
     }
@@ -367,10 +336,16 @@
 
     /* contact form end */
 </style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
+    integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/additional-methods.min.js"
+    integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 @endsection
 @section('content')
 <main id="about-us">
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg') }}">
+    <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x520">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">About us</h1>
@@ -410,13 +385,13 @@
 
     <div class="overflow-hidden mb-md-3 mt-md-3 mt-0 md-0" id="about-sec2">
         <div class="container process-container text-center">
-            <h6 class="text-primary fw-semibold mb-2 sec-para"
+            {{-- <h6 class="text-primary fw-semibold mb-2 sec-para"
                 data-aos="fade-up"
                 data-aos-delay="100"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out">
                 FLOW PROCESS
-            </h6>
+            </h6> --}}
 
             <h2 class="fw-bold mb-5 sec-title"
                 data-aos="fade-up"
@@ -432,17 +407,23 @@
                     data-aos-delay="300"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
-                    <div class="img">
-                        <div class="shadow-title">01</div>
-                        <div class="icon">
-                            <div class="position-absolute-img" style="background-color: rgb(255 235 245);">
-                                <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
+                    <div class="row g-3 g-md-4">
+                        <div class="col-12">
+                            <div class="img">
+                                <div class="shadow-title">01</div>
+                                <div class="icon">
+                                    <div class="position-absolute-img" style="background-color: rgb(255 235 245);">
+                                        <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="text">
-                        <h5>Choose A Service</h5>
-                        <p>Pick the ideal service that suits your requirement</p>
+                        <div class="col-12">
+                            <div class="text">
+                                <h5>Choose A Service</h5>
+                                <p>Pick the ideal service that suits your requirement</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -452,15 +433,21 @@
                     data-aos-delay="400"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
-                    <div class="text">
-                        <h5>Define Requirements</h5>
-                        <p>Let us know what you expect & provide a clear brief</p>
-                    </div>
-                    <div class="img">
-                        <div class="shadow-title">02</div>
-                        <div class="icon">
-                            <div class="position-absolute-img">
-                                <img src="{{ asset('frontend-assets/img/ourCulture/1.png') }}" alt="">
+                    <div class="row flex-column-reverse">
+                        <div class="col-12">
+                            <div class="img">
+                                <div class="shadow-title">02</div>
+                                <div class="icon">
+                                    <div class="position-absolute-img">
+                                        <img src="{{ asset('frontend-assets/img/ourCulture/1.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="text">
+                                <h5>Define Requirements</h5>
+                                <p>Let us know what you expect & provide a clear brief</p>
                             </div>
                         </div>
                     </div>
@@ -472,18 +459,25 @@
                     data-aos-delay="500"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
-                    <div class="img">
-                        <div class="shadow-title">03</div>
-                        <div class="icon">
-                            <div class="position-absolute-img" style="background-color: rgb(238 251 229);">
-                                <img src="{{ asset('frontend-assets/img/ourCulture/4.png') }}" alt="">
+                    <div class="row g-3 g-md-4">
+                        <div class="col-12">
+                            <div class="img">
+                                <div class="shadow-title">03</div>
+                                <div class="icon">
+                                    <div class="position-absolute-img" style="background-color: rgb(238 251 229);">
+                                        <img src="{{ asset('frontend-assets/img/ourCulture/4.png') }}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="text">
+                                <h5>Request A Meeting</h5>
+                                <p>We’ll set up a time to discuss all of your project goals</p>
                             </div>
                         </div>
                     </div>
-                    <div class="text">
-                        <h5>Request A Meeting</h5>
-                        <p>We’ll set up a time to discuss all of your project goals</p>
-                    </div>
+
                 </div>
 
                 <!-- Step 4 (reversed) -->
@@ -635,32 +629,32 @@
                 data-aos-delay="200"
                 data-aos-duration="1200"
                 data-aos-easing="ease-in-out">
-                <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
+                <div class="row g-4 filter-active">
                     <div class="col-md-6 col-xl-3 filter-item cat1 cat5 cat7 cat3">
                         <div class="project-item">
                             <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                                <img src="https://placehold.co/200x100/webp" alt="Client Logo">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-3 filter-item cat5 cat5 cat8 cat1">
                         <div class="project-item">
                             <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                                <img src="https://placehold.co/200x100/webp" alt="Client Logo">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-3 filter-item cat5 cat3 cat2">
                         <div class="project-item">
                             <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                                <img src="https://placehold.co/200x100/webp" alt="Client Logo">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-3 filter-item cat4 cat1 cat6">
                         <div class="project-item">
                             <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                                <img src="https://placehold.co/200x100/webp" alt="Client Logo">
                             </div>
                         </div>
                     </div>
@@ -668,21 +662,21 @@
                     <div class="col-md-6 col-xl-3 filter-item cat4 cat6">
                         <div class="project-item">
                             <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                                <img src="https://placehold.co/200x100/webp" alt="Client Logo">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-3 filter-item cat4 cat6">
                         <div class="project-item">
                             <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                                <img src="https://placehold.co/200x100/webp" alt="Client Logo">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-3 filter-item cat4 cat6">
                         <div class="project-item">
                             <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                                <img src="https://placehold.co/200x100/webp" alt="Client Logo">
                             </div>
                         </div>
                     </div>
@@ -705,7 +699,7 @@
 
                 </div>
                 <div class="col-xl-7">
-                    <form action="{{ route('contact.store') }}" method="POST" class="contact-form style2">
+                    <form action="{{ route('contact.store') }}" method="POST" class="contact-form style2" id="contactform">
                         @csrf
                         <div class="row">
                             <div class="form-group col-md-6">
@@ -790,6 +784,56 @@
                         </div>
 
                     </form>
+                    <script type="text/javascript">
+                        $.validator.addMethod("emailregex", function(value, element) {
+                            return this.optional(element) || /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i.test(value);
+                        })
+                        $.validator.addMethod("letters", function(value, element) {
+                            return this.optional(element) || /^[a-zA-Z \s']*$/i.test(value);
+                        });
+                        $.validator.addMethod("numbers", function(value, element) {
+                            return this.optional(element) || /^[0-9 ]*$/i.test(value);
+                        });
+                        $('#contactform').validate({
+                            rules: {
+                                name: {
+                                    required: true,
+                                    letters: true,
+                                },
+                                lastname: 'required',
+                                organisation: 'required',
+                                email: {
+                                    required: true,
+                                    emailregex: true,
+                                },
+                                phone: {
+                                    required: true,
+                                    numbers: true,
+                                },
+                                message: {
+                                    required: true,
+                                }
+                            },
+                            messages: {
+                                name: {
+                                    required: 'This Name field is required',
+                                    letters: 'Only Letters & Spaces are Allowed.'
+                                },
+                                phone: {
+                                    required: 'This Phone field is required',
+                                    maxlength: 'Please enter a Valid Mobile Number',
+                                    minlength: 'Please enter a Valid Mobile Number',
+                                },
+                                lastname: 'This Last Name field is required',
+                                organisation: 'This Organisation field is required',
+                                email: 'Please enter a Valid Email Id',
+                                message: 'This message field is required',
+                            },
+                            submitHandler: function(form) {
+                                form.submit();
+                            }
+                        });
+                    </script>
                 </div>
             </div>
         </div>

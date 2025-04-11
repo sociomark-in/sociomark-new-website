@@ -144,7 +144,7 @@ Header Area
                         @endif
 
 
-                        <form action="{{ route('contact.store') }}" method="POST" class="">
+                        <form action="{{ route('contact.store') }}" method="POST" class="" id="popupForm">
                             @csrf
                             <div class="row">
                                 <div class="form-group col-md-6">
@@ -235,6 +235,56 @@ Header Area
                             </div>
 
                         </form>
+                        <script type="text/javascript">
+                            $.validator.addMethod("emailregex", function(value, element) {
+                                return this.optional(element) || /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i.test(value);
+                            })
+                            $.validator.addMethod("letters", function(value, element) {
+                                return this.optional(element) || /^[a-zA-Z \s']*$/i.test(value);
+                            });
+                            $.validator.addMethod("numbers", function(value, element) {
+                                return this.optional(element) || /^[0-9 ]*$/i.test(value);
+                            });
+                            $('#popupForm').validate({
+                                rules: {
+                                    name: {
+                                        required: true,
+                                        letters: true,
+                                    },
+                                    lastname: 'required',
+                                    organisation: 'required',
+                                    email: {
+                                        required: true,
+                                        emailregex: true,
+                                    },
+                                    phone: {
+                                        required: true,
+                                        numbers: true,
+                                    },
+                                    message: {
+                                        required: true,
+                                    }
+                                },
+                                messages: {
+                                    name: {
+                                        required: 'This Name field is required',
+                                        letters: 'Only Letters & Spaces are Allowed.'
+                                    },
+                                    phone: {
+                                        required: 'This Phone field is required',
+                                        maxlength: 'Please enter a Valid Mobile Number',
+                                        minlength: 'Please enter a Valid Mobile Number',
+                                    },
+                                    lastname: 'This Last Name field is required',
+                                    organisation: 'This Organisation field is required',
+                                    email: 'Please enter a Valid Email Id',
+                                    message: 'This message field is required',
+                                },
+                                submitHandler: function(form) {
+                                    form.submit();
+                                }
+                            });
+                        </script>
                     </div>
                 </div>
                 <div class="modal-footer d-none">
