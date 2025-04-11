@@ -22,6 +22,9 @@ textarea,
 select {
     border-radius: 10px;
 }
+.contact-form{
+    background-color: #fff;
+}
 
 .form-group {
     position: relative;
@@ -32,6 +35,7 @@ select {
 .form-group select,
 .form-group textarea {
     padding: 15px 10px 10px 15px;
+    border-radius: 10px;
 }
 
 .form-group label.error {
@@ -50,6 +54,14 @@ select {
     padding: 0px 12px;
     pointer-events: none;
     z-index: 2;
+}
+
+.header-absolute {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 8;
 }
 
 .service-process_img {
@@ -77,9 +89,14 @@ select {
     color: #ffffff;
 }
 
+.breadcumb-title {
+    text-transform: capitalize;
+}
+
 .th-btn {
     color: #ffffff;
     border-radius: 55px;
+    padding: 15px 28px;
 }
 
 .space-extra2,

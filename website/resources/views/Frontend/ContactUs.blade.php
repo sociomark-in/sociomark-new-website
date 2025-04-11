@@ -1,5 +1,5 @@
 @extends('Frontend.layout.app')
-@section('title', 'Contact')
+@section('title', 'Contact Us')
 @section('author', 'Your Company Name')
 @section('description', 'This is a dynamic description for the home page.')
 @section('keywords', 'seo, marketing, agency, web design')

@@ -1,11 +1,11 @@
 <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>@yield('title', 'Default Title')</title>
+    <title>@yield('title', env('APP_NAME'))</title>
     <meta name="author" content="@yield('author', 'Default Author')">
     <meta name="description" content="@yield('description', 'Default Description')">
     <meta name="keywords" content="@yield('keywords', 'default, keywords')">
     <meta name="robots" content="@yield('robots', 'INDEX,FOLLOW')">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
@@ -56,4 +56,3 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    

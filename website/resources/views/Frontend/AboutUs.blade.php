@@ -322,13 +322,12 @@
         padding-bottom: 35px;
     }
 
+
     #contact .contact-form {
-        background: white;
         border-radius: 10px;
-        padding: 55px 30px;
-        border: 1px solid black;
+        padding: 45px 23px;
         /* box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        border: 2px solid transparent; */
+                border: 2px solid transparent; */
         box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
         -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
         -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
@@ -703,7 +702,7 @@
                         @csrf
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <label for="name">Your Name</label>
+                                <label class="form-label" for="name">Your Name</label>
                                 <input type="text" class="form-control @error('name') is-invalid @enderror" name="name" id="name" placeholder="Enter your Name" value="{{ old('name') }}">
                                 @error('name')
                                 <span class="text-danger">{{ $message }}</span>
@@ -712,7 +711,7 @@
 
                             <div class="form-group col-md-6">
                                 <i class="far fa-envelope"></i>
-                                <label for="email">Email</label>
+                                <label class="form-label" for="email">Email</label>
                                 <input type="text" class="form-control @error('email') is-invalid @enderror" name="email" id="email" placeholder="Enter your Email" value="{{ old('email') }}">
                                 @error('email')
                                 <span class="text-danger">{{ $message }}</span>
@@ -720,7 +719,7 @@
                             </div>
                             <div class="form-group col-md-6">
                                 <i class="fal fa-phone"></i>
-                                <label for="phone">Phone</label>
+                                <label class="form-label" for="phone">Phone</label>
                                 <input type="text" class="form-control @error('phone') is-invalid @enderror" name="phone" id="phone" placeholder="Enter your Phone" value="{{ old('phone') }}">
                                 @error('phone')
                                 <span class="text-danger">{{ $message }}</span>
@@ -729,7 +728,7 @@
 
                             <div class="form-group col-md-6">
 
-                                <label for="service">Service you want?</label>
+                                <label class="form-label" for="service">Service you want?</label>
                                 <select class="form-select @error('service') is-invalid @enderror" id="service" name="service">
                                     <option selected disabled>Choose an option</option>
                                     <option value="1">Option 1</option>
@@ -744,7 +743,7 @@
 
                             <div class="form-group col-md-6">
 
-                                <label for="budget">Marketing Budget</label>
+                                <label class="form-label" for="budget">Marketing Budget</label>
                                 <select class="form-select @error('budget') is-invalid @enderror" id="budget" name="budget">
                                     <option selected disabled>Choose an option</option>
                                     <option value="1">Option 1</option>
@@ -758,7 +757,7 @@
 
                             <div class="form-group col-md-6">
 
-                                <label for="aboutUs">How did you hear about Us?</label>
+                                <label class="form-label" for="aboutUs">How did you hear about Us?</label>
                                 <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs" name="aboutUs">
                                     <option selected disabled>Choose an option</option>
                                     <option value="1">Option 1</option>
@@ -771,7 +770,7 @@
                             </div>
                             <div class="form-group col-12">
 
-                                <label for="messageforus">Your Message</label>
+                                <label class="form-label" for="messageforus">Your Message</label>
                                 <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus" placeholder="Enter your message" rows="4" name="messageforus"></textarea>
                                 <i class="fal fa-pencil"></i>
                                 @error('messageforus')

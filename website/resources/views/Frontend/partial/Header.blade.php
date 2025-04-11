@@ -58,7 +58,7 @@ Header Area
                             <div class="header-logo">
                                 <a href="{{ route('home') }}">
                                     {{-- <img src="{{ asset('frontend-assets/img/logo/sc-white-horizontal.png') }}" alt="Image Not Found"> --}}
-                                    <img src="https://placehold.co/230x30" alt="Image Not Found" height="30">
+                                    <img src="{{ asset('frontend-assets/img/logo/sc-colored-horizontal.png') }}" alt="Image Not Found" height="30">
                                 </a>
                             </div>
                         </div>
