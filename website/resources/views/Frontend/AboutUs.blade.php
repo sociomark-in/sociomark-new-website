@@ -206,7 +206,9 @@
     #about-us #about-sec3 .first-feature-card:nth-child(odd) .flip-box-front {
         background-color: #ffffff;
     }
-
+#about-us #about-sec3 .flip-box{
+    width: 300px;
+}
     #about-us #about-sec3 .first-feature-card:nth-child(even) .flip-box-front {
 
         background-color: #f6f9ff;

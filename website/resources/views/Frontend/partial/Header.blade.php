@@ -93,7 +93,7 @@ Header Area
                                     <li class="menu-item-has-children">
                                       <a href="#">Case Studies</a>
                                     </li>
-                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
                                     <li><a href="{{ route('blog') }}">Blog</a></li>
                                     <li><a href="#">Carrers</a></li>
                                     <li><a href="{{ route('workculture') }}">Work Culture</a></li>

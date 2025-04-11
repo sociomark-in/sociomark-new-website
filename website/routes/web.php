@@ -26,6 +26,8 @@ Route::get('/dashboard', function () {
 
 
 Route::get('/', [HomeController::class, 'Home'])->name('home');
+Route::get('/home', [HomeController::class, 'HomeNew'])->name('homenew');
+Route::get('/home2', [HomeController::class, 'Home2'])->name('home2');
 Route::get('/about', [HomeController::class, 'About'])->name('about');
 Route::get('/blog', [BlogWebController::class, 'index'])->name('blog');
 // Route::get('/blog-inner/{id}', [BlogWebController::class, 'innerBlog'])->name('blog-inner');

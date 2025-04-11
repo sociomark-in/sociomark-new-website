@@ -4,7 +4,7 @@
     #industries #about-sec2 .sec-title,
     #industries #about-sec3 .sec-title,
     #industries #about-sec4 .sec-title,
-    #industries #portfolio-sec .sec-title{
+    #industries #portfolio-sec .sec-title {
         font-size: 35px;
         line-height: 42px;
     }
@@ -62,9 +62,9 @@
     }
 
     /* client section */
-  /* gallary :start */
+    /* gallary :start */
 
-  #portfolio-sec {
+    #portfolio-sec {
         padding-top: 20px;
     }
 
@@ -150,9 +150,18 @@
                 </div>
                 <div class="col-lg-8">
                     <div class="title-area mb-25 mt-n1">
-                        <h2 class="sec-title ">Innovative Digital Solutions for Modern Businesses</h2>
+                        <h2 class="fw-bold sec-title"
+                            data-aos="zoom-in"
+                            data-aos-delay="100"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
+                            Innovative Digital Solutions <span class="text-blue"> for Modern Businesses</span>
+                        </h2>
                     </div>
-                    <p class="mt-n2 mb-25 sec-para">Established in 1995, Saor has been a leading force in the digital landscape for
+                    <p class="mt-n2 mb-25 sec-para" data-aos="fade-down"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">Established in 1995, Saor has been a leading force in the digital landscape for
                         over two decades. We're a passionate team of designers, developers, and strategists driven by a
                         shared vision. Our digital agency combines innovation, strategy, and expertise to fuel your online
                         success. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, animi voluptatem esse quis tenetur, quidem harum ipsa tempore laborum reprehenderit nam! Voluptatum, hic minima temporibus vero pariatur accusamus ipsam qui?
@@ -168,16 +177,29 @@
                 <div class="col-xl-6">
                     <div class="title-area mb-20">
                         <!-- <span class="sub-title style1  text-white">Benefits You Can't Ignore</span> -->
-                        <h2 class="sec-title  text-white">The Powerful Benefits of Saor SEO</h2>
+
+                        <h2 class="sec-title text-white"
+                            data-aos="fade-right"
+                            data-aos-delay="200"
+                            data-aos-duration="1200"
+                            data-aos-easing="ease-in-out">
+                            The Powerful Benefits of Saor SEO
+                        </h2>
                     </div>
-                    <p class="sec-para mb-35">In today's digital landscape, a strong online presence is critical for business success. But simply having a website isn't enough.</p>
+                    <p class="sec-para mb-35" data-aos="fade-right"
+                        data-aos-delay="200"
+                        data-aos-duration="1200"
+                        data-aos-easing="ease-in-out">In today's digital landscape, a strong online presence is critical for business success. But simply having a website isn't enough.</p>
                     <div class="choose-feature-wrap">
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
                                 <!-- <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_1.svg') }}" alt="Icon"> -->
                                 <i class="fa-light fa-calendar"></i>
                             </div>
-                            <div class="media-body">
+                            <div class="media-body" data-aos="fade-right"
+                                data-aos-delay="200"
+                                data-aos-duration="1200"
+                                data-aos-easing="ease-in-out">
 
                                 <h3 class="box-title">Increased Website Traffic</h3>
                                 <p class="box-text">Our SEO strategies will attract more qualified visitors to your website, bringing you closer.</p>
@@ -188,7 +210,10 @@
                                 <!-- <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_2.svg') }}" alt="Icon"> -->
                                 <i class="fa-light fa-calendar"></i>
                             </div>
-                            <div class="media-body">
+                            <div class="media-body" data-aos="fade-right"
+                                data-aos-delay="200"
+                                data-aos-duration="1200"
+                                data-aos-easing="ease-in-out">
 
                                 <h3 class="box-title">Enhanced Brand Awareness</h3>
                                 <p class="box-text">Increased website traffic and the improved rankings naturally lead to greater brand awareness.</p>
@@ -199,7 +224,10 @@
                                 <!-- <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_3.svg') }}" alt="Icon"> -->
                                 <i class="fa-light fa-calendar"></i>
                             </div>
-                            <div class="media-body">
+                            <div class="media-body" data-aos="fade-right"
+                                data-aos-delay="200"
+                                data-aos-duration="1200"
+                                data-aos-easing="ease-in-out">
 
                                 <h3 class="box-title">More Leads & Conversions</h3>
                                 <p class="box-text">By attracting qualified the traffic and optimizing your website for conversions, we'll help you.</p>
@@ -208,7 +236,10 @@
                     </div>
                 </div>
                 <div class="col-xl-6">
-                    <div class="choose-image">
+                    <div class="choose-image" data-aos="fade-left"
+                        data-aos-delay="200"
+                        data-aos-duration="1200"
+                        data-aos-easing="ease-in-out">
                         <div class="img1 tilt-active">
                             <img src="{{ asset('frontend-assets/img/normal/choose_1.png') }}" alt="Choose">
                             <div class="choose-shape"><img src="{{ asset('frontend-assets/img/shape/choose-shape.png') }}" alt=""></div>
@@ -221,7 +252,14 @@
     <div class="overflow-hidden position-relative space-extra-top space-bottom garally mt-md-5" id="portfolio-sec">
         <div class="container">
             <div class="title-area text-center mb-25">
-                <h2 class="sec-title">Clients We've Worked With</h2>
+                <h2 class="sec-title"> </h2>
+                <h2 class="fw-bold sec-title my-3"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                    Clients We've <span class="text-blue"> Worked With</span>
+                </h2>
             </div>
             <div class="filter-menu filter-menu-active mt-md-5 mb-md-4">
                 <button data-filter="*" class="tab-btn active" type="button">All</button>
@@ -233,7 +271,10 @@
                 <button data-filter=".cat6" class="tab-btn" type="button">Gaming</button>
 
             </div>
-            <div class="portfolio-area">
+            <div class="portfolio-area" data-aos="zoom-in"
+                data-aos-delay="200"
+                data-aos-duration="1200"
+                data-aos-easing="ease-in-out">
                 <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
                     <div class="col-md-6 col-xl-3 filter-item cat1 cat5 cat7 cat3">
                         <div class="project-item">

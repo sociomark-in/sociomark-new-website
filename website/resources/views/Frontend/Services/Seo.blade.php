@@ -133,7 +133,10 @@
         height: 0;
         overflow: hidden;
     }
-
+    .according-list.item-active .according-img {
+        transform: scale(1);
+        /* height: auto; */
+    }
     /* Zoom in on hover */
     .hover-item:hover .according-img {
         opacity: 1;
