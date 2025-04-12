@@ -5,20 +5,6 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 @section('custome-style')
 <style>
-    #home .about-area2 .sec-title,
-    #home #about-sec2 .sec-title,
-    #home #about-sec3 .sec-title,
-    #home #about-sec4 .sec-title,
-    #portfolio-sec .sec-title,
-    #home #about-sec5 .sec-title,
-    #home #about-sec6 .sec-title,
-    #home #services-tab .sec-title,
-    #home #testi-sec .sec-title,
-    #home #contact .sec-title {
-        font-size: 35px;
-        line-height: 42px;
-    }
-
     #home .about-area2 .sec-title {
         width: 67rem;
     }
@@ -91,10 +77,6 @@
     }
 
     /* section 2 */
-    #home #about-sec2 {
-        /* background-color: #F5F5F5; */
-        background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
-    }
 
     #home #about-sec2 .choose-image .img1 {
         min-width: 100%;
@@ -431,52 +413,6 @@
         padding: 30px;
     }
 
-    #contact .contact-form input,
-    #contact .contact-form textarea,
-    #contact .contact-form select {
-        border-radius: 10px;
-    }
-
-    #contact .contact-form .form-group {
-        position: relative;
-        margin-bottom: 2.5rem;
-    }
-
-    #contact .contact-form .form-group input,
-    #contact .contact-form .form-group select,
-    #contact .contact-form .form-group textarea {
-        padding: 15px 10px 10px 15px;
-    }
-
-    #contact .contact-form .form-group label {
-        position: absolute;
-        top: 3px;
-        left: 24px;
-        font-weight: 500;
-        font-size: 18px;
-        transform: translateY(-50%);
-        background-color: white;
-        padding: 0px 12px;
-        pointer-events: none;
-        z-index: 2;
-    }
-
-    #contact .space-bottom {
-        padding-bottom: 35px;
-    }
-
-    #contact .contact-form {
-        background: white;
-        border-radius: 10px;
-        padding: 55px 30px;
-        border: 1px solid black;
-        /* box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        border: 2px solid transparent; */
-        box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
-        -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
-        -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
-    }
-
     /* contact form end */
 
     .business-section {
@@ -755,7 +691,7 @@
 @section('content')
 <main id="home">
 
-    <div class="choose-area overflow-hidden mb-md-3 mt-md-3 mt-0 md-0 " id="about-sec2">
+    <section class="choose-area overflow-hidden mb-md-3 mt-md-3 mt-0 md-0 " id="about-sec2">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 pe-5" data-aos="fade-left"
@@ -763,7 +699,7 @@
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
-                        <h2 class="sec-title ">The Powerful Lorem ipsum dolor sit amet, consectetur adipisicing. <span class="text-blue"> Benefits of</span> Saor SEO Lorem, ipsum.</h2>
+                        <h2 class="sec-title ">The Powerful Lorem ipsum. <span class="text-yellow"> Benefits of</span> Saor SEO Lorem, ipsum.</h2>
                     </div>
                     <p class="sec-para ">In today's digital landscape, a strong online presence is critical for business success. But simply having a website isn't enough. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="row mb-35 ">
@@ -791,13 +727,13 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="about-area overflow-hidden" id="about-sec">
+    <section class="about-area overflow-hidden" id="about-sec">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-12 p-0">
-                    <div class="img" id="videoScaleDown">
+                    <div class="img player-video" id="videoScaleDown">
                         {{-- <iframe width="100%" height="800"
                             src="https://www.youtube.com/embed/fUcECL2KLeg?controls=0&autoplay=1&mute=1"
                             title="Sociomark Showreel" frameborder="0" allow="autoplay;  picture-in-picture; web-share"
@@ -831,10 +767,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
-    <div class="choose-area overflow-hidden mb-md-3 mt-md-3 mt-0 md-0 " id="about-sec2">
+    <section class="choose-area overflow-hidden mb-md-3 mt-md-3 mt-0 md-0 " id="about-sec2">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 pe-5" data-aos="fade-left"
@@ -842,7 +778,7 @@
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
-                        <h2 class="sec-title ">The Powerful Lorem ipsum dolor sit amet, consectetur adipisicing. <span class="text-blue"> Benefits of</span> Saor SEO Lorem, ipsum.</h2>
+                        <h2 class="sec-title ">The Powerful Lorem ipsum. <span class="text-yellow"> Benefits of</span> Saor SEO Lorem, ipsum.</h2>
                     </div>
                     <p class="sec-para ">In today's digital landscape, a strong online presence is critical for business success. But simply having a website isn't enough. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="row mb-35 ">
@@ -862,7 +798,7 @@
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="choose-image">
-                        <div class="img1" data-tilt data-tilt-max="10">
+                        <div class="img1 rounded-overflow" data-tilt data-tilt-max="10">
                             <img src="https://placehold.co/804x610" alt="Choose">
                             <div class="choose-shape"><img src="{{ asset('frontend-assets/img/shape/choose-shape.png') }}" alt=""></div>
                         </div>
@@ -870,9 +806,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <section class="overflow-hidden bg-smoke2 space" id="about-sec3">
+    <section class="overflow-hidden space" id="about-sec3">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -882,7 +818,7 @@
                             data-aos-delay="100"
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
-                            Services We Provide To <span class="text-blue"> Grow Your Brand’s</span>
+                            Services We Provide To <span class="text-yellow"> Grow Your Brand’s</span>
                         </h2>
                     </div>
                 </div>
@@ -893,7 +829,9 @@
                         <h3 class="box-title">Keyword research and localization</h3>
                     </div>
                     <div class="according-img">
-                        <img src="https://placehold.co/720x291" alt="">
+                        <div class="rounded-overflow">
+                            <img src="https://placehold.co/720x291" alt="">
+                        </div>
                         <p class="sec-para text">Appeals to clients looking for innovative and creative digital
                             solutions,
                             positioning the agency as a leader in creativity. Conveys a collaborative approach,
@@ -911,7 +849,9 @@
                         <h3 class="box-title">International website structure and URL optimization</h3>
                     </div>
                     <div class="according-img">
-                        <img src="https://placehold.co/720x291" alt="">
+                        <div class="rounded-overflow">
+                            <img src="https://placehold.co/720x291" alt="">
+                        </div>
                         <p class="sec-para text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde reiciendis nesciunt perferendis dignissimos accusantium nostrum, laboriosam cupiditate dolores tenetur blanditiis.
                         </p>
                         <a href="" class="th-btn black-border th-icon th-radius">
@@ -923,7 +863,9 @@
                         <h3 class="box-title">Multilingual content creation and translation</h3>
                     </div>
                     <div class="according-img">
-                        <img src="https://placehold.co/720x291" alt="">
+                        <div class="rounded-overflow">
+                            <img src="https://placehold.co/720x291" alt="">
+                        </div>
                         <p class="sec-para text">Appeals to clients looking for innovative and creative digital
                             solutions,
                             positioning the agency as a leader in creativity. Conveys a collaborative approach,
@@ -939,7 +881,9 @@
                         <h3 class="box-title">Hreflang implementation</h3>
                     </div>
                     <div class="according-img">
-                        <img src="https://placehold.co/720x291" alt="">
+                        <div class="rounded-overflow">
+                            <img src="https://placehold.co/720x291" alt="">
+                        </div>
                         <p class="sec-para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora adipisci provident, magnam cupiditate quod voluptatibus consequuntur eaque voluptatem, animi totam repudiandae facilis facere quo tempore, ad laudantium ducimus sunt?
                         </p>
                         <a href="" class="th-btn black-border th-icon th-radius">
@@ -951,7 +895,9 @@
                         <h3 class="box-title">Country-specific domain or subdomain strategy</h3>
                     </div>
                     <div class="according-img">
-                        <img src="https://placehold.co/720x291" alt="">
+                        <div class="rounded-overflow">
+                            <img src="https://placehold.co/720x291" alt="">
+                        </div>
                         <p class="sec-para text">Appeals to clients looking for innovative and creative digital
                             solutions,
                             positioning the agency as a leader in creativity. Conveys a collaborative approach,
@@ -967,7 +913,9 @@
                         <h3 class="box-title">International link building and outreach</h3>
                     </div>
                     <div class="according-img">
-                        <img src="https://placehold.co/720x291" alt="">
+                        <div class="rounded-overflow">
+                            <img src="https://placehold.co/720x291" alt="">
+                        </div>
                         <p class="sec-para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam similique modi accusantium odit recusandae laudantium, vel, illo rerum cum sequi, minima eaque mollitia quos odio beatae iste nam temporibus accusamus.
                         </p>
                         <a href="" class="th-btn black-border th-icon th-radius">
@@ -988,7 +936,7 @@
     </section>
 
 
-    <div class="overflow-hidden position-relative space-extra-top space-bottom garally " id="portfolio-sec">
+    <section class="overflow-hidden position-relative space-extra-top space-bottom garally " id="portfolio-sec">
         <div class="container-fluid">
             <div class="title-area text-center mb-25">
                 <h2 class="fw-bold mb-5 sec-title"
@@ -996,7 +944,7 @@
                     data-aos-delay="100"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out">
-                    Our <span class="text-blue"> Portfolio</span>
+                    Our <span class="text-yellow"> Portfolio</span>
                 </h2>
             </div>
             <div class="filter-menu filter-menu-active mt-5 mb-4">
@@ -1112,8 +1060,9 @@
                 </div>
             </div>
         </div>
-    </div>
-    <section class="business-section bg-smoke2" style="background-image: url(assets/images/background/pattern-4.png)" id="about-sec4">
+    </section>
+
+    {{-- <section class="business-section bg-smoke2" style="background-image: url(assets/images/background/pattern-4.png)" id="about-sec4">
         <div class="container">
             <div class="title-area text-center mb-25">
                 <h2 class="fw-bold mb-5 sec-title"
@@ -1121,7 +1070,7 @@
                     data-aos-delay="100"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out">
-                    Why Should You <span class="text-blue"> Choose Us</span>
+                    Why Should You <span class="text-yellow"> Choose Us</span>
                 </h2>
             </div>
             <div class="row clearfix align-items-center">
@@ -1255,9 +1204,9 @@
 
             </div>
         </div>
-    </section>
+    </section> --}}
 
-    <section class="th-blog-wrapper bg-smoke2 space-top space-extra-bottom" id="about-sec5">
+    <section class="th-blog-wrapper space-top space-extra-bottom" id="about-sec5">
         <div class="container">
             <div class="title-area text-center mb-25">
                 <h2 class="fw-bold sec-title my-3"
@@ -1265,7 +1214,7 @@
                     data-aos-delay="100"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out">
-                    From The Blog: Blogs worth binging on. <span class="text-blue"> Dive in!</span>
+                    From The Blog: Blogs worth binging on. <span class="text-yellow"> Dive in!</span>
                 </h2>
             </div>
             <div class="swiper mySwiper">
@@ -1315,7 +1264,7 @@
                             data-aos-delay="100"
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
-                            60+ Happy Clients Said To <span class="text-blue"> Us They Are Satisfied</span>
+                            60+ Happy Clients Said To <span class="text-yellow"> Us They Are Satisfied</span>
                         </h2>
 
                     </div>
@@ -1482,7 +1431,7 @@
         <div class="shape-mockup moving  d-none d-xl-block" data-bottom="40%" data-left="5%"><img
                 src="{{ asset('frontend-assets/img/shape/shape-7.png') }}" alt=""></div> --}}
     </section>
-    <div class="th-blog-wrapper bg-smoke2 space-top space-extra-bottom" id="contact">
+    <div class="th-blog-wrapper space-top space-extra-bottom" id="contact">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-xl-5 pe-md-5">
@@ -1492,7 +1441,7 @@
                             data-aos-delay="100"
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
-                            The Powerful Benefits of <span class="text-blue"> Saor SEO</span>
+                            The Powerful Benefits of <span class="text-yellow"> Saor SEO</span>
                         </h2>
 
                     </div>

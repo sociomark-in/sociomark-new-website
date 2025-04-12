@@ -57,8 +57,8 @@ Header Area
                         <div class="col-auto">
                             <div class="header-logo">
                                 <a href="{{ route('home') }}">
-                                    <img src="{{ asset('frontend-assets/img/logo/sociomark-new-logo.png') }}" alt="Image Not Found" height="50">
-                                    {{-- <img src="{{ asset('frontend-assets/img/logo/sc-colored-horizontal.png') }}" alt="Image Not Found" height="30"> --}}
+                                    {{-- <img src="{{ asset('frontend-assets/img/logo/sociomark-new-logo.png') }}" alt="Image Not Found" height="50"> --}}
+                                    <img src="{{ asset('frontend-assets/img/logo/sc-colored-horizontal.png') }}" alt="Image Not Found" height="30">
                                 </a>
                             </div>
                         </div>
