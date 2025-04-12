@@ -11,7 +11,7 @@
         background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
     }
 
-    #about-us #about-sec3 {
+    #about-us #about-sec4 {
         background-color: #F5F5F5;
     }
 
@@ -26,6 +26,7 @@
     #about-us .about-area2 .sec-title,
     #about-us #about-sec2 .sec-title,
     #about-us #about-sec3 .sec-title,
+    #about-us #about-sec4 .sec-title,
     #portfolio-sec .sec-title,
     #about-us #contact .sec-title {
         font-size: 35px !important;
@@ -205,9 +206,11 @@
     #about-us #about-sec3 .first-feature-card:nth-child(odd) .flip-box-front {
         background-color: #ffffff;
     }
-    #about-us #about-sec3 .flip-box{
+
+    #about-us #about-sec3 .flip-box {
         width: 300px;
     }
+
     #about-us #about-sec3 .first-feature-card:nth-child(even) .flip-box-front {
 
         background-color: #f6f9ff;
@@ -251,6 +254,86 @@
     }
 
     /* section3end */
+
+    /* about-sec4 */
+    .content-box {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .image-gallery {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .position-relative {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .gallery-img {
+        width: 310px;
+        height: 450px;
+        object-fit: cover;
+        transition: all 0.5s ease;
+        border-radius: 10px;
+        cursor: pointer;
+        display: block;
+    }
+
+    .gallery-img.default-active {
+        width: 570px;
+    }
+    .gallery-img.default-active .img-overlay p{
+        width: 50%;
+    }
+    .img-overlay p{
+        width: 100%;
+    }
+    .img-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.1);
+        /* semi-transparent black */
+        color: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        border-radius: 10px;
+        transition: all 0.4s ease;
+        pointer-events: none;
+        /* allows hover on img */
+        opacity: 1;
+        /* always visible now */
+    }
+
+    .position-relative:hover .img-overlay {
+        background: rgba(0, 0, 0, 0.1);
+        transform: scale(1.02);
+        pointer-events: auto;
+    }
+
+    .position-relative:hover .gallery-img {
+        width: 570px;
+    }
+
+    /* Smooth text entrance but visible from start */
+    .img-overlay h4,
+    .img-overlay p,
+    .img-overlay a {
+        opacity: 1;
+        transform: translateY(0);
+        transition: all 0.4s ease;
+    }
+
+
+    /* about-sec4 :end */
     /* gallary :start */
 
     #portfolio-sec {
@@ -355,7 +438,7 @@
             </div>
         </div>
     </div>
-    <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden overflow-hidden space" id="about-sec">
+    <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden space" id="about-sec">
         <div class="container">
             <div class="row align-items-end">
                 <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
@@ -369,10 +452,10 @@
                             Expand Your Global Reach with <span class="text-blue"> Our Comprehensive International</span> SEO Solutions
                         </h2>
                     </div>
-                    <p class="mt-n2 mb-25 sec-para text-center"  data-aos="fade-down"
-                            data-aos-delay="100"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">Established in 1995, Saor has been a leading force in the digital landscape for
+                    <p class="mt-n2 mb-25 sec-para text-center" data-aos="fade-down"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">Established in 1995, Saor has been a leading force in the digital landscape for
                         over two decades. We're a passionate team of designers, developers, and strategists driven by a
                         shared vision. Our digital agency combines innovation, strategy, and expertise to fuel your online
                         success. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, animi voluptatem esse quis tenetur, quidem harum ipsa tempore laborum reprehenderit nam! Voluptatum, hic minima temporibus vero pariatur accusamus ipsam qui?
@@ -501,6 +584,46 @@
             </div>
         </div>
     </div>
+
+
+    <div class="ourwork overflow-hidden space" id="about-sec4">
+        <div class="container">
+            <div class="text-center content-box">
+                <!-- <h2 class="sec-title">Making a mark, one day at a time!</h2> -->
+                <h2 class="fw-bold sec-title"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                    data-aos-duration="1200"
+                    data-aos-easing="ease-in-out">
+                    Making a mark, <span class="text-blue"> one day at a time!</span>
+                </h2>
+            </div>
+
+            <!-- Static Flex Image Layout -->
+            <div class="image-gallery d-flex justify-content-center gap-3">
+                <div class="position-relative">
+                    <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
+                        class="gallery-img default-active" alt="Business Image">
+                    <div class="img-overlay d-flex align-items-start flex-column">
+                        <h4 class="text-white">Business Image</h4>
+                        <p class="text-white text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, expedita!</p>
+                        <a href="about.html" class="th-btn th-icon text-white">Explore More</a>
+                    </div>
+                </div>
+                <div class="position-relative">
+                    <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
+                        class="gallery-img" alt="Meeting Image">
+                    <div class="img-overlay">Meeting Image</div>
+                </div>
+                <div class="position-relative">
+                    <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
+                        class="gallery-img" alt="Office Image">
+                    <div class="img-overlay">Office Image</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div class="mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden overflow-hidden space" id="about-sec3">
         <div class="container">
@@ -864,5 +987,28 @@
             }
         }
     });
+
+    // about-sec4
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const images = document.querySelectorAll(".gallery-img");
+
+        if (images.length > 0) {
+            // Ensure only one is default-active
+            images.forEach((img, idx) => {
+                img.classList.remove("default-active");
+            });
+            images[0].classList.add("default-active");
+        }
+
+        images.forEach((img) => {
+            img.addEventListener("mouseenter", function() {
+                images.forEach((image) => image.classList.remove("default-active"));
+                this.classList.add("default-active");
+            });
+        });
+    });
+    // about-sec4 end
 </script>
 @endpush
