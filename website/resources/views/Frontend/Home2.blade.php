@@ -765,7 +765,7 @@
                             transformOrigin: "center",
                             scrollTrigger: {
                                 trigger: "#videoScaleDown",
-                                start: "40% 40%",
+                                start: "40% 50%",
                                 end: "+=1000",
                                 markers:true,
                                 pin:true,
