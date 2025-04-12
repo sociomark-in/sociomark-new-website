@@ -754,17 +754,80 @@
 
 @section('content')
 <main id="home">
-    <div class="about-area" id="about-sec">
+
+    <div class="choose-area overflow-hidden mb-md-3 mt-md-3 mt-0 md-0 " id="about-sec2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7 pe-5" data-aos="fade-left"
+                    data-aos-delay="300"
+                    data-aos-duration="1200"
+                    data-aos-easing="ease-in-out">
+                    <div class="title-area mb-20">
+                        <h2 class="sec-title ">The Powerful Lorem ipsum dolor sit amet, consectetur adipisicing. <span class="text-blue"> Benefits of</span> Saor SEO Lorem, ipsum.</h2>
+                    </div>
+                    <p class="sec-para ">In today's digital landscape, a strong online presence is critical for business success. But simply having a website isn't enough. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="row mb-35 ">
+                        <div class="col-6">
+                            <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perspiciatis ratione, minus nobis nam doloremque. </p>
+                        </div>
+                        <div class="col-6">
+                            <p class="sec-para">Lorem ipsum dolor sit amet doloremque. Nesciunt quae debitis in autem?</p>
+                        </div>
+                    </div>
+                    <a href="" class="th-btn black-border th-icon th-radius">
+                        Read More <i class="fa-regular fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+                <div class="col-xl-5" data-aos="fade-right"
+                    data-aos-delay="300"
+                    data-aos-duration="1200"
+                    data-aos-easing="ease-in-out">
+                    <div class="choose-image">
+                        <div class="img1" data-tilt data-tilt-max="10">
+                            <img src="https://placehold.co/804x610" alt="Choose">
+                            <div class="choose-shape"><img src="{{ asset('frontend-assets/img/shape/choose-shape.png') }}" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-area overflow-hidden" id="about-sec">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-12 p-0">
-                    <div class="img">
-                        <iframe width="100%" height="800"
+                    <div class="img" id="videoScaleDown">
+                        {{-- <iframe width="100%" height="800"
                             src="https://www.youtube.com/embed/fUcECL2KLeg?controls=0&autoplay=1&mute=1"
                             title="Sociomark Showreel" frameborder="0" allow="autoplay;  picture-in-picture; web-share"
-                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
+                            <video class="w-100 ratio ratio-16x9" autoplay muted loop>
+                                <source src="{{ asset('frontend-assets/test_video.mp4')}}">
+                            </video>
                     </div>
-
+                    @push('scripts')
+                    <script>
+                        gsap.set("#videoScaleDown", {
+                            xPercent: 0,
+                            yPercent: 0,
+                            scale: 1.4,
+                        }),
+                        gsap.to("#videoScaleDown", {
+                            scale: 0.7,
+                            // x: "-10%",
+                            transformOrigin: "center",
+                            scrollTrigger: {
+                                trigger: "#videoScaleDown",
+                                start: "40% 40%",
+                                end: "+=1000",
+                                markers:true,
+                                pin:true,
+                                scrub: true
+                            }
+                        })
+                    </script>
+                    @endpush
                 </div>
             </div>
         </div>
@@ -799,7 +862,7 @@
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="choose-image">
-                        <div class="img1 tilt-active">
+                        <div class="img1" data-tilt data-tilt-max="10">
                             <img src="https://placehold.co/804x610" alt="Choose">
                             <div class="choose-shape"><img src="{{ asset('frontend-assets/img/shape/choose-shape.png') }}" alt=""></div>
                         </div>
@@ -1129,7 +1192,7 @@
                         <div class="circle-layer-two"></div>
                         <div class="pattern-layer"
                             style="background-image: url(assets/images/background/pattern-5.png)"></div>
-                        <div class="image" data-tilt data-tilt-max="4">
+                        <div class="image" data-tilt data-tilt-max="10">
                             <img src="https://html.themexriver.com/aginco/assets/images/resource/business-1.jpg" alt="" />
                         </div>
                     </div>
