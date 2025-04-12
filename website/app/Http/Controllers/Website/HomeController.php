@@ -36,6 +36,18 @@ class HomeController extends Controller
         $otherBlogs = Blog::paginate(4);
         return view("Frontend/HomeNew", compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags'));
     }
+
+    public function myHome()
+    {
+        $categories = Category::all();
+        $tags = Tag::all();
+        $blogs = Blog::latest()->paginate(4); // Paginate all blogs
+        $firstBlog = Blog::latest()->first(); // Get latest blog
+
+        // ✅ Paginate other blogs instead of using `take()`
+        $otherBlogs = Blog::paginate(4);
+        return view("Frontend/myHome", compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags'));
+    }
     public function About()
     {
         return view("Frontend/AboutUs");

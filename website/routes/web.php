@@ -32,6 +32,7 @@ Route::get('/', [HomeController::class, 'Home'])->name('home');
 Route::get('/home', [HomeController::class, 'HomeNew'])->name('homenew');
 Route::get('/home2', [HomeController::class, 'Home2'])->name('home2');
 Route::get('/about', [HomeController::class, 'About'])->name('about');
+Route::get('/myHome', [HomeController::class, 'myHome'])->name('myHome');
 Route::get('/blog', [BlogWebController::class, 'index'])->name('blog');
 // Route::get('/blog-inner/{id}', [BlogWebController::class, 'innerBlog'])->name('blog-inner');
 // Route::get('/blog-category/{id}', [BlogWebController::class, 'categoryBlog'])->name('categoryBlog');

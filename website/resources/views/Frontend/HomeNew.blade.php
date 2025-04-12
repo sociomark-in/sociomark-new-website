@@ -88,8 +88,6 @@
     #home #about-sec4 .sec-title,
     #portfolio-sec .sec-title,
     #home #about-sec5 .sec-title,
-    #home #about-sec6 .sec-title,
-    #home #services-tab .sec-title,
     #home #testi-sec .sec-title,
     #home #contact .sec-title {
         font-size: 35px;
@@ -103,10 +101,8 @@
     #home .about-area2 .sec-para,
     #home #about-sec2 .sec-para,
     #home #about-sec3 .sec-para,
-    #home #about-sec6 .sec-para,
     #home #portfolio-sec .sec-para,
     #home #testi-sec .sec-para,
-    #home #services-tab .sec-para,
     #home #contact .sec-para {
         line-height: 28px;
         font-size: 20px;

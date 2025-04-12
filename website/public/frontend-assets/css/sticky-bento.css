@@ -1,295 +1,5 @@
+
 @import "normalize.css";
-
-:root {
-    --theme-color: #106c97;
-    --theme-color2: #ff900b;
-    --color-white: #fff;
-    --color-black: #000000;
-}
-
-p {
-    color: var(--color-black);
-}
-
-.text-blue {
-    color: var(--theme-color);
-}
-
-.text-orange {
-    color: var(--theme-color2);
-}
-
-input,
-textarea,
-select {
-    border-radius: 10px;
-}
-.contact-form{
-    background-color: #fff;
-}
-
-.form-group {
-    position: relative;
-    margin-bottom: 2.5rem;
-}
-
-.form-group input,
-.form-group select,
-.form-group textarea {
-    padding: 15px 10px 10px 15px;
-    border-radius: 10px;
-}
-
-.form-group label.error {
-    margin-top: 0.5rem;
-    color: red;
-}
-
-.form-group .form-label {
-    position: absolute;
-    top: 3px;
-    left: 24px;
-    font-weight: 500;
-    font-size: 18px;
-    transform: translateY(-50%);
-    background-color: white;
-    padding: 0px 12px;
-    pointer-events: none;
-    z-index: 2;
-}
-
-.header-absolute {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 8;
-}
-
-.service-process_img {
-    width: 70px;
-    height: 70px;
-    border: 1px solid;
-    background: #f1f1f1;
-    margin-left: 35%;
-}
-
-.service-process:hover .service-process_img {
-    background-color: #ffffff;
-    border: 3px solid var(--theme-color2);
-}
-
-.service-process:hover .service-process_title {
-    color: var(--theme-color);
-}
-
-.service-process_title {
-    font-weight: 800;
-}
-
-.process-item .box-number {
-    color: #ffffff;
-}
-
-.breadcumb-title {
-    text-transform: capitalize;
-}
-
-.th-btn {
-    color: #ffffff;
-    border-radius: 55px;
-    padding: 15px 28px;
-}
-
-.space-extra2,
-.space-extra2-bottom {
-    padding-bottom: calc(var(--section-space) - 40px);
-    padding-top: calc(var(--section-space) - 40px);
-}
-
-.brand-item.style2 img.original {
-    -webkit-filter: none;
-    filter: none;
-}
-
-.discount-tag {
-    color: #ffffff;
-}
-
-.discount-tag span {
-    --rotate-letter: 9deg;
-}
-
-main {
-    margin: 0;
-}
-
-.main-menu.style2 > ul > li > a:hover {
-    color: #ffffff;
-}
-.main-menu.style2 > ul > li > a:hover:before {
-    background-color: #bbb;
-}
-
-.brand-item {
-    height: 100px;
-}
-
-.brand-area {
-    padding: 30px 0;
-}
-
-/* portfolio flip image css  */
-.flip-box {
-    background-color: transparent;
-    width: 100%;
-    aspect-ratio: 1;
-    perspective: 1000px;
-    /* Remove this if you don't want the 3D effect */
-}
-
-/* This container is needed to position the front and back side */
-.flip-box-inner {
-    /* position: relative; */
-    width: 100%;
-    aspect-ratio: 1;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-}
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-box:hover .flip-box-inner {
-    transform: rotateY(180deg);
-}
-
-/* Position the front and back side */
-.flip-box-front,
-.flip-box-back {
-    position: absolute;
-    width: 100%;
-    aspect-ratio: 1;
-    /* border-radius: 1rem; */
-    overflow: hidden;
-    -webkit-backface-visibility: hidden;
-    /* Safari */
-    backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.flip-box-front {
-    background-color: #bbb;
-    color: black;
-    border-radius: 2rem;
-}
-
-/* Style the back side */
-.flip-box-back {
-    background-color: #106c97;
-    transform: rotateY(180deg);
-    padding: 0.5rem;
-    align-content: center;
-    border-radius: 2rem;
-}
-
-.flip-box-back h2 {
-    font-size: 30px;
-}
-
-.flip-box-back * {
-    color: white !important;
-}
-
-.footer-widget.widget_nav_menu {
-    color: var(--theme-color2);
-}
-
-.footer-widget.widget_nav_menu a:hover {
-    color: var(--color-white);
-}
-
-.footer-widget.widget_nav_menu a:before {
-    color: var(--theme-color2);
-}
-
-.footer-widget .widget_title:before {
-    background: var(--theme-color2);
-}
-
-.footer-widget .th-social a:hover {
-    color: var(--color-white);
-    background: var(--theme-color2);
-}
-
-/* homw page css start */
-.testi-card {
-    /* border: 1px solid black !important; */
-}
-
-.th-btn.th-black2:hover {
-    color: white;
-}
-
-.work-portfolio .filter-menu .tab-btn.active {
-    background: #106c97;
-    padding: 10px 25px;
-    color: white;
-    border-left: none;
-}
-
-.work-portfolio .filter-menu .tab-btn:not(:last-child):before {
-    right: -28%;
-    background-color: #ffffff;
-}
-
-.work-portfolio .filter-menu .tab-btn {
-    border: 1px solid black;
-    padding: 10px 25px;
-    color: black;
-}
-
-.accordion-item .accordion-button:not(.collapsed) .icon {
-    background-color: var(--theme-color);
-    color: white;
-}
-
-.arrow-wrap .slider-arrow {
-    opacity: 1;
-    visibility: visible;
-}
-
-.arrow-wrap .slider-arrow:hover {
-    color: white;
-}
-
-.slider-arrow.style3 {
-    background-color: #106c97;
-    color: white !important;
-}
-
-/* work culture css start */
-
-/* header button radius */
-
-.btn-close {
-    color: #ffffff;
-    opacity: 1;
-    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414'/%3e%3c/svg%3e")
-        no-repeat;
-}
-
-.modal-header .btn-close {
-    background-color: #ef9368;
-    background-size: 50% auto;
-    background-position: center;
-    filter: invert(1);
-}
-.modal .contact-form {
-    background: #f8f8f8;
-    border: 1px solid #d8dde1;
-    border-radius: 30px;
-    padding: 15px;
-}
 
 #new .bleed-canvas {
     width: 100vw;
@@ -435,7 +145,7 @@ main {
     padding: 1rem;
 }
 
-#new .box__content {
+#new  .box__content {
     display: grid;
     place-items: center;
     grid-column: 2;
@@ -486,7 +196,7 @@ main {
     }
 }
 
-#new section:nth-of-type(4) {
+ #new section:nth-of-type(4) {
     z-index: 2;
     position: relative;
 }
@@ -620,7 +330,7 @@ main {
 }
 
 @supports (animation-timeline: scroll()) {
-    #new section {
+    #new  section {
         view-timeline-name: --section;
     }
 
@@ -711,4 +421,3 @@ main {
         }
     }
 }
-

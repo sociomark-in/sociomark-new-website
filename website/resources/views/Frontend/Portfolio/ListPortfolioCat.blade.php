@@ -11,7 +11,7 @@
         padding: 3rem 0rem 3rem 0rem;
     }
 
-    #portfolio .head-text {
+    #portfolio .sec-title {
         font-size: 35px;
         line-height: 42px;
     }
@@ -28,10 +28,6 @@
     }
 
     /* section2 */
-    #portfolio #about-sec2 {
-        background-color: #F5F5F5 !important;
-    }
-
     #portfolio #about-sec2 .split-hover-section {
         padding: 80px 0;
         background-color: #f9f9f9;
