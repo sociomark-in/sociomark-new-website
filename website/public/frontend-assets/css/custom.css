@@ -32,6 +32,9 @@ p {
 .text-blue {
     color: var(--theme-color);
 }
+.text-yellow {
+    color: var(--theme-color);
+}
 
 .text-orange {
     color: var(--theme-color2);
@@ -82,6 +85,23 @@ select {
     padding: 0px 12px;
     pointer-events: none;
     z-index: 2;
+}
+
+.th-btn.white-border {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    box-shadow: none;
+}
+
+.th-btn.white-border:hover {
+    border-color: white;
+    color: var(--color-black);
+}
+
+.th-btn.white-border:hover:before,
+.th-btn.white-border:hover:after {
+    background-color: white;
 }
 
 .header-absolute {
@@ -151,8 +171,8 @@ main {
 }
 
 main#home section,
-main#home{
-    background-color: #161617;
+main#home {
+    background-color: #000000;
     color: white;
 }
 main#home .h1,
@@ -166,7 +186,7 @@ main#home h4,
 main#home .h5,
 main#home h5,
 main#home .h6,
-main#home h6{
+main#home h6 {
     color: white;
 }
 
@@ -190,11 +210,38 @@ main#home h6{
     padding: 30px 0;
 }
 
+.player-video {
+    width: 100%;
+    aspect-ratio: 2.06;
+    position: relative;
+}
+.player-video::before {
+    position: absolute;
+    content: "";
+    width: 105%;
+    height: 115%;
+    background: url("../img/shape/video_frame_xlarge.png") no-repeat;
+    background-size: contain;
+    z-index: 1;
+    left: -1rem;
+    top: -7rem;
+}
+.player-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    -webkit-mask-image: url("../img/shape/iphone_frame.svg");
+    mask-image: url("../img/shape/iphone_frame.svg");
+    mask-repeat: no-repeat;
+}
+
 /* portfolio flip image css  */
 .flip-box {
     background-color: transparent;
     width: 100%;
-    aspect-ratio: 1;
+    aspect-ratio: 0.6;
+
     perspective: 1000px;
     /* Remove this if you don't want the 3D effect */
 }
@@ -203,8 +250,7 @@ main#home h6{
 .flip-box-inner {
     /* position: relative; */
     width: 100%;
-    aspect-ratio: 1;
-    text-align: center;
+    aspect-ratio: 0.6;
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
@@ -219,7 +265,7 @@ main#home h6{
 .flip-box-back {
     position: absolute;
     width: 100%;
-    aspect-ratio: 1;
+    aspect-ratio: 0.6;
     /* border-radius: 1rem; */
     overflow: hidden;
     -webkit-backface-visibility: hidden;
@@ -233,16 +279,25 @@ main#home h6{
     color: black;
     border-radius: 1.75rem;
 }
+.flip-box-front img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 
 /* Style the back side */
 .flip-box-back {
     background-color: #106c97;
     transform: rotateY(180deg);
-    padding: 0.5rem;
+    padding: 1rem;
     align-content: center;
     border-radius: 1.75rem;
 }
 
+.flip-box-back h4 {
+    text-align: center;
+}
 .flip-box-back h2 {
     font-size: 30px;
 }

@@ -690,7 +690,17 @@
 
 @section('content')
 <main id="home">
-
+    <section class="overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="big-title">
+                        <span></span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="choose-area overflow-hidden mb-md-3 mt-md-3 mt-0 md-0 " id="about-sec2">
         <div class="container">
             <div class="row">
@@ -699,7 +709,7 @@
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
-                        <h2 class="sec-title ">The Powerful Lorem ipsum. <span class="text-yellow"> Benefits of</span> Saor SEO Lorem, ipsum.</h2>
+                        <h2 class="sec-title ">The Powerful Lorem ipsum. <span class="text-orange"> Benefits of</span> Saor SEO Lorem, ipsum.</h2>
                     </div>
                     <p class="sec-para ">In today's digital landscape, a strong online presence is critical for business success. But simply having a website isn't enough. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="row mb-35 ">
@@ -710,7 +720,7 @@
                             <p class="sec-para">Lorem ipsum dolor sit amet doloremque. Nesciunt quae debitis in autem?</p>
                         </div>
                     </div>
-                    <a href="" class="th-btn black-border th-icon th-radius">
+                    <a href="" class="th-btn white-border th-icon th-radius">
                         Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                     </a>
                 </div>
@@ -738,7 +748,7 @@
                             src="https://www.youtube.com/embed/fUcECL2KLeg?controls=0&autoplay=1&mute=1"
                             title="Sociomark Showreel" frameborder="0" allow="autoplay;  picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
-                            <video class="w-100 ratio ratio-16x9" autoplay muted loop>
+                            <video class="w-100" autoplay muted loop>
                                 <source src="{{ asset('frontend-assets/test_video.mp4')}}">
                             </video>
                     </div>
@@ -778,7 +788,7 @@
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
-                        <h2 class="sec-title ">The Powerful Lorem ipsum. <span class="text-yellow"> Benefits of</span> Saor SEO Lorem, ipsum.</h2>
+                        <h2 class="sec-title ">The Powerful Lorem ipsum. <span class="text-orange"> Benefits of</span> Saor SEO Lorem, ipsum.</h2>
                     </div>
                     <p class="sec-para ">In today's digital landscape, a strong online presence is critical for business success. But simply having a website isn't enough. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div class="row mb-35 ">
@@ -789,7 +799,7 @@
                             <p class="sec-para">Lorem ipsum dolor sit amet doloremque. Nesciunt quae debitis in autem?</p>
                         </div>
                     </div>
-                    <a href="" class="th-btn black-border th-icon th-radius">
+                    <a href="" class="th-btn white-border th-icon th-radius">
                         Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                     </a>
                 </div>
@@ -818,7 +828,7 @@
                             data-aos-delay="100"
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
-                            Services We Provide To <span class="text-yellow"> Grow Your Brand’s</span>
+                            Services We Provide To <span class="text-orange"> Grow Your Brand’s</span>
                         </h2>
                     </div>
                 </div>
@@ -838,7 +848,7 @@
                             suggesting that the agency works closely with clients to achieve their digital
                             goals.
                         </p>
-                        <a href="" class="th-btn black-border th-icon th-radius">
+                        <a href="" class="th-btn white-border th-icon th-radius">
                             Read More
                         </a>
                     </div>
@@ -854,7 +864,7 @@
                         </div>
                         <p class="sec-para text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde reiciendis nesciunt perferendis dignissimos accusantium nostrum, laboriosam cupiditate dolores tenetur blanditiis.
                         </p>
-                        <a href="" class="th-btn black-border th-icon th-radius">
+                        <a href="" class="th-btn white-border th-icon th-radius">
                             Read More </a>
                     </div>
                 </div>
@@ -872,7 +882,7 @@
                             suggesting that the agency works closely with clients to achieve their digital
                             goals.
                         </p>
-                        <a href="" class="th-btn black-border th-icon th-radius">
+                        <a href="" class="th-btn white-border th-icon th-radius">
                             Read More </a>
                     </div>
                 </div>
@@ -886,7 +896,7 @@
                         </div>
                         <p class="sec-para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora adipisci provident, magnam cupiditate quod voluptatibus consequuntur eaque voluptatem, animi totam repudiandae facilis facere quo tempore, ad laudantium ducimus sunt?
                         </p>
-                        <a href="" class="th-btn black-border th-icon th-radius">
+                        <a href="" class="th-btn white-border th-icon th-radius">
                             Read More </a>
                     </div>
                 </div>
@@ -904,7 +914,7 @@
                             suggesting that the agency works closely with clients to achieve their digital
                             goals.
                         </p>
-                        <a href="" class="th-btn black-border th-icon th-radius">
+                        <a href="" class="th-btn white-border th-icon th-radius">
                             Read More </a>
                     </div>
                 </div>
@@ -918,7 +928,7 @@
                         </div>
                         <p class="sec-para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam similique modi accusantium odit recusandae laudantium, vel, illo rerum cum sequi, minima eaque mollitia quos odio beatae iste nam temporibus accusamus.
                         </p>
-                        <a href="" class="th-btn black-border th-icon th-radius">
+                        <a href="" class="th-btn white-border th-icon th-radius">
                             Read More </a>
                     </div>
                 </div>
@@ -937,122 +947,164 @@
 
 
     <section class="overflow-hidden position-relative space-extra-top space-bottom garally " id="portfolio-sec">
-        <div class="container-fluid">
+        <div class="container">
             <div class="title-area text-center mb-25">
                 <h2 class="fw-bold mb-5 sec-title"
                     data-aos="fade-up"
                     data-aos-delay="100"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out">
-                    Our <span class="text-yellow"> Portfolio</span>
+                    Our <span class="text-orange"> Portfolio</span>
                 </h2>
             </div>
-            <div class="filter-menu filter-menu-active mt-5 mb-4">
+            {{-- <div class="filter-menu filter-menu-active mt-5 mb-4">
                 <button data-filter="*" class="tab-btn active" type="button">All</button>
                 <button data-filter=".cat1" class="tab-btn" type="button">Social Media</button>
                 <button data-filter=".cat2" class="tab-btn" type="button">Development</button>
                 <button data-filter=".cat3" class="tab-btn" type="button">Digital Creatives</button>
-            </div>
+            </div> --}}
             <div class="portfolio-area">
-                <div class="row gy-4 justify-content-center filter-active">
-                    <div class="col-12 col-md-6 col-xl-3 filter-item  cat5 cat7 cat3" data-aos="zoom-in"
+                <div class="row g-3 g-md-4 justify-content-center">
+                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in"
                         data-aos-delay="100"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out">
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
-                                    <img src="https://www.sociomark.in/assets/img/project/mastercard.jpg"
+                                    <img src="https://placehold.co/405x740"
+                                    class="w-100"
                                         alt="Lorum Ipsum" class="w-100" />
                                 </div>
                                 <div class="flip-box-back">
                                     <h4>Mastercard</h4>
-                                    <p class="sec-para">Lorum Ipsum</p>
+                                    <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, debitis?</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3 filter-item cat1 cat5 cat7 cat3" data-aos="zoom-in"
+                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in"
                         data-aos-delay="100"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out">
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
-                                    <img src="https://www.sociomark.in/assets/img/project/castrol600.jpg"
+                                    <img src="https://placehold.co/405x740"
+                                    class="w-100"
                                         alt="Lorum Ipsum" />
                                 </div>
                                 <div class="flip-box-back">
                                     <h4>Castrol</h4>
-                                    <p class="sec-para">Lorum Ipsum</p>
+                                    <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, debitis?</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3 filter-item cat1 cat5 cat7 cat3" data-aos="zoom-in"
+                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in"
                         data-aos-delay="100"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out">
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
-                                    <img src="https://www.sociomark.in/assets/img/project/Button-Dabo-Desh-Bano.jpg"
+                                    <img src="https://placehold.co/405x740"
+                                    class="w-100"
                                         alt="Lorum Ipsum" />
                                 </div>
                                 <div class="flip-box-back">
                                     <h4>Button Dabo Desh Bano</h4>
-                                    <p class="sec-para">Lorum Ipsum</p>
+                                    <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, debitis?</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3 filter-item cat1 cat2 cat5 cat7 cat3" data-aos="zoom-in"
+                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in"
                         data-aos-delay="100"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out">
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
-                                    <img src="https://www.sociomark.in/assets/img/project/nodwin-600.jpg"
+                                    <img src="https://placehold.co/405x740"
+                                    class="w-100"
                                         alt="Lorum Ipsum" />
                                 </div>
                                 <div class="flip-box-back">
                                     <h4>Nodwin Gaming</h4>
-                                    <p class="sec-para">Lorum Ipsum</p>
+                                    <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, debitis?</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3 filter-item cat1 cat2 cat5 cat7 cat3" data-aos="zoom-in"
+                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in"
                         data-aos-delay="100"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out">
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
-                                    <img src="https://www.sociomark.in/assets/img/project/Euro_600x600.jpg"
+                                    <img src="https://placehold.co/405x740"
+                                    class="w-100"
                                         alt="Lorum Ipsum" />
                                 </div>
                                 <div class="flip-box-back">
                                     <h4>Euro</h4>
-                                    <p class="sec-para">Lorum Ipsum</p>
+                                    <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, debitis?</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3 filter-item cat1 cat5 cat7 cat3" data-aos="zoom-in"
+                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in"
                         data-aos-delay="100"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out">
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
-                                    <img src="https://www.sociomark.in/assets/img/project/tpc.jpeg"
+                                    <img src="https://placehold.co/405x740"
+                                    class="w-100"
                                         alt="Lorum Ipsum" />
                                 </div>
                                 <div class="flip-box-back">
                                     <h4>TPC</h4>
-                                    <p class="sec-para">Lorum Ipsum</p>
+                                    <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, debitis?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <img src="https://placehold.co/405x740"
+                                    class="w-100"
+                                        alt="Lorum Ipsum" />
+                                </div>
+                                <div class="flip-box-back">
+                                    <h4>Euro</h4>
+                                    <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, debitis?</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <img src="https://placehold.co/405x740"
+                                    class="w-100"
+                                        alt="Lorum Ipsum" />
+                                </div>
+                                <div class="flip-box-back">
+                                    <h4>TPC</h4>
+                                    <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi, debitis?</p>
                                 </div>
                             </div>
                         </div>
@@ -1070,7 +1122,7 @@
                     data-aos-delay="100"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out">
-                    Why Should You <span class="text-yellow"> Choose Us</span>
+                    Why Should You <span class="text-orange"> Choose Us</span>
                 </h2>
             </div>
             <div class="row clearfix align-items-center">
@@ -1214,7 +1266,7 @@
                     data-aos-delay="100"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out">
-                    From The Blog: Blogs worth binging on. <span class="text-yellow"> Dive in!</span>
+                    From The Blog: Blogs worth binging on. <span class="text-orange"> Dive in!</span>
                 </h2>
             </div>
             <div class="swiper mySwiper">
@@ -1239,7 +1291,7 @@
                                 </h3>
 
                                 <p class="blog-text">{{ Str::limit(strip_tags($blog->content), 80) }}</p>
-                                <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}" class="th-btn black-border th-icon th-radius">
+                                <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}" class="th-btn white-border th-icon th-radius">
                                     Read More <i class="fa-regular fa-arrow-right ms-2"></i>
                                 </a>
                             </div>
@@ -1264,7 +1316,7 @@
                             data-aos-delay="100"
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
-                            60+ Happy Clients Said To <span class="text-yellow"> Us They Are Satisfied</span>
+                            60+ Happy Clients Said To <span class="text-orange"> Us They Are Satisfied</span>
                         </h2>
 
                     </div>
@@ -1275,7 +1327,7 @@
                     data-slider-options='{"loop":true}'>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="testi-card">
+                            <div class="testi-card rounded-overflow">
                                 <div class="box-review">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                         class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
@@ -1298,7 +1350,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="testi-card">
+                            <div class="testi-card rounded-overflow">
                                 <div class="box-review">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                         class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
@@ -1322,7 +1374,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="testi-card">
+                            <div class="testi-card rounded-overflow">
                                 <div class="box-review">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                         class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
@@ -1345,7 +1397,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="testi-card">
+                            <div class="testi-card rounded-overflow">
                                 <div class="box-review">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                         class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
@@ -1368,7 +1420,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="testi-card">
+                            <div class="testi-card rounded-overflow">
                                 <div class="box-review">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                         class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
@@ -1391,7 +1443,7 @@
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="testi-card">
+                            <div class="testi-card rounded-overflow">
                                 <div class="box-review">
                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                         class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
@@ -1441,7 +1493,7 @@
                             data-aos-delay="100"
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
-                            The Powerful Benefits of <span class="text-yellow"> Saor SEO</span>
+                            The Powerful Benefits of <span class="text-orange"> Saor SEO</span>
                         </h2>
 
                     </div>
