@@ -28,7 +28,7 @@
     3.8. Text Color
     3.9. Overlay
     3.10. Animation
-    
+
 04. Template Style
     4.1. Widget
     4.2. Header
@@ -38,7 +38,7 @@
     4.6. Blog
     4.7. Comments
     4.8. Hero Area
-    4.9. Error    
+    4.9. Error
     4.00. Popup Search
     4.00. Popup Side Menu
     4.00. Wocommerce
@@ -3069,6 +3069,13 @@ textarea.is-invalid {
 .sec-title {
   margin-bottom: calc(var(--section-title-space) - 10px);
   margin-top: -0.32em;
+}
+
+.sec-para{
+    line-height: 28px;
+    font-size: 16px;
+    letter-spacing: .10px;
+    color: #797E88;
 }
 
 .sub-title {
