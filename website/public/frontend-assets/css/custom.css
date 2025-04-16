@@ -200,8 +200,13 @@ main#home h6 {
     line-height: 1;
     color: #ffffff25 !important;
 }
-
-section.height-full {
+.default-spacing{
+    padding: calc(max(5%, 2rem)) 0;
+}
+.height-50 {
+    min-height: 50vh;
+}
+.height-full {
     min-height: 100vh;
 }
 
