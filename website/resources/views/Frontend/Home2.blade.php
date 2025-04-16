@@ -156,15 +156,13 @@
     /* blog end */
 
 
-   
+
     /* contact form */
     #home #contact {
         padding: 30px;
     }
 
     /* contact form end */
-
-    
 </style>
 @endsection
 

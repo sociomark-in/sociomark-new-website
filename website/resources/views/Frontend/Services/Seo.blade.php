@@ -12,6 +12,7 @@
             background-color: #F5F5F5 !important;
         }
 
+<<<<<<< HEAD
         #seo-service #about-sec {
             padding: 8px;
         }
@@ -19,6 +20,60 @@
         #seo-service .about-area2 .imgBox {
             top: 40px;
         }
+=======
+    #seo-service .about-area2 .sec-title,
+    #seo-service #about-sec2 .sec-title,
+    #seo-service #work-flow .sec-title,
+    #seo-service #about-sec3 .sec-title,
+    #seo-service #features .sec-title,
+    #portfolio-sec .sec-title,
+    #seo-service #about-sec5 .sec-title,
+    #seo-service #about-sec6 .sec-title,
+    #seo-service #services-tab .sec-title,
+    #seo-service #contact .sec-title {
+        font-size: 32px;
+        line-height: 42px;
+        font-weight: 700 !important;
+    }
+    #seo-service #work-flow .sub-sec-title,
+    #seo-service #about-sec2 .sub-sec-title,
+    #seo-service #features .sub-sec-title{
+        font-size: 20px;
+        line-height: 30px;
+        color:#121212;
+        font-weight: 600 !important;
+    }
+    #seo-service #features .sub-sec-title{
+        font-weight: 700 !important;
+    }
+    #seo-service .about-area2 .sec-title {
+        width: 67rem;
+    }
+
+    #seo-service .about-area2 .sec-para,
+    #seo-service #about-sec2 .sec-para,
+    #seo-service #about-sec3 .sec-para,
+    #seo-service #work-flow .sec-para,
+    #seo-service #features .sec-para,
+    #seo-service #about-sec6 .sec-para,
+    #seo-service #services-tab .sec-para,
+    #seo-service #contact .sec-para {
+        line-height: 28px;
+        font-size: 18px;
+        letter-spacing: .10px;
+        color: rgb(19, 20, 20);
+        font-weight: 400;
+    }
+
+    #seo-service #features .sec-para {
+        color: #121212 !important;
+        font-weight: 800 !important;
+        line-height: 24px !important;
+        font-size: 20px !important;
+    }
+
+    @media (max-width: 576px) {
+>>>>>>> d221741f17ac226c82e6dfb03e1783a4fe872a3f
 
         #seo-service .about-area2 .sec-title,
         #seo-service #about-sec2 .sec-title,
@@ -189,6 +244,7 @@
             border-radius: 4px;
         }
 
+<<<<<<< HEAD
         #work-flow .circle-wrapper {
             width: 68%;
             margin: 0 auto;
@@ -227,6 +283,356 @@
 
         /* section3 */
         .according-img {
+=======
+    /* section 2 */
+    #seo-service #about-sec2 {
+        /* background-color: #F5F5F5; */
+        background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
+    }
+
+    #seo-service #about-sec2 .choose-feature .box-icon {
+        background: transparent;
+    }
+
+    #seo-service #about-sec4 .sec-title {
+        color: white;
+    }
+
+    #seo-service #about-sec2 .box-title {
+        color: #121212;
+    }
+
+    #seo-service #about-sec2 .box-text {
+        color: #797E88;
+    }
+
+    #seo-service #about-sec2,
+    #seo-service #work-flow {
+        padding: 6rem 0 6rem 0;
+    }
+
+    #seo-service #about-sec2 .choose-image .img1 {
+        min-width: auto;
+    }
+
+    /* section 2 end */
+    /* work flow */
+    #benefits {
+        max-height: 100vh;
+        /* Or a specific height like 500px */
+        overflow-y: auto;
+        padding-right: 15px;
+        /* optional: space for scrollbar */
+    }
+
+    #benefits::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    #benefits::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+    }
+
+    #work-flow .circle-wrapper {
+        width: 68%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #work-flow .circle {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: #f0f0f0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #work-flow .key-image {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    #work-flow .benefit-block {
+        padding: 10px 25px;
+        margin-bottom: 15px;
+        background: #f8f9fa;
+        border-left: 4px solid #106c97;
+        border-radius: 5px;
+    }
+
+    #work-flow .benefit-block h5 {
+        margin-bottom: 8px;
+    }
+
+    /* work flow :end */
+
+    /* section3 */
+    .according-img {
+        opacity: 0;
+        transform: scale(0.8);
+        /* Start smaller */
+        transition: all 0.6s ease;
+        pointer-events: none;
+        height: 0;
+        overflow: hidden;
+    }
+
+    #seo-service #about-sec3 .according-list.item-active .according-img {
+        transform: scale(1);
+        /* height: auto; */
+    }
+
+    /* Zoom in on hover */
+    .hover-item:hover .according-img {
+        opacity: 1;
+        transform: scale(1);
+        /* Zoom to normal size */
+        pointer-events: auto;
+        height: auto;
+        overflow: visible;
+    }
+
+    #seo-service #about-sec3 .according-img img {
+        border-radius: 10px;
+
+    }
+
+    #seo-service #about-sec3 .box-title {
+        line-height: 32px;
+        font-size: 25px;
+        letter-spacing: .10px;
+        font-weight: 500;
+        padding-left: 0px;
+    }
+
+    /* #seo-service #about-sec3 .sec-para{
+        font-weight: 400;
+    } */
+    #seo-service #about-sec3 .according-list .according-img {
+        max-width: 700px;
+    }
+
+    #seo-service #about-sec3 .accordion-item2 {
+        padding-bottom: 15px;
+        max-width: 510px;
+    }
+
+    #seo-service #about-sec3 .accordion-item2 .box-title:before {
+        width: 0px;
+
+    }
+
+    #seo-service #about-sec3 .according-list.hover-item.item-active .accordion-item2 {
+        border-bottom-color: #106c97;
+    }
+
+    /* section3 end */
+    /* features  */
+    #features .icon-img {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* features :end */
+
+    /* gallary :start */
+
+    #portfolio-sec {
+        padding-top: 20px;
+    }
+
+    #seo-service .filter-menu .tab-btn:hover,
+    #seo-service .garally .filter-menu .tab-btn.active {
+        padding: 10px 25px !important;
+        font-weight: 500;
+        border-bottom: 3px solid #106c97;
+        background: transparent;
+        border-radius: 0px;
+        border-left: none;
+        color: #106c97;
+        border-bottom: 4px solid #106c97;
+    }
+
+    #seo-service .garally .filter-menu .tab-btn {
+        padding: 10px 11px !important;
+        border-radius: 0px;
+        outline: none;
+        border-bottom: 1px solid black;
+        line-height: 28px;
+        font-size: 20px;
+        letter-spacing: .10px;
+    }
+
+    .garally .filter-menu .tab-btn:not(:last-child):before {
+        height: 0px;
+    }
+
+    .garally .garally-row-height {
+        height: 748px;
+    }
+
+    #portfolio-sec .global-img:before,
+    #portfolio-sec .project-item:before {
+        content: none;
+        width: 0;
+        height: 0;
+    }
+
+    #portfolio-sec .project-item {
+        border-radius: 10px;
+    }
+
+    #portfolio-sec .project-item {
+        box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
+        -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
+        -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
+        transform: none;
+    }
+
+    #portfolio-sec .global-img:hover img {
+        transform: none;
+        transition: none;
+    }
+
+
+    /* gallary end */
+    /* blog */
+    #seo-service #about-sec5 .box {
+        padding: 28px 20px;
+        border-radius: 10px;
+    }
+
+    #seo-service #about-sec5 .blog-single.has-post-thumbnail {
+        background-color: white !important;
+    }
+
+    #seo-service #about-sec5 .box-blog,
+    #seo-service #about-sec5 .box-blog img {
+        border-radius: 10px;
+        box-shadow: 0px -2px 12px -1px rgba(0, 0, 0, 0.17);
+        -webkit-box-shadow: 0px -2px 12px -1px rgba(0, 0, 0, 0.17);
+        -moz-box-shadow: 0px -2px 12px -1px rgba(0, 0, 0, 0.17);
+        border: none
+    }
+
+    #seo-service #about-sec5 .content-padding {
+        padding: 20px;
+    }
+
+    #seo-service #about-sec5 .recent_post_title {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    #seo-service #about-sec5 .th-btn {
+        padding: 15px 18px;
+    }
+
+    #seo-service #about-sec5 .swiper-slide {
+        height: auto;
+    }
+
+    #seo-service #about-sec5 .category-filter {
+        display: grid !important;
+    }
+
+    #seo-service #about-sec5 .blog-title-text {
+        font-size: 23px;
+        margin-bottom: 6px;
+    }
+
+    .swiper-pagination {
+        bottom: -30px;
+        /* Position at the bottom */
+    }
+
+    .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        background-color: #ccc;
+        opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: #106c97;
+    }
+
+    .swiper-pagination-bullets .swiper-pagination-bullet {
+        width: 15px !important;
+        height: 15px !important;
+    }
+
+    .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        background-color: #106c97 !important;
+    }
+
+    .swiper-wrapper {
+        height: auto !important;
+    }
+
+    .swiper-pagination-bullets {
+        margin: 0px !important;
+    }
+
+    /* blog end */
+
+    /* faq */
+    #seo-service #about-sec6 .accordion-card {
+        border-radius: 10px;
+        box-shadow: 0px 3px 11px -4px hsla(0, 0.00%, 0.00%, 0.59);
+        -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
+        -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
+        border: none;
+    }
+
+    #seo-service #about-sec6 #faqAccordion {
+        height: 500px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    #seo-service #about-sec6 #faqAccordion::-webkit-scrollbar {
+        width: 3px;
+        height: 30px;
+    }
+
+    /* Track */
+    #seo-service #about-sec6 #faqAccordion::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    #seo-service #about-sec6 #faqAccordion::-webkit-scrollbar-thumb {
+        background: #106c97;
+        border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    #seo-service #about-sec6 #faqAccordion::-webkit-scrollbar-thumb:hover {
+        background: #106c97;
+    }
+
+    /* #seo-service #about-sec6 .accordion-card .accordion-button {
+        background-color: #106c97 !important;
+        color: white !important;
+    } */
+    .accordion-button:not(.collapsed) {
+        background-color: #106c97 !important;
+        color: white !important;
+    }
+
+    /* end faq */
+
+    /* services tab */
+    /* Slide-in animations */
+    @keyframes slideInRight {
+        from {
+>>>>>>> d221741f17ac226c82e6dfb03e1783a4fe872a3f
             opacity: 0;
             transform: scale(0.8);
             /* Start smaller */
@@ -629,6 +1035,7 @@
 @endsection
 
 @section('content')
+<<<<<<< HEAD
     <main id="seo-service">
         <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x518">
             <div class="container">
@@ -638,6 +1045,45 @@
                         <li><a href="{{route('home')}}">Home</a></li>
                         <li>Seo</li>
                     </ul>
+=======
+<main id="seo-service">
+    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg') }}">
+        <div class="container">
+            <div class="breadcumb-content">
+                <h1 class="breadcumb-title">Seo</h1>
+                <ul class="breadcumb-menu">
+                    <li><a href="home-seo-agency.html">Home</a></li>
+                    <li>Seo</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden overflow-hidden" id="about-sec">
+        <div class="container">
+            <div class="row align-items-end">
+                <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
+                    <div class="title-area mb-md-3 mb-2 mt-n1">
+                        <h2 class="text-center fw-bold sec-title my-3"
+                            data-aos="zoom-in"
+                            data-aos-delay="100"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
+                            Expand Your Global Reach with <span class="text-blue"> Our Comprehensive International</span> SEO Solutions
+                        </h2>
+                    </div>
+                    <p class="mt-n2 mb-25 sec-para text-center" data-aos="fade-down"
+                        data-aos-delay="200"
+                        data-aos-duration="1200"
+                        data-aos-easing="ease-in-out">SEO stands for Search Engine Optimization. It involves optimizing a website to rank higher in search engine results by inculcating relevant keywords and improving content quality. It also includes technical improvements like enhancing a website’s speed and mobile friendliness. Additionally, building high-quality backlinks helps increase your site’s authority and visibility.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para text-center" data-aos="fade-down"
+                        data-aos-delay="200"
+                        data-aos-duration="1200"
+                        data-aos-easing="ease-in-out">The main goal of optimization is to have your website rank up in the search results. The higher the page appears, people are more likely to visit the website, and your business generate sales. SEO is one of the major marketing strategies that businesses opt for in order to increase their business. No matter the size of the company of the stage, whether it is a small startup or a big well-established Multi National Company, SEO is needed for all. It helps your business to have a competitive advantage over others.
+                        Search Engine Optimization enhances the impact of <strong>Content Marketing Social Media Marketing</strong> and <strong> Website Development</strong> making it an essential strategy for any business.
+
+                    </p>
+>>>>>>> d221741f17ac226c82e6dfb03e1783a4fe872a3f
                 </div>
             </div>
         </div>
