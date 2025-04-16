@@ -12,7 +12,6 @@
             background-color: #F5F5F5 !important;
         }
 
-<<<<<<< HEAD
         #seo-service #about-sec {
             padding: 8px;
         }
@@ -20,60 +19,6 @@
         #seo-service .about-area2 .imgBox {
             top: 40px;
         }
-=======
-    #seo-service .about-area2 .sec-title,
-    #seo-service #about-sec2 .sec-title,
-    #seo-service #work-flow .sec-title,
-    #seo-service #about-sec3 .sec-title,
-    #seo-service #features .sec-title,
-    #portfolio-sec .sec-title,
-    #seo-service #about-sec5 .sec-title,
-    #seo-service #about-sec6 .sec-title,
-    #seo-service #services-tab .sec-title,
-    #seo-service #contact .sec-title {
-        font-size: 32px;
-        line-height: 42px;
-        font-weight: 700 !important;
-    }
-    #seo-service #work-flow .sub-sec-title,
-    #seo-service #about-sec2 .sub-sec-title,
-    #seo-service #features .sub-sec-title{
-        font-size: 20px;
-        line-height: 30px;
-        color:#121212;
-        font-weight: 600 !important;
-    }
-    #seo-service #features .sub-sec-title{
-        font-weight: 700 !important;
-    }
-    #seo-service .about-area2 .sec-title {
-        width: 67rem;
-    }
-
-    #seo-service .about-area2 .sec-para,
-    #seo-service #about-sec2 .sec-para,
-    #seo-service #about-sec3 .sec-para,
-    #seo-service #work-flow .sec-para,
-    #seo-service #features .sec-para,
-    #seo-service #about-sec6 .sec-para,
-    #seo-service #services-tab .sec-para,
-    #seo-service #contact .sec-para {
-        line-height: 28px;
-        font-size: 18px;
-        letter-spacing: .10px;
-        color: rgb(19, 20, 20);
-        font-weight: 400;
-    }
-
-    #seo-service #features .sec-para {
-        color: #121212 !important;
-        font-weight: 800 !important;
-        line-height: 24px !important;
-        font-size: 20px !important;
-    }
-
-    @media (max-width: 576px) {
->>>>>>> d221741f17ac226c82e6dfb03e1783a4fe872a3f
 
         #seo-service .about-area2 .sec-title,
         #seo-service #about-sec2 .sec-title,
@@ -600,6 +545,7 @@
             height: 0;
             overflow: hidden;
         }
+    }
 
         #seo-service #about-sec3 .according-list.item-active .according-img {
             transform: scale(1);
