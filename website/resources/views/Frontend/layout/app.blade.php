@@ -10,6 +10,16 @@
 
 <body>
   @include('Frontend/partial/Header')
+  <style>
+    #cursor{
+        width: 1rem;
+        height: 1rem;
+        background: white;
+        border-radius: 50%;
+        position: fixed;
+        z-index: 99999;
+    }
+  </style>
   <div id="cursor"></div>
   <div id="app">
     @yield('content')
@@ -22,7 +32,7 @@
   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
   <script>
     AOS.init({
-      duration: 1000, // Default animation duration
+      duration: 700,
       easing: 'ease-in-out',
       once: true
     });
@@ -33,8 +43,8 @@
 
     //follow cursor on mousemove
     document.addEventListener("mousemove", (e) => {
-      let x = e.pageX;
-      let y = e.pageY;
+      let x = e.clientX;
+      let y = e.clientY;
 
       cursor.style.top = y + "px";
       cursor.style.left = x + "px";

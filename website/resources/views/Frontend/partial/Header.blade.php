@@ -23,8 +23,8 @@ Mobile Menu
             <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
                 <a href="{{ route('home') }}">
-                    {{-- <img src="{{ asset('frontend-assets/img/logo/sc-white-horizontal.png') }}" alt="Image Not Found"> --}}
-                    <img src="https://placehold.co/230x30" alt="Image Not Found">
+                        <img src="{{ asset('frontend-assets/img/logo/sociomark-new-logo.png') }}"
+                            alt="Image Not Found" height="50">
                 </a>
             </div>
 
@@ -57,8 +57,12 @@ Header Area
                         <div class="col-auto">
                             <div class="header-logo">
                                 <a href="{{ route('home') }}">
-                                    {{-- <img src="{{ asset('frontend-assets/img/logo/sociomark-new-logo.png') }}" alt="Image Not Found" height="50"> --}}
-                                    <img src="{{ asset('frontend-assets/img/logo/sc-colored-horizontal.png') }}" alt="Image Not Found" height="30">
+                                    <picture>
+                                        <source media="(min-width: 1024px)"
+                                            srcset="{{ asset('frontend-assets/img/logo/sc-colored-horizontal.png') }}">
+                                        <img src="{{ asset('frontend-assets/img/logo/sociomark-new-logo.png') }}"
+                                            alt="Image Not Found" height="30">
+                                    </picture>
                                 </a>
                             </div>
                         </div>
@@ -66,9 +70,7 @@ Header Area
                             <nav class="main-menu style2 d-none d-lg-inline-block">
 
                                 <ul>
-                                    <li class="">
-                                        <a href="{{ route('home') }}">Home</a>
-                                    </li>
+                                    <li class=""><a href="{{ route('home') }}">Home</a></li>
                                     <li><a href="{{ route('about') }}">About Us</a></li>
                                     <li class="menu-item-has-children">
                                         <a href="{{ route('services') }}">Services</a>
@@ -97,10 +99,8 @@ Header Area
                                             <li><a href="#">Automobile</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Case Studies</a>
-                                    </li>
-                                    <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
+                                    {{-- <li><a href="{{ route('portfolio') }}">Case Studies</a></li>
+                                    <li><a href="{{ route('portfolio') }}">Portfolio</a></li> --}}
                                     {{-- <li><a href="{{ route('blog') }}">Blog</a></li>
                                     <li><a href="#">Carrers</a></li>
                                     <li><a href="{{ route('workculture') }}">Work Culture</a></li> --}}

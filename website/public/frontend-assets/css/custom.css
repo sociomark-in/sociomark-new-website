@@ -112,6 +112,14 @@ select {
     z-index: 8;
 }
 
+.main-menu ul.sub-menu li a:before{
+    content: '\f061';
+}
+.main-menu.style2 ul.sub-menu{
+    border-radius: 0.75rem;
+    margin-top: 2rem;
+}
+
 .service-process_img {
     width: 70px;
     height: 70px;
@@ -169,12 +177,6 @@ select {
 main {
     margin: 0;
 }
-
-main#home section,
-main#home {
-    background-color: #000000;
-    color: white;
-}
 main#home .h1,
 main#home h1,
 main#home .h2,
@@ -189,6 +191,26 @@ main#home .h6,
 main#home h6 {
     color: white;
 }
+
+.big-title{
+    font-size: calc(max(4vmax, 2rem));
+}
+.big-title h1{
+    font-size: calc(max(7vmax, 2rem));
+    line-height: 1;
+    color: #ffffff25 !important;
+}
+
+section.height-full {
+    min-height: 100vh;
+}
+
+main#home section,
+main#home {
+    background-color: #000000;
+    color: white;
+}
+
 
 .sec-title {
     font-size: calc(max(3vmax, 2rem));
