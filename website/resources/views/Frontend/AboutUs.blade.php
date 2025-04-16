@@ -2,10 +2,6 @@
 
 @section('custome-style')
 <style>
-    html {
-        scroll-behavior: smooth;
-    }
-
     #about-us #about-sec2,
     #about-us #contact {
         background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
@@ -16,14 +12,6 @@
         background-color: #F5F5F5;
     }
 
-    #about-us #about-sec {
-        padding: 8px;
-    }
-
-    #about-us .about-area2 .imgBox {
-        top: 40px;
-    }
-
     #about-us .about-area2 .sec-title,
     #about-us #about-sec2 .sec-title,
     #about-us #about-sec3 .sec-title,
@@ -31,8 +19,9 @@
     #portfolio-sec .sec-title,
     #about-us #contact .sec-title,
     #our-founder .sec-title {
-        font-size: 35px !important;
-        line-height: 42px !important;
+        font-size: 32px;
+        line-height: 42px;
+        font-weight: 700 !important;
     }
 
     #about-us .about-area2 .sec-title {
@@ -42,61 +31,14 @@
     #about-us .about-area2 .sec-para,
     #about-us #about-sec2 .sec-para,
     #about-us #about-sec3 .sec-para,
+    #about-us #about-sec4 .sec-para,
     #about-us #contact .sec-para,
     #our-founder .sec-para {
-        line-height: 28px !important;
-        font-size: 20px !important;
-        letter-spacing: .10px !important;
-        color: #797E88 !important;
-    }
-
-    #about-us #about-sec3 .sec-para-black {
-        color: white !important;
-        line-height: 28px !important;
-        font-size: 20px !important;
-        letter-spacing: .10px !important;
-    }
-
-    @media (max-width: 576px) {
-
-        #about-us .about-area2 .sec-title,
-        #portfolio-sec .sec-title,
-        #about-us #contact .sec-title {
-            padding-bottom: 0.5rem;
-            font-size: 24px;
-            font-weight: 600;
-            line-height: 26px;
-            width: auto;
-            text-align: center;
-        }
-
-        #about-us .about-area2 .sec-para,
-        #about-us #contact .sec-para {
-            font-size: 16px !important;
-            line-height: 20px !important;
-            text-align: center;
-        }
-
-        #about-us #about-sec2,
-        #about-us #services-tab {
-            padding: 3rem 0 3rem 0 !important;
-        }
-
-        .according-list-area {
-            margin-bottom: 290px;
-        }
-
-        #about-us #services-tab .side-padding-mbl {
-            padding: 0px 1.5rem;
-        }
-
-        #about-us #services-tab .sec-para {
-            text-align: left;
-        }
-
-        #about-us #contact {
-            padding: 40px 2px !important;
-        }
+        line-height: 28px;
+        font-size: 18px;
+        letter-spacing: .10px;
+        color: rgb(19, 20, 20);
+        font-weight: 400;
     }
 
     /* section2 */
@@ -126,14 +68,11 @@
         position: relative;
     }
 
-    #about-us #about-sec2 .process-step h5 {
-        font-weight: 600;
-        margin-bottom: 0px;
-    }
-
-    #about-us #about-sec2 .process-step p {
-        font-size: 18px;
-        color: #666;
+    .sub-sec-title {
+        font-size: 20px;
+        line-height: 30px;
+        color: #121212;
+        font-weight: 600 !important;
     }
 
     /* Reversed steps: text above circle */
@@ -440,68 +379,7 @@
     }
 
     /* founder end */
-    /* gallary :start */
-
-    #portfolio-sec {
-        padding-top: 20px;
-    }
-
-    #about-us .filter-menu .tab-btn:hover,
-    #about-us .garally .filter-menu .tab-btn.active {
-        padding: 10px 25px !important;
-        font-weight: 500;
-        border-bottom: 3px solid #106c97;
-        background: transparent;
-        border-radius: 0px;
-        border-left: none;
-        color: #106c97;
-        border-bottom: 4px solid #106c97;
-    }
-
-    #about-us .garally .filter-menu .tab-btn {
-        padding: 10px 11px !important;
-        border-radius: 0px;
-        outline: none;
-        border-bottom: 1px solid black;
-        line-height: 28px;
-        font-size: 20px;
-        letter-spacing: .10px;
-    }
-
-    .garally .filter-menu .tab-btn:not(:last-child):before {
-        height: 0px;
-    }
-
-    .garally .garally-row-height {
-        height: 748px;
-    }
-
-    #portfolio-sec .global-img:before,
-    #portfolio-sec .project-item:before {
-        content: none;
-        width: 0;
-        height: 0;
-    }
-
-    #portfolio-sec .project-item {
-        border-radius: 10px;
-    }
-
-    #portfolio-sec .project-item {
-        box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
-        -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
-        -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
-        transform: none;
-    }
-
-    #portfolio-sec .global-img:hover img {
-        transform: none;
-        transition: none;
-    }
-
-
-    /* gallary end */
-
+   
     /* contact form */
     #about-us #contact {
         padding: 30px;
@@ -555,16 +433,15 @@
                             data-aos-delay="100"
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
-                            Expand Your Global Reach with <span class="text-blue"> Our Comprehensive International</span> SEO Solutions
+                            Hello, we are Sociomark – <span class="text-blue"> A Digital Marketing Company</span> in Mumbai
                         </h2>
                     </div>
                     <p class="mt-n2 mb-25 sec-para text-center" data-aos="fade-down"
                         data-aos-delay="100"
                         data-aos-duration="1000"
-                        data-aos-easing="ease-in-out">Established in 1995, Saor has been a leading force in the digital landscape for
-                        over two decades. We're a passionate team of designers, developers, and strategists driven by a
-                        shared vision. Our digital agency combines innovation, strategy, and expertise to fuel your online
-                        success. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, animi voluptatem esse quis tenetur, quidem harum ipsa tempore laborum reprehenderit nam! Voluptatum, hic minima temporibus vero pariatur accusamus ipsam qui?
+                        data-aos-easing="ease-in-out">In today's digital age, a strong online presence is no longer a luxury but a necessity. Sociomark is your trusted partner in navigating the tough digital landscape. As a leading Digital Marketing agency based in Navi Mumbai, we are committed to driving tangible results for your business.
+                        Our expertise spans a wide range of services, including Social Media Marketing, SEO, Graphic design, Website Development, Performance Marketing, etc. We understand that every business is unique, and therefore, we tailor our strategies to meet your specific goals and objectives.
+                        Let us help you unlock the full potential of your brand. Partner with us and experience the difference a dedicated agency can make.
                     </p>
                 </div>
             </div>
@@ -600,8 +477,8 @@
                         </div>
                         <div class="col-12">
                             <div class="text">
-                                <h5>Choose A Service</h5>
-                                <p>Pick the ideal service that suits your requirement</p>
+                                <h4 class="sub-sec-title">Choose A Service</h4>
+                                <p class="sec-para">Pick the ideal service that suits your requirement</p>
                             </div>
                         </div>
                     </div>
@@ -626,8 +503,8 @@
                         </div>
                         <div class="col-12">
                             <div class="text">
-                                <h5>Define Requirements</h5>
-                                <p>Let us know what you expect & provide a clear brief</p>
+                                <h4 class="sub-sec-title">Define Requirements</h4>
+                                <p class="sec-para">Let us know what you expect & provide a clear brief</p>
                             </div>
                         </div>
                     </div>
@@ -652,8 +529,8 @@
                         </div>
                         <div class="col-12">
                             <div class="text">
-                                <h5>Request A Meeting</h5>
-                                <p>We’ll set up a time to discuss all of your project goals</p>
+                                <h4 class="sub-sec-title">Request A Meeting</h4>
+                                <p class="sec-para">We’ll set up a time to discuss all of your project goals</p>
                             </div>
                         </div>
                     </div>
@@ -667,8 +544,8 @@
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="text">
-                        <h5>Final Solution</h5>
-                        <p>Get the final solution done as per the provided plan</p>
+                        <h4 class="sub-sec-title">Final Solution</h4>
+                        <p class="sec-para">Get the final solution done as per the provided plan</p>
                     </div>
                     <div class="img">
                         <div class="shadow-title">04</div>
@@ -713,9 +590,9 @@
 
                         <!-- Bottom content -->
                         <div class="bottom-content">
-                            <h4 class="text-white">Our Tools</h4>
-                            <p class="text-white text-start mb-0">Hover to discover how we power your growth.</p>
-                            <p class="text-white text-start desc-text d-none">
+                            <h4 class="text-white sub-sec-title">Our Tools</h4>
+                            <p class="text-white text-start mb-0 sec-para">Hover to discover how we power your growth.</p>
+                            <p class="text-white text-start desc-text d-none sec-para">
                                 In today’s fast-moving digital landscape, staying ahead means staying smart — and that’s exactly what we do.
                             </p>
                             <div class="explore-btn">
@@ -741,9 +618,9 @@
 
                         <!-- Bottom content -->
                         <div class="bottom-content">
-                            <h4 class="text-white">Client Impact</h4>
-                            <p class="text-white text-start mb-0">Real stories of brands we’ve transformed</p>
-                            <p class="text-white text-start desc-text d-none">
+                            <h4 class="text-white sub-sec-title">Client Impact</h4>
+                            <p class="text-white text-start mb-0 sec-para">Real stories of brands we’ve transformed</p>
+                            <p class="text-white text-start desc-text d-none sec-para">
                                 Our success is measured by the results we drive — and the brands we help grow. From local startups to national players, our portfolio is packed with case studies that showcase real ROI.
                             </p>
                             <div class="explore-btn">
@@ -768,9 +645,9 @@
 
                         <!-- Bottom content -->
                         <div class="bottom-content">
-                            <h4 class="text-white">Culture & Team</h4>
-                            <p class="text-white text-start mb-0">Meet the creative minds fueling your success</p>
-                            <p class="text-white text-start desc-text d-none">
+                            <h4 class="text-white sub-sec-title">Culture & Team</h4>
+                            <p class="text-white text-start mb-0 sec-para">Meet the creative minds fueling your success</p>
+                            <p class="text-white text-start desc-text d-none sec-para">
                                 Behind every pixel, post, and plan is a passionate team driven by curiosity and creativity.
                             </p>
                             <div class="explore-btn">
@@ -856,14 +733,16 @@
                         Meet Our <span class="text-blue"> Founders</span>
                     </h2>
 
-                    <h4 class="sec-para text-uppercase" data-aos="fade-left"
+                    <h4 class="sec-para text-uppercase sub-sec-title " data-aos="fade-left"
                         data-aos-delay="100"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out">Mr. Vivek Baandal & Mrs. Heta Desai Baandal</h4>
                     <p class="sec-para" data-aos="fade-left"
                         data-aos-delay="200"
                         data-aos-duration="1200"
-                        data-aos-easing="ease-in-out">Share a common goal: to help businesses thrive in the digital landscape. Their partnership, forged during their college years, has grown into a successful business venture. Together, they have built a marketing agency that is dedicated to delivering outstanding results. Their shared passion for innovation and creativity drives the agency's success. The agency fosters a collaborative and creative environment where ideas flourish.</p>
+                        data-aos-easing="ease-in-out">Together Mr. Vivek Baandal & Mrs. Heta Desai Baandal are dedicated to helping businesses achieve digital prosperity. Their partnership forged during the college years, has grown into a flourishing business venture. They have build an agency that is committed to delivering outstanding work, their shared passion for creativity and innovation drives SocioMark’s success.
+                        The agency fosters an environment that is creative and collaborative, where every idea is welcomed and appreciated. This culture of innovation empowers the development of fresh and creative work that delivers exceptional results. With a core philosophy of fostering client's thriving success, Vivek and Heta have made their agency a reliable ally for businesses seeking to elevate their market presence and to make a significant impact in the digital world
+                    </p>
 
                     <a href="about.html" class="th-btn th-icon text-white p-3 logo-info mt-2" data-aos="fade-left"
                         data-aos-delay="100"
@@ -899,10 +778,10 @@
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
                             <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
-                            <p class="sec-para fw-semibold my-4"> Our Vision</p>
+                            <h4 class="sub-sec-title mt-2"> Our Vision</h4>
                         </div>
                         <div class="flip-box-back d-flex justify-content-center align-items-center">
-                            <p class="sec-para-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum quibusdam veritatis tempore magnam.</p>
+                            <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum quibusdam veritatis tempore magnam.</p>
                         </div>
                     </div>
                 </div>
@@ -914,10 +793,10 @@
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
                             <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
-                            <p class="sec-para fw-semibold my-4">Our Mission</p>
+                            <h4 class="sub-sec-title mt-2">Our Mission</h4>
                         </div>
                         <div class="flip-box-back d-flex justify-content-center align-items-center">
-                            <p class="sec-para-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum quibusdam veritatis tempore magnam.</p>
+                            <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum quibusdam veritatis tempore magnam.</p>
                         </div>
                     </div>
                 </div>
@@ -930,10 +809,10 @@
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
                             <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
-                            <p class="sec-para fw-semibold my-4">Our Vision</p>
+                            <h4 class="sub-sec-title mt-2">Our Vision</h4>
                         </div>
                         <div class="flip-box-back d-flex justify-content-center align-items-center">
-                            <p class="sec-para-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum quibusdam veritatis tempore magnam.</p>
+                            <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum quibusdam veritatis tempore magnam.</p>
                         </div>
                     </div>
                 </div>
@@ -945,10 +824,10 @@
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
                             <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
-                            <p class="sec-para fw-semibold my-4">Our Vision</p>
+                            <h4 class="sub-sec-title mt-2">Our Vision</h4>
                         </div>
                         <div class="flip-box-back d-flex justify-content-center align-items-center">
-                            <p class="sec-para-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum quibusdam veritatis tempore magnam.</p>
+                            <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum quibusdam veritatis tempore magnam.</p>
                         </div>
                     </div>
                 </div>
@@ -960,10 +839,10 @@
                     <div class="flip-box-inner">
                         <div class="flip-box-front">
                             <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
-                            <p class="sec-para fw-semibold my-4">Our Vision</p>
+                            <h4 class="sub-sec-title mt-2">Our Vision</h4>
                         </div>
                         <div class="flip-box-back d-flex justify-content-center align-items-center">
-                            <p class="sec-para-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum quibusdam veritatis tempore magnam.</p>
+                            <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum quibusdam veritatis tempore magnam.</p>
                         </div>
                     </div>
                 </div>
@@ -971,90 +850,6 @@
             </div>
         </div>
     </div>
-
-    <!-- 
-    <div class="overflow-hidden position-relative space-extra-top space-bottom garally mt-md-5" id="portfolio-sec">
-        <div class="container">
-            <div class="title-area text-center mb-25">
-                <h2 class="sec-title"> </h2>
-                <h2 class="fw-bold sec-title my-3"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                    data-aos-duration="1000"
-                    data-aos-easing="ease-in-out">
-                    Clients We've <span class="text-blue"> Worked With</span>
-                </h2>
-            </div>
-            <div class="filter-menu filter-menu-active mt-md-5 mb-md-4">
-                <button data-filter="*" class="tab-btn active" type="button">All</button>
-                <button data-filter=".cat1" class="tab-btn" type="button">Education</button>
-                <button data-filter=".cat2" class="tab-btn" type="button">Healthcare</button>
-                <button data-filter=".cat3" class="tab-btn" type="button">News & Media</button>
-                <button data-filter=".cat4" class="tab-btn" type="button">Real Eastate</button>
-                <button data-filter=".cat5" class="tab-btn" type="button">Logistist</button>
-                <button data-filter=".cat6" class="tab-btn" type="button">Gaming</button>
-
-            </div>
-            <div class="portfolio-area" data-aos="zoom-in"
-                data-aos-delay="200"
-                data-aos-duration="1200"
-                data-aos-easing="ease-in-out">
-                <div class="row g-4 filter-active">
-                    <div class="col-md-6 col-xl-3 filter-item cat1 cat5 cat7 cat3">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="https://placehold.co/200x100/webp" alt="Client Logo">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-3 filter-item cat5 cat5 cat8 cat1">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="https://placehold.co/200x100/webp" alt="Client Logo">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-3 filter-item cat5 cat3 cat2">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="https://placehold.co/200x100/webp" alt="Client Logo">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-3 filter-item cat4 cat1 cat6">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="https://placehold.co/200x100/webp" alt="Client Logo">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-xl-3 filter-item cat4 cat6">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="https://placehold.co/200x100/webp" alt="Client Logo">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-3 filter-item cat4 cat6">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="https://placehold.co/200x100/webp" alt="Client Logo">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-3 filter-item cat4 cat6">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="https://placehold.co/200x100/webp" alt="Client Logo">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div> -->
 
     <div class="th-blog-wrapper space-top space-extra-bottom" id="contact">
         <div class="container">

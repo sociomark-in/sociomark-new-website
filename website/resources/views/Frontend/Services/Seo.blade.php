@@ -12,14 +12,6 @@
         background-color: #F5F5F5 !important;
     }
 
-    #seo-service #about-sec {
-        padding: 8px;
-    }
-
-    #seo-service .about-area2 .imgBox {
-        top: 40px;
-    }
-
     #seo-service .about-area2 .sec-title,
     #seo-service #about-sec2 .sec-title,
     #seo-service #work-flow .sec-title,
@@ -64,24 +56,11 @@
         font-weight: 400;
     }
 
-    /* #seo-service #work-flow .sec-para {
-        line-height: 24px;
-        font-size: 16px;
-        letter-spacing: .10px;
-        color: #797E88;
-        font-weight: 400;
-    } */
-
     #seo-service #features .sec-para {
         color: #121212 !important;
         font-weight: 800 !important;
         line-height: 24px !important;
         font-size: 20px !important;
-    }
-
-    #work-flow .benefit-block h5 {
-        font-size: 20px;
-        line-height: 1.417;
     }
 
     @media (max-width: 576px) {
@@ -182,7 +161,7 @@
     }
 
     #benefits::-webkit-scrollbar-thumb {
-        background-color: rgba(0, 0, 0, 0.2);
+        background: rgba(0, 0, 0, 0.2);
         border-radius: 4px;
     }
 
@@ -638,7 +617,7 @@
             </div>
         </div>
     </div>
-    <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden overflow-hidden space" id="about-sec">
+    <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden overflow-hidden" id="about-sec">
         <div class="container">
             <div class="row align-items-end">
                 <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
