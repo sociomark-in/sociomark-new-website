@@ -536,7 +536,7 @@
     <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x520">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">About us</h1>
+                <h1 class="breadcumb-title text-uppercase">About us</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="home-seo-agency.html">Home</a></li>
                     <li>About Us</li>
@@ -558,7 +558,7 @@
                             Expand Your Global Reach with <span class="text-blue"> Our Comprehensive International</span> SEO Solutions
                         </h2>
                     </div>
-                    <p class="mt-n2 mb-25 sec-para text-center" data-aos="fade-down"
+                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down"
                         data-aos-delay="100"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out">Established in 1995, Saor has been a leading force in the digital landscape for
