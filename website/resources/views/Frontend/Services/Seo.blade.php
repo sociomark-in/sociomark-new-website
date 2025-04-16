@@ -994,7 +994,6 @@
 @endsection
 
 @section('content')
-<<<<<<< HEAD
     <main id="seo-service">
         <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x518">
             <div class="container">
@@ -1004,45 +1003,6 @@
                         <li><a href="{{route('home')}}">Home</a></li>
                         <li>Seo</li>
                     </ul>
-=======
-<main id="seo-service">
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg') }}">
-        <div class="container">
-            <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Seo</h1>
-                <ul class="breadcumb-menu">
-                    <li><a href="home-seo-agency.html">Home</a></li>
-                    <li>Seo</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden overflow-hidden" id="about-sec">
-        <div class="container">
-            <div class="row align-items-end">
-                <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
-                    <div class="title-area mb-md-3 mb-2 mt-n1">
-                        <h2 class="text-center fw-bold sec-title my-3"
-                            data-aos="zoom-in"
-                            data-aos-delay="100"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                            Expand Your Global Reach with <span class="text-blue"> Our Comprehensive International</span> SEO Solutions
-                        </h2>
-                    </div>
-                    <p class="mt-n2 mb-25 sec-para text-center" data-aos="fade-down"
-                        data-aos-delay="200"
-                        data-aos-duration="1200"
-                        data-aos-easing="ease-in-out">SEO stands for Search Engine Optimization. It involves optimizing a website to rank higher in search engine results by inculcating relevant keywords and improving content quality. It also includes technical improvements like enhancing a website’s speed and mobile friendliness. Additionally, building high-quality backlinks helps increase your site’s authority and visibility.
-                    </p>
-                    <p class="mt-n2 mb-25 sec-para text-center" data-aos="fade-down"
-                        data-aos-delay="200"
-                        data-aos-duration="1200"
-                        data-aos-easing="ease-in-out">The main goal of optimization is to have your website rank up in the search results. The higher the page appears, people are more likely to visit the website, and your business generate sales. SEO is one of the major marketing strategies that businesses opt for in order to increase their business. No matter the size of the company of the stage, whether it is a small startup or a big well-established Multi National Company, SEO is needed for all. It helps your business to have a competitive advantage over others.
-                        Search Engine Optimization enhances the impact of <strong>Content Marketing Social Media Marketing</strong> and <strong> Website Development</strong> making it an essential strategy for any business.
-
-                    </p>
->>>>>>> d221741f17ac226c82e6dfb03e1783a4fe872a3f
                 </div>
             </div>
         </div>
