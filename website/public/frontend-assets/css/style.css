@@ -96,9 +96,9 @@
   --success-color: #28a745;
   --error-color: #dc3545;
   --th-border-color: #E0E0E0;
-  --title-font: "Metropolis Medium", sans-serif;
-  --body-font: "Metropolis regular", sans-serif;
-  --body-font2: "DM Sans", sans-serif;
+  --title-font: "Inter", sans-serif;
+  --body-font: "Inter", sans-serif;
+  --body-font2: "Inter", sans-serif;
   --icon-font: "Font Awesome 6 Pro";
   --main-container: 1290px;
   --container-gutters: 24px;

@@ -13,6 +13,7 @@ use App\Http\Controllers\Website\ContactController;
 use App\Http\Controllers\Website\IndustryController;
 use App\Http\Controllers\Website\WorkCultureController;
 use App\Http\Controllers\Admin\AdminWorkCultureController;
+use App\Http\Controllers\Website\CaseStudyController;
 use App\Http\Controllers\Website\PortfolioController;
 use App\Http\Controllers\Website\ServiceController;
 use Illuminate\Support\Facades\Route;
@@ -48,6 +49,7 @@ Route::get('/categoryBlog/{slug}', [BlogWebController::class, 'categoryBlog'])->
 Route::get('/tagBlog/{slug}', [BlogWebController::class, 'tagBlog'])->name('tagBlog');
 Route::get('/services', [HomeController::class, 'Services'])->name('services');
 Route::get('/service/seo', [ServiceController::class, 'index'])->name('seo');
+Route::get('/case-study', [CaseStudyController::class, 'index'])->name('case-study');
 Route::get('/work-culture', [WorkCultureController::class, 'index'])->name('workculture');
 Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');
 Route::get('/portfolio/inside', [PortfolioController::class, 'portfolioInside'])->name('portfolioinside');
