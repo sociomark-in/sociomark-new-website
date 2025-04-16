@@ -173,7 +173,7 @@
         /* section 2 end */
         /* work flow */
         #benefits {
-            max-height: 80vh;
+            max-height: 60vh;
             /* Or a specific height like 500px */
             overflow-y: auto;
             padding-right: 15px;
@@ -221,23 +221,7 @@
     }
 
     /* section 2 end */
-    /* work flow */
-    #benefits {
-        max-height: 100vh;
-        /* Or a specific height like 500px */
-        overflow-y: auto;
-        padding-right: 15px;
-        /* optional: space for scrollbar */
-    }
-
-    #benefits::-webkit-scrollbar {
-        width: 0px;
-    }
-
-    #benefits::-webkit-scrollbar-thumb {
-        background: rgba(0, 0, 0, 0.2);
-        border-radius: 4px;
-    }
+   
 
     #work-flow .circle-wrapper {
         width: 68%;
