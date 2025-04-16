@@ -6,6 +6,10 @@
     --color-white: #fff;
     --color-black: #000000;
 }
+::-webkit-scrollbar,
+::-webkit-scrollbar-track {
+    width: 0px;
+}
 
 .cursor {
     position: fixed;
@@ -112,10 +116,10 @@ select {
     z-index: 8;
 }
 
-.main-menu ul.sub-menu li a:before{
-    content: '\f061';
+.main-menu ul.sub-menu li a:before {
+    content: "\f061";
 }
-.main-menu.style2 ul.sub-menu{
+.main-menu.style2 ul.sub-menu {
     border-radius: 0.75rem;
     margin-top: 2rem;
 }
@@ -174,6 +178,25 @@ select {
     --rotate-letter: 9deg;
 }
 
+.marquee {
+    padding: 1vw;
+    white-space: nowrap;
+    background-color: rgba(255, 255, 255, 0.123);
+    transform: rotateZ(-2deg);
+}
+
+.marquee__inner {
+    display: flex;
+    gap: 20px;
+}
+
+.marquee__content {
+    padding: 1rem 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: clamp(40px, 4.375vw, 70px);
+}
+
 main {
     margin: 0;
 }
@@ -192,15 +215,15 @@ main#home h6 {
     color: white;
 }
 
-.big-title{
+.big-title {
     font-size: calc(max(4vmax, 2rem));
 }
-.big-title h1{
+.big-title h1 {
     font-size: calc(max(7vmax, 2rem));
     line-height: 1;
     color: #ffffff25 !important;
 }
-.default-spacing{
+.default-spacing {
     padding: calc(max(5%, 2rem)) 0;
 }
 .height-50 {
@@ -215,7 +238,6 @@ main#home {
     background-color: #000000;
     color: white;
 }
-
 
 .sec-title {
     font-size: calc(max(3vmax, 2rem));
@@ -356,7 +378,10 @@ main#home {
 
 /* homw page css start */
 .testi-card {
-    /* border: 1px solid black !important; */
+    background: #ffffff0a;
+}
+.testi-card .testimonial-message *{
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .th-btn.th-black2:hover {
@@ -395,6 +420,15 @@ main#home {
     color: white;
 }
 
+.slider-arrow.style1 {
+    border-color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+.slider-arrow.style1:hover{
+    background-color: #106c97;
+    border-color: #106c97;
+    color: white !important;
+}
 .slider-arrow.style3 {
     background-color: #106c97;
     color: white !important;

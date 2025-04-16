@@ -13,7 +13,7 @@
     #cursor{
         width: 1rem;
         height: 1rem;
-        background: white;
+        background: #ff900b;
         border-radius: 50%;
         position: fixed;
         z-index: 99999;
