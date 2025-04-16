@@ -244,46 +244,6 @@
             border-radius: 4px;
         }
 
-<<<<<<< HEAD
-        #work-flow .circle-wrapper {
-            width: 68%;
-            margin: 0 auto;
-            position: relative;
-        }
-
-        #work-flow .circle {
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-            background: #f0f0f0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        #work-flow .key-image {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-        }
-
-        #work-flow .benefit-block {
-            padding: 10px 25px;
-            margin-bottom: 15px;
-            background: #f8f9fa;
-            border-left: 4px solid #106c97;
-            border-radius: 5px;
-        }
-
-        #work-flow .benefit-block h5 {
-            margin-bottom: 8px;
-        }
-
-        /* work flow :end */
-
-        /* section3 */
-        .according-img {
-=======
     /* section 2 */
     #seo-service #about-sec2 {
         /* background-color: #F5F5F5; */
@@ -632,7 +592,6 @@
     /* Slide-in animations */
     @keyframes slideInRight {
         from {
->>>>>>> d221741f17ac226c82e6dfb03e1783a4fe872a3f
             opacity: 0;
             transform: scale(0.8);
             /* Start smaller */
