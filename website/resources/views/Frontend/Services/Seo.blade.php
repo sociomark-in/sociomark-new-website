@@ -32,8 +32,19 @@
     #seo-service #contact .sec-title {
         font-size: 32px;
         line-height: 42px;
+        font-weight: 700 !important;
     }
-
+    #seo-service #work-flow .sub-sec-title,
+    #seo-service #about-sec2 .sub-sec-title,
+    #seo-service #features .sub-sec-title{
+        font-size: 20px;
+        line-height: 30px;
+        color:#121212;
+        font-weight: 600 !important;
+    }
+    #seo-service #features .sub-sec-title{
+        font-weight: 700 !important;
+    }
     #seo-service .about-area2 .sec-title {
         width: 67rem;
     }
@@ -41,6 +52,7 @@
     #seo-service .about-area2 .sec-para,
     #seo-service #about-sec2 .sec-para,
     #seo-service #about-sec3 .sec-para,
+    #seo-service #work-flow .sec-para,
     #seo-service #features .sec-para,
     #seo-service #about-sec6 .sec-para,
     #seo-service #services-tab .sec-para,
@@ -49,20 +61,24 @@
         font-size: 18px;
         letter-spacing: .10px;
         color: rgb(19, 20, 20);
+        font-weight: 400;
     }
 
-    #seo-service #work-flow .sec-para {
+    /* #seo-service #work-flow .sec-para {
         line-height: 24px;
         font-size: 16px;
         letter-spacing: .10px;
         color: #797E88;
-    }
-    #seo-service #features .sec-para{
+        font-weight: 400;
+    } */
+
+    #seo-service #features .sec-para {
         color: #121212 !important;
         font-weight: 800 !important;
         line-height: 24px !important;
         font-size: 20px !important;
     }
+
     #work-flow .benefit-block h5 {
         font-size: 20px;
         line-height: 1.417;
@@ -125,9 +141,11 @@
         /* background-color: #F5F5F5; */
         background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
     }
-    #seo-service #about-sec2 .choose-feature .box-icon{
+
+    #seo-service #about-sec2 .choose-feature .box-icon {
         background: transparent;
     }
+
     #seo-service #about-sec4 .sec-title {
         color: white;
     }
@@ -152,19 +170,21 @@
     /* section 2 end */
     /* work flow */
     #benefits {
-    max-height: 100vh; /* Or a specific height like 500px */
-    overflow-y: auto;
-    padding-right: 15px; /* optional: space for scrollbar */
-}
+        max-height: 100vh;
+        /* Or a specific height like 500px */
+        overflow-y: auto;
+        padding-right: 15px;
+        /* optional: space for scrollbar */
+    }
 
-#benefits::-webkit-scrollbar {
-    width: 0px;
-}
+    #benefits::-webkit-scrollbar {
+        width: 0px;
+    }
 
-#benefits::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-}
+    #benefits::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+    }
 
     #work-flow .circle-wrapper {
         width: 68%;
@@ -656,9 +676,8 @@
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
-                        <h2 class="sec-title mb-md-3 mb-2"
-                           >
-                           Why Choose Our  <span class="text-blue">SEO Services?</span> 
+                        <h2 class="sec-title mb-md-3 mb-2">
+                            Why Choose Our <span class="text-blue">SEO Services?</span>
                         </h2>
                     </div>
                     <p class="sec-para d-none ">Our SEO strategies are designed to improve your website’s ranking on major search engines like Google. By targeting high-intent keywords relevant to your business.</p>
@@ -668,8 +687,8 @@
                                 <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_1.svg') }}" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h3 class="box-title">Higher ROI</h3>
-                                <p class="box-text">Cost-effective lead generation. Long-term value vs paid ads. Higher conversion rates from qualified traffic</p>
+                                <h4 class="sub-sec-title">Higher ROI</h4>
+                                <p class="sec-para">Cost-effective lead generation. Long-term value vs paid ads. Higher conversion rates from qualified traffic</p>
                             </div>
                         </div>
                         <div class="choose-feature">
@@ -677,8 +696,8 @@
                                 <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_2.svg') }}" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h3 class="box-title">Transparent Reporting</h3>
-                                <p class="box-text">Monthly SEO performance reports. Keyword ranking updates. Clear, jargon-free analytics</p>
+                                <h4 class="sub-sec-title">Transparent Reporting</h4>
+                                <p class="sec-para">Monthly SEO performance reports. Keyword ranking updates. Clear, jargon-free analytics</p>
                             </div>
                         </div>
                         <div class="choose-feature">
@@ -686,8 +705,8 @@
                                 <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_3.svg') }}" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h3 class="box-title">Technical & On-Page SEO</h3>
-                                <p class="box-text">Improved site performance & crawlability. Optimized user experience. Better indexing and faster ranking</p>
+                                <h4 class="sub-sec-title">Technical & On-Page SEO</h4>
+                                <p class="sec-para">Improved site performance & crawlability. Optimized user experience. Better indexing and faster ranking</p>
                             </div>
                         </div>
                     </div>
@@ -736,23 +755,23 @@
                 <div class="col-md-6">
                     <div id="benefits">
                         <div class="benefit-block border-start border-4 border-danger">
-                            <h5 class="text-danger">Free Audit</h5>
+                            <h4 class="sub-sec-title">Free Audit</h4>
                             <p class="sec-para">We start by analyzing your current website performance to identify strengths, weaknesses, and opportunities.</p>
                         </div>
                         <div class="benefit-block border-start border-4 border-secondary">
-                            <h5 class="text-secondary">Strategy Development</h5>
+                            <h4 class="sub-sec-title">Strategy Development</h4>
                             <p class="sec-para">Based on the audit, we develop a customized SEO strategy tailored to your business goals, target audience, and industry. </p>
                         </div>
                         <div class="benefit-block border-start border-4 border-primary">
-                            <h5 class="text-primary">Implementation</h5>
+                            <h4 class="sub-sec-title">Implementation</h4>
                             <p class="sec-para">We put the strategy into action—this includes technical fixes, optimizing existing content, publishing new content, improving site structure, and implementing SEO best practices across the board.</p>
                         </div>
                         <div class="benefit-block border-start border-4 border-info">
-                            <h5 class="text-info">Monitoring & Optimization</h5>
+                            <h4 class="sub-sec-title">Monitoring & Optimization</h4>
                             <p class="sec-para">SEO isn’t a one-time job. We continuously track performance and adjust the strategy based on real-time data and search engine algorithm updates.</p>
                         </div>
                         <div class="benefit-block border-start border-4 border-muted">
-                            <h5 class="text-muted">Reporting</h5>
+                            <h4 class="sub-sec-title">Reporting</h4>
                             <p class="sec-para">Every month, you’ll receive a detailed but easy-to-understand report showing your website’s performance.</p>
                         </div>
                     </div>
@@ -787,7 +806,6 @@
                         </p>
 
                     </div>
-
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
@@ -874,20 +892,20 @@
                     <div class="icon-img me-3">
                         <img src="https://www.gbim.com/gbim/one_click.webp" alt="One-Click Reports" class="feature-icon">
                     </div>
-                    <div class="fw-bold fs-5 sec-para">Keyword Research</div>
+                    <div class="sub-sec-title">Keyword Research</div>
                 </div>
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
                         <img src="	https://www.gbim.com/gbim/traffic.webp" alt="Traffic Performance" class="feature-icon">
                     </div>
-                    <div class="fw-bold fs-5 sec-para">Competitor Analysis</div>
+                    <div class="sub-sec-title">Competitor Analysis</div>
 
                 </div>
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
                         <img src="https://www.gbim.com/gbim/traffic.webp" alt="CRM Module" class="feature-icon">
                     </div>
-                    <div class="fw-bold fs-5 sec-para">Link Building</div>
+                    <div class="sub-sec-title">Link Building</div>
 
                 </div>
             </div>
@@ -898,27 +916,27 @@
                     <div class="icon-img me-3">
                         <img src="https://www.gbim.com/gbim/keyword.webp" alt="Keyword Performance" class="feature-icon">
                     </div>
-                    <div class="fw-bold fs-5 sec-para">On-Page Optimization</div>
+                    <div class="sub-sec-title">On-Page Optimization</div>
 
                 </div>
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
                         <img src="https://www.gbim.com/gbim/marketing.webp" alt="Marketing Activities" class="feature-icon">
                     </div>
-                    <div class="fw-bold fs-5 sec-para">Technical Audit </div>
+                    <div class="sub-sec-title">Technical Audit </div>
 
                 </div>
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
                         <img src="	https://www.gbim.com/gbim/leads.webp" alt="Leads Management" class="feature-icon">
                     </div>
-                    <div class="fw-bold fs-5 sec-para">Local SEO</div>
+                    <div class="sub-sec-title">Local SEO</div>
 
                 </div>
             </div>
 
             <!-- Dashboard Images -->
-            <div class="mt-5"  data-aos="zoom-in"
+            <div class="mt-5" data-aos="zoom-in"
                 data-aos-delay="100"
                 data-aos-duration="1000"
                 data-aos-easing="ease-in-out">
@@ -1157,49 +1175,126 @@
                     <div class="col-md-3 filter-item cat1 cat5 cat7 cat3">
                         <div class="project-item">
                             <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                                <img src="{{ asset('frontend-assets/img/clients/ayuhealth.jpg') }}" alt="project image">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 filter-item cat5 cat5 cat8 cat1">
                         <div class="project-item">
                             <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                                <img src="{{ asset('frontend-assets/img/clients/ayushakti.jpg') }}" alt="project image">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 filter-item cat5 cat3 cat2">
                         <div class="project-item">
                             <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                                <img src="{{ asset('frontend-assets/img/clients/buildtrack (1).png') }}" alt="project image">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 filter-item cat4 cat1 cat6">
                         <div class="project-item">
                             <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                                <img src="{{ asset('frontend-assets/img/clients/bumchums.jpg') }}" alt="project image">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 filter-item cat4 cat6">
                         <div class="project-item">
                             <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                                <img src="{{ asset('frontend-assets/img/clients/eduauraa.jpg') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter-item cat1 cat6">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/clients/euro.jpg') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter-item cat2">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/clients/jivana.jpg') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter-item cat3 cat2">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/clients/network18.jpg') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter-item cat3 cat4">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/clients/nhs_logo.png') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter-item cat5 cat1">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/clients/nodwin.jpg') }}" alt="project image">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 filter-item cat4 cat6">
                         <div class="project-item">
                             <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                                <img src="{{ asset('frontend-assets/img/clients/okinawa.jpg') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter-item cat1 cat3">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/clients/pare.png') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter-item cat5 cat1">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/clients/shahenaz.jpg') }}" alt="project image">
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 filter-item cat4 cat6">
                         <div class="project-item">
                             <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
+                                <img src="{{ asset('frontend-assets/img/clients/stemrx.jpg') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter-item cat1 cat3">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/clients/tataplay.png') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter-item cat1 cat3">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/clients/times.jpg') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter-item cat5 cat1">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/clients/totalfood.png') }}" alt="project image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 filter-item cat4 cat6">
+                        <div class="project-item">
+                            <div class="box-img global-img">
+                                <img src="{{ asset('frontend-assets/img/clients/watch.jpg') }}" alt="project image">
                             </div>
                         </div>
                     </div>

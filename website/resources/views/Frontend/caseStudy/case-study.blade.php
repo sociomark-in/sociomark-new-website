@@ -38,8 +38,8 @@
 
     .tab-label {
         font-size: 16px;
-    margin-top: 5px;
-    font-weight: 600;
+        margin-top: 5px;
+        font-weight: 600;
     }
 
     .checkmark {
@@ -54,6 +54,160 @@
     }
 
     /* gallary end */
+
+    /* card  */
+    .card__container {
+        display: grid;
+        row-gap: 3.5rem;
+    }
+
+    .card__article {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card__img {
+        width: 328px;
+        border-radius: 10px;
+    }
+
+    .card__data {
+        width: 280px;
+        background-color: white;
+        padding: 1.5rem 2rem;
+        /* box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15); */
+        border-radius: 1rem;
+        /* position: absolute; */
+        bottom: -9rem;
+        left: 0;
+        right: 0;
+        margin-inline: auto;
+        opacity: 0;
+        transition: opacity 1s 1s;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card__description {
+        display: block;
+        font-size: 14px;
+        margin-bottom: .25rem;
+    }
+
+    .card__title {
+        font-size: 20px;
+        font-weight: 500;
+        color: black;
+        margin-bottom: .75rem;
+    }
+
+    .card__button {
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        color: black;
+    }
+
+    .card__button {
+        text-decoration: underline;
+    }
+
+    /* Naming animations in hover */
+    .card__article .card__data {
+        animation: show-data 1s forwards;
+        opacity: 1;
+        transition: opacity .3s;
+    }
+
+    /* .card__article {
+        animation: remove-overflow 2s forwards;
+    } */
+
+    .card__article {
+    animation: show-overflow 2s forwards;
+}
+
+.card__data {
+    animation: remove-data 1s forwards;
+}
+
+    /* Card animation */
+    @keyframes show-data {
+        50% {
+            transform: translateY(-10rem);
+        }
+
+        100% {
+            transform: translateY(-7rem);
+        }
+    }
+
+    @keyframes remove-overflow {
+        to {
+            overflow: initial;
+        }
+    }
+
+    @keyframes remove-data {
+        0% {
+            transform: translateY(-7rem);
+        }
+
+        50% {
+            transform: translateY(-10rem);
+        }
+
+        100% {
+            transform: translateY(.5rem);
+        }
+    }
+
+    @keyframes show-overflow {
+        0% {
+            overflow: initial;
+            pointer-events: none;
+        }
+
+        50% {
+            overflow: hidden;
+        }
+    }
+
+    /*=============== BREAKPOINTS ===============*/
+    /* For small devices */
+    @media screen and (max-width: 340px) {
+        .portfolio-container {
+            margin-inline: 1rem;
+        }
+
+        .card__data {
+            width: 250px;
+            padding: 1rem;
+        }
+    }
+
+    /* For medium devices */
+    @media screen and (min-width: 768px) {
+        .card__container {
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 1.5rem;
+        }
+    }
+
+    /* For large devices */
+    @media screen and (min-width: 1120px) {
+        
+
+        .card__img {
+            width: 348px;
+        }
+
+        .card__data {
+            width: 250px;
+            padding-inline: 1.5rem;
+        }
+    }
+
+    /* card :end */
 </style>
 @endsection
 
@@ -72,7 +226,7 @@
     </div>
     <div class="overflow-hidden position-relative space-extra-top space-bottom garally mt-md-5" id="portfolio-sec">
         <div class="container ">
-        <div class="row justify-content-center">
+            <div class="row justify-content-center">
                 <div class="col-xl-8">
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title"
@@ -85,79 +239,81 @@
                     </div>
                 </div>
             </div>
-            <!-- Tab Icons -->
-            <ul class="nav nav-tabs justify-content-center mb-4" id="seoTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="seo-tab" data-bs-toggle="tab" data-bs-target="#seo" type="button" role="tab">
-                        <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="SEO" class="tab-icon-img">
-                        <div class="tab-label">SEO</div>
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="keyword-tab" data-bs-toggle="tab" data-bs-target="#keyword" type="button" role="tab">
-                        <img src="https://cdn-icons-png.flaticon.com/512/1388/1388999.png" alt="Keyword" class="tab-icon-img">
-                        <div class="tab-label">Keyword</div>
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="analyzer-tab" data-bs-toggle="tab" data-bs-target="#analyzer" type="button" role="tab">
-                        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828911.png" alt="Page Analyzer" class="tab-icon-img">
-                        <div class="tab-label">Page Analyzer</div>
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="agency-tab" data-bs-toggle="tab" data-bs-target="#agency" type="button" role="tab">
-                        <img src="https://cdn-icons-png.flaticon.com/512/2920/2920322.png" alt="Digital Agency" class="tab-icon-img">
-                        <div class="tab-label">Digital Agency</div>
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="content-tab" data-bs-toggle="tab" data-bs-target="#content" type="button" role="tab">
-                        <img src="https://cdn-icons-png.flaticon.com/512/2913/2913461.png" alt="Content" class="tab-icon-img">
-                        <div class="tab-label">Content</div>
-                    </button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="tracker-tab" data-bs-toggle="tab" data-bs-target="#tracker" type="button" role="tab">
-                        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828843.png" alt="Rank Tracker" class="tab-icon-img">
-                        <div class="tab-label">Rank Tracker</div>
-                    </button>
-                </li>
-            </ul>
+
+
+            <div class="filter-menu filter-menu-active nav nav-tabs justify-content-center mb-4">
+
+
+                <button data-filter="*" class=" nav-link active" type="button">
+                    <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="SEO" class="tab-icon-img">
+                    <div class="tab-label">All</div>
+                </button>
+
+                <button data-filter=".cat1" class="nav-link" type="button">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1388/1388999.png" alt="Keyword" class="tab-icon-img">
+                    <div class="tab-label">SEO</div>
+                </button>
+
+                <button data-filter=".cat2" class="nav-link" type="button">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828911.png" alt="Page Analyzer" class="tab-icon-img">
+                    <div class="tab-label">Website</div>
+                </button>
+
+                <button data-filter=".cat3" class="nav-link" type="button">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2920/2920322.png" alt="Digital Agency" class="tab-icon-img">
+                    <div class="tab-label">Social Media</div>
+                </button>
+
+                <!-- <button data-filter=".cat4" class="nav-link" type="button">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2913/2913461.png" alt="Content" class="tab-icon-img">
+                    <div class="tab-label"></div>
+                </button> -->
+
+
+            </div>
 
             <!-- Tab Content -->
-            <div class="tab-content" id="seoTabContent">
-                <div class="tab-pane fade show active" id="seo" role="tabpanel">
-                    <h3>Empower Your SEO Strategy With Cutting</h3>
-                    <ul class="list-unstyled">
-                        <li><span class="checkmark">✔</span> <strong>Keyword Explorer:</strong> Uncover valuable keywords and insights.</li>
-                        <li><span class="checkmark">✔</span> <strong>Page Analyzer:</strong> Optimize your SEO effortlessly.</li>
-                        <li><span class="checkmark">✔</span> <strong>Rank Tracker:</strong> Track rankings and adjust strategy in real-time.</li>
-                    </ul>
-                    <a href="#" class="btn btn-primary">Try It Free Now</a>
-                    <img src="https://via.placeholder.com/700x350?text=SEO+Dashboard+Image" alt="Dashboard" class="feature-image">
-                </div>
 
-                <!-- Placeholder for other tabs -->
-                <div class="tab-pane fade" id="keyword" role="tabpanel">
-                    <h3>Keyword Research Tool</h3>
-                    <p>Explore relevant keywords with competition data and trends.</p>
-                </div>
-                <div class="tab-pane fade" id="analyzer" role="tabpanel">
-                    <h3>Page Analyzer Tool</h3>
-                    <p>Analyze any webpage to get SEO performance insights.</p>
-                </div>
-                <div class="tab-pane fade" id="agency" role="tabpanel">
-                    <h3>Digital Agency Suite</h3>
-                    <p>Manage clients and SEO campaigns efficiently in one place.</p>
-                </div>
-                <div class="tab-pane fade" id="content" role="tabpanel">
-                    <h3>Content Optimization</h3>
-                    <p>Create SEO-optimized content that drives traffic and engagement.</p>
-                </div>
-                <div class="tab-pane fade" id="tracker" role="tabpanel">
-                    <h3>Rank Tracker</h3>
-                    <p>Track keyword performance across multiple search engines.</p>
+            <div class="portfolio-container">
+                <div class="card__container filter-active row">
+                    <article class="card__article filter-item cat1 cat5 cat7 cat3 col-md-3 col-12">
+                        <img src="http://127.0.0.1:5501/assets/img/landscape-1.png" alt="image" class="card__img">
+
+                        <div class="card__data">
+                            <span class="card__description">Boosted Organic Traffic by 200%</span>
+                            <h2 class="card__title">Ayushakti</h2>
+                            <a href="#" class="card__button">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="card__article filter-item cat5 cat5 cat8 cat1 col-md-3 col-12">
+                        <img src="http://127.0.0.1:5501/assets/img/landscape-1.png" alt="image" class="card__img">
+
+                        <div class="card__data">
+                            <span class="card__description">Poon Hill, Nepal</span>
+                            <h2 class="card__title">Starry Night</h2>
+                            <a href="#" class="card__button">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="card__article filter-item cat5 cat3 cat2 col-md-3 col-12">
+                        <img src="http://127.0.0.1:5501/assets/img/landscape-1.png" alt="image" class="card__img">
+
+                        <div class="card__data">
+                            <span class="card__description">Bojcin Forest, Serbia</span>
+                            <h2 class="card__title">Path Of Peace</h2>
+                            <a href="#" class="card__button">Read More</a>
+                        </div>
+                    </article>
+                    <article class="card__article filter-item cat5 cat3 cat2 col-md-3 col-12">
+                        <img src="http://127.0.0.1:5501/assets/img/landscape-1.png" alt="image" class="card__img">
+
+                        <div class="card__data">
+                            <span class="card__description">Bojcin Forest, Serbia</span>
+                            <h2 class="card__title">Path Of Peace</h2>
+                            <a href="#" class="card__button">Read More</a>
+                        </div>
+                    </article>
                 </div>
             </div>
         </div>
