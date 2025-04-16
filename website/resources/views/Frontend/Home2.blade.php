@@ -163,13 +163,20 @@
 
 
 
+    /* contact form */
+    #home #contact {
+        padding: 30px;
+    }
+
         /* contact form */
         #home #contact {
             padding: 30px;
         }
 
-        /* contact form end */
-    </style>
+    /* contact form end */
+
+
+</style>
 @endsection
 
 @section('content')
