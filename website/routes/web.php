@@ -39,6 +39,10 @@ Route::get('/blog', [BlogWebController::class, 'index'])->name('blog');
 // Route::get('/blog-category/{id}', [BlogWebController::class, 'categoryBlog'])->name('categoryBlog');
 // Route::get('/blog-tag/{id}', [BlogWebController::class, 'tagBlog'])->name('tagBlog');
 // Route::get('/blog-category/{categoryName}', [BlogWebController::class, 'categoryBlog'])->name('categoryBlog');
+Route::fallback(function () {
+    return view('errors.404');
+});
+
 
 Route::get('/blog-inner/{slug}', [BlogWebController::class, 'innerBlog'])->name('blog-inner');
 Route::get('/categoryBlog/{slug}', [BlogWebController::class, 'categoryBlog'])->name('categoryBlog');

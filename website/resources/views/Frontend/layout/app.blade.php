@@ -2,7 +2,6 @@
 <html class="no-js" lang="zxx">
 
 <head>
-
   @include('Frontend/partial/styleLinks')
   @yield('custome-style')
   @stack('styles')
