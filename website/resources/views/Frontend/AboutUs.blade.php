@@ -11,7 +11,8 @@
         background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
     }
 
-    #about-us #about-sec4 {
+    #about-us #about-sec4,
+    #our-founder {
         background-color: #F5F5F5;
     }
 
@@ -28,7 +29,8 @@
     #about-us #about-sec3 .sec-title,
     #about-us #about-sec4 .sec-title,
     #portfolio-sec .sec-title,
-    #about-us #contact .sec-title {
+    #about-us #contact .sec-title,
+    #our-founder .sec-title {
         font-size: 35px !important;
         line-height: 42px !important;
     }
@@ -40,7 +42,8 @@
     #about-us .about-area2 .sec-para,
     #about-us #about-sec2 .sec-para,
     #about-us #about-sec3 .sec-para,
-    #about-us #contact .sec-para {
+    #about-us #contact .sec-para,
+    #our-founder .sec-para {
         line-height: 28px !important;
         font-size: 20px !important;
         letter-spacing: .10px !important;
@@ -205,24 +208,36 @@
 
     #about-us #about-sec3 .first-feature-card:nth-child(odd) .flip-box-front {
         background-color: #ffffff;
+        height: 100%;
     }
 
     #about-us #about-sec3 .flip-box {
         width: 300px;
+        height: 320px;
+    }
+
+    #about-us #about-sec3 .flip-box-inner {
+        height: 100%;
     }
 
     #about-us #about-sec3 .first-feature-card:nth-child(even) .flip-box-front {
-
+        height: 100%;
         background-color: #f6f9ff;
     }
 
     #about-us #about-sec3 .second-feature-card:nth-child(even) .flip-box-front {
         background-color: #ffffff;
+        height: 100%;
     }
 
     #about-us #about-sec3 .second-feature-card:nth-child(odd) .flip-box-front {
-
+        height: 100%;
         background-color: #f6f9ff;
+    }
+
+    #about-us #about-sec3 .flip-box-front img {
+        height: auto;
+        width: auto;
     }
 
     .feature-card.bg-light-blue {
@@ -251,6 +266,7 @@
         border-radius: 10px !important;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         border: 2px solid transparent;
+        height: 100%;
     }
 
     /* section3end */
@@ -286,19 +302,33 @@
     .gallery-img.default-active {
         width: 570px;
     }
-    .gallery-img.default-active .img-overlay p{
+
+    .gallery-img.default-active .img-overlay p {
         width: 50%;
     }
-    .img-overlay p{
+
+    #about-sec4 .img-overlay .top-content .logo-info {
+        width: auto;
+        height: 40px;
+        line-height: 23px;
+    }
+
+    .img-overlay p {
         width: 100%;
     }
+
     .img-overlay {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        /* default state */
         height: 100%;
-        background: rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+        background: rgba(0, 0, 0, 0.2);
         /* semi-transparent black */
         color: white;
         padding: 20px;
@@ -313,15 +343,29 @@
         /* always visible now */
     }
 
+    .img-overlay.active {
+        justify-content: space-between;
+    }
+
+    .desc-text {
+        opacity: 0;
+        transition: opacity 0.4s ease;
+    }
+
+    .desc-text:not(.d-none) {
+        opacity: 1;
+    }
+
+
     .position-relative:hover .img-overlay {
-        background: rgba(0, 0, 0, 0.1);
+        background: rgba(0, 0, 0, 0.2);
         transform: scale(1.02);
         pointer-events: auto;
     }
 
-    .position-relative:hover .gallery-img {
+    /* .position-relative:hover .gallery-img {
         width: 570px;
-    }
+    } */
 
     /* Smooth text entrance but visible from start */
     .img-overlay h4,
@@ -332,8 +376,70 @@
         transition: all 0.4s ease;
     }
 
+    .img-overlay a {
+        background-color: white !important;
+        color: black !important;
+    }
+
+    .explore-btn a {
+        padding: 0px !important;
+        background-color: white !important;
+        color: black !important;
+    }
+
+    .explore-btn {
+        background-color: white;
+        color: black !important;
+        opacity: 1;
+        transform: translateY(0);
+        transition: all 0.4s ease;
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+        justify-content: center;
+        border-radius: 55px;
+        padding: 15px 28px;
+        opacity: 1;
+        transform: translateY(0);
+        transition: all 0.4s ease;
+
+    }
+
+    .img-overlay a:hover {
+        background-color: black;
+        color: white !important;
+    }
 
     /* about-sec4 :end */
+
+    /* about banner */
+    #about-banner .player-video::before {
+        content: none;
+    }
+
+    /* about banner :end */
+    /* founder */
+    #our-founder {
+        margin-top: 7rem;
+    }
+
+    .founder .img {
+        width: 33rem;
+        height: 34rem;
+        margin-top: -6rem;
+    }
+
+    .founder .img img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #our-founder.custom-top {
+        top: -39px;
+    }
+
+    /* founder end */
     /* gallary :start */
 
     #portfolio-sec {
@@ -467,14 +573,6 @@
 
     <div class="overflow-hidden mb-md-3 mt-md-3 mt-0 md-0" id="about-sec2">
         <div class="container process-container text-center">
-            {{-- <h6 class="text-primary fw-semibold mb-2 sec-para"
-                data-aos="fade-up"
-                data-aos-delay="100"
-                data-aos-duration="1000"
-                data-aos-easing="ease-in-out">
-                FLOW PROCESS
-            </h6> --}}
-
             <h2 class="fw-bold mb-5 sec-title"
                 data-aos="fade-up"
                 data-aos-delay="200"
@@ -595,40 +693,191 @@
                     data-aos-delay="200"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
-                    Making a mark, <span class="text-blue"> one day at a time!</span>
+                    More Than Just Services — <span class="text-blue"> Here’s What Powers Us</span>
                 </h2>
             </div>
 
             <!-- Static Flex Image Layout -->
-            <div class="image-gallery d-flex justify-content-center gap-3">
+            <div class="image-gallery js-overlay gap-3">
                 <div class="position-relative">
                     <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
                         class="gallery-img default-active" alt="Business Image">
-                    <div class="img-overlay d-flex align-items-start flex-column">
-                        <h4 class="text-white">Business Image</h4>
-                        <p class="text-white text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, expedita!</p>
-                        <a href="about.html" class="th-btn th-icon text-white">Explore More</a>
+                    <div class="img-overlay d-flex flex-column justify-content-between h-100 p-3">
+                        <!-- Top content -->
+                        <div class="top-content desc-text d-none">
+                            <a href="about.html" class="th-btn th-icon text-white p-2 logo-info mt-2">Semrush (SEO)</a>
+                            <a href="about.html" class="th-btn th-icon text-white p-2 logo-info mt-2">ChatGPT (Content)</a>
+                            <a href="about.html" class="th-btn th-icon text-white p-2 logo-info mt-2">Meta Ads (Advertising)</a>
+                            <a href="about.html" class="th-btn th-icon text-white p-2 logo-info mt-2">Adobe Photoshop/Lightroom (Photography & Editing)</a>
+                        </div>
+
+                        <!-- Bottom content -->
+                        <div class="bottom-content">
+                            <h4 class="text-white">Our Tools</h4>
+                            <p class="text-white text-start mb-0">Hover to discover how we power your growth.</p>
+                            <p class="text-white text-start desc-text d-none">
+                                In today’s fast-moving digital landscape, staying ahead means staying smart — and that’s exactly what we do.
+                            </p>
+                            <div class="explore-btn">
+                                <a href="about.html" class="th-btn th-icon text-white w-100 text-start">Explore More </a>
+                                <i class="fa-regular fa-arrow-right ms-2"></i>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
                 <div class="position-relative">
                     <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
                         class="gallery-img" alt="Meeting Image">
-                    <div class="img-overlay">Meeting Image</div>
+
+                    <div class="img-overlay h-100 p-3">
+                        <!-- Top content -->
+                        <div class="top-content desc-text d-none">
+                            <a href="about.html" class="th-btn th-icon text-white p-2 logo-info mt-2">+250% leads</a>
+                            <a href="about.html" class="th-btn th-icon text-white p-2 logo-info mt-2">60K new users</a>
+                            <a href="about.html" class="th-btn th-icon text-white p-2 logo-info mt-2">2k views</a>
+                            <a href="about.html" class="th-btn th-icon text-white p-2 logo-info mt-2">View Case Study</a>
+                        </div>
+
+                        <!-- Bottom content -->
+                        <div class="bottom-content">
+                            <h4 class="text-white">Client Impact</h4>
+                            <p class="text-white text-start mb-0">Real stories of brands we’ve transformed</p>
+                            <p class="text-white text-start desc-text d-none">
+                                Our success is measured by the results we drive — and the brands we help grow. From local startups to national players, our portfolio is packed with case studies that showcase real ROI.
+                            </p>
+                            <div class="explore-btn">
+                                <a href="about.html" class="th-btn th-icon text-white w-100 text-start">Explore More </a>
+                                <i class="fa-regular fa-arrow-right ms-2"></i>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
                 <div class="position-relative">
                     <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
                         class="gallery-img" alt="Office Image">
-                    <div class="img-overlay">Office Image</div>
+                    <div class="img-overlay h-100 p-3">
+                        <!-- Top content -->
+                        <div class="top-content desc-text d-none">
+                            <a href="about.html" class="th-btn th-icon text-white p-2 logo-info mt-2">Bold ideas</a>
+                            <a href="about.html" class="th-btn th-icon text-white p-2 logo-info mt-2">Creatives</a>
+                            <a href="about.html" class="th-btn th-icon text-white p-2 logo-info mt-2">Growth mindset</a>
+                            <a href="about.html" class="th-btn th-icon text-white p-2 logo-info mt-2">People-first culture</a>
+                        </div>
+
+                        <!-- Bottom content -->
+                        <div class="bottom-content">
+                            <h4 class="text-white">Culture & Team</h4>
+                            <p class="text-white text-start mb-0">Meet the creative minds fueling your success</p>
+                            <p class="text-white text-start desc-text d-none">
+                                Behind every pixel, post, and plan is a passionate team driven by curiosity and creativity.
+                            </p>
+                            <div class="explore-btn">
+                                <a href="about.html" class="th-btn th-icon text-white w-100 text-start">Explore More </a>
+                                <i class="fa-regular fa-arrow-right ms-2"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
 
-    <div class="mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden overflow-hidden space" id="about-sec3">
+    <section class="about-area overflow-hidden position-relative p-0" id="about-banner" style="background-color: black;">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-12 p-0 position-relative">
+
+                    <!-- Static Background Text Centered -->
+                    <div class="static-text position-absolute top-50 start-50 translate-middle text-center w-100" style="z-index: 0; pointer-events: none;">
+                        <h1 style="font-size: 100px; color: white; font-weight: 900; white-space: nowrap;">
+                            SINCE 2017
+                        </h1>
+                    </div>
+
+                    <!-- Video Layer -->
+                    <div class="img player-video" id="videoScaleDown" style="position: relative; z-index: 1;">
+                        <video class="w-100" autoplay muted loop>
+                            <source src="{{ asset('frontend-assets/test_video.mp4') }}">
+                        </video>
+                    </div>
+
+                    @push('scripts')
+                    <script>
+                        gsap.set("#videoScaleDown", {
+                            xPercent: 0,
+                            yPercent: 0,
+                            scale: 1.4,
+                        });
+
+                        gsap.to("#videoScaleDown", {
+                            scale: 0.7,
+                            transformOrigin: "center",
+                            scrollTrigger: {
+                                trigger: "#videoScaleDown",
+                                // start: "40% 50%",
+                                // end: "+=1000",
+                                markers: false,
+                                pin: true,
+                                scrub: true
+                            }
+                        });
+                    </script>
+                    @endpush
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="mb-md-5 mb-2 py-4 px-3 founder" id="our-founder">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <!-- Left Section with Image and Play Button -->
+                <!-- Left Section with Image and Play Button -->
+                <div class="col-md-6 position-relative img custom-top me-0 me-md-5"
+                    data-aos="fade-right"
+                    data-aos-delay="100"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                    style="--tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--tw-bg-opacity)); padding: 1rem; border-radius: 30px;">
+                    <img src="https://www.sociomark.in/assets/img/founders.jpg" class="img-fluid rounded" alt="Office Team">
+                </div>
+
+
+                <!-- Right Section with Text and Progress Bars -->
+                <div class="col-md-6 text-white p-4 ">
+                    <h2 class="fw-bold mb-1 sec-title"
+                        data-aos="fade-left"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
+                        Meet Our <span class="text-blue"> Founders</span>
+                    </h2>
+
+                    <h4 class="sec-para text-uppercase" data-aos="fade-left"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">Mr. Vivek Baandal & Mrs. Heta Desai Baandal</h4>
+                    <p class="sec-para" data-aos="fade-left"
+                        data-aos-delay="200"
+                        data-aos-duration="1200"
+                        data-aos-easing="ease-in-out">Share a common goal: to help businesses thrive in the digital landscape. Their partnership, forged during their college years, has grown into a successful business venture. Together, they have built a marketing agency that is dedicated to delivering outstanding results. Their shared passion for innovation and creativity drives the agency's success. The agency fosters a collaborative and creative environment where ideas flourish.</p>
+
+                    <a href="about.html" class="th-btn th-icon text-white p-3 logo-info mt-2" data-aos="fade-left"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">Meet Our Team</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mb-md-5 mt-md-5 mt-5 mb-2 py-1 py-md-4 overflow-hidden overflow-hidden space" id="about-sec3">
         <div class="container">
             <div class="row d-flex justify-content-center justify-content-md-end mt-4">
-                <!-- Top Left Info -->
+
                 <div class="col-md-6 col-12 pe-0 pe-md-5">
                     <h2 class="fw-bold sec-title my-3"
                         data-aos="fade-down"
@@ -642,9 +891,8 @@
                         data-aos-duration="1200"
                         data-aos-easing="ease-in-out">Over 5,000+ Reviews and Counting. Customers trust our Quality product features. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni laudantium, iusto et atque eum velit amet facilis nemo possimus vitae ullam vel harum asperiores, rem voluptatibus sit illo aperiam nesciunt! </p>
                 </div>
-
-                <!-- Feature Cards -->
-                <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-left" "
+                <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mx-2"
+                    data-aos="fade-left"
                     data-aos-delay=" 300"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
@@ -724,7 +972,7 @@
         </div>
     </div>
 
-
+    <!-- 
     <div class="overflow-hidden position-relative space-extra-top space-bottom garally mt-md-5" id="portfolio-sec">
         <div class="container">
             <div class="title-area text-center mb-25">
@@ -804,11 +1052,9 @@
                     </div>
 
                 </div>
-                <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
-                </div> -->
             </div>
         </div>
-    </div>
+    </div> -->
 
     <div class="th-blog-wrapper space-top space-extra-bottom" id="contact">
         <div class="container">
@@ -990,25 +1236,48 @@
 
     // about-sec4
 
-
     document.addEventListener("DOMContentLoaded", function() {
         const images = document.querySelectorAll(".gallery-img");
 
         if (images.length > 0) {
-            // Ensure only one is default-active
-            images.forEach((img, idx) => {
-                img.classList.remove("default-active");
-            });
+            images.forEach(img => img.classList.remove("default-active"));
             images[0].classList.add("default-active");
+
+            const firstOverlay = images[0].parentElement.querySelector(".img-overlay");
+            const firstDescs = firstOverlay.querySelectorAll(".desc-text");
+
+            firstDescs.forEach(desc => desc.classList.remove("d-none"));
+            firstOverlay.classList.remove("justify-content-end");
+            firstOverlay.classList.add("justify-content-between");
         }
 
         images.forEach((img) => {
             img.addEventListener("mouseenter", function() {
+                // Remove active from all
                 images.forEach((image) => image.classList.remove("default-active"));
+                const allOverlays = document.querySelectorAll(".img-overlay");
+                allOverlays.forEach(overlay => {
+                    overlay.classList.remove("justify-content-between");
+                    overlay.classList.add("justify-content-end");
+
+                    const descs = overlay.querySelectorAll(".desc-text");
+                    descs.forEach(desc => desc.classList.add("d-none"));
+                });
+
+                // Set active
                 this.classList.add("default-active");
+                const currentOverlay = this.parentElement.querySelector(".img-overlay");
+                const currentDescs = currentOverlay.querySelectorAll(".desc-text");
+
+                currentDescs.forEach(desc => desc.classList.remove("d-none"));
+
+                currentOverlay.classList.remove("justify-content-end");
+                currentOverlay.classList.add("justify-content-between");
             });
         });
     });
+
+
     // about-sec4 end
 </script>
 @endpush

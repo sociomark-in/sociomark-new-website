@@ -5,8 +5,9 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 @section('custome-style')
 <style>
-    #seo-service #about-sec3,
+    #seo-service #work-flow,
     #seo-service #about-sec5,
+    #seo-service #Features,
     #seo-service #contact {
         background-color: #F5F5F5 !important;
     }
@@ -21,13 +22,15 @@
 
     #seo-service .about-area2 .sec-title,
     #seo-service #about-sec2 .sec-title,
+    #seo-service #work-flow .sec-title,
     #seo-service #about-sec3 .sec-title,
+    #seo-service #features .sec-title,
     #portfolio-sec .sec-title,
     #seo-service #about-sec5 .sec-title,
     #seo-service #about-sec6 .sec-title,
     #seo-service #services-tab .sec-title,
     #seo-service #contact .sec-title {
-        font-size: 35px;
+        font-size: 32px;
         line-height: 42px;
     }
 
@@ -38,13 +41,31 @@
     #seo-service .about-area2 .sec-para,
     #seo-service #about-sec2 .sec-para,
     #seo-service #about-sec3 .sec-para,
+    #seo-service #features .sec-para,
     #seo-service #about-sec6 .sec-para,
     #seo-service #services-tab .sec-para,
     #seo-service #contact .sec-para {
         line-height: 28px;
-        font-size: 20px;
+        font-size: 18px;
+        letter-spacing: .10px;
+        color: rgb(19, 20, 20);
+    }
+
+    #seo-service #work-flow .sec-para {
+        line-height: 24px;
+        font-size: 16px;
         letter-spacing: .10px;
         color: #797E88;
+    }
+    #seo-service #features .sec-para{
+        color: #121212 !important;
+        font-weight: 800 !important;
+        line-height: 24px !important;
+        font-size: 20px !important;
+    }
+    #work-flow .benefit-block h5 {
+        font-size: 20px;
+        line-height: 1.417;
     }
 
     @media (max-width: 576px) {
@@ -104,7 +125,9 @@
         /* background-color: #F5F5F5; */
         background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
     }
-
+    #seo-service #about-sec2 .choose-feature .box-icon{
+        background: transparent;
+    }
     #seo-service #about-sec4 .sec-title {
         color: white;
     }
@@ -117,11 +140,67 @@
         color: #797E88;
     }
 
-    #seo-service #about-sec2 {
+    #seo-service #about-sec2,
+    #seo-service #work-flow {
         padding: 6rem 0 6rem 0;
     }
 
+    #seo-service #about-sec2 .choose-image .img1 {
+        min-width: auto;
+    }
+
     /* section 2 end */
+    /* work flow */
+    #benefits {
+    max-height: 100vh; /* Or a specific height like 500px */
+    overflow-y: auto;
+    padding-right: 15px; /* optional: space for scrollbar */
+}
+
+#benefits::-webkit-scrollbar {
+    width: 0px;
+}
+
+#benefits::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+    #work-flow .circle-wrapper {
+        width: 68%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #work-flow .circle {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background: #f0f0f0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #work-flow .key-image {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    #work-flow .benefit-block {
+        padding: 10px 25px;
+        margin-bottom: 15px;
+        background: #f8f9fa;
+        border-left: 4px solid #106c97;
+        border-radius: 5px;
+    }
+
+    #work-flow .benefit-block h5 {
+        margin-bottom: 8px;
+    }
+
+    /* work flow :end */
 
     /* section3 */
     .according-img {
@@ -134,7 +213,7 @@
         overflow: hidden;
     }
 
-    .according-list.item-active .according-img {
+    #seo-service #about-sec3 .according-list.item-active .according-img {
         transform: scale(1);
         /* height: auto; */
     }
@@ -147,6 +226,11 @@
         pointer-events: auto;
         height: auto;
         overflow: visible;
+    }
+
+    #seo-service #about-sec3 .according-img img {
+        border-radius: 10px;
+
     }
 
     #seo-service #about-sec3 .box-title {
@@ -179,6 +263,13 @@
     }
 
     /* section3 end */
+    /* features  */
+    #features .icon-img {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* features :end */
 
     /* gallary :start */
 
@@ -324,7 +415,7 @@
     /* faq */
     #seo-service #about-sec6 .accordion-card {
         border-radius: 10px;
-        box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
+        box-shadow: 0px 3px 11px -4px hsla(0, 0.00%, 0.00%, 0.59);
         -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
         -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
         border: none;
@@ -549,7 +640,7 @@
                         data-aos-delay="200"
                         data-aos-duration="1200"
                         data-aos-easing="ease-in-out">The main goal of optimization is to have your website rank up in the search results. The higher the page appears, people are more likely to visit the website, and your business generate sales. SEO is one of the major marketing strategies that businesses opt for in order to increase their business. No matter the size of the company of the stage, whether it is a small startup or a big well-established Multi National Company, SEO is needed for all. It helps your business to have a competitive advantage over others.
-                        Search Engine Optimization enhances the impact of <strong>Content Marketing Social Media Marketing</strong> and <strong> Website Development</strong>   making it an essential strategy for any business.
+                        Search Engine Optimization enhances the impact of <strong>Content Marketing Social Media Marketing</strong> and <strong> Website Development</strong> making it an essential strategy for any business.
 
                     </p>
                 </div>
@@ -565,18 +656,20 @@
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
-                        <span class="sub-title style1">Benefits You Can't Ignore</span>
-                        <h2 class="sec-title ">The Powerful Benefits of Saor SEO</h2>
+                        <h2 class="sec-title mb-md-3 mb-2"
+                           >
+                           Why Choose Our  <span class="text-blue">SEO Services?</span> 
+                        </h2>
                     </div>
-                    <p class="sec-para mb-35 ">In today's digital landscape, a strong online presence is critical for business success. But simply having a website isn't enough.</p>
+                    <p class="sec-para d-none ">Our SEO strategies are designed to improve your website’s ranking on major search engines like Google. By targeting high-intent keywords relevant to your business.</p>
                     <div class="choose-feature-wrap">
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
                                 <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_1.svg') }}" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h3 class="box-title">Increased Website Traffic</h3>
-                                <p class="box-text">Our SEO strategies will attract more qualified visitors to your website, bringing you closer.</p>
+                                <h3 class="box-title">Higher ROI</h3>
+                                <p class="box-text">Cost-effective lead generation. Long-term value vs paid ads. Higher conversion rates from qualified traffic</p>
                             </div>
                         </div>
                         <div class="choose-feature">
@@ -584,8 +677,8 @@
                                 <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_2.svg') }}" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h3 class="box-title">Enhanced Brand Awareness</h3>
-                                <p class="box-text">Increased website traffic and the improved rankings naturally lead to greater brand awareness.</p>
+                                <h3 class="box-title">Transparent Reporting</h3>
+                                <p class="box-text">Monthly SEO performance reports. Keyword ranking updates. Clear, jargon-free analytics</p>
                             </div>
                         </div>
                         <div class="choose-feature">
@@ -593,8 +686,8 @@
                                 <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_3.svg') }}" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h3 class="box-title">More Leads & Conversions</h3>
-                                <p class="box-text">By attracting qualified the traffic and optimizing your website for conversions, we'll help you.</p>
+                                <h3 class="box-title">Technical & On-Page SEO</h3>
+                                <p class="box-text">Improved site performance & crawlability. Optimized user experience. Better indexing and faster ranking</p>
                             </div>
                         </div>
                     </div>
@@ -614,7 +707,7 @@
         </div>
     </div>
 
-    <section class="overflow-hidden bg-smoke2 space" id="about-sec3">
+    <div class="overflow-hidden mb-md-3 mt-md-3 mt-0 md-0" id="work-flow">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -624,7 +717,61 @@
                             data-aos-delay="100"
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
-                            Our Approach For <span class="text-blue"> Online Presence</span>  
+                            How Our SEO Process <span class="text-blue"> Delivers Results</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-start">
+                <!-- Left Side -->
+                <div class="col-md-6 text-center">
+                    <div class="circle-wrapper">
+                        <div class="circle">
+                            <img src="{{ asset('frontend-assets/img/service/key.png') }}" alt="Key" class="key-image mt-3">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Side -->
+                <div class="col-md-6">
+                    <div id="benefits">
+                        <div class="benefit-block border-start border-4 border-danger">
+                            <h5 class="text-danger">Free Audit</h5>
+                            <p class="sec-para">We start by analyzing your current website performance to identify strengths, weaknesses, and opportunities.</p>
+                        </div>
+                        <div class="benefit-block border-start border-4 border-secondary">
+                            <h5 class="text-secondary">Strategy Development</h5>
+                            <p class="sec-para">Based on the audit, we develop a customized SEO strategy tailored to your business goals, target audience, and industry. </p>
+                        </div>
+                        <div class="benefit-block border-start border-4 border-primary">
+                            <h5 class="text-primary">Implementation</h5>
+                            <p class="sec-para">We put the strategy into action—this includes technical fixes, optimizing existing content, publishing new content, improving site structure, and implementing SEO best practices across the board.</p>
+                        </div>
+                        <div class="benefit-block border-start border-4 border-info">
+                            <h5 class="text-info">Monitoring & Optimization</h5>
+                            <p class="sec-para">SEO isn’t a one-time job. We continuously track performance and adjust the strategy based on real-time data and search engine algorithm updates.</p>
+                        </div>
+                        <div class="benefit-block border-start border-4 border-muted">
+                            <h5 class="text-muted">Reporting</h5>
+                            <p class="sec-para">Every month, you’ll receive a detailed but easy-to-understand report showing your website’s performance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="overflow-hidden space" id="about-sec3">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8">
+                    <div class="title-area text-center">
+                        <h2 class="fw-bold mb-5 sec-title"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
+                            Our Approach For <span class="text-blue"> Online Presence</span>
                         </h2>
                     </div>
                 </div>
@@ -710,7 +857,77 @@
 
     </section>
 
-    <section class="overflow-hidden space" id="services-tab">
+
+    <div class="overflow-hidden space" id="Features">
+        <div class="container">
+            <!-- Header Text -->
+            <h2 class="fw-bold mb-5 sec-title text-center"
+                data-aos="fade-up"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                What’s Included in Our <span class="text-blue"> SEO Package</span>
+            </h2>
+            <!-- Feature Icons Row 1 -->
+            <div class="row justify-content-evenly mt-5">
+                <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
+                    <div class="icon-img me-3">
+                        <img src="https://www.gbim.com/gbim/one_click.webp" alt="One-Click Reports" class="feature-icon">
+                    </div>
+                    <div class="fw-bold fs-5 sec-para">Keyword Research</div>
+                </div>
+                <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
+                    <div class="icon-img me-3">
+                        <img src="	https://www.gbim.com/gbim/traffic.webp" alt="Traffic Performance" class="feature-icon">
+                    </div>
+                    <div class="fw-bold fs-5 sec-para">Competitor Analysis</div>
+
+                </div>
+                <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
+                    <div class="icon-img me-3">
+                        <img src="https://www.gbim.com/gbim/traffic.webp" alt="CRM Module" class="feature-icon">
+                    </div>
+                    <div class="fw-bold fs-5 sec-para">Link Building</div>
+
+                </div>
+            </div>
+
+            <!-- Feature Icons Row 2 -->
+            <div class="row justify-content-evenly mt-3 mt-md-5">
+                <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
+                    <div class="icon-img me-3">
+                        <img src="https://www.gbim.com/gbim/keyword.webp" alt="Keyword Performance" class="feature-icon">
+                    </div>
+                    <div class="fw-bold fs-5 sec-para">On-Page Optimization</div>
+
+                </div>
+                <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
+                    <div class="icon-img me-3">
+                        <img src="https://www.gbim.com/gbim/marketing.webp" alt="Marketing Activities" class="feature-icon">
+                    </div>
+                    <div class="fw-bold fs-5 sec-para">Technical Audit </div>
+
+                </div>
+                <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
+                    <div class="icon-img me-3">
+                        <img src="	https://www.gbim.com/gbim/leads.webp" alt="Leads Management" class="feature-icon">
+                    </div>
+                    <div class="fw-bold fs-5 sec-para">Local SEO</div>
+
+                </div>
+            </div>
+
+            <!-- Dashboard Images -->
+            <div class="mt-5"  data-aos="zoom-in"
+                data-aos-delay="100"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                <img src="https://www.gbim.com/gbim/OurDigitalMarketingSoftware.webp" alt="Dashboard Screenshot" class="dashboard-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- <section class="overflow-hidden space" id="services-tab">
         <div class="container-fluid">
             <div class="row">
 
@@ -827,11 +1044,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <!-- <div class="col-lg-4 col-12">
-                                        <div class="page-img" data-aos="fade-left" data-aos-duration="3000">
-                                            <img class="w-50" src="https://placehold.co/400x800" alt="service">
-                                        </div>
-                                    </div> -->
+                                  
 
                                 </div>
 
@@ -904,11 +1117,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <!-- <div class="col-lg-4 col-12">
-                                        <div class="page-img" data-aos="fade-left" data-aos-duration="3000">
-                                            <img class="w-50" src="https://placehold.co/400x800" alt="service">
-                                        </div>
-                                    </div> -->
+                                  
 
                                 </div>
                             </div>
@@ -917,7 +1126,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <div class="overflow-hidden position-relative space-extra-top space-bottom garally mt-md-5" id="portfolio-sec">
         <div class="container">
@@ -945,50 +1154,49 @@
                 data-aos-duration="1200"
                 data-aos-easing="ease-in-out">
                 <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
-                    <div class="col-md-6 col-xl-3 filter-item cat1 cat5 cat7 cat3">
+                    <div class="col-md-3 filter-item cat1 cat5 cat7 cat3">
                         <div class="project-item">
                             <div class="box-img global-img">
                                 <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-3 filter-item cat5 cat5 cat8 cat1">
+                    <div class="col-md-3 filter-item cat5 cat5 cat8 cat1">
                         <div class="project-item">
                             <div class="box-img global-img">
                                 <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-3 filter-item cat5 cat3 cat2">
+                    <div class="col-md-3 filter-item cat5 cat3 cat2">
                         <div class="project-item">
                             <div class="box-img global-img">
                                 <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-3 filter-item cat4 cat1 cat6">
+                    <div class="col-md-3 filter-item cat4 cat1 cat6">
                         <div class="project-item">
                             <div class="box-img global-img">
                                 <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-md-6 col-xl-3 filter-item cat4 cat6">
+                    <div class="col-md-3 filter-item cat4 cat6">
                         <div class="project-item">
                             <div class="box-img global-img">
                                 <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-3 filter-item cat4 cat6">
+                    <div class="col-md-3 filter-item cat4 cat6">
                         <div class="project-item">
                             <div class="box-img global-img">
                                 <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-3 filter-item cat4 cat6">
+                    <div class="col-md-3 filter-item cat4 cat6">
                         <div class="project-item">
                             <div class="box-img global-img">
                                 <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
