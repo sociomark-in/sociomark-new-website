@@ -865,154 +865,40 @@
                 <div class="slider-area">
                     <div class="swiper testi-card rounded-overflow p-3 th-slider has-shadow" id="testiSlide1" data-slider-options='{"loop":true}'>
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class=" ">
-                                    <div class="box-review">
-                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i>
-                                    </div>
-                                    <div class="sec-para">
-                                        <div class="testimonial-message mb-3 mb-md-4">
-                                            <p class="">
-                                                Ever since we started working with Sociomark, <strong class="text-white">our return on investment on marketing have significantly improved, almost doubled</strong>. Sociomark is literally <strong class="text-white">our partner in digital marketing</strong>.
-                                            </p>
-                                            <div class="d-none d-md-block">
-                                                They help us in creating a robust marketing strategy. They also create those creatives which raise people's eyeballs when they watch it on social media and the likes are only increasing month and month because of that. Sociomark is so committed that they always deliver what they promise each month. I am extremely happy working with them.
-                                            </div>
-                                            <strong class="text-white">Best of luck Sociomark!</strong>
-                                            <p></p>
+                            @for ($i = 0; $i < 10; $i++)
+                                <div class="swiper-slide">
+                                    <div class=" ">
+                                        <div class="box-review">
+                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                class="fa-solid fa-star"></i>
                                         </div>
-                                    </div>
-                                    <div class="box-wrapp">
-                                        <div class="box-profile">
-                                            <div class="box-author">
-                                                <img src="https://placehold.co/44x44" alt="Avater">
-                                            </div>
-                                            <div class="box-info">
-                                                <h3 class="box-title">Lorem Ipsum</h3>
-                                                <span class="box-desig">Lorem Ipsum.</span>
+                                        <div class="sec-para">
+                                            <div class="testimonial-message mb-3 mb-md-4">
+                                                <p class="">
+                                                    Ever since we started working with Sociomark, <strong class="text-white">our return on investment on marketing have significantly improved, almost doubled</strong>. Sociomark is literally <strong class="text-white">our partner in digital marketing</strong>.
+                                                </p>
+                                                <div class="d-none d-md-block">
+                                                    They help us in creating a robust marketing strategy. They also create those creatives which raise people's eyeballs when they watch it on social media and the likes are only increasing month and month because of that. Sociomark is so committed that they always deliver what they promise each month. I am extremely happy working with them.
+                                                </div>
+                                                <strong class="text-white">Best of luck Sociomark!</strong>
+                                                <p></p>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="">
-                                    <div class="box-review">
-                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i>
-                                    </div>
-                                    <p class="sec-para">“Lorem Ipsum is simply dummy text of the printing and typesetting
-                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                                        1500s,
-                                    </p>
-                                    <div class="box-wrapp">
-                                        <div class="box-profile">
-                                            <div class="box-author">
-                                                <img src="https://placehold.co/44x44" alt="Avater">
-                                            </div>
-                                            <div class="box-info">
-                                                <h3 class="box-title">Lorem Ipsum</h3>
-                                                <span class="box-desig">Lorem Ipsum.</span>
+                                        <div class="box-wrapp">
+                                            <div class="box-profile">
+                                                <div class="box-author">
+                                                    <img src="https://placehold.co/44x44" alt="Avater">
+                                                </div>
+                                                <div class="box-info">
+                                                    <h3 class="box-title">Lorem Ipsum</h3>
+                                                    <span class="box-desig">Lorem Ipsum.</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="">
-                                    <div class="box-review">
-                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i>
-                                    </div>
-                                    <p class="sec-para">“Lorem Ipsum is simply dummy text of the printing and typesetting
-                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                                        1500s,”</p>
-                                    <div class="box-wrapp">
-                                        <div class="box-profile">
-                                            <div class="box-author">
-                                                <img src="https://placehold.co/44x44" alt="Avater">
-                                            </div>
-                                            <div class="box-info">
-                                                <h3 class="box-title">Lorem Ipsum</h3>
-                                                <span class="box-desig">Lorem Ipsum.</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="">
-                                    <div class="box-review">
-                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i>
-                                    </div>
-                                    <p class="sec-para">“Lorem Ipsum is simply dummy text of the printing and typesetting
-                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                                        1500s,”</p>
-                                    <div class="box-wrapp">
-                                        <div class="box-profile">
-                                            <div class="box-author">
-                                                <img src="https://placehold.co/44x44" alt="Avater">
-                                            </div>
-                                            <div class="box-info">
-                                                <h3 class="box-title">Lorem Ipsum</h3>
-                                                <span class="box-desig">Lorem Ipsum.</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="">
-                                    <div class="box-review">
-                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i>
-                                    </div>
-                                    <p class="sec-para">“Lorem Ipsum is simply dummy text of the printing and typesetting
-                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                                        1500s,”</p>
-                                    <div class="box-wrapp">
-                                        <div class="box-profile">
-                                            <div class="box-author">
-                                                <img src="https://placehold.co/44x44" alt="Avater">
-                                            </div>
-                                            <div class="box-info">
-                                                <h3 class="box-title">Lorem Ipsum</h3>
-                                                <span class="box-desig">Lorem Ipsum.</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="">
-                                    <div class="box-review">
-                                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                            class="fa-solid fa-star"></i>
-                                    </div>
-                                    <p class="sec-para">“Lorem Ipsum is simply dummy text of the printing and typesetting
-                                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the
-                                        1500s,”</p>
-                                    <div class="box-wrapp">
-                                        <div class="box-profile">
-                                            <div class="box-author">
-                                                <img src="https://placehold.co/44x44" alt="Avater">
-                                            </div>
-                                            <div class="box-info">
-                                                <h3 class="box-title">Lorem Ipsum</h3>
-                                                <span class="box-desig">Lorem Ipsum.</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            @endfor
 
                         </div>
                     </div>
@@ -1022,14 +908,6 @@
                             class="far fa-arrow-right"></i></button>
                 </div>
             </div>
-            {{-- <div class="shape-mockup" data-top="0" data-right="0">
-                <div class="particle-3" id="particle-3"></div>
-            </div> --}}
-            {{-- <div class="shape-mockup spin  d-none d-xl-block" data-top="20%" data-left="12%"><img
-                    src="{{ asset('frontend-assets/img/shape/shape-1.png') }}" alt="">
-        </div>
-        <div class="shape-mockup moving  d-none d-xl-block" data-bottom="40%" data-left="5%"><img
-                src="{{ asset('frontend-assets/img/shape/shape-7.png') }}" alt=""></div> --}}
         </section>
         <div class="th-blog-wrapper space-top space-extra-bottom" id="contact">
             <div class="container">
