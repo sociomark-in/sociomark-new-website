@@ -47,7 +47,7 @@ Mobile Menu
     </div><!--==============================
 Header Area
 ==============================-->
-    <header class="th-header header-layout1 bg-white header-absolute">
+    <header class="th-header header-layout1 header-absolute">
         <div class="sticky-wrapper">
             <!-- Main Menu Area -->
             <div class="container-fluid th-container">

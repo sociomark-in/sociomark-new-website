@@ -115,7 +115,25 @@ select {
     width: 100%;
     z-index: 8;
 }
-
+.header-layout1 .sticky-wrapper{
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+.header-layout1 .header-logo{
+    filter: brightness(20);
+}
+.main-menu.style2 > ul > li > a{
+    color: var(--color-white);
+}
+.header-layout1 .sticky-wrapper.sticky{
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+/* .main-menu.style2 > ul > li > a{
+    color: var(--color-black);
+} */
 .main-menu ul.sub-menu li a:before {
     content: "\f061";
 }

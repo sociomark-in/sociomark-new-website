@@ -181,7 +181,7 @@
 
 @section('content')
     <main id="home">
-        <section class="overflow-hidden height-full mb-md-3 mt-md-3 mt-0 md-0 ">
+        <section class="overflow-hidden height-full mb-md-3">
             <div class="container h-100">
                 <div class="row h-100 flex-row-reverse align-items-center">
                     <div class="col-xl-6" data-aos="fade-left" data-aos-delay="300">
@@ -349,7 +349,7 @@
                         </div>
                         <div class="according-img">
                             <div class="rounded-overflow">
-                                <img src="https://placehold.co/720x291" alt="">
+                                <img src="{{ asset('frontend-assets/img/service/DM.png') }}" alt="">
                             </div>
                             <p class="sec-para text">Appeals to clients looking for innovative and creative digital
                                 solutions,
@@ -369,7 +369,7 @@
                         </div>
                         <div class="according-img">
                             <div class="rounded-overflow">
-                                <img src="https://placehold.co/720x291" alt="">
+                                <img src="{{ asset('frontend-assets/img/service/SEO.png') }}" alt="">
                             </div>
                             <p class="sec-para text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
                                 reiciendis nesciunt perferendis dignissimos accusantium nostrum, laboriosam cupiditate
@@ -385,7 +385,7 @@
                         </div>
                         <div class="according-img">
                             <div class="rounded-overflow">
-                                <img src="https://placehold.co/720x291" alt="">
+                                <img src="{{ asset('frontend-assets/img/service/SEM.png') }}" alt="">
                             </div>
                             <p class="sec-para text">Appeals to clients looking for innovative and creative digital
                                 solutions,
@@ -403,7 +403,7 @@
                         </div>
                         <div class="according-img">
                             <div class="rounded-overflow">
-                                <img src="https://placehold.co/720x291" alt="">
+                                <img src="{{ asset('frontend-assets/img/service/VP.png') }}" alt="">
                             </div>
                             <p class="sec-para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
                                 tempora adipisci provident, magnam cupiditate quod voluptatibus consequuntur eaque
@@ -419,7 +419,7 @@
                         </div>
                         <div class="according-img">
                             <div class="rounded-overflow">
-                                <img src="https://placehold.co/720x291" alt="">
+                                <img src="{{ asset('frontend-assets/img/service/WD.png') }}" alt="">
                             </div>
                             <p class="sec-para text">Appeals to clients looking for innovative and creative digital
                                 solutions,
@@ -437,7 +437,7 @@
                         </div>
                         <div class="according-img">
                             <div class="rounded-overflow">
-                                <img src="https://placehold.co/720x291" alt="">
+                                <img src="{{ asset('frontend-assets/img/service/DM.png') }}" alt="">
                             </div>
                             <p class="sec-para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
                                 similique modi accusantium odit recusandae laudantium, vel, illo rerum cum sequi, minima
@@ -603,7 +603,7 @@
             <div class="container">
                 <div class="title-area text-center mb-25">
                     <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
-                        From The Blog: Blogs worth binging on. <span class="text-orange"> Dive in!</span>
+                        From The Blog: Blogs worth binging on. <br><span class="text-orange"> Dive in!</span>
                     </h2>
                 </div>
                 <div class="swiper mySwiper">
