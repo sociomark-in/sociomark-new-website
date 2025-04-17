@@ -59,8 +59,8 @@
         }
 
         /* #home #about-sec3 .sec-para{
-                            font-weight: 400;
-                        } */
+                                font-weight: 400;
+                            } */
         #home #about-sec3 .accordion-item2 {
             max-width: 510px;
         }
@@ -163,20 +163,18 @@
 
 
 
-    /* contact form */
-    #home #contact {
-        padding: 30px;
-    }
+        /* contact form */
+        #home #contact {
+            padding: 30px;
+        }
 
         /* contact form */
         #home #contact {
             padding: 30px;
         }
 
-    /* contact form end */
-
-
-</style>
+        /* contact form end */
+    </style>
 @endsection
 
 @section('content')
@@ -286,7 +284,8 @@
             </div>
             <div class="marquee" data-marquee-duration="30">
                 <div class="marquee__inner">
-                    <div class="marquee__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio culpa iure recusandae dignissimos beatae vel</div>
+                    <div class="marquee__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio culpa iure
+                        recusandae dignissimos beatae vel</div>
                 </div>
             </div>
         </section>
@@ -485,8 +484,8 @@
                                     data-bs-target="#v-pills-digital" type="button" role="tab"
                                     aria-controls="v-pills-digital" aria-selected="true">Digital Marketing</button>
                                 <button class="nav-link" id="v-pills-seo-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-seo" type="button" role="tab" aria-controls="v-pills-seo"
-                                    aria-selected="false">SEO</button>
+                                    data-bs-target="#v-pills-seo" type="button" role="tab"
+                                    aria-controls="v-pills-seo" aria-selected="false">SEO</button>
                                 <button class="nav-link" id="v-pills-social-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-social" type="button" role="tab"
                                     aria-controls="v-pills-social" aria-selected="false">Social Media Marketing
@@ -501,12 +500,12 @@
 
                                 </button>
                                 <button class="nav-link" id="v-pills-sem-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-sem" type="button" role="tab" aria-controls="v-pills-sem"
-                                    aria-selected="false">SEM
+                                    data-bs-target="#v-pills-sem" type="button" role="tab"
+                                    aria-controls="v-pills-sem" aria-selected="false">SEM
                                 </button>
                                 <button class="nav-link" id="v-pills-video-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-video" type="button" role="tab" aria-controls="v-pills-video"
-                                    aria-selected="false">Photography & Video Production
+                                    data-bs-target="#v-pills-video" type="button" role="tab"
+                                    aria-controls="v-pills-video" aria-selected="false">Photography & Video Production
                                 </button>
                             </div>
                         </div>
@@ -520,11 +519,14 @@
                                                 alt="" class="w-75">
                                         </div>
                                         <div class="col-12">
-                                            <p class="text mt-3">web deve Appeals to clients looking for innovative and creative
+                                            <p class="text mt-3">web deve Appeals to clients looking for innovative and
+                                                creative
                                                 digital
                                                 solutions,
-                                                positioning the agency as a leader in creativity. Conveys a collaborative approach,
-                                                suggesting that the agency works closely with clients to achieve their digital
+                                                positioning the agency as a leader in creativity. Conveys a collaborative
+                                                approach,
+                                                suggesting that the agency works closely with clients to achieve their
+                                                digital
                                                 goals.
                                             </p>
                                             <a href="" class="th-btn white-border th-icon th-radius">
@@ -533,17 +535,21 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-seo" role="tabpanel" aria-labelledby="v-pills-seo-tab">
+                                <div class="tab-pane fade" id="v-pills-seo" role="tabpanel"
+                                    aria-labelledby="v-pills-seo-tab">
                                     <div class="row">
                                         <div class="col-12">
                                             <img src="{{ asset('frontend-assets/img/service/seo.jpeg') }}" alt=""
                                                 class="w-75">
                                         </div>
                                         <div class="col-12">
-                                            <p class="text mt-3">Appeals to clients looking for innovative and creative digital
+                                            <p class="text mt-3">Appeals to clients looking for innovative and creative
+                                                digital
                                                 solutions,
-                                                positioning the agency as a leader in creativity. Conveys a collaborative approach,
-                                                suggesting that the agency works closely with clients to achieve their digital
+                                                positioning the agency as a leader in creativity. Conveys a collaborative
+                                                approach,
+                                                suggesting that the agency works closely with clients to achieve their
+                                                digital
                                                 goals.
                                             </p>
                                             <a href="" class="th-btn white-border th-icon th-radius">
@@ -556,14 +562,17 @@
                                     aria-labelledby="v-pills-social-tab">
                                     <div class="row">
                                         <div class="col-12">
-                                            <img src="{{ asset('frontend-assets/img/service/social_media.jpeg') }}" alt=""
-                                                class="w-75">
+                                            <img src="{{ asset('frontend-assets/img/service/social_media.jpeg') }}"
+                                                alt="" class="w-75">
                                         </div>
                                         <div class="col-12">
-                                            <p class="text mt-3">Appeals to clients looking for innovative and creative digital
+                                            <p class="text mt-3">Appeals to clients looking for innovative and creative
+                                                digital
                                                 solutions,
-                                                positioning the agency as a leader in creativity. Conveys a collaborative approach,
-                                                suggesting that the agency works closely with clients to achieve their digital
+                                                positioning the agency as a leader in creativity. Conveys a collaborative
+                                                approach,
+                                                suggesting that the agency works closely with clients to achieve their
+                                                digital
                                                 goals.
                                             </p>
                                             <a href="" class="th-btn white-border th-icon th-radius">
@@ -580,10 +589,13 @@
                                                 alt="" class="w-75">
                                         </div>
                                         <div class="col-">
-                                            <p class="text mt-3">Appeals to clients looking for innovative and creative digital
+                                            <p class="text mt-3">Appeals to clients looking for innovative and creative
+                                                digital
                                                 solutions,
-                                                positioning the agency as a leader in creativity. Conveys a collaborative approach,
-                                                suggesting that the agency works closely with clients to achieve their digital
+                                                positioning the agency as a leader in creativity. Conveys a collaborative
+                                                approach,
+                                                suggesting that the agency works closely with clients to achieve their
+                                                digital
                                                 goals.
                                             </p>
                                             <a href="" class="th-btn white-border th-icon th-radius">
@@ -600,10 +612,13 @@
                                                 class="w-75">
                                         </div>
                                         <div class="col-12">
-                                            <p class="text mt-3">Appeals to clients looking for innovative and creative digital
+                                            <p class="text mt-3">Appeals to clients looking for innovative and creative
+                                                digital
                                                 solutions,
-                                                positioning the agency as a leader in creativity. Conveys a collaborative approach,
-                                                suggesting that the agency works closely with clients to achieve their digital
+                                                positioning the agency as a leader in creativity. Conveys a collaborative
+                                                approach,
+                                                suggesting that the agency works closely with clients to achieve their
+                                                digital
                                                 goals.
                                             </p>
                                             <a href="" class="th-btn white-border th-icon th-radius">
@@ -612,17 +627,21 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="v-pills-sem" role="tabpanel" aria-labelledby="v-pills-sem-tab">
+                                <div class="tab-pane fade" id="v-pills-sem" role="tabpanel"
+                                    aria-labelledby="v-pills-sem-tab">
                                     <div class="row">
                                         <div class="col-12">
                                             <img src="{{ asset('frontend-assets/img/service/sem.jpeg') }}" alt=""
                                                 class="w-75">
                                         </div>
                                         <div class="col-12">
-                                            <p class="text mt-3">Appeals to clients looking for innovative and creative digital
+                                            <p class="text mt-3">Appeals to clients looking for innovative and creative
+                                                digital
                                                 solutions,
-                                                positioning the agency as a leader in creativity. Conveys a collaborative approach,
-                                                suggesting that the agency works closely with clients to achieve their digital
+                                                positioning the agency as a leader in creativity. Conveys a collaborative
+                                                approach,
+                                                suggesting that the agency works closely with clients to achieve their
+                                                digital
                                                 goals.
                                             </p>
                                             <a href="" class="th-btn white-border th-icon th-radius">
@@ -635,14 +654,17 @@
                                     aria-labelledby="v-pills-video-tab">
                                     <div class="row">
                                         <div class="col-12">
-                                            <img src="{{ asset('frontend-assets/img/service/video.jpeg') }}" alt=""
-                                                class="w-75">
+                                            <img src="{{ asset('frontend-assets/img/service/video.jpeg') }}"
+                                                alt="" class="w-75">
                                         </div>
                                         <div class="col-12">
-                                            <p class="text mt-3">Appeals to clients looking for innovative and creative digital
+                                            <p class="text mt-3">Appeals to clients looking for innovative and creative
+                                                digital
                                                 solutions,
-                                                positioning the agency as a leader in creativity. Conveys a collaborative approach,
-                                                suggesting that the agency works closely with clients to achieve their digital
+                                                positioning the agency as a leader in creativity. Conveys a collaborative
+                                                approach,
+                                                suggesting that the agency works closely with clients to achieve their
+                                                digital
                                                 goals.
                                             </p>
                                             <a href="" class="th-btn white-border th-icon th-radius">
@@ -666,6 +688,14 @@
             </div>
         </section>
 
+        <div class="" style="padding: calc(max(5%, 2rem)) 0">
+            <div class="marquee" data-marquee-duration="30">
+                <div class="marquee__inner">
+                    <div class="marquee__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio culpa iure
+                        recusandae dignissimos beatae vel</div>
+                </div>
+            </div>
+        </div>
 
         <section class="overflow-hidden position-relative space-extra-top space-bottom garally " id="portfolio-sec">
             <div class="container">
@@ -863,7 +893,8 @@
                     </div>
                 </div>
                 <div class="slider-area">
-                    <div class="swiper testi-card rounded-overflow p-3 th-slider has-shadow" id="testiSlide1" data-slider-options='{"loop":true}'>
+                    <div class="swiper testi-card rounded-overflow p-3 th-slider has-shadow" id="testiSlide1"
+                        data-slider-options='{"loop":true}'>
                         <div class="swiper-wrapper">
                             @for ($i = 0; $i < 10; $i++)
                                 <div class="swiper-slide">
@@ -876,10 +907,18 @@
                                         <div class="sec-para">
                                             <div class="testimonial-message mb-3 mb-md-4">
                                                 <p class="">
-                                                    Ever since we started working with Sociomark, <strong class="text-white">our return on investment on marketing have significantly improved, almost doubled</strong>. Sociomark is literally <strong class="text-white">our partner in digital marketing</strong>.
+                                                    Ever since we started working with Sociomark, <strong
+                                                        class="text-white">our return on investment on marketing have
+                                                        significantly improved, almost doubled</strong>. Sociomark is
+                                                    literally <strong class="text-white">our partner in digital
+                                                        marketing</strong>.
                                                 </p>
                                                 <div class="d-none d-md-block">
-                                                    They help us in creating a robust marketing strategy. They also create those creatives which raise people's eyeballs when they watch it on social media and the likes are only increasing month and month because of that. Sociomark is so committed that they always deliver what they promise each month. I am extremely happy working with them.
+                                                    They help us in creating a robust marketing strategy. They also create
+                                                    those creatives which raise people's eyeballs when they watch it on
+                                                    social media and the likes are only increasing month and month because
+                                                    of that. Sociomark is so committed that they always deliver what they
+                                                    promise each month. I am extremely happy working with them.
                                                 </div>
                                                 <strong class="text-white">Best of luck Sociomark!</strong>
                                                 <p></p>
