@@ -460,7 +460,8 @@
             padding: 1.1rem 1rem;
         }
 
-        .nav-pills .nav-link active {
+        .nav-pills .nav-link.active,
+        .nav-pills .show>.nav-link {
             color: #fff;
             background-color: #106c97;
             border: none;
@@ -495,7 +496,7 @@
                 <div class="col-lg-4">
                     <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
                         aria-orientation="vertical">
-                        <button class="nav-link" id="v-pills-digital-tab" data-bs-toggle="pill"
+                        <button class="nav-link active" id="v-pills-digital-tab" data-bs-toggle="pill"
                             data-bs-target="#v-pills-digital" type="button" role="tab"
                             aria-controls="v-pills-digital" aria-selected="true">Digital Marketing</button>
                         <button class="nav-link" id="v-pills-seo-tab" data-bs-toggle="pill"
