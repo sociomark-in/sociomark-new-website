@@ -331,7 +331,7 @@
             </div>
         </section>
 
-        <section class="space" id="about-sec3">
+        {{-- <section class="space" id="about-sec3">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
@@ -462,6 +462,208 @@
             <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img
                     src="assets/img/shape/shape-14.png" alt=""></div>
 
+        </section> --}}
+
+        <section class="space" id="about-sec3">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8">
+                        <div class="title-area text-center">
+                            <h2 class="fw-bold mb-5 sec-title" data-aos="fade-up" data-aos-delay="100">
+                                Services We Provide To <span class="text-orange"> Grow Your Brand’s</span>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabbed-content tab-dark">
+                    <div class="row">
+                        {{-- <div class="d-flex align-items-start"> --}}
+                        <div class="col-lg-4">
+                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                                aria-orientation="vertical">
+                                <button class="nav-link active" id="v-pills-digital-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-digital" type="button" role="tab"
+                                    aria-controls="v-pills-digital" aria-selected="true">Digital Marketing</button>
+                                <button class="nav-link" id="v-pills-seo-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-seo" type="button" role="tab" aria-controls="v-pills-seo"
+                                    aria-selected="false">SEO</button>
+                                <button class="nav-link" id="v-pills-social-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-social" type="button" role="tab"
+                                    aria-controls="v-pills-social" aria-selected="false">Social Media Marketing
+                                </button>
+                                <button class="nav-link" id="v-pills-website-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-website" type="button" role="tab"
+                                    aria-controls="v-pills-website" aria-selected="false">Website Development
+                                </button>
+                                <button class="nav-link" id="v-pills-content-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-content" type="button" role="tab"
+                                    aria-controls="v-pills-content" aria-selected="false">Content Marketing
+
+                                </button>
+                                <button class="nav-link" id="v-pills-sem-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-sem" type="button" role="tab" aria-controls="v-pills-sem"
+                                    aria-selected="false">SEM
+                                </button>
+                                <button class="nav-link" id="v-pills-video-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-video" type="button" role="tab" aria-controls="v-pills-video"
+                                    aria-selected="false">Photography & Video Production
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-digital" role="tabpanel"
+                                    aria-labelledby="v-pills-digital-tab">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img src="{{ asset('frontend-assets/img/service/digital_marketing.jpeg') }}"
+                                                alt="" class="w-75">
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="text mt-3">web deve Appeals to clients looking for innovative and creative
+                                                digital
+                                                solutions,
+                                                positioning the agency as a leader in creativity. Conveys a collaborative approach,
+                                                suggesting that the agency works closely with clients to achieve their digital
+                                                goals.
+                                            </p>
+                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-seo" role="tabpanel" aria-labelledby="v-pills-seo-tab">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img src="{{ asset('frontend-assets/img/service/seo.jpeg') }}" alt=""
+                                                class="w-75">
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="text mt-3">Appeals to clients looking for innovative and creative digital
+                                                solutions,
+                                                positioning the agency as a leader in creativity. Conveys a collaborative approach,
+                                                suggesting that the agency works closely with clients to achieve their digital
+                                                goals.
+                                            </p>
+                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-social" role="tabpanel"
+                                    aria-labelledby="v-pills-social-tab">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img src="{{ asset('frontend-assets/img/service/social_media.jpeg') }}" alt=""
+                                                class="w-75">
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="text mt-3">Appeals to clients looking for innovative and creative digital
+                                                solutions,
+                                                positioning the agency as a leader in creativity. Conveys a collaborative approach,
+                                                suggesting that the agency works closely with clients to achieve their digital
+                                                goals.
+                                            </p>
+                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-website" role="tabpanel"
+                                    aria-labelledby="v-pills-website-tab">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img src="{{ asset('frontend-assets/img/service/website_development.jpeg') }}"
+                                                alt="" class="w-75">
+                                        </div>
+                                        <div class="col-">
+                                            <p class="text mt-3">Appeals to clients looking for innovative and creative digital
+                                                solutions,
+                                                positioning the agency as a leader in creativity. Conveys a collaborative approach,
+                                                suggesting that the agency works closely with clients to achieve their digital
+                                                goals.
+                                            </p>
+                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-content" role="tabpanel"
+                                    aria-labelledby="v-pills-content-tab">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img src="{{ asset('frontend-assets/img/service/sem.jpeg') }}" alt=""
+                                                class="w-75">
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="text mt-3">Appeals to clients looking for innovative and creative digital
+                                                solutions,
+                                                positioning the agency as a leader in creativity. Conveys a collaborative approach,
+                                                suggesting that the agency works closely with clients to achieve their digital
+                                                goals.
+                                            </p>
+                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-sem" role="tabpanel" aria-labelledby="v-pills-sem-tab">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img src="{{ asset('frontend-assets/img/service/sem.jpeg') }}" alt=""
+                                                class="w-75">
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="text mt-3">Appeals to clients looking for innovative and creative digital
+                                                solutions,
+                                                positioning the agency as a leader in creativity. Conveys a collaborative approach,
+                                                suggesting that the agency works closely with clients to achieve their digital
+                                                goals.
+                                            </p>
+                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-video" role="tabpanel"
+                                    aria-labelledby="v-pills-video-tab">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img src="{{ asset('frontend-assets/img/service/video.jpeg') }}" alt=""
+                                                class="w-75">
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="text mt-3">Appeals to clients looking for innovative and creative digital
+                                                solutions,
+                                                positioning the agency as a leader in creativity. Conveys a collaborative approach,
+                                                suggesting that the agency works closely with clients to achieve their digital
+                                                goals.
+                                            </p>
+                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{-- </div> --}}
+                <script>
+                    // $(document).ready(function() {
+                    //     $("#about-sec3 .nav-link").mouseenter(function() {
+                    //         $(this).tab('show');
+                    //     });
+                    // });
+                </script>
+            </div>
         </section>
 
 

@@ -108,7 +108,29 @@ select {
     background-color: white;
 }
 
-.header-absolute {
+.tabbed-content{}
+.tabbed-content .nav-pills{}
+.tabbed-content .nav-pills .nav-link{
+    background: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 1rem 0;
+    color: var(--color-white);
+}
+.tabbed-content .nav-pills .nav-link:not(:last-child){
+    border-bottom: 1px solid var(--color-white);
+}
+.tabbed-content .nav-pills .nav-link.active{
+    color: var(--theme-color);
+    background-color: transparent;
+}
+.tabbed-content.tab-dark .tab-pane .text{
+    color: var(--color-white);
+}
+
+
+.header-absolute{
     position: fixed;
     top: 0;
     left: 0;
