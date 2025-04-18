@@ -20,13 +20,6 @@
         margin: 0px;
     }
 
-    #contact .sec-para {
-        line-height: 28px !important;
-        font-size: 20px !important;
-        letter-spacing: .10px !important;
-        color: #797E88 !important;
-    }
-
     #contact .space-bottom {
         padding-bottom: 35px;
     }
@@ -159,8 +152,8 @@
                                     <i class="fa-sharp fa-light fa-location-dot"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="box-title">Our Address</h5>
-                                    <p class="box-text">The Affaires, 6th Floor, 603, Sector 17, Palm Beach Road,
+                                    <h4 class="sub-sec-title">Our Address</h4>
+                                    <p class="sec-para">The Affaires, 6th Floor, 603, Sector 17, Palm Beach Road,
                                         Sanpada,Navi Mumbai 400705</p>
                                 </div>
                             </div>
@@ -171,16 +164,16 @@
                                     <i class="fa-light fa-phone"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="box-title">Contact Number</h5>
+                                    <h4 class="sub-sec-title">Contact Number</h4>
                                     <h6 class="business-contact">For Business</h6>
-                                    <p class="box-text">
+                                    <p class="sec-para">
                                         <a href="tel:+918169482831">Mobile: +918169482831</a>
                                         <a href="mailto:
                                         business@sociomark.in">Email:
                                             business@sociomark.in</a>
                                     </p>
                                     <h6 class="careers-contact">For Careers</h6>
-                                    <p class="box-text">
+                                    <p class="sec-para">
                                         <a href="tel:+13217322978">Mobile: +13217322978</a>
                                         <a href="mailto:hr@sociomark.in">Email:
                                             hr@sociomark.in</a>
@@ -194,8 +187,8 @@
                                     <i class="fa-light fa-clock"></i>
                                 </div>
                                 <div class="media-body">
-                                    <h5 class="box-title">Opening Hour</h5>
-                                    <p class="box-text">Monday - Saturday: 9:00 - 18:00 Sunday: Closed</p>
+                                    <h4 class="sub-sec-title">Opening Hour</h4>
+                                    <p class="sec-para">Monday - Saturday: 9:00 - 18:00 Sunday: Closed</p>
                                 </div>
                             </div>
                         </div>
