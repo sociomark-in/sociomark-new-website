@@ -303,6 +303,7 @@ main#home {
 }
 
 .sec-title {
+    text-transform: capitalize;
     font-size: calc(max(3vmax, 2rem));
     line-height: 1.2;
 }

@@ -59,8 +59,8 @@
         }
 
         /* #home #about-sec3 .sec-para{
-                                                        font-weight: 400;
-                                                    } */
+                                                                font-weight: 400;
+                                                            } */
         #home #about-sec3 .accordion-item2 {
             max-width: 510px;
         }
@@ -179,6 +179,7 @@
 
 @section('content')
     <main id="home">
+        {{-- Video Section --}}
         <section class="overflow-hidden video-heading height-full mb-md-3">
             <div class="content video-bg">
                 <video class="w-100" autoplay muted loop>
@@ -247,6 +248,7 @@
             @endpush
         </section>
 
+        {{-- About Section --}}
         <section class="choose-area" id="about-sec2">
             <div class="container">
                 <div class="row">
@@ -349,6 +351,7 @@
             </script>
         @endpush
 
+        {{-- Video Scroll --}}
         <section class="about-area" id="about-sec">
             <div class="container-fluid overflow-hidden">
                 <div class="row justify-content-center">
@@ -524,6 +527,7 @@
 
         </section> --}}
 
+        {{-- Stripe --}}
         <div class="" style="padding: calc(max(5%, 2rem)) 0">
             <div class="marquee" data-marquee-duration="30">
                 <div class="marquee__inner">
@@ -542,6 +546,7 @@
             </div>
         </div>
 
+        {{-- Services --}}
         <section class="space" id="about-sec3">
             <div class="container">
                 <div class="row justify-content-center">
@@ -563,8 +568,8 @@
                                     data-bs-target="#v-pills-digital" type="button" role="tab"
                                     aria-controls="v-pills-digital" aria-selected="true">Digital Marketing</button>
                                 <button class="nav-link" id="v-pills-seo-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-seo" type="button" role="tab" aria-controls="v-pills-seo"
-                                    aria-selected="false">SEO</button>
+                                    data-bs-target="#v-pills-seo" type="button" role="tab"
+                                    aria-controls="v-pills-seo" aria-selected="false">SEO</button>
                                 <button class="nav-link" id="v-pills-social-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-social" type="button" role="tab"
                                     aria-controls="v-pills-social" aria-selected="false">Social Media Marketing
@@ -771,6 +776,7 @@
             </div>
         </section>
 
+        {{-- Portfolio --}}
         <section class="overflow-hidden position-relative space-extra-top space-bottom garally " id="portfolio-sec">
             <div class="container">
                 <div class="title-area text-center mb-25">
@@ -911,6 +917,7 @@
             </div>
         </section>
 
+        {{-- Stripe --}}
         <div class="" style="padding: calc(max(5%, 2rem)) 0">
             <div class="marquee" data-marquee-duration="30">
                 <div class="marquee__inner">
@@ -929,8 +936,8 @@
             </div>
         </div>
 
-
-        <section class="overflow-hidden position-relative space-extra-top space-extra-bottom garally" id="testi-sec">
+        {{-- Testimonials --}}
+        <section class="overflow-hidden position-relative space-extra-top space-bottom garally" id="testi-sec">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
@@ -943,7 +950,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-xxl-7">
+                    <div class="col-xxl-6 col-xl-8 col-md-10 col-12">
                         <div class="slider-area">
                             <div class="swiper testimonial testimonialSwiper th-slider has-shadow">
                                 <div class="swiper-wrapper">
@@ -1016,7 +1023,43 @@
             </div>
         </section>
 
+        {{-- PR Agents --}}
+        <section class="space-extra-top space-bottom">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="title-area text-center">
+                            <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
+                                Lorem ipsum dolor sit amet. <span class="text-orange">The Mighty Exposure</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="swiper prSwiper">
+                            <div class="swiper-wrapper">
+                                @for ($i = 0; $i < 10; $i++)
+                                    <div class="swiper-slide">
+                                        <a href="">
+                                            <img src="https://placehold.co/200x100" alt="Logo" class="w-100">
+                                        </a>
+                                    </div>
+                                @endfor
+                            </div>
+                        </div>
+                    </div>
+                    @push('scripts')
+                        <script>
+                            new Swiper(".prSwiper", {
+                                slidesPerView: 6,
+                                spaceBetween: 20,
+                            })
+                        </script>
+                    @endpush
+                </div>
+            </div>
+        </section>
 
+        {{-- Blogs --}}
         <section class="th-blog-wrapper space-top space-extra-bottom" id="about-sec5">
             <div class="container">
                 <div class="title-area text-center mb-25">
@@ -1067,6 +1110,7 @@
             </div>
         </section>
 
+        {{-- Contact --}}
         <section class="th-blog-wrapper bg-white text-black space-top space-extra-bottom" id="contact">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
@@ -1077,7 +1121,8 @@
                             </h2>
 
                         </div>
-                        <p class="sec-para mb-35 text-black" data-aos="fade-right" data-aos-delay="100">In today's digital
+                        <p class="sec-para mb-35 text-black" data-aos="fade-right" data-aos-delay="100">In today's
+                            digital
                             landscape, a strong online presence is critical for business success. But simply having a
                             website isn't enough.</p>
 
