@@ -53,8 +53,6 @@
     }
 
     #portfolio #about-sec2 .hover-img {
-        width: 100%;
-        height: 100%;
         object-fit: cover;
         display: block;
         transition: transform 0.5s ease;
@@ -201,7 +199,7 @@
                             data-aos-delay="100"
                             data-aos-duration="1200"
                             data-aos-easing="ease-in-out">
-                            <img src="https://www.digitalnexa.com/hubfs/shutterstock_1067423849%20copy.jpg" alt="About" class="hover-img">
+                            <img src="https://www.digitalnexa.com/hubfs/shutterstock_1067423849%20copy.jpg" alt="About" class="hover-img w-100 h-100">
                             <div class="img-heading d-flex justify-content-center align-items-center">
                                 <h3>Website</h3>
                             </div>
@@ -219,7 +217,7 @@
                             data-aos-delay="100"
                             data-aos-duration="1200"
                             data-aos-easing="ease-in-out">
-                            <img src="https://www.digitalnexa.com/hubfs/Screen%20Shot%202021-09-16%20at%2012.47.59%20PM.png" alt="About" class="hover-img">
+                            <img src="https://www.digitalnexa.com/hubfs/Screen%20Shot%202021-09-16%20at%2012.47.59%20PM.png" alt="About" class="hover-img w-100 h-100">
                             <div class="img-heading d-flex justify-content-center align-items-center"">
                                 <h3>Seo</h3>
                             </div>
@@ -238,7 +236,7 @@
                                 data-aos-delay="100"
                                 data-aos-duration="1200"
                                 data-aos-easing="ease-in-out">
-                                <img src="https://www.digitalnexa.com/hubfs/shutterstock_1067423849%20copy.jpg" alt="About" class="hover-img">
+                                <img src="https://www.digitalnexa.com/hubfs/shutterstock_1067423849%20copy.jpg" alt="About" class="hover-img w-100 h-100">
                                 <div class="img-heading d-flex justify-content-center align-items-center"">
                                 <h3>Graphics</h3>
                             </div>
@@ -259,7 +257,7 @@
                                     data-aos-delay="100"
                                     data-aos-duration="1200"
                                     data-aos-easing="ease-in-out">
-                                    <img src="https://www.digitalnexa.com/hubfs/shutterstock_1067423849%20copy.jpg" alt="About" class="hover-img">
+                                    <img src="https://www.digitalnexa.com/hubfs/shutterstock_1067423849%20copy.jpg" alt="About" class="hover-img w-100 h-100">
                                     <div class="img-heading d-flex justify-content-center align-items-center">
                                         <h3>Website</h3>
                                     </div>
@@ -277,7 +275,7 @@
                                     data-aos-delay="100"
                                     data-aos-duration="1200"
                                     data-aos-easing="ease-in-out">
-                                    <img src="https://www.digitalnexa.com/hubfs/Screen%20Shot%202021-09-16%20at%2012.47.59%20PM.png" alt="About" class="hover-img">
+                                    <img src="https://www.digitalnexa.com/hubfs/Screen%20Shot%202021-09-16%20at%2012.47.59%20PM.png" alt="About" class="hover-img w-100 h-100">
                                     <div class="img-heading d-flex justify-content-center align-items-center"">
                                 <h3>Seo</h3>
                             </div>
@@ -296,7 +294,7 @@
                                         data-aos-delay="100"
                                         data-aos-duration="1200"
                                         data-aos-easing="ease-in-out">
-                                        <img src="https://www.digitalnexa.com/hubfs/shutterstock_1067423849%20copy.jpg" alt="About" class="hover-img">
+                                        <img src="https://www.digitalnexa.com/hubfs/shutterstock_1067423849%20copy.jpg" alt="About" class="hover-img w-100 h-100">
                                         <div class="img-heading d-flex justify-content-center align-items-center"">
                                 <h3>Graphics</h3>
                             </div>
@@ -312,5 +310,8 @@
                             </div>
                         </div>
     </section>
+
+    @include('frontend/partial/clientList')
+    @include('frontend/partial/CTA')
 </main>
 @endsection

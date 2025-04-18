@@ -2,405 +2,17 @@
 
 @section('custome-style')
 <style>
-    #about-us #about-sec2,
+    #about-us #about-process,
     #about-us #contact {
         background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
     }
 
-    #about-us #about-sec4,
+    #about-us #aboutUs-KEyPoints,
     #our-founder {
         background-color: #F5F5F5;
     }
 
-    #about-us .about-area2 .sec-title,
-    #about-us #about-sec2 .sec-title,
-    #about-us #about-sec3 .sec-title,
-    #about-us #about-sec4 .sec-title,
-    #portfolio-sec .sec-title,
-    #about-us #contact .sec-title,
-    #our-founder .sec-title {
-        font-size: 32px;
-        line-height: 42px;
-        font-weight: 700 !important;
-    }
-
-    #about-us .about-area2 .sec-title {
-        width: 67rem;
-    }
-
-    #about-us .about-area2 .sec-para,
-    #about-us #about-sec2 .sec-para,
-    #about-us #about-sec3 .sec-para,
-    #about-us #about-sec4 .sec-para,
-    #about-us #contact .sec-para,
-    #our-founder .sec-para {
-        line-height: 28px;
-        font-size: 18px;
-        letter-spacing: .10px;
-        color: rgb(19, 20, 20);
-        font-weight: 400;
-    }
-
-    /* section2 */
-
-    #about-us #about-sec2 {
-        padding: 6rem 0 6rem 0;
-    }
-
-    #about-us #about-sec2 .process-step {
-        text-align: center;
-        position: relative;
-    }
-
-    #about-us #about-sec2 .icon {
-        background-color: #f2f3f7;
-        border-radius: 50%;
-        width: 80px;
-        height: 80px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-        font-size: 24px;
-        color: #6f42c1;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        z-index: 1;
-        position: relative;
-    }
-
-    .sub-sec-title {
-        font-size: 20px;
-        line-height: 30px;
-        color: #121212;
-        font-weight: 600 !important;
-    }
-
-    /* Reversed steps: text above circle */
-    #about-us #about-sec2 .step-reverse .icon {
-        margin-top: 20px;
-    }
-
-    /* Zig-zag line style */
-    #about-us #about-sec2 .process-step::after {
-        content: '';
-        position: absolute;
-        width: 198px;
-        height: 2px;
-        background: #bbb;
-        z-index: 0;
-    }
-
-    /* Diagonal down (1 to 2 and 3 to 4) */
-    #about-us #about-sec2 .zig-down::after {
-        top: 77px;
-        left: 72%;
-        transform: rotate(22deg);
-        transform-origin: left center;
-    }
-
-    /* Diagonal up (2 to 3) */
-    #about-us #about-sec2 .zig-up::after {
-        bottom: 68px;
-        left: 70%;
-        transform: rotate(-24deg);
-        transform-origin: left center;
-    }
-
-    #about-us #about-sec2 .process-step:last-child::after {
-        content: none;
-    }
-
-    #about-us .icon .position-absolute-img {
-        transition: all 0.4s ease-in-out;
-        border-radius: 50%;
-        padding: 15px;
-        display: inline-block;
-    }
-
-    #about-us .icon .position-absolute-img:hover {
-        transform: scale(1.1);
-        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-        background-color: rgb(255, 215, 235);
-        /* Slightly darker pink */
-    }
-
-    @media (max-width: 768px) {
-        #about-us #about-sec2 .process-step::after {
-            display: none;
-        }
-
-        #about-us .step-reverse {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-    }
-
-    /* section2 end */
-    /* section3 */
-    .feature-card {
-        padding: 40px 20px;
-        text-align: center;
-        /* background-color: white; */
-        height: 100%;
-
-    }
-
-    #about-us #about-sec3 .first-feature-card:nth-child(odd) .flip-box-front {
-        background-color: #ffffff;
-        height: 100%;
-    }
-
-    #about-us #about-sec3 .flip-box {
-        width: 300px;
-        height: 320px;
-    }
-
-    #about-us #about-sec3 .flip-box-inner {
-        height: 100%;
-    }
-
-    #about-us #about-sec3 .first-feature-card:nth-child(even) .flip-box-front {
-        height: 100%;
-        background-color: #f6f9ff;
-    }
-
-    #about-us #about-sec3 .second-feature-card:nth-child(even) .flip-box-front {
-        background-color: #ffffff;
-        height: 100%;
-    }
-
-    #about-us #about-sec3 .second-feature-card:nth-child(odd) .flip-box-front {
-        height: 100%;
-        background-color: #f6f9ff;
-    }
-
-    #about-us #about-sec3 .flip-box-front img {
-        height: auto;
-        width: auto;
-    }
-
-    .feature-card.bg-light-blue {
-        background-color: #f6f9ff;
-    }
-
-    .feature-icon {
-        font-size: 32px;
-        color: #333;
-        margin-bottom: 10px;
-    }
-
-    #about-us #about-sec3 .flip-box-front {
-        background-color: white;
-        color: black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        border-radius: 10px !important;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        border: 2px solid transparent;
-    }
-
-    #about-us #about-sec3 .flip-box-back {
-        border-radius: 10px !important;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        border: 2px solid transparent;
-        height: 100%;
-    }
-
-    /* section3end */
-
-    /* about-sec4 */
-    .content-box {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .image-gallery {
-        display: flex;
-        justify-content: center;
-        gap: 10px;
-        flex-wrap: wrap;
-    }
-
-    .position-relative {
-        position: relative;
-        overflow: hidden;
-    }
-
-    .gallery-img {
-        width: 310px;
-        height: 450px;
-        object-fit: cover;
-        transition: all 0.5s ease;
-        border-radius: 10px;
-        cursor: pointer;
-        display: block;
-    }
-
-    .gallery-img.default-active {
-        width: 570px;
-    }
-
-    .gallery-img.default-active .img-overlay p {
-        width: 50%;
-    }
-
-    #about-sec4 .img-overlay .top-content .logo-info {
-        width: auto;
-        height: 40px;
-        line-height: 23px;
-    }
-
-    .img-overlay p {
-        width: 100%;
-    }
-
-    .img-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        /* default state */
-        height: 100%;
-        padding: 1rem;
-        background: rgba(0, 0, 0, 0.2);
-        /* semi-transparent black */
-        color: white;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        border-radius: 10px;
-        transition: all 0.4s ease;
-        pointer-events: none;
-        /* allows hover on img */
-        opacity: 1;
-        /* always visible now */
-    }
-
-    .img-overlay.active {
-        justify-content: space-between;
-    }
-
-    .desc-text {
-        opacity: 0;
-        transition: opacity 0.4s ease;
-    }
-
-    .desc-text:not(.d-none) {
-        opacity: 1;
-    }
-
-
-    .position-relative:hover .img-overlay {
-        background: rgba(0, 0, 0, 0.2);
-        transform: scale(1.02);
-        pointer-events: auto;
-    }
-
-    /* .position-relative:hover .gallery-img {
-        width: 570px;
-    } */
-
-    /* Smooth text entrance but visible from start */
-    .img-overlay h4,
-    .img-overlay p,
-    .img-overlay a {
-        opacity: 1;
-        transform: translateY(0);
-        transition: all 0.4s ease;
-    }
-
-    .img-overlay a {
-        background-color: white !important;
-        color: black !important;
-    }
-
-    .explore-btn a {
-        padding: 0px !important;
-        background-color: white !important;
-        color: black !important;
-    }
-
-    .explore-btn {
-        background-color: white;
-        color: black !important;
-        opacity: 1;
-        transform: translateY(0);
-        transition: all 0.4s ease;
-        display: flex;
-        /* justify-content: space-around; */
-        align-items: center;
-        justify-content: center;
-        border-radius: 55px;
-        padding: 15px 28px;
-        opacity: 1;
-        transform: translateY(0);
-        transition: all 0.4s ease;
-
-    }
-
-    .img-overlay a:hover {
-        background-color: black;
-        color: white !important;
-    }
-
-    /* about-sec4 :end */
-
-    /* about banner */
-    #about-banner .player-video::before {
-        content: none;
-    }
-
-    /* about banner :end */
-    /* founder */
-    #our-founder {
-        margin-top: 7rem;
-    }
-
-    .founder .img {
-        width: 33rem;
-        height: 34rem;
-        margin-top: -6rem;
-    }
-
-    .founder .img img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    #our-founder.custom-top {
-        top: -39px;
-    }
-
-    /* founder end */
-   
-    /* contact form */
-    #about-us #contact {
-        padding: 30px;
-    }
-
-    #contact .space-bottom {
-        padding-bottom: 35px;
-    }
-
-
-    #contact .contact-form {
-        border-radius: 10px;
-        padding: 45px 23px;
-        /* box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-                border: 2px solid transparent; */
-        box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
-        -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
-        -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
-    }
-
-    /* contact form end */
+ 
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
     integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
@@ -422,10 +34,10 @@
             </div>
         </div>
     </div>
-    <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden space" id="about-sec">
+    <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden" id="about-sec">
         <div class="container">
-            <div class="row align-items-end">
-                <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
+            <div class="row align-items-end justify-content-center">
+                <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
                     <div class="title-area mb-md-3 mb-2 mt-n1">
                         <!-- <h2 class="sec-title text-center "> Our Comprehensive International SEO Solutions</h2> -->
                         <h2 class="text-center fw-bold sec-title my-3"
@@ -436,6 +48,8 @@
                             Hello, we are Sociomark – <span class="text-blue"> A Digital Marketing Company</span> in Mumbai
                         </h2>
                     </div>
+                </div>
+                <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down"
                         data-aos-delay="100"
                         data-aos-duration="1000"
@@ -448,7 +62,7 @@
         </div>
     </div>
 
-    <div class="overflow-hidden mb-md-3 mt-md-3 mt-0 md-0" id="about-sec2">
+    <div class="overflow-hidden mb-md-3 mt-md-3 mt-0 md-0" id="about-process">
         <div class="container process-container text-center">
             <h2 class="fw-bold mb-5 sec-title"
                 data-aos="fade-up"
@@ -464,49 +78,36 @@
                     data-aos-delay="300"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
-                    <div class="row g-3 g-md-4">
-                        <div class="col-12">
-                            <div class="img">
-                                <div class="shadow-title">01</div>
-                                <div class="icon">
-                                    <div class="position-absolute-img" style="background-color: rgb(255 235 245);">
-                                        <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
-                                    </div>
-                                </div>
-                            </div>
+
+                    <div class="img">
+                        <div class="shadow-title">01</div>
+                        <div class=" icon " style="background-color: rgb(255 235 245);">
+                            <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
                         </div>
-                        <div class="col-12">
-                            <div class="text">
-                                <h4 class="sub-sec-title">Choose A Service</h4>
-                                <p class="sec-para">Pick the ideal service that suits your requirement</p>
-                            </div>
-                        </div>
+                    </div>
+                    <div class="text mt-1 mt-3">
+                        <h4 class="sub-sec-title">Choose A Service</h4>
+                        <p class="sec-para">Pick the ideal service that suits your requirement</p>
                     </div>
                 </div>
 
                 <!-- Step 2 (reversed) -->
-                <div class="col-md-3 process-step step-reverse zig-up"
+                <div class="col-md-3 process-step d-flex flex-column-reverse flex-md-column zig-up"
                     data-aos="fade-up"
                     data-aos-delay="400"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
-                    <div class="row flex-column-reverse">
-                        <div class="col-12">
-                            <div class="img">
-                                <div class="shadow-title">02</div>
-                                <div class="icon">
-                                    <div class="position-absolute-img">
-                                        <img src="{{ asset('frontend-assets/img/ourCulture/1.png') }}" alt="">
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="text">
+                        <h4 class="sub-sec-title">Define Requirements</h4>
+                        <p class="sec-para">Let us know what you expect & provide a clear brief</p>
+                    </div>
+                    <div class="img mt-1 mt-3">
+                        <div class="shadow-title">02</div>
+
+                        <div class="icon">
+                            <img src="{{ asset('frontend-assets/img/ourCulture/1.png') }}" alt="">
                         </div>
-                        <div class="col-12">
-                            <div class="text">
-                                <h4 class="sub-sec-title">Define Requirements</h4>
-                                <p class="sec-para">Let us know what you expect & provide a clear brief</p>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
 
@@ -516,29 +117,20 @@
                     data-aos-delay="500"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
-                    <div class="row g-3 g-md-4">
-                        <div class="col-12">
-                            <div class="img">
-                                <div class="shadow-title">03</div>
-                                <div class="icon">
-                                    <div class="position-absolute-img" style="background-color: rgb(238 251 229);">
-                                        <img src="{{ asset('frontend-assets/img/ourCulture/4.png') }}" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="text">
-                                <h4 class="sub-sec-title">Request A Meeting</h4>
-                                <p class="sec-para">We’ll set up a time to discuss all of your project goals</p>
-                            </div>
+                    <div class="img ">
+                        <div class="shadow-title">03</div>
+                        <div class="icon" style="background-color: rgb(238 251 229);">
+                            <img src="{{ asset('frontend-assets/img/ourCulture/4.png') }}" alt="">
                         </div>
                     </div>
-
+                    <div class="text mt-1 mt-3">
+                        <h4 class="sub-sec-title">Request A Meeting</h4>
+                        <p class="sec-para">We’ll set up a time to discuss all of your project goals</p>
+                    </div>
                 </div>
 
                 <!-- Step 4 (reversed) -->
-                <div class="col-md-3 process-step step-reverse"
+                <div class="col-md-3 process-step d-flex flex-column-reverse flex-md-column"
                     data-aos="fade-up"
                     data-aos-delay="600"
                     data-aos-duration="1200"
@@ -547,12 +139,10 @@
                         <h4 class="sub-sec-title">Final Solution</h4>
                         <p class="sec-para">Get the final solution done as per the provided plan</p>
                     </div>
-                    <div class="img">
+                    <div class="img mt-1 mt-3">
                         <div class="shadow-title">04</div>
-                        <div class="icon">
-                            <div class="position-absolute-img" style="background-color: rgb(252 243 233);">
-                                <img src="{{ asset('frontend-assets/img/ourCulture/3.png') }}" alt="">
-                            </div>
+                        <div class="icon position-absolute-img" style="background-color: rgb(252 243 233);">
+                            <img src="{{ asset('frontend-assets/img/ourCulture/3.png') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -560,8 +150,7 @@
         </div>
     </div>
 
-
-    <div class="ourwork overflow-hidden space" id="about-sec4">
+    <div class="ourwork overflow-hidden space" id="aboutUs-KEyPoints">
         <div class="container">
             <div class="text-center content-box">
                 <!-- <h2 class="sec-title">Making a mark, one day at a time!</h2> -->
@@ -575,7 +164,7 @@
             </div>
 
             <!-- Static Flex Image Layout -->
-            <div class="image-gallery js-overlay gap-3">
+            <div class="image-gallery js-overlay gap-3 d-flex justify-content-center">
                 <div class="position-relative">
                     <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
                         class="gallery-img default-active" alt="Business Image">
@@ -596,7 +185,7 @@
                                 In today’s fast-moving digital landscape, staying ahead means staying smart — and that’s exactly what we do.
                             </p>
                             <div class="explore-btn">
-                                <a href="about.html" class="th-btn th-icon text-white w-100 text-start">Explore More </a>
+                                <a href="about.html" class="th-btn th-icon text-white w-100 text-start p-0">Explore More </a>
                                 <i class="fa-regular fa-arrow-right ms-2"></i>
                             </div>
 
@@ -624,7 +213,7 @@
                                 Our success is measured by the results we drive — and the brands we help grow. From local startups to national players, our portfolio is packed with case studies that showcase real ROI.
                             </p>
                             <div class="explore-btn">
-                                <a href="about.html" class="th-btn th-icon text-white w-100 text-start">Explore More </a>
+                                <a href="about.html" class="th-btn th-icon text-white w-100 text-start p-0">Explore More </a>
                                 <i class="fa-regular fa-arrow-right ms-2"></i>
                             </div>
 
@@ -651,7 +240,7 @@
                                 Behind every pixel, post, and plan is a passionate team driven by curiosity and creativity.
                             </p>
                             <div class="explore-btn">
-                                <a href="about.html" class="th-btn th-icon text-white w-100 text-start">Explore More </a>
+                                <a href="about.html" class="th-btn th-icon text-white w-100 text-start p-0">Explore More </a>
                                 <i class="fa-regular fa-arrow-right ms-2"></i>
                             </div>
                         </div>
@@ -660,7 +249,6 @@
             </div>
         </div>
     </div>
-
 
     <section class="about-area overflow-hidden position-relative p-0" id="about-banner" style="background-color: black;">
         <div class="container-fluid">
@@ -711,19 +299,14 @@
     <div class="mb-md-5 mb-2 py-4 px-3 founder" id="our-founder">
         <div class="container">
             <div class="row align-items-center justify-content-center">
-                <!-- Left Section with Image and Play Button -->
-                <!-- Left Section with Image and Play Button -->
                 <div class="col-md-6 position-relative img custom-top me-0 me-md-5"
                     data-aos="fade-right"
                     data-aos-delay="100"
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out"
                     style="--tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--tw-bg-opacity)); padding: 1rem; border-radius: 30px;">
-                    <img src="https://www.sociomark.in/assets/img/founders.jpg" class="img-fluid rounded" alt="Office Team">
+                    <img src="https://www.sociomark.in/assets/img/founders.jpg" class="img-fluid rounded w-100 h-100 object-fit-cover" alt="Office Team">
                 </div>
-
-
-                <!-- Right Section with Text and Progress Bars -->
                 <div class="col-md-6 text-white p-4 ">
                     <h2 class="fw-bold mb-1 sec-title"
                         data-aos="fade-left"
@@ -753,7 +336,7 @@
         </div>
     </div>
 
-    <div class="mb-md-5 mt-md-5 mt-5 mb-2 py-1 py-md-4 overflow-hidden overflow-hidden space" id="about-sec3">
+    <div class="mb-md-5 mt-md-5 mt-5 mb-2 py-1 py-md-4 overflow-hidden overflow-hidden space" id="about-flip">
         <div class="container">
             <div class="row d-flex justify-content-center justify-content-md-end mt-4">
 
@@ -775,12 +358,12 @@
                     data-aos-delay=" 300"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                            <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
+                    <div class="flip-box-inner h-100">
+                        <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                            <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="" class="h-auto w-auto">
                             <h4 class="sub-sec-title mt-2"> Our Vision</h4>
                         </div>
-                        <div class="flip-box-back d-flex justify-content-center align-items-center">
+                        <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
                             <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum quibusdam veritatis tempore magnam.</p>
                         </div>
                     </div>
@@ -790,12 +373,12 @@
                     data-aos-delay="300"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                            <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
+                    <div class="flip-box-inner h-100">
+                        <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                            <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="" class="h-auto w-auto">
                             <h4 class="sub-sec-title mt-2">Our Mission</h4>
                         </div>
-                        <div class="flip-box-back d-flex justify-content-center align-items-center">
+                        <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
                             <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum quibusdam veritatis tempore magnam.</p>
                         </div>
                     </div>
@@ -806,12 +389,12 @@
                 data-aos-duration="1200"
                 data-aos-easing="ease-in-out">
                 <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 mx-2">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                            <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
+                    <div class="flip-box-inner h-100">
+                        <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                            <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="" class="h-auto w-auto">
                             <h4 class="sub-sec-title mt-2">Our Vision</h4>
                         </div>
-                        <div class="flip-box-back d-flex justify-content-center align-items-center">
+                        <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
                             <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum quibusdam veritatis tempore magnam.</p>
                         </div>
                     </div>
@@ -821,12 +404,12 @@
                     data-aos-delay="400"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                            <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
+                    <div class="flip-box-inner h-100">
+                        <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                            <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="" class="h-auto w-auto">
                             <h4 class="sub-sec-title mt-2">Our Vision</h4>
                         </div>
-                        <div class="flip-box-back d-flex justify-content-center align-items-center">
+                        <div class="flip-box-back d-flex justify-content-center align-items-center v">
                             <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum quibusdam veritatis tempore magnam.</p>
                         </div>
                     </div>
@@ -836,12 +419,12 @@
                     data-aos-delay="400"
                     data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
-                    <div class="flip-box-inner">
-                        <div class="flip-box-front">
-                            <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
+                    <div class="flip-box-inner h-100">
+                        <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                            <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="" class="h-auto w-auto">
                             <h4 class="sub-sec-title mt-2">Our Vision</h4>
                         </div>
-                        <div class="flip-box-back d-flex justify-content-center align-items-center">
+                        <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
                             <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum quibusdam veritatis tempore magnam.</p>
                         </div>
                     </div>
@@ -850,157 +433,8 @@
             </div>
         </div>
     </div>
+    @include('frontend.partial.contactUs')
 
-    <div class="th-blog-wrapper space-top space-extra-bottom" id="contact">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-xl-5 pe-md-5">
-                    <div class="title-area mb-20">
-                        <h2 class="sec-title ">The Powerful Benefits of Saor SEO</h2>
-                    </div>
-                    <p class="sec-para mb-35 ">In today's digital landscape, a strong online presence is critical for business success. But simply having a website isn't enough.</p>
-
-                </div>
-                <div class="col-xl-7">
-                    <form action="{{ route('contact.store') }}" method="POST" class="contact-form style2" id="contactform">
-                        @csrf
-                        <div class="row">
-                            <div class="form-group col-md-6">
-                                <label class="form-label" for="name">Your Name</label>
-                                <input type="text" class="form-control @error('name') is-invalid @enderror" name="name" id="name" placeholder="Enter your Name" value="{{ old('name') }}">
-                                @error('name')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-
-                            <div class="form-group col-md-6">
-                                <i class="far fa-envelope"></i>
-                                <label class="form-label" for="email">Email</label>
-                                <input type="text" class="form-control @error('email') is-invalid @enderror" name="email" id="email" placeholder="Enter your Email" value="{{ old('email') }}">
-                                @error('email')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-                            <div class="form-group col-md-6">
-                                <i class="fal fa-phone"></i>
-                                <label class="form-label" for="phone">Phone</label>
-                                <input type="text" class="form-control @error('phone') is-invalid @enderror" name="phone" id="phone" placeholder="Enter your Phone" value="{{ old('phone') }}">
-                                @error('phone')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-
-                            <div class="form-group col-md-6">
-
-                                <label class="form-label" for="service">Service you want?</label>
-                                <select class="form-select @error('service') is-invalid @enderror" id="service" name="service">
-                                    <option selected disabled>Choose an option</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
-                                </select>
-
-                                @error('service')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-
-                            <div class="form-group col-md-6">
-
-                                <label class="form-label" for="budget">Marketing Budget</label>
-                                <select class="form-select @error('budget') is-invalid @enderror" id="budget" name="budget">
-                                    <option selected disabled>Choose an option</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
-                                </select>
-                                @error('budget')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-
-                            <div class="form-group col-md-6">
-
-                                <label class="form-label" for="aboutUs">How did you hear about Us?</label>
-                                <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs" name="aboutUs">
-                                    <option selected disabled>Choose an option</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
-                                </select>
-                                @error('aboutUs')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-                            <div class="form-group col-12">
-
-                                <label class="form-label" for="messageforus">Your Message</label>
-                                <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus" placeholder="Enter your message" rows="4" name="messageforus"></textarea>
-                                <i class="fal fa-pencil"></i>
-                                @error('messageforus')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-                            <div class="col-12 form-group mb-0 text-center">
-                                <button class="th-btn th-radius">Submit Message</button>
-                            </div>
-                        </div>
-
-                    </form>
-                    <script type="text/javascript">
-                        $.validator.addMethod("emailregex", function(value, element) {
-                            return this.optional(element) || /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i.test(value);
-                        })
-                        $.validator.addMethod("letters", function(value, element) {
-                            return this.optional(element) || /^[a-zA-Z \s']*$/i.test(value);
-                        });
-                        $.validator.addMethod("numbers", function(value, element) {
-                            return this.optional(element) || /^[0-9 ]*$/i.test(value);
-                        });
-                        $('#contactform').validate({
-                            rules: {
-                                name: {
-                                    required: true,
-                                    letters: true,
-                                },
-                                lastname: 'required',
-                                organisation: 'required',
-                                email: {
-                                    required: true,
-                                    emailregex: true,
-                                },
-                                phone: {
-                                    required: true,
-                                    numbers: true,
-                                },
-                                message: {
-                                    required: true,
-                                }
-                            },
-                            messages: {
-                                name: {
-                                    required: 'This Name field is required',
-                                    letters: 'Only Letters & Spaces are Allowed.'
-                                },
-                                phone: {
-                                    required: 'This Phone field is required',
-                                    maxlength: 'Please enter a Valid Mobile Number',
-                                    minlength: 'Please enter a Valid Mobile Number',
-                                },
-                                lastname: 'This Last Name field is required',
-                                organisation: 'This Organisation field is required',
-                                email: 'Please enter a Valid Email Id',
-                                message: 'This message field is required',
-                            },
-                            submitHandler: function(form) {
-                                form.submit();
-                            }
-                        });
-                    </script>
-                </div>
-            </div>
-        </div>
-    </div>
 </main>
 @endsection
 

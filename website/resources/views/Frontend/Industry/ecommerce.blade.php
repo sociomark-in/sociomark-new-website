@@ -1,30 +1,10 @@
 @extends('Frontend.layout.app')
 <style>
-    #industries #about-sec .sec-title,
-    #industries #about-sec2 .sec-title,
-    #industries #about-sec3 .sec-title,
-    #industries #about-sec4 .sec-title,
-    #industries #portfolio-sec .sec-title {
-        font-size: 35px;
-        line-height: 42px;
-    }
 
-    #industries #about-sec4 .sec-title {
-        color: white;
-    }
 
     #industries #about-sec2 .sec-para {
         color: white;
         font-size: 18px;
-    }
-
-    #industries #about-sec .sec-para,
-    #industries #about-sec2 .sec-para,
-    #industries #about-sec3 .sec-para,
-    #industries #portfolio-sec .sec-para {
-        line-height: 28px;
-        font-size: 20px;
-        letter-spacing: .10px;
     }
 
     #industries #about-sec2 {
@@ -249,90 +229,7 @@
             </div>
         </div>
     </div>
-    <div class="overflow-hidden position-relative space-extra-top space-bottom garally mt-md-5" id="portfolio-sec">
-        <div class="container">
-            <div class="title-area text-center mb-25">
-                <h2 class="sec-title"> </h2>
-                <h2 class="fw-bold sec-title my-3"
-                    data-aos="fade-up"
-                    data-aos-delay="100"
-                    data-aos-duration="1000"
-                    data-aos-easing="ease-in-out">
-                    Clients We've <span class="text-blue"> Worked With</span>
-                </h2>
-            </div>
-            <div class="filter-menu filter-menu-active mt-md-5 mb-md-4">
-                <button data-filter="*" class="tab-btn active" type="button">All</button>
-                <button data-filter=".cat1" class="tab-btn" type="button">Education</button>
-                <button data-filter=".cat2" class="tab-btn" type="button">Healthcare</button>
-                <button data-filter=".cat3" class="tab-btn" type="button">News & Media</button>
-                <button data-filter=".cat4" class="tab-btn" type="button">Real Eastate</button>
-                <button data-filter=".cat5" class="tab-btn" type="button">Logistist</button>
-                <button data-filter=".cat6" class="tab-btn" type="button">Gaming</button>
-
-            </div>
-            <div class="portfolio-area" data-aos="zoom-in"
-                data-aos-delay="200"
-                data-aos-duration="1200"
-                data-aos-easing="ease-in-out">
-                <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
-                    <div class="col-md-6 col-xl-3 filter-item cat1 cat5 cat7 cat3">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-3 filter-item cat5 cat5 cat8 cat1">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-3 filter-item cat5 cat3 cat2">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-3 filter-item cat4 cat1 cat6">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-xl-3 filter-item cat4 cat6">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-3 filter-item cat4 cat6">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-3 filter-item cat4 cat6">
-                        <div class="project-item">
-                            <div class="box-img global-img">
-                                <img src="https://www.gbim.com/clientele/Technology/tech_1.webp" alt="project image">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
-                </div> -->
-            </div>
-        </div>
-    </div>
+    @include('frontend/partial/clientList')
     <!-- <div class="about-area2 mb-md-5 mt-md-5 mt-0 md-0 pt-5 pb-5 overflow-hidden overflow-hidden space" id="about-sec3">
         <div class="container">
             <div class="row ">
@@ -364,7 +261,7 @@
         <div class="container">
             <div class="title-area text-center">
                 <h3 class="box-title text-white fs-5 ls-1">STATISTICS</h3>
-                <h2 class="sec-title mt-3">We are a results driven while label seo agency</h2>
+                <h2 class="sec-title mt-3 text-white">We are a results driven while label seo agency</h2>
             </div>
             <div class="row gy-4">
                 <div class="col-xl-3 col-md-6">

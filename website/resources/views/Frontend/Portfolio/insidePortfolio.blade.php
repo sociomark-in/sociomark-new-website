@@ -133,7 +133,7 @@
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out">
                     <a href="#">
-                        <img src="{{ asset('frontend-assets/img/brand/brand_1_1.svg') }}" alt="Brand Logo" class="img-fluid">
+                        <img src="{{ asset('frontend-assets/img/clients/ayuhealth.jpg') }}" alt="Brand Logo" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
@@ -141,7 +141,7 @@
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out">
                     <a href="#">
-                        <img src="{{ asset('frontend-assets/img/brand/brand_1_2.svg') }}" alt="Brand Logo" class="img-fluid">
+                        <img src="{{ asset('frontend-assets/img/clients/ayushakti.jpg') }}" alt="Brand Logo" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
@@ -149,7 +149,7 @@
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out">
                     <a href="#">
-                        <img src="{{ asset('frontend-assets/img/brand/brand_1_3.svg') }}" alt="Brand Logo" class="img-fluid">
+                        <img src="{{ asset('frontend-assets/img/clients/buildtrack (1).png') }}" alt="Brand Logo" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
@@ -157,7 +157,7 @@
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out">
                     <a href="#">
-                        <img src="{{ asset('frontend-assets/img/brand/brand_1_4.svg') }}" alt="Brand Logo" class="img-fluid">
+                        <img src="{{ asset('frontend-assets/img/clients/bumchums.jpg') }}" alt="Brand Logo" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
@@ -165,7 +165,7 @@
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out">
                     <a href="#">
-                        <img src="{{ asset('frontend-assets/img/brand/brand_1_5.svg') }}" alt="Brand Logo" class="img-fluid">
+                        <img src="{{ asset('frontend-assets/img/clients/eduauraa.jpg') }}" alt="Brand Logo" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
@@ -173,7 +173,7 @@
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out">
                     <a href="#">
-                        <img src="{{ asset('frontend-assets/img/brand/brand_1_6.svg') }}" alt="Brand Logo" class="img-fluid">
+                        <img src="{{ asset('frontend-assets/img/clients/euro.jpg') }}" alt="Brand Logo" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
@@ -181,7 +181,7 @@
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out">
                     <a href="#">
-                        <img src="{{ asset('frontend-assets/img/brand/brand_1_5.svg') }}" alt="Brand Logo" class="img-fluid">
+                        <img src="{{ asset('frontend-assets/img/clients/jivana.jpg') }}" alt="Brand Logo" class="img-fluid">
                     </a>
                 </div>
                 <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
@@ -189,14 +189,12 @@
                     data-aos-duration="1000"
                     data-aos-easing="ease-in-out">
                     <a href="#">
-                        <img src="{{ asset('frontend-assets/img/brand/brand_1_5.svg') }}" alt="Brand Logo" class="img-fluid">
+                        <img src="{{ asset('frontend-assets/img/clients/network18.jpg') }}" alt="Brand Logo" class="img-fluid">
                     </a>
                 </div>
             </div>
         </div>
     </div>
-
-
-
+    @include('frontend/partial/CTA')
 </main>
 @endsection

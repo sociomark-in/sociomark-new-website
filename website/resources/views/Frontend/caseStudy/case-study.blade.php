@@ -2,10 +2,6 @@
 
 @section('custome-style')
 <style>
-    #case-study #portfolio-sec .sec-title {
-        font-size: 32px;
-        line-height: 42px;
-    }
 
     /* gallary :start */
 
@@ -36,38 +32,15 @@
         border-radius: 8px;
     }
 
-    .tab-label {
-        font-size: 16px;
-        margin-top: 5px;
-        font-weight: 600;
-    }
-
-    .checkmark {
-        color: #106c97;
-        margin-right: 5px;
-    }
-
-    .feature-image {
-        max-width: 100%;
-        border-radius: 10px;
-        margin-top: 20px;
-    }
-
     /* gallary end */
 
     /* card  */
-    .card__container {
-        display: grid;
-        row-gap: 3.5rem;
-    }
-
     .card__article {
-        position: relative;
-        overflow: hidden;
+        position: static !important;
+        height: 416px !important;
     }
 
     .card__img {
-        width: 328px;
         border-radius: 10px;
     }
 
@@ -87,48 +60,12 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
-    .card__description {
-        display: block;
-        font-size: 14px;
-        margin-bottom: .25rem;
-    }
-
-    .card__title {
-        font-size: 20px;
-        font-weight: 500;
-        color: black;
-        margin-bottom: .75rem;
-    }
-
-    .card__button {
-        text-decoration: none;
-        font-size: 14px;
-        font-weight: 500;
-        color: black;
-    }
-
-    .card__button {
-        text-decoration: underline;
-    }
-
     /* Naming animations in hover */
     .card__article .card__data {
         animation: show-data 1s forwards;
         opacity: 1;
         transition: opacity .3s;
     }
-
-    /* .card__article {
-        animation: remove-overflow 2s forwards;
-    } */
-
-    .card__article {
-    animation: show-overflow 2s forwards;
-}
-
-.card__data {
-    animation: remove-data 1s forwards;
-}
 
     /* Card animation */
     @keyframes show-data {
@@ -140,73 +77,6 @@
             transform: translateY(-7rem);
         }
     }
-
-    @keyframes remove-overflow {
-        to {
-            overflow: initial;
-        }
-    }
-
-    @keyframes remove-data {
-        0% {
-            transform: translateY(-7rem);
-        }
-
-        50% {
-            transform: translateY(-10rem);
-        }
-
-        100% {
-            transform: translateY(.5rem);
-        }
-    }
-
-    @keyframes show-overflow {
-        0% {
-            overflow: initial;
-            pointer-events: none;
-        }
-
-        50% {
-            overflow: hidden;
-        }
-    }
-
-    /*=============== BREAKPOINTS ===============*/
-    /* For small devices */
-    @media screen and (max-width: 340px) {
-        .portfolio-container {
-            margin-inline: 1rem;
-        }
-
-        .card__data {
-            width: 250px;
-            padding: 1rem;
-        }
-    }
-
-    /* For medium devices */
-    @media screen and (min-width: 768px) {
-        .card__container {
-            grid-template-columns: repeat(2, 1fr);
-            column-gap: 1.5rem;
-        }
-    }
-
-    /* For large devices */
-    @media screen and (min-width: 1120px) {
-        
-
-        .card__img {
-            width: 348px;
-        }
-
-        .card__data {
-            width: 250px;
-            padding-inline: 1.5rem;
-        }
-    }
-
     /* card :end */
 </style>
 @endsection
@@ -224,7 +94,7 @@
             </div>
         </div>
     </div>
-    <div class="overflow-hidden position-relative space-extra-top space-bottom garally mt-md-5" id="portfolio-sec">
+    <div class="overflow-hidden garally mt-md-5" id="portfolio-sec">
         <div class="container ">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -275,13 +145,13 @@
             <!-- Tab Content -->
 
             <div class="portfolio-container">
-                <div class="card__container filter-active row">
+                <div class="filter-active row h-auto">
                     <article class="card__article filter-item cat1 cat5 cat7 cat3 col-md-3 col-12">
                         <img src="http://127.0.0.1:5501/assets/img/landscape-1.png" alt="image" class="card__img">
 
                         <div class="card__data">
-                            <span class="card__description">Boosted Organic Traffic by 200%</span>
-                            <h2 class="card__title">Ayushakti</h2>
+                            <span class="sec-para">Boosted Organic Traffic by 200%</span>
+                            <h4 class="sub-sec-title">Ayushakti</h4>
                             <a href="#" class="card__button">Read More</a>
                         </div>
                     </article>
@@ -290,8 +160,8 @@
                         <img src="http://127.0.0.1:5501/assets/img/landscape-1.png" alt="image" class="card__img">
 
                         <div class="card__data">
-                            <span class="card__description">Poon Hill, Nepal</span>
-                            <h2 class="card__title">Starry Night</h2>
+                            <span class="sec-para">Poon Hill, Nepal</span>
+                            <h4 class="sub-sec-title">Starry Night</h4>
                             <a href="#" class="card__button">Read More</a>
                         </div>
                     </article>
@@ -300,8 +170,8 @@
                         <img src="http://127.0.0.1:5501/assets/img/landscape-1.png" alt="image" class="card__img">
 
                         <div class="card__data">
-                            <span class="card__description">Bojcin Forest, Serbia</span>
-                            <h2 class="card__title">Path Of Peace</h2>
+                            <span class="sec-para">Bojcin Forest, Serbia</span>
+                            <h4 class="sub-sec-title">Path Of Peace</h4>
                             <a href="#" class="card__button">Read More</a>
                         </div>
                     </article>
@@ -309,8 +179,17 @@
                         <img src="http://127.0.0.1:5501/assets/img/landscape-1.png" alt="image" class="card__img">
 
                         <div class="card__data">
-                            <span class="card__description">Bojcin Forest, Serbia</span>
-                            <h2 class="card__title">Path Of Peace</h2>
+                            <span class="suc-para">Bojcin Forest, Serbia</span>
+                            <h4 class="sub-sec-title">Path Of Peace</h4>
+                            <a href="#" class="card__button">Read More</a>
+                        </div>
+                    </article>
+                    <article class="card__article filter-item cat5 cat3 cat2 col-md-3 col-12">
+                        <img src="http://127.0.0.1:5501/assets/img/landscape-1.png" alt="image" class="card__img">
+
+                        <div class="card__data">
+                            <span class="suc-para">Bojcin Forest, Serbia</span>
+                            <h4 class="sub-sec-title">Path Of Peace</h4>
                             <a href="#" class="card__button">Read More</a>
                         </div>
                     </article>
