@@ -2071,7 +2071,7 @@ textarea.is-invalid {
           transform: translate3d(-50%, 0, -21px);
 }
 
-.slick-3d-active .slick-3d-prev .testi-card {
+.slick-3d-active .slick-3d-prev .testimonial {
   box-shadow: none;
 }
 
@@ -18475,24 +18475,24 @@ span.select2-selection.select2-selection--single:focus {
   }
 }
 
-.testi-card {
+.testimonial {
   position: relative;
   background-color: #F0EFE9;
   padding: 40px;
 }
 
-.testi-card .box-review {
+.testimonial .box-review {
   margin-top: -0.4rem;
   margin-bottom: 13px;
 }
 
-.testi-card .box-review i {
+.testimonial .box-review i {
   color: #F3BA0E;
   font-size: 14px;
   margin-right: 6px;
 }
 
-.testi-card .box-text {
+.testimonial .box-text {
   font-family: var(--title-font);
   font-weight: 400;
   font-size: 16px;
@@ -18500,7 +18500,7 @@ span.select2-selection.select2-selection--single:focus {
   margin-bottom: 18px;
 }
 
-.testi-card .box-profile {
+.testimonial .box-profile {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -18512,23 +18512,23 @@ span.select2-selection.select2-selection--single:focus {
   gap: 16px;
 }
 
-.testi-card .box-author {
+.testimonial .box-author {
   max-width: 44px;
   border-radius: 50px;
   overflow: hidden;
 }
 
-.testi-card .box-author img {
+.testimonial .box-author img {
   border-radius: 50px;
 }
 
-.testi-card .box-title {
+.testimonial .box-title {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 0;
 }
 
-.testi-card .box-wrapp {
+.testimonial .box-wrapp {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -18541,7 +18541,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 @media (max-width: 375px) {
-  .testi-card .box-wrapp {
+  .testimonial .box-wrapp {
     display: block;
   }
 }

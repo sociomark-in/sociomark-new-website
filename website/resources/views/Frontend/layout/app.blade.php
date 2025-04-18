@@ -72,6 +72,22 @@
         document.addEventListener("mouseout", () => {
             cursor.style.display = "none";
         });
+
+        window.onload = function() {
+            var pageTitle = document.title;
+            var attentionMessage = 'Missing you already';
+            var orginalfavicon = $("link[rel*='icon']").attr("href");
+            document.addEventListener('visibilitychange', function(e) {
+                var isPageActive = !document.hidden;
+                if (!isPageActive) {
+                    document.title = attentionMessage;
+                    $("link[rel*='icon']").attr("href", "https://www.sociomark.in/assets/media/icons/sad.png");
+                } else {
+                    document.title = pageTitle;
+                    $("link[rel*='icon']").attr("href", orginalfavicon);
+                }
+            });
+        };
     </script>
 
 

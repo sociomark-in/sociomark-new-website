@@ -34,14 +34,17 @@ p {
 }
 
 .text-blue {
-    color: var(--theme-color);
+    color: var(--theme-color) !important;
 }
 .text-yellow {
-    color: var(--theme-color);
+    color: var(--theme-color) !important;
 }
 
 .text-orange {
-    color: var(--theme-color2);
+    color: var(--theme-color2) !important;
+}
+.text-black {
+    color: var(--color-black) !important;
 }
 
 .rounded {
@@ -237,6 +240,23 @@ select {
     font-size: clamp(40px, 4.375vw, 70px);
 }
 
+.marquee__content .content span{
+    position: relative;
+    margin-right: 5rem;
+}
+
+.marquee__content .content span::before{
+    position: absolute;
+    content: "";
+    width: 4rem;
+    height: 4rem;
+    background: url("../img/icon/sparkle-orange.png") no-repeat;
+    background-size: contain;
+    left: -4.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 main {
     margin: 0;
 }
@@ -422,11 +442,22 @@ main#home {
 }
 
 /* homw page css start */
-.testi-card {
-    background: #ffffff0a;
+.testimonial {
+    background: none;
 }
-.testi-card .testimonial-message *{
-    color: rgba(255, 255, 255, 0.5);
+.testimonial-card {
+    background: #ffffffc5;
+    padding: 1rem 2rem;
+    border-radius: 0.75rem;
+}
+.testimonial-card.swiper-slide-active{
+    background: var(--color-white);
+}
+.testimonial-card.swiper-slide-active .testimonial-message *{
+    color: #000000;
+}
+.testimonial-card .testimonial-message *{
+    color: rgba(0, 0, 0, 0.877);
 }
 
 .th-btn.th-black2:hover {

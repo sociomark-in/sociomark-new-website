@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-@section('custome-style')
+@push('styles')
     <style>
         #home .about-area2 .sec-title {
             width: 67rem;
@@ -59,8 +59,8 @@
         }
 
         /* #home #about-sec3 .sec-para{
-                                font-weight: 400;
-                            } */
+                                                        font-weight: 400;
+                                                    } */
         #home #about-sec3 .accordion-item2 {
             max-width: 510px;
         }
@@ -175,17 +175,124 @@
 
         /* contact form end */
     </style>
-@endsection
+@endpush
 
 @section('content')
     <main id="home">
-        <section class="overflow-hidden height-full mb-md-3">
+        <section class="overflow-hidden video-heading height-full mb-md-3">
+            <div class="content video-bg">
+                <video class="w-100" autoplay muted loop>
+                    <source src="{{ asset('frontend-assets/video.mp4') }}">
+                </video>
+            </div>
+            <div class="content text-content">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="big-title">
+                                <h1 data-aos="fade-right" data-aos-duration="2000">
+                                    <span>No Noise</span>
+                                </h1>
+                                <h1 data-aos="fade-right" data-aos-delay="2500" data-aos-duration="1000">
+                                    <span class="text-white">Just</span>
+                                </h1>
+                                <h1 data-aos="fade-right" data-aos-delay="3000" data-aos-duration="1000">
+                                    <span class="text-white">Results</span>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @push('styles')
+                <style>
+                    #home .video-heading {
+                        position: relative;
+                    }
+
+                    #home .video-heading::after {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        content: '';
+                        width: 100%;
+                        height: calc(max(20%, 10rem));
+                        background: #000000;
+                        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 90%);
+                    }
+
+                    #home .video-heading .content {
+                        position: absolute;
+                        height: 100vh;
+                        width: 100%;
+                    }
+
+                    #home .video-heading .text-content {
+                        z-index: 1;
+                    }
+
+                    #home .video-heading .video-bg {
+                        position: absolute;
+                        height: 100vh;
+                        width: 100%;
+                    }
+
+                    #home .video-heading .video-bg video {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                </style>
+            @endpush
+        </section>
+
+        <section class="choose-area" id="about-sec2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 pe-5">
+                        <div class="title-area mb-20">
+                            <h2 class="sec-title " data-aos="fade-right" data-aos-delay="300">The Powerful Lorem ipsum.
+                                <span class="text-orange"> Benefits of</span>
+                                Saor SEO Lorem, ipsum.
+                            </h2>
+                        </div>
+                        <p class="sec-para " data-aos="fade-right" data-aos-delay="300">In today's digital landscape, a
+                            strong online presence is critical for business
+                            success. But simply having a website isn't enough. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.</p>
+                        <div class="row mb-35">
+                            <div class="col-6" data-aos="fade-right" data-aos-delay="300">
+                                <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+                                    perspiciatis ratione, minus nobis nam doloremque. </p>
+                            </div>
+                            <div class="col-6" data-aos="fade-left" data-aos-delay="300">
+                                <p class="sec-para">Lorem ipsum dolor sit amet doloremque. Nesciunt quae debitis in autem?
+                                </p>
+                            </div>
+                        </div>
+                        <a href="" class="th-btn white-border th-icon th-radius">
+                            Read More <i class="fa-regular fa-arrow-right ms-2"></i>
+                        </a>
+                    </div>
+                    <div class="col-xl-5" data-aos="fade-left">
+                        <div class="choose-image">
+                            <div class="rounded-overflow" data-tilt data-tilt-max="10">
+                                <img loading="lazy" src="https://placehold.co/804x610" alt="Choose">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {{-- <section class="overflow-hidden height-full mb-md-3">
             <div class="container h-100">
                 <div class="row h-100 flex-row-reverse align-items-center">
                     <div class="col-xl-6" data-aos="fade-left" data-aos-delay="300">
                         <div class="choose-image">
                             <div class="rounded-overflow" data-tilt data-tilt-max="10">
-                                <img src="https://placehold.co/804x610" alt="Choose">
+                                <img loading="lazy" src="https://placehold.co/804x610" alt="Choose">
                             </div>
                         </div>
                     </div>
@@ -205,7 +312,42 @@
 
                 </div>
             </div>
-        </section>
+        </section> --}}
+
+        @push('scripts')
+            <script>
+                const init = () => {
+                    const marquee = document.querySelectorAll('.marquee')
+
+                    if (!marquee) return
+
+                    marquee.forEach(item => {
+                        const marqueeInner = item.querySelector('.marquee__inner')
+                        const marqueeContent = marqueeInner.querySelector('.marquee__content')
+
+                        // Duration
+                        const duration = item.getAttribute('data-marquee-duration')
+
+                        // Element Clone
+                        const marqueeContentClone = marqueeContent.cloneNode(true)
+                        marqueeInner.append(marqueeContentClone)
+
+                        // Marquee animation
+                        const marqueeContentAll = marqueeInner.querySelectorAll('.marquee__content')
+                        marqueeContentAll.forEach(element => {
+                            gsap.to(element, {
+                                x: "-101%",
+                                repeat: -1,
+                                duration: duration,
+                                ease: 'linear'
+                            })
+                        })
+                    })
+                }
+
+                document.addEventListener('DOMContentLoaded', init)
+            </script>
+        @endpush
 
         <section class="about-area" id="about-sec">
             <div class="container-fluid overflow-hidden">
@@ -245,87 +387,6 @@
                     </div>
                     <div class="col-12">
                     </div>
-
-                    @push('scripts')
-                        <script>
-                            const init = () => {
-                                const marquee = document.querySelectorAll('.marquee')
-
-                                if (!marquee) return
-
-                                marquee.forEach(item => {
-                                    const marqueeInner = item.querySelector('.marquee__inner')
-                                    const marqueeContent = marqueeInner.querySelector('.marquee__content')
-
-                                    // Duration
-                                    const duration = item.getAttribute('data-marquee-duration')
-
-                                    // Element Clone
-                                    const marqueeContentClone = marqueeContent.cloneNode(true)
-                                    marqueeInner.append(marqueeContentClone)
-
-                                    // Marquee animation
-                                    const marqueeContentAll = marqueeInner.querySelectorAll('.marquee__content')
-                                    marqueeContentAll.forEach(element => {
-                                        gsap.to(element, {
-                                            x: "-101%",
-                                            repeat: -1,
-                                            duration: duration,
-                                            ease: 'linear'
-                                        })
-                                    })
-                                })
-                            }
-
-                            document.addEventListener('DOMContentLoaded', init)
-                        </script>
-                    @endpush
-                </div>
-            </div>
-            <div class="marquee" data-marquee-duration="30">
-                <div class="marquee__inner">
-                    <div class="marquee__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio culpa iure
-                        recusandae dignissimos beatae vel</div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="choose-area" id="about-sec2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-7 pe-5">
-                        <div class="title-area mb-20">
-                            <h2 class="sec-title " data-aos="fade-right" data-aos-delay="300">The Powerful Lorem ipsum.
-                                <span class="text-orange"> Benefits of</span>
-                                Saor SEO Lorem, ipsum.
-                            </h2>
-                        </div>
-                        <p class="sec-para " data-aos="fade-right" data-aos-delay="300">In today's digital landscape, a
-                            strong online presence is critical for business
-                            success. But simply having a website isn't enough. Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit.</p>
-                        <div class="row mb-35">
-                            <div class="col-6" data-aos="fade-right" data-aos-delay="300">
-                                <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-                                    perspiciatis ratione, minus nobis nam doloremque. </p>
-                            </div>
-                            <div class="col-6" data-aos="fade-left" data-aos-delay="300">
-                                <p class="sec-para">Lorem ipsum dolor sit amet doloremque. Nesciunt quae debitis in autem?
-                                </p>
-                            </div>
-                        </div>
-                        <a href="" class="th-btn white-border th-icon th-radius">
-                            Read More <i class="fa-regular fa-arrow-right ms-2"></i>
-                        </a>
-                    </div>
-                    <div class="col-xl-5" data-aos="fade-left">
-                        <div class="choose-image">
-                            <div class="rounded-overflow" data-tilt data-tilt-max="10">
-                                <img src="https://placehold.co/804x610" alt="Choose">
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -348,7 +409,7 @@
                         </div>
                         <div class="according-img">
                             <div class="rounded-overflow">
-                                <img src="{{ asset('frontend-assets/img/service/DM.png') }}" alt="">
+                                <img loading="lazy" src="{{ asset('frontend-assets/img/service/DM.png') }}" alt="">
                             </div>
                             <p class="sec-para text">Appeals to clients looking for innovative and creative digital
                                 solutions,
@@ -368,7 +429,7 @@
                         </div>
                         <div class="according-img">
                             <div class="rounded-overflow">
-                                <img src="{{ asset('frontend-assets/img/service/SEO.png') }}" alt="">
+                                <img loading="lazy" src="{{ asset('frontend-assets/img/service/SEO.png') }}" alt="">
                             </div>
                             <p class="sec-para text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
                                 reiciendis nesciunt perferendis dignissimos accusantium nostrum, laboriosam cupiditate
@@ -384,7 +445,7 @@
                         </div>
                         <div class="according-img">
                             <div class="rounded-overflow">
-                                <img src="{{ asset('frontend-assets/img/service/SEM.png') }}" alt="">
+                                <img loading="lazy" src="{{ asset('frontend-assets/img/service/SEM.png') }}" alt="">
                             </div>
                             <p class="sec-para text">Appeals to clients looking for innovative and creative digital
                                 solutions,
@@ -402,7 +463,7 @@
                         </div>
                         <div class="according-img">
                             <div class="rounded-overflow">
-                                <img src="{{ asset('frontend-assets/img/service/VP.png') }}" alt="">
+                                <img loading="lazy" src="{{ asset('frontend-assets/img/service/VP.png') }}" alt="">
                             </div>
                             <p class="sec-para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
                                 tempora adipisci provident, magnam cupiditate quod voluptatibus consequuntur eaque
@@ -418,7 +479,7 @@
                         </div>
                         <div class="according-img">
                             <div class="rounded-overflow">
-                                <img src="{{ asset('frontend-assets/img/service/WD.png') }}" alt="">
+                                <img loading="lazy" src="{{ asset('frontend-assets/img/service/WD.png') }}" alt="">
                             </div>
                             <p class="sec-para text">Appeals to clients looking for innovative and creative digital
                                 solutions,
@@ -436,7 +497,7 @@
                         </div>
                         <div class="according-img">
                             <div class="rounded-overflow">
-                                <img src="{{ asset('frontend-assets/img/service/DM.png') }}" alt="">
+                                <img loading="lazy" src="{{ asset('frontend-assets/img/service/DM.png') }}" alt="">
                             </div>
                             <p class="sec-para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
                                 similique modi accusantium odit recusandae laudantium, vel, illo rerum cum sequi, minima
@@ -454,14 +515,32 @@
 
 
             </div>
-            <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img
+            <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img loading="lazy"
                     src="assets/img/shape/shape-9.png" alt=""></div>
-            <div class="shape-mockup d-none d-lg-block" data-top="2%" data-left="0%"><img
+            <div class="shape-mockup d-none d-lg-block" data-top="2%" data-left="0%"><img loading="lazy"
                     src="assets/img/shape/shape-13.png" alt=""></div>
-            <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img
+            <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img loading="lazy"
                     src="assets/img/shape/shape-14.png" alt=""></div>
 
         </section> --}}
+
+        <div class="" style="padding: calc(max(5%, 2rem)) 0">
+            <div class="marquee" data-marquee-duration="30">
+                <div class="marquee__inner">
+                    <div class="marquee__content">
+                        <div class="content">
+                            <span>Digital Marketing</span>
+                            <span>Search Engine Optimization</span>
+                            <span>Social Media Marketing</span>
+                            <span>Website Development</span>
+                            <span>Content Marketing</span>
+                            <span>SEM</span>
+                            <span>Photography & Video Production</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <section class="space" id="about-sec3">
             <div class="container">
@@ -484,8 +563,8 @@
                                     data-bs-target="#v-pills-digital" type="button" role="tab"
                                     aria-controls="v-pills-digital" aria-selected="true">Digital Marketing</button>
                                 <button class="nav-link" id="v-pills-seo-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-seo" type="button" role="tab"
-                                    aria-controls="v-pills-seo" aria-selected="false">SEO</button>
+                                    data-bs-target="#v-pills-seo" type="button" role="tab" aria-controls="v-pills-seo"
+                                    aria-selected="false">SEO</button>
                                 <button class="nav-link" id="v-pills-social-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-social" type="button" role="tab"
                                     aria-controls="v-pills-social" aria-selected="false">Social Media Marketing
@@ -515,7 +594,8 @@
                                     aria-labelledby="v-pills-digital-tab">
                                     <div class="row">
                                         <div class="col-12">
-                                            <img src="{{ asset('frontend-assets/img/service/digital_marketing.jpeg') }}"
+                                            <img loading="lazy"
+                                                src="{{ asset('frontend-assets/img/service/digital_marketing.jpeg') }}"
                                                 alt="" class="w-75">
                                         </div>
                                         <div class="col-12">
@@ -539,8 +619,8 @@
                                     aria-labelledby="v-pills-seo-tab">
                                     <div class="row">
                                         <div class="col-12">
-                                            <img src="{{ asset('frontend-assets/img/service/seo.jpeg') }}" alt=""
-                                                class="w-75">
+                                            <img loading="lazy" src="{{ asset('frontend-assets/img/service/seo.jpeg') }}"
+                                                alt="" class="w-75">
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">Appeals to clients looking for innovative and creative
@@ -562,7 +642,8 @@
                                     aria-labelledby="v-pills-social-tab">
                                     <div class="row">
                                         <div class="col-12">
-                                            <img src="{{ asset('frontend-assets/img/service/social_media.jpeg') }}"
+                                            <img loading="lazy"
+                                                src="{{ asset('frontend-assets/img/service/social_media.jpeg') }}"
                                                 alt="" class="w-75">
                                         </div>
                                         <div class="col-12">
@@ -585,7 +666,8 @@
                                     aria-labelledby="v-pills-website-tab">
                                     <div class="row">
                                         <div class="col-12">
-                                            <img src="{{ asset('frontend-assets/img/service/website_development.jpeg') }}"
+                                            <img loading="lazy"
+                                                src="{{ asset('frontend-assets/img/service/website_development.jpeg') }}"
                                                 alt="" class="w-75">
                                         </div>
                                         <div class="col-">
@@ -608,8 +690,8 @@
                                     aria-labelledby="v-pills-content-tab">
                                     <div class="row">
                                         <div class="col-12">
-                                            <img src="{{ asset('frontend-assets/img/service/sem.jpeg') }}" alt=""
-                                                class="w-75">
+                                            <img loading="lazy" src="{{ asset('frontend-assets/img/service/sem.jpeg') }}"
+                                                alt="" class="w-75">
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">Appeals to clients looking for innovative and creative
@@ -631,8 +713,8 @@
                                     aria-labelledby="v-pills-sem-tab">
                                     <div class="row">
                                         <div class="col-12">
-                                            <img src="{{ asset('frontend-assets/img/service/sem.jpeg') }}" alt=""
-                                                class="w-75">
+                                            <img loading="lazy" src="{{ asset('frontend-assets/img/service/sem.jpeg') }}"
+                                                alt="" class="w-75">
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">Appeals to clients looking for innovative and creative
@@ -654,8 +736,9 @@
                                     aria-labelledby="v-pills-video-tab">
                                     <div class="row">
                                         <div class="col-12">
-                                            <img src="{{ asset('frontend-assets/img/service/video.jpeg') }}"
-                                                alt="" class="w-75">
+                                            <img loading="lazy"
+                                                src="{{ asset('frontend-assets/img/service/video.jpeg') }}" alt=""
+                                                class="w-75">
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">Appeals to clients looking for innovative and creative
@@ -688,15 +771,6 @@
             </div>
         </section>
 
-        <div class="" style="padding: calc(max(5%, 2rem)) 0">
-            <div class="marquee" data-marquee-duration="30">
-                <div class="marquee__inner">
-                    <div class="marquee__content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio culpa iure
-                        recusandae dignissimos beatae vel</div>
-                </div>
-            </div>
-        </div>
-
         <section class="overflow-hidden position-relative space-extra-top space-bottom garally " id="portfolio-sec">
             <div class="container">
                 <div class="title-area text-center mb-25">
@@ -716,8 +790,8 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img src="https://placehold.co/405x740" class="w-100" alt="Lorum Ipsum"
-                                            class="w-100" />
+                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
+                                            alt="Lorum Ipsum" class="w-100" />
                                     </div>
                                     <div class="flip-box-back">
                                         <h4>Mastercard</h4>
@@ -731,7 +805,8 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img src="https://placehold.co/405x740" class="w-100" alt="Lorum Ipsum" />
+                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
+                                            alt="Lorum Ipsum" />
                                     </div>
                                     <div class="flip-box-back">
                                         <h4>Castrol</h4>
@@ -745,7 +820,8 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img src="https://placehold.co/405x740" class="w-100" alt="Lorum Ipsum" />
+                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
+                                            alt="Lorum Ipsum" />
                                     </div>
                                     <div class="flip-box-back">
                                         <h4>Button Dabo Desh Bano</h4>
@@ -759,7 +835,8 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img src="https://placehold.co/405x740" class="w-100" alt="Lorum Ipsum" />
+                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
+                                            alt="Lorum Ipsum" />
                                     </div>
                                     <div class="flip-box-back">
                                         <h4>Nodwin Gaming</h4>
@@ -773,7 +850,8 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img src="https://placehold.co/405x740" class="w-100" alt="Lorum Ipsum" />
+                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
+                                            alt="Lorum Ipsum" />
                                     </div>
                                     <div class="flip-box-back">
                                         <h4>Euro</h4>
@@ -787,7 +865,8 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img src="https://placehold.co/405x740" class="w-100" alt="Lorum Ipsum" />
+                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
+                                            alt="Lorum Ipsum" />
                                     </div>
                                     <div class="flip-box-back">
                                         <h4>TPC</h4>
@@ -801,7 +880,8 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img src="https://placehold.co/405x740" class="w-100" alt="Lorum Ipsum" />
+                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
+                                            alt="Lorum Ipsum" />
                                     </div>
                                     <div class="flip-box-back">
                                         <h4>Euro</h4>
@@ -815,7 +895,8 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img src="https://placehold.co/405x740" class="w-100" alt="Lorum Ipsum" />
+                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
+                                            alt="Lorum Ipsum" />
                                     </div>
                                     <div class="flip-box-back">
                                         <h4>TPC</h4>
@@ -827,6 +908,111 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <div class="" style="padding: calc(max(5%, 2rem)) 0">
+            <div class="marquee" data-marquee-duration="30">
+                <div class="marquee__inner">
+                    <div class="marquee__content">
+                        <div class="content">
+                            <span>Digital Marketing</span>
+                            <span>Search Engine Optimization</span>
+                            <span>Social Media Marketing</span>
+                            <span>Website Development</span>
+                            <span>Content Marketing</span>
+                            <span>SEM</span>
+                            <span>Photography & Video Production</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="overflow-hidden position-relative space-extra-top space-extra-bottom garally" id="testi-sec">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="title-area text-center">
+                            <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
+                                60+ Happy Clients Said To Us <span class="text-orange">They Are Satisfied</span>
+                            </h2>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-xxl-7">
+                        <div class="slider-area">
+                            <div class="swiper testimonial testimonialSwiper th-slider has-shadow">
+                                <div class="swiper-wrapper">
+                                    @for ($i = 0; $i < 10; $i++)
+                                        <div class="swiper-slide testimonial-card">
+                                            <div class=" ">
+                                                {{-- <div class="box-review">
+                                                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                        class="fa-solid fa-star"></i>
+                                                </div> --}}
+                                                <div class="sec-para">
+                                                    <div class="testimonial-message mb-3 mb-md-4">
+                                                        <p class="">
+                                                            Ever since we started working with Sociomark, <strong
+                                                                class="text-black">our return on investment on marketing
+                                                                have
+                                                                significantly improved, almost doubled</strong>. Sociomark
+                                                            is
+                                                            literally <strong class="text-black">our partner in digital
+                                                                marketing</strong>.
+                                                        </p>
+                                                        <div class="d-none d-md-block">
+                                                            They help us in creating a robust marketing strategy. They also
+                                                            create
+                                                            those creatives which raise people's eyeballs when they watch it
+                                                            on
+                                                            social media and the likes are only increasing month and month
+                                                            because
+                                                            of that. Sociomark is so committed that they always deliver what
+                                                            they
+                                                            promise each month. I am extremely happy working with them.
+                                                        </div>
+                                                        <strong class="text-black">Best of luck Sociomark!</strong>
+                                                        <p></p>
+                                                    </div>
+                                                </div>
+                                                <div class="box-wrapp">
+                                                    <div class="box-profile">
+                                                        <div class="box-author">
+                                                            <img loading="lazy" src="https://placehold.co/44x44"
+                                                                alt="Avater">
+                                                        </div>
+                                                        <div class="box-info">
+                                                            <h3 class="box-title text-black">Lorem Ipsum</h3>
+                                                            <span class="box-desig text-black">Lorem Ipsum.</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    @endfor
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @push('scripts')
+                    <script>
+                        new Swiper(".testimonialSwiper", {
+                            effect: "cards",
+                            grabCursor: true,
+                            autoplay: {
+                                delay: 5000,
+                                disableOnInteraction: false,
+                            },
+                        })
+                    </script>
+                @endpush
             </div>
         </section>
 
@@ -845,7 +1031,8 @@
                                 <div class="box-blog th-blog blog-single has-post-thumbnail">
                                     <div class="blog-img box-blog">
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                            <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}"
+                                            <img loading="lazy"
+                                                src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}"
                                                 alt="Blog Image" width="100%"
                                                 style="height: 270px; object-fit: cover; margin-right: 5px;">
                                         </a>
@@ -880,85 +1067,17 @@
             </div>
         </section>
 
-        <section class="overflow-hidden position-relative space-extra-top space-bottom garally" id="testi-sec">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="title-area text-center">
-                            <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
-                                60+ Happy Clients Said To Us <span class="text-orange">They Are Satisfied</span>
-                            </h2>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="slider-area">
-                    <div class="swiper testi-card rounded-overflow p-3 th-slider has-shadow" id="testiSlide1"
-                        data-slider-options='{"loop":true}'>
-                        <div class="swiper-wrapper">
-                            @for ($i = 0; $i < 10; $i++)
-                                <div class="swiper-slide">
-                                    <div class=" ">
-                                        <div class="box-review">
-                                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                                                class="fa-solid fa-star"></i>
-                                        </div>
-                                        <div class="sec-para">
-                                            <div class="testimonial-message mb-3 mb-md-4">
-                                                <p class="">
-                                                    Ever since we started working with Sociomark, <strong
-                                                        class="text-white">our return on investment on marketing have
-                                                        significantly improved, almost doubled</strong>. Sociomark is
-                                                    literally <strong class="text-white">our partner in digital
-                                                        marketing</strong>.
-                                                </p>
-                                                <div class="d-none d-md-block">
-                                                    They help us in creating a robust marketing strategy. They also create
-                                                    those creatives which raise people's eyeballs when they watch it on
-                                                    social media and the likes are only increasing month and month because
-                                                    of that. Sociomark is so committed that they always deliver what they
-                                                    promise each month. I am extremely happy working with them.
-                                                </div>
-                                                <strong class="text-white">Best of luck Sociomark!</strong>
-                                                <p></p>
-                                            </div>
-                                        </div>
-                                        <div class="box-wrapp">
-                                            <div class="box-profile">
-                                                <div class="box-author">
-                                                    <img src="https://placehold.co/44x44" alt="Avater">
-                                                </div>
-                                                <div class="box-info">
-                                                    <h3 class="box-title">Lorem Ipsum</h3>
-                                                    <span class="box-desig">Lorem Ipsum.</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            @endfor
-
-                        </div>
-                    </div>
-                    <button data-slider-prev="#testiSlide1" class="slider-arrow style1 slider-prev"><i
-                            class="far fa-arrow-left"></i></button>
-                    <button data-slider-next="#testiSlide1" class="slider-arrow style1 slider-next"><i
-                            class="far fa-arrow-right"></i></button>
-                </div>
-            </div>
-        </section>
-        <div class="th-blog-wrapper space-top space-extra-bottom" id="contact">
+        <section class="th-blog-wrapper bg-white text-black space-top space-extra-bottom" id="contact">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-xl-5 pe-md-5">
                         <div class="title-area mb-20">
-                            <h2 class="fw-bold sec-title" data-aos="fade-right" data-aos-delay="100">
+                            <h2 class="fw-bold sec-title text-black" data-aos="fade-right" data-aos-delay="100">
                                 The Powerful Benefits of <span class="text-orange"> Saor SEO</span>
                             </h2>
 
                         </div>
-                        <p class="sec-para mb-35 " data-aos="fade-right" data-aos-delay="100">In today's digital
+                        <p class="sec-para mb-35 text-black" data-aos="fade-right" data-aos-delay="100">In today's digital
                             landscape, a strong online presence is critical for business success. But simply having a
                             website isn't enough.</p>
 
@@ -1062,7 +1181,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 @endsection
 
