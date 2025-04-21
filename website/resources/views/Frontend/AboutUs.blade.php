@@ -12,7 +12,168 @@
         background-color: #F5F5F5;
     }
 
- 
+    /* aboutUs-KEyPoints about-sec4 */
+    #aboutUs-KEyPoints .content-box {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .position-md-relative {
+        position: relative !important;
+    }
+
+    #aboutUs-KEyPoints .image-gallery {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    #aboutUs-KEyPoints .gallery-img {
+        width: 310px;
+        height: 450px;
+        object-fit: cover;
+        transition: all 0.5s ease;
+        border-radius: 10px;
+        cursor: pointer;
+        display: block;
+    }
+
+    #aboutUs-KEyPoints .gallery-img.default-active {
+        width: 570px;
+    }
+
+    #aboutUs-KEyPoints .gallery-img.default-active .img-overlay p {
+        width: 50%;
+    }
+
+    #aboutUs-KEyPoints .img-overlay .top-content .logo-info {
+        width: auto;
+        height: 40px;
+        line-height: 23px;
+    }
+
+    #aboutUs-KEyPoints .img-overlay p {
+        width: 100%;
+    }
+
+    #aboutUs-KEyPoints .img-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        /* default state */
+        height: 100%;
+        padding: 1rem;
+        background: rgba(0, 0, 0, 0.2);
+        /* semi-transparent black */
+        color: white;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        border-radius: 10px;
+        transition: all 0.4s ease;
+        pointer-events: none;
+        /* allows hover on img */
+        opacity: 1;
+        /* always visible now */
+    }
+
+    @media (max-width: 767.98px) {
+        #aboutUs-KEyPoints .img-overlay {
+            position: static !important;
+        }
+
+        #aboutUs-KEyPoints .gallery-img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .position-sm-static {
+            position: static;
+        }
+
+        #aboutUs-KEyPoints .gallery-img.default-active {
+            width: 100%;
+        }
+
+        #aboutUs-KEyPoints .image-gallery {
+            flex-direction: column;
+        }
+
+        .founder .img {
+            width: auto !important;
+            height: auto !important;
+            margin-top: -0px;
+        }
+    }
+
+    #aboutUs-KEyPoints .img-overlay.active {
+        justify-content: space-between;
+    }
+
+    #aboutUs-KEyPoints .desc-text {
+        opacity: 0;
+        transition: opacity 0.4s ease;
+    }
+
+    #aboutUs-KEyPoints .desc-text:not(.d-none) {
+        opacity: 1;
+    }
+
+    #aboutUs-KEyPoints .position-relative:hover .img-overlay {
+        background: rgba(0, 0, 0, 0.2);
+        transform: scale(1.02);
+        pointer-events: auto;
+    }
+
+    #aboutUs-KEyPoints .img-overlay h4,
+    #aboutUs-KEyPoints .img-overlay p,
+    #aboutUs-KEyPoints .img-overlay a {
+        opacity: 1;
+        transform: translateY(0);
+        transition: all 0.4s ease;
+    }
+
+    #aboutUs-KEyPoints .img-overlay a {
+        background-color: white !important;
+        color: black !important;
+    }
+
+    #aboutUs-KEyPoints .explore-btn a {
+        padding: 0px !important;
+        background-color: white !important;
+        color: black !important;
+    }
+
+    #aboutUs-KEyPoints .explore-btn {
+        background-color: white;
+        color: black !important;
+        opacity: 1;
+        transform: translateY(0);
+        transition: all 0.4s ease;
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+        justify-content: center;
+        border-radius: 55px;
+        padding: 15px 28px;
+        opacity: 1;
+        transform: translateY(0);
+        transition: all 0.4s ease;
+
+    }
+
+    #aboutUs-KEyPoints .img-overlay a:hover {
+        background-color: black;
+        color: white !important;
+    }
+
+    /* aboutUs-KeyPoints :end */
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
     integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
@@ -34,7 +195,7 @@
             </div>
         </div>
     </div>
-    <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden" id="about-sec">
+    <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden " id="about-sec">
         <div class="container">
             <div class="row align-items-end justify-content-center">
                 <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
@@ -62,7 +223,7 @@
         </div>
     </div>
 
-    <div class="overflow-hidden mb-md-3 mt-md-3 mt-0 md-0" id="about-process">
+    <div class="overflow-hidden mb-md-3 mt-md-3 mt-0 md-0 " id="about-process">
         <div class="container process-container text-center">
             <h2 class="fw-bold mb-5 sec-title"
                 data-aos="fade-up"
@@ -150,7 +311,7 @@
         </div>
     </div>
 
-    <div class="ourwork overflow-hidden space" id="aboutUs-KEyPoints">
+    <div class="ourwork overflow-hidden space " id="aboutUs-KEyPoints">
         <div class="container">
             <div class="text-center content-box">
                 <!-- <h2 class="sec-title">Making a mark, one day at a time!</h2> -->
@@ -164,8 +325,10 @@
             </div>
 
             <!-- Static Flex Image Layout -->
-            <div class="image-gallery js-overlay gap-3 d-flex justify-content-center">
-                <div class="position-relative">
+
+            <div class="image-gallery js-overlay gap-3">
+
+                <div class="position-md-relative position-sm-static d-flex flex-column flex-md-row">
                     <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
                         class="gallery-img default-active" alt="Business Image">
                     <div class="img-overlay d-flex flex-column justify-content-between h-100 p-3">
@@ -185,14 +348,14 @@
                                 In today’s fast-moving digital landscape, staying ahead means staying smart — and that’s exactly what we do.
                             </p>
                             <div class="explore-btn">
-                                <a href="about.html" class="th-btn th-icon text-white w-100 text-start p-0">Explore More </a>
+                                <a href="about.html" class="th-btn th-icon text-white w-100 text-start">Explore More </a>
                                 <i class="fa-regular fa-arrow-right ms-2"></i>
                             </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="position-relative">
+                <div class="position-md-relative position-sm-static d-flex flex-column flex-md-row">
                     <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
                         class="gallery-img" alt="Meeting Image">
 
@@ -213,14 +376,14 @@
                                 Our success is measured by the results we drive — and the brands we help grow. From local startups to national players, our portfolio is packed with case studies that showcase real ROI.
                             </p>
                             <div class="explore-btn">
-                                <a href="about.html" class="th-btn th-icon text-white w-100 text-start p-0">Explore More </a>
+                                <a href="about.html" class="th-btn th-icon text-white w-100 text-start">Explore More </a>
                                 <i class="fa-regular fa-arrow-right ms-2"></i>
                             </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="position-relative">
+                <div class="position-md-relative position-sm-static d-flex flex-column flex-md-row">
                     <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
                         class="gallery-img" alt="Office Image">
                     <div class="img-overlay h-100 p-3">
@@ -240,7 +403,7 @@
                                 Behind every pixel, post, and plan is a passionate team driven by curiosity and creativity.
                             </p>
                             <div class="explore-btn">
-                                <a href="about.html" class="th-btn th-icon text-white w-100 text-start p-0">Explore More </a>
+                                <a href="about.html" class="th-btn th-icon text-white w-100 text-start">Explore More </a>
                                 <i class="fa-regular fa-arrow-right ms-2"></i>
                             </div>
                         </div>
@@ -299,7 +462,7 @@
     <div class="mb-md-5 mb-2 py-4 px-3 founder" id="our-founder">
         <div class="container">
             <div class="row align-items-center justify-content-center">
-                <div class="col-md-6 position-relative img custom-top me-0 me-md-5"
+                <div class="col-md-6 col-12 position-relative img custom-top me-0 me-md-5"
                     data-aos="fade-right"
                     data-aos-delay="100"
                     data-aos-duration="1000"
@@ -307,7 +470,7 @@
                     style="--tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--tw-bg-opacity)); padding: 1rem; border-radius: 30px;">
                     <img src="https://www.sociomark.in/assets/img/founders.jpg" class="img-fluid rounded w-100 h-100 object-fit-cover" alt="Office Team">
                 </div>
-                <div class="col-md-6 text-white p-4 ">
+                <div class="col-md-6 col-12 text-white p-4 ">
                     <h2 class="fw-bold mb-1 sec-title"
                         data-aos="fade-left"
                         data-aos-delay="100"
@@ -433,7 +596,7 @@
             </div>
         </div>
     </div>
-    @include('frontend.partial.contactUs')
+    @include('Frontend/partial/contactUs')
 
 </main>
 @endsection

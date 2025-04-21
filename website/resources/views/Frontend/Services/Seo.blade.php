@@ -16,10 +16,6 @@
         font-weight: 700 !important;
     }
 
-
-
-
-
     @media (max-width: 576px) {
 
         #seo-service #about-sec2,
@@ -271,7 +267,7 @@
             </div>
         </div>
     </div>
-    <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden overflow-hidden space" id="about-sec">
+    <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden overflow-hidden" id="about-sec">
         <div class="container">
             <div class="row align-items-end justify-content-center">
                 <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
@@ -829,8 +825,8 @@
                             </div>
                         </div>
                     </section> -->
-    @include('frontend.partial.clientList')
-    @include('frontend.partial.blog')
+    @include('Frontend.partial.clientList')
+    @include('Frontend.partial.blog')
     <div class="overflow-hidden space" id="about-sec6">
         <div class="container">
             <div class="title-area text-center mb-25">
@@ -978,7 +974,7 @@
         </div>
 
     </div>
-    @include('frontend/partial/contactUs')
+    @include('Frontend/partial/contactUs')
 </main>
 @endsection
 
