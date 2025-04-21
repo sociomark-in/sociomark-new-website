@@ -272,7 +272,7 @@
                 </div>
 
                 <!-- Static Flex Image Layout -->
-                <div class="image-gallery js-overlay gap-3 d-flex justify-content-center">
+                <div class="image-gallery js-overlay gap-3 d-flex flex-column flex-lg-row justify-content-center">
                     <div class="position-relative">
                         <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
                             class="gallery-img default-active" alt="Business Image">
