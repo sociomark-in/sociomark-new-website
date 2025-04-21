@@ -70,7 +70,6 @@ select {
 
 .form-group {
     position: relative;
-    margin-bottom: 2.5rem;
 }
 
 .form-group input,
@@ -339,11 +338,11 @@ main#home {
 }
 
 .main-menu.style2>ul>li>a:hover {
-    color: #ffffff;
+    color: #121212;
 }
 
 .main-menu.style2>ul>li>a:hover:before {
-    background-color: #bbb;
+    background-color: var(--theme-color2);
 }
 
 .brand-item {
@@ -363,13 +362,14 @@ main#home {
 .player-video::before {
     position: absolute;
     content: "";
-    width: 105%;
-    height: 115%;
     background: url("../img/shape/video_frame_xlarge.png") no-repeat;
     background-size: contain;
     z-index: 1;
-    left: -1rem;
-    top: -7rem;
+    width: 105%;
+    height: 115%;
+    z-index: 1;
+    left: 0%;
+    top: -15%;
 }
 
 .player-video video {
