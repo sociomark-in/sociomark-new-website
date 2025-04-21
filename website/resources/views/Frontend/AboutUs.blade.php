@@ -1,201 +1,68 @@
 @extends('Frontend.layout.app')
 
 @section('custome-style')
-<style>
-    #about-us #about-process,
-    #about-us #contact {
-        background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
-    }
+    <style>
+        #about-us #about-process,
+        #about-us #contact {
+            background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
+        }
 
-    #about-us #aboutUs-KEyPoints,
-    #our-founder {
-        background-color: #F5F5F5;
-    }
-</style>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
-    integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/additional-methods.min.js"
-    integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        #about-us #aboutUs-KEyPoints,
+        #our-founder {
+            background-color: #F5F5F5;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
+        integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/additional-methods.min.js"
+        integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 @endsection
 @section('content')
-<main id="about-us">
-    <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x520">
-        <div class="container">
-            <div class="breadcumb-content">
-                <h1 class="breadcumb-title text-uppercase">About us</h1>
-                <ul class="breadcumb-menu">
-                    <li><a href="home-seo-agency.html">Home</a></li>
-                    <li>About Us</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden " id="about-sec">
-        <div class="container">
-            <div class="row align-items-end justify-content-center">
-                <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
-                    <div class="title-area mb-md-3 mb-2 mt-n1">
-                        <!-- <h2 class="sec-title text-center "> Our Comprehensive International SEO Solutions</h2> -->
-                        <h2 class="text-center fw-bold sec-title my-3"
-                            data-aos="zoom-in"
-                            data-aos-delay="100"
-                            data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">
-                            Your brand’s digital partner, <span class="text-blue"> every step of the way</span>
-                        </h2>
-                    </div>
-                </div>
-                <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
-                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down"
-                        data-aos-delay="100"
-                        data-aos-duration="1000"
-                        data-aos-easing="ease-in-out">We go beyond the ordinary. Every brand we work with gets a tailored, thoughtful strategy—because no two stories are the same. Whether it’s <strong>SEO, social media marketing,</strong> or <strong>web development</strong>, we listen, understand, and deliver what actually works.
-                    </p>
-                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down"
-                        data-aos-delay="120"
-                        data-aos-duration="1200"
-                        data-aos-easing="ease-in-out">As a full-suite <strong>digital marketing agency in UAE,</strong> we offer everything from performance marketing to creative strategy under one roof. Our focus is on real results and meaningful connections. Client satisfaction isn’t just a goal—it’s how we measure success. While others follow trends, we build lasting impact. That’s what makes us reMARKable.
-                    </p>
+    <main id="about-us">
+        <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x520">
+            <div class="container">
+                <div class="breadcumb-content">
+                    <h1 class="breadcumb-title text-uppercase">About us</h1>
+                    <ul class="breadcumb-menu">
+                        <li><a href="home-seo-agency.html">Home</a></li>
+                        <li>About Us</li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden " id="about-sec">
+        <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden" id="about-sec">
             <div class="container">
                 <div class="row align-items-end justify-content-center">
-                    <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
+                    <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
                         <div class="title-area mb-md-3 mb-2 mt-n1">
                             <!-- <h2 class="sec-title text-center "> Our Comprehensive International SEO Solutions</h2> -->
                             <h2 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                Your brand’s digital partner, <span class="text-blue"> every step of the way</span>
+                                Hello, we are Sociomark – <span class="text-blue"> A Digital Marketing Company</span> in
+                                Mumbai
                             </h2>
                         </div>
                     </div>
                     <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
                         <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100"
-                            data-aos-duration="1000" data-aos-easing="ease-in-out">We go beyond the ordinary. Every brand we
-                            work with gets a tailored, thoughtful strategy—because no two stories are the same. Whether it’s
-                            <strong>SEO, social media marketing,</strong> or <strong>web development</strong>, we listen,
-                            understand, and deliver what actually works.
-                        </p>
-                        <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="120"
-                            data-aos-duration="1200" data-aos-easing="ease-in-out">As a full-suite <strong>digital marketing
-                                agency in UAE,</strong> we offer everything from performance marketing to creative strategy
-                            under one roof. Our focus is on real results and meaningful connections. Client satisfaction
-                            isn’t just a goal—it’s how we measure success. While others follow trends, we build lasting
-                            impact. That’s what makes us reMARKable.
+                            data-aos-duration="1000" data-aos-easing="ease-in-out">In today's digital age, a strong online
+                            presence is no longer a luxury but a necessity. Sociomark is your trusted partner in navigating
+                            the tough digital landscape. As a leading Digital Marketing agency based in Navi Mumbai, we are
+                            committed to driving tangible results for your business.
+                            Our expertise spans a wide range of services, including Social Media Marketing, SEO, Graphic
+                            design, Website Development, Performance Marketing, etc. We understand that every business is
+                            unique, and therefore, we tailor our strategies to meet your specific goals and objectives.
+                            Let us help you unlock the full potential of your brand. Partner with us and experience the
+                            difference a dedicated agency can make.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <section class="position-relative overflow-hidden space overflow-hidden" id="process-sec">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="title-area text-center">
-                            <div class="shadow-title">Process</div>
-                            <span class="sub-title sub-title4 mb-4 mb-md-5">Work Process<span></span></span>
-                            <h2 class="sec-title  ">The work process of our agency</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="step-wrap">
-                    <div class="row g-3 g-md-5">
-                        <div class="process-card col-xl-3 col-lg-6 col-12">
-                            <div class="box-wrapp">
-                                <div class="box-icon">
-                                    <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}" alt="icon">
-                                </div>
-                                <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                        alt=""></div>
-                                <div class="box-number">
-                                    01 </div>
-                            </div>
-                            <div class="box-content">
-                                <h2 class="box-title">Research and Strategy</h2>
-                                <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                    behaviors. Submit as many design tasks</p>
-
-                            </div>
-                        </div>
-                        <div class="process-card col-xl-3 col-lg-6 col-12">
-                            <div class="box-wrapp">
-                                <div class="box-icon">
-                                    <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
-                                </div>
-                                <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                        alt=""></div>
-                                <div class="box-number">
-                                    02 </div>
-                            </div>
-                            <div class="box-content">
-                                <h2 class="box-title">Plan Customization</h2>
-                                <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                    behaviors. Submit as many design tasks</p>
-
-                            </div>
-                        </div>
-                        <div class="process-card col-xl-3 col-lg-6 col-12">
-                            <div class="box-wrapp">
-                                <div class="box-icon">
-                                    <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}" alt="icon">
-                                </div>
-                                <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                        alt=""></div>
-                                <div class="box-number">
-                                    03 </div>
-                            </div>
-                            <div class="box-content">
-                                <h2 class="box-title">Finished &amp; User Testing</h2>
-                                <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                    behaviors. Submit as many design tasks</p>
-
-                            </div>
-                        </div>
-                        <div class="process-card col-xl-3 col-lg-6 col-12">
-                            <div class="box-wrapp">
-                                <div class="box-icon">
-                                    <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
-                                </div>
-                                <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                        alt=""></div>
-                                <div class="box-number">
-                                    04 </div>
-                            </div>
-                            <div class="box-content">
-                                <h2 class="box-title">Plan Customization</h2>
-                                <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                    behaviors. Submit as many design tasks</p>
-
-                            </div>
-                        </div>
-                        <div class="process-card col-xl-3 col-lg-6 col-12">
-                            <div class="box-wrapp">
-                                <div class="box-icon">
-                                    <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}" alt="icon">
-                                </div>
-                                <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                        alt=""></div>
-                                <div class="box-number">
-                                    05 </div>
-                            </div>
-                            <div class="box-content">
-                                <h2 class="box-title">Finished &amp; User Testing</h2>
-                                <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                    behaviors. Submit as many design tasks</p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="overflow-hidden mb-md-3 mt-md-3 mt-0 md-0 " id="about-process">
+        <div class="overflow-hidden mb-md-3 mt-md-3 mt-0 md-0" id="about-process">
             <div class="container process-container text-center">
                 <h2 class="fw-bold mb-5 sec-title" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
@@ -268,7 +135,7 @@
             </div>
         </div>
 
-        <section class="ourwork overflow-hidden space " id="about-keypoints">
+        <div class="ourwork overflow-hidden space" id="aboutUs-KEyPoints">
             <div class="container">
                 <div class="text-center content-box">
                     <!-- <h2 class="sec-title">Making a mark, one day at a time!</h2> -->
@@ -279,9 +146,7 @@
                 </div>
 
                 <!-- Static Flex Image Layout -->
-
-                <div class="image-gallery d-flex flex-column flex-md-row js-overlay gap-3">
-
+                <div class="image-gallery js-overlay gap-3 d-flex justify-content-center">
                     <div class="position-relative">
                         <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
                             class="gallery-img default-active" alt="Business Image">
@@ -293,7 +158,8 @@
                                     (Content)</a>
                                 <a href="about.html" class="th-btn th-btn-white no-hover p-2 px-3 mt-2">Meta Ads
                                     (Advertising)</a>
-                                <a href="about.html" class="th-btn th-btn-white no-hover p-2 px-3 mt-2">Adobe (Photography & Editing)</a>
+                                <a href="about.html" class="th-btn th-btn-white no-hover p-2 px-3 mt-2">Adobe (Photography
+                                    & Editing)</a>
                             </div>
 
                             <!-- Bottom content -->
@@ -387,7 +253,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
         <section class="about-area overflow-hidden position-relative p-0" id="about-banner"
             style="background-color: black;">
@@ -440,13 +306,13 @@
         <div class="mb-md-5 mb-2 py-4 px-3 founder" id="our-founder">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-md-6 col-12 position-relative img custom-top me-0 me-md-5" data-aos="fade-right"
+                    <div class="col-md-6 position-relative img custom-top me-0 me-md-5" data-aos="fade-right"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out"
                         style="--tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--tw-bg-opacity)); padding: 1rem; border-radius: 30px;">
                         <img src="https://www.sociomark.in/assets/img/founders.jpg"
                             class="img-fluid rounded w-100 h-100 object-fit-cover" alt="Office Team">
                     </div>
-                    <div class="col-md-6 col-12 text-white p-4 ">
+                    <div class="col-md-6 text-white p-4 ">
                         <h2 class="fw-bold mb-1 sec-title" data-aos="fade-left" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
                             Meet Our <span class="text-blue"> Founders</span>
@@ -569,7 +435,7 @@
                 </div>
             </div>
         </div>
-        @include('Frontend/partial/contactUs')
+        @include('Frontend.partial.contactUs')
 
     </main>
 @endsection
