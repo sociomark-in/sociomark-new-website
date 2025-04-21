@@ -3,6 +3,9 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<!-- Plugin: TypewriterJS -->
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<!-- Plugin: TypewriterJS -->
 @push('styles')
 <style>
     #home .about-area2 .sec-title {
@@ -272,7 +275,7 @@
                 <div class="col-xl-5" data-aos="fade-left">
                     <div class="choose-image">
                         <div class="rounded-overflow" data-tilt data-tilt-max="10">
-                            <img loading="lazy" src="https://placehold.co/804x610" alt="Choose">
+                            <img loading="lazy" src="{{ asset('frontend-assets/img/team/home.jpg')}}" alt="The Team">
                         </div>
                     </div>
                 </div>
@@ -405,118 +408,115 @@
                         <div class="according-img">
                             <div class="rounded-overflow">
                                 <img loading="lazy" src="{{ asset('frontend-assets/img/service/DM.png') }}" alt="">
-    </div>
-    <p class="sec-para text">Appeals to clients looking for innovative and creative digital
-        solutions,
-        positioning the agency as a leader in creativity. Conveys a collaborative approach,
-        suggesting that the agency works closely with clients to achieve their digital
-        goals.
-    </p>
-    <a href="" class="th-btn white-border th-icon th-radius">
-        Read More
-    </a>
-    </div>
+                            </div>
+                            <p class="sec-para text">Appeals to clients looking for innovative and creative digital
+                                solutions,
+                                positioning the agency as a leader in creativity. Conveys a collaborative approach,
+                                suggesting that the agency works closely with clients to achieve their digital
+                                goals.
+                            </p>
+                            <a href="" class="th-btn white-border th-icon th-radius">
+                                Read More
+                            </a>
+                        </div>
 
-    </div>
-    <div class="according-list hover-item">
-        <div class="accordion-item2">
-            <h3 class="box-title">International website structure and URL optimization</h3>
-        </div>
-        <div class="according-img">
-            <div class="rounded-overflow">
-                <img loading="lazy" src="{{ asset('frontend-assets/img/service/SEO.png') }}" alt="">
+                    </div>
+                    <div class="according-list hover-item">
+                        <div class="accordion-item2">
+                            <h3 class="box-title">International website structure and URL optimization</h3>
+                        </div>
+                        <div class="according-img">
+                            <div class="rounded-overflow">
+                                <img loading="lazy" src="{{ asset('frontend-assets/img/service/SEO.png') }}" alt="">
+                            </div>
+                            <p class="sec-para text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
+                                reiciendis nesciunt perferendis dignissimos accusantium nostrum, laboriosam cupiditate
+                                dolores tenetur blanditiis.
+                            </p>
+                            <a href="" class="th-btn white-border th-icon th-radius">
+                                Read More </a>
+                        </div>
+                    </div>
+                    <div class="according-list hover-item">
+                        <div class="accordion-item2">
+                            <h3 class="box-title">Multilingual content creation and translation</h3>
+                        </div>
+                        <div class="according-img">
+                            <div class="rounded-overflow">
+                                <img loading="lazy" src="{{ asset('frontend-assets/img/service/SEM.png') }}" alt="">
+                            </div>
+                            <p class="sec-para text">Appeals to clients looking for innovative and creative digital
+                                solutions,
+                                positioning the agency as a leader in creativity. Conveys a collaborative approach,
+                                suggesting that the agency works closely with clients to achieve their digital
+                                goals.
+                            </p>
+                            <a href="" class="th-btn white-border th-icon th-radius">
+                                Read More </a>
+                        </div>
+                    </div>
+                    <div class="according-list hover-item">
+                        <div class="accordion-item2">
+                            <h3 class="box-title">Hreflang implementation</h3>
+                        </div>
+                        <div class="according-img">
+                            <div class="rounded-overflow">
+                                <img loading="lazy" src="{{ asset('frontend-assets/img/service/VP.png') }}" alt="">
+                            </div>
+                            <p class="sec-para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+                                tempora adipisci provident, magnam cupiditate quod voluptatibus consequuntur eaque
+                                voluptatem, animi totam repudiandae facilis facere quo tempore, ad laudantium ducimus sunt?
+                            </p>
+                            <a href="" class="th-btn white-border th-icon th-radius">
+                                Read More </a>
+                        </div>
+                    </div>
+                    <div class="according-list hover-item">
+                        <div class="accordion-item2">
+                            <h3 class="box-title">Country-specific domain or subdomain strategy</h3>
+                        </div>
+                        <div class="according-img">
+                            <div class="rounded-overflow">
+                                <img loading="lazy" src="{{ asset('frontend-assets/img/service/WD.png') }}" alt="">
+                            </div>
+                            <p class="sec-para text">Appeals to clients looking for innovative and creative digital
+                                solutions,
+                                positioning the agency as a leader in creativity. Conveys a collaborative approach,
+                                suggesting that the agency works closely with clients to achieve their digital
+                                goals.
+                            </p>
+                            <a href="" class="th-btn white-border th-icon th-radius">
+                                Read More </a>
+                        </div>
+                    </div>
+                    <div class="according-list hover-item">
+                        <div class="accordion-item2">
+                            <h3 class="box-title">International link building and outreach</h3>
+                        </div>
+                        <div class="according-img">
+                            <div class="rounded-overflow">
+                                <img loading="lazy" src="{{ asset('frontend-assets/img/service/DM.png') }}" alt="">
+                            </div>
+                            <p class="sec-para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                                similique modi accusantium odit recusandae laudantium, vel, illo rerum cum sequi, minima
+                                eaque mollitia quos odio beatae iste nam temporibus accusamus.
+                            </p>
+                            <p class="sec-para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+                                similique modi accusantium odit recusandae laudantium, vel, illo rerum cum sequi, minima
+                                eaque mollitia quos odio beatae iste nam temporibus accusamus.
+                            </p>
+                            <a href="" class="th-btn white-border th-icon th-radius">
+                                Read More </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p class="sec-para text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
-                reiciendis nesciunt perferendis dignissimos accusantium nostrum, laboriosam cupiditate
-                dolores tenetur blanditiis.
-            </p>
-            <a href="" class="th-btn white-border th-icon th-radius">
-                Read More </a>
-        </div>
-    </div>
-    <div class="according-list hover-item">
-        <div class="accordion-item2">
-            <h3 class="box-title">Multilingual content creation and translation</h3>
-        </div>
-        <div class="according-img">
-            <div class="rounded-overflow">
-                <img loading="lazy" src="{{ asset('frontend-assets/img/service/SEM.png') }}" alt="">
-            </div>
-            <p class="sec-para text">Appeals to clients looking for innovative and creative digital
-                solutions,
-                positioning the agency as a leader in creativity. Conveys a collaborative approach,
-                suggesting that the agency works closely with clients to achieve their digital
-                goals.
-            </p>
-            <a href="" class="th-btn white-border th-icon th-radius">
-                Read More </a>
-        </div>
-    </div>
-    <div class="according-list hover-item">
-        <div class="accordion-item2">
-            <h3 class="box-title">Hreflang implementation</h3>
-        </div>
-        <div class="according-img">
-            <div class="rounded-overflow">
-                <img loading="lazy" src="{{ asset('frontend-assets/img/service/VP.png') }}" alt="">
-            </div>
-            <p class="sec-para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-                tempora adipisci provident, magnam cupiditate quod voluptatibus consequuntur eaque
-                voluptatem, animi totam repudiandae facilis facere quo tempore, ad laudantium ducimus sunt?
-            </p>
-            <a href="" class="th-btn white-border th-icon th-radius">
-                Read More </a>
-        </div>
-    </div>
-    <div class="according-list hover-item">
-        <div class="accordion-item2">
-            <h3 class="box-title">Country-specific domain or subdomain strategy</h3>
-        </div>
-        <div class="according-img">
-            <div class="rounded-overflow">
-                <img loading="lazy" src="{{ asset('frontend-assets/img/service/WD.png') }}" alt="">
-            </div>
-            <p class="sec-para text">Appeals to clients looking for innovative and creative digital
-                solutions,
-                positioning the agency as a leader in creativity. Conveys a collaborative approach,
-                suggesting that the agency works closely with clients to achieve their digital
-                goals.
-            </p>
-            <a href="" class="th-btn white-border th-icon th-radius">
-                Read More </a>
-        </div>
-    </div>
-    <div class="according-list hover-item">
-        <div class="accordion-item2">
-            <h3 class="box-title">International link building and outreach</h3>
-        </div>
-        <div class="according-img">
-            <div class="rounded-overflow">
-                <img loading="lazy" src="{{ asset('frontend-assets/img/service/DM.png') }}" alt="">
-            </div>
-            <p class="sec-para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-                similique modi accusantium odit recusandae laudantium, vel, illo rerum cum sequi, minima
-                eaque mollitia quos odio beatae iste nam temporibus accusamus.
-            </p>
-            <p class="sec-para text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-                similique modi accusantium odit recusandae laudantium, vel, illo rerum cum sequi, minima
-                eaque mollitia quos odio beatae iste nam temporibus accusamus.
-            </p>
-            <a href="" class="th-btn white-border th-icon th-radius">
-                Read More </a>
-        </div>
-    </div>
-    </div>
-
-
-    </div>
-    <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img loading="lazy"
-            src="assets/img/shape/shape-9.png" alt=""></div>
-    <div class="shape-mockup d-none d-lg-block" data-top="2%" data-left="0%"><img loading="lazy"
-            src="assets/img/shape/shape-13.png" alt=""></div>
-    <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img loading="lazy"
-            src="assets/img/shape/shape-14.png" alt=""></div>
-
+            <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img loading="lazy"
+                    src="assets/img/shape/shape-9.png" alt=""></div>
+            <div class="shape-mockup d-none d-lg-block" data-top="2%" data-left="0%"><img loading="lazy"
+                    src="assets/img/shape/shape-13.png" alt=""></div>
+            <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img loading="lazy"
+                    src="assets/img/shape/shape-14.png" alt=""></div>
     </section> --}}
 
     {{-- Stripe --}}
@@ -542,12 +542,20 @@
     <section class="space" id="about-sec3">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-xl-8">
+                <div class="col-12">
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title" data-aos="fade-up" data-aos-delay="100">
-                            Effective Solutions for <span class="text-orange"> Lasting Impressions</span>
+                            Effective Solutions <br>for <span id="workTitle" class="text-orange">Lasting Impressions</span>
                         </h2>
                     </div>
+                    <script>
+                        new Typewriter('#workTitle', {
+                            strings: ['Lasting Impressions', 'Digital Marketing', 'Search Engine Optimization', 'Social Media Marketing', 'Website Development', 'Content Marketing', 'SEM', 'Photography','Video Production'],
+                            autoStart: true,
+                            loop: true,
+                            cursor: "",
+                        });
+                    </script>
                 </div>
             </div>
             <div class="tabbed-content tab-dark">
@@ -559,7 +567,7 @@
                             <button class="nav-link active" id="v-pills-digital-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-digital" type="button" role="tab"
                                 aria-controls="v-pills-digital" aria-selected="true">
-                                <h3 class="sec-para">Social Media Marketing</h3>
+                                <h3 class="sec-para">Digital Marketing</h3>
                             </button>
                             <button class="nav-link" id="v-pills-seo-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-seo" type="button" role="tab"
@@ -569,11 +577,16 @@
                             <button class="nav-link" id="v-pills-social-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-social" type="button" role="tab"
                                 aria-controls="v-pills-social" aria-selected="false">
-                                <h3 class="sec-para">Website Development</h3>
+                                <h3 class="sec-para">Social Media Marketing</h3>
                             </button>
                             <button class="nav-link" id="v-pills-website-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-website" type="button" role="tab"
                                 aria-controls="v-pills-website" aria-selected="false">
+                                <h3 class="sec-para">Website Development</h3>
+                            </button>
+                            <button class="nav-link" id="v-pills-performance-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-performance" type="button" role="tab"
+                                aria-controls="v-pills-performance" aria-selected="false">
                                 <h3 class="sec-para">Performance Marketing</h3>
                             </button>
                             <button class="nav-link" id="v-pills-content-tab" data-bs-toggle="pill"
@@ -581,9 +594,9 @@
                                 aria-controls="v-pills-content" aria-selected="false">
                                 <h3 class="sec-para">Content Marketing</h3>
                             </button>
-                            <button class="nav-link" id="v-pills-sem-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-sem" type="button" role="tab"
-                                aria-controls="v-pills-sem" aria-selected="false">
+                            <button class="nav-link" id="v-pills-production-tab" data-bs-toggle="pill"
+                                data-bs-target="#v-pills-production" type="button" role="tab"
+                                aria-controls="v-pills-production" aria-selected="false">
                                 <h3 class="sec-para">Graphic Designing & Video Production</h3>
                             </button>
 
@@ -596,7 +609,24 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <img loading="lazy"
-                                            src="{{ asset('frontend-assets/img/service/digital_marketing.jpeg') }}"
+                                            src="{{ asset('frontend-assets/img/service/DM_color.jpg') }}"
+                                            alt="" class="w-100 service-image rounded-overflow">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="text mt-3">Crafting stories that matter on the platforms that matter. As the best <strong>digital marketing agency in UAE,</strong> we help you create an impactful and lasting social presence.
+                                        </p>
+                                        <a href="" class="th-btn white-border th-icon th-radius">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-social" role="tabpanel"
+                                aria-labelledby="v-pills-social-tab">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img loading="lazy"
+                                            src="{{ asset('frontend-assets/img/service/SM_color.jpg') }}"
                                             alt="" class="w-100 service-image rounded-overflow">
                                     </div>
                                     <div class="col-12">
@@ -612,29 +642,11 @@
                                 aria-labelledby="v-pills-seo-tab">
                                 <div class="row">
                                     <div class="col-12">
-                                        <img loading="lazy" src="{{ asset('frontend-assets/img/service/seo.jpeg') }}"
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/service/SEO_color.jpg') }}"
                                             alt="" class="w-100 service-image rounded-overflow">
                                     </div>
                                     <div class="col-12">
                                         <p class="text mt-3">Boost your search engine rankings and drive organic traffic with our proven SEO strategies. As an <strong>SEO Company in Dubai,</strong> we help your brand stand out where it matters most.
-                                        </p>
-                                        <a href="" class="th-btn white-border th-icon th-radius">
-                                            Read More
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-social" role="tabpanel"
-                                aria-labelledby="v-pills-social-tab">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <img loading="lazy"
-                                            src="{{ asset('frontend-assets/img/service/social_media.jpeg') }}"
-                                            alt="" class="w-100 service-image rounded-overflow">
-                                    </div>
-                                    <div class="col-12">
-                                        <p class="text mt-3"> Your website is your first impression—make it count. We build fast, functional, and future-ready websites that work beautifully on every screen.
-
                                         </p>
                                         <a href="" class="th-btn white-border th-icon th-radius">
                                             Read More
@@ -647,7 +659,25 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <img loading="lazy"
-                                            src="{{ asset('frontend-assets/img/service/website_development.jpeg') }}"
+                                            src="{{ asset('frontend-assets/img/service/WD_color.jpg') }}"
+                                            alt="" class="w-100 service-image rounded-overflow">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="text mt-3"> Your website is your first impression—make it count. We build fast, functional, and future-ready websites that work beautifully on every screen.
+
+                                        </p>
+                                        <a href="" class="th-btn white-border th-icon th-radius">
+                                            Read More
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-performance" role="tabpanel"
+                                aria-labelledby="v-pills-performance-tab">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <img loading="lazy"
+                                            src="{{ asset('frontend-assets/img/service/DM_color.jpg') }}"
                                             alt="" class="w-100 service-image rounded-overflow">
                                     </div>
                                     <div class="col-">
@@ -664,7 +694,7 @@
                                 aria-labelledby="v-pills-content-tab">
                                 <div class="row">
                                     <div class="col-12">
-                                        <img loading="lazy" src="{{ asset('frontend-assets/img/service/sem.jpeg') }}"
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/service/CM_color.jpg') }}"
                                             alt="" class="w-100 service-image rounded-overflow">
                                     </div>
                                     <div class="col-12">
@@ -677,11 +707,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="v-pills-sem" role="tabpanel"
-                                aria-labelledby="v-pills-sem-tab">
+                            <div class="tab-pane fade" id="v-pills-production" role="tabpanel"
+                                aria-labelledby="v-pills-production-tab">
                                 <div class="row">
                                     <div class="col-12">
-                                        <img loading="lazy" src="{{ asset('frontend-assets/img/service/sem.jpeg') }}"
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/service/VP_color.jpg') }}"
                                             alt="" class="w-100 service-image rounded-overflow">
                                     </div>
                                     <div class="col-12">
@@ -694,12 +724,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="v-pills-video" role="tabpanel"
+                            {{-- <div class="tab-pane fade" id="v-pills-video" role="tabpanel"
                                 aria-labelledby="v-pills-video-tab">
                                 <div class="row">
                                     <div class="col-12">
                                         <img loading="lazy"
-                                            src="{{ asset('frontend-assets/img/service/video.jpeg') }}" alt=""
+                                            src="{{ asset('frontend-assets/img/service/VP_color.jpg') }}" alt=""
                                             class="w-100 service-image rounded-overflow">
                                     </div>
                                     <div class="col-12">
@@ -717,7 +747,7 @@
                                         </a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -934,7 +964,7 @@
                                         <div class="box-wrapp">
                                             <div class="box-profile">
                                                 <div class="box-author">
-                                                    <img loading="lazy" src="https://placehold.co/44x44"
+                                                    <img loading="lazy" src="https://ui-avatars.com/api/?name=Smita%20Naram"
                                                         alt="Avater">
                                                 </div>
                                                 <div class="box-info">
@@ -962,7 +992,7 @@
                                         <div class="box-wrapp">
                                             <div class="box-profile">
                                                 <div class="box-author">
-                                                    <img loading="lazy" src="https://placehold.co/44x44"
+                                                    <img loading="lazy" src="https://ui-avatars.com/api/?name=Apurva%20Shah"
                                                         alt="Avater">
                                                 </div>
                                                 <div class="box-info">
@@ -990,7 +1020,7 @@
                                         <div class="box-wrapp">
                                             <div class="box-profile">
                                                 <div class="box-author">
-                                                    <img loading="lazy" src="https://placehold.co/44x44"
+                                                    <img loading="lazy" src="https://ui-avatars.com/api/?name=Shafeeq%20Mareen"
                                                         alt="Avater">
                                                 </div>
                                                 <div class="box-info">
@@ -1018,7 +1048,7 @@
                                         <div class="box-wrapp">
                                             <div class="box-profile">
                                                 <div class="box-author">
-                                                    <img loading="lazy" src="https://placehold.co/44x44"
+                                                    <img loading="lazy" src="https://ui-avatars.com/api/?name=Siju%20Thomas"
                                                         alt="Avater">
                                                 </div>
                                                 <div class="box-info">
