@@ -31,7 +31,7 @@ class BlogController extends Controller
     {
         $categories = Category::all(); // Fetch all categories
         $tags = Tag::all(); // Fetch all tags
-        return view('Admin/Pages/Blog/AddBlog', compact('categories', 'tags'));
+        return view('admin/Pages/Blog/AddBlog', compact('categories', 'tags'));
     }
 
 
@@ -93,7 +93,7 @@ class BlogController extends Controller
         $blog = Blog::findOrFail($id);
         $categories = Category::all(); // Assuming you have a Category model
         $tags = Tag::all();
-        return view('Admin/Pages/Blog/EditBlog', compact('blog', 'categories', 'tags'));
+        return view('admin/Pages/Blog/EditBlog', compact('blog', 'categories', 'tags'));
     }
 
     

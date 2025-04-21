@@ -16,10 +16,6 @@
         font-weight: 700 !important;
     }
 
-
-
-
-
     @media (max-width: 576px) {
 
         #seo-service #about-sec2,
@@ -58,7 +54,7 @@
     /* section 2 end */
     /* work flow */
     #benefits {
-        max-height: 60vh;
+        max-height: 100vh;
         /* Or a specific height like 500px */
         overflow-y: auto;
         padding-right: 15px;
@@ -271,7 +267,7 @@
             </div>
         </div>
     </div>
-    <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden overflow-hidden space" id="about-sec">
+    <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden overflow-hidden" id="about-sec">
         <div class="container">
             <div class="row align-items-end justify-content-center">
                 <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
@@ -283,7 +279,7 @@
                         </h2>
                     </div>
                 </div>
-                <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
+                <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out">SEO stands for <b>Search Engine
                             Optimization</b>. It involves optimizing a website to rank higher in search engine results by
@@ -386,7 +382,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row align-items-center">
+            <div class="row">
                 <!-- Left Side -->
                 <div class="col-md-6 text-center">
                     <div class="circle-wrapper" data-aos="fade-right" data-aos-delay="200" data-tilt data-tilt-max="10">
@@ -829,8 +825,8 @@
                             </div>
                         </div>
                     </section> -->
-    @include('frontend.partial.clientList')
-    @include('frontend.partial.blog')
+    @include('Frontend.partial.clientList')
+    @include('Frontend.partial.blog')
     <div class="overflow-hidden space" id="about-sec6">
         <div class="container">
             <div class="title-area text-center mb-25">
@@ -978,7 +974,7 @@
         </div>
 
     </div>
-    @include('frontend/partial/contactUs')
+    @include('Frontend/partial/contactUs')
 </main>
 @endsection
 

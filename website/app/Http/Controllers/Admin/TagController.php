@@ -17,7 +17,7 @@ class TagController extends Controller
 
     public function create()
     {
-        return view('Admin/Pages/Tags/AddTag');
+        return view('admin/Pages/Tags/AddTag');
     }
 
     public function store(Request $request)
