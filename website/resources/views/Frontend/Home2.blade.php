@@ -59,8 +59,8 @@
         }
 
         /* #home #about-sec3 .sec-para{
-                                                                font-weight: 400;
-                                                            } */
+                                                                            font-weight: 400;
+                                                                        } */
         #home #about-sec3 .accordion-item2 {
             max-width: 510px;
         }
@@ -188,17 +188,14 @@
             </div>
             <div class="content text-content">
                 <div class="container h-100">
-                    <div class="row h-100 align-items-center">
-                        <div class="col-12">
+                    <div class="row h-100 justify-content-center align-items-center">
+                        <div class="col-xxl-10 col-12">
                             <div class="big-title">
                                 <h1 data-aos="fade-right" data-aos-duration="2000">
                                     <span>No Noise</span>
                                 </h1>
                                 <h1 data-aos="fade-right" data-aos-delay="2500" data-aos-duration="1000">
-                                    <span class="text-white">Just</span>
-                                </h1>
-                                <h1 data-aos="fade-right" data-aos-delay="3000" data-aos-duration="1000">
-                                    <span class="text-white">Results</span>
+                                    <span class="text-white">#JustResults</span>
                                 </h1>
                             </div>
                         </div>
@@ -259,17 +256,17 @@
                                 Saor SEO Lorem, ipsum.
                             </h2>
                         </div>
-                        <p class="sec-para " data-aos="fade-right" data-aos-delay="300">In today's digital landscape, a
+                        <p class="sec-para text-white-50" data-aos="fade-right" data-aos-delay="300">In today's digital landscape, a
                             strong online presence is critical for business
                             success. But simply having a website isn't enough. Lorem ipsum dolor sit amet consectetur
                             adipisicing elit.</p>
                         <div class="row mb-35">
                             <div class="col-6" data-aos="fade-right" data-aos-delay="300">
-                                <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+                                <p class="sec-para text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
                                     perspiciatis ratione, minus nobis nam doloremque. </p>
                             </div>
                             <div class="col-6" data-aos="fade-left" data-aos-delay="300">
-                                <p class="sec-para">Lorem ipsum dolor sit amet doloremque. Nesciunt quae debitis in autem?
+                                <p class="sec-para text-white-50">Lorem ipsum dolor sit amet doloremque. Nesciunt quae debitis in autem?
                                 </p>
                             </div>
                         </div>
@@ -601,7 +598,7 @@
                                         <div class="col-12">
                                             <img loading="lazy"
                                                 src="{{ asset('frontend-assets/img/service/digital_marketing.jpeg') }}"
-                                                alt="" class="w-75">
+                                                alt="" class="w-100 service-image rounded-overflow">
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">web deve Appeals to clients looking for innovative and
@@ -625,7 +622,7 @@
                                     <div class="row">
                                         <div class="col-12">
                                             <img loading="lazy" src="{{ asset('frontend-assets/img/service/seo.jpeg') }}"
-                                                alt="" class="w-75">
+                                                alt="" class="w-100 service-image rounded-overflow">
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">Appeals to clients looking for innovative and creative
@@ -649,7 +646,7 @@
                                         <div class="col-12">
                                             <img loading="lazy"
                                                 src="{{ asset('frontend-assets/img/service/social_media.jpeg') }}"
-                                                alt="" class="w-75">
+                                                alt="" class="w-100 service-image rounded-overflow">
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">Appeals to clients looking for innovative and creative
@@ -673,7 +670,7 @@
                                         <div class="col-12">
                                             <img loading="lazy"
                                                 src="{{ asset('frontend-assets/img/service/website_development.jpeg') }}"
-                                                alt="" class="w-75">
+                                                alt="" class="w-100 service-image rounded-overflow">
                                         </div>
                                         <div class="col-">
                                             <p class="text mt-3">Appeals to clients looking for innovative and creative
@@ -696,7 +693,7 @@
                                     <div class="row">
                                         <div class="col-12">
                                             <img loading="lazy" src="{{ asset('frontend-assets/img/service/sem.jpeg') }}"
-                                                alt="" class="w-75">
+                                                alt="" class="w-100 service-image rounded-overflow">
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">Appeals to clients looking for innovative and creative
@@ -719,7 +716,7 @@
                                     <div class="row">
                                         <div class="col-12">
                                             <img loading="lazy" src="{{ asset('frontend-assets/img/service/sem.jpeg') }}"
-                                                alt="" class="w-75">
+                                                alt="" class="w-100 service-image rounded-overflow">
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">Appeals to clients looking for innovative and creative
@@ -743,7 +740,7 @@
                                         <div class="col-12">
                                             <img loading="lazy"
                                                 src="{{ asset('frontend-assets/img/service/video.jpeg') }}" alt=""
-                                                class="w-75">
+                                                class="w-100 service-image rounded-overflow">
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">Appeals to clients looking for innovative and creative
@@ -950,7 +947,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-xxl-6 col-xl-8 col-md-10 col-12">
+                    <div class="col-xxl-7 col-xl-9 col-md-10 col-12">
                         <div class="slider-area">
                             <div class="swiper testimonial testimonialSwiper th-slider has-shadow">
                                 <div class="swiper-wrapper">
@@ -1111,10 +1108,33 @@
         </section>
 
         {{-- Contact --}}
+        @push('scripts')
+            <script>
+                $(window).resize(function() {
+                    /*Bind an event handler to the "resize"*/
+                    if ($(window).width() < 786 || $(window).height() < 480) {
+                        gsap.to("#contact", {
+                            onStart: () => {
+                                console.log("Started");
+                                new bootstrap.Modal(document.getElementById("homeContactModal"), {}).show();
+                            },
+                            scrollTrigger: {
+                                trigger: "#contact",
+                                start: "0% 50%",
+                                end: "+=1",
+                                markers: true,
+                                pin: true,
+                                scrub: true
+                            }
+                        })
+                    }
+                })
+            </script>
+        @endpush
         <section class="th-blog-wrapper bg-white text-black space-top space-extra-bottom" id="contact">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-xl-5 pe-md-5">
+                    <div class="col-lg-5 pe-md-5">
                         <div class="title-area mb-20">
                             <h2 class="fw-bold sec-title text-black" data-aos="fade-right" data-aos-delay="100">
                                 The Powerful Benefits of <span class="text-orange"> Saor SEO</span>
@@ -1127,10 +1147,10 @@
                             website isn't enough.</p>
 
                     </div>
-                    <div class="col-xl-7">
+                    <div class="col-lg-7 d-none d-lg-block">
                         <form action="{{ route('contact.store') }}" method="POST" class="contact-form style2">
                             @csrf
-                            <div class="row">
+                            <div class="row g-3">
                                 <div class="form-group col-md-6">
                                     <label for="name">Your Name</label>
                                     <input type="text" class="form-control @error('name') is-invalid @enderror"
@@ -1224,9 +1244,117 @@
 
                         </form>
                     </div>
+                    <div class="col-12 d-block d-md-none">
+                        <button class="th-btn th-radius" data-bs-toggle="modal"
+                            data-bs-target="#homeContactModal">Contact Us</button>
+                    </div>
                 </div>
             </div>
         </section>
+        <div class="modal fade" id="homeContactModal" tabindex="-1" aria-labelledby="homeContactModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="homeContactModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body contact-form style2">
+                        <form action="{{ route('contact.store') }}" method="POST" class="">
+                            @csrf
+                            <div class="row g-2">
+                                <div class="form-group col-md-6">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" class="form-control @error('name') is-invalid @enderror"
+                                        name="name" id="name" placeholder="Enter your Name"
+                                        value="{{ old('name') }}">
+                                    @error('name')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <i class="far fa-envelope"></i>
+                                    <label for="email">Email</label>
+                                    <input type="text" class="form-control @error('email') is-invalid @enderror"
+                                        name="email" id="email" placeholder="Enter your Email"
+                                        value="{{ old('email') }}">
+                                    @error('email')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <i class="fal fa-phone"></i>
+                                    <label for="phone">Phone</label>
+                                    <input type="text" class="form-control @error('phone') is-invalid @enderror"
+                                        name="phone" id="phone" placeholder="Enter your Phone"
+                                        value="{{ old('phone') }}">
+                                    @error('phone')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-6">
+
+                                    <label for="service">Service you want?</label>
+                                    <select class="form-select @error('service') is-invalid @enderror" id="service"
+                                        name="service">
+                                        <option selected disabled>Choose an option</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+
+                                    @error('service')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-6">
+
+                                    <label for="budget">Marketing Budget</label>
+                                    <select class="form-select @error('budget') is-invalid @enderror" id="budget"
+                                        name="budget">
+                                        <option selected disabled>Choose an option</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+                                    @error('budget')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-6">
+
+                                    <label for="aboutUs">How did you hear about Us?</label>
+                                    <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs"
+                                        name="aboutUs">
+                                        <option selected disabled>Choose an option</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+                                    @error('aboutUs')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-12">
+
+                                    <label for="messageforus">Your Message</label>
+                                    <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus"
+                                        placeholder="Enter your message" rows="4" name="messageforus"></textarea>
+                                    <i class="fal fa-pencil"></i>
+                                    @error('messageforus')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="col-12 form-group mb-0 text-center">
+                                    <button class="th-btn th-radius">Submit Message</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 @endsection
 
