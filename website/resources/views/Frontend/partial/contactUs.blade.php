@@ -3,9 +3,10 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-xl-5 pe-md-5">
                     <div class="title-area mb-20">
-                        <h2 class="sec-title ">The Powerful Benefits of Saor SEO</h2>
+                        <h2 class="sec-title " data-aos="fade-right" data-aos-delay="100">Start the Conversation, <span class="text-blue"> Spark the Change </span></h2>
                     </div>
-                    <p class="sec-para mb-35 ">In today's digital landscape, a strong online presence is critical for business success. But simply having a website isn't enough.</p>
+                    <p class="sec-para mb-35 " data-aos="fade-right" data-aos-delay="100">Whether it’s a big brief or a tiny thought, we’d love to hear what’s on your mind.
+                    </p>
 
                 </div>
                 <div class="col-xl-7">
