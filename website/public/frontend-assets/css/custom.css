@@ -114,6 +114,32 @@ select {
     background-color: white;
 }
 
+.th-btn.th-btn-white {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    border: 1px solid var(--color-white);
+    box-shadow: none;
+}
+
+.th-btn.th-btn-white:hover {
+    border-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.th-btn.th-btn-white:hover:before,
+.th-btn.th-btn-white:hover:after {
+    background-color: var(--color-black);
+}
+.th-btn.th-btn-white.no-hover:hover {
+    border-color: var(--color-white);
+    color: var(--color-black);
+}
+
+.th-btn.th-btn-white.no-hover:hover:before,
+.th-btn.th-btn-white.no-hover:hover:after {
+    display: none;
+}
+
 .tabbed-content{}
 .tabbed-content .nav-pills{}
 .tabbed-content .nav-pills .nav-link{
@@ -805,8 +831,8 @@ main#home {
 /* end faq */
 
 
-/* aboutUs-KEyPoints about-sec4 */
-#aboutUs-KEyPoints .gallery-img {
+/* about-keypoints about-sec4 */
+#about-keypoints .gallery-img {
     width: 310px;
     height: 450px;
     object-fit: cover;
@@ -816,15 +842,15 @@ main#home {
     display: block;
 }
 
-#aboutUs-KEyPoints .gallery-img.default-active {
+#about-keypoints .gallery-img.default-active {
     width: 570px;
 }
 
-#aboutUs-KEyPoints .img-overlay .top-content .logo-info {
+#about-keypoints .img-overlay .top-content .logo-info {
     line-height: 23px;
 }
 
-#aboutUs-KEyPoints .img-overlay {
+#about-keypoints .img-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -843,34 +869,34 @@ main#home {
     opacity: 1;
 }
 
-#aboutUs-KEyPoints .img-overlay.active {
+#about-keypoints .img-overlay.active {
     justify-content: space-between;
 }
 
-#aboutUs-KEyPoints .desc-text:not(.d-none) {
+#about-keypoints .desc-text:not(.d-none) {
     opacity: 1;
 }
 
-#aboutUs-KEyPoints .position-relative:hover .img-overlay {
+#about-keypoints .position-relative:hover .img-overlay {
     background: rgba(0, 0, 0, 0.2);
     transform: scale(1);
     pointer-events: auto;
 }
 
-#aboutUs-KEyPoints .img-overlay h4,
-#aboutUs-KEyPoints .img-overlay p,
-#aboutUs-KEyPoints .img-overlay a {
+#about-keypoints .img-overlay h4,
+#about-keypoints .img-overlay p,
+#about-keypoints .img-overlay a {
     opacity: 1;
     transform: translateY(0);
     transition: all 0.4s ease;
 }
 
-#aboutUs-KEyPoints .img-overlay a {
-    background-color: white !important;
-    color: black !important;
+#about-keypoints .img-overlay a.explore-btn {
+    /* background-color: white !important;
+    color: black !important; */
 }
 
-#aboutUs-KEyPoints .explore-btn {
+#about-keypoints .explore-btn {
     background-color: white;
     color: black !important;
     opacity: 1;
@@ -888,7 +914,7 @@ main#home {
 
 }
 
-/* aboutUs-KeyPoints :end */
+/* about-keypoints :end */
 
 /* CTA section */
 .cta-section {
