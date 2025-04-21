@@ -75,8 +75,8 @@
                 </div>
             </div>
             <div class="step-wrap">
-                <div class="process-card_wrapp">
-                    <div class="process-card">
+                <div class="row g-3 g-md-5">
+                    <div class="process-card col-xl-3 col-lg-6 col-12">
                         <div class="box-wrapp">
                             <div class="box-icon">
                                 <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}" alt="icon">
@@ -91,7 +91,7 @@
 
                         </div>
                     </div>
-                    <div class="process-card">
+                    <div class="process-card col-xl-3 col-lg-6 col-12">
                         <div class="box-wrapp">
                             <div class="box-icon">
                                 <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
@@ -106,7 +106,7 @@
 
                         </div>
                     </div>
-                    <div class="process-card">
+                    <div class="process-card col-xl-3 col-lg-6 col-12">
                         <div class="box-wrapp">
                             <div class="box-icon">
                                 <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}" alt="icon">
@@ -114,6 +114,36 @@
                             <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
                             <div class="box-number">
                                 03 </div>
+                        </div>
+                        <div class="box-content">
+                            <h2 class="box-title">Finished &amp; User Testing</h2>
+                            <p class="box-text">Conduct thorough market of the research to the fast target audience behaviors. Submit as many design tasks</p>
+
+                        </div>
+                    </div>
+                    <div class="process-card col-xl-3 col-lg-6 col-12">
+                        <div class="box-wrapp">
+                            <div class="box-icon">
+                                <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
+                            </div>
+                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                            <div class="box-number">
+                                04 </div>
+                        </div>
+                        <div class="box-content">
+                            <h2 class="box-title">Plan Customization</h2>
+                            <p class="box-text">Conduct thorough market of the research to the fast target audience behaviors. Submit as many design tasks</p>
+
+                        </div>
+                    </div>
+                    <div class="process-card col-xl-3 col-lg-6 col-12">
+                        <div class="box-wrapp">
+                            <div class="box-icon">
+                                <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}" alt="icon">
+                            </div>
+                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                            <div class="box-number">
+                                05 </div>
                         </div>
                         <div class="box-content">
                             <h2 class="box-title">Finished &amp; User Testing</h2>
@@ -229,9 +259,9 @@
 
             <!-- Static Flex Image Layout -->
 
-            <div class="image-gallery d-flex js-overlay gap-3">
+            <div class="image-gallery d-flex flex-column flex-md-row js-overlay gap-3">
 
-                <div class="position-relative d-flex flex-column flex-md-row">
+                <div class="position-relative">
                     <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
                         class="gallery-img default-active" alt="Business Image">
                     <div class="img-overlay d-flex flex-column justify-content-between h-100 p-3">
@@ -258,7 +288,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="position-relative d-flex flex-column flex-md-row">
+                <div class="position-relative">
                     <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
                         class="gallery-img" alt="Meeting Image">
 
@@ -286,7 +316,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="position-relative d-flex flex-column flex-md-row">
+                <div class="position-relative">
                     <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
                         class="gallery-img" alt="Office Image">
                     <div class="img-overlay h-100 p-3">
