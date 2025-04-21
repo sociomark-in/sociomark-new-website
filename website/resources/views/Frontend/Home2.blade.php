@@ -563,22 +563,28 @@
                             </button>
                             <button class="nav-link" id="v-pills-seo-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-seo" type="button" role="tab"
-                                aria-controls="v-pills-seo" aria-selected="false"> <h3 class="sec-para">Search Engine Optimization</h3></button>
+                                aria-controls="v-pills-seo" aria-selected="false">
+                                <h3 class="sec-para">Search Engine Optimization</h3>
+                            </button>
                             <button class="nav-link" id="v-pills-social-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-social" type="button" role="tab"
-                                aria-controls="v-pills-social" aria-selected="false"> <h3 class="sec-para">Website Development</h3>
+                                aria-controls="v-pills-social" aria-selected="false">
+                                <h3 class="sec-para">Website Development</h3>
                             </button>
                             <button class="nav-link" id="v-pills-website-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-website" type="button" role="tab"
-                                aria-controls="v-pills-website" aria-selected="false"> <h3 class="sec-para">Performance Marketing</h3>
+                                aria-controls="v-pills-website" aria-selected="false">
+                                <h3 class="sec-para">Performance Marketing</h3>
                             </button>
                             <button class="nav-link" id="v-pills-content-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-content" type="button" role="tab"
-                                aria-controls="v-pills-content" aria-selected="false"> <h3 class="sec-para">Content Marketing</h3>
+                                aria-controls="v-pills-content" aria-selected="false">
+                                <h3 class="sec-para">Content Marketing</h3>
                             </button>
                             <button class="nav-link" id="v-pills-sem-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-sem" type="button" role="tab"
-                                aria-controls="v-pills-sem" aria-selected="false"> <h3 class="sec-para">Graphic Designing & Video Production</h3>
+                                aria-controls="v-pills-sem" aria-selected="false">
+                                <h3 class="sec-para">Graphic Designing & Video Production</h3>
                             </button>
 
                         </div>
@@ -905,8 +911,8 @@
                     <div class="slider-area">
                         <div class="swiper testimonial testimonialSwiper th-slider has-shadow">
                             <div class="swiper-wrapper">
-                                @for ($i = 0; $i < 10; $i++)
-                                    <div class="swiper-slide testimonial-card">
+
+                                <div class="swiper-slide testimonial-card">
                                     <div class=" ">
                                         {{-- <div class="box-review">
                                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
@@ -916,24 +922,10 @@
                                         <div class="sec-para">
                                             <div class="testimonial-message mb-3 mb-md-4">
                                                 <p class="">
-                                                    Ever since we started working with Sociomark, <strong
-                                                        class="text-black">our return on investment on marketing
-                                                        have
-                                                        significantly improved, almost doubled</strong>. Sociomark
-                                                    is
-                                                    literally <strong class="text-black">our partner in digital
-                                                        marketing</strong>.
+                                                    Ever since we started working with Sociomark, <strong>our return on investment on marketing have significantly improved, almost doubled</strong>. Sociomark is literally <strong>our partner in digital marketing</strong>.
                                                 </p>
                                                 <div class="d-none d-md-block">
-                                                    They help us in creating a robust marketing strategy. They also
-                                                    create
-                                                    those creatives which raise people's eyeballs when they watch it
-                                                    on
-                                                    social media and the likes are only increasing month and month
-                                                    because
-                                                    of that. Sociomark is so committed that they always deliver what
-                                                    they
-                                                    promise each month. I am extremely happy working with them.
+                                                    They help us in creating a robust marketing strategy. They also create those creatives which raise people's eyeballs when they watch it on social media and the likes are only increasing month and month because of that. Sociomark is so committed that they always deliver what they promise each month. I am extremely happy working with them. <strong>Best of luck Sociomark!</strong>
                                                 </div>
                                                 <strong class="text-black">Best of luck Sociomark!</strong>
                                                 <p></p>
@@ -946,31 +938,114 @@
                                                         alt="Avater">
                                                 </div>
                                                 <div class="box-info">
-                                                    <h3 class="box-title text-black">Lorem Ipsum</h3>
-                                                    <span class="box-desig text-black">Lorem Ipsum.</span>
+                                                    <h3 class="box-title text-black">Dr. Smita Naram</h3>
+                                                    <span class="box-desig text-black">Founder, Ayushakti Ayurveda</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="swiper-slide testimonial-card">
+                                    <div class=" ">
+                                        <div class="sec-para">
+                                            <div class="testimonial-message mb-3 mb-md-4">
+                                                <p class="">
+                                                Working with SocioMark for about 3 years now. <strong > Lovely people to work with.</strong>.
+                                                </p>
+                                                <div class="d-none d-md-block">
+                                                They have hardly ever missed any deadlines.The best part about them is that they no longer feel like an external agency but someone who is a part of Network18 group.We know whenever we are in trouble or that late night call for an urgent creative SocioMark will always be there.They have set benchmarks for others by their creative work done for the Road to safety campaign.</strong>
+                                                </div>
+                                                <strong class="text-black">Best of luck Sociomark!</strong>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                        <div class="box-wrapp">
+                                            <div class="box-profile">
+                                                <div class="box-author">
+                                                    <img loading="lazy" src="https://placehold.co/44x44"
+                                                        alt="Avater">
+                                                </div>
+                                                <div class="box-info">
+                                                    <h3 class="box-title text-black">Apurva Shah</h3>
+                                                    <span class="box-desig text-black">AGM, Marketing</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide testimonial-card">
+                                    <div class=" ">
+                                        <div class="sec-para">
+                                            <div class="testimonial-message mb-3 mb-md-4">
+                                                <p class="">
+                                                Its a pleasure working with Sociomark for social media marketing of our brand GrillBox through Facebook and Instagram.
+                                                </p>
+                                                <div class="d-none d-md-block">
+                                                Sociomark helped us to reach many users through their creative contents. They were easy to work with and were flexible with meeting our needs.
+                                                </div>
+                                                <strong class="text-black">Best of luck Sociomark!</strong>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                        <div class="box-wrapp">
+                                            <div class="box-profile">
+                                                <div class="box-author">
+                                                    <img loading="lazy" src="https://placehold.co/44x44"
+                                                        alt="Avater">
+                                                </div>
+                                                <div class="box-info">
+                                                    <h3 class="box-title text-black">Shafeeq Mareen</h3>
+                                                    <span class="box-desig text-black">GrillBox, Founder</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide testimonial-card">
+                                    <div class=" ">
+                                        <div class="sec-para">
+                                            <div class="testimonial-message mb-3 mb-md-4">
+                                                <p class="">
+                                                Sociomark team is absolutely very professional in their work yet bring in high flexibility in terms of ownership in delivery.
+                                                </p>
+                                                <div class="d-none d-md-block">
+                                                All the tasks and works are delivered with utmost commitment and dedication and on time. they never said no and always valued and worked on our feedbacks we have had a long term engagement with them and they are an absolute pleasure to work with!
+                                                </div>
+                                                <strong class="text-black">Best of luck Sociomark!</strong>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                        <div class="box-wrapp">
+                                            <div class="box-profile">
+                                                <div class="box-author">
+                                                    <img loading="lazy" src="https://placehold.co/44x44"
+                                                        alt="Avater">
+                                                </div>
+                                                <div class="box-info">
+                                                    <h3 class="box-title text-black">Siju Thomas</h3>
+                                                    <span class="box-desig text-black">The Professional Couriers, CEO</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            @endfor
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        @push('scripts')
-        <script>
-            new Swiper(".testimonialSwiper", {
-                effect: "cards",
-                grabCursor: true,
-                autoplay: {
-                    delay: 5000,
-                    disableOnInteraction: false,
-                },
-            })
-        </script>
-        @endpush
+            @push('scripts')
+            <script>
+                new Swiper(".testimonialSwiper", {
+                    effect: "cards",
+                    grabCursor: true,
+                    autoplay: {
+                        delay: 5000,
+                        disableOnInteraction: false,
+                    },
+                })
+            </script>
+            @endpush
         </div>
     </section>
 
