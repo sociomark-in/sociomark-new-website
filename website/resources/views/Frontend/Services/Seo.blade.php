@@ -266,21 +266,25 @@
             border: 0;
             padding: 0;
         }
-.according-list{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.accordion-item2{
-    width: 100%;
-    text-align: center;
-}
-#seo-service #about-sec3 .according-list .according-img {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-}
+
+        .according-list {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .accordion-item2 {
+            width: 100%;
+            text-align: center;
+        }
+
+        #seo-service #about-sec3 .according-list .according-img {
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
         .according-list .according-img {
             max-width: 530px;
             padding-left: 30px;

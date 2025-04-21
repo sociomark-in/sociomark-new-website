@@ -1,29 +1,63 @@
 @extends('Frontend.layout.app')
 
 @section('custome-style')
-    <style>
-        #about-us #about-process,
-        #about-us #contact {
-            background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
-        }
-    </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
-        integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/additional-methods.min.js"
-        integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<style>
+    #about-us #about-process,
+    #about-us #contact {
+        background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
+    }
+
+    #about-us #aboutUs-KEyPoints,
+    #our-founder {
+        background-color: #F5F5F5;
+    }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
+    integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/additional-methods.min.js"
+    integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 @endsection
 @section('content')
-    <main id="about-us">
-        <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x520">
-            <div class="container">
-                <div class="breadcumb-content">
-                    <h1 class="breadcumb-title text-uppercase">About us</h1>
-                    <ul class="breadcumb-menu">
-                        <li><a href="home-seo-agency.html">Home</a></li>
-                        <li>About Us</li>
-                    </ul>
+<main id="about-us">
+    <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x520">
+        <div class="container">
+            <div class="breadcumb-content">
+                <h1 class="breadcumb-title text-uppercase">About us</h1>
+                <ul class="breadcumb-menu">
+                    <li><a href="home-seo-agency.html">Home</a></li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden " id="about-sec">
+        <div class="container">
+            <div class="row align-items-end justify-content-center">
+                <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
+                    <div class="title-area mb-md-3 mb-2 mt-n1">
+                        <!-- <h2 class="sec-title text-center "> Our Comprehensive International SEO Solutions</h2> -->
+                        <h2 class="text-center fw-bold sec-title my-3"
+                            data-aos="zoom-in"
+                            data-aos-delay="100"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
+                            Your brand’s digital partner, <span class="text-blue"> every step of the way</span>
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
+                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down"
+                        data-aos-delay="100"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">We go beyond the ordinary. Every brand we work with gets a tailored, thoughtful strategy—because no two stories are the same. Whether it’s <strong>SEO, social media marketing,</strong> or <strong>web development</strong>, we listen, understand, and deliver what actually works.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down"
+                        data-aos-delay="120"
+                        data-aos-duration="1200"
+                        data-aos-easing="ease-in-out">As a full-suite <strong>digital marketing agency in UAE,</strong> we offer everything from performance marketing to creative strategy under one roof. Our focus is on real results and meaningful connections. Client satisfaction isn’t just a goal—it’s how we measure success. While others follow trends, we build lasting impact. That’s what makes us reMARKable.
+                    </p>
                 </div>
             </div>
         </div>
