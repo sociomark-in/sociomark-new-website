@@ -81,7 +81,8 @@
                                     <div class="box-icon">
                                         <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}" alt="icon">
                                     </div>
-                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                            alt=""></div>
                                     <div class="box-number">
                                         01 </div>
                                 </div>
@@ -99,7 +100,8 @@
                                     <div class="box-icon">
                                         <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
                                     </div>
-                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                            alt=""></div>
                                     <div class="box-number">
                                         02 </div>
                                 </div>
@@ -117,7 +119,8 @@
                                     <div class="box-icon">
                                         <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}" alt="icon">
                                     </div>
-                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                            alt=""></div>
                                     <div class="box-number">
                                         03 </div>
                                 </div>
@@ -135,7 +138,8 @@
                                     <div class="box-icon">
                                         <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}" alt="icon">
                                     </div>
-                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                            alt=""></div>
                                     <div class="box-number">
                                         04 </div>
                                 </div>
@@ -153,7 +157,8 @@
                                     <div class="box-icon">
                                         <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
                                     </div>
-                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                            alt=""></div>
                                     <div class="box-number">
                                         05 </div>
                                 </div>
@@ -169,9 +174,11 @@
                             <div class="process-card">
                                 <div class="box-wrapp">
                                     <div class="box-icon">
-                                        <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}" alt="icon">
+                                        <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}"
+                                            alt="icon">
                                     </div>
-                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                            alt=""></div>
                                     <div class="box-number">
                                         06 </div>
                                 </div>
@@ -381,7 +388,7 @@
             </div>
         </div>
 
-        <section class="about-area overflow-hidden position-relative p-0" id="about-banner"
+        <section class="about-area overflow-hidden position-relative p-0 d-none" id="about-banner"
             style="background-color: black;">
             <div class="container-fluid">
                 <div class="row justify-content-center">
@@ -467,7 +474,36 @@
             </div>
         </div>
 
-        <div class="mb-md-5 mt-md-5 mt-5 mb-2 py-1 py-md-4 overflow-hidden overflow-hidden space" id="about-flip">
+        <section class="space">
+            <div class="container">
+                <div class="title-area text-center">
+                    <span class="sub-title sub-title4 ">EXPERT TEAM <span></span></span>
+                    <h2 class="sec-title ">See Our Skilled Expert Team</h2>
+                </div>
+                <div class="">
+                    <div class="team-collage position-relative">
+                        <div class="team">
+                            @for ($i = 0; $i < 16; $i++)
+                                <div class="member" data-aos="zoom-in" data-aos-delay="{{ $i * 100 }}"
+                                    style="left: {{ -5 + $i * (100 / 16) }}%">
+                                    <img src="{{ asset('frontend-assets/img/team/person-placeholder.png') }}"
+                                        alt="Person">
+                                </div>
+                            @endfor
+                            @for ($j = 0; $j < 16; $j++)
+                                <div class="member" data-aos="zoom-in" data-aos-delay="{{ $i * 100 + $j * 100 }}"
+                                    style="margin-top: 100px; left: {{ $j * (100 / 15) }}%">
+                                    <img src="{{ asset('frontend-assets/img/team/person-placeholder.png') }}"
+                                        alt="Person">
+                                </div>
+                            @endfor
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="mb-md-5 mt-md-5 mt-5 mb-2 py-1 py-md-4 overflow-hidden position-relative space" id="about-flip">
             <div class="container">
                 <div class="row d-flex justify-content-center justify-content-md-end mt-4">
 

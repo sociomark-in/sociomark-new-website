@@ -30,10 +30,10 @@
         //     });
         // });
     </script>
-    <div id="cursor"></div>
-    <div id="app">
+    <div id="cursor" class="d-none d-md-block"></div>
+    <main class="overflow-hidden">
         @yield('content')
-    </div>
+    </main>
     @include('Frontend/partial/Footer')
     @include('Frontend/partial/jsLinks')
     {{-- This will render all scripts pushed with @push('scripts') --}}

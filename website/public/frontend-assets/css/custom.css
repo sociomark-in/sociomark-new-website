@@ -1073,6 +1073,30 @@ main#home {
 }
 
 /* founder end */
+
+
+/* Team Collage */
+
+.team-collage .team{
+    position: relative;
+    height: 400px;
+}
+.team-collage .team:not(:first-child){
+    top: -200px;
+}
+.team-collage .member{
+    position: absolute;
+    height: 100%;
+}
+.team-collage .member img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Team Collage */
+
+
 /* about-flip section3 */
 #about-flip .first-feature-card:nth-child(odd) .flip-box-front,
 #about-flip .second-feature-card:nth-child(even) .flip-box-front {
