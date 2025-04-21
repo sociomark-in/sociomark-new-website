@@ -9,11 +9,11 @@
 
 <body>
     <div class="main-wrapper">
-        @include('Admin.partials.Sidebar')
+        @include('admin.partials.Sidebar')
         <div class="page-wrapper">
-            @include('Admin.partials.Header')
+            @include('admin.partials.Header')
             @yield('page-content')
-            @include('Admin.partials.Footer')
+            @include('admin.partials.Footer')
         </div>
     </div>
 

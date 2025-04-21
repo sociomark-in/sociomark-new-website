@@ -54,7 +54,7 @@
     /* section 2 end */
     /* work flow */
     #benefits {
-        max-height: 60vh;
+        max-height: 100vh;
         /* Or a specific height like 500px */
         overflow-y: auto;
         padding-right: 15px;
@@ -279,7 +279,7 @@
                         </h2>
                     </div>
                 </div>
-                <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
+                <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out">SEO stands for <b>Search Engine
                             Optimization</b>. It involves optimizing a website to rank higher in search engine results by
@@ -382,7 +382,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row align-items-center">
+            <div class="row">
                 <!-- Left Side -->
                 <div class="col-md-6 text-center">
                     <div class="circle-wrapper" data-aos="fade-right" data-aos-delay="200" data-tilt data-tilt-max="10">
