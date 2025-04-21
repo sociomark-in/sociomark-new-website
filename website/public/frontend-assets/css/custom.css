@@ -45,7 +45,6 @@ p {
 .text-orange {
     color: var(--theme-color2) !important;
 }
-
 .text-black {
     color: var(--color-black) !important;
 }
@@ -115,11 +114,9 @@ select {
     background-color: white;
 }
 
-.tabbed-content {}
-
-.tabbed-content .nav-pills {}
-
-.tabbed-content .nav-pills .nav-link {
+.tabbed-content{}
+.tabbed-content .nav-pills{}
+.tabbed-content .nav-pills .nav-link{
     background: none;
     border: none;
     outline: none;
@@ -127,49 +124,41 @@ select {
     padding: 1rem 0;
     color: var(--color-white);
 }
-
-.tabbed-content .nav-pills .nav-link:not(:last-child) {
+.tabbed-content .nav-pills .nav-link:not(:last-child){
     border-bottom: 1px solid var(--color-white);
 }
-
-.tabbed-content .nav-pills .nav-link.active {
+.tabbed-content .nav-pills .nav-link.active{
     color: var(--theme-color);
     background-color: transparent;
 }
-
-.tabbed-content.tab-dark .tab-pane .text {
+.tabbed-content.tab-dark .tab-pane .text{
     color: var(--color-white);
 }
 
 
-.header-absolute {
+.header-absolute{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 8;
 }
-
-.header-layout1 .sticky-wrapper {
+.header-layout1 .sticky-wrapper{
     background: rgba(0, 0, 0, 0.3);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
 }
-
-.header-layout1 .header-logo {
+.header-layout1 .header-logo{
     filter: brightness(20);
 }
-
-.main-menu.style2>ul>li>a {
+.main-menu.style2 > ul > li > a{
     color: var(--color-white);
 }
-
-.header-layout1 .sticky-wrapper.sticky {
+.header-layout1 .sticky-wrapper.sticky{
     background: rgba(0, 0, 0, 0.3);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
 }
-
 /* .main-menu.style2 > ul > li > a{
     color: var(--color-black);
 } */
@@ -255,12 +244,12 @@ select {
     font-size: clamp(40px, 4.375vw, 70px);
 }
 
-.marquee__content .content span {
+.marquee__content .content span{
     position: relative;
     margin-right: 5rem;
 }
 
-.marquee__content .content span::before {
+.marquee__content .content span::before{
     position: absolute;
     content: "";
     width: 4rem;
@@ -494,22 +483,18 @@ main#home {
 .testimonial {
     background: none;
 }
-
 .testimonial-card {
     background: #ffffffc5;
     padding: 1rem 2rem;
     border-radius: 0.75rem;
 }
-
-.testimonial-card.swiper-slide-active {
+.testimonial-card.swiper-slide-active{
     background: var(--color-white);
 }
-
-.testimonial-card.swiper-slide-active .testimonial-message * {
+.testimonial-card.swiper-slide-active .testimonial-message *{
     color: #000000;
 }
-
-.testi-card .testimonial-message * {
+.testi-card .testimonial-message *{
     color: rgba(255, 255, 255, 0.5);
 }
 
