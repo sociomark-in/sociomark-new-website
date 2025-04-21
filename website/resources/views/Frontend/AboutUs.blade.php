@@ -198,7 +198,7 @@
     <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden " id="about-sec">
         <div class="container">
             <div class="row align-items-end justify-content-center">
-                <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
+                <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
                     <div class="title-area mb-md-3 mb-2 mt-n1">
                         <!-- <h2 class="sec-title text-center "> Our Comprehensive International SEO Solutions</h2> -->
                         <h2 class="text-center fw-bold sec-title my-3"
@@ -206,17 +206,20 @@
                             data-aos-delay="100"
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
-                            Hello, we are Sociomark – <span class="text-blue"> A Digital Marketing Company</span> in Mumbai
-                        </h2>
+                            Your brand’s digital partner, <span class="text-blue"> every step of the way</span>
+                        </h2> 
                     </div>
                 </div>
                 <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down"
                         data-aos-delay="100"
                         data-aos-duration="1000"
-                        data-aos-easing="ease-in-out">In today's digital age, a strong online presence is no longer a luxury but a necessity. Sociomark is your trusted partner in navigating the tough digital landscape. As a leading Digital Marketing agency based in Navi Mumbai, we are committed to driving tangible results for your business.
-                        Our expertise spans a wide range of services, including Social Media Marketing, SEO, Graphic design, Website Development, Performance Marketing, etc. We understand that every business is unique, and therefore, we tailor our strategies to meet your specific goals and objectives.
-                        Let us help you unlock the full potential of your brand. Partner with us and experience the difference a dedicated agency can make.
+                        data-aos-easing="ease-in-out">We go beyond the ordinary. Every brand we work with gets a tailored, thoughtful strategy—because no two stories are the same. Whether it’s <strong>SEO, social media marketing,</strong> or <strong>web development</strong>, we listen, understand, and deliver what actually works.
+                    </p>
+                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down"
+                        data-aos-delay="120"
+                        data-aos-duration="1200"
+                        data-aos-easing="ease-in-out">As a full-suite <strong>digital marketing agency in UAE,</strong>  we offer everything from performance marketing to creative strategy under one roof. Our focus is on real results and meaningful connections. Client satisfaction isn’t just a goal—it’s how we measure success. While others follow trends, we build lasting impact. That’s what makes us reMARKable.
                     </p>
                 </div>
             </div>

@@ -195,6 +195,6 @@
             </div>
         </div>
     </div>
-    @include('frontend/partial/CTA')
+    @include('Frontend/partial/CTA')
 </main>
 @endsection

@@ -311,7 +311,7 @@
                         </div>
     </section>
 
-    @include('frontend/partial/clientList')
-    @include('frontend/partial/CTA')
+    @include('Frontend/partial/clientList')
+    @include('Frontend/partial/CTA')
 </main>
 @endsection
