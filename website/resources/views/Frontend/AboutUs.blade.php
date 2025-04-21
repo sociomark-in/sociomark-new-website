@@ -46,7 +46,7 @@
                             data-aos-duration="1000"
                             data-aos-easing="ease-in-out">
                             Your brand’s digital partner, <span class="text-blue"> every step of the way</span>
-                        </h2> 
+                        </h2>
                     </div>
                 </div>
                 <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
@@ -216,7 +216,7 @@
         </div>
     </div>
 
-    <div class="ourwork overflow-hidden space " id="aboutUs-KEyPoints">
+    <section class="ourwork overflow-hidden space " id="aboutUs-KEyPoints">
         <div class="container">
             <div class="text-center content-box">
                 <!-- <h2 class="sec-title">Making a mark, one day at a time!</h2> -->
@@ -231,9 +231,9 @@
 
             <!-- Static Flex Image Layout -->
 
-            <div class="image-gallery js-overlay gap-3">
+            <div class="image-gallery d-flex js-overlay gap-3">
 
-                <div class="position-md-relative position-sm-static d-flex flex-column flex-md-row">
+                <div class="position-relative d-flex flex-column flex-md-row">
                     <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
                         class="gallery-img default-active" alt="Business Image">
                     <div class="img-overlay d-flex flex-column justify-content-between h-100 p-3">
@@ -260,7 +260,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="position-md-relative position-sm-static d-flex flex-column flex-md-row">
+                <div class="position-relative d-flex flex-column flex-md-row">
                     <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
                         class="gallery-img" alt="Meeting Image">
 
@@ -288,7 +288,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="position-md-relative position-sm-static d-flex flex-column flex-md-row">
+                <div class="position-relative d-flex flex-column flex-md-row">
                     <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
                         class="gallery-img" alt="Office Image">
                     <div class="img-overlay h-100 p-3">
@@ -316,7 +316,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <section class="about-area overflow-hidden position-relative p-0" id="about-banner" style="background-color: black;">
         <div class="container-fluid">
