@@ -11,8 +11,6 @@
     #our-founder {
         background-color: #F5F5F5;
     }
-
-
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
     integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
@@ -58,7 +56,7 @@
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down"
                         data-aos-delay="120"
                         data-aos-duration="1200"
-                        data-aos-easing="ease-in-out">As a full-suite <strong>digital marketing agency in UAE,</strong>  we offer everything from performance marketing to creative strategy under one roof. Our focus is on real results and meaningful connections. Client satisfaction isn’t just a goal—it’s how we measure success. While others follow trends, we build lasting impact. That’s what makes us reMARKable.
+                        data-aos-easing="ease-in-out">As a full-suite <strong>digital marketing agency in UAE,</strong> we offer everything from performance marketing to creative strategy under one roof. Our focus is on real results and meaningful connections. Client satisfaction isn’t just a goal—it’s how we measure success. While others follow trends, we build lasting impact. That’s what makes us reMARKable.
                     </p>
                 </div>
             </div>
