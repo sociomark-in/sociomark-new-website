@@ -174,9 +174,9 @@
     }
 
     /* contact form end */
-    .tabbed-content .nav-pills .nav-link.active h3 {
+    .tabbed-content .nav-pills .nav-link h3 {
         color: white !important;
-
+        margin: 0;
     }
 
     .tabbed-content .nav-pills .nav-link.active {
@@ -580,7 +580,7 @@
                                 data-bs-target="#v-pills-sem" type="button" role="tab"
                                 aria-controls="v-pills-sem" aria-selected="false"> <h3 class="sec-para">Graphic Designing & Video Production</h3>
                             </button>
-                           
+
                         </div>
                     </div>
                     <div class="col-lg-8">
