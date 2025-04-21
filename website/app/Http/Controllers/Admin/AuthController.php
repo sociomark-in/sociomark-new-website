@@ -13,7 +13,7 @@ class AuthController extends Controller
     // Registration Form
     public function showRegisterForm()
     {
-        return view('Admin.Register');
+        return view('admin.Register');
     }
 
     // Handle Registration
@@ -39,7 +39,7 @@ class AuthController extends Controller
     // Login Form
     public function showLoginForm()
     {
-        return view('Admin.Login');
+        return view('admin.Login');
     }
 
     // Handle Login

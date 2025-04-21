@@ -12,7 +12,7 @@ class ServicesController extends Controller
     {
         if (Gate::allows('admin-access') || Gate::allows('user-access')) {
             // Allow access
-            return view('Admin.addServices');
+            return view('admin.addServices');
         }
         
         abort(403, 'Unauthorized access.');

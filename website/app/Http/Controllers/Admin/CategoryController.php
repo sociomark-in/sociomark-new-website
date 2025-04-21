@@ -22,7 +22,7 @@ class CategoryController extends Controller
      */
     public function create()
     {
-        return view('Admin/Pages/Category/AddCategory');
+        return view('admin/Pages/Category/AddCategory');
     }
 
     public function store(Request $request)

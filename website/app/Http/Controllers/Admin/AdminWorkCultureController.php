@@ -9,6 +9,6 @@ class AdminWorkCultureController extends Controller
 {
     public function create()
     {
-        return view('Admin/Pages/WorkCultureGallary/Create');
+        return view('admin/Pages/WorkCultureGallary/Create');
     }
 }

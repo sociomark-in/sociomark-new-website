@@ -16,12 +16,12 @@ class oldBlogController extends Controller
     public function index()
     {
         $blogs = Post::with('category')->latest()->get();
-        return view('Admin/Pages/Blog/Blogs', compact('blogs'));
+        return view('admin/Pages/Blog/Blogs', compact('blogs'));
     }
     public function create()
     {
         $categories = Category::all();
-        return view('Admin/Pages/Blog/AddBlog', compact('categories'));
+        return view('admin/Pages/Blog/AddBlog', compact('categories'));
     }
 
     public function store(Request $request)
@@ -60,7 +60,7 @@ class oldBlogController extends Controller
     {
         $blog = Post::findOrFail($id);
         $categories = Category::all();
-        return view('Admin/Pages/Blog/EditBlog', compact('blog', 'categories'));
+        return view('admin/Pages/Blog/EditBlog', compact('blog', 'categories'));
     }
 
     /**
