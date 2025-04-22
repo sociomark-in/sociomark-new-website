@@ -1,4 +1,4 @@
-<div class="overflow-hidden position-relative space-bottom garally mt-md-5" id="portfolio-sec">
+<div class="overflow-hidden space garally" id="portfolio-sec">
     <div class="container">
         <div class="title-area text-center mb-25">
             <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"

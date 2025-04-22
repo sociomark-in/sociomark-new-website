@@ -1,5 +1,5 @@
   <!-- CTA Section -->
-  <section class="cta-section">
+  <section class="cta-section overflow-hidden space">
     <div class="container">
       <div class="cta-content">
         <h1 class="display-4 fw-bold text-white">Inspired by our work?</h1>

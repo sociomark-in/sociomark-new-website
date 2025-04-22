@@ -16,30 +16,6 @@
         font-weight: 700 !important;
     }
 
-    @media (max-width: 576px) {
-
-        #seo-service #about-sec2,
-        #seo-service #services-tab {
-            padding: 3rem 0 3rem 0 !important;
-        }
-
-        .according-list-area {
-            margin-bottom: 290px;
-        }
-
-        #seo-service #services-tab .side-padding-mbl {
-            padding: 0px 1.5rem;
-        }
-
-        #seo-service #services-tab .sec-para {
-            text-align: left;
-        }
-
-        #seo-service #contact {
-            padding: 40px 2px !important;
-        }
-    }
-
     /* section 2 */
     #seo-service #about-sec2 {
         /* background-color: #F5F5F5; */
@@ -47,198 +23,6 @@
     }
 
     /* section 2 end */
-   
-
-    /* section3 */
-    .according-img {
-        opacity: 0;
-        transform: scale(0.8);
-        /* Start smaller */
-        transition: all 0.6s ease;
-        pointer-events: none;
-        height: 0;
-        overflow: hidden;
-    }
-
-    #seo-service #about-sec3 .according-list.item-active .according-img {
-        transform: scale(1);
-        height: fit-content;
-    }
-
-    /* Zoom in on hover */
-    .hover-item:hover .according-img {
-        opacity: 1;
-        transform: scale(1);
-        /* Zoom to normal size */
-        pointer-events: auto;
-        height: auto;
-        overflow: visible;
-    }
-
-    #seo-service #about-sec3 .according-img img {
-        border-radius: 10px;
-
-    }
-
-    #seo-service #about-sec3 .box-title {
-        line-height: 32px;
-        font-size: 25px;
-        letter-spacing: .10px;
-        font-weight: 500;
-        padding-left: 0px;
-    }
-
-    #seo-service #about-sec3 .according-list .according-img {
-        max-width: 700px;
-    }
-
-    #seo-service #about-sec3 .accordion-item2 {
-        padding-bottom: 15px;
-        max-width: 510px;
-    }
-
-    #seo-service #about-sec3 .accordion-item2 .box-title:before {
-        width: 0px;
-
-    }
-
-    #seo-service #about-sec3 .according-list.hover-item.item-active .accordion-item2 {
-        border-bottom-color: #106c97;
-    }
-
-    /* section3 end */
-
-    /* services tab */
-    /* Slide-in animations */
-    @keyframes slideInRight {
-        from {
-            opacity: 0;
-            transform: translateX(50px);
-        }
-
-        to {
-            opacity: 1;
-            transform: translateX(0);
-        }
-    }
-
-    @keyframes slideInLeft {
-        from {
-            opacity: 0;
-            transform: translateX(-100px);
-        }
-
-        to {
-            opacity: 1;
-            transform: translateX(0);
-        }
-    }
-
-    /* Zoom-in animation */
-    @keyframes zoomIn {
-        from {
-            opacity: 0;
-            transform: scale(0.85);
-        }
-
-        to {
-            opacity: 1;
-            transform: scale(1);
-        }
-    }
-
-    /* Apply animations */
-    .animate-slide-in-right {
-        animation: slideInRight 0.6s ease forwards;
-    }
-
-    .animate-slide-in-left {
-        animation: slideInLeft 0.6s ease forwards;
-    }
-
-    .animate-zoom-in {
-        animation: zoomIn 0.6s ease forwards;
-    }
-
-    .animate-slide-in-right,
-    .animate-slide-in-left,
-    .animate-zoom-in {
-        animation-duration: 0.8s;
-        animation-delay: 0.1s;
-        animation-fill-mode: both;
-    }
-
-    #seo-service #services-tab .nav-pills .nav-link {
-        border-radius: 0.25rem;
-        background-color: #106c97;
-        color: white;
-        border: none;
-        border-radius: 0px;
-        text-align: left;
-        padding-left: 35px !important;
-    }
-
-    #seo-service #services-tab .nav-pills .nav-link.active,
-    .nav-pills .show>.nav-link {
-        background-color: white !important;
-        color: #106c97 !important;
-    }
-
-    #seo-service #services-tab #v-pills-tab {
-        padding: 20px 20px 20px 0px;
-        background-color: #106c97;
-    }
-
-    #seo-service #services-tab .sec-para-list,
-    #seo-service #about-sec6 .sec-para-faq {
-        font-size: 17px;
-        color: #797E88;
-        line-height: 28px;
-        letter-spacing: .10px;
-    }
-
-    @media (max-width: 1300px) {
-        .according-list-area {
-            margin-bottom: 600px;
-        }
-
-        .accordion-item2 {
-            max-width: 100%;
-        }
-
-        .according-list .according-img {
-            position: absolute;
-            top: 110%;
-            max-width: 100%;
-            border: 0;
-            padding: 0;
-        }
-
-        .according-list {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .accordion-item2 {
-            width: 100%;
-            text-align: center;
-        }
-
-        #seo-service #about-sec3 .according-list .according-img {
-            max-width: 100%;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .according-list .according-img {
-            max-width: 530px;
-            padding-left: 30px;
-        }
-    }
-
-    /* services tab end */
 </style>
 @endsection
 
@@ -247,15 +31,15 @@
     <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x518">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">SEO</h1>
+                <h1 class="breadcumb-title">Website Development</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="{{route('home')}}">Home</a></li>
-                    <li>Seo</li>
+                    <li>Website Development</li>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="overflow-hidden py-5" id="about-sec">
+    <div class="about-area2 overflow-hidden py-5" id="about-sec">
         <div class="container">
             <div class="row align-items-end justify-content-center">
                 <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
@@ -293,7 +77,7 @@
         </div>
     </div>
 
-    <div class="overflow-hidden space" id="about-sec2">
+    <div class="choose-area overflow-hidden space" id="about-sec2">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
@@ -364,7 +148,7 @@
                             Our Approach For
                             <span class="text-blue"> Online Presence</span>.
                         </h2>
-                        <p class="sec-para">Here are a few of the SEO strategies that we as a Leading Digital Marketing Agency in Mumbai
+                        <p>Here are a few of the SEO strategies that we as a Leading Digital Marketing Agency in Mumbai
                             implement, so that the website that we build for our clients stand out from the rest. This
                             in turn gives them a major advantage over its competitors.</p>
                     </div>
@@ -432,7 +216,7 @@
         </div>
     </div>
 
-    <section class="overflow-hidden space" id="about-sec3">
+    <section class="overflow-hidden space" id="hoverKeyPoints">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -613,206 +397,6 @@
         </div>
     </div>
 
-    <!-- <section class="overflow-hidden space" id="services-tab">
-                        <div class="container-fluid">
-                            <div class="row">
-
-                                <div class="title-area mb-md-3 mb-2">
-                                    <h2 class="fw-bold mb-5 sec-title text-center"
-                                        data-aos="fade-up"
-                                        data-aos-delay="100"
-                                        data-aos-duration="1000"
-                                        data-aos-easing="ease-in-out">
-                                        International Seo <span class="text-blue"> Roadmap</span>
-                                    </h2>
-                                </div>
-
-                                <div class="d-lg-flex ps-0">
-                                    <div class="col-lg-3 col-12" data-aos="fade-right"
-                                        data-aos-delay="200"
-                                        data-aos-duration="1200"
-                                        data-aos-easing="ease-in-out">
-                                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
-                                            aria-orientation="vertical">
-                                            <button class="nav-link p-3 fs-5 " data-bs-toggle="pill"
-                                                data-bs-target="#" type="button" role="tab"
-                                                aria-controls="v-pills-profile" aria-selected="false"><span class="border-bottom border-4 d-inline-block">Services</span></button>
-                                            <button class="nav-link active p-3 fs-5" id="v-pills-home-tab" data-bs-toggle="pill"
-                                                data-bs-target="#v-pills-home" type="button" role="tab"
-                                                aria-controls="v-pills-home" aria-selected="true">Education institutions</button>
-                                            <button class="nav-link p-3 fs-5" id="v-pills-profile-tab" data-bs-toggle="pill"
-                                                data-bs-target="#v-pills-profile" type="button" role="tab"
-                                                aria-controls="v-pills-profile" aria-selected="false">Healthcare industry</button>
-                                            <button class="nav-link p-3 fs-5" id="v-pills-messages-tab" data-bs-toggle="pill"
-                                                data-bs-target="#v-pills-messages" type="button" role="tab"
-                                                aria-controls="v-pills-messages" aria-selected="false">Technology companies</button>
-                                            <button class="nav-link p-3 fs-5" id="v-pills-settings-tab" data-bs-toggle="pill"
-                                                data-bs-target="#v-pills-settings" type="button" role="tab"
-                                                aria-controls="v-pills-settings" aria-selected="false">Publication</button>
-                                            <button class="nav-link p-3 fs-5" id="v-pills-settings-tab" data-bs-toggle="pill"
-                                                data-bs-target="#v-pills-settings" type="button" role="tab"
-                                                aria-controls="v-pills-settings" aria-selected="false">E-commerce businesses</button>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-9 col-12">
-                                        <div class="tab-content" id="v-pills-tabContent">
-                                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                                                aria-labelledby="v-pills-home-tab" tabindex="0">
-                                                <div class="row ">
-                                                    <div class="col-lg-6 col-12 text-center side-padding-mbl" data-aos="zoom-in"
-                                                        data-aos-delay="200"
-                                                        data-aos-duration="1200"
-                                                        data-aos-easing="ease-in-out">
-                                                        <div class="page-img mt-md-0 mt-3">
-                                                            <img class="w-50" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-6 col-12 side-padding-mbl" data-aos="fade-left"
-                                                        data-aos-delay="200"
-                                                        data-aos-duration="1200"
-                                                        data-aos-easing="ease-in-out">
-                                                        <h4 class="mb-20 text-blue">How We Can Help</h4>
-                                                        <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
-                                                            touchpoints.
-                                                        </p>
-                                                        <div class="checklist style4 mb-20">
-                                                            <ul>
-                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
-                                                                    Engagement &
-                                                                    Conversion Rates</li>
-                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
-                                                                    Perception
-                                                                </li>
-                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
-                                                                    Accessibility</li>
-                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
-                                                                    Costs
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                                                aria-labelledby="v-pills-profile-tab" tabindex="0">
-
-                                                <div class="row ">
-                                                    <div class="col-lg-6 col-12 text-center side-padding-mbl">
-                                                        <div class="row mt-md-0 mt-3">
-                                                            <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
-                                                                <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                            </div>
-                                                            <div class="col-lg-6 col-6 page-img side-padding-mbl" data-aos="fade-right" data-aos-duration="5000">
-                                                                <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-lg-6 col-12 side-padding-mbl">
-                                                        <h4 class="mb-20 text-blue">How We Can Help</h4>
-                                                        <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
-                                                            touchpoints.
-                                                        </p>
-                                                        <div class="checklist style4 mb-20">
-                                                            <ul>
-                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
-                                                                    Engagement &
-                                                                    Conversion Rates</li>
-                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
-                                                                    Perception
-                                                                </li>
-                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
-                                                                    Accessibility</li>
-                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
-                                                                    Costs
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                  
-
-                                                </div>
-
-                                            </div>
-                                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                                                aria-labelledby="v-pills-messages-tab" tabindex="0">
-                                                <div class="row ">
-                                                    <div class="col-lg-6 col-12 text-center side-padding-mbl">
-                                                        <div class="page-img mt-md-0 mt-3">
-                                                            <img class="w-50" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-6 col-12 side-padding-mbl">
-                                                        <h4 class="mb-20 text-blue">How We Can Help</h4>
-                                                        <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
-                                                            touchpoints.
-                                                        </p>
-                                                        <div class="checklist style4 mb-20">
-                                                            <ul>
-                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
-                                                                    Engagement &
-                                                                    Conversion Rates</li>
-                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
-                                                                    Perception
-                                                                </li>
-                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
-                                                                    Accessibility</li>
-                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
-                                                                    Costs
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                                                aria-labelledby="v-pills-settings-tab" tabindex="0">
-
-                                                <div class="row ">
-                                                    <div class="col-lg-6 col-12 text-center side-padding-mbl">
-                                                        <div class="row mt-md-0 mt-3">
-                                                            <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
-                                                                <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                            </div>
-                                                            <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
-                                                                <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-                                                    <div class="col-lg-6 col-12 side-padding-mbl">
-                                                        <h4 class="mb-20 text-blue">How We Can Help</h4>
-                                                        <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
-                                                            touchpoints.
-                                                        </p>
-                                                        <div class="checklist style4 mb-20">
-                                                            <ul>
-                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
-                                                                    Engagement &
-                                                                    Conversion Rates</li>
-                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
-                                                                    Perception
-                                                                </li>
-                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
-                                                                    Accessibility</li>
-                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
-                                                                    Costs
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                  
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section> -->
     @include('Frontend.partial.clientList')
     @include('Frontend.partial.blog')
     <div class="overflow-hidden space" id="about-sec6">

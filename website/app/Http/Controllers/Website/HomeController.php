@@ -56,4 +56,16 @@ class HomeController extends Controller
     {
         return view("Frontend/Services");
     }
+    public function careers()
+    {
+        return view("Frontend/careers");
+    }
+    public function privacyAndPolicy()
+    {
+        return view("Frontend/privacyAndPolicy");
+    }
+    public function termsAndcondition()
+    {
+        return view("Frontend/termsAndcondition");
+    }
 }

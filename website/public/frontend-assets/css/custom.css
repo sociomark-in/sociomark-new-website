@@ -1126,3 +1126,113 @@ main#home {
 }
 
 /*about-flip section3end */
+
+
+ /* work flow */
+ #benefits {
+    max-height: 100vh;
+    /* Or a specific height like 500px */
+    overflow-y: auto;
+    padding-right: 15px;
+    /* optional: space for scrollbar */
+}
+
+#benefits::-webkit-scrollbar {
+    width: 5px;
+}
+
+#benefits::-webkit-scrollbar-thumb {
+    background: #106c97;
+    border-radius: 4px;
+}
+
+#work-flow .circle-wrapper {
+    width: 68%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#work-flow .circle {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#work-flow .key-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#work-flow .benefit-block {
+    padding: 10px 25px;
+    margin-bottom: 15px;
+    background: #f8f9fa;
+    border-left: 4px solid #106c97;
+    border-radius: 5px;
+}
+
+/* work flow :end */
+
+ /*  hoverKeyPoints section3 */
+ .according-img {
+    opacity: 0;
+    transform: scale(0.8);
+    /* Start smaller */
+    transition: all 0.6s ease;
+    pointer-events: none;
+    height: 0;
+    overflow: hidden;
+}
+
+#hoverKeyPoints .according-list.item-active .according-img {
+    transform: scale(1);
+    height: fit-content;
+}
+
+/* Zoom in on hover */
+.hover-item:hover .according-img {
+    opacity: 1;
+    transform: scale(1);
+    /* Zoom to normal size */
+    pointer-events: auto;
+    height: auto;
+    overflow: visible;
+}
+
+#hoverKeyPoints .according-img img {
+    border-radius: 10px;
+
+}
+
+#hoverKeyPoints .box-title {
+    line-height: 32px;
+    font-size: 25px;
+    letter-spacing: .10px;
+    font-weight: 500;
+    padding-left: 0px;
+}
+
+#hoverKeyPoints .according-list .according-img {
+    max-width: 700px;
+}
+
+ #hoverKeyPoints .accordion-item2 {
+    padding-bottom: 15px;
+    max-width: 510px;
+}
+
+#hoverKeyPoints .accordion-item2 .box-title:before {
+    width: 0px;
+
+}
+
+#hoverKeyPoints .according-list.hover-item.item-active .accordion-item2 {
+    border-bottom-color: #106c97;
+}
+
+/* hoverKeyPoints section3 end */

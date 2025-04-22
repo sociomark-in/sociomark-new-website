@@ -75,35 +75,31 @@ Header Area
                                     <li class="menu-item-has-children">
                                         <a href="{{ route('services') }}">Services</a>
                                         <ul class="sub-menu">
-                                            <li><a href="#">Digital Marketing</a></li>
+                                            <li><a href="{{ route('digitalMarketing') }}">Digital Marketing</a></li>
                                             <li><a href="{{ route('seo') }}">SEO</a></li>
-                                            <li><a href="#">Social Media Marketing</a></li>
-                                            <li><a href="#">Website Development</a></li>
-                                            <li><a href="#">Content Marketing</a></li>
-                                            <li><a href="#">SEM</a></li>
-                                            <li><a href="#">Photography & Video Production</a></li>
+                                            <li><a href="{{ route('socialMedia') }}">Social Media Marketing</a></li>
+                                            <li><a href="{{ route('website') }}">Website Development</a></li>
+                                            <li><a href="{{ route('contentMarketing') }}">Content Marketing</a></li>
+                                            <li><a href="{{ route('sem') }}">SEM</a></li>
+                                            <li><a href="{{ route('photoVideography') }}">Photography & Video Production</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children">
                                         <a href="#">Industries</a>
                                         <ul class="sub-menu">
-                                            <li><a href="{{ route('industry') }}">Education</a></li>
-                                            <li><a href="#">Healthcare</a></li>
-                                            <li><a href="#">FMCG</a></li>
-                                            <li><a href="#">News & Media</a></li>
-                                            <li><a href="#">Real Estate</a></li>
-                                            <li><a href="#">Logistics</a></li>
-                                            <li><a href="#">Fashion & Lifestyle</a></li>
-                                            <li><a href="#">Gaming</a></li>
-                                            <li><a href="#">Home & Interior</a></li>
-                                            <li><a href="#">Automobile</a></li>
+                                            <li><a href="{{ route('education') }}">Education</a></li>
+                                            <li><a href="{{ route('healthcare') }}">Healthcare</a></li>
+                                            <li><a href="{{ route('FMCG') }}">FMCG</a></li>
+                                            <li><a href="{{ route('newsMedia') }}">News & Media</a></li>
+                                            <li><a href="{{ route('realEstate') }}">Real Estate</a></li>
+                                            <li><a href="{{ route('logistics') }}">Logistics</a></li>
+                                            <li><a href="{{ route('fashionLifestyle') }}">Fashion & Lifestyle</a></li>
+                                            <li><a href="{{ route('gaming') }}">Gaming</a></li>
+                                            <li><a href="{{ route('homeInterior') }}">Home & Interior</a></li>
+                                            <li><a href="{{ route('automation') }}">Automobile</a></li>
                                         </ul>
                                     </li>
-                                    {{-- <li><a href="{{ route('portfolio') }}">Case Studies</a></li>
-                                    <li><a href="{{ route('portfolio') }}">Portfolio</a></li> --}}
-                                    {{-- <li><a href="{{ route('blog') }}">Blog</a></li>
-                                    <li><a href="#">Carrers</a></li>
-                                    <li><a href="{{ route('workculture') }}">Work Culture</a></li> --}}
+    
                                     <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                 </ul>
                             </nav>

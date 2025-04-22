@@ -1,4 +1,4 @@
-<div class="th-blog-wrapper space-top space-extra-bottom" id="contact">
+<div class="th-blog-wrapper overflow-hidden space" id="contact">
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-xl-5 pe-md-5">
