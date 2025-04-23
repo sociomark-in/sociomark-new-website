@@ -485,6 +485,12 @@ main#home {
     text-transform: uppercase;
 }
 
+.breadcumb-content.breadcrumb-light .breadcumb-title,
+.breadcumb-content.breadcrumb-light .breadcumb-menu li,
+    .breadcumb-content.breadcrumb-light .breadcumb-menu li:not(:last-child)::after{
+    color: var(--color-black);
+}
+
 /* portfolio flip image css  */
 .flip-box {
     background-color: transparent;
