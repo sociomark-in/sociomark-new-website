@@ -13,6 +13,7 @@
         border-radius: 87px;
         padding: 30px;
     }
+
     /* client section */
    
 </style>
@@ -21,10 +22,10 @@
     <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Fashion & Lifestyle</h1>
+                <h1 class="breadcumb-title">Education</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="home-seo-agency.html">Home</a></li>
-                    <li>Fashion & Lifestyle</li>
+                    <li>Education</li>
                 </ul>
             </div>
         </div>

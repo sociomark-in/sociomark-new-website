@@ -120,7 +120,9 @@
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
                                 <div class="blog-img box-blog">
                                     <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                        <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image" width="100%" style="height: 270px; object-fit: cover; margin-right: 5px;">
+                                       
+                                        <img src="{{ asset('storage/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image" width="100%" style="height: 270px; object-fit: cover; margin-right: 5px;">
+
                                     </a>
                                 </div>
                                 <div class="blog-content content-padding">
@@ -192,7 +194,7 @@
                                 <div class="recent-post">
                                     <div class="media-img recent_blog_img">
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                            <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image">
+                                            <img src="{{ asset('storage/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image">
                                         </a>
                                     </div>
                                     <div class="media-body">
