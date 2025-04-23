@@ -47,7 +47,7 @@
     }
 
     /* section 2 end */
-   
+
 
     /* section3 */
     .according-img {
@@ -198,43 +198,19 @@
     }
 
     @media (max-width: 1300px) {
-        .according-list-area {
-            margin-bottom: 600px;
+        #seo-service #about-sec3 .according-list .according-img{
+            max-width: 50%;
         }
-
-        .accordion-item2 {
+        #seo-service #about-sec3 .accordion-item2{
+            max-width: 45%;
+        }
+    }
+    @media (max-width: 950px) {
+        #seo-service #about-sec3 .according-list .according-img{
             max-width: 100%;
         }
-
-        .according-list .according-img {
-            position: absolute;
-            top: 110%;
+        #seo-service #about-sec3 .accordion-item2{
             max-width: 100%;
-            border: 0;
-            padding: 0;
-        }
-
-        .according-list {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .accordion-item2 {
-            width: 100%;
-            text-align: center;
-        }
-
-        #seo-service #about-sec3 .according-list .according-img {
-            max-width: 100%;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .according-list .according-img {
-            max-width: 530px;
-            padding-left: 30px;
         }
     }
 
@@ -344,12 +320,12 @@
                     <div class="choose-image">
                         <div class="img1 tilt-active">
                             <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}" alt="Choose">
-                           
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
 
     <div class="overflow-hidden space" id="work-flow">

@@ -147,7 +147,7 @@
             <div class="portfolio-container">
                 <div class="filter-active row h-auto">
                     <article class="card__article filter-item cat1 cat5 cat7 cat3 col-md-3 col-12">
-                        <img src="http://127.0.0.1:5501/assets/img/landscape-1.png" alt="image" class="card__img">
+                        <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg" alt="image" class="card__img">
 
                         <div class="card__data">
                             <span class="sec-para">Boosted Organic Traffic by 200%</span>
@@ -157,7 +157,7 @@
                     </article>
 
                     <article class="card__article filter-item cat5 cat5 cat8 cat1 col-md-3 col-12">
-                        <img src="http://127.0.0.1:5501/assets/img/landscape-1.png" alt="image" class="card__img">
+                        <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg" alt="image" class="card__img">
 
                         <div class="card__data">
                             <span class="sec-para">Poon Hill, Nepal</span>
@@ -167,7 +167,7 @@
                     </article>
 
                     <article class="card__article filter-item cat5 cat3 cat2 col-md-3 col-12">
-                        <img src="http://127.0.0.1:5501/assets/img/landscape-1.png" alt="image" class="card__img">
+                        <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg" alt="image" class="card__img">
 
                         <div class="card__data">
                             <span class="sec-para">Bojcin Forest, Serbia</span>
@@ -176,7 +176,7 @@
                         </div>
                     </article>
                     <article class="card__article filter-item cat5 cat3 cat2 col-md-3 col-12">
-                        <img src="http://127.0.0.1:5501/assets/img/landscape-1.png" alt="image" class="card__img">
+                        <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg" alt="image" class="card__img">
 
                         <div class="card__data">
                             <span class="suc-para">Bojcin Forest, Serbia</span>
@@ -185,7 +185,7 @@
                         </div>
                     </article>
                     <article class="card__article filter-item cat5 cat3 cat2 col-md-3 col-12">
-                        <img src="http://127.0.0.1:5501/assets/img/landscape-1.png" alt="image" class="card__img">
+                        <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg" alt="image" class="card__img">
 
                         <div class="card__data">
                             <span class="suc-para">Bojcin Forest, Serbia</span>
