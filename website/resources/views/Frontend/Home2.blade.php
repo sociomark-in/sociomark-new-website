@@ -609,7 +609,7 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <img loading="lazy"
-                                            src="{{ asset('frontend-assets/img/service/DM_color.jpg') }}"
+                                            src="{{ asset('frontend-assets/img/service/DM_gray.jpg') }}"
                                             alt="" class="w-100 service-image rounded-overflow">
                                     </div>
                                     <div class="col-12">
@@ -626,7 +626,7 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <img loading="lazy"
-                                            src="{{ asset('frontend-assets/img/service/SM_color.jpg') }}"
+                                            src="{{ asset('frontend-assets/img/service/SM_gray.jpg') }}"
                                             alt="" class="w-100 service-image rounded-overflow">
                                     </div>
                                     <div class="col-12">
@@ -642,7 +642,7 @@
                                 aria-labelledby="v-pills-seo-tab">
                                 <div class="row">
                                     <div class="col-12">
-                                        <img loading="lazy" src="{{ asset('frontend-assets/img/service/SEO_color.jpg') }}"
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/service/SEO_gray.jpg') }}"
                                             alt="" class="w-100 service-image rounded-overflow">
                                     </div>
                                     <div class="col-12">
@@ -659,7 +659,7 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <img loading="lazy"
-                                            src="{{ asset('frontend-assets/img/service/WD_color.jpg') }}"
+                                            src="{{ asset('frontend-assets/img/service/WD_gray.jpg') }}"
                                             alt="" class="w-100 service-image rounded-overflow">
                                     </div>
                                     <div class="col-12">
@@ -677,7 +677,7 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <img loading="lazy"
-                                            src="{{ asset('frontend-assets/img/service/DM_color.jpg') }}"
+                                            src="{{ asset('frontend-assets/img/service/DM_gray.jpg') }}"
                                             alt="" class="w-100 service-image rounded-overflow">
                                     </div>
                                     <div class="col-">
@@ -694,7 +694,7 @@
                                 aria-labelledby="v-pills-content-tab">
                                 <div class="row">
                                     <div class="col-12">
-                                        <img loading="lazy" src="{{ asset('frontend-assets/img/service/CM_color.jpg') }}"
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/service/CM_gray.jpg') }}"
                                             alt="" class="w-100 service-image rounded-overflow">
                                     </div>
                                     <div class="col-12">
@@ -711,7 +711,7 @@
                                 aria-labelledby="v-pills-production-tab">
                                 <div class="row">
                                     <div class="col-12">
-                                        <img loading="lazy" src="{{ asset('frontend-assets/img/service/VP_color.jpg') }}"
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/service/VP_gray.jpg') }}"
                                             alt="" class="w-100 service-image rounded-overflow">
                                     </div>
                                     <div class="col-12">
@@ -729,7 +729,7 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <img loading="lazy"
-                                            src="{{ asset('frontend-assets/img/service/VP_color.jpg') }}" alt=""
+                                            src="{{ asset('frontend-assets/img/service/VP_gray.jpg') }}" alt=""
                                             class="w-100 service-image rounded-overflow">
                                     </div>
                                     <div class="col-12">
@@ -802,7 +802,7 @@
                                         alt="Lorum Ipsum" />
                                 </div>
                                 <div class="flip-box-back">
-                                    <h4>Castrol</h4>
+                                    <h4>Cashless India</h4>
                                     <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                                         Sequi, debitis?</p>
                                 </div>
@@ -1025,7 +1025,7 @@
                                                 </div>
                                                 <div class="box-info">
                                                     <h3 class="box-title text-black">Shafeeq Mareen</h3>
-                                                    <span class="box-desig text-black">GrillBox, Founder</span>
+                                                    <span class="box-desig text-black">Founder, GrillBox</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -1053,7 +1053,7 @@
                                                 </div>
                                                 <div class="box-info">
                                                     <h3 class="box-title text-black">Siju Thomas</h3>
-                                                    <span class="box-desig text-black">The Professional Couriers, CEO</span>
+                                                    <span class="box-desig text-black">CEO, The Professional Couriers</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -1195,15 +1195,11 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-5 pe-md-5">
                     <div class="title-area mb-20">
-                        <h2 class="fw-bold sec-title text-black" data-aos="fade-right" data-aos-delay="100">
-                            The Powerful Benefits of <span class="text-orange"> Saor SEO</span>
-                        </h2>
-
+                        <h2 class="sec-title text-black" data-aos="fade-right" data-aos-delay="100">Start the Conversation, <span class="text-blue"> Spark the Change </span></h2>
                     </div>
-                    <p class="sec-para mb-35 text-black" data-aos="fade-right" data-aos-delay="100">In today's
-                        digital
-                        landscape, a strong online presence is critical for business success. But simply having a
-                        website isn't enough.</p>
+                    <p class="sec-para mb-35 " data-aos="fade-right" data-aos-delay="100">Whether it’s a big brief or a tiny thought, we’d love to hear what’s on your mind.
+                    </p>
+
 
                 </div>
                 <div class="col-lg-7 d-none d-lg-block">
