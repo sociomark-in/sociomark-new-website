@@ -244,7 +244,7 @@
 
 @section('content')
 <main id="seo-service">
-    <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x518">
+    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/Services-page/Services_Main.png') }}">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">SEO</h1>
@@ -343,10 +343,8 @@
                     data-aos-easing="ease-in-out">
                     <div class="choose-image">
                         <div class="img1 tilt-active">
-                            <img src="{{ asset('frontend-assets/img/normal/choose_1.png') }}" alt="Choose">
-                            {{-- <div class="choose-shape"><img
-                                        src="{{ asset('frontend-assets/img/shape/choose-shape.png') }}" alt="">
-                        </div> --}}
+                            <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}" alt="Choose">
+                           
                     </div>
                 </div>
             </div>
@@ -370,12 +368,12 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row align-items-start">
                 <!-- Left Side -->
                 <div class="col-md-6 text-center">
                     <div class="circle-wrapper" data-aos="fade-right" data-aos-delay="200" data-tilt data-tilt-max="10">
                         <div class="circle" data-tilt data-tilt-max="10">
-                            <img src="{{ asset('frontend-assets/img/service/key.png') }}" alt="Key"
+                            <img src="{{ asset('frontend-assets/img/Services-page/Services_Main.png') }}" alt="Key"
                                 class="key-image mt-3">
                         </div>
                     </div>
