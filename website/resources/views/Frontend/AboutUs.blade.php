@@ -38,23 +38,22 @@
                     <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
                         <div class="title-area mb-md-3 mb-2 mt-n1">
                             <!-- <h2 class="sec-title text-center "> Our Comprehensive International SEO Solutions</h2> -->
-                            <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
-                                data-aos-duration="1000" data-aos-easing="ease-in-out">
+                            <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100">
                                 Your brand’s digital partner, <span class="text-blue"> every step of the way</span>
-                            </h1> 
+                            </h1>
                         </div>
                     </div>
                     <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
-                        <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100"
-                            data-aos-duration="1000" data-aos-easing="ease-in-out">In today's digital age, a strong online
-                            presence is no longer a luxury but a necessity. Sociomark is your trusted partner in navigating
-                            the tough digital landscape. As a leading Digital Marketing agency based in Navi Mumbai, we are
-                            committed to driving tangible results for your business.
-                            Our expertise spans a wide range of services, including Social Media Marketing, SEO, Graphic
-                            design, Website Development, Performance Marketing, etc. We understand that every business is
-                            unique, and therefore, we tailor our strategies to meet your specific goals and objectives.
-                            Let us help you unlock the full potential of your brand. Partner with us and experience the
-                            difference a dedicated agency can make.
+                        <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100">
+                            We go beyond the ordinary. Every brand we work with gets a tailored, thoughtful strategy—because
+                            no two stories are the same. Whether it’s SEO, social media marketing, or web development, we
+                            listen, understand, and deliver what actually works.
+                        </p>
+                        <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100">
+                            As a full-suite digital marketing agency in UAE, we offer everything from performance marketing
+                            to creative strategy under one roof. Our focus is on real results and meaningful connections.
+                            Client satisfaction isn’t just a goal—it’s how we measure success. While others follow trends,
+                            we build lasting impact. That’s what makes us reMARKable.
                         </p>
                     </div>
                 </div>
@@ -67,8 +66,8 @@
                     <div class="col-lg-8">
                         <div class="title-area text-center">
                             <div class="shadow-title">Process</div>
-                            <span class="sub-title sub-title4  ">Work Process<span></span></span>
-                            <h2 class="sec-title  ">The work process of our agency</h2>
+                            <span class="sub-title sub-title4 mb-4 mb-md-5">Work Process<span></span></span>
+                            <h2 class="sec-title  ">From Brief to Brilliance</h2>
                         </div>
                     </div>
                 </div>
@@ -86,9 +85,8 @@
                                         01 </div>
                                 </div>
                                 <div class="box-content">
-                                    <h2 class="box-title">Research and Strategy</h2>
-                                    <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                        behaviors. Submit as many design tasks</p>
+                                    <h2 class="box-title">Pick What You Need</h2>
+                                    <p class="box-text">Choose the service that fits your brand’s current goals.</p>
 
                                 </div>
                             </div>
@@ -105,9 +103,8 @@
                                         02 </div>
                                 </div>
                                 <div class="box-content">
-                                    <h2 class="box-title">Plan Customization</h2>
-                                    <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                        behaviors. Submit as many design tasks</p>
+                                    <h2 class="box-title">Share Your Vision</h2>
+                                    <p class="box-text">From campaign goals to creative vibes, the more you share, the better we plan.</p>
 
                                 </div>
                             </div>
@@ -124,9 +121,8 @@
                                         03 </div>
                                 </div>
                                 <div class="box-content">
-                                    <h2 class="box-title">Finished &amp; User Testing</h2>
-                                    <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                        behaviors. Submit as many design tasks</p>
+                                    <h2 class="box-title">Let’s Talk</h2>
+                                    <p class="box-text">We’ll schedule a call to align on vision, ideas, and execution.</p>
 
                                 </div>
                             </div>
@@ -143,14 +139,13 @@
                                         04 </div>
                                 </div>
                                 <div class="box-content">
-                                    <h2 class="box-title">Research and Strategy</h2>
-                                    <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                        behaviors. Submit as many design tasks</p>
+                                    <h2 class="box-title">Watch It Come Alive</h2>
+                                    <p class="box-text"> Get the final solution, tailored to your brief and ready to roll.</p>
 
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-md-6 col-12">
+                        <!--<div class="col-xl-4 col-md-6 col-12">
                             <div class="process-card">
                                 <div class="box-wrapp">
                                     <div class="box-icon">
@@ -188,22 +183,20 @@
 
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
         </section>
 
-        <div class="overflow-hidden mb-md-3 mt-md-3 mt-0 md-0" id="about-process">
+        <section class="d-none overflow-hidden mb-md-3 mt-md-3 mt-0 md-0" id="about-process">
             <div class="container process-container text-center">
-                <h2 class="fw-bold mb-5 sec-title" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200"
-                    data-aos-easing="ease-in-out">
+                <h2 class="fw-bold mb-5 sec-title" data-aos="fade-up" data-aos-delay="200">
                     Our Working <span class="text-blue"> Process</span>
                 </h2>
                 <div class="row justify-content-center gy-5">
                     <!-- Step 1 -->
-                    <div class="col-md-3 process-step zig-down" data-aos="fade-up" data-aos-delay="300"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">
+                    <div class="col-md-3 process-step zig-down" data-aos="fade-up" data-aos-delay="300">
 
                         <div class="img">
                             <div class="shadow-title">01</div>
@@ -219,7 +212,7 @@
 
                     <!-- Step 2 (reversed) -->
                     <div class="col-md-3 process-step d-flex flex-column-reverse flex-md-column zig-up" data-aos="fade-up"
-                        data-aos-delay="400" data-aos-duration="1200" data-aos-easing="ease-in-out">
+                        data-aos-delay="400">
                         <div class="text">
                             <h4 class="sub-sec-title">Define Requirements</h4>
                             <p class="sec-para">Let us know what you expect & provide a clear brief</p>
@@ -235,8 +228,7 @@
                     </div>
 
                     <!-- Step 3 -->
-                    <div class="col-md-3 process-step zig-down" data-aos="fade-up" data-aos-delay="500"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">
+                    <div class="col-md-3 process-step zig-down" data-aos="fade-up" data-aos-delay="500">
                         <div class="img ">
                             <div class="shadow-title">03</div>
                             <div class="icon" style="background-color: rgb(238 251 229);">
@@ -251,7 +243,7 @@
 
                     <!-- Step 4 (reversed) -->
                     <div class="col-md-3 process-step d-flex flex-column-reverse flex-md-column" data-aos="fade-up"
-                        data-aos-delay="600" data-aos-duration="1200" data-aos-easing="ease-in-out">
+                        data-aos-delay="600">
                         <div class="text">
                             <h4 class="sub-sec-title">Final Solution</h4>
                             <p class="sec-para">Get the final solution done as per the provided plan</p>
@@ -265,14 +257,13 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="ourwork overflow-hidden space" id="aboutUs-KEyPoints">
+        <section class="ourwork overflow-hidden space" id="aboutUs-KEyPoints">
             <div class="container">
                 <div class="text-center content-box">
                     <!-- <h2 class="sec-title">Making a mark, one day at a time!</h2> -->
-                    <h2 class="fw-bold sec-title" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200"
-                        data-aos-easing="ease-in-out">
+                    <h2 class="fw-bold sec-title" data-aos="fade-up" data-aos-delay="200">
                         More Than Just Services — <span class="text-blue"> Here’s What Powers Us</span>
                     </h2>
                 </div>
@@ -385,7 +376,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <section class="about-area overflow-hidden position-relative p-0 d-none" id="about-banner"
             style="background-color: black;">
@@ -435,43 +426,35 @@
             </div>
         </section>
 
-        <div class="mb-md-5 mb-2 py-4 px-3 founder" id="our-founder">
+        <section class="mb-md-5 mb-2 py-4 px-3 founder" id="our-founder">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md-6 position-relative img custom-top me-0 me-md-5" data-aos="fade-right"
-                        data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out"
+                        data-aos-delay="100"
                         style="--tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--tw-bg-opacity)); padding: 1rem; border-radius: 30px;">
                         <img src="https://www.sociomark.in/assets/img/founders.jpg"
                             class="img-fluid rounded w-100 h-100 object-fit-cover" alt="Office Team">
                     </div>
                     <div class="col-md-6 text-white p-4 ">
-                        <h2 class="fw-bold mb-1 sec-title" data-aos="fade-left" data-aos-delay="100"
-                            data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <h2 class="fw-bold mb-1 sec-title" data-aos="fade-left" data-aos-delay="100">
                             Meet Our <span class="text-blue"> Founders</span>
                         </h2>
 
-                        <h4 class="sec-para text-uppercase sub-sec-title " data-aos="fade-left" data-aos-delay="100"
-                            data-aos-duration="1000" data-aos-easing="ease-in-out">Mr. Vivek Baandal & Mrs. Heta Desai
-                            Baandal</h4>
-                        <p class="sec-para" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1200"
-                            data-aos-easing="ease-in-out">Together Mr. Vivek Baandal & Mrs. Heta Desai Baandal are
-                            dedicated to helping businesses achieve digital prosperity. Their partnership forged during the
-                            college years, has grown into a flourishing business venture. They have build an agency that is
-                            committed to delivering outstanding work, their shared passion for creativity and innovation
-                            drives SocioMark’s success.
-                            The agency fosters an environment that is creative and collaborative, where every idea is
-                            welcomed and appreciated. This culture of innovation empowers the development of fresh and
-                            creative work that delivers exceptional results. With a core philosophy of fostering client's
-                            thriving success, Vivek and Heta have made their agency a reliable ally for businesses seeking
-                            to elevate their market presence and to make a significant impact in the digital world
+                        <h4 class="sec-para text-uppercase sub-sec-title " data-aos="fade-left" data-aos-delay="100">Mr.
+                            Vivek Baandal & Mrs. Heta Desai Baandal</h4>
+                        <p class="sec-para" data-aos="fade-left">
+                            Together, Mr. Vivek Baandal and Mrs. Heta Desai Baandal are dedicated to helping businesses grow in the digital space. What started during their college days has grown into a successful agency built on creativity and purpose.
+                        </p>
+                        <p class="sec-para" data-aos="fade-left" data-aos-delay="200">
+                            They’ve created an environment where ideas thrive, and collaboration leads the way. With a strong foundation and growing presence as a digital marketing company in UAE, they continue to guide brands toward better visibility and long-term success.
                         </p>
 
                         <a href="about.html" class="th-btn th-icon text-white p-3 logo-info mt-2" data-aos="fade-left"
-                            data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">Meet Our Team</a>
+                            data-aos-delay="100">Meet Our Team</a>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <section class="space">
             <div class="container">
@@ -489,7 +472,7 @@
                                         alt="Person">
                                 </div>
                             @endfor
-                            @for ($j = 0; $j < 16; $j++)
+                            @for ($j = 0; $j < 13; $j++)
                                 <div class="member" data-aos="zoom-in" data-aos-delay="{{ $i * 100 + $j * 100 }}"
                                     style="margin-top: 100px; left: {{ $j * (100 / 15) }}%">
                                     <img src="{{ asset('frontend-assets/img/team/person-placeholder.png') }}"
@@ -502,100 +485,98 @@
             </div>
         </section>
 
-        <div class="mb-md-5 mt-md-5 mt-5 mb-2 py-1 py-md-4 overflow-hidden position-relative space" id="about-flip">
+        <section class="mb-md-5 mt-md-5 mt-5 mb-2 py-1 py-md-4 overflow-hidden position-relative space" id="about-flip">
             <div class="container">
                 <div class="row d-flex justify-content-center justify-content-md-end mt-4">
 
                     <div class="col-md-6 col-12 pe-0 pe-md-5">
-                        <h2 class="fw-bold sec-title my-3" data-aos="fade-down" data-aos-delay="100"
-                            data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            Property <span class="text-blue"> features</span>
+                        <h2 class="fw-bold sec-title my-3" data-aos="fade-down" data-aos-delay="100">
+                            What Makes Us <span class="text-blue"> Remarkable</span>
                         </h2>
-                        <p class="sec-para" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1200"
-                            data-aos-easing="ease-in-out">Over 5,000+ Reviews and Counting. Customers trust our Quality
-                            product features. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni laudantium,
-                            iusto et atque eum velit amet facilis nemo possimus vitae ullam vel harum asperiores, rem
-                            voluptatibus sit illo aperiam nesciunt! </p>
+                        <p class="sec-para" data-aos="fade-up" data-aos-delay="200">
+                            We’re more than a digital agency—we’re a mix of brains, bold moves, and brand love.
+                        </p>
+                        <p class="sec-para" data-aos="fade-up" data-aos-delay="200">
+                            Rooted in the UAE and collaborating with brands across the globe, we bring fresh thinking to every brief.
+                        </p>
                     </div>
+
+
+
                     <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-left"
-                        data-aos-delay=" 300" data-aos-duration="1200" data-aos-easing="ease-in-out">
+                        data-aos-delay=" 300">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt=""
                                     class="h-auto w-auto">
-                                <h4 class="sub-sec-title mt-2"> Our Vision</h4>
+                                <h4 class="sub-sec-title mt-2">Quality Content</h4>
                             </div>
                             <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                                <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum
-                                    quibusdam veritatis tempore magnam.</p>
+                                <p class="sec-para">We don’t just create—we captivate your audience.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-left"
-                        data-aos-delay="300" data-aos-duration="1200" data-aos-easing="ease-in-out">
+                        data-aos-delay="300">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt=""
                                     class="h-auto w-auto">
-                                <h4 class="sub-sec-title mt-2">Our Mission</h4>
+                                <h4 class="sub-sec-title mt-2">Customized Strategy</h4>
                             </div>
                             <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                                <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum
-                                    quibusdam veritatis tempore magnam.</p>
+                                <p class="sec-para">A strategy that speaks your brand’s language.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row d-flex justify-content-center justify-content-md-end mt-4" data-aos="fade-right"
-                    data-aos-delay="400" data-aos-duration="1200" data-aos-easing="ease-in-out">
+                    data-aos-delay="400">
                     <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 mx-2">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt=""
                                     class="h-auto w-auto">
-                                <h4 class="sub-sec-title mt-2">Our Vision</h4>
+                                <h4 class="sub-sec-title mt-2">Results-Driven</h4>
                             </div>
                             <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                                <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum
-                                    quibusdam veritatis tempore magnam.</p>
+                                <p class="sec-para">Performance that delivers measurable results.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-right"
-                        data-aos-delay="400" data-aos-duration="1200" data-aos-easing="ease-in-out">
+                        data-aos-delay="400">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt=""
                                     class="h-auto w-auto">
-                                <h4 class="sub-sec-title mt-2">Our Vision</h4>
+                                <h4 class="sub-sec-title mt-2">Creative Distinction</h4>
                             </div>
-                            <div class="flip-box-back d-flex justify-content-center align-items-center v">
-                                <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum
-                                    quibusdam veritatis tempore magnam.</p>
+                            <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
+                                <p class="sec-para">Creativity that cuts through the noise.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-right"
-                        data-aos-delay="400" data-aos-duration="1200" data-aos-easing="ease-in-out">
+                        data-aos-delay="400">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt=""
                                     class="h-auto w-auto">
-                                <h4 class="sub-sec-title mt-2">Our Vision</h4>
+                                <h4 class="sub-sec-title mt-2">Collaborative Growth</h4>
                             </div>
                             <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                                <p class="sec-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad minus rerum
-                                    quibusdam veritatis tempore magnam.</p>
+                                <p class="sec-para">We’re in this together—every step of the way.</p>
                             </div>
                         </div>
                     </div>
 
                 </div>
             </div>
-        </div>
+        </section>
         @include('Frontend.partial.contactUs')
 
     </main>

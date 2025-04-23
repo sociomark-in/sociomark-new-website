@@ -1025,7 +1025,7 @@
                                                 </div>
                                                 <div class="box-info">
                                                     <h3 class="box-title text-black">Shafeeq Mareen</h3>
-                                                    <span class="box-desig text-black">GrillBox, Founder</span>
+                                                    <span class="box-desig text-black">Founder, GrillBox</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -1053,7 +1053,7 @@
                                                 </div>
                                                 <div class="box-info">
                                                     <h3 class="box-title text-black">Siju Thomas</h3>
-                                                    <span class="box-desig text-black">The Professional Couriers, CEO</span>
+                                                    <span class="box-desig text-black">CEO, The Professional Couriers</span>
                                                 </div>
                                             </div>
                                         </div>
