@@ -14,7 +14,6 @@
         padding: 30px;
     }
 
-
     /* client section */
    
 </style>
@@ -23,10 +22,10 @@
     <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Automation</h1>
+                <h1 class="breadcumb-title">Education</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="home-seo-agency.html">Home</a></li>
-                    <li>Automation</li>
+                    <li>Education</li>
                 </ul>
             </div>
         </div>
