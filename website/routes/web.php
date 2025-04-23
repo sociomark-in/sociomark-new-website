@@ -52,6 +52,11 @@ Route::get('/service/photograpy-videograpy', [ServiceController::class, 'photoVi
 Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');
 Route::get('/portfolio/inside', [PortfolioController::class, 'portfolioInside'])->name('portfolioinside');
 Route::get('/case-study', [CaseStudyController::class, 'index'])->name('case-study');
+Route::get('/case-study/stemrxbio', [CaseStudyController::class, 'stemrxbio'])->name('stemrxbio');
+Route::get('/case-study/expert4travel', [CaseStudyController::class, 'expert4travel'])->name('expert4travel');
+Route::get('/case-study/the-professional-couriers', [CaseStudyController::class, 'theProfessionalCouriers'])->name('the-professional-couriers');
+
+
 Route::get('/work-culture', [WorkCultureController::class, 'index'])->name('workculture');
 Route::get('/careers', [HomeController::class, 'careers'])->name('careers');
 

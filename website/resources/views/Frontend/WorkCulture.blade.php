@@ -399,7 +399,7 @@
             </div>
         </div>
     </div>
-    <div class="overflow-hidden position-relative space-extra-top space-bottom garally" id="portfolio-sec">
+    <section class="overflow-hidden position-relative space-extra-top space-bottom garally" id="portfolio-sec">
         <div class="container">
             <div class="title-area text-center mb-25">
                 <!-- <h2 class="sec-title">Our Work Culture</h2> -->
@@ -416,7 +416,6 @@
                 <button data-filter=".cat1" class="tab-btn" type="button">Apps</button>
                 <button data-filter=".cat2" class="tab-btn" type="button">Branding</button>
                 <button data-filter=".cat3" class="tab-btn" type="button">Creative</button>
-
             </div>
             <div class="portfolio-area">
                 <div class="row gy-4 filter-active garally-row-height">
@@ -488,7 +487,7 @@
                 </div> -->
             </div>
         </div>
-    </div>
+    </section>
 
 
 

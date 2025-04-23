@@ -14,11 +14,6 @@
         padding: 30px;
     }
 
-    #industries #about-sec4 .contact-media .icon-btn .fa-light,
-    .fal {
-        color: white;
-        font-size: 66px;
-    }
     /* client section */
    
 </style>
@@ -27,10 +22,10 @@
     <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Home & Interior</h1>
+                <h1 class="breadcumb-title">Education</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="home-seo-agency.html">Home</a></li>
-                    <li>Home & Interior</li>
+                    <li>Education</li>
                 </ul>
             </div>
         </div>
