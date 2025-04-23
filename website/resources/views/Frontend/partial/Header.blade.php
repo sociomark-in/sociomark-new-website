@@ -1,21 +1,5 @@
-    <!--==============================
-     Preloader
-  ==============================-->
-    <div class="preloader p-3">
-        <button class="th-btn style1 preloaderCls">Cancel Preloader </button>
-        <div class="preloader-inner">
-            <img src="{{ asset('frontend-assets/img/logo/sociomark-new-logo.png') }}" alt="Sociomark" height="200">
 
-            <span class="loader"></span>
-        </div>
-    </div>
-    <div class="popup-search-box d-none d-lg-block">
-        <button class="searchClose"><i class="fal fa-times"></i></button>
-        <form action="#">
-            <input type="text" placeholder="What are you looking for?">
-            <button type="submit"><i class="fal fa-search"></i></button>
-        </form>
-    </div><!--==============================
+    <!--==============================
 Mobile Menu
 ============================== -->
     <div class="th-menu-wrapper">
