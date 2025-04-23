@@ -8,9 +8,9 @@ use Illuminate\Http\Request;
 class PortfolioController extends Controller
 {
     public function index(){
-        return view('Frontend/Portfolio/ListPortfolioCat');
+        return view('frontend/Portfolio/ListPortfolioCat');
     }
     public function portfolioInside(){
-        return view('Frontend/Portfolio/insidePortfolio');
+        return view('frontend/Portfolio/insidePortfolio');
     }
 }
