@@ -7,283 +7,326 @@
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <!-- Plugin: TypewriterJS -->
 @push('styles')
-<style>
-    #home .about-area2 .sec-title {
-        width: 67rem;
-    }
-
-    /* section3 */
-    .according-img {
-        opacity: 0;
-        transform: scale(0.8);
-        /* Start smaller */
-        transition: all 0.6s ease;
-        pointer-events: none;
-        height: 0;
-        overflow: hidden;
-    }
-
-    .according-list.item-active .according-img {
-        transform: scale(1);
-        height: fit-content;
-    }
-
-    /* Zoom in on hover */
-    .hover-item:hover .according-img {
-        opacity: 1;
-        transform: scale(1);
-        /* Zoom to normal size */
-        pointer-events: auto;
-        height: fit-content;
-        overflow: visible;
-    }
-
-    #home #about-sec3 .box-title {
-        line-height: 32px;
-        font-size: 25px;
-        letter-spacing: .10px;
-        font-weight: 500;
-        padding-left: 0px;
-    }
-
-    #home #about-sec3 .according-list {
-        width: 100%;
-    }
-
-    @media (min-width: 768px) {
-        #home #about-sec3 .according-list {
-            width: 50%;
+    <style>
+        #home .about-area2 .sec-title {
+            width: 67rem;
         }
-    }
 
-    #home #about-sec3 .th-btn,
-    #home #about-sec5 .th-btn {
-        padding: 15px 18px;
-    }
+        /* section3 */
+        .according-img {
+            opacity: 0;
+            transform: scale(0.8);
+            /* Start smaller */
+            transition: all 0.6s ease;
+            pointer-events: none;
+            height: 0;
+            overflow: hidden;
+        }
 
-    /* #home #about-sec3 .sec-para{
-                                                                            font-weight: 400;
-                                                                        } */
-    #home #about-sec3 .accordion-item2 {
-        max-width: 510px;
-    }
+        .according-list.item-active .according-img {
+            transform: scale(1);
+            height: fit-content;
+        }
 
-    #home #about-sec3 .according-list .according-img {
-        max-width: 700px;
-    }
+        /* Zoom in on hover */
+        .hover-item:hover .according-img {
+            opacity: 1;
+            transform: scale(1);
+            /* Zoom to normal size */
+            pointer-events: auto;
+            height: fit-content;
+            overflow: visible;
+        }
 
-    #home #about-sec3 .accordion-item2 {
-        padding-bottom: 15px;
-    }
+        #home #about-sec3 .box-title {
+            line-height: 32px;
+            font-size: 25px;
+            letter-spacing: .10px;
+            font-weight: 500;
+            padding-left: 0px;
+        }
 
-    #home #about-sec3 .accordion-item2 .box-title:before {
-        width: 0px;
+        #home #about-sec3 .according-list {
+            width: 100%;
+        }
 
-    }
+        @media (min-width: 768px) {
+            #home #about-sec3 .according-list {
+                width: 50%;
+            }
+        }
 
-    #home #about-sec3 .according-list.hover-item.item-active .accordion-item2 {
-        border-bottom-color: #106c97;
-    }
+        #home #about-sec3 .th-btn,
+        #home #about-sec5 .th-btn {
+            padding: 15px 18px;
+        }
 
-    /* section3 end */
+        /* #home #about-sec3 .sec-para{
+                                                                                font-weight: 400;
+                                                                            } */
+        #home #about-sec3 .accordion-item2 {
+            max-width: 510px;
+        }
 
+        #home #about-sec3 .according-list .according-img {
+            max-width: 700px;
+        }
 
-    /* blog */
-    #home #about-sec5 .box {
-        padding: 28px 20px;
-        border-radius: 10px;
-    }
+        #home #about-sec3 .accordion-item2 {
+            padding-bottom: 15px;
+        }
 
-    #home #about-sec5 .blog-single.has-post-thumbnail {
-        background-color: white !important;
-    }
+        #home #about-sec3 .accordion-item2 .box-title:before {
+            width: 0px;
 
-    #home #about-sec5 .box-blog,
-    #home #about-sec5 .box-blog img {
-        border-radius: 10px;
-        box-shadow: 0px -2px 12px -1px rgba(0, 0, 0, 0.17);
-        -webkit-box-shadow: 0px -2px 12px -1px rgba(0, 0, 0, 0.17);
-        -moz-box-shadow: 0px -2px 12px -1px rgba(0, 0, 0, 0.17);
-        border: none
-    }
+        }
 
-    #home #about-sec5 .content-padding {
-        padding: 20px;
-    }
+        #home #about-sec3 .according-list.hover-item.item-active .accordion-item2 {
+            border-bottom-color: #106c97;
+        }
 
-    #home #about-sec5 .recent_post_title {
-        font-size: 16px;
-        line-height: 18px;
-    }
-
-    #home #about-sec5 .swiper-slide {
-        height: auto;
-    }
-
-    #home #about-sec5 .category-filter {
-        display: grid !important;
-    }
-
-    #home #about-sec5 .blog-title-text {
-        font-size: 23px;
-        margin-bottom: 6px;
-    }
-
-    .swiper-pagination {
-        bottom: -30px;
-        /* Position at the bottom */
-    }
-
-    .swiper-pagination-bullet {
-        width: 12px;
-        height: 12px;
-        background-color: #ccc;
-        opacity: 1;
-    }
-
-    .swiper-pagination-bullet-active {
-        background-color: #106c97;
-    }
-
-    .swiper-pagination-bullets .swiper-pagination-bullet {
-        width: 15px !important;
-        height: 15px !important;
-    }
-
-    .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
-        background-color: #106c97 !important;
-    }
-
-    .swiper-wrapper {
-        height: auto !important;
-    }
-
-    .swiper-pagination-bullets {
-        margin: 0px !important;
-    }
-
-    /* blog end */
+        /* section3 end */
 
 
+        /* blog */
+        #home #about-sec5 .box {
+            padding: 28px 20px;
+            border-radius: 10px;
+        }
 
-    /* contact form */
-    #home #contact {
-        padding: 30px;
-    }
+        #home #about-sec5 .blog-single.has-post-thumbnail {
+            background-color: white !important;
+        }
 
-    /* contact form */
-    #home #contact {
-        padding: 30px;
-    }
+        #home #about-sec5 .box-blog,
+        #home #about-sec5 .box-blog img {
+            border-radius: 10px;
+            box-shadow: 0px -2px 12px -1px rgba(0, 0, 0, 0.17);
+            -webkit-box-shadow: 0px -2px 12px -1px rgba(0, 0, 0, 0.17);
+            -moz-box-shadow: 0px -2px 12px -1px rgba(0, 0, 0, 0.17);
+            border: none
+        }
 
-    /* contact form end */
-    .tabbed-content .nav-pills .nav-link h3 {
-        color: white !important;
-        margin: 0;
-    }
+        #home #about-sec5 .content-padding {
+            padding: 20px;
+        }
 
-    .tabbed-content .nav-pills .nav-link.active {
-        background-color: var(--theme-color);
-    }
-</style>
+        #home #about-sec5 .recent_post_title {
+            font-size: 16px;
+            line-height: 18px;
+        }
+
+        #home #about-sec5 .swiper-slide {
+            height: auto;
+        }
+
+        #home #about-sec5 .category-filter {
+            display: grid !important;
+        }
+
+        #home #about-sec5 .blog-title-text {
+            font-size: 23px;
+            margin-bottom: 6px;
+        }
+
+        .swiper-pagination {
+            bottom: -30px;
+            /* Position at the bottom */
+        }
+
+        .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            background-color: #ccc;
+            opacity: 1;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: #106c97;
+        }
+
+        .swiper-pagination-bullets .swiper-pagination-bullet {
+            width: 15px !important;
+            height: 15px !important;
+        }
+
+        .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+            background-color: #106c97 !important;
+        }
+
+        .swiper-wrapper {
+            height: auto !important;
+        }
+
+        .swiper-pagination-bullets {
+            margin: 0px !important;
+        }
+
+        /* blog end */
+
+
+
+        /* contact form */
+        #home #contact {
+            padding: 30px;
+        }
+
+        /* contact form */
+        #home #contact {
+            padding: 30px;
+        }
+
+        /* contact form end */
+        .tabbed-content .nav-pills .nav-link h3 {
+            color: white !important;
+            margin: 0;
+        }
+
+        .tabbed-content .nav-pills .nav-link.active {
+            background-color: var(--theme-color);
+        }
+    </style>
 @endpush
 
 @section('content')
-<main id="home">
-    {{-- Video Section --}}
-    <section class="overflow-hidden video-heading height-full mb-md-3">
-        <div class="content video-bg">
-            <video class="w-100" autoplay muted loop>
-                <source src="{{ asset('frontend-assets/video.mp4') }}">
-            </video>
-        </div>
-        <div class="content text-content">
-            <div class="container h-100">
-                <div class="row h-100 justify-content-center align-items-center">
-                    <div class="col-xxl-10 col-12">
-                        <div class="big-title">
-                            <h1 data-aos="fade-right" data-aos-duration="2000">
-                                <span>No Noise</span>
-                            </h1>
-                            <h1 data-aos="fade-right" data-aos-delay="2500" data-aos-duration="1000">
-                                <span class="text-white">#JustResults</span>
-                            </h1>
+    <main id="home">
+        {{-- Video Section --}}
+        <section class="overflow-hidden video-heading height-full mb-md-3">
+            <div class="content video-bg">
+                <video class="w-100" autoplay muted loop>
+                    <source src="{{ asset('frontend-assets/video.mp4') }}">
+                </video>
+            </div>
+            <div class="content text-content">
+                <div class="container h-100">
+                    <div class="row h-100 justify-content-center align-items-center">
+                        <div class="col-xxl-10 col-12">
+                            <div class="big-title">
+                                <h1 data-aos="fade-right" data-aos-duration="2000">
+                                    <span>No Noise</span>
+                                </h1>
+                                <h1 data-aos="fade-right" data-aos-delay="2500" data-aos-duration="1000">
+                                    <span class="text-orange">#JustResults</span>
+                                </h1>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        @push('styles')
-        <style>
-            #home .video-heading {
-                position: relative;
-            }
+            @push('styles')
+                <style>
+                    #home .video-heading {
+                        position: relative;
+                    }
 
-            #home .video-heading::after {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                content: '';
-                width: 100%;
-                height: calc(max(20%, 10rem));
-                background: #000000;
-                background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 90%);
-            }
+                    #home .video-heading::after {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        content: '';
+                        width: 100%;
+                        height: calc(max(20%, 10rem));
+                        background: #000000;
+                        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 90%);
+                    }
 
-            #home .video-heading .content {
-                position: absolute;
-                height: 100vh;
-                width: 100%;
-            }
+                    #home .video-heading .content {
+                        position: absolute;
+                        height: 100vh;
+                        width: 100%;
+                    }
 
-            #home .video-heading .text-content {
-                z-index: 1;
-            }
+                    #home .video-heading .text-content {
+                        z-index: 1;
+                    }
 
-            #home .video-heading .video-bg {
-                position: absolute;
-                height: 100vh;
-                width: 100%;
-            }
+                    #home .video-heading .video-bg {
+                        position: absolute;
+                        height: 100vh;
+                        width: 100%;
+                    }
 
-            #home .video-heading .video-bg video {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                object-position: center;
-            }
-        </style>
-        @endpush
-    </section>
+                    #home .video-heading .video-bg video {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                </style>
+            @endpush
+        </section>
 
-    {{-- About Section --}}
-    <section class="choose-area" id="about-sec2">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-7 pe-5">
-                    <div class="title-area mb-20">
-                        <h1 class="sec-title " data-aos="fade-right" data-aos-delay="300">A Bold Digital Marketing Company
-                            <span class="text-orange"> for Brands that Think Bigger</span>
-                        </h1>
+        {{-- About Section --}}
+        <section class="choose-area" id="about-sec2">
+            <div class="container">
+                <div class="row g-4 g-md-5">
+                    <div class="col-xl-7 pe-5">
+                        <div class="title-area mb-20">
+                            <h1 class="sec-title " data-aos="fade-right" data-aos-delay="300">A Bold Digital Marketing
+                                Company
+                                <span class="text-orange"> for Brands that Think Bigger</span>
+                            </h1>
+                        </div>
+                        <p class="sec-para text-white-50" data-aos="fade-right" data-aos-delay="300">We’re not just a
+                            <strong>Digital marketing company in UAE,</strong> we’re your creative and strategic partners in
+                            the digital space. Whether it's building high-performing websites, crafting SEO strategies,
+                            running smart ad campaigns, or managing your brand’s social presence, we do it all with purpose.
+                            Our goal? To help your business grow, connect, and stand out in a crowded digital world.
+                        </p>
+                        <a href="" class="th-btn white-border th-icon th-radius">
+                            Read More <i class="fa-regular fa-arrow-right ms-2"></i>
+                        </a>
                     </div>
-                    <p class="sec-para text-white-50" data-aos="fade-right" data-aos-delay="300">We’re not just a <strong>Digital marketing company in UAE,</strong> we’re your creative and strategic partners in the digital space. Whether it's building high-performing websites, crafting SEO strategies, running smart ad campaigns, or managing your brand’s social presence, we do it all with purpose. Our goal? To help your business grow, connect, and stand out in a crowded digital world.
-                    </p>
-                    <a href="" class="th-btn white-border th-icon th-radius">
-                        Read More <i class="fa-regular fa-arrow-right ms-2"></i>
-                    </a>
-                </div>
-                <div class="col-xl-5" data-aos="fade-left">
-                    <div class="choose-image">
-                        <div class="rounded-overflow" data-tilt data-tilt-max="10">
-                            <img loading="lazy" src="{{ asset('frontend-assets/img/team/home.jpg')}}" alt="The Team">
+                    <div class="col-xl-5" data-aos="fade-left">
+                        <div class="choose-image">
+                            <div class="rounded-overflow" data-tilt data-tilt-max="10">
+                                <img loading="lazy" src="{{ asset('frontend-assets/img/team/home.jpg') }}" alt="The Team">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="counter-box-wrap">
+                            <div class="row g-3 gx-5">
+                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
+                                    <div class="counter-box">
+                                        <h3 class="box-number text-orange"><span class="counter-number">200</span>+</h3>
+                                        <div class="media-body">
+                                            <p class="text-white counter-text mb-n1">Experienced Team</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
+                                    <div class="counter-box">
+                                        <h3 class="box-number text-orange"><span class="counter-number">200</span>+</h3>
+                                        <div class="media-body">
+                                            <p class="text-white counter-text mb-n1">Experienced Team</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
+                                    <div class="counter-box">
+                                        <h3 class="box-number text-orange"><span class="counter-number">200</span>+</h3>
+                                        <div class="media-body">
+                                            <p class="text-white counter-text mb-n1">Experienced Team</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
+                                    <div class="counter-box">
+                                        <h3 class="box-number text-orange"><span class="counter-number">200</span>+</h3>
+                                        <div class="media-body">
+                                            <p class="text-white counter-text mb-n1">Experienced Team</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    {{-- <section class="overflow-hidden height-full mb-md-3">
+        {{-- <section class="overflow-hidden height-full mb-md-3">
             <div class="container h-100">
                 <div class="row h-100 flex-row-reverse align-items-center">
                     <div class="col-xl-6" data-aos="fade-left" data-aos-delay="300">
@@ -311,85 +354,85 @@
             </div>
         </section> --}}
 
-    @push('scripts')
-    <script>
-        const init = () => {
-            const marquee = document.querySelectorAll('.marquee')
+        @push('scripts')
+            <script>
+                const init = () => {
+                    const marquee = document.querySelectorAll('.marquee')
 
-            if (!marquee) return
+                    if (!marquee) return
 
-            marquee.forEach(item => {
-                const marqueeInner = item.querySelector('.marquee__inner')
-                const marqueeContent = marqueeInner.querySelector('.marquee__content')
+                    marquee.forEach(item => {
+                        const marqueeInner = item.querySelector('.marquee__inner')
+                        const marqueeContent = marqueeInner.querySelector('.marquee__content')
 
-                // Duration
-                const duration = item.getAttribute('data-marquee-duration')
+                        // Duration
+                        const duration = item.getAttribute('data-marquee-duration')
 
-                // Element Clone
-                const marqueeContentClone = marqueeContent.cloneNode(true)
-                marqueeInner.append(marqueeContentClone)
+                        // Element Clone
+                        const marqueeContentClone = marqueeContent.cloneNode(true)
+                        marqueeInner.append(marqueeContentClone)
 
-                // Marquee animation
-                const marqueeContentAll = marqueeInner.querySelectorAll('.marquee__content')
-                marqueeContentAll.forEach(element => {
-                    gsap.to(element, {
-                        x: "-101%",
-                        repeat: -1,
-                        duration: duration,
-                        ease: 'linear'
+                        // Marquee animation
+                        const marqueeContentAll = marqueeInner.querySelectorAll('.marquee__content')
+                        marqueeContentAll.forEach(element => {
+                            gsap.to(element, {
+                                x: "-101%",
+                                repeat: -1,
+                                duration: duration,
+                                ease: 'linear'
+                            })
+                        })
                     })
-                })
-            })
-        }
+                }
 
-        document.addEventListener('DOMContentLoaded', init)
-    </script>
-    @endpush
+                document.addEventListener('DOMContentLoaded', init)
+            </script>
+        @endpush
 
-    {{-- Video Scroll --}}
-    <section class="about-area" id="about-sec">
-        <div class="container-fluid overflow-hidden">
-            <div class="row justify-content-center">
-                <div class="col-12 p-0">
-                    <div class="img player-video" id="videoScaleDown">
-                        {{-- <iframe width="100%" height="800"
+        {{-- Video Scroll --}}
+        <section class="about-area" id="about-sec">
+            <div class="container-fluid overflow-hidden">
+                <div class="row justify-content-center">
+                    <div class="col-12 p-0">
+                        <div class="img player-video" id="videoScaleDown">
+                            {{-- <iframe width="100%" height="800"
                             src="https://www.youtube.com/embed/fUcECL2KLeg?controls=0&autoplay=1&mute=1"
                             title="Sociomark Showreel" frameborder="0" allow="autoplay;  picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
-                        <video class="w-100" autoplay muted loop>
-                            <source src="{{ asset('frontend-assets/test_video.mp4') }}">
-                        </video>
+                            <video class="w-100" autoplay muted loop>
+                                <source src="{{ asset('frontend-assets/test_video.mp4') }}">
+                            </video>
+                        </div>
+                        @push('scripts')
+                            <script>
+                                gsap.set("#videoScaleDown", {
+                                        xPercent: 0,
+                                        yPercent: 0,
+                                        scale: 1.4,
+                                    }),
+                                    gsap.to("#videoScaleDown", {
+                                        scale: 0.7,
+                                        // x: "-10%",
+                                        transformOrigin: "center",
+                                        scrollTrigger: {
+                                            trigger: "#videoScaleDown",
+                                            start: "40% 50%",
+                                            end: "+=1000",
+                                            markers: true,
+                                            pin: true,
+                                            scrub: true
+                                        }
+                                    })
+                            </script>
+                        @endpush
                     </div>
-                    @push('scripts')
-                    <script>
-                        gsap.set("#videoScaleDown", {
-                                xPercent: 0,
-                                yPercent: 0,
-                                scale: 1.4,
-                            }),
-                            gsap.to("#videoScaleDown", {
-                                scale: 0.7,
-                                // x: "-10%",
-                                transformOrigin: "center",
-                                scrollTrigger: {
-                                    trigger: "#videoScaleDown",
-                                    start: "40% 50%",
-                                    end: "+=1000",
-                                    markers: true,
-                                    pin: true,
-                                    scrub: true
-                                }
-                            })
-                    </script>
-                    @endpush
-                </div>
-                <div class="col-12">
+                    <div class="col-12">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    {{-- <section class="space" id="about-sec3">
+        {{-- <section class="space" id="about-sec3">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
@@ -519,212 +562,232 @@
                     src="assets/img/shape/shape-14.png" alt=""></div>
     </section> --}}
 
-    {{-- Stripe --}}
-    <div class="" style="padding: calc(max(5%, 2rem)) 0">
-        <div class="marquee" data-marquee-duration="30">
-            <div class="marquee__inner">
-                <div class="marquee__content">
-                    <div class="content">
-                        <span>Digital Marketing</span>
-                        <span>Search Engine Optimization</span>
-                        <span>Social Media Marketing</span>
-                        <span>Website Development</span>
-                        <span>Content Marketing</span>
-                        <span>SEM</span>
-                        <span>Photography & Video Production</span>
+        {{-- Stripe --}}
+        <div class="" style="padding: calc(max(5%, 2rem)) 0">
+            <div class="marquee" data-marquee-duration="30">
+                <div class="marquee__inner">
+                    <div class="marquee__content">
+                        <div class="content">
+                            <span>Digital Marketing</span>
+                            <span>Search Engine Optimization</span>
+                            <span>Social Media Marketing</span>
+                            <span>Website Development</span>
+                            <span>Content Marketing</span>
+                            <span>SEM</span>
+                            <span>Photography & Video Production</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    {{-- Services --}}
-    <section class="space" id="about-sec3">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <div class="title-area text-center">
-                        <h2 class="fw-bold mb-5 sec-title" data-aos="fade-up" data-aos-delay="100">
-                            Effective Solutions <br>for <span id="workTitle" class="text-orange">Lasting Impressions</span>
-                        </h2>
-                    </div>
-                    <script>
-                        new Typewriter('#workTitle', {
-                            strings: ['Lasting Impressions', 'Digital Marketing', 'Search Engine Optimization', 'Social Media Marketing', 'Website Development', 'Content Marketing', 'SEM', 'Photography','Video Production'],
-                            autoStart: true,
-                            loop: true,
-                            cursor: "",
-                        });
-                    </script>
-                </div>
-            </div>
-            <div class="tabbed-content tab-dark">
-                <div class="row">
-                    {{-- <div class="d-flex align-items-start"> --}}
-                    <div class="col-lg-4">
-                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
-                            aria-orientation="vertical">
-                            <button class="nav-link active" id="v-pills-digital-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-digital" type="button" role="tab"
-                                aria-controls="v-pills-digital" aria-selected="true">
-                                <h3 class="sec-para">Digital Marketing</h3>
-                            </button>
-                            <button class="nav-link" id="v-pills-seo-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-seo" type="button" role="tab"
-                                aria-controls="v-pills-seo" aria-selected="false">
-                                <h3 class="sec-para">Search Engine Optimization</h3>
-                            </button>
-                            <button class="nav-link" id="v-pills-social-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-social" type="button" role="tab"
-                                aria-controls="v-pills-social" aria-selected="false">
-                                <h3 class="sec-para">Social Media Marketing</h3>
-                            </button>
-                            <button class="nav-link" id="v-pills-website-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-website" type="button" role="tab"
-                                aria-controls="v-pills-website" aria-selected="false">
-                                <h3 class="sec-para">Website Development</h3>
-                            </button>
-                            <button class="nav-link" id="v-pills-performance-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-performance" type="button" role="tab"
-                                aria-controls="v-pills-performance" aria-selected="false">
-                                <h3 class="sec-para">Performance Marketing</h3>
-                            </button>
-                            <button class="nav-link" id="v-pills-content-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-content" type="button" role="tab"
-                                aria-controls="v-pills-content" aria-selected="false">
-                                <h3 class="sec-para">Content Marketing</h3>
-                            </button>
-                            <button class="nav-link" id="v-pills-production-tab" data-bs-toggle="pill"
-                                data-bs-target="#v-pills-production" type="button" role="tab"
-                                aria-controls="v-pills-production" aria-selected="false">
-                                <h3 class="sec-para">Graphic Designing & Video Production</h3>
-                            </button>
-
+        {{-- Services --}}
+        <section class="space" id="about-sec3">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="title-area text-center">
+                            <h2 class="fw-bold mb-5 sec-title" data-aos="fade-up" data-aos-delay="100">
+                                Effective Solutions <br>for <span id="workTitle" class="text-orange">Lasting
+                                    Impressions</span>
+                            </h2>
                         </div>
+                        <script>
+                            new Typewriter('#workTitle', {
+                                strings: ['Lasting Impressions', 'Digital Marketing', 'Search Engine Optimization',
+                                    'Social Media Marketing', 'Website Development', 'Content Marketing', 'SEM', 'Photography',
+                                    'Video Production'
+                                ],
+                                autoStart: true,
+                                loop: true,
+                                cursor: "",
+                            });
+                        </script>
                     </div>
-                    <div class="col-lg-8">
-                        <div class="tab-content" id="v-pills-tabContent">
-                            <div class="tab-pane fade show active" id="v-pills-digital" role="tabpanel"
-                                aria-labelledby="v-pills-digital-tab">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <img loading="lazy"
-                                            src="{{ asset('frontend-assets/img/service/DM_gray.jpg') }}"
-                                            alt="" class="w-100 service-image rounded-overflow">
-                                    </div>
-                                    <div class="col-12">
-                                        <p class="text mt-3">Crafting stories that matter on the platforms that matter. As the best <strong>digital marketing agency in UAE,</strong> we help you create an impactful and lasting social presence.
-                                        </p>
-                                        <a href="" class="th-btn white-border th-icon th-radius">
-                                            Read More
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-social" role="tabpanel"
-                                aria-labelledby="v-pills-social-tab">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <img loading="lazy"
-                                            src="{{ asset('frontend-assets/img/service/SM_gray.jpg') }}"
-                                            alt="" class="w-100 service-image rounded-overflow">
-                                    </div>
-                                    <div class="col-12">
-                                        <p class="text mt-3">Crafting stories that matter on the platforms that matter. As the best <strong>digital marketing agency in UAE,</strong> we help you create an impactful and lasting social presence.
-                                        </p>
-                                        <a href="" class="th-btn white-border th-icon th-radius">
-                                            Read More
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-seo" role="tabpanel"
-                                aria-labelledby="v-pills-seo-tab">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <img loading="lazy" src="{{ asset('frontend-assets/img/service/SEO_gray.jpg') }}"
-                                            alt="" class="w-100 service-image rounded-overflow">
-                                    </div>
-                                    <div class="col-12">
-                                        <p class="text mt-3">Boost your search engine rankings and drive organic traffic with our proven SEO strategies. As an <strong>SEO Company in Dubai,</strong> we help your brand stand out where it matters most.
-                                        </p>
-                                        <a href="" class="th-btn white-border th-icon th-radius">
-                                            Read More
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-website" role="tabpanel"
-                                aria-labelledby="v-pills-website-tab">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <img loading="lazy"
-                                            src="{{ asset('frontend-assets/img/service/WD_gray.jpg') }}"
-                                            alt="" class="w-100 service-image rounded-overflow">
-                                    </div>
-                                    <div class="col-12">
-                                        <p class="text mt-3"> Your website is your first impression—make it count. We build fast, functional, and future-ready websites that work beautifully on every screen.
+                </div>
+                <div class="tabbed-content tab-dark">
+                    <div class="row">
+                        {{-- <div class="d-flex align-items-start"> --}}
+                        <div class="col-lg-4">
+                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                                aria-orientation="vertical">
+                                <button class="nav-link active" id="v-pills-digital-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-digital" type="button" role="tab"
+                                    aria-controls="v-pills-digital" aria-selected="true">
+                                    <h3 class="sec-para">Digital Marketing</h3>
+                                </button>
+                                <button class="nav-link" id="v-pills-seo-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-seo" type="button" role="tab"
+                                    aria-controls="v-pills-seo" aria-selected="false">
+                                    <h3 class="sec-para">Search Engine Optimization</h3>
+                                </button>
+                                <button class="nav-link" id="v-pills-social-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-social" type="button" role="tab"
+                                    aria-controls="v-pills-social" aria-selected="false">
+                                    <h3 class="sec-para">Social Media Marketing</h3>
+                                </button>
+                                <button class="nav-link" id="v-pills-website-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-website" type="button" role="tab"
+                                    aria-controls="v-pills-website" aria-selected="false">
+                                    <h3 class="sec-para">Website Development</h3>
+                                </button>
+                                <button class="nav-link" id="v-pills-performance-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-performance" type="button" role="tab"
+                                    aria-controls="v-pills-performance" aria-selected="false">
+                                    <h3 class="sec-para">Performance Marketing</h3>
+                                </button>
+                                <button class="nav-link" id="v-pills-content-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-content" type="button" role="tab"
+                                    aria-controls="v-pills-content" aria-selected="false">
+                                    <h3 class="sec-para">Content Marketing</h3>
+                                </button>
+                                <button class="nav-link" id="v-pills-production-tab" data-bs-toggle="pill"
+                                    data-bs-target="#v-pills-production" type="button" role="tab"
+                                    aria-controls="v-pills-production" aria-selected="false">
+                                    <h3 class="sec-para">Graphic Designing & Video Production</h3>
+                                </button>
 
-                                        </p>
-                                        <a href="" class="th-btn white-border th-icon th-radius">
-                                            Read More
-                                        </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-digital" role="tabpanel"
+                                    aria-labelledby="v-pills-digital-tab">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img loading="lazy"
+                                                src="{{ asset('frontend-assets/img/service/DM_gray.jpg') }}"
+                                                alt="" class="w-100 service-image rounded-overflow">
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="text mt-3">Crafting stories that matter on the platforms that matter.
+                                                As the best <strong>digital marketing agency in UAE,</strong> we help you
+                                                create an impactful and lasting social presence.
+                                            </p>
+                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-performance" role="tabpanel"
-                                aria-labelledby="v-pills-performance-tab">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <img loading="lazy"
-                                            src="{{ asset('frontend-assets/img/service/DM_gray.jpg') }}"
-                                            alt="" class="w-100 service-image rounded-overflow">
+                                <div class="tab-pane fade" id="v-pills-social" role="tabpanel"
+                                    aria-labelledby="v-pills-social-tab">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img loading="lazy"
+                                                src="{{ asset('frontend-assets/img/service/SM_gray.jpg') }}"
+                                                alt="" class="w-100 service-image rounded-overflow">
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="text mt-3">Crafting stories that matter on the platforms that matter.
+                                                As the best <strong>digital marketing agency in UAE,</strong> we help you
+                                                create an impactful and lasting social presence.
+                                            </p>
+                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
                                     </div>
-                                    <div class="col-">
-                                        <p class="text mt-3">Every ad has a goal—and we make sure it delivers. From planning to tracking, each campaign is built to bring real value to your brand.
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-seo" role="tabpanel"
+                                    aria-labelledby="v-pills-seo-tab">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img loading="lazy"
+                                                src="{{ asset('frontend-assets/img/service/SEO_gray.jpg') }}"
+                                                alt="" class="w-100 service-image rounded-overflow">
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="text mt-3">Boost your search engine rankings and drive organic
+                                                traffic with our proven SEO strategies. As an <strong>SEO Company in
+                                                    Dubai,</strong> we help your brand stand out where it matters most.
+                                            </p>
+                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-website" role="tabpanel"
+                                    aria-labelledby="v-pills-website-tab">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img loading="lazy"
+                                                src="{{ asset('frontend-assets/img/service/WD_gray.jpg') }}"
+                                                alt="" class="w-100 service-image rounded-overflow">
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="text mt-3"> Your website is your first impression—make it count. We
+                                                build fast, functional, and future-ready websites that work beautifully on
+                                                every screen.
 
-                                        </p>
-                                        <a href="" class="th-btn white-border th-icon th-radius">
-                                            Read More
-                                        </a>
+                                            </p>
+                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-content" role="tabpanel"
-                                aria-labelledby="v-pills-content-tab">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <img loading="lazy" src="{{ asset('frontend-assets/img/service/CM_gray.jpg') }}"
-                                            alt="" class="w-100 service-image rounded-overflow">
-                                    </div>
-                                    <div class="col-12">
-                                        <p class="text mt-3">Content that informs, engages, and inspires action. We craft messages that reflect your brand and reach the right audience.
+                                <div class="tab-pane fade" id="v-pills-performance" role="tabpanel"
+                                    aria-labelledby="v-pills-performance-tab">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img loading="lazy"
+                                                src="{{ asset('frontend-assets/img/service/DM_gray.jpg') }}"
+                                                alt="" class="w-100 service-image rounded-overflow">
+                                        </div>
+                                        <div class="col-">
+                                            <p class="text mt-3">Every ad has a goal—and we make sure it delivers. From
+                                                planning to tracking, each campaign is built to bring real value to your
+                                                brand.
 
-                                        </p>
-                                        <a href="" class="th-btn white-border th-icon th-radius">
-                                            Read More
-                                        </a>
+                                            </p>
+                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="tab-pane fade" id="v-pills-production" role="tabpanel"
-                                aria-labelledby="v-pills-production-tab">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <img loading="lazy" src="{{ asset('frontend-assets/img/service/VP_gray.jpg') }}"
-                                            alt="" class="w-100 service-image rounded-overflow">
-                                    </div>
-                                    <div class="col-12">
-                                        <p class="text mt-3">From concept to execution, we work on designs and videos that support your marketing goals. Every output is made to fit the platform and purpose.
+                                <div class="tab-pane fade" id="v-pills-content" role="tabpanel"
+                                    aria-labelledby="v-pills-content-tab">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img loading="lazy"
+                                                src="{{ asset('frontend-assets/img/service/CM_gray.jpg') }}"
+                                                alt="" class="w-100 service-image rounded-overflow">
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="text mt-3">Content that informs, engages, and inspires action. We
+                                                craft messages that reflect your brand and reach the right audience.
 
-                                        </p>
-                                        <a href="" class="th-btn white-border th-icon th-radius">
-                                            Read More
-                                        </a>
+                                            </p>
+                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            {{-- <div class="tab-pane fade" id="v-pills-video" role="tabpanel"
+                                <div class="tab-pane fade" id="v-pills-production" role="tabpanel"
+                                    aria-labelledby="v-pills-production-tab">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <img loading="lazy"
+                                                src="{{ asset('frontend-assets/img/service/VP_gray.jpg') }}"
+                                                alt="" class="w-100 service-image rounded-overflow">
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="text mt-3">From concept to execution, we work on designs and videos
+                                                that support your marketing goals. Every output is made to fit the platform
+                                                and purpose.
+
+                                            </p>
+                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                {{-- <div class="tab-pane fade" id="v-pills-video" role="tabpanel"
                                 aria-labelledby="v-pills-video-tab">
                                 <div class="row">
                                     <div class="col-12">
@@ -748,312 +811,340 @@
                                     </div>
                                 </div>
                             </div> --}}
+                            </div>
                         </div>
                     </div>
                 </div>
+                {{-- </div> --}}
+                <script>
+                    // $(document).ready(function() {
+                    //     $("#about-sec3 .nav-link").mouseenter(function() {
+                    //         $(this).tab('show');
+                    //     });
+                    // });
+                </script>
             </div>
-            {{-- </div> --}}
-            <script>
-                // $(document).ready(function() {
-                //     $("#about-sec3 .nav-link").mouseenter(function() {
-                //         $(this).tab('show');
-                //     });
-                // });
-            </script>
-        </div>
-    </section>
+        </section>
 
-    {{-- Portfolio --}}
-    <section class="overflow-hidden position-relative space-extra-top space-bottom garally " id="portfolio-sec">
-        <div class="container">
-            <div class="title-area text-center mb-25">
-                <h2 class="fw-bold mb-5 sec-title" data-aos="fade-up" data-aos-delay="100">
-                    Our <span class="text-orange"> Portfolio</span>
-                </h2>
-            </div>
-            {{-- <div class="filter-menu filter-menu-active mt-5 mb-4">
+        {{-- Portfolio --}}
+        <section class="overflow-hidden position-relative space-extra-top space-bottom garally " id="portfolio-sec">
+            <div class="container">
+                <div class="title-area text-center mb-25">
+                    <h2 class="fw-bold mb-5 sec-title" data-aos="fade-up" data-aos-delay="100">
+                        Our <span class="text-orange"> Portfolio</span>
+                    </h2>
+                </div>
+                {{-- <div class="filter-menu filter-menu-active mt-5 mb-4">
                 <button data-filter="*" class="tab-btn active" type="button">All</button>
                 <button data-filter=".cat1" class="tab-btn" type="button">Social Media</button>
                 <button data-filter=".cat2" class="tab-btn" type="button">Development</button>
                 <button data-filter=".cat3" class="tab-btn" type="button">Digital Creatives</button>
             </div> --}}
-            <div class="portfolio-area">
-                <div class="row g-3 g-md-4 justify-content-center">
-                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
-                                    <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
-                                        alt="Lorum Ipsum" class="w-100" />
+                <div class="portfolio-area">
+                    <div class="row g-3 g-md-4 justify-content-center">
+                        <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
+                                            alt="Lorum Ipsum" class="w-100" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h4>Mastercard</h4>
+                                        <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Sequi, debitis?</p>
+                                    </div>
                                 </div>
-                                <div class="flip-box-back">
-                                    <h4>Mastercard</h4>
-                                    <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Sequi, debitis?</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
+                                            alt="Lorum Ipsum" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h4>Cashless India</h4>
+                                        <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Sequi, debitis?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
+                                            alt="Lorum Ipsum" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h4>Button Dabo Desh Bano</h4>
+                                        <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Sequi, debitis?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
+                                            alt="Lorum Ipsum" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h4>Nodwin Gaming</h4>
+                                        <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Sequi, debitis?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
+                                            alt="Lorum Ipsum" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h4>Euro</h4>
+                                        <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Sequi, debitis?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
+                                            alt="Lorum Ipsum" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h4>TPC</h4>
+                                        <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Sequi, debitis?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
+                                            alt="Lorum Ipsum" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h4>Euro</h4>
+                                        <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Sequi, debitis?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
+                                            alt="Lorum Ipsum" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h4>TPC</h4>
+                                        <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                            Sequi, debitis?</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
-                                    <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
-                                        alt="Lorum Ipsum" />
-                                </div>
-                                <div class="flip-box-back">
-                                    <h4>Cashless India</h4>
-                                    <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Sequi, debitis?</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
-                                    <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
-                                        alt="Lorum Ipsum" />
-                                </div>
-                                <div class="flip-box-back">
-                                    <h4>Button Dabo Desh Bano</h4>
-                                    <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Sequi, debitis?</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
-                                    <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
-                                        alt="Lorum Ipsum" />
-                                </div>
-                                <div class="flip-box-back">
-                                    <h4>Nodwin Gaming</h4>
-                                    <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Sequi, debitis?</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
-                                    <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
-                                        alt="Lorum Ipsum" />
-                                </div>
-                                <div class="flip-box-back">
-                                    <h4>Euro</h4>
-                                    <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Sequi, debitis?</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
-                                    <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
-                                        alt="Lorum Ipsum" />
-                                </div>
-                                <div class="flip-box-back">
-                                    <h4>TPC</h4>
-                                    <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Sequi, debitis?</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
-                                    <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
-                                        alt="Lorum Ipsum" />
-                                </div>
-                                <div class="flip-box-back">
-                                    <h4>Euro</h4>
-                                    <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Sequi, debitis?</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
-                                    <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
-                                        alt="Lorum Ipsum" />
-                                </div>
-                                <div class="flip-box-back">
-                                    <h4>TPC</h4>
-                                    <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Sequi, debitis?</p>
-                                </div>
-                            </div>
+                </div>
+            </div>
+        </section>
+
+        {{-- Stripe --}}
+        <div class="" style="padding: calc(max(5%, 2rem)) 0">
+            <div class="marquee" data-marquee-duration="30">
+                <div class="marquee__inner">
+                    <div class="marquee__content">
+                        <div class="content">
+                            <span>Digital Marketing</span>
+                            <span>Search Engine Optimization</span>
+                            <span>Social Media Marketing</span>
+                            <span>Website Development</span>
+                            <span>Content Marketing</span>
+                            <span>SEM</span>
+                            <span>Photography & Video Production</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
 
-    {{-- Stripe --}}
-    <div class="" style="padding: calc(max(5%, 2rem)) 0">
-        <div class="marquee" data-marquee-duration="30">
-            <div class="marquee__inner">
-                <div class="marquee__content">
-                    <div class="content">
-                        <span>Digital Marketing</span>
-                        <span>Search Engine Optimization</span>
-                        <span>Social Media Marketing</span>
-                        <span>Website Development</span>
-                        <span>Content Marketing</span>
-                        <span>SEM</span>
-                        <span>Photography & Video Production</span>
+        {{-- Testimonials --}}
+        <section class="overflow-hidden position-relative space-extra-top space-bottom garally" id="testi-sec">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="title-area text-center">
+                            <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
+                                60+ Happy Clients Said To Us <span class="text-orange">They Are Satisfied</span>
+                            </h2>
+
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
+                <div class="row justify-content-center">
+                    <div class="col-xxl-7 col-xl-9 col-md-10 col-12">
+                        <div class="slider-area">
+                            <div class="swiper testimonial testimonialSwiper th-slider has-shadow">
+                                <div class="swiper-wrapper">
 
-    {{-- Testimonials --}}
-    <section class="overflow-hidden position-relative space-extra-top space-bottom garally" id="testi-sec">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="title-area text-center">
-                        <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
-                            60+ Happy Clients Said To Us <span class="text-orange">They Are Satisfied</span>
-                        </h2>
-
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-xxl-7 col-xl-9 col-md-10 col-12">
-                    <div class="slider-area">
-                        <div class="swiper testimonial testimonialSwiper th-slider has-shadow">
-                            <div class="swiper-wrapper">
-
-                                <div class="swiper-slide testimonial-card">
-                                    <div class=" ">
-                                        {{-- <div class="box-review">
+                                    <div class="swiper-slide testimonial-card">
+                                        <div class=" ">
+                                            {{-- <div class="box-review">
                                                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                                         class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
                                                         class="fa-solid fa-star"></i>
                                                 </div> --}}
-                                        <div class="sec-para">
-                                            <div class="testimonial-message mb-3 mb-md-4">
-                                                <p class="">
-                                                    Ever since we started working with Sociomark, <strong>our return on investment on marketing have significantly improved, almost doubled</strong>. Sociomark is literally <strong>our partner in digital marketing</strong>.
-                                                </p>
-                                                <div class="d-none d-md-block">
-                                                    They help us in creating a robust marketing strategy. They also create those creatives which raise people's eyeballs when they watch it on social media and the likes are only increasing month and month because of that. Sociomark is so committed that they always deliver what they promise each month. I am extremely happy working with them. <strong>Best of luck Sociomark!</strong>
-                                                </div>
-                                                <strong class="text-black">Best of luck Sociomark!</strong>
-                                                <p></p>
-                                            </div>
-                                        </div>
-                                        <div class="box-wrapp">
-                                            <div class="box-profile">
-                                                <div class="box-author">
-                                                    <img loading="lazy" src="https://ui-avatars.com/api/?name=Smita%20Naram"
-                                                        alt="Avater">
-                                                </div>
-                                                <div class="box-info">
-                                                    <h3 class="box-title text-black">Dr. Smita Naram</h3>
-                                                    <span class="box-desig text-black">Founder, Ayushakti Ayurveda</span>
+                                            <div class="sec-para">
+                                                <div class="testimonial-message mb-3 mb-md-4">
+                                                    <p class="">
+                                                        Ever since we started working with Sociomark, <strong>our return on
+                                                            investment on marketing have significantly improved, almost
+                                                            doubled</strong>. Sociomark is literally <strong>our partner in
+                                                            digital marketing</strong>.
+                                                    </p>
+                                                    <div class="d-none d-md-block">
+                                                        They help us in creating a robust marketing strategy. They also
+                                                        create those creatives which raise people's eyeballs when they watch
+                                                        it on social media and the likes are only increasing month and month
+                                                        because of that. Sociomark is so committed that they always deliver
+                                                        what they promise each month. I am extremely happy working with
+                                                        them. <strong>Best of luck Sociomark!</strong>
+                                                    </div>
+                                                    <strong class="text-black">Best of luck Sociomark!</strong>
+                                                    <p></p>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide testimonial-card">
-                                    <div class=" ">
-                                        <div class="sec-para">
-                                            <div class="testimonial-message mb-3 mb-md-4">
-                                                <p class="">
-                                                Working with SocioMark for about 3 years now. <strong > Lovely people to work with.</strong>.
-                                                </p>
-                                                <div class="d-none d-md-block">
-                                                They have hardly ever missed any deadlines.The best part about them is that they no longer feel like an external agency but someone who is a part of Network18 group.We know whenever we are in trouble or that late night call for an urgent creative SocioMark will always be there.They have set benchmarks for others by their creative work done for the Road to safety campaign.</strong>
-                                                </div>
-                                                <strong class="text-black">Best of luck Sociomark!</strong>
-                                                <p></p>
-                                            </div>
-                                        </div>
-                                        <div class="box-wrapp">
-                                            <div class="box-profile">
-                                                <div class="box-author">
-                                                    <img loading="lazy" src="https://ui-avatars.com/api/?name=Apurva%20Shah"
-                                                        alt="Avater">
-                                                </div>
-                                                <div class="box-info">
-                                                    <h3 class="box-title text-black">Apurva Shah</h3>
-                                                    <span class="box-desig text-black">AGM, Marketing</span>
+                                            <div class="box-wrapp">
+                                                <div class="box-profile">
+                                                    <div class="box-author">
+                                                        <img loading="lazy"
+                                                            src="https://ui-avatars.com/api/?name=Smita%20Naram"
+                                                            alt="Avater">
+                                                    </div>
+                                                    <div class="box-info">
+                                                        <h3 class="box-title text-black">Dr. Smita Naram</h3>
+                                                        <span class="box-desig text-black">Founder, Ayushakti
+                                                            Ayurveda</span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="swiper-slide testimonial-card">
-                                    <div class=" ">
-                                        <div class="sec-para">
-                                            <div class="testimonial-message mb-3 mb-md-4">
-                                                <p class="">
-                                                Its a pleasure working with Sociomark for social media marketing of our brand GrillBox through Facebook and Instagram.
-                                                </p>
-                                                <div class="d-none d-md-block">
-                                                Sociomark helped us to reach many users through their creative contents. They were easy to work with and were flexible with meeting our needs.
+                                    <div class="swiper-slide testimonial-card">
+                                        <div class=" ">
+                                            <div class="sec-para">
+                                                <div class="testimonial-message mb-3 mb-md-4">
+                                                    <p class="">
+                                                        Working with SocioMark for about 3 years now. <strong> Lovely people
+                                                            to work with.</strong>.
+                                                    </p>
+                                                    <div class="d-none d-md-block">
+                                                        They have hardly ever missed any deadlines.The best part about them
+                                                        is that they no longer feel like an external agency but someone who
+                                                        is a part of Network18 group.We know whenever we are in trouble or
+                                                        that late night call for an urgent creative SocioMark will always be
+                                                        there.They have set benchmarks for others by their creative work
+                                                        done for the Road to safety campaign.</strong>
+                                                    </div>
+                                                    <strong class="text-black">Best of luck Sociomark!</strong>
+                                                    <p></p>
                                                 </div>
-                                                <strong class="text-black">Best of luck Sociomark!</strong>
-                                                <p></p>
                                             </div>
-                                        </div>
-                                        <div class="box-wrapp">
-                                            <div class="box-profile">
-                                                <div class="box-author">
-                                                    <img loading="lazy" src="https://ui-avatars.com/api/?name=Shafeeq%20Mareen"
-                                                        alt="Avater">
-                                                </div>
-                                                <div class="box-info">
-                                                    <h3 class="box-title text-black">Shafeeq Mareen</h3>
-                                                    <span class="box-desig text-black">Founder, GrillBox</span>
+                                            <div class="box-wrapp">
+                                                <div class="box-profile">
+                                                    <div class="box-author">
+                                                        <img loading="lazy"
+                                                            src="https://ui-avatars.com/api/?name=Apurva%20Shah"
+                                                            alt="Avater">
+                                                    </div>
+                                                    <div class="box-info">
+                                                        <h3 class="box-title text-black">Apurva Shah</h3>
+                                                        <span class="box-desig text-black">AGM, Marketing</span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="swiper-slide testimonial-card">
-                                    <div class=" ">
-                                        <div class="sec-para">
-                                            <div class="testimonial-message mb-3 mb-md-4">
-                                                <p class="">
-                                                Sociomark team is absolutely very professional in their work yet bring in high flexibility in terms of ownership in delivery.
-                                                </p>
-                                                <div class="d-none d-md-block">
-                                                All the tasks and works are delivered with utmost commitment and dedication and on time. they never said no and always valued and worked on our feedbacks we have had a long term engagement with them and they are an absolute pleasure to work with!
+                                    <div class="swiper-slide testimonial-card">
+                                        <div class=" ">
+                                            <div class="sec-para">
+                                                <div class="testimonial-message mb-3 mb-md-4">
+                                                    <p class="">
+                                                        Its a pleasure working with Sociomark for social media marketing of
+                                                        our brand GrillBox through Facebook and Instagram.
+                                                    </p>
+                                                    <div class="d-none d-md-block">
+                                                        Sociomark helped us to reach many users through their creative
+                                                        contents. They were easy to work with and were flexible with meeting
+                                                        our needs.
+                                                    </div>
+                                                    <strong class="text-black">Best of luck Sociomark!</strong>
+                                                    <p></p>
                                                 </div>
-                                                <strong class="text-black">Best of luck Sociomark!</strong>
-                                                <p></p>
+                                            </div>
+                                            <div class="box-wrapp">
+                                                <div class="box-profile">
+                                                    <div class="box-author">
+                                                        <img loading="lazy"
+                                                            src="https://ui-avatars.com/api/?name=Shafeeq%20Mareen"
+                                                            alt="Avater">
+                                                    </div>
+                                                    <div class="box-info">
+                                                        <h3 class="box-title text-black">Shafeeq Mareen</h3>
+                                                        <span class="box-desig text-black">Founder, GrillBox</span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="box-wrapp">
-                                            <div class="box-profile">
-                                                <div class="box-author">
-                                                    <img loading="lazy" src="https://ui-avatars.com/api/?name=Siju%20Thomas"
-                                                        alt="Avater">
+                                    </div>
+                                    <div class="swiper-slide testimonial-card">
+                                        <div class=" ">
+                                            <div class="sec-para">
+                                                <div class="testimonial-message mb-3 mb-md-4">
+                                                    <p class="">
+                                                        Sociomark team is absolutely very professional in their work yet
+                                                        bring in high flexibility in terms of ownership in delivery.
+                                                    </p>
+                                                    <div class="d-none d-md-block">
+                                                        All the tasks and works are delivered with utmost commitment and
+                                                        dedication and on time. they never said no and always valued and
+                                                        worked on our feedbacks we have had a long term engagement with them
+                                                        and they are an absolute pleasure to work with!
+                                                    </div>
+                                                    <strong class="text-black">Best of luck Sociomark!</strong>
+                                                    <p></p>
                                                 </div>
-                                                <div class="box-info">
-                                                    <h3 class="box-title text-black">Siju Thomas</h3>
-                                                    <span class="box-desig text-black">CEO, The Professional Couriers</span>
+                                            </div>
+                                            <div class="box-wrapp">
+                                                <div class="box-profile">
+                                                    <div class="box-author">
+                                                        <img loading="lazy"
+                                                            src="https://ui-avatars.com/api/?name=Siju%20Thomas"
+                                                            alt="Avater">
+                                                    </div>
+                                                    <div class="box-info">
+                                                        <h3 class="box-title text-black">Siju Thomas</h3>
+                                                        <span class="box-desig text-black">CEO, The Professional
+                                                            Couriers</span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1063,412 +1154,413 @@
                         </div>
                     </div>
                 </div>
+                @push('scripts')
+                    <script>
+                        new Swiper(".testimonialSwiper", {
+                            effect: "cards",
+                            grabCursor: true,
+                            autoplay: {
+                                delay: 5000,
+                                disableOnInteraction: false,
+                            },
+                        })
+                    </script>
+                @endpush
             </div>
-            @push('scripts')
+        </section>
+
+        {{-- PR Agents --}}
+        <section class="space-extra-top space-bottom">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="title-area text-center">
+                            <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
+                                Lorem ipsum dolor sit amet. <span class="text-orange">The Mighty Exposure</span>
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="swiper prSwiper">
+                            <div class="swiper-wrapper">
+                                @for ($i = 0; $i < 10; $i++)
+                                    <div class="swiper-slide">
+                                        <a href="">
+                                            <img src="https://placehold.co/200x100" alt="Logo" class="w-100">
+                                        </a>
+                                    </div>
+                                @endfor
+                            </div>
+                        </div>
+                    </div>
+                    @push('scripts')
+                        <script>
+                            new Swiper(".prSwiper", {
+                                slidesPerView: 6,
+                                spaceBetween: 20,
+                            })
+                        </script>
+                    @endpush
+                </div>
+            </div>
+        </section>
+
+        {{-- Blogs --}}
+        <section class="th-blog-wrapper space-top space-extra-bottom" id="about-sec5">
+            <div class="container">
+                <div class="title-area text-center mb-25">
+                    <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
+                        From The Blog: Blogs worth binging on. <br><span class="text-orange"> Dive in!</span>
+                    </h2>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        @foreach ($blogs as $blog)
+                            <div class="swiper-slide">
+                                <div class="box-blog th-blog blog-single has-post-thumbnail">
+                                    <div class="blog-img box-blog">
+                                        <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
+                                            <img loading="lazy"
+                                                src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}"
+                                                alt="Blog Image" width="100%"
+                                                style="height: 270px; object-fit: cover; margin-right: 5px;">
+                                        </a>
+                                    </div>
+                                    <div class="blog-content content-padding">
+                                        <div class="blog-meta">
+                                            <a href="#"><i class="fa-light fa-calendar"></i>
+                                                {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}</a>
+                                            <a href="#"><i class="fa-light fa-tags"></i>
+                                                {{ implode(', ', $blog->getCategoryNames()) ?? 'No Category' }}</a>
+                                        </div>
+                                        <h3 class="blog-title blog-title-text">
+                                            <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
+                                                {{ Str::limit($blog->blog_name, 20) }}
+                                            </a>
+                                        </h3>
+
+                                        <p class="blog-text">{{ Str::limit(strip_tags($blog->content), 80) }}</p>
+                                        <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}"
+                                            class="th-btn white-border th-icon th-radius">
+                                            Read More <i class="fa-regular fa-arrow-right ms-2"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        @endforeach
+                    </div>
+                    <!-- Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </section>
+
+        {{-- Contact --}}
+        @push('scripts')
             <script>
-                new Swiper(".testimonialSwiper", {
-                    effect: "cards",
-                    grabCursor: true,
-                    autoplay: {
-                        delay: 5000,
-                        disableOnInteraction: false,
-                    },
-                })
-            </script>
-            @endpush
-        </div>
-    </section>
-
-    {{-- PR Agents --}}
-    <section class="space-extra-top space-bottom">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="title-area text-center">
-                        <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
-                            Lorem ipsum dolor sit amet. <span class="text-orange">The Mighty Exposure</span>
-                        </h2>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="swiper prSwiper">
-                        <div class="swiper-wrapper">
-                            @for ($i = 0; $i < 10; $i++)
-                                <div class="swiper-slide">
-                                <a href="">
-                                    <img src="https://placehold.co/200x100" alt="Logo" class="w-100">
-                                </a>
-                        </div>
-                        @endfor
-                    </div>
-                </div>
-            </div>
-            @push('scripts')
-            <script>
-                new Swiper(".prSwiper", {
-                    slidesPerView: 6,
-                    spaceBetween: 20,
-                })
-            </script>
-            @endpush
-        </div>
-        </div>
-    </section>
-
-    {{-- Blogs --}}
-    <section class="th-blog-wrapper space-top space-extra-bottom" id="about-sec5">
-        <div class="container">
-            <div class="title-area text-center mb-25">
-                <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
-                    From The Blog: Blogs worth binging on. <br><span class="text-orange"> Dive in!</span>
-                </h2>
-            </div>
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    @foreach ($blogs as $blog)
-                    <div class="swiper-slide">
-                        <div class="box-blog th-blog blog-single has-post-thumbnail">
-                            <div class="blog-img box-blog">
-                                <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                    <img loading="lazy"
-                                        src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}"
-                                        alt="Blog Image" width="100%"
-                                        style="height: 270px; object-fit: cover; margin-right: 5px;">
-                                </a>
-                            </div>
-                            <div class="blog-content content-padding">
-                                <div class="blog-meta">
-                                    <a href="#"><i class="fa-light fa-calendar"></i>
-                                        {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}</a>
-                                    <a href="#"><i class="fa-light fa-tags"></i>
-                                        {{ implode(', ', $blog->getCategoryNames()) ?? 'No Category' }}</a>
-                                </div>
-                                <h3 class="blog-title blog-title-text">
-                                    <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                        {{ Str::limit($blog->blog_name, 20) }}
-                                    </a>
-                                </h3>
-
-                                <p class="blog-text">{{ Str::limit(strip_tags($blog->content), 80) }}</p>
-                                <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}"
-                                    class="th-btn white-border th-icon th-radius">
-                                    Read More <i class="fa-regular fa-arrow-right ms-2"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    @endforeach
-                </div>
-                <!-- Pagination -->
-                <div class="swiper-pagination"></div>
-            </div>
-
-        </div>
-    </section>
-
-    {{-- Contact --}}
-    @push('scripts')
-    <script>
-        $(window).resize(function() {
-            /*Bind an event handler to the "resize"*/
-            if ($(window).width() < 786 || $(window).height() < 480) {
-                gsap.to("#contact", {
-                    onStart: () => {
-                        console.log("Started");
-                        new bootstrap.Modal(document.getElementById("homeContactModal"), {}).show();
-                    },
-                    scrollTrigger: {
-                        trigger: "#contact",
-                        start: "0% 50%",
-                        end: "+=1",
-                        markers: true,
-                        pin: true,
-                        scrub: true
+                $(window).resize(function() {
+                    /*Bind an event handler to the "resize"*/
+                    if ($(window).width() < 786 || $(window).height() < 480) {
+                        gsap.to("#contact", {
+                            onStart: () => {
+                                console.log("Started");
+                                new bootstrap.Modal(document.getElementById("homeContactModal"), {}).show();
+                            },
+                            scrollTrigger: {
+                                trigger: "#contact",
+                                start: "0% 50%",
+                                end: "+=1",
+                                markers: true,
+                                pin: true,
+                                scrub: true
+                            }
+                        })
                     }
                 })
-            }
-        })
-    </script>
-    @endpush
-    <section class="th-blog-wrapper bg-white text-black space-top space-extra-bottom" id="contact">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-5 pe-md-5">
-                    <div class="title-area mb-20">
-                        <h2 class="sec-title text-black" data-aos="fade-right" data-aos-delay="100">Start the Conversation, <span class="text-blue"> Spark the Change </span></h2>
+            </script>
+        @endpush
+        <section class="th-blog-wrapper bg-white text-black space-top space-extra-bottom" id="contact">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-5 pe-md-5">
+                        <div class="title-area mb-20">
+                            <h2 class="sec-title text-black" data-aos="fade-right" data-aos-delay="100">Start the
+                                Conversation, <span class="text-blue"> Spark the Change </span></h2>
+                        </div>
+                        <p class="sec-para mb-35 " data-aos="fade-right" data-aos-delay="100">Whether it’s a big brief or
+                            a tiny thought, we’d love to hear what’s on your mind.
+                        </p>
+
+
                     </div>
-                    <p class="sec-para mb-35 " data-aos="fade-right" data-aos-delay="100">Whether it’s a big brief or a tiny thought, we’d love to hear what’s on your mind.
-                    </p>
+                    <div class="col-lg-7 d-none d-lg-block">
+                        <form action="{{ route('contact.store') }}" method="POST" class="contact-form style2">
+                            @csrf
+                            <div class="row g-3">
+                                <div class="form-group col-md-6">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" class="form-control @error('name') is-invalid @enderror"
+                                        name="name" id="name" placeholder="Enter your Name"
+                                        value="{{ old('name') }}">
+                                    @error('name')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
 
+                                <div class="form-group col-md-6">
+                                    <i class="far fa-envelope"></i>
+                                    <label for="email">Email</label>
+                                    <input type="text" class="form-control @error('email') is-invalid @enderror"
+                                        name="email" id="email" placeholder="Enter your Email"
+                                        value="{{ old('email') }}">
+                                    @error('email')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <i class="fal fa-phone"></i>
+                                    <label for="phone">Phone</label>
+                                    <input type="text" class="form-control @error('phone') is-invalid @enderror"
+                                        name="phone" id="phone" placeholder="Enter your Phone"
+                                        value="{{ old('phone') }}">
+                                    @error('phone')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
 
+                                <div class="form-group col-md-6">
+
+                                    <label for="service">Service you want?</label>
+                                    <select class="form-select @error('service') is-invalid @enderror" id="service"
+                                        name="service">
+                                        <option selected disabled>Choose an option</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+
+                                    @error('service')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+
+                                <div class="form-group col-md-6">
+
+                                    <label for="budget">Marketing Budget</label>
+                                    <select class="form-select @error('budget') is-invalid @enderror" id="budget"
+                                        name="budget">
+                                        <option selected disabled>Choose an option</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+                                    @error('budget')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+
+                                <div class="form-group col-md-6">
+
+                                    <label for="aboutUs">How did you hear about Us?</label>
+                                    <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs"
+                                        name="aboutUs">
+                                        <option selected disabled>Choose an option</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+                                    @error('aboutUs')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-12">
+
+                                    <label for="messageforus">Your Message</label>
+                                    <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus"
+                                        placeholder="Enter your message" rows="4" name="messageforus"></textarea>
+                                    <i class="fal fa-pencil"></i>
+                                    @error('messageforus')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="col-12 form-group mb-0 text-center">
+                                    <button class="th-btn th-radius">Submit Message</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="col-12 d-block d-md-none">
+                        <button class="th-btn th-radius" data-bs-toggle="modal"
+                            data-bs-target="#homeContactModal">Contact Us</button>
+                    </div>
                 </div>
-                <div class="col-lg-7 d-none d-lg-block">
-                    <form action="{{ route('contact.store') }}" method="POST" class="contact-form style2">
-                        @csrf
-                        <div class="row g-3">
-                            <div class="form-group col-md-6">
-                                <label for="name">Your Name</label>
-                                <input type="text" class="form-control @error('name') is-invalid @enderror"
-                                    name="name" id="name" placeholder="Enter your Name"
-                                    value="{{ old('name') }}">
-                                @error('name')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
+            </div>
+        </section>
+        <div class="modal fade" id="homeContactModal" tabindex="-1" aria-labelledby="homeContactModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="homeContactModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body contact-form style2">
+                        <form action="{{ route('contact.store') }}" method="POST" class="">
+                            @csrf
+                            <div class="row g-2">
+                                <div class="form-group col-md-6">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" class="form-control @error('name') is-invalid @enderror"
+                                        name="name" id="name" placeholder="Enter your Name"
+                                        value="{{ old('name') }}">
+                                    @error('name')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <i class="far fa-envelope"></i>
+                                    <label for="email">Email</label>
+                                    <input type="text" class="form-control @error('email') is-invalid @enderror"
+                                        name="email" id="email" placeholder="Enter your Email"
+                                        value="{{ old('email') }}">
+                                    @error('email')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <i class="fal fa-phone"></i>
+                                    <label for="phone">Phone</label>
+                                    <input type="text" class="form-control @error('phone') is-invalid @enderror"
+                                        name="phone" id="phone" placeholder="Enter your Phone"
+                                        value="{{ old('phone') }}">
+                                    @error('phone')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-6">
+
+                                    <label for="service">Service you want?</label>
+                                    <select class="form-select @error('service') is-invalid @enderror" id="service"
+                                        name="service">
+                                        <option selected disabled>Choose an option</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+
+                                    @error('service')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-6">
+
+                                    <label for="budget">Marketing Budget</label>
+                                    <select class="form-select @error('budget') is-invalid @enderror" id="budget"
+                                        name="budget">
+                                        <option selected disabled>Choose an option</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+                                    @error('budget')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-6">
+
+                                    <label for="aboutUs">How did you hear about Us?</label>
+                                    <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs"
+                                        name="aboutUs">
+                                        <option selected disabled>Choose an option</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+                                    @error('aboutUs')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-12">
+
+                                    <label for="messageforus">Your Message</label>
+                                    <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus"
+                                        placeholder="Enter your message" rows="4" name="messageforus"></textarea>
+                                    <i class="fal fa-pencil"></i>
+                                    @error('messageforus')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="col-12 form-group mb-0 text-center">
+                                    <button class="th-btn th-radius">Submit Message</button>
+                                </div>
                             </div>
 
-                            <div class="form-group col-md-6">
-                                <i class="far fa-envelope"></i>
-                                <label for="email">Email</label>
-                                <input type="text" class="form-control @error('email') is-invalid @enderror"
-                                    name="email" id="email" placeholder="Enter your Email"
-                                    value="{{ old('email') }}">
-                                @error('email')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-                            <div class="form-group col-md-6">
-                                <i class="fal fa-phone"></i>
-                                <label for="phone">Phone</label>
-                                <input type="text" class="form-control @error('phone') is-invalid @enderror"
-                                    name="phone" id="phone" placeholder="Enter your Phone"
-                                    value="{{ old('phone') }}">
-                                @error('phone')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-
-                            <div class="form-group col-md-6">
-
-                                <label for="service">Service you want?</label>
-                                <select class="form-select @error('service') is-invalid @enderror" id="service"
-                                    name="service">
-                                    <option selected disabled>Choose an option</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
-                                </select>
-
-                                @error('service')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-
-                            <div class="form-group col-md-6">
-
-                                <label for="budget">Marketing Budget</label>
-                                <select class="form-select @error('budget') is-invalid @enderror" id="budget"
-                                    name="budget">
-                                    <option selected disabled>Choose an option</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
-                                </select>
-                                @error('budget')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-
-                            <div class="form-group col-md-6">
-
-                                <label for="aboutUs">How did you hear about Us?</label>
-                                <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs"
-                                    name="aboutUs">
-                                    <option selected disabled>Choose an option</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
-                                </select>
-                                @error('aboutUs')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-                            <div class="form-group col-12">
-
-                                <label for="messageforus">Your Message</label>
-                                <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus"
-                                    placeholder="Enter your message" rows="4" name="messageforus"></textarea>
-                                <i class="fal fa-pencil"></i>
-                                @error('messageforus')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-                            <div class="col-12 form-group mb-0 text-center">
-                                <button class="th-btn th-radius">Submit Message</button>
-                            </div>
-                        </div>
-
-                    </form>
-                </div>
-                <div class="col-12 d-block d-md-none">
-                    <button class="th-btn th-radius" data-bs-toggle="modal"
-                        data-bs-target="#homeContactModal">Contact Us</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <div class="modal fade" id="homeContactModal" tabindex="-1" aria-labelledby="homeContactModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="homeContactModalLabel">Modal title</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body contact-form style2">
-                    <form action="{{ route('contact.store') }}" method="POST" class="">
-                        @csrf
-                        <div class="row g-2">
-                            <div class="form-group col-md-6">
-                                <label for="name">Your Name</label>
-                                <input type="text" class="form-control @error('name') is-invalid @enderror"
-                                    name="name" id="name" placeholder="Enter your Name"
-                                    value="{{ old('name') }}">
-                                @error('name')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-                            <div class="form-group col-md-6">
-                                <i class="far fa-envelope"></i>
-                                <label for="email">Email</label>
-                                <input type="text" class="form-control @error('email') is-invalid @enderror"
-                                    name="email" id="email" placeholder="Enter your Email"
-                                    value="{{ old('email') }}">
-                                @error('email')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-                            <div class="form-group col-md-6">
-                                <i class="fal fa-phone"></i>
-                                <label for="phone">Phone</label>
-                                <input type="text" class="form-control @error('phone') is-invalid @enderror"
-                                    name="phone" id="phone" placeholder="Enter your Phone"
-                                    value="{{ old('phone') }}">
-                                @error('phone')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-                            <div class="form-group col-md-6">
-
-                                <label for="service">Service you want?</label>
-                                <select class="form-select @error('service') is-invalid @enderror" id="service"
-                                    name="service">
-                                    <option selected disabled>Choose an option</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
-                                </select>
-
-                                @error('service')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-                            <div class="form-group col-md-6">
-
-                                <label for="budget">Marketing Budget</label>
-                                <select class="form-select @error('budget') is-invalid @enderror" id="budget"
-                                    name="budget">
-                                    <option selected disabled>Choose an option</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
-                                </select>
-                                @error('budget')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-                            <div class="form-group col-md-6">
-
-                                <label for="aboutUs">How did you hear about Us?</label>
-                                <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs"
-                                    name="aboutUs">
-                                    <option selected disabled>Choose an option</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
-                                </select>
-                                @error('aboutUs')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-                            <div class="form-group col-12">
-
-                                <label for="messageforus">Your Message</label>
-                                <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus"
-                                    placeholder="Enter your message" rows="4" name="messageforus"></textarea>
-                                <i class="fal fa-pencil"></i>
-                                @error('messageforus')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-                            <div class="col-12 form-group mb-0 text-center">
-                                <button class="th-btn th-radius">Submit Message</button>
-                            </div>
-                        </div>
-
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</main>
+    </main>
 @endsection
 
 @push('scripts')
-<script>
-    var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-        breakpoints: {
-            // when window width is >= 0px
-            0: {
-                slidesPerView: 1,
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
             },
-            // when window width is >= 768px
-            768: {
-                slidesPerView: 2,
-            },
-            // when window width is >= 992px
-            992: {
-                slidesPerView: 3,
-            }
-        }
-    });
-    // services tab
-    const tabTriggers = document.querySelectorAll('[data-bs-toggle="pill"]');
-
-    tabTriggers.forEach(trigger => {
-        trigger.addEventListener('shown.bs.tab', (event) => {
-            const targetPaneId = event.target.getAttribute('data-bs-target');
-            const targetPane = document.querySelector(targetPaneId);
-
-            // Animate text content
-            const textCols = targetPane.querySelectorAll('.col-lg-6.col-12.side-padding-mbl');
-            textCols.forEach(col => {
-                col.classList.remove('animate-slide-in-right');
-                void col.offsetWidth;
-                col.classList.add('animate-slide-in-right');
-            });
-
-            // Animate images
-            const images = targetPane.querySelectorAll('.page-img img');
-            if (images.length === 1) {
-                images[0].classList.remove('animate-zoom-in');
-                void images[0].offsetWidth;
-                images[0].classList.add('animate-zoom-in');
-            } else if (images.length === 2) {
-                images[0].classList.remove('animate-slide-in-left');
-                images[1].classList.remove('animate-slide-in-right');
-                void images[0].offsetWidth; // force reflow
-                void images[1].offsetWidth;
-                images[0].classList.add('animate-slide-in-left');
-                images[1].classList.add('animate-slide-in-right');
+            breakpoints: {
+                // when window width is >= 0px
+                0: {
+                    slidesPerView: 1,
+                },
+                // when window width is >= 768px
+                768: {
+                    slidesPerView: 2,
+                },
+                // when window width is >= 992px
+                992: {
+                    slidesPerView: 3,
+                }
             }
         });
-    });
-    // services tab end
-</script>
+        // services tab
+        const tabTriggers = document.querySelectorAll('[data-bs-toggle="pill"]');
+
+        tabTriggers.forEach(trigger => {
+            trigger.addEventListener('shown.bs.tab', (event) => {
+                const targetPaneId = event.target.getAttribute('data-bs-target');
+                const targetPane = document.querySelector(targetPaneId);
+
+                // Animate text content
+                const textCols = targetPane.querySelectorAll('.col-lg-6.col-12.side-padding-mbl');
+                textCols.forEach(col => {
+                    col.classList.remove('animate-slide-in-right');
+                    void col.offsetWidth;
+                    col.classList.add('animate-slide-in-right');
+                });
+
+                // Animate images
+                const images = targetPane.querySelectorAll('.page-img img');
+                if (images.length === 1) {
+                    images[0].classList.remove('animate-zoom-in');
+                    void images[0].offsetWidth;
+                    images[0].classList.add('animate-zoom-in');
+                } else if (images.length === 2) {
+                    images[0].classList.remove('animate-slide-in-left');
+                    images[1].classList.remove('animate-slide-in-right');
+                    void images[0].offsetWidth; // force reflow
+                    void images[1].offsetWidth;
+                    images[0].classList.add('animate-slide-in-left');
+                    images[1].classList.add('animate-slide-in-right');
+                }
+            });
+        });
+        // services tab end
+    </script>
 @endpush

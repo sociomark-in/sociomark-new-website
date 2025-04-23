@@ -1,21 +1,4 @@
 @extends('Frontend.layout.app')
-<style>
-    #industries #about-sec4 {
-        background: linear-gradient(to right, #106c97, #1b272c);
-    }
-
-
-    #industries #about-sec4 .contact-media .icon-btn {
-        width: 125px;
-        height: 125px;
-        font-size: 74px;
-        background: transparent;
-        border-radius: 87px;
-        padding: 30px;
-    }
-
-    /* client section */
-</style>
 @section('content')
     <main id="industries">
         <section>
