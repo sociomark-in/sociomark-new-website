@@ -21,14 +21,10 @@
 @endsection
 @section('content')
     <main id="about-us">
-        <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x520">
-            <div class="container">
-                <div class="breadcumb-content">
-                    <h1 class="breadcumb-title text-uppercase">About us</h1>
-                    <ul class="breadcumb-menu">
-                        <li><a href="home-seo-agency.html">Home</a></li>
-                        <li>About Us</li>
-                    </ul>
+        <div class="breadcumb-wrapper p-0">
+            <div class="">
+                <div class="w-100" style="height: 70vh;">
+                    <video src="{{asset('frontend-assets/about.mp4')}}" loop autoplay muted class="w-100 h-100" style="object-fit: cover;"></video>
                 </div>
             </div>
         </div>
@@ -104,7 +100,8 @@
                                 </div>
                                 <div class="box-content">
                                     <h2 class="box-title">Share Your Vision</h2>
-                                    <p class="box-text">From campaign goals to creative vibes, the more you share, the better we plan.</p>
+                                    <p class="box-text">From campaign goals to creative vibes, the more you share, the
+                                        better we plan.</p>
 
                                 </div>
                             </div>
@@ -140,50 +137,51 @@
                                 </div>
                                 <div class="box-content">
                                     <h2 class="box-title">Watch It Come Alive</h2>
-                                    <p class="box-text"> Get the final solution, tailored to your brief and ready to roll.</p>
+                                    <p class="box-text"> Get the final solution, tailored to your brief and ready to roll.
+                                    </p>
 
                                 </div>
                             </div>
                         </div>
                         <!--<div class="col-xl-4 col-md-6 col-12">
-                            <div class="process-card">
-                                <div class="box-wrapp">
-                                    <div class="box-icon">
-                                        <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
+                                <div class="process-card">
+                                    <div class="box-wrapp">
+                                        <div class="box-icon">
+                                            <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
+                                        </div>
+                                        <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                alt=""></div>
+                                        <div class="box-number">
+                                            05 </div>
                                     </div>
-                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                            alt=""></div>
-                                    <div class="box-number">
-                                        05 </div>
-                                </div>
-                                <div class="box-content">
-                                    <h2 class="box-title">Plan Customization</h2>
-                                    <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                        behaviors. Submit as many design tasks</p>
+                                    <div class="box-content">
+                                        <h2 class="box-title">Plan Customization</h2>
+                                        <p class="box-text">Conduct thorough market of the research to the fast target audience
+                                            behaviors. Submit as many design tasks</p>
 
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xl-4 col-md-6 col-12">
-                            <div class="process-card">
-                                <div class="box-wrapp">
-                                    <div class="box-icon">
-                                        <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}"
-                                            alt="icon">
+                            <div class="col-xl-4 col-md-6 col-12">
+                                <div class="process-card">
+                                    <div class="box-wrapp">
+                                        <div class="box-icon">
+                                            <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}"
+                                                alt="icon">
+                                        </div>
+                                        <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                alt=""></div>
+                                        <div class="box-number">
+                                            06 </div>
                                     </div>
-                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                            alt=""></div>
-                                    <div class="box-number">
-                                        06 </div>
-                                </div>
-                                <div class="box-content">
-                                    <h2 class="box-title">Finished &amp; User Testing</h2>
-                                    <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                        behaviors. Submit as many design tasks</p>
+                                    <div class="box-content">
+                                        <h2 class="box-title">Finished &amp; User Testing</h2>
+                                        <p class="box-text">Conduct thorough market of the research to the fast target audience
+                                            behaviors. Submit as many design tasks</p>
 
+                                    </div>
                                 </div>
-                            </div>
-                        </div>-->
+                            </div>-->
                     </div>
                 </div>
             </div>
@@ -432,7 +430,7 @@
                     <div class="col-md-6 position-relative img custom-top me-0 me-md-5" data-aos="fade-right"
                         data-aos-delay="100"
                         style="--tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--tw-bg-opacity)); padding: 1rem; border-radius: 30px;">
-                        <img src="https://www.sociomark.in/assets/img/founders.jpg"
+                        <img src="{{ asset('frontend-assets/img/team/founders.png') }}"
                             class="img-fluid rounded w-100 h-100 object-fit-cover" alt="Office Team">
                     </div>
                     <div class="col-md-6 text-white p-4 ">
@@ -443,10 +441,14 @@
                         <h4 class="sec-para text-uppercase sub-sec-title " data-aos="fade-left" data-aos-delay="100">Mr.
                             Vivek Baandal & Mrs. Heta Desai Baandal</h4>
                         <p class="sec-para" data-aos="fade-left">
-                            Together, Mr. Vivek Baandal and Mrs. Heta Desai Baandal are dedicated to helping businesses grow in the digital space. What started during their college days has grown into a successful agency built on creativity and purpose.
+                            Together, Mr. Vivek Baandal and Mrs. Heta Desai Baandal are dedicated to helping businesses grow
+                            in the digital space. What started during their college days has grown into a successful agency
+                            built on creativity and purpose.
                         </p>
                         <p class="sec-para" data-aos="fade-left" data-aos-delay="200">
-                            They’ve created an environment where ideas thrive, and collaboration leads the way. With a strong foundation and growing presence as a digital marketing company in UAE, they continue to guide brands toward better visibility and long-term success.
+                            They’ve created an environment where ideas thrive, and collaboration leads the way. With a
+                            strong foundation and growing presence as a digital marketing company in UAE, they continue to
+                            guide brands toward better visibility and long-term success.
                         </p>
 
                         <a href="about.html" class="th-btn th-icon text-white p-3 logo-info mt-2" data-aos="fade-left"
@@ -487,29 +489,35 @@
                         <div class="swiper teamSwiper">
                             <div class="swiper-wrapper">
                                 @for ($i = 0; $i < 10; $i++)
-                                <div class="swiper-slide">
-                                    <div class="th-team team-card style1 mb-3">
-                                        <div class="box-img">
-                                            <img src="{{asset('frontend-assets/img/team/team_1_3.jpg')}}" alt="Team">
-                                        </div>
-                                        <div class="box-content">
-                                            <div>
-                                                <h3 class="box-title"><a href="team-details.html">Lorem, ipsum.</a></h3>
-                                                <span class="team-desig">Web Developer</span>
+                                    <div class="swiper-slide">
+                                        <div class="th-team team-card style1 mb-3">
+                                            <div class="box-img">
+                                                <img src="{{ asset('frontend-assets/img/team/team_1_3.jpg') }}"
+                                                    alt="Team">
                                             </div>
-                                            <div class="team-social">
-                                                <div class="icon-btn"><i class="fa-light fa-plus"></i></div>
-                                                <div class="th-social">
-                                                    <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                                    <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                                    <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                                    <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                            <div class="box-content">
+                                                <div>
+                                                    <h3 class="box-title"><a href="team-details.html">Lorem, ipsum.</a>
+                                                    </h3>
+                                                    <span class="team-desig">Web Developer</span>
+                                                </div>
+                                                <div class="team-social">
+                                                    <div class="icon-btn"><i class="fa-light fa-plus"></i></div>
+                                                    <div class="th-social">
+                                                        <a target="_blank" href="https://facebook.com/"><i
+                                                                class="fab fa-facebook-f"></i></a>
+                                                        <a target="_blank" href="https://twitter.com/"><i
+                                                                class="fab fa-twitter"></i></a>
+                                                        <a target="_blank" href="https://instagram.com/"><i
+                                                                class="fab fa-instagram"></i></a>
+                                                        <a target="_blank" href="https://linkedin.com/"><i
+                                                                class="fab fa-linkedin-in"></i></a>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
 
+                                        </div>
                                     </div>
-                                </div>
                                 @endfor
                             </div>
                         </div>
@@ -525,12 +533,17 @@
                 </div>
             </div>
         </section>
-
+        <style>
+            #about-flip .flip-box {
+            width: 240px;
+            height: 320px;
+        }
+        </style>
         <section class="mb-md-5 mt-md-5 mt-5 mb-2 py-1 py-md-4 overflow-hidden position-relative space" id="about-flip">
             <div class="container">
-                <div class="row d-flex justify-content-center justify-content-md-end mt-4">
+                <div class="row text-center d-flex justify-content-center justify-content-md-end mt-4">
 
-                    <div class="col-md-6 col-12 pe-0 pe-md-5">
+                    <div class="col-md-12 col-12 pe-0 pe-md-5">
                         <h2 class="fw-bold sec-title my-3" data-aos="fade-down" data-aos-delay="100">
                             What Makes Us <span class="text-blue"> Remarkable</span>
                         </h2>
@@ -538,13 +551,14 @@
                             We’re more than a digital agency—we’re a mix of brains, bold moves, and brand love.
                         </p>
                         <p class="sec-para" data-aos="fade-up" data-aos-delay="200">
-                            Rooted in the UAE and collaborating with brands across the globe, we bring fresh thinking to every brief.
+                            Rooted in the UAE and collaborating with brands across the globe, we bring fresh thinking to
+                            every brief.
                         </p>
                     </div>
-
-
-
-                    <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-left"
+                </div>
+                <div class="row d-flex justify-content-center mt-4" data-aos="fade-right"
+                    data-aos-delay="400">
+                    <div class="col-12 col-md-2 first-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-left"
                         data-aos-delay=" 300">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
@@ -558,7 +572,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-left"
+                    <div class="col-12 col-md-2 first-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-left"
                         data-aos-delay="300">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
@@ -571,10 +585,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row d-flex justify-content-center justify-content-md-end mt-4" data-aos="fade-right"
-                    data-aos-delay="400">
-                    <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 mx-2">
+                    <div class="col-12 col-md-2 second-feature-card feature-card flip-box p-0 mx-2">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt=""
@@ -587,7 +598,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-right"
+                    <div class="col-12 col-md-2 second-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-right"
                         data-aos-delay="400">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
@@ -601,7 +612,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-right"
+                    <div class="col-12 col-md-2 second-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-right"
                         data-aos-delay="400">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
