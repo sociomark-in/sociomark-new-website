@@ -38,11 +38,10 @@
                     <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
                         <div class="title-area mb-md-3 mb-2 mt-n1">
                             <!-- <h2 class="sec-title text-center "> Our Comprehensive International SEO Solutions</h2> -->
-                            <h2 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
+                            <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                Hello, we are Sociomark – <span class="text-blue"> A Digital Marketing Company</span> in
-                                Mumbai
-                            </h2>
+                                Your brand’s digital partner, <span class="text-blue"> every step of the way</span>
+                            </h1> 
                         </div>
                     </div>
                     <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
