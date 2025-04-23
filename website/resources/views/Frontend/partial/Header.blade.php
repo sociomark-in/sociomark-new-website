@@ -99,7 +99,7 @@ Header Area
                                             <li><a href="{{ route('automation') }}">Automobile</a></li>
                                         </ul>
                                     </li>
-    
+
                                     <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                 </ul>
                             </nav>
@@ -112,7 +112,7 @@ Header Area
                             <div class="header-button">
                                 <!-- <button type="button" class="icon-btn searchBoxToggler"><i class="fal fa-search"></i></button> -->
                                 <a href="#" class="th-btn th-icon" data-bs-toggle="modal"
-                                    data-bs-target="#exampleModal">Get A Quote <i
+                                    data-bs-target="#getAQuoteModal">Get A Quote <i
                                         class="fa-regular fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
@@ -124,11 +124,11 @@ Header Area
 
     <!-- popup modal  start-->
     <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="getAQuoteModal" tabindex="-1" aria-labelledby="getAQuoteModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content contact-form style2">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Please Fill In The Form Below</h1>
+                    <h1 class="modal-title fs-5" id="getAQuoteModalLabel">Please Fill In The Form Below</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
