@@ -4,7 +4,7 @@
         background: linear-gradient(to right, #106c97, #1b272c);
     }
 
- 
+
     #industries #about-sec4 .contact-media .icon-btn {
         width: 125px;
         height: 125px;
@@ -15,7 +15,7 @@
     }
 
     /* client section */
-   
+
 </style>
 @section('content')
 <main id="industries">
@@ -30,7 +30,7 @@
             </div>
         </div>
     </div>
-    <div class="about-area2 overflow-hidden space" id="about-sec">
+    <section class="about-area2 overflow-hidden space" id="about-sec">
         <div class="container">
             <div class="row ">
                 <div class="col-lg-4 mb-30 mb-xl-0">
@@ -62,8 +62,8 @@
             </div>
         </div>
 
-    </div>
-    <div class="choose-area bg-title overflow-hidden space" id="about-sec2" data-mask-src="{{ asset('frontend-assets/img/bg/choose_bg_3.png') }}">
+    </section>
+    <section class="choose-area bg-title overflow-hidden space" id="about-sec2" data-mask-src="{{ asset('frontend-assets/img/bg/choose_bg_3.png') }}">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6">
@@ -140,9 +140,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     @include('Frontend/partial/clientList')
-  
+
     <div class="overflow-hidden space" id="about-sec4">
         <div class="container">
             <div class="title-area text-center">

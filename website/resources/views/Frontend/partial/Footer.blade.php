@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-md-6 col-xl-2">
                     <div class="widget widget_nav_menu footer-widget">
-                        <h3 class="widget_title">Remarkable's</h3>
+                        <h3 class="widget_title">Remarkable Services</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
                                 <li class=""><a href="{{ route('home') }}">Home</a></li>
@@ -47,9 +47,15 @@
                         <h3 class="widget_title">Quick Links</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
+                                <li><a href="{{ route('contact') }}">Contact Us</a></li>
+                                <li><a href="{{ route('workculture') }}">Work Culture</a></li>
+                                <li><a href="{{ route('about') }}">About Us</a></li>
+                                <li><a href="#">Services</a></li>
+                                {{-- <li><a href="#">Creator</a></li> --}}
+                                <li><a href="{{ route('portfolio') }}">Case Studies</a></li>
+                                <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
+                                <li><a href="{{ route('blog') }}">Blogs</a></li>
                                 <li><a href="#">Careers</a></li>
-                                <li><a href="{{ route('workculture') }}">Work</a></li>
-                                <li><a href="{{ route('contact') }}">Contact</a></li>
                             </ul>
                         </div>
                     </div>
