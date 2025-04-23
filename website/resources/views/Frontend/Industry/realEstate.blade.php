@@ -146,7 +146,7 @@
             </div>
         </div>
     </div>
-    @include('frontend/partial/clientList')
+    @include('Frontend/partial/clientList')
   
     <div class="overflow-hidden space" id="about-sec4">
         <div class="container">
