@@ -55,6 +55,7 @@ Route::get('/case-study', [CaseStudyController::class, 'index'])->name('case-stu
 Route::get('/case-study/stemrxbio', [CaseStudyController::class, 'stemrxbio'])->name('stemrxbio');
 Route::get('/case-study/expert4travel', [CaseStudyController::class, 'expert4travel'])->name('expert4travel');
 Route::get('/case-study/the-professional-couriers', [CaseStudyController::class, 'theProfessionalCouriers'])->name('the-professional-couriers');
+Route::get('/case-study/eduauraa', [CaseStudyController::class, 'eduauraa'])->name('eduauraa');
 
 
 Route::get('/work-culture', [WorkCultureController::class, 'index'])->name('workculture');
