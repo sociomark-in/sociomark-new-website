@@ -65,16 +65,16 @@ Route::get('/blog-inner/{slug}', [BlogWebController::class, 'innerBlog'])->name(
 Route::get('/categoryBlog/{slug}', [BlogWebController::class, 'categoryBlog'])->name('categoryBlog');
 Route::get('/tagBlog/{slug}', [BlogWebController::class, 'tagBlog'])->name('tagBlog');
 
-Route::get('/industries/education', [IndustryController::class, 'education'])->name('education');
-Route::get('/industries/healthcare', [IndustryController::class, 'healthcare'])->name('healthcare');
-Route::get('/industries/FMCG', [IndustryController::class, 'FMCG'])->name('FMCG');
-Route::get('/industries/news-media', [IndustryController::class, 'newsMedia'])->name('newsMedia');
-Route::get('/industries/real-estate', [IndustryController::class, 'realEstate'])->name('realEstate');
-Route::get('/industries/logistics', [IndustryController::class, 'logistics'])->name('logistics');
-Route::get('/industries/fashion-lifestyle', [IndustryController::class, 'fashionLifestyle'])->name('fashionLifestyle');
-Route::get('/industries/gaming', [IndustryController::class, 'gaming'])->name('gaming');
-Route::get('/industries/home-interior', [IndustryController::class, 'homeInterior'])->name('homeInterior');
-Route::get('/industries/automation', [IndustryController::class, 'automation'])->name('automation');
+Route::get('/industry/education', [IndustryController::class, 'education'])->name('education');
+Route::get('/industry/healthcare', [IndustryController::class, 'healthcare'])->name('healthcare');
+Route::get('/industry/fmcg', [IndustryController::class, 'FMCG'])->name('FMCG');
+Route::get('/industry/news-media', [IndustryController::class, 'newsMedia'])->name('newsMedia');
+Route::get('/industry/real-estate', [IndustryController::class, 'realEstate'])->name('realEstate');
+Route::get('/industry/logistics', [IndustryController::class, 'logistics'])->name('logistics');
+Route::get('/industry/fashion-lifestyle', [IndustryController::class, 'fashionLifestyle'])->name('fashionLifestyle');
+Route::get('/industry/gaming', [IndustryController::class, 'gaming'])->name('gaming');
+Route::get('/industry/home-interior', [IndustryController::class, 'homeInterior'])->name('homeInterior');
+Route::get('/industry/automation', [IndustryController::class, 'automation'])->name('automation');
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');
