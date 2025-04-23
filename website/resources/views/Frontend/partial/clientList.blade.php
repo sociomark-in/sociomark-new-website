@@ -12,7 +12,7 @@
             <button data-filter=".cat2" class="tab-btn" type="button">Healthcare</button>
             <button data-filter=".cat3" class="tab-btn" type="button">News & Media</button>
             <button data-filter=".cat4" class="tab-btn" type="button">Real Eastate</button>
-            <button data-filter=".cat5" class="tab-btn" type="button">Logistist</button>
+            <button data-filter=".cat5" class="tab-btn" type="button">Logistics</button>
             <button data-filter=".cat6" class="tab-btn" type="button">Gaming</button>
 
         </div>

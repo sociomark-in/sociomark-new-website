@@ -462,7 +462,7 @@
                     <span class="sub-title sub-title4 ">EXPERT TEAM <span></span></span>
                     <h2 class="sec-title ">See Our Skilled Expert Team</h2>
                 </div>
-                <div class="">
+                <div class="d-none">
                     <div class="team-collage position-relative">
                         <div class="team">
                             @for ($i = 0; $i < 16; $i++)
@@ -480,6 +480,47 @@
                                 </div>
                             @endfor
                         </div>
+                    </div>
+                </div>
+                <div class="row g-3">
+                    <div class="col-12">
+                        <div class="swiper teamSwiper">
+                            <div class="swiper-wrapper">
+                                @for ($i = 0; $i < 10; $i++)
+                                <div class="swiper-slide">
+                                    <div class="th-team team-card style1 mb-3">
+                                        <div class="box-img">
+                                            <img src="{{asset('frontend-assets/img/team/team_1_3.jpg')}}" alt="Team">
+                                        </div>
+                                        <div class="box-content">
+                                            <div>
+                                                <h3 class="box-title"><a href="team-details.html">Lorem, ipsum.</a></h3>
+                                                <span class="team-desig">Web Developer</span>
+                                            </div>
+                                            <div class="team-social">
+                                                <div class="icon-btn"><i class="fa-light fa-plus"></i></div>
+                                                <div class="th-social">
+                                                    <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                                                    <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                                                    <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                                                    <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                @endfor
+                            </div>
+                        </div>
+                        @push('scripts')
+                            <script>
+                                new Swiper(".teamSwiper", {
+                                    spaceBetween: 30,
+                                    slidesPerView: 4,
+                                })
+                            </script>
+                        @endpush
                     </div>
                 </div>
             </div>
