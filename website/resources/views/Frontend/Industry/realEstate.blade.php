@@ -14,11 +14,11 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcumb-content breadcrumb-light">
-                            <h1 class="breadcumb-title">Education Industry</h1>
+                            <h1 class="breadcumb-title">Real Estate Industry</h1>
                             <ul class="breadcumb-menu">
                                 <li><a href="{{ route('home') }}">Home</a></li>
-                                {{-- <li><a href="{{ route('ind')}}">Services</a></li> --}}
-                                <li>Education Industry</li>
+                                <li><a href="{{ route('industry_home') }}">Industries</a></li>
+                                <li>Real Estate Industry</li>
                             </ul>
                         </div>
                     </div>
@@ -39,20 +39,17 @@
                     </div>
                     <div class="col-lg-8">
                         <div class="title-area mb-25 mt-n1">
-                            <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000"
-                                data-aos-easing="ease-in-out">
-                                Innovative Digital Solutions <span class="text-blue"> for Modern Businesses</span>
+                            <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100">
+                                Real Estate Digital Marketing that <span class="text-blue">Sells Dreams</span>, Not Just
+                                Homes
                             </h2>
                         </div>
-                        <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">Established in 1995, Saor has been a leading force in the digital
-                            landscape for
-                            over two decades. We're a passionate team of designers, developers, and strategists driven by a
-                            shared vision. Our digital agency combines innovation, strategy, and expertise to fuel your
-                            online
-                            success. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, animi voluptatem esse
-                            quis tenetur, quidem harum ipsa tempore laborum reprehenderit nam! Voluptatum, hic minima
-                            temporibus vero pariatur accusamus ipsam qui?
+                        <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+
+                            From property launches to lead generation, we help real estate brands build their digital
+                            footprint. With sleek visuals, hyper-targeted ads, and storytelling that resonates, we bring
+                            your square footage to life online.
+
                         </p>
                         <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
                             A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
@@ -419,8 +416,7 @@
         <section class="overflow-hidden space garally" id="portfolio-sec">
             <div class="container">
                 <div class="title-area text-center mb-25">
-                    <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"
-                        data-aos-easing="ease-in-out">
+                    <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
                         Clients We've <span class="text-blue"> Worked With</span>
                     </h2>
                 </div>
@@ -435,8 +431,7 @@
                     <button data-filter=".cat6" class="tab-btn" type="button">Production & Photography</button>
 
                 </div>
-                <div class="portfolio-area" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1200"
-                    data-aos-easing="ease-in-out">
+                <div class="portfolio-area" data-aos="zoom-in" data-aos-delay="200">
                     <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
                         <div class="col-md-3 col-xl-auto filter-item cat1 cat5 cat7 cat3">
                             <a href="" class="project-item d-block">
@@ -578,7 +573,7 @@
 
                     </div>
                     <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
-                                                        </div> -->
+                                                            </div> -->
                 </div>
             </div>
         </section>

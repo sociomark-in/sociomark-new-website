@@ -224,6 +224,10 @@ select {
     margin-top: 2rem;
 }
 
+.counter-box .box-number {
+    font-size: 4rem;
+}
+
 /* Showreel */
 .showreel-fixed {
     z-index: 999;
