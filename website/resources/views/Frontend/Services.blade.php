@@ -9,17 +9,30 @@
 
 @section('content')
     <main id="contact">
-        <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x518">
+        <section class="">
+            <div class="full-width">
+                <picture>
+                    <source media="(min-width: 1400px)" srcset="https://placehold.co/1920x900">
+                    <img src="https://placehold.co/1080x1080" alt="">
+                </picture>
+            </div>
+        </section>
+        <section class="overflow-hidden space">
             <div class="container">
-                <div class="breadcumb-content">
-                    <h1 class="breadcumb-title">Services</h1>
-                    <ul class="breadcumb-menu">
-                        <li><a href="#">Home</a></li>
-                        <li>Services</li>
-                    </ul>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="breadcumb-content breadcrumb-light">
+                            <h1 class="breadcumb-title">Services</h1>
+                            <ul class="breadcumb-menu">
+                                <li><a href="{{ route('home') }}">Home</a></li>
+                                {{-- <li><a href="{{ route('about') }}">About Us</a></li> --}}
+                                <li>Services</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
         <!--==============================
                                                                                                                                                             Service Area
                                                                                                                                                         ==============================-->

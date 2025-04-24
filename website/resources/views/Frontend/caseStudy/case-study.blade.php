@@ -84,7 +84,7 @@
         font-size: 45px;
     }
     .img-fluid {
-    
+
     height: 350px;
     object-fit: contain;
 }
@@ -93,20 +93,33 @@
 
 @section('content')
 <main id="case-study">
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg') }}">
+    <section class="">
+        <div class="full-width">
+            <picture>
+                <source media="(min-width: 1400px)" srcset="https://placehold.co/1920x900">
+                <img src="https://placehold.co/1080x1080" alt="">
+            </picture>
+        </div>
+    </section>
+    <section class="overflow-hidden space">
         <div class="container">
-            <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Case Study</h1>
-                <ul class="breadcumb-menu">
-                    <li><a href="home-seo-agency.html">Home</a></li>
-                    <li>Case Study</li>
-                </ul>
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcumb-content breadcrumb-light">
+                        <h1 class="breadcumb-title">Case Studies</h1>
+                        <ul class="breadcumb-menu">
+                            <li><a href="{{ route('home') }}">Home</a></li>
+                            {{-- <li><a href="{{ route('about') }}">About Us</a></li> --}}
+                            <li>Case Studies</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="overflow-hidden garally mt-md-5" id="portfolio-sec">
+    </section>
+    <section class="overflow-hidden garally space" id="portfolio-sec">
         <div class="container ">
-            <div class="row justify-content-center">
+            {{-- <div class="row justify-content-center">
                 <div class="col-xl-8">
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title"
@@ -118,8 +131,7 @@
                         </h2>
                     </div>
                 </div>
-            </div>
-
+            </div> --}}
 
             <div class="filter-menu filter-menu-active nav nav-tabs justify-content-center mb-4">
 
@@ -173,7 +185,7 @@
                             <a href="{{ route('expert4travel') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                   
+
                     <article class="card__article filter-item cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <img src="{{ asset('frontend-assets/img/case-study/EDUAURAA.png') }}" alt="image" class="card__img img-fluid">
                         <div class="card__data">
@@ -181,7 +193,7 @@
                             <a href="{{ route('eduauraa') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                    
+
                     <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                         <img src="{{ asset('frontend-assets/img/case-study/shahenaz.png') }}" alt="image" class="card__img img-fluid">
                         <div class="card__data">
@@ -189,7 +201,7 @@
                             <a href="{{ route('shahenaz') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                   
+
                     <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
                         <img src="{{ asset('frontend-assets/img/case-study/OKINAWA.png') }}" alt="image" class="card__img img-fluid">
                         <div class="card__data">
@@ -197,7 +209,7 @@
                             <a href="{{ route('okinawascooters') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                    
+
                     <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <img src="{{ asset('frontend-assets/img/case-study/theprofessional.png') }}" alt="image" class="card__img img-fluid">
                         <div class="card__data">
@@ -205,7 +217,7 @@
                             <a href="{{ route('the-professional-couriers') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                    
+
                     <article class="card__article filter-item cat3 cat2 col-12 col-sm-6 col-md-4 col-lg-3">
                         <img src="{{ asset('frontend-assets/img/case-study/ayushakti.png') }}" alt="image" class="card__img img-fluid">
                         <div class="card__data">
@@ -213,7 +225,7 @@
                             <a href="{{ route('ayushakti') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                    
+
                     <article class="card__article filter-item cat1 cat3 cat2 col-12 col-sm-6 col-md-4 col-lg-3">
                         <img src="{{ asset('frontend-assets/img/case-study/nodwin-gaming.jpg') }}" alt="image" class="card__img img-fluid">
                         <div class="card__data">
@@ -221,7 +233,7 @@
                             <a href="{{ route('nodwinGaming') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                    
+
                     <article class="card__article filter-item cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <img src="{{ asset('frontend-assets/img/case-study/bddb.png') }}" alt="image" class="card__img img-fluid">
                         <div class="card__data">
@@ -229,7 +241,7 @@
                             <a href="{{ route('buttondabaodeshbanao') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                   
+
                     <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
                         <img src="{{ asset('frontend-assets/img/case-study/rts.png') }}" alt="image" class="card__img img-fluid">
                         <div class="card__data">
@@ -237,7 +249,7 @@
                             <a href="{{ route('roadtosafetyinitiative') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                   
+
                     <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
                         <img src="{{ asset('frontend-assets/img/case-study/lime_logo.png') }}" alt="image" class="card__img img-fluid">
                         <div class="card__data">
@@ -245,7 +257,7 @@
                             <a href="{{ route('lime') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                   
+
                     <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
                         <img src="{{ asset('frontend-assets/img/case-study/ace tatto.png') }}" alt="image" class="card__img img-fluid">
                         <div class="card__data">
@@ -253,7 +265,7 @@
                             <a href="{{ route('acetattoz') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                   
+
                     <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
                         <img src="{{ asset('frontend-assets/img/case-study/smarter-logo.png') }}" alt="image" class="card__img img-fluid">
                         <div class="card__data">
@@ -261,7 +273,7 @@
                             <a href="{{ route('smarterIndia') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                   
+
                     <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                         <img src="{{ asset('frontend-assets/img/case-study/rea.png') }}" alt="image" class="card__img img-fluid">
                         <div class="card__data">
@@ -273,7 +285,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </main>
 
 @endsection

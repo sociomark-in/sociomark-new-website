@@ -14,17 +14,19 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcumb-content breadcrumb-light">
-                            <h1 class="breadcumb-title">Education Industry</h1>
+                            <h1 class="breadcumb-title">Healthcare Industry</h1>
                             <ul class="breadcumb-menu">
                                 <li><a href="{{ route('home') }}">Home</a></li>
                                 {{-- <li><a href="{{ route('ind')}}">Services</a></li> --}}
-                                <li>Education Industry</li>
+                                <li>Healthcare Industry</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        {{-- About --}}
         <section class="about-area2 overflow-hidden space" id="about-sec">
             <div class="container">
                 <div class="row align-items-center">
@@ -37,92 +39,81 @@
                     </div>
                     <div class="col-lg-8">
                         <div class="title-area mb-25 mt-n1">
-                            <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000"
-                                data-aos-easing="ease-in-out">
-                                Innovative Digital Solutions <span class="text-blue"> for Modern Businesses</span>
+                            <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100">
+                                Digital Healthcare Marketing that <span class="text-blue">Builds Trust & Drives
+                                    Growth</span>
                             </h2>
                         </div>
-                        <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000"
-                            data-aos-easing="ease-in-out">Established in 1995, Saor has been a leading force in the digital
-                            landscape for
-                            over two decades. We're a passionate team of designers, developers, and strategists driven by a
-                            shared vision. Our digital agency combines innovation, strategy, and expertise to fuel your
-                            online
-                            success. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, animi voluptatem esse
-                            quis tenetur, quidem harum ipsa tempore laborum reprehenderit nam! Voluptatum, hic minima
-                            temporibus vero pariatur accusamus ipsam qui?
+                        <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                            In a sector where empathy meets expertise, we bring both. From appointment-based campaigns to
+                            reputation management and treatment-driven content, our strategies build credibility and connect
+                            you with the right audience, every time.
                         </p>
-                        <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
-                            A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                        <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">
+                            Get A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
 
         </section>
 
-        <section class="choose-area bg-title overflow-hidden space d-none" id="about-sec2"
-            data-mask-src="{{ asset('frontend-assets/img/bg/choose_bg_3.png') }}">
+        {{-- Counters --}}
+        <section class="overflow-hidden space counters">
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-6">
-                        <div class="title-area mb-20">
-                            <!-- <span class="sub-title style1  text-white">Benefits You Can't Ignore</span> -->
-
-                            <h2 class="sec-title text-white" data-aos="fade-right" data-aos-delay="200"
-                                data-aos-duration="1200" data-aos-easing="ease-in-out">
-                                The Powerful Benefits of Saor SEO
-                            </h2>
-                        </div>
-                        <p class="sec-para text-white mb-35" data-aos="fade-right" data-aos-delay="200"
-                            data-aos-duration="1200" data-aos-easing="ease-in-out">In today's digital landscape, a strong
-                            online presence is critical for business success. But simply having a website isn't enough.</p>
-                        <div class="choose-feature-wrap">
-                            <div class="choose-feature">
-                                <div class="box-icon d-flex justify-content-center align-items-center">
-                                    <!-- <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_1.svg') }}" alt="Icon"> -->
-                                    <i class="fa-light fa-calendar"></i>
-                                </div>
-                                <div class="media-body" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1200"
-                                    data-aos-easing="ease-in-out">
-
-                                    <h3 class="box-title">Increased Website Traffic</h3>
-                                    <p class="box-text">Our SEO strategies will attract more qualified visitors to your
-                                        website, bringing you closer.</p>
-                                </div>
-                            </div>
-                            <div class="choose-feature">
-                                <div class="box-icon d-flex justify-content-center align-items-center">
-                                    <!-- <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_2.svg') }}" alt="Icon"> -->
-                                    <i class="fa-light fa-calendar"></i>
-                                </div>
-                                <div class="media-body" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1200"
-                                    data-aos-easing="ease-in-out">
-
-                                    <h3 class="box-title">Enhanced Brand Awareness</h3>
-                                    <p class="box-text">Increased website traffic and the improved rankings naturally lead
-                                        to greater brand awareness.</p>
-                                </div>
-                            </div>
-                            <div class="choose-feature">
-                                <div class="box-icon d-flex justify-content-center align-items-center">
-                                    <!-- <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_3.svg') }}" alt="Icon"> -->
-                                    <i class="fa-light fa-calendar"></i>
-                                </div>
-                                <div class="media-body" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1200"
-                                    data-aos-easing="ease-in-out">
-
-                                    <h3 class="box-title">More Leads & Conversions</h3>
-                                    <p class="box-text">By attracting qualified the traffic and optimizing your website for
-                                        conversions, we'll help you.</p>
-                                </div>
-                            </div>
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <div class="title-area text-center">
+                            <div class="shadow-title">Achievements</div>
+                            <span class="sub-title sub-title4">Lorem, ipsum.<span></span></span>
+                            {{-- <h2 class="sec-title ">Lorem ipsum <span class="text-blue">dolor sit amet.</span></h2> --}}
                         </div>
                     </div>
-                    <div class="col-xl-6">
-                        <div class="choose-image" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1200"
-                            data-aos-easing="ease-in-out">
-                            <div class="img1 tilt-active">
-                                <img src="https://placehold.co/800x600" alt="Choose">
+                </div>
+                <div class="">
+                    <div class="row justify-content-around">
+                        <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
+                            <div class="counter-box">
+                                <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                <h3 class="box-number"><span class="counter-number">300</span>K<sup>+</sup></h3>
+                                <div class="media-body">
+                                    <p class=" counter-text mb-n1">Organic Traffic</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
+                            <div class="counter-box">
+                                <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                <h3 class="box-number"><span class="counter-number">7</span>M<sup>+</sup></h3>
+                                <div class="media-body">
+                                    <p class=" counter-text mb-n1">Revenue</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
+                            <div class="counter-box">
+                                <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                <h3 class="box-number"><span class="counter-number">35</span>K<sup>+</sup></h3>
+                                <div class="media-body">
+                                    <p class=" counter-text mb-n1">Patients</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
+                            <div class="counter-box">
+                                <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                <h3 class="box-number"><span class="counter-number">200</span>K<sup>+</sup></h3>
+                                <div class="media-body">
+                                    <p class=" counter-text mb-n1">Community Growth</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
+                            <div class="counter-box">
+                                <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                <h3 class="box-number"><span class="counter-number">250</span>K<sup>+</sup></h3>
+                                <div class="media-body">
+                                    <p class=" counter-text mb-n1">Organic Reach</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -130,6 +121,7 @@
             </div>
         </section>
 
+        {{-- Testimonials --}}
         <section class="space-bottom overflow-hidden arrow-wrap">
             <div class="container">
                 <div class="title-area text-center">
@@ -223,58 +215,7 @@
             </div>
         </section>
 
-        <section class="overflow-hidden space counters d-none">
-            <div class="container">
-                <div class="row mb-4">
-                    <div class="col-12">
-                        <div class="title-area text-center">
-                            <span class="sub-title sub-title4 mb-4 mb-md-5">Lorem, ipsum.<span></span></span>
-                            <h2 class="sec-title ">Lorem ipsum <span class="text-blue">dolor sit amet.</span></h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-3 gx-5">
-                    <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
-                        <div class="counter-box">
-                            <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
-                            <h3 class="box-number"><span class="counter-number">200</span>+</h3>
-                            <div class="media-body">
-                                <p class=" counter-text mb-n1">Experienced Team</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
-                        <div class="counter-box">
-                            <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
-                            <h3 class="box-number"><span class="counter-number">200</span>+</h3>
-                            <div class="media-body">
-                                <p class=" counter-text mb-n1">Experienced Team</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
-                        <div class="counter-box">
-                            <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
-                            <h3 class="box-number"><span class="counter-number">200</span>+</h3>
-                            <div class="media-body">
-                                <p class=" counter-text mb-n1">Experienced Team</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
-                        <div class="counter-box">
-                            <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
-                            <h3 class="box-number"><span class="counter-number">200</span>+</h3>
-                            <div class="media-body">
-                                <p class=" counter-text mb-n1">Experienced Team</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="overflow-hidden bg-smoke2 space">
+        <section class="overflow-hidden bg-smoke2 space d-none">
             <div class="container">
                 <div class="row gy-5 align-items-end">
                     <div class="col-xl-6">
@@ -336,7 +277,7 @@
                                 <div class="col-xl-6">
                                     <div class="counter-box">
                                         <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
-                                        <h3 class="box-number"><span class="counter-number">200</span>+</h3>
+                                        <h3 class="box-number"><span class="counter-number">200</span><sup>+</sup></h3>
                                         <div class="media-body">
                                             <p class=" counter-text mb-n1">Experienced Team</p>
                                         </div>
@@ -345,7 +286,7 @@
                                 <div class="col-xl-6">
                                     <div class="counter-box">
                                         <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
-                                        <h3 class="box-number"><span class="counter-number">200</span>+</h3>
+                                        <h3 class="box-number"><span class="counter-number">200</span><sup>+</sup></h3>
                                         <div class="media-body">
                                             <p class=" counter-text mb-n1">Experienced Team</p>
                                         </div>
@@ -357,7 +298,7 @@
                                 <div class="col-xl-6">
                                     <div class="counter-box">
                                         <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
-                                        <h3 class="box-number"><span class="counter-number">200</span>+</h3>
+                                        <h3 class="box-number"><span class="counter-number">200</span><sup>+</sup></h3>
                                         <div class="media-body">
                                             <p class=" counter-text mb-n1">Experienced Team</p>
                                         </div>
@@ -366,7 +307,7 @@
                                 <div class="col-xl-6">
                                     <div class="counter-box">
                                         <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
-                                        <h3 class="box-number"><span class="counter-number">200</span>+</h3>
+                                        <h3 class="box-number"><span class="counter-number">200</span><sup>+</sup></h3>
                                         <div class="media-body">
                                             <p class=" counter-text mb-n1">Experienced Team</p>
                                         </div>
@@ -469,11 +410,11 @@
             </div>
         </section>
 
+        {{-- Clients Portfolio --}}
         <section class="overflow-hidden space garally" id="portfolio-sec">
             <div class="container">
                 <div class="title-area text-center mb-25">
-                    <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"
-                        data-aos-easing="ease-in-out">
+                    <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
                         Clients We've <span class="text-blue"> Worked With</span>
                     </h2>
                 </div>
@@ -488,9 +429,8 @@
                     <button data-filter=".cat6" class="tab-btn" type="button">Production & Photography</button>
 
                 </div>
-                <div class="portfolio-area" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1200"
-                    data-aos-easing="ease-in-out">
-                    <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
+                <div class="portfolio-area" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1200">
+                    <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4 justify-content-center">
                         <div class="col-md-3 col-xl-auto filter-item cat1 cat5 cat7 cat3">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
@@ -507,90 +447,6 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat5 cat3 cat2">
-                            <a href="" class="project-item d-block">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('frontend-assets/img/clients/buildtrack (1).png') }}"
-                                        alt="project image">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat1 cat6">
-                            <a href="" class="project-item d-block">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('frontend-assets/img/clients/bumchums.jpg') }}"
-                                        alt="project image">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
-                            <a href="" class="project-item d-block">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('frontend-assets/img/clients/eduauraa.jpg') }}"
-                                        alt="project image">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat1 cat6">
-                            <a href="" class="project-item d-block">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('frontend-assets/img/clients/euro.jpg') }}" alt="project image">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat2">
-                            <a href="" class="project-item d-block">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('frontend-assets/img/clients/jivana.jpg') }}" alt="project image">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat3 cat2">
-                            <a href="" class="project-item d-block">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('frontend-assets/img/clients/network18.jpg') }}"
-                                        alt="project image">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat3 cat4">
-                            <a href="" class="project-item d-block">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('frontend-assets/img/clients/nhs_logo.png') }}"
-                                        alt="project image">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat5 cat1">
-                            <a href="" class="project-item d-block">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('frontend-assets/img/clients/nodwin.jpg') }}" alt="project image">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
-                            <a href="" class="project-item d-block">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('frontend-assets/img/clients/okinawa.jpg') }}"
-                                        alt="project image">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat1 cat3">
-                            <a href="" class="project-item d-block">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('frontend-assets/img/clients/pare.png') }}" alt="project image">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat5 cat1">
-                            <a href="" class="project-item d-block">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('frontend-assets/img/clients/shahenaz.jpg') }}"
-                                        alt="project image">
-                                </div>
-                            </a>
-                        </div>
                         <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
@@ -598,40 +454,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat1 cat3">
-                            <a href="" class="project-item d-block">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('frontend-assets/img/clients/tataplay.png') }}"
-                                        alt="project image">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat1 cat3">
-                            <a href="" class="project-item d-block">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('frontend-assets/img/clients/times.jpg') }}" alt="project image">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat5 cat1">
-                            <a href="" class="project-item d-block">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('frontend-assets/img/clients/totalfood.png') }}"
-                                        alt="project image">
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
-                            <a href="" class="project-item d-block">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('frontend-assets/img/clients/watch.jpg') }}" alt="project image">
-                                </div>
-                            </a>
-                        </div>
-
                     </div>
-                    <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
-                                                        </div> -->
                 </div>
             </div>
         </section>

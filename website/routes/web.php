@@ -120,6 +120,7 @@ Route::get('/blog-inner/{slug}', [BlogWebController::class, 'innerBlog'])->name(
 Route::get('/categoryBlog/{slug}', [BlogWebController::class, 'categoryBlog'])->name('categoryBlog');
 Route::get('/tagBlog/{slug}', [BlogWebController::class, 'tagBlog'])->name('tagBlog');
 
+Route::get('/industries', [IndustryController::class, 'education'])->name('industry_home');
 Route::get('/industry/education', [IndustryController::class, 'education'])->name('education');
 Route::get('/industry/healthcare', [IndustryController::class, 'healthcare'])->name('healthcare');
 Route::get('/industry/fmcg', [IndustryController::class, 'FMCG'])->name('FMCG');

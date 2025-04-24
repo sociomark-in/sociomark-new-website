@@ -25,6 +25,8 @@
                 </div>
             </div>
         </section>
+
+        {{-- About --}}
         <section class="about-area2 overflow-hidden space" id="about-sec">
             <div class="container">
                 <div class="row align-items-center">
@@ -60,69 +62,63 @@
 
         </section>
 
-        <section class="choose-area bg-title overflow-hidden space d-none" id="about-sec2"
-            data-mask-src="{{ asset('frontend-assets/img/bg/choose_bg_3.png') }}">
+        {{-- Counters --}}
+        <section class="overflow-hidden space counters">
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-6">
-                        <div class="title-area mb-20">
-                            <!-- <span class="sub-title style1  text-white">Benefits You Can't Ignore</span> -->
-
-                            <h2 class="sec-title text-white" data-aos="fade-right" data-aos-delay="200"
-                                data-aos-duration="1200" data-aos-easing="ease-in-out">
-                                The Powerful Benefits of Saor SEO
-                            </h2>
-                        </div>
-                        <p class="sec-para text-white mb-35" data-aos="fade-right" data-aos-delay="200"
-                            data-aos-duration="1200" data-aos-easing="ease-in-out">In today's digital landscape, a strong
-                            online presence is critical for business success. But simply having a website isn't enough.</p>
-                        <div class="choose-feature-wrap">
-                            <div class="choose-feature">
-                                <div class="box-icon d-flex justify-content-center align-items-center">
-                                    <!-- <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_1.svg') }}" alt="Icon"> -->
-                                    <i class="fa-light fa-calendar"></i>
-                                </div>
-                                <div class="media-body" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1200"
-                                    data-aos-easing="ease-in-out">
-
-                                    <h3 class="box-title">Increased Website Traffic</h3>
-                                    <p class="box-text">Our SEO strategies will attract more qualified visitors to your
-                                        website, bringing you closer.</p>
-                                </div>
-                            </div>
-                            <div class="choose-feature">
-                                <div class="box-icon d-flex justify-content-center align-items-center">
-                                    <!-- <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_2.svg') }}" alt="Icon"> -->
-                                    <i class="fa-light fa-calendar"></i>
-                                </div>
-                                <div class="media-body" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1200"
-                                    data-aos-easing="ease-in-out">
-
-                                    <h3 class="box-title">Enhanced Brand Awareness</h3>
-                                    <p class="box-text">Increased website traffic and the improved rankings naturally lead
-                                        to greater brand awareness.</p>
-                                </div>
-                            </div>
-                            <div class="choose-feature">
-                                <div class="box-icon d-flex justify-content-center align-items-center">
-                                    <!-- <img src="{{ asset('frontend-assets/img/icon/choose_feature_1_3.svg') }}" alt="Icon"> -->
-                                    <i class="fa-light fa-calendar"></i>
-                                </div>
-                                <div class="media-body" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1200"
-                                    data-aos-easing="ease-in-out">
-
-                                    <h3 class="box-title">More Leads & Conversions</h3>
-                                    <p class="box-text">By attracting qualified the traffic and optimizing your website for
-                                        conversions, we'll help you.</p>
-                                </div>
-                            </div>
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <div class="title-area text-center">
+                            <div class="shadow-title">Achievements</div>
+                            <span class="sub-title sub-title4">Lorem, ipsum.<span></span></span>
+                            {{-- <h2 class="sec-title ">Lorem ipsum <span class="text-blue">dolor sit amet.</span></h2> --}}
                         </div>
                     </div>
-                    <div class="col-xl-6">
-                        <div class="choose-image" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1200"
-                            data-aos-easing="ease-in-out">
-                            <div class="img1 tilt-active">
-                                <img src="https://placehold.co/800x600" alt="Choose">
+                </div>
+                <div class="">
+                    <div class="row justify-content-around">
+                        <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
+                            <div class="counter-box">
+                                <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                <h3 class="box-number"><span class="counter-number">1</span>M+</h3>
+                                <div class="media-body">
+                                    <p class=" counter-text mb-n1">Organic Traffic</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
+                            <div class="counter-box">
+                                <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                <h3 class="box-number"><span class="counter-number">100</span>K+</h3>
+                                <div class="media-body">
+                                    <p class=" counter-text mb-n1">Organic Keywords</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
+                            <div class="counter-box">
+                                <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                <h3 class="box-number"><span class="counter-number">10</span>K+</h3>
+                                <div class="media-body">
+                                    <p class=" counter-text mb-n1">Admissions</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
+                            <div class="counter-box">
+                                <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                <h3 class="box-number"><span class="counter-number">500</span>+</h3>
+                                <div class="media-body">
+                                    <p class=" counter-text mb-n1">Community Growth</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
+                            <div class="counter-box">
+                                <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                <h3 class="box-number"><span class="counter-number">1</span>M+</h3>
+                                <div class="media-body">
+                                    <p class=" counter-text mb-n1">Organic Reach</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -130,6 +126,7 @@
             </div>
         </section>
 
+        {{-- Testimonials --}}
         <section class="space-bottom overflow-hidden arrow-wrap">
             <div class="container">
                 <div class="title-area text-center">
@@ -223,58 +220,7 @@
             </div>
         </section>
 
-        <section class="overflow-hidden space counters d-none">
-            <div class="container">
-                <div class="row mb-4">
-                    <div class="col-12">
-                        <div class="title-area text-center">
-                            <span class="sub-title sub-title4 mb-4 mb-md-5">Lorem, ipsum.<span></span></span>
-                            <h2 class="sec-title ">Lorem ipsum <span class="text-blue">dolor sit amet.</span></h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-3 gx-5">
-                    <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
-                        <div class="counter-box">
-                            <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
-                            <h3 class="box-number"><span class="counter-number">200</span>+</h3>
-                            <div class="media-body">
-                                <p class=" counter-text mb-n1">Experienced Team</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
-                        <div class="counter-box">
-                            <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
-                            <h3 class="box-number"><span class="counter-number">200</span>+</h3>
-                            <div class="media-body">
-                                <p class=" counter-text mb-n1">Experienced Team</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
-                        <div class="counter-box">
-                            <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
-                            <h3 class="box-number"><span class="counter-number">200</span>+</h3>
-                            <div class="media-body">
-                                <p class=" counter-text mb-n1">Experienced Team</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
-                        <div class="counter-box">
-                            <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
-                            <h3 class="box-number"><span class="counter-number">200</span>+</h3>
-                            <div class="media-body">
-                                <p class=" counter-text mb-n1">Experienced Team</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="overflow-hidden bg-smoke2 space">
+        <section class="overflow-hidden bg-smoke2 space d-none">
             <div class="container">
                 <div class="row gy-5 align-items-end">
                     <div class="col-xl-6">
@@ -469,6 +415,7 @@
             </div>
         </section>
 
+        {{-- Clients Portfolio --}}
         <section class="overflow-hidden space garally" id="portfolio-sec">
             <div class="container">
                 <div class="title-area text-center mb-25">
