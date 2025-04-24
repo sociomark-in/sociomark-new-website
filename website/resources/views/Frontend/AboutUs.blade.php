@@ -6,11 +6,6 @@
         #about-us #contact {
             background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
         }
-
-        #about-us #aboutUs-KEyPoints,
-        #our-founder {
-            background-color: #F5F5F5;
-        }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
         integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
@@ -679,7 +674,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 pb-3 mx-2"
+                    <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 pb-3 mx-2"
                         data-aos="fade-right" data-aos-delay="400">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
