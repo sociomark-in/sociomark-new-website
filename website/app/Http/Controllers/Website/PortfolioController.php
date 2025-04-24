@@ -8,61 +8,61 @@ use Illuminate\Http\Request;
 class PortfolioController extends Controller
 {
     public function index(){
-        return view('frontend/Portfolio/ListPortfolioCat');
+        return view('Frontend/Portfolio/ListPortfolioCat');
     }
     public function portfolioInside(){
-        return view('frontend/Portfolio/insidePortfolio');
+        return view('Frontend/Portfolio/insidePortfolio');
     }
     public function euro(){
-        return view('frontend/Portfolio/euroSocialMedia');
+        return view('Frontend/Portfolio/euroSocialMedia');
     }
     public function bumchumps(){
-        return view('frontend/Portfolio/bumchumpsSocialMedia');
+        return view('Frontend/Portfolio/bumchumpsSocialMedia');
     }
     public function jivana(){
-        return view('frontend/Portfolio/jivanaSocialMedia');
+        return view('Frontend/Portfolio/jivanaSocialMedia');
     }
     public function roadToSafety(){
-        return view('frontend/Portfolio/roadToSafetySocialMedia');
+        return view('Frontend/Portfolio/roadToSafetySocialMedia');
     }
     public function nodwin(){
-        return view('frontend/Portfolio/nodwinSocialMedia');
+        return view('Frontend/Portfolio/nodwinSocialMedia');
     }
     public function lime(){
-        return view('frontend/Portfolio/limeSocialMedia');
+        return view('Frontend/Portfolio/limeSocialMedia');
     }
     public function castrol(){
-        return view('frontend/Portfolio/castrolSocialMedia');
+        return view('Frontend/Portfolio/castrolSocialMedia');
     }
     public function missionInsureIndia(){
-        return view('frontend/Portfolio/missionInsureIndiaSocialMedia');
+        return view('Frontend/Portfolio/missionInsureIndiaSocialMedia');
     }
     public function realEstateAward(){
-        return view('frontend/Portfolio/realEstateAwardSocialMedia');
+        return view('Frontend/Portfolio/realEstateAwardSocialMedia');
     }
     public function cosplayGenie(){
-        return view('frontend/Portfolio/cosplayGenieSocialMedia');
+        return view('Frontend/Portfolio/cosplayGenieSocialMedia');
     }
     public function smartCityOfIndia(){
-        return view('frontend/Portfolio/smartCityOfIndiaSocialMedia');
+        return view('Frontend/Portfolio/smartCityOfIndiaSocialMedia');
     }
     public function buttonbabaoDeshBanao(){
-        return view('frontend/Portfolio/buttonbabaoDeshBanaoSocialMedia');
+        return view('Frontend/Portfolio/buttonbabaoDeshBanaoSocialMedia');
     }
     public function mahidraFirstChoice(){
-        return view('frontend/Portfolio/mahidraFirstChoiceSocialMedia');
+        return view('Frontend/Portfolio/mahidraFirstChoiceSocialMedia');
     }
     public function theProffessionalCouriers(){
-        return view('frontend/Portfolio/theProffessionalCouriersSocialMedia');
+        return view('Frontend/Portfolio/theProffessionalCouriersSocialMedia');
     }
     public function teamCashlessIndia(){
-        return view('frontend/Portfolio/teamCashlessIndiaSocialMedia');
+        return view('Frontend/Portfolio/teamCashlessIndiaSocialMedia');
     }
     public function sportzConsult(){
-        return view('frontend/Portfolio/sportzConsultSocialMedia');
+        return view('Frontend/Portfolio/sportzConsultSocialMedia');
     }
     public function ayushaktisocoialM(){
-        return view('frontend/Portfolio/ayushaktiSocialMedia');
+        return view('Frontend/Portfolio/ayushaktiSocialMedia');
     }
     public function aiawards(){
         return view('frontend/Portfolio/aiawards');
