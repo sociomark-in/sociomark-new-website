@@ -36,21 +36,38 @@
                         <div class="title-area mb-md-3 mb-2 mt-n1">
                             <!-- <h2 class="sec-title text-center "> Our Comprehensive International SEO Solutions</h2> -->
                             <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100">
-                                Your brand’s digital partner, <span class="text-blue"> every step of the way</span>
+                                Your Brand’s Digital Partner, <span class="text-blue"> Every Step of the Way</span>
                             </h1>
                         </div>
                     </div>
                     <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
                         <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100">
-                            We go beyond the ordinary. Every brand we work with gets a tailored, thoughtful strategy—because
-                            no two stories are the same. Whether it’s SEO, social media marketing, or web development, we
-                            listen, understand, and deliver what actually works.
+                            At Sociomark, we don’t believe in one-size-fits-all. For over 8 years, we’ve partnered with
+                            brands across India and beyond—crafting tailored digital strategies that are as unique as their
+                            stories. Be it SEO, social media, performance marketing, or full-stack development, our approach
+                            is rooted in listening first, executing second, and always delivering what truly works.
                         </p>
                         <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100">
-                            As a full-suite digital marketing agency in UAE, we offer everything from performance marketing
-                            to creative strategy under one roof. Our focus is on real results and meaningful connections.
-                            Client satisfaction isn’t just a goal—it’s how we measure success. While others follow trends,
-                            we build lasting impact. That’s what makes us reMARKable.
+                            As a full-service digital marketing agency, we bring together creativity, data, and strategy
+                            under one roof. For us, success isn’t measured by vanity metrics—it's measured by real impact
+                            and lasting relationships. While the world chases trends, we build brands with purpose and
+                            precision. That’s what makes us truly reMARKable.
+                        </p>
+                    </div>
+                    <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
+                        <div class="title-area mb-md-3 mb-2 mt-n1">
+                            <!-- <h2 class="sec-title text-center "> Our Comprehensive International SEO Solutions</h2> -->
+                            <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100">
+                                What <span class="text-blue">Drives Us</span>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
+                        <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100">
+                            We're not just a team—we're a collective of curious minds, passionate storytellers, strategic
+                            thinkers, and design junkies. Our power lies in how we mix insight with imagination and strategy
+                            with soul. From 8 years of building brands across industries, we’ve learned that meaningful
+                            marketing comes from meaningful intent.
                         </p>
                     </div>
                 </div>
@@ -64,22 +81,22 @@
                         <div class="title-area text-center">
                             <div class="shadow-title">Process</div>
                             <span class="sub-title sub-title4 mb-4 mb-md-5">Work Process<span></span></span>
-                            <h2 class="sec-title  ">From Brief to Brilliance</h2>
+                            <h2 class="sec-title  ">From Brief to <span class="text-blue">Brilliance</span></h2>
                         </div>
                     </div>
                 </div>
                 <div class="step-wrap">
                     <div class="row g-3 g-md-4">
-                        <div class="col-xl-4 col-md-6 col-12">
+                        <div class="col-xl-3 col-md-6 col-12">
                             <div class="process-card">
                                 <div class="box-wrapp">
                                     <div class="box-icon">
                                         <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}" alt="icon">
                                     </div>
-                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                    {{-- <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
                                             alt=""></div>
                                     <div class="box-number">
-                                        01 </div>
+                                        01 </div> --}}
                                 </div>
                                 <div class="box-content">
                                     <h2 class="box-title">Pick What You Need</h2>
@@ -88,16 +105,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-md-6 col-12">
+                        <div class="col-xl-3 col-md-6 col-12">
                             <div class="process-card">
                                 <div class="box-wrapp">
                                     <div class="box-icon">
                                         <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
                                     </div>
-                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                    {{-- <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
                                             alt=""></div>
                                     <div class="box-number">
-                                        02 </div>
+                                        02 </div> --}}
                                 </div>
                                 <div class="box-content">
                                     <h2 class="box-title">Share Your Vision</h2>
@@ -107,16 +124,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-md-6 col-12">
+                        <div class="col-xl-3 col-md-6 col-12">
                             <div class="process-card">
                                 <div class="box-wrapp">
                                     <div class="box-icon">
                                         <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}" alt="icon">
                                     </div>
-                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                    {{-- <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
                                             alt=""></div>
                                     <div class="box-number">
-                                        03 </div>
+                                        03 </div> --}}
                                 </div>
                                 <div class="box-content">
                                     <h2 class="box-title">Let’s Talk</h2>
@@ -125,16 +142,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-md-6 col-12">
+                        <div class="col-xl-3 col-md-6 col-12">
                             <div class="process-card">
                                 <div class="box-wrapp">
                                     <div class="box-icon">
                                         <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}" alt="icon">
                                     </div>
-                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                    {{-- <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
                                             alt=""></div>
                                     <div class="box-number">
-                                        04 </div>
+                                        04 </div> --}}
                                 </div>
                                 <div class="box-content">
                                     <h2 class="box-title">Watch It Come Alive</h2>
@@ -145,45 +162,74 @@
                             </div>
                         </div>
                         <!--<div class="col-xl-4 col-md-6 col-12">
-                                        <div class="process-card">
-                                            <div class="box-wrapp">
-                                                <div class="box-icon">
-                                                    <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
-                                                </div>
-                                                <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                        alt=""></div>
-                                                <div class="box-number">
-                                                    05 </div>
-                                            </div>
-                                            <div class="box-content">
-                                                <h2 class="box-title">Plan Customization</h2>
-                                                <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                                    behaviors. Submit as many design tasks</p>
+                                                                                <div class="process-card">
+                                                                                    <div class="box-wrapp">
+                                                                                        <div class="box-icon">
+                                                                                            <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
+                                                                                        </div>
+                                                                                        <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                                                                alt=""></div>
+                                                                                        <div class="box-number">
+                                                                                            05 </div>
+                                                                                    </div>
+                                                                                    <div class="box-content">
+                                                                                        <h2 class="box-title">Plan Customization</h2>
+                                                                                        <p class="box-text">Conduct thorough market of the research to the fast target audience
+                                                                                            behaviors. Submit as many design tasks</p>
 
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-md-6 col-12">
-                                        <div class="process-card">
-                                            <div class="box-wrapp">
-                                                <div class="box-icon">
-                                                    <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}"
-                                                        alt="icon">
-                                                </div>
-                                                <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                        alt=""></div>
-                                                <div class="box-number">
-                                                    06 </div>
-                                            </div>
-                                            <div class="box-content">
-                                                <h2 class="box-title">Finished &amp; User Testing</h2>
-                                                <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                                    behaviors. Submit as many design tasks</p>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-xl-4 col-md-6 col-12">
+                                                                                <div class="process-card">
+                                                                                    <div class="box-wrapp">
+                                                                                        <div class="box-icon">
+                                                                                            <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}"
+                                                                                                alt="icon">
+                                                                                        </div>
+                                                                                        <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                                                                alt=""></div>
+                                                                                        <div class="box-number">
+                                                                                            06 </div>
+                                                                                    </div>
+                                                                                    <div class="box-content">
+                                                                                        <h2 class="box-title">Finished &amp; User Testing</h2>
+                                                                                        <p class="box-text">Conduct thorough market of the research to the fast target audience
+                                                                                            behaviors. Submit as many design tasks</p>
 
-                                            </div>
-                                        </div>
-                                    </div>-->
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>-->
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <style>
+            li {
+                color: black;
+            }
+        </style>
+        <section class="overflow-hidden bg-smoke2 space">
+            <div class="container">
+                <div class="row gy-5 align-items-center">
+                    <div class="col-xl-6">
+                        <div class="title-area mb-35">
+                            <h2 class="sec-title ">90-DAYS <br><span class="text-blue">GAMEPLAN</span></h2>
+                            <p class="mb-30"><b>"A Growth Success cycle formula created by Team Sociomark to give the
+                                    best results to its clients.</b></p>
+                            <ol>
+                                <li>Learn from the past</li>
+                                <li>Uncover the bottlenecks</li>
+                                <li>Clear the mind to make room for new</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 text-center">
+                        <img src="https://placehold.co/400x400" alt="" srcset="" class="w-75">
+
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -263,7 +309,8 @@
                 <div class="text-center content-box">
                     <!-- <h2 class="sec-title">Making a mark, one day at a time!</h2> -->
                     <h2 class="fw-bold sec-title" data-aos="fade-up" data-aos-delay="200">
-                        More Than Just Services — <span class="text-blue"> Here’s What Powers Us</span>
+                        The Sociomark Universe <br> Built with <span class="text-blue">Ideas.</span> Backed by<span
+                            class="text-blue"> Impact.</span>
                     </h2>
                 </div>
 
@@ -275,23 +322,23 @@
                         <div class="img-overlay d-flex flex-column justify-content-between h-100 p-3">
                             <!-- Top content -->
                             <div class="top-content desc-text d-none">
-                                <a href="about.html" class="th-btn th-btn-white no-hover p-2 px-3 mt-2">Semrush (SEO)</a>
+                                {{-- <a href="about.html" class="th-btn th-btn-white no-hover p-2 px-3 mt-2">Semrush (SEO)</a>
                                 <a href="about.html" class="th-btn th-btn-white no-hover p-2 px-3 mt-2">ChatGPT
                                     (Content)</a>
                                 <a href="about.html" class="th-btn th-btn-white no-hover p-2 px-3 mt-2">Meta Ads
                                     (Advertising)</a>
                                 <a href="about.html" class="th-btn th-btn-white no-hover p-2 px-3 mt-2">Adobe (Photography
-                                    & Editing)</a>
+                                    & Editing)</a> --}}
                             </div>
 
                             <!-- Bottom content -->
                             <div class="bottom-content">
                                 <h4 class="text-white sub-sec-title">Case Studies</h4>
                                 <div class="mb-2">
-                                    <p class="text-white text-start mb-0 sec-para">Proof over Promises</p>
+                                    {{-- <p class="text-white text-start mb-0 sec-para">Proof over Promises</p>
                                     <p class="text-white text-start desc-text d-none sec-para">
                                         Real stories of brands we’ve transformed. Explore how we've helped brands grow.
-                                    </p>
+                                    </p> --}}
                                 </div>
                                 <div class="">
                                     <a href="{{ route('case-study') }}"
@@ -309,23 +356,23 @@
                         <div class="img-overlay h-100 p-3">
                             <!-- Top content -->
                             <div class="top-content desc-text d-none">
-                                <a href="about.html" class="th-btn th-btn-white no-hover p-2 px-3 mt-2">+250% leads</a>
+                                {{-- <a href="about.html" class="th-btn th-btn-white no-hover p-2 px-3 mt-2">+250% leads</a>
                                 <a href="about.html" class="th-btn th-btn-white no-hover p-2 px-3 mt-2">60K new users</a>
                                 <a href="about.html" class="th-btn th-btn-white no-hover p-2 px-3 mt-2">2k views</a>
                                 <a href="about.html" class="th-btn th-btn-white no-hover p-2 px-3 mt-2">View Case
-                                    Study</a>
+                                    Study</a> --}}
                             </div>
 
                             <!-- Bottom content -->
                             <div class="bottom-content">
-                                <h4 class="text-white sub-sec-title">Culture & Team</h4>
+                                <h4 class="text-white sub-sec-title">Portfolio</h4>
                                 <div class="mb-2">
-                                    <p class="text-white text-start mb-0 sec-para">A culture of creativity, collaboration,
+                                    {{-- <p class="text-white text-start mb-0 sec-para">A culture of creativity, collaboration,
                                         and constant growth.
                                     </p>
                                     <p class="text-white text-start desc-text d-none sec-para">
                                         A culture of creativity, collaboration, and constant growth.
-                                    </p>
+                                    </p> --}}
                                 </div>
                                 <div class="">
                                     {{-- <a href="{{ route('team') }}" --}}
@@ -343,25 +390,25 @@
                         <div class="img-overlay h-100 p-3">
                             <!-- Top content -->
                             <div class="top-content desc-text d-none">
-                                <a href="about.html" class="th-btn th-icon text-white p-2 logo-info mt-2">Bold ideas</a>
+                                {{-- <a href="about.html" class="th-btn th-icon text-white p-2 logo-info mt-2">Bold ideas</a>
                                 <a href="about.html" class="th-btn th-icon text-white p-2 logo-info mt-2">Creatives</a>
                                 <a href="about.html" class="th-btn th-icon text-white p-2 logo-info mt-2">Growth
                                     mindset</a>
                                 <a href="about.html" class="th-btn th-icon text-white p-2 logo-info mt-2">People-first
-                                    culture</a>
+                                    culture</a> --}}
                             </div>
 
                             <!-- Bottom content -->
                             <div class="bottom-content">
                                 <h4 class="text-white sub-sec-title">Culture & Team</h4>
                                 <div class="mb-2">
-                                    <p class="text-white text-start mb-0 sec-para">
+                                    {{-- <p class="text-white text-start mb-0 sec-para">
                                         A culture of creativity, collaboration, and constant growth.
                                     </p>
                                     <p class="text-white text-start desc-text d-none sec-para">
                                         Behind every pixel, post, and plan is a passionate team driven by curiosity and
                                         creativity.
-                                    </p>
+                                    </p> --}}
                                 </div>
                                 <div class="">
                                     <a href="#"
@@ -440,14 +487,18 @@
                         <h4 class="sec-para text-uppercase sub-sec-title " data-aos="fade-left" data-aos-delay="100">Mr.
                             Vivek Baandal & Mrs. Heta Desai Baandal</h4>
                         <p class="sec-para" data-aos="fade-left">
-                            Together, Mr. Vivek Baandal and Mrs. Heta Desai Baandal are dedicated to helping businesses grow
-                            in the digital space. What started during their college days has grown into a successful agency
-                            built on creativity and purpose.
+                            From a shared mezzanine-floor office with two passionate dreamers to a vibrant team of 50+
+                            overlooking the beautiful Palm Beach—this journey has been nothing short of magic. What began in
+                            college as a spark between creativity and hustle has grown into a full-blown digital force.
+                            Together, <b>Mr. Vivek Baandal and Mrs. Heta Desai Baandal</b> have shaped Sociomark into a
+                            space where late-night brainstorms, potluck lunches, team townhalls and campaign features all
+                            live in harmony. It's massy. It's classy. It’s us.
                         </p>
                         <p class="sec-para" data-aos="fade-left" data-aos-delay="200">
-                            They’ve created an environment where ideas thrive, and collaboration leads the way. With a
-                            strong foundation and growing presence as a digital marketing company in UAE, they continue to
-                            guide brands toward better visibility and long-term success.
+                            They’ve built an agency where ideas don’t just flow—they flourish. Where clients feel heard, and
+                            brands grow loud. From guiding start-ups to scaling legacy brands, they continue to lead with
+                            clarity, curiosity and purpose. And yes, the name Sociomark came in a dream. Some stories are
+                            just meant to be...
                         </p>
 
                         <a href="about.html" class="th-btn th-icon text-white p-3 logo-info mt-2" data-aos="fade-left"
@@ -460,8 +511,8 @@
         <section class="space">
             <div class="container">
                 <div class="title-area text-center">
-                    <span class="sub-title sub-title4 ">EXPERT TEAM <span></span></span>
-                    <h2 class="sec-title ">See Our Skilled Expert Team</h2>
+                    {{-- <span class="sub-title sub-title4 ">EXPERT TEAM <span></span></span> --}}
+                    <h2 class="sec-title ">Meet Our <span class="text-blue">Remarkables</span></h2>
                 </div>
                 <div class="d-none">
                     <div class="team-collage position-relative">
@@ -547,17 +598,20 @@
                             What Makes Us <span class="text-blue"> Remarkable</span>
                         </h2>
                         <p class="sec-para" data-aos="fade-up" data-aos-delay="200">
-                            We’re more than a digital agency—we’re a mix of brains, bold moves, and brand love.
+                            We’re not just another digital agency—we’re storytellers, strategists, and serious brand nerds.
+                            From brainstorming big ideas to building lasting impact, we bring the perfect mix of creativity,
+                            strategy, and speed to the table.
                         </p>
                         <p class="sec-para" data-aos="fade-up" data-aos-delay="200">
-                            Rooted in the UAE and collaborating with brands across the globe, we bring fresh thinking to
-                            every brief.
+                            Over the past 8 years, we’ve partnered with brands across India and beyond—crafting digital
+                            journeys that are anything but ordinary. Whether it’s content, campaigns, or conversions—we keep
+                            it fresh, we keep it focused, and we keep it fast.
                         </p>
                     </div>
                 </div>
                 <div class="row d-flex justify-content-center mt-4" data-aos="fade-right" data-aos-delay="400">
-                    <div class="col-12 col-md-2 first-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-left"
-                        data-aos-delay=" 300">
+                    <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 pb-3 mx-2"
+                        data-aos="fade-left" data-aos-delay=" 300">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/icon/about/Quality Content.png') }}"
@@ -565,12 +619,13 @@
                                 <h4 class="sub-sec-title">Quality Content</h4>
                             </div>
                             <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                                <p class="sec-para">We don’t just create—we captivate your audience.</p>
+                                <p class="sec-para">We create content that connects, converts and keeps your audience
+                                    coming back for more.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-2 second-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-left"
-                        data-aos-delay="300">
+                    <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 pb-3 mx-2"
+                        data-aos="fade-left" data-aos-delay="300">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/icon/about/Custumized Content.png') }}"
@@ -578,11 +633,12 @@
                                 <h4 class="sub-sec-title">Customized Strategy</h4>
                             </div>
                             <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                                <p class="sec-para">A strategy that speaks your brand’s language.</p>
+                                <p class="sec-para">No one-size-fits-all here. Every strategy is made-to-measure for your
+                                    brand and its unique voice.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-2 first-feature-card feature-card flip-box p-0 mx-2">
+                    <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 pb-3 mx-2">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/icon/about/Result Driven.png') }}" alt=""
@@ -590,12 +646,13 @@
                                 <h4 class="sub-sec-title">Results-Driven</h4>
                             </div>
                             <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                                <p class="sec-para">Performance that delivers measurable results.</p>
+                                <p class="sec-para">We love creativity, but we love conversions more. Think ROI with a
+                                    creative twist.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-2 second-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-right"
-                        data-aos-delay="400">
+                    <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 pb-3 mx-2"
+                        data-aos="fade-right" data-aos-delay="400">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/icon/about/Creative distinction.png') }}"
@@ -603,12 +660,13 @@
                                 <h4 class="sub-sec-title">Creative Distinction</h4>
                             </div>
                             <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                                <p class="sec-para">Creativity that cuts through the noise.</p>
+                                <p class="sec-para">Ideas that turn heads, visuals that stop scrolls—our creative game is
+                                    always a level up.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-2 first-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-right"
-                        data-aos-delay="400">
+                    <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 pb-3 mx-2"
+                        data-aos="fade-right" data-aos-delay="400">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/icon/about/Collaborative Growth.png') }}"
@@ -616,7 +674,35 @@
                                 <h4 class="sub-sec-title">Collaborative Growth</h4>
                             </div>
                             <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                                <p class="sec-para">We’re in this together—every step of the way.</p>
+                                <p class="sec-para">We don’t just work for you—we work with you. Because real success is a
+                                    team sport.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 pb-3 mx-2"
+                        data-aos="fade-right" data-aos-delay="400">
+                        <div class="flip-box-inner h-100">
+                            <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                                <img src="{{ asset('frontend-assets/img/icon/about/Collaborative Growth.png') }}"
+                                    alt="" class="h-50 w-50">
+                                <h4 class="sub-sec-title">Quirky Approach </h4>
+                            </div>
+                            <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
+                                <p class="sec-para">A pinch of humour, a whole lot of hustle - That’s our recipe. We like
+                                    to keep things fun, fresh and fearlessly different.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 pb-3 mx-2"
+                        data-aos="fade-right" data-aos-delay="400">
+                        <div class="flip-box-inner h-100">
+                            <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                                <img src="{{ asset('frontend-assets/img/icon/about/Collaborative Growth.png') }}"
+                                    alt="" class="h-50 w-50">
+                                <h4 class="sub-sec-title">Quick Turn Around Time</h4>
+                            </div>
+                            <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
+                                <p class="sec-para">Your deadlines are sacred. We move fast—without losing the magic.</p>
                             </div>
                         </div>
                     </div>

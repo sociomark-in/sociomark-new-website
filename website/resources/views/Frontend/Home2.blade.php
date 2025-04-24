@@ -62,8 +62,8 @@
         }
 
         /* #home #about-sec3 .sec-para{
-                                                                                                        font-weight: 400;
-                                                                                                    } */
+                                                                                                            font-weight: 400;
+                                                                                                        } */
         #home #about-sec3 .accordion-item2 {
             max-width: 510px;
         }
@@ -319,6 +319,22 @@
                                         <h3 class="box-number text-orange"><span class="counter-number">200</span>+</h3>
                                         <div class="media-body">
                                             <p class="text-white counter-text mb-n1">Campaigns</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-auto col-lg-6 col-6">
+                                    <div class="counter-box">
+                                        <h3 class="box-number text-orange"><span class="counter-number">10</span>+</h3>
+                                        <div class="media-body">
+                                            <p class="text-white counter-text mb-n1">Global Clients</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-auto col-lg-6 col-6">
+                                    <div class="counter-box">
+                                        <h3 class="box-number text-orange"><span class="counter-number">3</span></h3>
+                                        <div class="media-body">
+                                            <p class="text-white counter-text mb-n1">Awards</p>
                                         </div>
                                     </div>
                                 </div>
