@@ -24,7 +24,8 @@
         <div class="breadcumb-wrapper p-0">
             <div class="">
                 <div class="w-100" style="height: 70vh;">
-                    <video src="{{asset('frontend-assets/about.mp4')}}" loop autoplay muted class="w-100 h-100" style="object-fit: cover;"></video>
+                    <video src="{{ asset('frontend-assets/about.mp4') }}" loop autoplay muted class="w-100 h-100"
+                        style="object-fit: cover;"></video>
                 </div>
             </div>
         </div>
@@ -144,44 +145,44 @@
                             </div>
                         </div>
                         <!--<div class="col-xl-4 col-md-6 col-12">
-                                <div class="process-card">
-                                    <div class="box-wrapp">
-                                        <div class="box-icon">
-                                            <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
+                                    <div class="process-card">
+                                        <div class="box-wrapp">
+                                            <div class="box-icon">
+                                                <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
+                                            </div>
+                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
+                                            <div class="box-number">
+                                                05 </div>
                                         </div>
-                                        <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                alt=""></div>
-                                        <div class="box-number">
-                                            05 </div>
-                                    </div>
-                                    <div class="box-content">
-                                        <h2 class="box-title">Plan Customization</h2>
-                                        <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                            behaviors. Submit as many design tasks</p>
+                                        <div class="box-content">
+                                            <h2 class="box-title">Plan Customization</h2>
+                                            <p class="box-text">Conduct thorough market of the research to the fast target audience
+                                                behaviors. Submit as many design tasks</p>
 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-xl-4 col-md-6 col-12">
-                                <div class="process-card">
-                                    <div class="box-wrapp">
-                                        <div class="box-icon">
-                                            <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}"
-                                                alt="icon">
+                                <div class="col-xl-4 col-md-6 col-12">
+                                    <div class="process-card">
+                                        <div class="box-wrapp">
+                                            <div class="box-icon">
+                                                <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}"
+                                                    alt="icon">
+                                            </div>
+                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
+                                            <div class="box-number">
+                                                06 </div>
                                         </div>
-                                        <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                alt=""></div>
-                                        <div class="box-number">
-                                            06 </div>
-                                    </div>
-                                    <div class="box-content">
-                                        <h2 class="box-title">Finished &amp; User Testing</h2>
-                                        <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                            behaviors. Submit as many design tasks</p>
+                                        <div class="box-content">
+                                            <h2 class="box-title">Finished &amp; User Testing</h2>
+                                            <p class="box-text">Conduct thorough market of the research to the fast target audience
+                                                behaviors. Submit as many design tasks</p>
 
+                                        </div>
                                     </div>
-                                </div>
-                            </div>-->
+                                </div>-->
                     </div>
                 </div>
             </div>
@@ -269,7 +270,7 @@
                 <!-- Static Flex Image Layout -->
                 <div class="image-gallery js-overlay gap-3 d-flex flex-column flex-lg-row justify-content-center">
                     <div class="position-relative">
-                        <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
+                        <img src="{{ asset('frontend-assets/img/bg/casestudies-700x500.jpg') }}"
                             class="gallery-img default-active" alt="Business Image">
                         <div class="img-overlay d-flex flex-column justify-content-between h-100 p-3">
                             <!-- Top content -->
@@ -285,17 +286,15 @@
 
                             <!-- Bottom content -->
                             <div class="bottom-content">
-                                <h4 class="text-white sub-sec-title">Our Tools</h4>
+                                <h4 class="text-white sub-sec-title">Case Studies</h4>
                                 <div class="mb-2">
-                                    <p class="text-white text-start mb-0 sec-para">Hover to discover how we power your
-                                        growth.</p>
+                                    <p class="text-white text-start mb-0 sec-para">Proof over Promises</p>
                                     <p class="text-white text-start desc-text d-none sec-para">
-                                        In today’s fast-moving digital landscape, staying ahead means staying smart — and
-                                        that’s exactly what we do.
+                                        Real stories of brands we’ve transformed. Explore how we've helped brands grow.
                                     </p>
                                 </div>
                                 <div class="">
-                                    <a href="#"
+                                    <a href="{{ route('case-study') }}"
                                         class="th-btn th-btn-white th-icon d-flex justify-content-between">Explore More <i
                                             class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
@@ -304,8 +303,8 @@
                         </div>
                     </div>
                     <div class="position-relative">
-                        <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
-                            class="gallery-img" alt="Meeting Image">
+                        <img src="{{ asset('frontend-assets/img/bg/work-700x500.jpg') }}"
+                            class="gallery-img default-active" alt="Business Image">
 
                         <div class="img-overlay h-100 p-3">
                             <!-- Top content -->
@@ -319,18 +318,18 @@
 
                             <!-- Bottom content -->
                             <div class="bottom-content">
-                                <h4 class="text-white sub-sec-title">Client Impact</h4>
+                                <h4 class="text-white sub-sec-title">Culture & Team</h4>
                                 <div class="mb-2">
-                                    <p class="text-white text-start mb-0 sec-para">Real stories of brands we’ve transformed
+                                    <p class="text-white text-start mb-0 sec-para">A culture of creativity, collaboration,
+                                        and constant growth.
                                     </p>
                                     <p class="text-white text-start desc-text d-none sec-para">
-                                        Our success is measured by the results we drive — and the brands we help grow. From
-                                        local startups to national players, our portfolio is packed with case studies that
-                                        showcase real ROI.
+                                        A culture of creativity, collaboration, and constant growth.
                                     </p>
                                 </div>
                                 <div class="">
-                                    <a href="#"
+                                    {{-- <a href="{{ route('team') }}" --}}
+                                    <a href="{{ route('workculture') }}"
                                         class="th-btn th-btn-white th-icon d-flex justify-content-between">Explore More <i
                                             class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
@@ -339,8 +338,8 @@
                         </div>
                     </div>
                     <div class="position-relative">
-                        <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg"
-                            class="gallery-img" alt="Office Image">
+                        <img src="{{ asset('frontend-assets/img/bg/culture-700x500.jpg') }}"
+                            class="gallery-img default-active" alt="Business Image">
                         <div class="img-overlay h-100 p-3">
                             <!-- Top content -->
                             <div class="top-content desc-text d-none">
@@ -356,8 +355,8 @@
                             <div class="bottom-content">
                                 <h4 class="text-white sub-sec-title">Culture & Team</h4>
                                 <div class="mb-2">
-                                    <p class="text-white text-start mb-0 sec-para">Meet the creative minds fueling your
-                                        success
+                                    <p class="text-white text-start mb-0 sec-para">
+                                        A culture of creativity, collaboration, and constant growth.
                                     </p>
                                     <p class="text-white text-start desc-text d-none sec-para">
                                         Behind every pixel, post, and plan is a passionate team driven by curiosity and
@@ -535,9 +534,9 @@
         </section>
         <style>
             #about-flip .flip-box {
-            width: 240px;
-            height: 320px;
-        }
+                width: 240px;
+                height: 320px;
+            }
         </style>
         <section class="mb-md-5 mt-md-5 mt-5 mb-2 py-1 py-md-4 overflow-hidden position-relative space" id="about-flip">
             <div class="container">
@@ -556,8 +555,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="row d-flex justify-content-center mt-4" data-aos="fade-right"
-                    data-aos-delay="400">
+                <div class="row d-flex justify-content-center mt-4" data-aos="fade-right" data-aos-delay="400">
                     <div class="col-12 col-md-2 first-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-left"
                         data-aos-delay=" 300">
                         <div class="flip-box-inner h-100">
