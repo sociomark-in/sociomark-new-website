@@ -94,6 +94,7 @@ Route::get('/portfolio/profinet/website-work', [PortfolioController::class, 'pro
 Route::get('/portfolio/aainos/website-work', [PortfolioController::class, 'aainosWeb'])->name('aainosWeb');
 Route::get('/portfolio/hollywood-opticians/branding-work', [PortfolioController::class, 'hollywoodOpticiansBranding'])->name('hollywoodOpticiansBranding');
 Route::get('/portfolio/foresight-opticals/branding-work', [PortfolioController::class, 'foresightOpticalsBranding'])->name('foresightOpticalsBranding');
+
 Route::get('/case-study', [CaseStudyController::class, 'index'])->name('case-study');
 Route::get('/case-study/stemrxbio', [CaseStudyController::class, 'stemrxbio'])->name('stemrxbio');
 Route::get('/case-study/expert4travel', [CaseStudyController::class, 'expert4travel'])->name('expert4travel');

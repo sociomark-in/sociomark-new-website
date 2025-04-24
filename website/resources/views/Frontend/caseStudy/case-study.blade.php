@@ -2,7 +2,6 @@
 
 @section('custome-style')
 <style>
-
     /* gallary :start */
 
     #portfolio-sec {
@@ -28,8 +27,12 @@
 
     .nav-tabs .nav-link.active {
         background-color: #106c97;
-        color: #fff;
+        color: #fff !important;
         border-radius: 8px;
+    }
+
+    .nav-tabs .nav-link.active .sec-para {
+        color: #fff !important;
     }
 
     /* gallary end */
@@ -37,7 +40,7 @@
     /* card  */
     .card__article {
         position: static !important;
-        height: 416px !important;
+        height: 380px !important;
     }
 
     .card__img {
@@ -45,12 +48,10 @@
     }
 
     .card__data {
-        width: 280px;
+        width: auto;
         background-color: white;
         padding: 1.5rem 2rem;
-        /* box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15); */
         border-radius: 1rem;
-        /* position: absolute; */
         bottom: -9rem;
         left: 0;
         right: 0;
@@ -77,7 +78,16 @@
             transform: translateY(-7rem);
         }
     }
+
     /* card :end */
+    #portfolio-sec i {
+        font-size: 45px;
+    }
+    .img-fluid {
+    
+    height: 350px;
+    object-fit: contain;
+}
 </style>
 @endsection
 
@@ -114,24 +124,28 @@
             <div class="filter-menu filter-menu-active nav nav-tabs justify-content-center mb-4">
 
 
-                <button data-filter="*" class=" nav-link active" type="button">
-                    <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="SEO" class="tab-icon-img">
-                    <div class="tab-label">All</div>
+                <button data-filter="*" class=" nav-link active d-flex flex-column justify-content-around align-items-center" type="button">
+                    <i class="fa-solid fa-check-double"></i>
+                    <!-- <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="SEO" class="tab-icon-img"> -->
+                    <div class="tab-label mt-3 sec-para">All</div>
                 </button>
 
-                <button data-filter=".cat1" class="nav-link" type="button">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1388/1388999.png" alt="Keyword" class="tab-icon-img">
-                    <div class="tab-label">SEO</div>
+                <button data-filter=".cat1" class="nav-link d-flex flex-column justify-content-around align-items-center" type="button">
+                    <i class="fa-brands fa-searchengin"></i>
+                    <!-- <img src="https://cdn-icons-png.flaticon.com/512/1388/1388999.png" alt="Keyword" class="tab-icon-img"> -->
+                    <div class="tab-label mt-3 sec-para">SEO</div>
                 </button>
 
-                <button data-filter=".cat2" class="nav-link" type="button">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828911.png" alt="Page Analyzer" class="tab-icon-img">
-                    <div class="tab-label">Website</div>
+                <button data-filter=".cat2" class="nav-link d-flex flex-column justify-content-around align-items-center" type="button">
+                    <i class="fa-solid fa-laptop-file"></i>
+                    <!-- <img src="https://cdn-icons-png.flaticon.com/512/1828/1828911.png" alt="Page Analyzer" class="tab-icon-img"> -->
+                    <div class="tab-label mt-3 sec-para">Website</div>
                 </button>
 
-                <button data-filter=".cat3" class="nav-link" type="button">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2920/2920322.png" alt="Digital Agency" class="tab-icon-img">
-                    <div class="tab-label">Social Media</div>
+                <button data-filter=".cat3" class="nav-link d-flex flex-column justify-content-around align-items-center" type="button">
+                    <i class="fa-solid fa-hashtag"></i>
+                    <!-- <img src="https://cdn-icons-png.flaticon.com/512/2920/2920322.png" alt="Digital Agency" class="tab-icon-img"> -->
+                    <div class="tab-label mt-3 sec-para">Social Media</div>
                 </button>
 
                 <!-- <button data-filter=".cat4" class="nav-link" type="button">
@@ -143,56 +157,119 @@
             </div>
 
             <!-- Tab Content -->
-
             <div class="portfolio-container">
-                <div class="filter-active row h-auto">
-                    <article class="card__article filter-item cat1 cat5 cat7 cat3 col-md-3 col-12">
-                        <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg" alt="image" class="card__img">
-
+                <div class="filter-active row h-auto g-4">
+                    <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="{{ asset('frontend-assets/img/case-study/new.png') }}" alt="image" class="card__img img-fluid">
                         <div class="card__data">
-                            <span class="sec-para">Boosted Organic Traffic by 200%</span>
-                            <h4 class="sub-sec-title">Ayushakti</h4>
-                            <a href="#" class="card__button">Read More</a>
+                            <h4 class="sub-sec-title">StemRx Bioscience</h4>
+                            <a href="{{ route('stemrxbio') }}" class="card__button text-blue">Read More</a>
+                        </div>
+                    </article>
+                    <article class="card__article filter-item cat2 cat1 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="{{ asset('frontend-assets/img/case-study/E4T.png') }}" alt="image" class="card__img img-fluid">
+                        <div class="card__data">
+                            <h4 class="sub-sec-title">Expert4travel</h4>
+                            <a href="{{ route('expert4travel') }}" class="card__button text-blue">Read More</a>
+                        </div>
+                    </article>
+                   
+                    <article class="card__article filter-item cat3 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="{{ asset('frontend-assets/img/case-study/EDUAURAA.png') }}" alt="image" class="card__img img-fluid">
+                        <div class="card__data">
+                            <h4 class="sub-sec-title">Eduauraa</h4>
+                            <a href="{{ route('eduauraa') }}" class="card__button text-blue">Read More</a>
+                        </div>
+                    </article>
+                    
+                    <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="{{ asset('frontend-assets/img/case-study/shahenaz.png') }}" alt="image" class="card__img img-fluid">
+                        <div class="card__data">
+                            <h4 class="sub-sec-title">Shahenaz</h4>
+                            <a href="{{ route('shahenaz') }}" class="card__button text-blue">Read More</a>
+                        </div>
+                    </article>
+                   
+                    <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="{{ asset('frontend-assets/img/case-study/OKINAWA.png') }}" alt="image" class="card__img img-fluid">
+                        <div class="card__data">
+                            <h4 class="sub-sec-title">Okinawa scooters</h4>
+                            <a href="{{ route('okinawascooters') }}" class="card__button text-blue">Read More</a>
+                        </div>
+                    </article>
+                    
+                    <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="{{ asset('frontend-assets/img/case-study/theprofessional.png') }}" alt="image" class="card__img img-fluid">
+                        <div class="card__data">
+                            <h4 class="sub-sec-title">The Professional Couriers</h4>
+                            <a href="{{ route('the-professional-couriers') }}" class="card__button text-blue">Read More</a>
+                        </div>
+                    </article>
+                    
+                    <article class="card__article filter-item cat3 cat2 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="{{ asset('frontend-assets/img/case-study/ayushakti.png') }}" alt="image" class="card__img img-fluid">
+                        <div class="card__data">
+                            <h4 class="sub-sec-title">Ayushakti Ayurved</h4>
+                            <a href="{{ route('ayushakti') }}" class="card__button text-blue">Read More</a>
+                        </div>
+                    </article>
+                    
+                    <article class="card__article filter-item cat1 cat3 cat2 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="{{ asset('frontend-assets/img/case-study/nodwin-gaming.jpg') }}" alt="image" class="card__img img-fluid">
+                        <div class="card__data">
+                            <h4 class="sub-sec-title">Nodwin Gaming</h4>
+                            <a href="{{ route('nodwinGaming') }}" class="card__button text-blue">Read More</a>
+                        </div>
+                    </article>
+                    
+                    <article class="card__article filter-item cat3 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="{{ asset('frontend-assets/img/case-study/bddb.png') }}" alt="image" class="card__img img-fluid">
+                        <div class="card__data">
+                            <h4 class="sub-sec-title">Button Dabao Desh Banao</h4>
+                            <a href="{{ route('buttondabaodeshbanao') }}" class="card__button text-blue">Read More</a>
+                        </div>
+                    </article>
+                   
+                    <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="{{ asset('frontend-assets/img/case-study/rts.png') }}" alt="image" class="card__img img-fluid">
+                        <div class="card__data">
+                            <h4 class="sub-sec-title">Road To Safty Initiative</h4>
+                            <a href="{{ route('roadtosafetyinitiative') }}" class="card__button text-blue">Read More</a>
+                        </div>
+                    </article>
+                   
+                    <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="{{ asset('frontend-assets/img/case-study/lime_logo.png') }}" alt="image" class="card__img img-fluid">
+                        <div class="card__data">
+                            <h4 class="sub-sec-title">Lime XII</h4>
+                            <a href="{{ route('lime') }}" class="card__button text-blue">Read More</a>
+                        </div>
+                    </article>
+                   
+                    <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="{{ asset('frontend-assets/img/case-study/ace tatto.png') }}" alt="image" class="card__img img-fluid">
+                        <div class="card__data">
+                            <h4 class="sub-sec-title">Ace Tattooz</h4>
+                            <a href="{{ route('acetattoz') }}" class="card__button text-blue">Read More</a>
+                        </div>
+                    </article>
+                   
+                    <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="{{ asset('frontend-assets/img/case-study/smarter-logo.png') }}" alt="image" class="card__img img-fluid">
+                        <div class="card__data">
+                            <h4 class="sub-sec-title">Smarter India</h4>
+                            <a href="{{ route('smarterIndia') }}" class="card__button text-blue">Read More</a>
+                        </div>
+                    </article>
+                   
+                    <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <img src="{{ asset('frontend-assets/img/case-study/rea.png') }}" alt="image" class="card__img img-fluid">
+                        <div class="card__data">
+                            <h4 class="sub-sec-title">Real Estate Awards</h4>
+                            <a href="{{ route('realestateawards') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
 
-                    <article class="card__article filter-item cat5 cat5 cat8 cat1 col-md-3 col-12">
-                        <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg" alt="image" class="card__img">
-
-                        <div class="card__data">
-                            <span class="sec-para">Poon Hill, Nepal</span>
-                            <h4 class="sub-sec-title">Starry Night</h4>
-                            <a href="#" class="card__button">Read More</a>
-                        </div>
-                    </article>
-
-                    <article class="card__article filter-item cat5 cat3 cat2 col-md-3 col-12">
-                        <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg" alt="image" class="card__img">
-
-                        <div class="card__data">
-                            <span class="sec-para">Bojcin Forest, Serbia</span>
-                            <h4 class="sub-sec-title">Path Of Peace</h4>
-                            <a href="#" class="card__button">Read More</a>
-                        </div>
-                    </article>
-                    <article class="card__article filter-item cat5 cat3 cat2 col-md-3 col-12">
-                        <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg" alt="image" class="card__img">
-
-                        <div class="card__data">
-                            <span class="suc-para">Bojcin Forest, Serbia</span>
-                            <h4 class="sub-sec-title">Path Of Peace</h4>
-                            <a href="#" class="card__button">Read More</a>
-                        </div>
-                    </article>
-                    <article class="card__article filter-item cat5 cat3 cat2 col-md-3 col-12">
-                        <img src="https://themes.potenzaglobalsolutions.com/netcraft/wp-content/uploads/2024/12/general-img1-800x900.jpg" alt="image" class="card__img">
-
-                        <div class="card__data">
-                            <span class="suc-para">Bojcin Forest, Serbia</span>
-                            <h4 class="sub-sec-title">Path Of Peace</h4>
-                            <a href="#" class="card__button">Read More</a>
-                        </div>
-                    </article>
                 </div>
             </div>
         </div>
