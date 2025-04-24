@@ -74,7 +74,7 @@ Blog Area
                             </h3>
                             <p class="blog-text">{{ Str::limit($firstBlog->content, 100) }}</p>
                             <a href="" class="th-btn black-border th-icon th-radius">
-                                Read More <i class="fa-regular fa-arrow-right ms-2"></i>
+                                Read More <i class="fa-solid fa-arrow-right ms-2"></i>
                             </a>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ Blog Area
                                     </h3>
                                     <p class="blog-text">{{ Str::limit($blog->content, 100) }}</p>
                                     <a href="" class="th-btn black-border th-icon th-radius">
-                                        Read More <i class="fa-regular fa-arrow-right ms-2"></i>
+                                        Read More <i class="fa-solid fa-arrow-right ms-2"></i>
                                     </a>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@ Blog Area
                             <li><a href="blog.html">2</a></li>
                             <li><a href="blog.html">3</a></li>
                             <li><a href="blog.html">3</a></li>
-                            <li><a href="blog.html"><i class="fa-regular fa-arrow-right"></i></a></li>
+                            <li><a href="blog.html"><i class="fa-solid fa-arrow-right"></i></a></li>
                         </ul>
                     </div> -->
                 </div>
@@ -199,7 +199,7 @@ Blog Area
             </div>
         </div>
     </section><!--==============================
-Brand Area  
+Brand Area
 ==============================-->
 
     <div class="brand-sec overflow-hidden space-bottom">

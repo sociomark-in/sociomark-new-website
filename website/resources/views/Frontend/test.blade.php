@@ -695,7 +695,7 @@
                         </div>
                     </div>
                     <a href="" class="th-btn black-border th-icon th-radius">
-                        Read More <i class="fa-regular fa-arrow-right ms-2"></i>
+                        Read More <i class="fa-solid fa-arrow-right ms-2"></i>
                     </a>
                 </div>
                 <div class="col-xl-5" data-aos="fade-right"

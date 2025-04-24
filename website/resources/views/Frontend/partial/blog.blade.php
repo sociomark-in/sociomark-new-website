@@ -1,13 +1,13 @@
 <section class="overflow-hidden space" id="about-sec5">
     <div class="container">
-     
 
-     
+
+
             <h2 class="fw-bold mb-5 sec-title text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"
                 data-aos-easing="ease-in-out">
                 From The Blog: Blogs worth binging on.  <span class="text-blue"> Dive in!</span>
             </h2>
-    
+
         <div class="swiper mySwiper mt-5">
             <div class="swiper-wrapper">
                 @foreach ($blogs as $blog)
@@ -36,7 +36,7 @@
                             <p class="blog-text">{{ Str::limit(strip_tags($blog->content), 80) }}</p>
                             <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}"
                                 class="th-btn black-border th-icon th-radius">
-                                Read More <i class="fa-regular fa-arrow-right ms-2"></i>
+                                Read More <i class="fa-solid fa-arrow-right ms-2"></i>
                             </a>
                         </div>
                     </div>

@@ -53,7 +53,7 @@
                             temporibus vero pariatur accusamus ipsam qui?
                         </p>
                         <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
-                            A Quote <i class="fa-regular fa-arrow-right ms-2"></i></a>
+                            A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
             </div>

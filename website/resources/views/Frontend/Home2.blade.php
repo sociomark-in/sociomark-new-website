@@ -277,7 +277,7 @@
 
                         </p>
                         <a href="" class="th-btn white-border th-icon th-radius">
-                            Read More <i class="fa-regular fa-arrow-right ms-2"></i>
+                            Read More <i class="fa-solid fa-arrow-right ms-2"></i>
                         </a>
                     </div>
                     <div class="col-xl-6" data-aos="fade-left">
@@ -1252,7 +1252,7 @@
                                         <p class="blog-text">{{ Str::limit(strip_tags($blog->content), 80) }}</p>
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}"
                                             class="th-btn white-border th-icon th-radius">
-                                            Read More <i class="fa-regular fa-arrow-right ms-2"></i>
+                                            Read More <i class="fa-solid fa-arrow-right ms-2"></i>
                                         </a>
                                     </div>
                                 </div>
