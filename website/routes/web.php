@@ -51,14 +51,40 @@ Route::get('/service/photograpy-videograpy', [ServiceController::class, 'photoVi
 
 Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');
 Route::get('/portfolio/inside', [PortfolioController::class, 'portfolioInside'])->name('portfolioinside');
+
+Route::get('/portfolio/euro/social-media-work', [PortfolioController::class, 'euro'])->name('euro');
+Route::get('/portfolio/bumchumps/social-media-work', [PortfolioController::class, 'bumchumps'])->name('bumchumps');
+Route::get('/portfolio/jivana/social-media-work', [PortfolioController::class, 'jivana'])->name('jivana');
+Route::get('/portfolio/road-to-safety/social-media-work', [PortfolioController::class, 'roadToSafety'])->name('roadToSafety');
+Route::get('/portfolio/nodwin/social-media-work', [PortfolioController::class, 'nodwin'])->name('nodwin');
+Route::get('/portfolio/lime/social-media-work', [PortfolioController::class, 'lime'])->name('lime');
+Route::get('/portfolio/button-dabao-desh-banao/social-media-work', [PortfolioController::class, 'buttonbabaoDeshBanao'])->name('buttonbabaoDeshBanao');
+Route::get('/portfolio/castrol/social-media-work', [PortfolioController::class, 'castrol'])->name('castrol');
+Route::get('/portfolio/mission-insure-india/social-media-work', [PortfolioController::class, 'missionInsureIndia'])->name('missionInsureIndia');
+Route::get('/portfolio/real-estate-awards/social-media-work', [PortfolioController::class, 'realEstateAward'])->name('realEstateAward');
+Route::get('/portfolio/cosplay-genie/social-media-work', [PortfolioController::class, 'cosplayGenie'])->name('cosplayGenie');
+Route::get('/portfolio/smart-cities-of-india/social-media-work', [PortfolioController::class, 'smartCityOfIndia'])->name('smartCityOfIndia');
+Route::get('/portfolio/mahindra-first-choice-services/social-media-work', [PortfolioController::class, 'mahidraFirstChoice'])->name('mahidraFirstChoice');
+Route::get('/portfolio/the-professional-couriers/social-media-work', [PortfolioController::class, 'theProffessionalCouriers'])->name('theProffessionalCouriers');
+Route::get('/portfolio/team-cashless-india/social-media-work', [PortfolioController::class, 'teamCashlessIndia'])->name('teamCashlessIndia');
+Route::get('/portfolio/sportz-consult/social-media-work', [PortfolioController::class, 'sportzConsult'])->name('sportzConsult');
+Route::get('/portfolio/ayushakti/social-media-work', [PortfolioController::class, 'ayushaktisocoialM'])->name('ayushaktisocoialM');
+
+
+
+
 Route::get('/case-study', [CaseStudyController::class, 'index'])->name('case-study');
 Route::get('/case-study/stemrxbio', [CaseStudyController::class, 'stemrxbio'])->name('stemrxbio');
 Route::get('/case-study/expert4travel', [CaseStudyController::class, 'expert4travel'])->name('expert4travel');
 Route::get('/case-study/the-professional-couriers', [CaseStudyController::class, 'theProfessionalCouriers'])->name('the-professional-couriers');
 Route::get('/case-study/eduauraa', [CaseStudyController::class, 'eduauraa'])->name('eduauraa');
 Route::get('/case-study/shahenaz', [CaseStudyController::class, 'shahenaz'])->name('shahenaz');
-
-
+Route::get('/case-study/okinawascooters', [CaseStudyController::class, 'okinawascooters'])->name('okinawascooters');
+Route::get('/case-study/ayushakti', [CaseStudyController::class, 'ayushakti'])->name('ayushakti');
+Route::get('/case-study/nodwin-gaming', [CaseStudyController::class, 'nodwinGaming'])->name('nodwinGaming');
+Route::get('/case-study/lime', [CaseStudyController::class, 'lime'])->name('lime');
+Route::get('/case-study/button-dabao-desh-banao', [CaseStudyController::class, 'buttondabaodeshbanao'])->name('buttondabaodeshbanao');
+Route::get('/case-study/road-to-safety-initiative', [CaseStudyController::class, 'roadtosafetyinitiative'])->name('roadtosafetyinitiative');
 
 Route::get('/work-culture', [WorkCultureController::class, 'index'])->name('workculture');
 Route::get('/careers', [HomeController::class, 'careers'])->name('careers');
