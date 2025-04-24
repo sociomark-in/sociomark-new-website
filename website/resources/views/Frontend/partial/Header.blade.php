@@ -97,7 +97,7 @@ Header Area
                                 <!-- <button type="button" class="icon-btn searchBoxToggler"><i class="fal fa-search"></i></button> -->
                                 <a href="#" class="th-btn th-icon" data-bs-toggle="modal"
                                     data-bs-target="#getAQuoteModal">Get A Quote <i
-                                        class="fa-regular fa-arrow-right ms-2"></i></a>
+                                        class="fa-solid fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
                     </div>

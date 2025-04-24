@@ -62,8 +62,8 @@
         }
 
         /* #home #about-sec3 .sec-para{
-                                                                                font-weight: 400;
-                                                                            } */
+                                                                                                        font-weight: 400;
+                                                                                                    } */
         #home #about-sec3 .accordion-item2 {
             max-width: 510px;
         }
@@ -260,24 +260,27 @@
         <section class="choose-area" id="about-sec2">
             <div class="container">
                 <div class="row g-4 g-md-5">
-                    <div class="col-xl-7 pe-5">
+                    <div class="col-xl-6 pe-5">
                         <div class="title-area mb-20">
                             <h1 class="sec-title " data-aos="fade-right" data-aos-delay="300">A Bold Digital Marketing
                                 Company
                                 <span class="text-orange"> for Brands that Think Bigger</span>
                             </h1>
                         </div>
-                        <p class="sec-para text-white-50" data-aos="fade-right" data-aos-delay="300">We’re not just a
-                            <strong>Digital marketing company in UAE,</strong> we’re your creative and strategic partners in
-                            the digital space. Whether it's building high-performing websites, crafting SEO strategies,
-                            running smart ad campaigns, or managing your brand’s social presence, we do it all with purpose.
-                            Our goal? To help your business grow, connect, and stand out in a crowded digital world.
+                        <p class="sec-para text-white-50" data-aos="fade-right" data-aos-delay="300">We're more than just a
+                            <strong>digital marketing agency</strong>—we're your creative and strategic partners in the
+                            digital realm.
+                            From crafting high-performing websites to executing smart SEO strategies, running impactful ad
+                            campaigns and managing your brand's social presence, we do it all with purpose.
+                            Our mission is to help your business grow, connect and stand
+                            out in a crowded digital world.
+
                         </p>
                         <a href="" class="th-btn white-border th-icon th-radius">
-                            Read More <i class="fa-regular fa-arrow-right ms-2"></i>
+                            Read More <i class="fa-solid fa-arrow-right ms-2"></i>
                         </a>
                     </div>
-                    <div class="col-xl-5" data-aos="fade-left">
+                    <div class="col-xl-6" data-aos="fade-left">
                         <div class="choose-image">
                             <div class="rounded-overflow" data-tilt data-tilt-max="10">
                                 <img loading="lazy" src="{{ asset('frontend-assets/img/team/home.jpg') }}" alt="The Team">
@@ -286,36 +289,36 @@
                     </div>
                     <div class="col-12">
                         <div class="counter-box-wrap">
-                            <div class="row g-3 gx-5">
-                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
+                            <div class="row g-3 gx-5 text-center">
+                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-6">
                                     <div class="counter-box">
-                                        <h3 class="box-number text-orange"><span class="counter-number">200</span>+</h3>
+                                        <h3 class="box-number text-orange"><span class="counter-number">8</span>+</h3>
                                         <div class="media-body">
-                                            <p class="text-white counter-text mb-n1">Experienced Team</p>
+                                            <p class="text-white counter-text mb-n1">years</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
+                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-6">
                                     <div class="counter-box">
-                                        <h3 class="box-number text-orange"><span class="counter-number">200</span>+</h3>
+                                        <h3 class="box-number text-orange"><span class="counter-number">50</span>+</h3>
                                         <div class="media-body">
-                                            <p class="text-white counter-text mb-n1">Experienced Team</p>
+                                            <p class="text-white counter-text mb-n1">Employees</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
+                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-6">
                                     <div class="counter-box">
-                                        <h3 class="box-number text-orange"><span class="counter-number">200</span>+</h3>
+                                        <h3 class="box-number text-orange"><span class="counter-number">70</span>+</h3>
                                         <div class="media-body">
-                                            <p class="text-white counter-text mb-n1">Experienced Team</p>
+                                            <p class="text-white counter-text mb-n1">Brands</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
+                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-6">
                                     <div class="counter-box">
                                         <h3 class="box-number text-orange"><span class="counter-number">200</span>+</h3>
                                         <div class="media-body">
-                                            <p class="text-white counter-text mb-n1">Experienced Team</p>
+                                            <p class="text-white counter-text mb-n1">Campaigns</p>
                                         </div>
                                     </div>
                                 </div>
@@ -657,12 +660,11 @@
                                         <div class="col-12">
                                             <img loading="lazy"
                                                 src="{{ asset('frontend-assets/img/service/DM_gray.jpg') }}"
-                                                alt="" class="w-100 service-image rounded-overflow">
+                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
                                         </div>
                                         <div class="col-12">
-                                            <p class="text mt-3">Crafting stories that matter on the platforms that matter.
-                                                As the best <strong>digital marketing agency in UAE,</strong> we help you
-                                                create an impactful and lasting social presence.
+                                            <p class="text mt-3">Want to go viral and drive sales? Discover the strategies
+                                                that turn browsers into buyers and brands into buzzwords.
                                             </p>
                                             <a href="" class="th-btn white-border th-icon th-radius">
                                                 Read More
@@ -676,12 +678,11 @@
                                         <div class="col-12">
                                             <img loading="lazy"
                                                 src="{{ asset('frontend-assets/img/service/SM_gray.jpg') }}"
-                                                alt="" class="w-100 service-image rounded-overflow">
+                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
                                         </div>
                                         <div class="col-12">
-                                            <p class="text mt-3">Crafting stories that matter on the platforms that matter.
-                                                As the best <strong>digital marketing agency in UAE,</strong> we help you
-                                                create an impactful and lasting social presence.
+                                            <p class="text mt-3">Don’t just show up—stand out. We turn your social feed
+                                                into your strongest marketing weapon.
                                             </p>
                                             <a href="" class="th-btn white-border th-icon th-radius">
                                                 Read More
@@ -695,12 +696,11 @@
                                         <div class="col-12">
                                             <img loading="lazy"
                                                 src="{{ asset('frontend-assets/img/service/SEO_gray.jpg') }}"
-                                                alt="" class="w-100 service-image rounded-overflow">
+                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
                                         </div>
                                         <div class="col-12">
-                                            <p class="text mt-3">Boost your search engine rankings and drive organic
-                                                traffic with our proven SEO strategies. As an <strong>SEO Company in
-                                                    Dubai,</strong> we help your brand stand out where it matters most.
+                                            <p class="text mt-3">Struggling to show up on Google? We’ve cracked the code to
+                                                page one rankings—and your competitors aren’t ready for it.
                                             </p>
                                             <a href="" class="th-btn white-border th-icon th-radius">
                                                 Read More
@@ -714,12 +714,11 @@
                                         <div class="col-12">
                                             <img loading="lazy"
                                                 src="{{ asset('frontend-assets/img/service/WD_gray.jpg') }}"
-                                                alt="" class="w-100 service-image rounded-overflow">
+                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
                                         </div>
                                         <div class="col-12">
-                                            <p class="text mt-3"> Your website is your first impression—make it count. We
-                                                build fast, functional, and future-ready websites that work beautifully on
-                                                every screen.
+                                            <p class="text mt-3"> Is your website your best salesperson? If not, you’re
+                                                losing money. We build websites that work 24/7 to grow your business.
 
                                             </p>
                                             <a href="" class="th-btn white-border th-icon th-radius">
@@ -734,12 +733,11 @@
                                         <div class="col-12">
                                             <img loading="lazy"
                                                 src="{{ asset('frontend-assets/img/service/DM_gray.jpg') }}"
-                                                alt="" class="w-100 service-image rounded-overflow">
+                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
                                         </div>
                                         <div class="col-">
-                                            <p class="text mt-3">Every ad has a goal—and we make sure it delivers. From
-                                                planning to tracking, each campaign is built to bring real value to your
-                                                brand.
+                                            <p class="text mt-3">Tired of burning the budget with zero ROI? Get campaigns
+                                                that don’t just perform—they outperform. See how we make every click count.
 
                                             </p>
                                             <a href="" class="th-btn white-border th-icon th-radius">
@@ -754,11 +752,11 @@
                                         <div class="col-12">
                                             <img loading="lazy"
                                                 src="{{ asset('frontend-assets/img/service/CM_gray.jpg') }}"
-                                                alt="" class="w-100 service-image rounded-overflow">
+                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
                                         </div>
                                         <div class="col-12">
-                                            <p class="text mt-3">Content that informs, engages, and inspires action. We
-                                                craft messages that reflect your brand and reach the right audience.
+                                            <p class="text mt-3">Content that pulls, persuades and performs. From blogs to
+                                                banners—we make every word work for you.
 
                                             </p>
                                             <a href="" class="th-btn white-border th-icon th-radius">
@@ -773,12 +771,11 @@
                                         <div class="col-12">
                                             <img loading="lazy"
                                                 src="{{ asset('frontend-assets/img/service/VP_gray.jpg') }}"
-                                                alt="" class="w-100 service-image rounded-overflow">
+                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
                                         </div>
                                         <div class="col-12">
-                                            <p class="text mt-3">From concept to execution, we work on designs and videos
-                                                that support your marketing goals. Every output is made to fit the platform
-                                                and purpose.
+                                            <p class="text mt-3">If it doesn’t stop the scroll, it’s not us. Let’s turn
+                                                your brand into a visual story that people will remember.
 
                                             </p>
                                             <a href="" class="th-btn white-border th-icon th-radius">
@@ -846,13 +843,14 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
-                                            alt="Lorum Ipsum" class="w-100" />
+                                        <img loading="lazy"
+                                            src="{{ asset('frontend-assets/img/portfolio/Mastercard.png') }}"
+                                            class="w-100" alt="Team Cashless India" />
                                     </div>
                                     <div class="flip-box-back">
-                                        <h4>Mastercard</h4>
-                                        <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Sequi, debitis?</p>
+                                        <h4>Team Cashless India </h4>
+                                        <p class="sec-para">Crafted in perfect sync with Mastercard’s signature
+                                            circles—where every post was a swipe of seamless design.</p>
                                     </div>
                                 </div>
                             </div>
@@ -861,13 +859,14 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
-                                            alt="Lorum Ipsum" />
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Nodwin.png') }}"
+                                            class="w-100" alt="NODWIN Gaming" class="w-100" />
                                     </div>
                                     <div class="flip-box-back">
-                                        <h4>Cashless India</h4>
-                                        <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Sequi, debitis?</p>
+                                        <h4>NODWIN Gaming</h4>
+                                        <p class="sec-para">From nostalgic 90s vibes to viral memes, our designs merged
+                                            gaming culture with creative flair, making every campaign/series a high-score
+                                            hit.</p>
                                     </div>
                                 </div>
                             </div>
@@ -876,13 +875,14 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
-                                            alt="Lorum Ipsum" />
+                                        <img loading="lazy"
+                                            src="{{ asset('frontend-assets/img/portfolio/Shahenaz.png') }}"
+                                            class="w-100" alt="Shahenaz" />
                                     </div>
                                     <div class="flip-box-back">
-                                        <h4>Button Dabo Desh Bano</h4>
-                                        <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Sequi, debitis?</p>
+                                        <h4>Shahenaz</h4>
+                                        <p class="sec-para">A grid as graceful as the brand—designed to drape your feed in
+                                            elegance.</p>
                                     </div>
                                 </div>
                             </div>
@@ -891,13 +891,14 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
-                                            alt="Lorum Ipsum" />
+                                        <img loading="lazy"
+                                            src="{{ asset('frontend-assets/img/portfolio/Ayushakti.png') }}"
+                                            class="w-100" alt="Ayushakti" />
                                     </div>
                                     <div class="flip-box-back">
-                                        <h4>Nodwin Gaming</h4>
-                                        <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Sequi, debitis?</p>
+                                        <h4>Ayushakti</h4>
+                                        <p class="sec-para">Healing through design—our creatives spoke the language of
+                                            trust, care and Ayurveda.</p>
                                     </div>
                                 </div>
                             </div>
@@ -906,13 +907,13 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
-                                            alt="Lorum Ipsum" />
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Jivana.png') }}"
+                                            class="w-100" alt="Jivana" />
                                     </div>
                                     <div class="flip-box-back">
-                                        <h4>Euro</h4>
-                                        <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Sequi, debitis?</p>
+                                        <h4>Jivana</h4>
+                                        <p class="sec-para">Captured the essence of authenticity, turning everyday
+                                            ingredients into visual delights.</p>
                                     </div>
                                 </div>
                             </div>
@@ -921,13 +922,13 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
-                                            alt="Lorum Ipsum" />
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/TPC.png') }}"
+                                            class="w-100" alt="The Professional Couriers" />
                                     </div>
                                     <div class="flip-box-back">
-                                        <h4>TPC</h4>
-                                        <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Sequi, debitis?</p>
+                                        <h4>The Professional Couriers</h4>
+                                        <p class="sec-para">We kept it clean, clear and customer-first—just like their
+                                            deliveries.</p>
                                     </div>
                                 </div>
                             </div>
@@ -936,13 +937,13 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
-                                            alt="Lorum Ipsum" />
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Euro.png') }}"
+                                            class="w-100" alt="EURO" />
                                     </div>
                                     <div class="flip-box-back">
-                                        <h4>Euro</h4>
-                                        <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Sequi, debitis?</p>
+                                        <h4>EURO</h4>
+                                        <p class="sec-para">Styled comfort with star power—our creatives echoed Kartik
+                                            Aaryan's charisma.</p>
                                     </div>
                                 </div>
                             </div>
@@ -951,22 +952,32 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img loading="lazy" src="https://placehold.co/405x740" class="w-100"
-                                            alt="Lorum Ipsum" />
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Jop.png') }}"
+                                            class="w-100" alt="JOP Group" />
                                     </div>
                                     <div class="flip-box-back">
-                                        <h4>TPC</h4>
-                                        <p class="sec-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                            Sequi, debitis?</p>
+                                        <h4>JOP Group</h4>
+                                        <p class="sec-para">Visualized spaces that speak—our designs mirrored JOP's
+                                            architectural elegance. Crafted visuals that captured the essence of modern
+                                            living and timeless design.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
         </section>
+        <style>
+            .flip-box-front img {
+                object-position: top;
+            }
 
+            .flip-box-front {
+                background-color: black;
+            }
+        </style>
         {{-- Stripe --}}
         <div class="" style="padding: calc(max(5%, 2rem)) 0">
             <div class="marquee" data-marquee-duration="30">
@@ -993,10 +1004,11 @@
                     <div class="col-lg-8">
                         <div class="title-area text-center">
                             <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
-                                60+ Happy Clients Said To Us <span class="text-orange">They Are Satisfied</span>
+                                <span class="text-orange">Client Satisfaction</span><br> our favourite kind of ROI
                             </h2>
 
                         </div>
+
                     </div>
                 </div>
                 <div class="row justify-content-center">
@@ -1026,10 +1038,8 @@
                                                         it on social media and the likes are only increasing month and month
                                                         because of that. Sociomark is so committed that they always deliver
                                                         what they promise each month. I am extremely happy working with
-                                                        them. <strong>Best of luck Sociomark!</strong>
+                                                        them. <strong> Best of luck Sociomark! </strong>
                                                     </div>
-                                                    <strong class="text-black">Best of luck Sociomark!</strong>
-                                                    <p></p>
                                                 </div>
                                             </div>
                                             <div class="box-wrapp">
@@ -1176,7 +1186,7 @@
                     <div class="col-lg-8">
                         <div class="title-area text-center">
                             <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
-                                Lorem ipsum dolor sit amet. <span class="text-orange">The Mighty Exposure</span>
+                                Always in the <span class="text-orange">news</span>
                             </h2>
                         </div>
                     </div>
@@ -1210,7 +1220,7 @@
             <div class="container">
                 <div class="title-area text-center mb-25">
                     <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
-                        From The Blog: Blogs worth binging on. <br><span class="text-orange"> Dive in!</span>
+                        <span class="text-orange">Sociopedia</span><br>A library to go beyond the brief
                     </h2>
                 </div>
                 <div class="swiper mySwiper">
@@ -1242,7 +1252,7 @@
                                         <p class="blog-text">{{ Str::limit(strip_tags($blog->content), 80) }}</p>
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}"
                                             class="th-btn white-border th-icon th-radius">
-                                            Read More <i class="fa-regular fa-arrow-right ms-2"></i>
+                                            Read More <i class="fa-solid fa-arrow-right ms-2"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -1335,9 +1345,14 @@
                                     <select class="form-select @error('service') is-invalid @enderror" id="service"
                                         name="service">
                                         <option selected disabled>Choose an option</option>
-                                        <option value="1">Option 1</option>
-                                        <option value="2">Option 2</option>
-                                        <option value="3">Option 3</option>
+                                        <option value="Search Engine Optimization">Search Engine Optimization</option>
+                                        <option value="Website Development">Website Development</option>
+                                        <option value="Social Media">Social Media</option>
+                                        <option value="Digital Marketing">Digital Marketing</option>
+                                        <option value="Conetnt Marketing">Conetnt Marketing</option>
+                                        <option value="SEM">SEM</option>
+                                        <option value="Photography & Video Production">Photography & Video Production
+                                        </option>
                                     </select>
 
                                     @error('service')
@@ -1351,9 +1366,10 @@
                                     <select class="form-select @error('budget') is-invalid @enderror" id="budget"
                                         name="budget">
                                         <option selected disabled>Choose an option</option>
-                                        <option value="1">Option 1</option>
-                                        <option value="2">Option 2</option>
-                                        <option value="3">Option 3</option>
+                                        <option value="Under ₹ 25000">Under ₹ 25000</option>
+                                        <option value="₹ 25,000 - ₹ 1,00,000">₹ 25,000 - ₹ 1,00,000</option>
+                                        <option value="Above ₹ 1,00,000">Above ₹ 1,00,000</option>
+                                        <option value="Have not Estimated Yet">Have not Estimated Yet</option>
                                     </select>
                                     @error('budget')
                                         <span class="text-danger">{{ $message }}</span>
@@ -1366,9 +1382,12 @@
                                     <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs"
                                         name="aboutUs">
                                         <option selected disabled>Choose an option</option>
-                                        <option value="1">Option 1</option>
-                                        <option value="2">Option 2</option>
-                                        <option value="3">Option 3</option>
+                                        <option value="Through Search Engines(Google, Bing etc.)">Through Search
+                                            Engines(Google, Bing etc.)</option>
+                                        <option value="Social Media(Facebook, Instagram etc.)">Social Media(Facebook,
+                                            Instagram etc.)</option>
+                                        <option value="Word of Mouth/ Referral">Word of Mouth/ Referral</option>
+                                        <option value="Other">Other</option>
                                     </select>
                                     @error('aboutUs')
                                         <span class="text-danger">{{ $message }}</span>
@@ -1398,6 +1417,12 @@
                 </div>
             </div>
         </section>
+
+        <style>
+            label {
+                font-weight: 600;
+            }
+        </style>
         <div class="modal fade" id="homeContactModal" tabindex="-1" aria-labelledby="homeContactModalLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-fullscreen">
@@ -1445,9 +1470,14 @@
                                     <select class="form-select @error('service') is-invalid @enderror" id="service"
                                         name="service">
                                         <option selected disabled>Choose an option</option>
-                                        <option value="1">Option 1</option>
-                                        <option value="2">Option 2</option>
-                                        <option value="3">Option 3</option>
+                                        <option value="Search Engine Optimization">Search Engine Optimization</option>
+                                        <option value="Website Development">Website Development</option>
+                                        <option value="Social Media">Social Media</option>
+                                        <option value="Digital Marketing">Digital Marketing</option>
+                                        <option value="Conetnt Marketing">Conetnt Marketing</option>
+                                        <option value="SEM">SEM</option>
+                                        <option value="Photography & Video Production">Photography & Video Production
+                                        </option>
                                     </select>
 
                                     @error('service')
@@ -1460,9 +1490,10 @@
                                     <select class="form-select @error('budget') is-invalid @enderror" id="budget"
                                         name="budget">
                                         <option selected disabled>Choose an option</option>
-                                        <option value="1">Option 1</option>
-                                        <option value="2">Option 2</option>
-                                        <option value="3">Option 3</option>
+                                        <option value="Under ₹ 25000">Under ₹ 25000</option>
+                                        <option value="₹ 25,000 - ₹ 1,00,000">₹ 25,000 - ₹ 1,00,000</option>
+                                        <option value="Above ₹ 1,00,000">Above ₹ 1,00,000</option>
+                                        <option value="Have not Estimated Yet">Have not Estimated Yet</option>
                                     </select>
                                     @error('budget')
                                         <span class="text-danger">{{ $message }}</span>
@@ -1474,9 +1505,12 @@
                                     <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs"
                                         name="aboutUs">
                                         <option selected disabled>Choose an option</option>
-                                        <option value="1">Option 1</option>
-                                        <option value="2">Option 2</option>
-                                        <option value="3">Option 3</option>
+                                        <option value="Through Search Engines(Google, Bing etc.)">Through Search
+                                            Engines(Google, Bing etc.)</option>
+                                        <option value="Social Media(Facebook, Instagram etc.)">Social Media(Facebook,
+                                            Instagram etc.)</option>
+                                        <option value="Word of Mouth/ Referral">Word of Mouth/ Referral</option>
+                                        <option value="Other">Other</option>
                                     </select>
                                     @error('aboutUs')
                                         <span class="text-danger">{{ $message }}</span>
