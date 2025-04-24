@@ -64,4 +64,76 @@ class PortfolioController extends Controller
     public function ayushaktisocoialM(){
         return view('frontend/Portfolio/ayushaktiSocialMedia');
     }
+    public function aiawards(){
+        return view('frontend/Portfolio/aiawards');
+    }
+    public function smarterindia(){
+        return view('frontend/Portfolio/smarterindiaSocialMedia');
+    }
+    public function grillbox(){
+        return view('frontend/Portfolio/grillboxSocialMedia');
+    }
+    public function kolkatarolls(){
+        return view('frontend/Portfolio/kolkatarollsSocialMedia');
+    }
+    public function hollywoodopticians(){
+        return view('frontend/Portfolio/hollywoodopticiansSocialMedia');
+    }
+    public function foresightopticals(){
+        return view('frontend/Portfolio/foresightopticalsSocialMedia');
+    }
+    public function inifdvashi(){
+        return view('frontend/Portfolio/inifdvashiSocialMedia');
+    }
+    public function profinet(){
+        return view('frontend/Portfolio/profinetbranding');
+    }
+    public function ayushaktiweb(){
+        return view('frontend/Portfolio/ayushaktiweb');
+    }
+    public function electrocareweb(){
+        return view('frontend/Portfolio/electrocareweb');
+    }
+    public function offthehookgrabandgo(){
+        return view('frontend/Portfolio/offthehookgrabandgoweb');
+    }
+    public function offthehooknanaimo(){
+        return view('frontend/Portfolio/offthehooknanaimoweb');
+    }
+    public function barebonesfishhouse(){
+        return view('frontend/Portfolio/barebonesfishhouseweb');
+    }
+    public function kinnaltoys(){
+        return view('frontend/Portfolio/kinnaltoysweb');
+    }
+    public function trollerfishandchips(){
+        return view('frontend/Portfolio/trollerfishandchipsweb');
+    }
+    public function limeweb(){
+        return view('frontend/Portfolio/limeweb');
+    }
+    public function ayushaktiusaweb(){
+        return view('frontend/Portfolio/ayushaktiusaweb');
+    }
+    public function drsmitanaramweb(){
+        return view('frontend/Portfolio/drsmitanaramweb');
+    }
+    public function realEAweb(){
+        return view('frontend/Portfolio/realEAweb');
+    }
+    public function portraitureByPariWeb(){
+        return view('frontend/Portfolio/portraitureByPariWeb');
+    }
+    public function profinetWeb(){
+        return view('frontend/Portfolio/profinetWeb');
+    }
+    public function aainosWeb(){
+        return view('frontend/Portfolio/aainosWeb');
+    }
+    public function hollywoodOpticiansBranding(){
+        return view('frontend/Portfolio/hollywoodOpticiansBranding');
+    }
+    public function foresightOpticalsBranding(){
+        return view('frontend/Portfolio/foresightOpticalsBranding');
+    }
 }
