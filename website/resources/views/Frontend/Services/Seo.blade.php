@@ -75,10 +75,7 @@
             overflow: visible;
         }
 
-        #seo-service #about-sec3 .according-img img {
-            border-radius: 10px;
 
-        }
 
         #seo-service #about-sec3 .box-title {
             line-height: 32px;
@@ -398,7 +395,7 @@
                             <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-easing="ease-in-out">
                                 Best Industry-Specific
-                                <span class="text-blue"> SEO Company Mumbai</span> Strategies.
+                                <span class="text-blue"> SEO Company</span> Strategies.
                             </h2>
                         </div>
                     </div>
@@ -409,7 +406,7 @@
                             <h3 class="box-title">Ecommerce SEO</h3>
                         </div>
                         <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Ecommerce Seo.png') }}" alt="">
+                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Ecommerce Seo.png') }}" alt="" class="rounded-overflow">
                             <p class="sec-para text">Transform passive visitors into engaged customers.
                                 Our strategies are designed to boost website traffic and conversions through a combination
                                 of content optimization, in-depth website audits, and keyword research.
@@ -423,7 +420,7 @@
                             <h3 class="box-title">International SEO</h3>
                         </div>
                         <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/normal/ser_2_2.jpg') }}" alt="">
+                            <img src="{{ asset('frontend-assets/img/Services-page/seo/International Seo.png') }}" alt="" class="rounded-overflow">
                             <p class="sec-para text">We excel in international SEO. Our strategies focus on key elements
                                 like multilingual keyword research, in-depth audience analysis, and optimized website
                                 structure. We also specialize in geo-targeting, ensuring your content reaches the right
@@ -438,7 +435,7 @@
                             <h3 class="box-title">Mobile SEO</h3>
                         </div>
                         <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/normal/ser_2_3.jpg') }}" alt="">
+                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Mobile Seo.png') }}" alt="" class="rounded-overflow">
                             <p class="sec-para text"> It plays an essential role in any business. Our strategies focus on
                                 optimizing your website for mobile devices, including improving loading speed, enhancing
                                 user experience, and optimizing for local search. This ensures your business stands out in
@@ -453,7 +450,7 @@
                             <h3 class="box-title">Local SEO</h3>
                         </div>
                         <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/normal/ser_2_4.jpg') }}" alt="">
+                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Local Seo.png') }}" alt="" class="rounded-overflow">
                             <p class="sec-para text">We focus on enhancing customer engagement at the offline stores,
                                 increasing their online audience who are often unaware of their local presence, and getting
                                 them on the map with Google Listings.
@@ -466,7 +463,7 @@
                             <h3 class="box-title">Google Analytics and Reports </h3>
                         </div>
                         <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/normal/ser_2_5.jpg') }}" alt="">
+                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Goodle Analytics and Report.png') }}" alt="" class="rounded-overflow">
                             <p class="sec-para text">Our Google Analytics and reporting services transform raw data into a
                                 strategic advantage. We delve deep into your website's performance, identifying trends, user
                                 behaviour, and conversion opportunities.
@@ -479,7 +476,7 @@
                             <h3 class="box-title">SEO Audit</h3>
                         </div>
                         <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/normal/ser_2_6.jpg') }}" alt="">
+                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Seo Audit.png') }}" alt="" class="rounded-overflow">
                             <p class="sec-para text">Our SEO audits provide a deep dive into your online presence,
                                 identifying strengths, weaknesses, and opportunities for growth. We scrutinize every aspect,
                                 from technical SEO to content optimization, delivering actionable insights to boost your
@@ -580,15 +577,10 @@
                                         <div class="testi-logo">
                                             <img src="http://placehold.co/200x80" alt="">
                                         </div>
-                                        <h3 class="box-title2">Kornix is the best digital agency i have ever seen! Highly
-                                            Recommended!</h3>
-                                        <p class="box-text">We can work with your existing website if it's technically
-                                            sound and meets your needs. If necessary, we can also recommend and implement
-                                            improvements or a complete redesign to enhance performance and user experience.
-                                            We start with a comprehensive analysis of your business, industry, target
-                                            audience, and current digital presence.</p>
-                                        <h3 class="box-title">Diana Loreza</h3>
-                                        <span class="box-desig">Director of Gymstory</span>
+                                        <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto repellendus sequi. Velit cumque aut rerum</h3>
+                                        <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis provident doloremque blanditiis. Molestiae?</p>
+                                        <h3 class="box-title">Lorem ipsum</h3>
+                                        <span class="box-desig">Lorem ipsum</span>
                                     </div>
                                     <div class="box-img">
                                         <img src="http://placehold.co/200x200" alt="image">
@@ -601,15 +593,10 @@
                                         <div class="testi-logo">
                                             <img src="http://placehold.co/200x80" alt="">
                                         </div>
-                                        <h3 class="box-title2">Kornix is the best digital agency i have ever seen! Highly
-                                            Recommended!</h3>
-                                        <p class="box-text">If you have specific questions about gathering or analyzing
-                                            customer feedback, or if you're looking for general information on the
-                                            importance of customer feedback, feel free to ask. Additionally, if you have a
-                                            sample of customer feedback that you'd like assistance with, you can share it,
-                                            and I can provide insights or suggestions based on you provide</p>
-                                        <h3 class="box-title">Abraham Khalil</h3>
-                                        <span class="box-desig">UI/UX Designer</span>
+                                        <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto repellendus sequi. Velit cumque aut rerum</h3>
+                                        <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis provident doloremque?</p>
+                                        <h3 class="box-title">Lorem ipsum</h3>
+                                        <span class="box-desig">Lorem ipsum</span>
                                     </div>
                                     <div class="box-img">
                                         <img src="http://placehold.co/200x200" alt="image">
@@ -622,15 +609,10 @@
                                         <div class="testi-logo">
                                             <img src="http://placehold.co/200x80" alt="">
                                         </div>
-                                        <h3 class="box-title2">Kornix is the best digital agency i have ever seen! Highly
-                                            Recommended!</h3>
-                                        <p class="box-text">It sounds like you're expressing positive feedback or a
-                                            statement about a product or service being loved by customers worldwide. If this
-                                            is a statement you want to share or discuss, it's great to highlight positive
-                                            feedback! Customer satisfaction and positive testimonials can be powerful assets
-                                            for a product or services businesses I'm here to help!</p>
-                                        <h3 class="box-title">Jenny Wilson</h3>
-                                        <span class="box-desig">Project Manager</span>
+                                        <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto repellendus sequi. Velit cumque aut rerum</h3>
+                                        <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis provident doloremque blanditiis.?</p>
+                                        <h3 class="box-title">Lorem ipsum</h3>
+                                        <span class="box-desig">Lorem ipsum</span>
                                     </div>
                                     <div class="box-img">
                                         <img src="http://placehold.co/200x200" alt="image">
