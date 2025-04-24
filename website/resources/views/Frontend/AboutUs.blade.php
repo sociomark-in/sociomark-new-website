@@ -145,44 +145,44 @@
                             </div>
                         </div>
                         <!--<div class="col-xl-4 col-md-6 col-12">
-                                    <div class="process-card">
-                                        <div class="box-wrapp">
-                                            <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
+                                        <div class="process-card">
+                                            <div class="box-wrapp">
+                                                <div class="box-icon">
+                                                    <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
+                                                </div>
+                                                <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                        alt=""></div>
+                                                <div class="box-number">
+                                                    05 </div>
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                    alt=""></div>
-                                            <div class="box-number">
-                                                05 </div>
-                                        </div>
-                                        <div class="box-content">
-                                            <h2 class="box-title">Plan Customization</h2>
-                                            <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                                behaviors. Submit as many design tasks</p>
+                                            <div class="box-content">
+                                                <h2 class="box-title">Plan Customization</h2>
+                                                <p class="box-text">Conduct thorough market of the research to the fast target audience
+                                                    behaviors. Submit as many design tasks</p>
 
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-xl-4 col-md-6 col-12">
-                                    <div class="process-card">
-                                        <div class="box-wrapp">
-                                            <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}"
-                                                    alt="icon">
+                                    <div class="col-xl-4 col-md-6 col-12">
+                                        <div class="process-card">
+                                            <div class="box-wrapp">
+                                                <div class="box-icon">
+                                                    <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}"
+                                                        alt="icon">
+                                                </div>
+                                                <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                        alt=""></div>
+                                                <div class="box-number">
+                                                    06 </div>
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                    alt=""></div>
-                                            <div class="box-number">
-                                                06 </div>
-                                        </div>
-                                        <div class="box-content">
-                                            <h2 class="box-title">Finished &amp; User Testing</h2>
-                                            <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                                behaviors. Submit as many design tasks</p>
+                                            <div class="box-content">
+                                                <h2 class="box-title">Finished &amp; User Testing</h2>
+                                                <p class="box-text">Conduct thorough market of the research to the fast target audience
+                                                    behaviors. Submit as many design tasks</p>
 
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>-->
+                                    </div>-->
                     </div>
                 </div>
             </div>
@@ -560,9 +560,9 @@
                         data-aos-delay=" 300">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
-                                <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt=""
-                                    class="h-auto w-auto">
-                                <h4 class="sub-sec-title mt-2">Quality Content</h4>
+                                <img src="{{ asset('frontend-assets/img/icon/about/Quality Content.png') }}"
+                                    alt="" class="h-50 w-50">
+                                <h4 class="sub-sec-title">Quality Content</h4>
                             </div>
                             <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
                                 <p class="sec-para">We don’t just create—we captivate your audience.</p>
@@ -574,9 +574,9 @@
                         data-aos-delay="300">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
-                                <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt=""
-                                    class="h-auto w-auto">
-                                <h4 class="sub-sec-title mt-2">Customized Strategy</h4>
+                                <img src="{{ asset('frontend-assets/img/icon/about/Custumized Content.png') }}"
+                                    alt="" class="h-50 w-50">
+                                <h4 class="sub-sec-title">Customized Strategy</h4>
                             </div>
                             <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
                                 <p class="sec-para">A strategy that speaks your brand’s language.</p>
@@ -586,9 +586,9 @@
                     <div class="col-12 col-md-2 second-feature-card feature-card flip-box p-0 mx-2">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
-                                <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt=""
-                                    class="h-auto w-auto">
-                                <h4 class="sub-sec-title mt-2">Results-Driven</h4>
+                                <img src="{{ asset('frontend-assets/img/icon/about/Result Driven.png') }}" alt=""
+                                    class="h-50 w-50">
+                                <h4 class="sub-sec-title">Results-Driven</h4>
                             </div>
                             <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
                                 <p class="sec-para">Performance that delivers measurable results.</p>
@@ -600,9 +600,9 @@
                         data-aos-delay="400">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
-                                <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt=""
-                                    class="h-auto w-auto">
-                                <h4 class="sub-sec-title mt-2">Creative Distinction</h4>
+                                <img src="{{ asset('frontend-assets/img/icon/about/Creative distinction.png') }}"
+                                    alt="" class="h-50 w-50">
+                                <h4 class="sub-sec-title">Creative Distinction</h4>
                             </div>
                             <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
                                 <p class="sec-para">Creativity that cuts through the noise.</p>
@@ -614,9 +614,9 @@
                         data-aos-delay="400">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
-                                <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt=""
-                                    class="h-auto w-auto">
-                                <h4 class="sub-sec-title mt-2">Collaborative Growth</h4>
+                                <img src="{{ asset('frontend-assets/img/icon/about/Collaborative Growth.png') }}"
+                                    alt="" class="h-50 w-50">
+                                <h4 class="sub-sec-title">Collaborative Growth</h4>
                             </div>
                             <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
                                 <p class="sec-para">We’re in this together—every step of the way.</p>

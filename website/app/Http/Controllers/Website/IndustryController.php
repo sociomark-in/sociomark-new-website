@@ -9,42 +9,42 @@ class IndustryController extends Controller
 {
     public function education()
     {
-        return view("frontend/Industry/education");
+        return view("Frontend/Industry/education");
     }
     public function healthcare()
     {
-        return view("frontend/Industry/healthcare");
+        return view("Frontend/Industry/healthcare");
     }
     public function FMCG()
     {
-        return view("frontend/Industry/FMCG");
+        return view("Frontend/Industry/FMCG");
     }
     public function newsMedia()
     {
-        return view("frontend/Industry/newsMedia");
+        return view("Frontend/Industry/newsMedia");
     }
     public function realEstate()
     {
-        return view("frontend/Industry/realEstate");
+        return view("Frontend/Industry/realEstate");
     }
     public function logistics()
     {
-        return view("frontend/Industry/logistics");
+        return view("Frontend/Industry/logistics");
     }
     public function fashionLifestyle()
     {
-        return view("frontend/Industry/fashionLifestyle");
+        return view("Frontend/Industry/fashionLifestyle");
     }
     public function gaming()
     {
-        return view("frontend/Industry/gaming");
+        return view("Frontend/Industry/gaming");
     }
     public function homeInterior()
     {
-        return view("frontend/Industry/homeInterior");
+        return view("Frontend/Industry/homeInterior");
     }
     public function automation()
     {
-        return view("frontend/Industry/automation");
+        return view("Frontend/Industry/automation");
     }
 }
