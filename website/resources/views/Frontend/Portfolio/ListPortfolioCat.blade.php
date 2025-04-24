@@ -312,6 +312,5 @@
     </section>
 
     @include('Frontend/partial/clientList')
-    @include('Frontend/partial/CTA')
 </main>
 @endsection

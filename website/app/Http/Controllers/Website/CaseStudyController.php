@@ -19,4 +19,10 @@ class CaseStudyController extends Controller
     public function theProfessionalCouriers(){
         return view('frontend/caseStudy/theProfessionalCouriers');
     }
+    public function eduauraa(){
+        return view('frontend/caseStudy/eduauraa');
+    }
+    public function shahenaz(){
+        return view('frontend/caseStudy/shahenaz');
+    }
 }
