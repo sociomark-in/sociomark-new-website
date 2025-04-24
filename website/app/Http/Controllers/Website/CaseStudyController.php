@@ -25,4 +25,23 @@ class CaseStudyController extends Controller
     public function shahenaz(){
         return view('frontend/caseStudy/shahenaz');
     }
+    public function okinawascooters(){
+        return view('frontend/caseStudy/okinawascooters');
+    }
+    public function ayushakti(){
+        return view('frontend/caseStudy/ayushakti');
+    }
+    public function lime(){
+        return view('frontend/caseStudy/lime');
+    }
+    public function nodwinGaming(){
+        return view('frontend/caseStudy/nodwinGaming');
+    }
+    public function buttondabaodeshbanao(){
+        return view('frontend/caseStudy/buttondabaodeshbanao');
+    }
+    public function roadtosafetyinitiative(){
+        return view('frontend/caseStudy/roadtosafetyinitiative');
+    }
 }
+
