@@ -190,7 +190,7 @@
                             </div>
                             <div class="btn-group mt-40">
                                 <a href="about.html" class="th-btn th-icon">More About Us<i
-                                        class="fa-regular fa-arrow-right ms-2"></i></a>
+                                        class="fa-solid fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
                     </div>
@@ -291,7 +291,7 @@
                                                     <span class="box-title">Lorum Ipsum</span>
                                                 </span>
                                                 <span class="icon">
-                                                    <i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                    <i class="fa-sharp fa-solid fa-arrow-right"></i></span>
                                             </span>
                                         </div>
                                     </div>
@@ -316,7 +316,7 @@
                                                     <span class="box-title">Lorum Ipsum</span>
                                                 </span>
                                                 <span class="icon">
-                                                    <i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                    <i class="fa-sharp fa-solid fa-arrow-right"></i></span>
                                             </span>
                                         </div>
                                     </div>
@@ -341,7 +341,7 @@
                                                     <span class="box-title">Lorum Ipsum</span>
                                                 </span>
                                                 <span class="icon">
-                                                    <i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                    <i class="fa-sharp fa-solid fa-arrow-right"></i></span>
                                             </span>
                                         </button>
                                     </div>
@@ -366,7 +366,7 @@
                                                     <span class="box-title">Lorum Ipsum</span>
                                                 </span>
                                                 <span class="icon">
-                                                    <i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                    <i class="fa-sharp fa-solid fa-arrow-right"></i></span>
                                             </span>
                                         </button>
                                     </div>
@@ -391,7 +391,7 @@
                                                     <span class="box-title">Lorum Ipsum</span>
                                                 </span>
                                                 <span class="icon">
-                                                    <i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                    <i class="fa-sharp fa-solid fa-arrow-right"></i></span>
                                             </span>
                                         </button>
                                     </div>
@@ -416,7 +416,7 @@
                                                     <span class="box-title">Lorum Ipsum</span>
                                                 </span>
                                                 <span class="icon">
-                                                    <i class="fa-sharp fa-regular fa-arrow-right"></i></span>
+                                                    <i class="fa-sharp fa-solid fa-arrow-right"></i></span>
                                             </span>
                                         </button>
                                     </div>
@@ -1041,7 +1041,7 @@
                                 </div>
                                 <<<<<<< HEAD <div class="sec-btn text-center">
                                     <a href="service.html" class="th-btn ser-btn th-icon">More About<i
-                                            class="fa-regular fa-arrow-right ms-2"></i> </a>
+                                            class="fa-solid fa-arrow-right ms-2"></i> </a>
                                     =======
 
                                     <div class="swiper-slide">
@@ -1059,7 +1059,7 @@
                                                         Selling in
                                                         that Guarantee Success</a></h3>
                                                 <a href="blog-details.html" class="line-btn th-icon">Read More <i
-                                                        class="fa-regular fa-arrow-right ms-2"></i></a>
+                                                        class="fa-solid fa-arrow-right ms-2"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -1079,7 +1079,7 @@
                                                         Design Your
                                                         Boss Wants To Know</a></h3>
                                                 <a href="blog-details.html" class="line-btn th-icon">Read More <i
-                                                        class="fa-regular fa-arrow-right ms-2"></i></a>
+                                                        class="fa-solid fa-arrow-right ms-2"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -1099,7 +1099,7 @@
                                                         You
                                                         Drive More Sales</a></h3>
                                                 <a href="blog-details.html" class="line-btn th-icon">Read More <i
-                                                        class="fa-regular fa-arrow-right ms-2"></i></a>
+                                                        class="fa-solid fa-arrow-right ms-2"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -1119,7 +1119,7 @@
                                                         Selling in
                                                         that Guarantee Success</a></h3>
                                                 <a href="blog-details.html" class="line-btn th-icon">Read More <i
-                                                        class="fa-regular fa-arrow-right ms-2"></i></a>
+                                                        class="fa-solid fa-arrow-right ms-2"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -1139,7 +1139,7 @@
                                                         Design Your
                                                         Boss Wants To Know</a></h3>
                                                 <a href="blog-details.html" class="line-btn th-icon">Read More <i
-                                                        class="fa-regular fa-arrow-right ms-2"></i></a>
+                                                        class="fa-solid fa-arrow-right ms-2"></i></a>
                                             </div>
                                         </div>
                                     </div>
@@ -1356,7 +1356,7 @@
                                         <h3 class="box-title"><a href="blog-details.html">Make more productive work
                                                 flowin few steps.</a></h3>
                                         <a href="blog-details.html" class="line-btn th-icon">Read More <i
-                                                class="fa-regular fa-arrow-right ms-2"></i></a>
+                                                class="fa-solid fa-arrow-right ms-2"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -1374,7 +1374,7 @@
                                         <h3 class="box-title"><a href="blog-details.html">6 Tips for Personal Selling in
                                                 that Guarantee Success</a></h3>
                                         <a href="blog-details.html" class="line-btn th-icon">Read More <i
-                                                class="fa-regular fa-arrow-right ms-2"></i></a>
+                                                class="fa-solid fa-arrow-right ms-2"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -1392,7 +1392,7 @@
                                         <h3 class="box-title"><a href="blog-details.html">8 Things About Web Design Your
                                                 Boss Wants To Know</a></h3>
                                         <a href="blog-details.html" class="line-btn th-icon">Read More <i
-                                                class="fa-regular fa-arrow-right ms-2"></i></a>
+                                                class="fa-solid fa-arrow-right ms-2"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -1410,7 +1410,7 @@
                                         <h3 class="box-title"><a href="blog-details.html">How Chatbots Can Help You
                                                 Drive More Sales</a></h3>
                                         <a href="blog-details.html" class="line-btn th-icon">Read More <i
-                                                class="fa-regular fa-arrow-right ms-2"></i></a>
+                                                class="fa-solid fa-arrow-right ms-2"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -1429,7 +1429,7 @@
                                         <h3 class="box-title"><a href="blog-details.html">6 Tips for Personal Selling in
                                                 that Guarantee Success</a></h3>
                                         <a href="blog-details.html" class="line-btn th-icon">Read More <i
-                                                class="fa-regular fa-arrow-right ms-2"></i></a>
+                                                class="fa-solid fa-arrow-right ms-2"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -1448,7 +1448,7 @@
                                         <h3 class="box-title"><a href="blog-details.html">8 Things About Web Design Your
                                                 Boss Wants To Know</a></h3>
                                         <a href="blog-details.html" class="line-btn th-icon">Read More <i
-                                                class="fa-regular fa-arrow-right ms-2"></i></a>
+                                                class="fa-solid fa-arrow-right ms-2"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -1466,7 +1466,7 @@
             <!-- <div class="shape-mockup d-none d-lg-block" data-top="2%" data-left="0%"><img src="{{ asset('frontend-assets/img/shape/shape-13.png') }}" alt=""></div> -->
             <!-- <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img src="{{ asset('frontend-assets/img/shape/shape-14.png') }}" alt=""></div> -->
         </section>
-      
+
         <style>
             .card {
                 width: 100%;
@@ -1803,7 +1803,7 @@
 
 
 
-        
+
     </main>
 
 @endsection

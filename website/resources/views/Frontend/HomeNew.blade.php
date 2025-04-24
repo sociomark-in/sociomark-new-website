@@ -21,8 +21,8 @@
 
     /* .choose-area {
     position: relative;
-    height: 800px; 
-    overflow: hidden; 
+    height: 800px;
+    overflow: hidden;
     z-index: 1;
 }
 
@@ -73,7 +73,7 @@
     #home #contact {
         background-color: #F5F5F5 !important;
     } */
-    /* 
+    /*
     #home #about-sec {
         padding: 8px;
     } */
@@ -1523,7 +1523,7 @@
 
                                 <p class="blog-text">{{ Str::limit(strip_tags($blog->content), 80) }}</p>
                                 <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}" class="th-btn black-border th-icon th-radius">
-                                    Read More <i class="fa-regular fa-arrow-right ms-2"></i>
+                                    Read More <i class="fa-solid fa-arrow-right ms-2"></i>
                                 </a>
                             </div>
                         </div>

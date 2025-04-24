@@ -297,7 +297,7 @@
                                 <div class="">
                                     <a href="#"
                                         class="th-btn th-btn-white th-icon d-flex justify-content-between">Explore More <i
-                                            class="fa-regular fa-arrow-right ms-2"></i></a>
+                                            class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
 
                             </div>
@@ -332,7 +332,7 @@
                                 <div class="">
                                     <a href="#"
                                         class="th-btn th-btn-white th-icon d-flex justify-content-between">Explore More <i
-                                            class="fa-regular fa-arrow-right ms-2"></i></a>
+                                            class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
 
                             </div>
@@ -367,7 +367,7 @@
                                 <div class="">
                                     <a href="#"
                                         class="th-btn th-btn-white th-icon d-flex justify-content-between">Explore More <i
-                                            class="fa-regular fa-arrow-right ms-2"></i></a>
+                                            class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
                             </div>
                         </div>
