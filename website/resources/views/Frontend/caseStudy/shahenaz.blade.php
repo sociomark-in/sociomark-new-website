@@ -329,7 +329,7 @@
         <div class="row mt-5">
             <div class="col-6 col-md-4">
 
-                <div class="strategy text-center sec-para" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">68%</div>
+                <div class="strategy text-center sec-para mb-md-4" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">68%</div>
 
                 <table>
                     <tr>
@@ -342,7 +342,7 @@
             </div>
             <div class="col-6 col-md-4">
 
-                <div class="strategy text-center sec-para" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">20.4%</div>
+                <div class="strategy text-center sec-para mb-md-4" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">20.4%</div>
 
                 <table>
                     <tr>
@@ -355,7 +355,7 @@
             </div>
             <div class="col-6 col-md-4">
 
-                <div class="strategy text-center sec-para" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">1.55M</div>
+                <div class="strategy text-center sec-para mb-md-4" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">1.55M</div>
 
                 <table>
                     <tr>
@@ -393,7 +393,7 @@
         <p class="sec-para">From October 2022 to July 2024, Shahenaz's organic keyword performance has improved significantly:</p>
         <img src="{{ asset('frontend-assets/img/case-study/shahenaz/2 (3).png') }}" alt="">
 
-        <div class="col-md-12">
+        <div class="col-md-12 my-md-4">
             <ul>
                 <li class="sec-para"><b>Top 3 Positions: </b>Increase in keywords.</li>
                 <li class="sec-para"><b>Top 4-10 Positions: </b>Significant growth.</li>
@@ -413,7 +413,7 @@
 
 
 
-        <ul>
+        <ul class="mb-md-4">
             <li class="sec-para"><b>Total Clicks: </b>20.4K clicks, showing strong user engagement.</li>
             <li class="sec-para"><b>Total Impressions: </b>1.55M impressions, indicating high visibility in search results.</li>
         </ul>
