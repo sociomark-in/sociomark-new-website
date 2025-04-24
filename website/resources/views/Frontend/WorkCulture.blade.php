@@ -4,13 +4,6 @@
         padding: 8px;
     }
 
-    #work-culture .about-area2 .sec-title,
-    #key-point-about-us .sec-title,
-    #portfolio-sec .sec-title {
-        font-size: 35px;
-        line-height: 42px;
-    }
-
     #work-culture .about-area2 .sec-para,
     #key-point-about-us .sec-para {
         line-height: 28px !important;
@@ -245,15 +238,14 @@
                     <div class="col-lg-6">
                         <div class="">
                             <div class="title-area mb-35">
-                                <span class="sub-title sub-title4 style1 mb-4 mb-md-5">Why Choose Saor</span>
+                                <span class="sub-title sub-title4 style1 mb-4 mb-md-5">Why Choose Sociomark</span>
                                 <h2 class="sec-title ">Your <span class="text-blue">Trusted Partner</span> for Global
                                     Digital Success</h2>
                                 <p class="mb-30">With over 29 years of experience, Saor has a deep understanding of the
                                     digital landscape and a proven track record of success. Conveys a collaborative
                                     approach, suggesting that the agency works closely with clients.</p>
-                                <p class="mb-30">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea aliquam
-                                    voluptates, doloremque delectus ut, cum exercitationem mollitia adipisci temporibus
-                                    saepe distinctio omnis voluptas animi voluptatem ad! Fugit beatae animi praesentium.</p>
+
+                                    <a href="{{ route('about') }}" class="th-btn th-icon">About Us<i class="fa-solid fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
                     </div>
@@ -262,7 +254,7 @@
 
         </section>
 
-        <section class="key-point-about-us mb-md-5 mb-3" id="key-point-about-us">
+        <section class="key-point-about-us mb-md-5 mb-3 d-none" id="key-point-about-us">
             <div class="container">
                 <div class="row d-flex justify-content-between align-items-center">
                     <div class="col-md-4 pe-md-5">
@@ -371,6 +363,15 @@
 
         <section class="space">
             <div class="container">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-lg-8">
+                        <div class="title-area text-center">
+                            <div class="shadow-title">Journey</div>
+                            <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span>
+                            <h2 class="sec-title  ">From Brief to <span class="text-blue">Brilliance</span></h2>
+                        </div>
+                    </div>
+                </div>
                 <div class="step-wrap">
                     <div class="process-">
                         <div class="row gy-3 gy-md-5">
@@ -401,13 +402,90 @@
             </div>
         </section>
 
-        <section class="overflow-hidden position-relative space-extra-top space-bottom garally" id="portfolio-sec">
+        <section class="overflow-hidden space arrow-wrap" id="team-sec">
             <div class="container">
-                <div class="title-area text-center mb-25">
-                    <!-- <h2 class="sec-title">Our Work Culture</h2> -->
-                    <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
-                        Our Work <span class="text-blue"> Culture</span>
-                    </h2>
+                <div class="row justify-content-lg-between justify-content-center align-items-end">
+                    <div class="col-lg-7">
+                        <div class="title-area text-center text-lg-start pe-xl-5">
+                            <div class="shadow-title style3">Team</div>
+                            <span class="sub-title sub-title4 style1 mb-4 mb-md-5">Expert Team Members</span>
+                            <h2 class="sec-title ">Building Our Future</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <p class="ps-xl-5 text-center text-lg-start">We start with a comprehensive analysis of your business, industry, target audience, and current
+                            digital presence. Through this process, we identify opportunities.</p>
+                        <div class="sec-btn text-end">
+                            <div class="icon-box">
+                                <button data-slider-prev="#teamSwiper" class="slider-arrow prev style4 default"><i class="fas fa-arrow-left"></i></button>
+                                <button data-slider-next="#teamSwiper" class="slider-arrow next style4 default"><i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- / Title row -->
+
+                <div class="swiper teamSwiper">
+                    <div class="swiper-wrapper">
+                        @for ($i = 0; $i < 10; $i++)
+                            <div class="swiper-slide">
+                                <div class="th-team team-card style1 mb-3">
+                                    <div class="box-img">
+                                        <img src="https://placehold.co/300x400"
+                                            alt="Team">
+                                    </div>
+                                    <div class="box-content">
+                                        <div>
+                                            <h3 class="box-title"><a href="team-details.html">Lorem, ipsum.</a>
+                                            </h3>
+                                            <span class="team-desig">Web Developer</span>
+                                        </div>
+                                        <div class="team-social">
+                                            <div class="icon-btn"><i class="fa-light fa-plus"></i></div>
+                                            <div class="th-social">
+                                                <a target="_blank" href="https://facebook.com/"><i
+                                                        class="fab fa-facebook-f"></i></a>
+                                                <a target="_blank" href="https://twitter.com/"><i
+                                                        class="fab fa-twitter"></i></a>
+                                                <a target="_blank" href="https://instagram.com/"><i
+                                                        class="fab fa-instagram"></i></a>
+                                                <a target="_blank" href="https://linkedin.com/"><i
+                                                        class="fab fa-linkedin-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        @endfor
+                    </div>
+                </div>
+                @push('scripts')
+                    <script>
+                        new Swiper(".teamSwiper", {
+                            spaceBetween: 30,
+                            slidesPerView: 4,
+                            loop: true,
+                            navigation: {
+                                nextEl: ".slider-arrow.next",
+                                prevEl: ".slider-arrow.prev",
+                            },
+                        })
+                    </script>
+                @endpush
+
+            </div>
+        </section>
+
+        <section class="position-relative space garally" id="portfolio-sec">
+            <div class="container">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-lg-8">
+                        <div class="title-area text-center">
+                            <div class="shadow-title">Culture</div>
+                            <span class="sub-title sub-title4 mb-4 mb-md-5">Our Culture<span></span></span>
+                            <h2 class="sec-title">Work Culture</h2>
+                        </div>
+                    </div>
                 </div>
                 <div class="filter-menu filter-menu-active mt-5 mb-4">
                     <button data-filter="*" class="tab-btn active" type="button">All Moments</button>

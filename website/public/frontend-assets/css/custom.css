@@ -1168,6 +1168,12 @@ main#home {
     object-fit: cover;
 }
 
+.team-social .icon-btn,
+.team-social .th-social a{
+    display: grid;
+    place-items: center;
+}
+
 /* Team Collage */
 
 /* about-flip section3 */
