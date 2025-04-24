@@ -1038,7 +1038,7 @@
                                                         it on social media and the likes are only increasing month and month
                                                         because of that. Sociomark is so committed that they always deliver
                                                         what they promise each month. I am extremely happy working with
-                                                        them. <strong>Best of luck Sociomark!</strong>
+                                                        them. <strong> Best of luck Sociomark! </strong>
                                                     </div>
                                                 </div>
                                             </div>
