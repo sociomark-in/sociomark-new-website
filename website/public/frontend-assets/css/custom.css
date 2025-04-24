@@ -231,19 +231,19 @@ select {
     bottom: 2rem;
     left: 2rem;
     width: 150px;
-    aspect-ratio: .75;
+    aspect-ratio: 0.75;
     border-radius: 1rem;
     border: 2px solid #ff900b;
     overflow: hidden;
 }
 
 .showreel-fixed .wrapper {
-    margin: .5rem;
+    margin: 0.5rem;
     display: block;
     background-color: #fff;
     width: calc(100% - 1rem);
     height: calc(100% - 1rem);
-    border-radius: .75rem;
+    border-radius: 0.75rem;
     overflow: hidden;
     position: relative;
 }
@@ -487,7 +487,7 @@ main#home {
 
 .breadcumb-content.breadcrumb-light .breadcumb-title,
 .breadcumb-content.breadcrumb-light .breadcumb-menu li,
-    .breadcumb-content.breadcrumb-light .breadcumb-menu li:not(:last-child)::after{
+.breadcumb-content.breadcrumb-light .breadcumb-menu li:not(:last-child)::after {
     color: var(--color-black);
 }
 
@@ -629,6 +629,42 @@ main#home {
     background-color: var(--theme-color);
     color: white;
 }
+.accordion-card .accordion-body {
+    padding: 30px !important;
+    margin: 0px;
+}
+.accordion-card {
+    border-radius: 10px;
+    box-shadow: 0px 3px 11px -4px hsla(0, 0%, 0%, 0.59);
+    -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
+    -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
+    border: none;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #106c97 !important;
+    color: white !important;
+}
+
+.accordion-transparent{
+    color: var(--color-white) !important;
+}
+.accordion-transparent .accordion-body{
+    background-color: transparent !important;
+    color: white !important;
+}
+.accordion-transparent .accordion-button{
+    padding: 1rem;
+}
+.accordion-transparent .accordion-button.collapsed {
+    padding: 1rem;
+    color: var(--color-white);
+    border: none;
+}
+.accordion-transparent .accordion-button:not(.collapsed) {
+    padding: 1rem;
+    background-color: transparent !important;
+    color: white !important;
+}
 
 .arrow-wrap .slider-arrow {
     opacity: 1;
@@ -678,11 +714,6 @@ main#home {
     border: 1px solid #d8dde1;
     border-radius: 1.75rem;
     padding: 15px;
-}
-
-.accordion-card .accordion-body {
-    padding: 30px !important;
-    margin: 0px;
 }
 
 #seo-service .sec-para-faq {
@@ -864,13 +895,6 @@ main#home {
 /* contact form end */
 
 /* faq */
-.accordion-card {
-    border-radius: 10px;
-    box-shadow: 0px 3px 11px -4px hsla(0, 0%, 0%, 0.59);
-    -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
-    -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
-    border: none;
-}
 
 #faqAccordion {
     height: 500px;
@@ -898,11 +922,6 @@ main#home {
 /* Handle on hover */
 #faqAccordion::-webkit-scrollbar-thumb:hover {
     background: #106c97;
-}
-
-.accordion-button:not(.collapsed) {
-    background-color: #106c97 !important;
-    color: white !important;
 }
 
 /* end faq */
@@ -1125,28 +1144,26 @@ main#home {
 
 /* founder end */
 
-
 /* Team Collage */
 
-.team-collage .team{
+.team-collage .team {
     position: relative;
     height: 400px;
 }
-.team-collage .team:not(:first-child){
+.team-collage .team:not(:first-child) {
     top: -200px;
 }
-.team-collage .member{
+.team-collage .member {
     position: absolute;
     height: 100%;
 }
-.team-collage .member img{
+.team-collage .member img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
 /* Team Collage */
-
 
 /* about-flip section3 */
 #about-flip .first-feature-card:nth-child(odd) .flip-box-front,
@@ -1178,9 +1195,8 @@ main#home {
 
 /*about-flip section3end */
 
-
- /* work flow */
- #benefits {
+/* work flow */
+#benefits {
     max-height: 100vh;
     /* Or a specific height like 500px */
     overflow-y: auto;
@@ -1203,8 +1219,6 @@ main#home {
     position: relative;
 }
 
-
-
 #work-flow .key-image {
     width: 100%;
     height: 100%;
@@ -1221,8 +1235,8 @@ main#home {
 
 /* work flow :end */
 
- /*  hoverKeyPoints section3 */
- .according-img {
+/*  hoverKeyPoints section3 */
+.according-img {
     opacity: 0;
     transform: scale(0.8);
     /* Start smaller */
@@ -1249,13 +1263,12 @@ main#home {
 
 #hoverKeyPoints .according-img img {
     border-radius: 10px;
-
 }
 
 #hoverKeyPoints .box-title {
     line-height: 32px;
     font-size: 25px;
-    letter-spacing: .10px;
+    letter-spacing: 0.1px;
     font-weight: 500;
     padding-left: 0px;
 }
@@ -1264,14 +1277,13 @@ main#home {
     max-width: 700px;
 }
 
- #hoverKeyPoints .accordion-item2 {
+#hoverKeyPoints .accordion-item2 {
     padding-bottom: 15px;
     max-width: 510px;
 }
 
 #hoverKeyPoints .accordion-item2 .box-title:before {
     width: 0px;
-
 }
 
 #hoverKeyPoints .according-list.hover-item.item-active .accordion-item2 {
