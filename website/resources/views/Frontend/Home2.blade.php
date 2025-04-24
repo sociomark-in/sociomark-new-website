@@ -1309,7 +1309,7 @@
                                 </div>
 
                                 <div class="form-group col-md-6">
-                                    <i class="far fa-envelope"></i>
+                                    {{-- <i class="far fa-envelope"></i> --}}
                                     <label for="email">Email</label>
                                     <input type="text" class="form-control @error('email') is-invalid @enderror"
                                         name="email" id="email" placeholder="Enter your Email"
@@ -1319,7 +1319,7 @@
                                     @enderror
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <i class="fal fa-phone"></i>
+                                    {{-- <i class="fal fa-phone"></i> --}}
                                     <label for="phone">Phone</label>
                                     <input type="text" class="form-control @error('phone') is-invalid @enderror"
                                         name="phone" id="phone" placeholder="Enter your Phone"
@@ -1379,7 +1379,7 @@
                                     <label for="messageforus">Your Message</label>
                                     <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus"
                                         placeholder="Enter your message" rows="4" name="messageforus"></textarea>
-                                    <i class="fal fa-pencil"></i>
+                                    {{-- <i class="fal fa-pencil"></i> --}}
                                     @error('messageforus')
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
@@ -1420,7 +1420,7 @@
                                     @enderror
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <i class="far fa-envelope"></i>
+                                    {{-- <i class="far fa-envelope"></i> --}}
                                     <label for="email">Email</label>
                                     <input type="text" class="form-control @error('email') is-invalid @enderror"
                                         name="email" id="email" placeholder="Enter your Email"
@@ -1430,7 +1430,7 @@
                                     @enderror
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <i class="fal fa-phone"></i>
+                                    {{-- <i class="fal fa-phone"></i> --}}
                                     <label for="phone">Phone</label>
                                     <input type="text" class="form-control @error('phone') is-invalid @enderror"
                                         name="phone" id="phone" placeholder="Enter your Phone"
@@ -1487,7 +1487,7 @@
                                     <label for="messageforus">Your Message</label>
                                     <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus"
                                         placeholder="Enter your message" rows="4" name="messageforus"></textarea>
-                                    <i class="fal fa-pencil"></i>
+                                    {{-- <i class="fal fa-pencil"></i> --}}
                                     @error('messageforus')
                                         <span class="text-danger">{{ $message }}</span>
                                     @enderror
