@@ -220,82 +220,97 @@
 
 @section('content')
     <main id="seo-service">
-        <div class="breadcumb-wrapper p-0">
+        <div class="breadcumb-wrapper p-0" style="margin-top: 66px;">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12">
-                        <img src="https://placehold.co/1920x900" alt="" srcset="" width="100%">
+                    <div class="col-12 p-0">
+                        <img src="https://placehold.co/1920x518" alt="" srcset="" width="100%">
                     </div>
                 </div>
             </div>
         </div>
         <div class="space-extra2-bottom">
             <div class="container">
-                <div class="counter-card-wrap">
-                    <div class="counter-card">
-                        <h3 class="box-number"><span class="counter-number">100</span>M<span class="plus">+</span></h3>
-                        <div class="media-body">
-                            <p class=" counter-text mb-n1">Organic Traffic</p>
+                <div class="row text-center">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                        <div class="counter-card pb-2">
+                            <h3 class="box-number"><span class="counter-number">100</span>M<span class="plus">+</span>
+                            </h3>
+                            <div class="media-body">
+                                <p class=" counter-text mb-n1">Organic Traffic</p>
+                            </div>
                         </div>
+                        <div class="divider"></div>
                     </div>
-                    <div class="divider"></div>
 
-                    <div class="counter-card">
-                        <h3 class="box-number"><span class="counter-number">500</span>K<span class="plus">+</span></h3>
-                        <div class="media-body">
-                            <p class=" counter-text mb-n1">Organic Keywords Growth</p>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                        <div class="counter-card pb-2">
+                            <h3 class="box-number"><span class="counter-number">500</span>K<span class="plus">+</span>
+                            </h3>
+                            <div class="media-body">
+                                <p class=" counter-text mb-n1">Organic Keywords Growth</p>
+                            </div>
                         </div>
+                        <div class="divider"></div>
                     </div>
-                    <div class="divider"></div>
 
-                    <div class="counter-card">
-                        <h3 class="box-number"><span class="counter-number">2</span>M<span class="plus">+</span></h3>
-                        <div class="media-body">
-                            <p class=" counter-text mb-n1">Organic Revenue Generated</p>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                        <div class="counter-card pb-2">
+                            <h3 class="box-number"><span class="counter-number">2</span>M<span class="plus">+</span></h3>
+                            <div class="media-body">
+                                <p class=" counter-text mb-n1">Organic Revenue Generated</p>
+                            </div>
                         </div>
+                        <div class="divider"></div>
                     </div>
-                    <div class="divider"></div>
 
-                    <div class="counter-card">
-                        <h3 class="box-number"><span class="counter-number">50</span><span class="plus">+</span></h3>
-                        <div class="media-body">
-                            <p class=" counter-text mb-n1">Happy Customers</p>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                        <div class="counter-card pb-2">
+                            <h3 class="box-number"><span class="counter-number">50</span><span class="plus">+</span></h3>
+                            <div class="media-body">
+                                <p class=" counter-text mb-n1">Happy Customers</p>
+                            </div>
                         </div>
+                        <div class="divider"></div>
                     </div>
-                    <div class="divider"></div>
 
                 </div>
             </div>
         </div>
-        <section class="overflow-hidden py-5" id="about-sec">
+        <section class="overflow-hidden" id="about-sec">
             <div class="container">
                 <div class="row align-items-end justify-content-center">
-                    <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
+                    <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
                         <div class="title-area mb-md-3 mb-2 mt-n1">
                             <h2 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                Accelerate your digital growth with a reliable <span class="text-blue"> SEO Agency in
-                                    UAE</span>
+                                Boost Your Brand’s Voice with Expert <span class="text-blue"> Social Media Marketing</span>
                             </h2>
                         </div>
                     </div>
                     <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
                         <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                            data-aos-duration="1200" data-aos-easing="ease-in-out">SEO is more than just showing up in
-                            search results. It is about getting recognised by the audience that matters to you. No matter if
-                            you are a new startup or an MNC company, at Sociomark, we make strategies that drive real
-                            growth.
+                            data-aos-duration="1200" data-aos-easing="ease-in-out"> In the current world, your audience is
+                            scrolling, and your brand should be part of that conversation. We help businesses stand out with
+                            creative, effective <b>social media marketing</b> strategies tailored for a global audience,
+                            including markets like the UAE.
                         </p>
                         <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                            data-aos-duration="1200" data-aos-easing="ease-in-out">With our expertise in <strong>SEO in
-                                Dubai,</strong>, we tailor each approach to fit your unique goals. From local market
-                            insights to global trends, we ensure that you gain visibility where it matters the most. We
-                            focus on the things that create real, lasting results—like technical optimisation and content
-                            that speaks to your audience. We don't just chase rankings; we chase meaningful engagement.
-                            Through our strategies, we help our clients to increase visibility, drive meaningful traffic and
-                            enhance the user experience. As one of the <strong>top SEO companies in Dubai,</strong> we help
-                            businesses across the world grow, not just appear on search engines.
-
+                            data-aos-duration="1200" data-aos-easing="ease-in-out">No two brands are the same, and that’s
+                            why we don’t follow one-size-fits-all plans. Our approach to <b>social media management</b> is
+                            hands-on, thoughtful, and data-driven. From curating a strong content mix to posting at the
+                            right times, we ensure your message lands with impact.
+                        </p>
+                        <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
+                            data-aos-duration="1200" data-aos-easing="ease-in-out">Need to launch a campaign or keep your
+                            feed consistent? We’ve got it covered. Our team focuses on building real engagement—not just
+                            likes, but loyal followers who care about your brand. We combine smart visuals, crisp messaging,
+                            and performance tracking to deliver results.
+                        </p>
+                        <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
+                            data-aos-duration="1200" data-aos-easing="ease-in-out">As your digital partner, we’ll help you
+                            make the most of every platform—while keeping your voice authentic and relatable. From planning
+                            to execution, we take care of it all so you can focus on what matters: growing your business.
                         </p>
                     </div>
                 </div>
@@ -323,8 +338,8 @@
                         <div class="title-area text-center">
                             <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                Our Way of
-                                <span class="text-blue"> Creating Impact</span>.
+                                The secret sauce to the magic
+                                <span class="text-blue"> Our Approach</span>
                             </h2>
                             {{-- <p class="sec-para">Here are a few of the SEO strategies that we as a Leading Digital Marketing
                                 Agency in Mumbai
@@ -338,8 +353,8 @@
                     <div class="col-md-6 text-center">
                         <div class="circle-wrapper" data-aos="fade-right" data-aos-delay="200" data-tilt data-tilt-max="10">
                             <div class="circle" data-tilt data-tilt-max="10">
-                                <img src="{{ asset('frontend-assets/img/Services-page/Services_Main.png') }}" alt="Key"
-                                    class="key-image mt-3">
+                                <img src="https://placehold.co/400x400"
+                                    alt="Key" class="key-image mt-3">
                             </div>
                         </div>
                     </div>
@@ -348,48 +363,44 @@
                     <div class="col-md-6">
                         <div id="benefits">
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Competitor Analysis</h4>
-                                <p class="sec-para">We deep-dive into what your competitors are doing—what’s working, what’s
-                                    not. These insights help shape a smarter strategy tailored to your goals, especially in
-                                    the space of <strong>search engine optimisation in Dubai</strong> and UAE. </p>
+                                <h4 class="sub-sec-title">Understanding the Segment and the Audience</h4>
+                                <p class="sec-para">We begin by learning everything regarding your audience. Knowing what
+                                    resonates with them helps us make creatives that are relatable and connects with your
+                                    people.</p>
                             </div>
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Technical SEO Audit</h4>
-                                <p class="sec-para">Identifying what’s slowing your site down or holding it back from better
-                                    rankings. From crawling issues to broken links, we fix the technical gaps that matter.
+                                <h4 class="sub-sec-title">Competitor Research</h4>
+                                <p class="sec-para">We analyse what your competitors activities are and how we can
+                                    outperform them. This helps us spot opportunities so that your brand shines bright in
+                                    the crowed market.
                                 </p>
                             </div>
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Content Strategy</h4>
-                                <p class="sec-para">Crafting meaningful content that connects with the audience and aligns
-                                    with your brand voice. As an <strong>SEO optimisation agency</strong>, we ensure every
-                                    piece is polished to boost discoverability and delivers long-term value.</p>
+                                <h4 class="sub-sec-title">Develop a Social Media Calendar</h4>
+                                <p class="sec-para"> Planning is essential. We build a schedule that keeps your content
+                                    consistent and your audience engaged, no matter the time zone, allowing for effective
+                                    <b>social media marketing strategy</b>.
+                                </p>
                             </div>
 
 
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">On Page SEO </h4>
-                                <p class="sec-para">Optimisation of every element—meta tags, headers, internal links—to
-                                    make your pages more search-friendly. It's about making sure your content speaks clearly
-                                    to both users and search engines.</p>
+                                <h4 class="sub-sec-title">Create Personalized Content </h4>
+                                <p class="sec-para">Every post is tailored to resemble the unique voice of your brand. Our
+                                    main aim is to make content that addresses the needs and desires of your audience,
+                                    crafted by experienced <b>social media specialists</b>.</p>
                             </div>
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">GMB Optimisation</h4>
-                                <p class="sec-para">We fine-tune your Google Business Profile to enhance visibility in
-                                    local searches. This is key for location-based traffic and local engagement.</p>
+                                <h4 class="sub-sec-title">Engage & Interact Regularly</h4>
+                                <p class="sec-para">Social media is all about building relationships. We ensure your brand
+                                    is always present in conversations by replying to the messages and the comments in a
+                                    prompt and regular manner.</p>
                             </div>
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Off-Page SEO</h4>
-                                <p class="sec-para">Building a strong online reputation with valuable backlinks from
-                                    trusted and reputed sources. Implementing strategies to increase your website’s
-                                    authority and credibility through external platforms.</p>
-                            </div>
-
-                            <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Traffic Analysis</h4>
-                                <p class="sec-para">Tracking how users reach your website and what they do once they land.
-                                    These insights help fine-tune performance and conversions over time for businesses
-                                    seeking a trusted <strong>SEO company in Abu Dhabi and UAE.</strong></p>
+                                <h4 class="sub-sec-title">Track and Adjust Performance</h4>
+                                <p class="sec-para"> We don’t just post and forget. With every post, we track performance
+                                    and make adjustments to keep improving, so your brand continues to achieve <b>social
+                                        media growth</b> and long-term success.</p>
                             </div>
                         </div>
                     </div>
@@ -400,12 +411,12 @@
         <section class="overflow-hidden space" id="about-sec3">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-xl-8">
+                    <div class="col-xl-10">
                         <div class="title-area text-center">
                             <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                Best Industry-Specific
-                                <span class="text-blue"> SEO Company</span> Strategies.
+                                How we deliver <span class="text-blue">significant results</span> with each post
+                                Strategies.
                             </h2>
                         </div>
                     </div>
@@ -413,77 +424,66 @@
                 <div class="according-list-area">
                     <div class="according-list hover-item item-active">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Ecommerce SEO</h3>
+                            <h3 class="box-title">Discovery & Goal Setting</h3>
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/Services-page/seo/Ecommerce Seo.png') }}"
                                 alt="" class="rounded-overflow">
-                            <p class="sec-para text">Transform passive visitors into engaged customers.
-                                Our strategies are designed to boost website traffic and conversions through a combination
-                                of content optimization, in-depth website audits, and keyword research.
-                                We'll help you dominate search engine results and attract quality leads.
+                            <p class="sec-para text">T We begin by learning about your business, audience, and your end
+                                goal. It’s all about setting a clear direction from day one.
                             </p>
 
                         </div>
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">International SEO</h3>
+                            <h3 class="box-title">Strategy That Fits You </h3>
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/Services-page/seo/International Seo.png') }}"
                                 alt="" class="rounded-overflow">
-                            <p class="sec-para text">We excel in international SEO. Our strategies focus on key elements
-                                like multilingual keyword research, in-depth audience analysis, and optimized website
-                                structure. We also specialize in geo-targeting, ensuring your content reaches the right
-                                people in the right places.
+                            <p class="sec-para text">No copy-paste templates here. We craft a custom plan to match your
+                                voice, values, and vision—so your brand feels consistent across platforms.
 
                             </p>
-
                         </div>
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Mobile SEO</h3>
+                            <h3 class="box-title">Visuals + Voice, together</h3>
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/Services-page/seo/Mobile Seo.png') }}" alt=""
                                 class="rounded-overflow">
-                            <p class="sec-para text"> It plays an essential role in any business. Our strategies focus on
-                                optimizing your website for mobile devices, including improving loading speed, enhancing
-                                user experience, and optimizing for local search. This ensures your business stands out in
-                                the competitive mobile landscape.
+                            <p class="sec-para text"> Our creative team builds content that looks great and sounds like
+                                you. From graphics to captions, we focus on creating scroll-stopping posts.
 
                             </p>
-
                         </div>
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Local SEO</h3>
+                            <h3 class="box-title">Smart Campaign Execution</h3>
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/Services-page/seo/Local Seo.png') }}" alt=""
                                 class="rounded-overflow">
-                            <p class="sec-para text">We focus on enhancing customer engagement at the offline stores,
-                                increasing their online audience who are often unaware of their local presence, and getting
-                                them on the map with Google Listings.
+                            <p class="sec-para text">Once the plan is ready, we bring it to life. With targeted <b>social
+                                    media advertising,</b> we help you reach the people that matter to your brand aka your
+                                target audience..
                             </p>
-
                         </div>
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Google Analytics and Reports </h3>
+                            <h3 class="box-title">Track, Learn, improve </h3>
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/Services-page/seo/Goodle Analytics and Report.png') }}"
                                 alt="" class="rounded-overflow">
-                            <p class="sec-para text">Our Google Analytics and reporting services transform raw data into a
-                                strategic advantage. We delve deep into your website's performance, identifying trends, user
-                                behaviour, and conversion opportunities.
+                            <p class="sec-para text">We monitor performance closely and make regular adjustments. As a
+                                <b>social media management company</b>, we ensure every step moves you closer to your goals.
                             </p>
-
                         </div>
                     </div>
                     <div class="according-list hover-item">
@@ -498,12 +498,9 @@
                                 from technical SEO to content optimization, delivering actionable insights to boost your
                                 search rankings and drive organic traffic.
                             </p>
-
                         </div>
                     </div>
                 </div>
-
-
             </div>
             <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img
                     src="assets/img/shape/shape-9.png" alt=""></div>
@@ -521,7 +518,7 @@
                         data-aos-easing="ease-in-out">
                         <div class="title-area mb-20">
                             <h2 class="sec-title mb-md-3 mb-2">
-                                The impact of partnering with <span class="text-blue">Sociomark</span>
+                                Why Brands Swipe Right on <span class="text-blue">Our Social Media</span> Skills
                             </h2>
                         </div>
                         <p class="sec-para d-none ">Our SEO strategies are designed to improve your website’s ranking on
@@ -533,9 +530,10 @@
                                     <img src="https://placehold.co/80x80" alt="Icon">
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="sub-sec-title">Comprehensive Digital Solutions</h4>
-                                    <p class="sec-para"> We provide cost-effective SEO strategies that enhance your
-                                        visibility and bring measurable growth to your business.</p>
+                                    <h4 class="sub-sec-title">Brand-First Planning</h4>
+                                    <p class="sec-para"> Social media works best when it’s aligned with your goals. We
+                                        understand your work, your audience, and what you want to achieve. Then we create a
+                                        plan that fits just right.</p>
                                 </div>
                             </div>
                             <div class="choose-feature">
@@ -543,9 +541,11 @@
                                     <img src="https://placehold.co/80x80" alt="Icon">
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="sub-sec-title">Tailored Strategies for Long-term Growth</h4>
-                                    <p class="sec-para">Our approach focuses on sustainable results, ensuring that your
-                                        brand ranks higher and stays relevant in the market.</p>
+                                    <h4 class="sub-sec-title">Global, Local Fit</h4>
+                                    <p class="sec-para">As a <b>social media marketing agency</b> we work with brands
+                                        across different regions across the globe. So, we know how to keep your content
+                                        relevant no matter where your audience is. Every post is shaped to reflect your
+                                        voice and your market.</p>
                                 </div>
                             </div>
                             <div class="choose-feature">
@@ -553,9 +553,10 @@
                                     <img src="https://placehold.co/80x80" alt="Icon">
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="sub-sec-title">Perfect Integration of SEO and Web Development</h4>
-                                    <p class="sec-para"> By combining SEO with expert <strong>web development,</strong> we
-                                        ensure that your website is optimised for both performance and user experience.
+                                    <h4 class="sub-sec-title">Purposeful Posting</h4>
+                                    <p class="sec-para"> Our approach to <b>social media planning</b> focuses on regular
+                                        updates, clear messaging, and long-term growth. Every posting that we do is inspired
+                                        by a purpose rather than just to keep the ball rolling.
                                     </p>
                                 </div>
                             </div>
@@ -576,8 +577,8 @@
             </div>
         </section>
         <!--==============================
-                Testimonial Area
-                ==============================-->
+                        Testimonial Area
+                        ==============================-->
         <section class="space overflow-hidden overflow-hidden">
             <div class="container">
                 <div class="title-area text-center">
@@ -664,7 +665,7 @@
                 <!-- Header Text -->
                 <h2 class="fw-bold mb-5 sec-title text-center" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    What’s Included in Our <span class="text-blue"> SEO Package</span>
+                    What’s Included in Our <span class="text-blue"> Social Media Package</span>
                 </h2>
                 <!-- Feature Icons Row 1 -->
                 <div class="row justify-content-evenly mt-5">
@@ -729,205 +730,205 @@
         </section>
 
         <!-- <section class="overflow-hidden space" id="services-tab">
-                                        <div class="container-fluid">
-                                            <div class="row">
+                                                <div class="container-fluid">
+                                                    <div class="row">
 
-                                                <div class="title-area mb-md-3 mb-2">
-                                                    <h2 class="fw-bold mb-5 sec-title text-center"
-                                                        data-aos="fade-up"
-                                                        data-aos-delay="100"
-                                                        data-aos-duration="1000"
-                                                        data-aos-easing="ease-in-out">
-                                                        International Seo <span class="text-blue"> Roadmap</span>
-                                                    </h2>
-                                                </div>
+                                                        <div class="title-area mb-md-3 mb-2">
+                                                            <h2 class="fw-bold mb-5 sec-title text-center"
+                                                                data-aos="fade-up"
+                                                                data-aos-delay="100"
+                                                                data-aos-duration="1000"
+                                                                data-aos-easing="ease-in-out">
+                                                                International Seo <span class="text-blue"> Roadmap</span>
+                                                            </h2>
+                                                        </div>
 
-                                                <div class="d-lg-flex ps-0">
-                                                    <div class="col-lg-3 col-12" data-aos="fade-right"
-                                                        data-aos-delay="200"
-                                                        data-aos-duration="1200"
-                                                        data-aos-easing="ease-in-out">
-                                                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
-                                                            aria-orientation="vertical">
-                                                            <button class="nav-link p-3 fs-5 " data-bs-toggle="pill"
-                                                                data-bs-target="#" type="button" role="tab"
-                                                                aria-controls="v-pills-profile" aria-selected="false"><span class="border-bottom border-4 d-inline-block">Services</span></button>
-                                                            <button class="nav-link active p-3 fs-5" id="v-pills-home-tab" data-bs-toggle="pill"
-                                                                data-bs-target="#v-pills-home" type="button" role="tab"
-                                                                aria-controls="v-pills-home" aria-selected="true">Education institutions</button>
-                                                            <button class="nav-link p-3 fs-5" id="v-pills-profile-tab" data-bs-toggle="pill"
-                                                                data-bs-target="#v-pills-profile" type="button" role="tab"
-                                                                aria-controls="v-pills-profile" aria-selected="false">Healthcare industry</button>
-                                                            <button class="nav-link p-3 fs-5" id="v-pills-messages-tab" data-bs-toggle="pill"
-                                                                data-bs-target="#v-pills-messages" type="button" role="tab"
-                                                                aria-controls="v-pills-messages" aria-selected="false">Technology companies</button>
-                                                            <button class="nav-link p-3 fs-5" id="v-pills-settings-tab" data-bs-toggle="pill"
-                                                                data-bs-target="#v-pills-settings" type="button" role="tab"
-                                                                aria-controls="v-pills-settings" aria-selected="false">Publication</button>
-                                                            <button class="nav-link p-3 fs-5" id="v-pills-settings-tab" data-bs-toggle="pill"
-                                                                data-bs-target="#v-pills-settings" type="button" role="tab"
-                                                                aria-controls="v-pills-settings" aria-selected="false">E-commerce businesses</button>
+                                                        <div class="d-lg-flex ps-0">
+                                                            <div class="col-lg-3 col-12" data-aos="fade-right"
+                                                                data-aos-delay="200"
+                                                                data-aos-duration="1200"
+                                                                data-aos-easing="ease-in-out">
+                                                                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                                                                    aria-orientation="vertical">
+                                                                    <button class="nav-link p-3 fs-5 " data-bs-toggle="pill"
+                                                                        data-bs-target="#" type="button" role="tab"
+                                                                        aria-controls="v-pills-profile" aria-selected="false"><span class="border-bottom border-4 d-inline-block">Services</span></button>
+                                                                    <button class="nav-link active p-3 fs-5" id="v-pills-home-tab" data-bs-toggle="pill"
+                                                                        data-bs-target="#v-pills-home" type="button" role="tab"
+                                                                        aria-controls="v-pills-home" aria-selected="true">Education institutions</button>
+                                                                    <button class="nav-link p-3 fs-5" id="v-pills-profile-tab" data-bs-toggle="pill"
+                                                                        data-bs-target="#v-pills-profile" type="button" role="tab"
+                                                                        aria-controls="v-pills-profile" aria-selected="false">Healthcare industry</button>
+                                                                    <button class="nav-link p-3 fs-5" id="v-pills-messages-tab" data-bs-toggle="pill"
+                                                                        data-bs-target="#v-pills-messages" type="button" role="tab"
+                                                                        aria-controls="v-pills-messages" aria-selected="false">Technology companies</button>
+                                                                    <button class="nav-link p-3 fs-5" id="v-pills-settings-tab" data-bs-toggle="pill"
+                                                                        data-bs-target="#v-pills-settings" type="button" role="tab"
+                                                                        aria-controls="v-pills-settings" aria-selected="false">Publication</button>
+                                                                    <button class="nav-link p-3 fs-5" id="v-pills-settings-tab" data-bs-toggle="pill"
+                                                                        data-bs-target="#v-pills-settings" type="button" role="tab"
+                                                                        aria-controls="v-pills-settings" aria-selected="false">E-commerce businesses</button>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-lg-9 col-12">
+                                                                <div class="tab-content" id="v-pills-tabContent">
+                                                                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                                                        aria-labelledby="v-pills-home-tab" tabindex="0">
+                                                                        <div class="row ">
+                                                                            <div class="col-lg-6 col-12 text-center side-padding-mbl" data-aos="zoom-in"
+                                                                                data-aos-delay="200"
+                                                                                data-aos-duration="1200"
+                                                                                data-aos-easing="ease-in-out">
+                                                                                <div class="page-img mt-md-0 mt-3">
+                                                                                    <img class="w-50" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-6 col-12 side-padding-mbl" data-aos="fade-left"
+                                                                                data-aos-delay="200"
+                                                                                data-aos-duration="1200"
+                                                                                data-aos-easing="ease-in-out">
+                                                                                <h4 class="mb-20 text-blue">How We Can Help</h4>
+                                                                                <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
+                                                                                    touchpoints.
+                                                                                </p>
+                                                                                <div class="checklist style4 mb-20">
+                                                                                    <ul>
+                                                                                        <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
+                                                                                            Engagement &
+                                                                                            Conversion Rates</li>
+                                                                                        <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
+                                                                                            Perception
+                                                                                        </li>
+                                                                                        <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
+                                                                                            Accessibility</li>
+                                                                                        <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
+                                                                                            Costs
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                                                        aria-labelledby="v-pills-profile-tab" tabindex="0">
+
+                                                                        <div class="row ">
+                                                                            <div class="col-lg-6 col-12 text-center side-padding-mbl">
+                                                                                <div class="row mt-md-0 mt-3">
+                                                                                    <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
+                                                                                        <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                                                                    </div>
+                                                                                    <div class="col-lg-6 col-6 page-img side-padding-mbl" data-aos="fade-right" data-aos-duration="5000">
+                                                                                        <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </div>
+                                                                            <div class="col-lg-6 col-12 side-padding-mbl">
+                                                                                <h4 class="mb-20 text-blue">How We Can Help</h4>
+                                                                                <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
+                                                                                    touchpoints.
+                                                                                </p>
+                                                                                <div class="checklist style4 mb-20">
+                                                                                    <ul>
+                                                                                        <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
+                                                                                            Engagement &
+                                                                                            Conversion Rates</li>
+                                                                                        <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
+                                                                                            Perception
+                                                                                        </li>
+                                                                                        <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
+                                                                                            Accessibility</li>
+                                                                                        <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
+                                                                                            Costs
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+
+
+                                                                        </div>
+
+                                                                    </div>
+                                                                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                                                        aria-labelledby="v-pills-messages-tab" tabindex="0">
+                                                                        <div class="row ">
+                                                                            <div class="col-lg-6 col-12 text-center side-padding-mbl">
+                                                                                <div class="page-img mt-md-0 mt-3">
+                                                                                    <img class="w-50" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-lg-6 col-12 side-padding-mbl">
+                                                                                <h4 class="mb-20 text-blue">How We Can Help</h4>
+                                                                                <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
+                                                                                    touchpoints.
+                                                                                </p>
+                                                                                <div class="checklist style4 mb-20">
+                                                                                    <ul>
+                                                                                        <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
+                                                                                            Engagement &
+                                                                                            Conversion Rates</li>
+                                                                                        <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
+                                                                                            Perception
+                                                                                        </li>
+                                                                                        <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
+                                                                                            Accessibility</li>
+                                                                                        <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
+                                                                                            Costs
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                                                        aria-labelledby="v-pills-settings-tab" tabindex="0">
+
+                                                                        <div class="row ">
+                                                                            <div class="col-lg-6 col-12 text-center side-padding-mbl">
+                                                                                <div class="row mt-md-0 mt-3">
+                                                                                    <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
+                                                                                        <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                                                                    </div>
+                                                                                    <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
+                                                                                        <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </div>
+                                                                            <div class="col-lg-6 col-12 side-padding-mbl">
+                                                                                <h4 class="mb-20 text-blue">How We Can Help</h4>
+                                                                                <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
+                                                                                    touchpoints.
+                                                                                </p>
+                                                                                <div class="checklist style4 mb-20">
+                                                                                    <ul>
+                                                                                        <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
+                                                                                            Engagement &
+                                                                                            Conversion Rates</li>
+                                                                                        <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
+                                                                                            Perception
+                                                                                        </li>
+                                                                                        <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
+                                                                                            Accessibility</li>
+                                                                                        <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
+                                                                                            Costs
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-9 col-12">
-                                                        <div class="tab-content" id="v-pills-tabContent">
-                                                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                                                                aria-labelledby="v-pills-home-tab" tabindex="0">
-                                                                <div class="row ">
-                                                                    <div class="col-lg-6 col-12 text-center side-padding-mbl" data-aos="zoom-in"
-                                                                        data-aos-delay="200"
-                                                                        data-aos-duration="1200"
-                                                                        data-aos-easing="ease-in-out">
-                                                                        <div class="page-img mt-md-0 mt-3">
-                                                                            <img class="w-50" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-6 col-12 side-padding-mbl" data-aos="fade-left"
-                                                                        data-aos-delay="200"
-                                                                        data-aos-duration="1200"
-                                                                        data-aos-easing="ease-in-out">
-                                                                        <h4 class="mb-20 text-blue">How We Can Help</h4>
-                                                                        <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
-                                                                            touchpoints.
-                                                                        </p>
-                                                                        <div class="checklist style4 mb-20">
-                                                                            <ul>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
-                                                                                    Engagement &
-                                                                                    Conversion Rates</li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
-                                                                                    Perception
-                                                                                </li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
-                                                                                    Accessibility</li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
-                                                                                    Costs
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-
-                                                                </div>
-                                                            </div>
-                                                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                                                                aria-labelledby="v-pills-profile-tab" tabindex="0">
-
-                                                                <div class="row ">
-                                                                    <div class="col-lg-6 col-12 text-center side-padding-mbl">
-                                                                        <div class="row mt-md-0 mt-3">
-                                                                            <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
-                                                                                <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                                            </div>
-                                                                            <div class="col-lg-6 col-6 page-img side-padding-mbl" data-aos="fade-right" data-aos-duration="5000">
-                                                                                <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div>
-                                                                    <div class="col-lg-6 col-12 side-padding-mbl">
-                                                                        <h4 class="mb-20 text-blue">How We Can Help</h4>
-                                                                        <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
-                                                                            touchpoints.
-                                                                        </p>
-                                                                        <div class="checklist style4 mb-20">
-                                                                            <ul>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
-                                                                                    Engagement &
-                                                                                    Conversion Rates</li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
-                                                                                    Perception
-                                                                                </li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
-                                                                                    Accessibility</li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
-                                                                                    Costs
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-
-
-                                                                </div>
-
-                                                            </div>
-                                                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                                                                aria-labelledby="v-pills-messages-tab" tabindex="0">
-                                                                <div class="row ">
-                                                                    <div class="col-lg-6 col-12 text-center side-padding-mbl">
-                                                                        <div class="page-img mt-md-0 mt-3">
-                                                                            <img class="w-50" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-6 col-12 side-padding-mbl">
-                                                                        <h4 class="mb-20 text-blue">How We Can Help</h4>
-                                                                        <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
-                                                                            touchpoints.
-                                                                        </p>
-                                                                        <div class="checklist style4 mb-20">
-                                                                            <ul>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
-                                                                                    Engagement &
-                                                                                    Conversion Rates</li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
-                                                                                    Perception
-                                                                                </li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
-                                                                                    Accessibility</li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
-                                                                                    Costs
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-
-                                                                </div>
-                                                            </div>
-                                                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                                                                aria-labelledby="v-pills-settings-tab" tabindex="0">
-
-                                                                <div class="row ">
-                                                                    <div class="col-lg-6 col-12 text-center side-padding-mbl">
-                                                                        <div class="row mt-md-0 mt-3">
-                                                                            <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
-                                                                                <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                                            </div>
-                                                                            <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
-                                                                                <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div>
-                                                                    <div class="col-lg-6 col-12 side-padding-mbl">
-                                                                        <h4 class="mb-20 text-blue">How We Can Help</h4>
-                                                                        <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
-                                                                            touchpoints.
-                                                                        </p>
-                                                                        <div class="checklist style4 mb-20">
-                                                                            <ul>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
-                                                                                    Engagement &
-                                                                                    Conversion Rates</li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
-                                                                                    Perception
-                                                                                </li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
-                                                                                    Accessibility</li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
-                                                                                    Costs
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </section> -->
+                                            </section> -->
 
         @include('Frontend.partial.clientList')
 
@@ -955,16 +956,18 @@
                             <div class="accordion-card">
                                 <div class="accordion-header" id="collapse-item-1">
                                     <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">Why
-                                        should I use social media?</button>
+                                        data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">How
+                                        long does it take to see results from SEO?</button>
                                 </div>
                                 <div id="collapse-1" class="accordion-collapse collapse show"
                                     aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">Social media is a powerful tool that can help you connect
-                                            with people, promote your business or brand, and stay up-to-date with current
-                                            events and trends. It allows you to reach a wider audience, build a community,
-                                            and engage with people in real-time.</p>
+                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
+                                            initial improvements in website traffic and rankings within 3-6 months with a
+                                            well-defined strategy. Long-term results and significant traffic growth. We are
+                                            a five-star rated holistic full-service digital marketing agencies, serving
+                                            thousands of clients. Our digital agency covers all aspects of internet
+                                            marketing:</p>
                                     </div>
                                 </div>
                             </div>
@@ -973,16 +976,18 @@
                             <div class="accordion-card ">
                                 <div class="accordion-header" id="collapse-item-2">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">What
-                                        are the benefits of social media marketing for my company?</button>
+                                        data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">How
+                                        will I be kept informed about my SEO progress?</button>
                                 </div>
                                 <div id="collapse-2" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">Social media marketing can offer several benefits to your
-                                            company, including increased brand awareness, customer engagement and customer
-                                            loyalty, with improved search engine rankings, and higher Revenue over
-                                            Investment compared to traditional marketing methods.</p>
+                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
+                                            initial improvements in website traffic and rankings within 3-6 months with a
+                                            well-defined strategy. Long-term results and significant traffic growth. We are
+                                            a five-star rated holistic full-service digital marketing agencies, serving
+                                            thousands of clients. Our digital agency covers all aspects of internet
+                                            marketing:</p>
                                     </div>
                                 </div>
                             </div>
@@ -992,16 +997,17 @@
                                 <div class="accordion-header" id="collapse-item-3">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapse-3" aria-expanded="false"
-                                        aria-controls="collapse-3">What social platforms should I use?</button>
+                                        aria-controls="collapse-3">What kind of SEO techniques do you use?</button>
                                 </div>
                                 <div id="collapse-3" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">The social platforms you should use depend on your business
-                                            goals and target audience. Some popular platforms include Facebook, Instagram,
-                                            Twitter, LinkedIn, and Youtube. Research the demographics and usage patterns of
-                                            each platform to determine which ones align with your business objectives and
-                                            platform used by your audience.</p>
+                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
+                                            initial improvements in website traffic and rankings within 3-6 months with a
+                                            well-defined strategy. Long-term results and significant traffic growth. We are
+                                            a five-star rated holistic full-service digital marketing agencies, serving
+                                            thousands of clients. Our digital agency covers all aspects of internet
+                                            marketing:</p>
                                     </div>
                                 </div>
                             </div>
@@ -1010,17 +1016,19 @@
                             <div class="accordion-card ">
                                 <div class="accordion-header" id="collapse-item-4">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">How
-                                        often should I post?</button>
+                                        data-bs-target="#collapse-4" aria-expanded="false"
+                                        aria-controls="collapse-4">What happens if I don't see results after a
+                                        while?</button>
                                 </div>
                                 <div id="collapse-4" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-4" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">The frequency of your social media posts depends on the
-                                            platform, your goals, and the type of content you are posting. As a general
-                                            rule, it's recommended to post at least once per day on Facebook, Instagram, and
-                                            Twitter, and 1-2 times per week on LinkedIn. However, this can vary depending on
-                                            your target audience and the type of content you are sharing.</p>
+                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
+                                            initial improvements in website traffic and rankings within 3-6 months with a
+                                            well-defined strategy. Long-term results and significant traffic growth. We are
+                                            a five-star rated holistic full-service digital marketing agencies, serving
+                                            thousands of clients. Our digital agency covers all aspects of internet
+                                            marketing:</p>
                                     </div>
                                 </div>
                             </div>
@@ -1030,15 +1038,17 @@
                                 <div class="accordion-header" id="collapse-item-5">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">How
-                                        often should I post non-self promotional content?</button>
+                                        do I get started with your agency?</button>
                                 </div>
                                 <div id="collapse-5" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-5" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">The frequency of your non-self promotional content posts
-                                            depends on the platform and your goals. As a general rule, try to post
-                                            non-promotional content at least 50% of all the time. However, this can vary
-                                            depending on your target audience and the type of content you are sharing.</p>
+                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
+                                            initial improvements in website traffic and rankings within 3-6 months with a
+                                            well-defined strategy. Long-term results and significant traffic growth. We are
+                                            a five-star rated holistic full-service digital marketing agencies, serving
+                                            thousands of clients. Our digital agency covers all aspects of internet
+                                            marketing:</p>
                                     </div>
                                 </div>
                             </div>
@@ -1047,66 +1057,19 @@
                             <div class="accordion-card ">
                                 <div class="accordion-header" id="collapse-item-6">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-6" aria-expanded="false" aria-controls="collapse-6">How
-                                        can I schedule social posts?</button>
+                                        data-bs-target="#collapse-6" aria-expanded="false"
+                                        aria-controls="collapse-6">What is your process for starting a new
+                                        project?</button>
                                 </div>
                                 <div id="collapse-6" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-6" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">Yes, most social media platforms allow you to schedule
-                                            posts in advance using their built-in scheduling tools or third-party social
-                                            media management tools like Hootsuite, Buffer, or Sprout Social to schedule
-                                            posts in advance.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-card ">
-                                <div class="accordion-header" id="collapse-item-7">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-7" aria-expanded="false" aria-controls="collapse-7">Are
-                                        there any free social media marketing tools available?</button>
-                                </div>
-                                <div id="collapse-7" class="accordion-collapse collapse "
-                                    aria-labelledby="collapse-item-7" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
-                                        <p class="sec-para-faq">Yes, there are several free social media marketing tools
-                                            available, such as Canva for creating graphics, Google Analytics for tracking
-                                            website traffic, and Facebook Insights for analyzing Facebook performance
-                                            metrics.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-card ">
-                                <div class="accordion-header" id="collapse-item-8">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-8" aria-expanded="false" aria-controls="collapse-8">Is
-                                        Paid Social Media Advertising a Good Idea?</button>
-                                </div>
-                                <div id="collapse-8" class="accordion-collapse collapse "
-                                    aria-labelledby="collapse-item-8" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
-                                        <p class="sec-para-faq">Whether or not paid social media advertising is a good idea
-                                            for your business depends on your specific goals, target audience, and budget.
-                                            It can be a highly effective way to reach a wider audience and drive
-                                            conversions, but it requires careful planning and management to ensure a
-                                            positive return on investment. Consider consulting with a social media
-                                            advertising professional to determine the best strategy for your business.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-card ">
-                                <div class="accordion-header" id="collapse-item-9">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-9" aria-expanded="false" aria-controls="collapse-9">How
-                                        to handle bad comments or reviews on social media?</button>
-                                </div>
-                                <div id="collapse-9" class="accordion-collapse collapse "
-                                    aria-labelledby="collapse-item-9" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
-                                        <p class="sec-para-faq">When responding to negative comments or reviews on social
-                                            media, it is important to remain professional and empathetic. Acknowledge the
-                                            customer's concerns, apologize for any inconvenience or negative experience, and
-                                            offer a solution or plan to address the issue.</p>
+                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
+                                            initial improvements in website traffic and rankings within 3-6 months with a
+                                            well-defined strategy. Long-term results and significant traffic growth. We are
+                                            a five-star rated holistic full-service digital marketing agencies, serving
+                                            thousands of clients. Our digital agency covers all aspects of internet
+                                            marketing:</p>
                                     </div>
                                 </div>
                             </div>
