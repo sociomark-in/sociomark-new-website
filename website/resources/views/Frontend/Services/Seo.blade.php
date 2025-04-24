@@ -409,7 +409,7 @@
                             <h3 class="box-title">Ecommerce SEO</h3>
                         </div>
                         <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/normal/ser_2_1.jpg') }}" alt="">
+                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Ecommerce Seo.png') }}" alt="">
                             <p class="sec-para text">Transform passive visitors into engaged customers.
                                 Our strategies are designed to boost website traffic and conversions through a combination
                                 of content optimization, in-depth website audits, and keyword research.
