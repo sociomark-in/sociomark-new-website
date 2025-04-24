@@ -39,6 +39,7 @@ Route::fallback(function () {
 
 Route::get('/', [HomeController::class, 'Home'])->name('home');
 Route::get('/about', [HomeController::class, 'About'])->name('about');
+Route::get('/our-team', [HomeController::class, 'About'])->name('team');
 
 Route::get('/services', [HomeController::class, 'Services'])->name('services');
 Route::get('/service/seo', [ServiceController::class, 'seo'])->name('seo');
