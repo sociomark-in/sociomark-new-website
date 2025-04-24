@@ -43,5 +43,15 @@ class CaseStudyController extends Controller
     public function roadtosafetyinitiative(){
         return view('frontend/caseStudy/roadtosafetyinitiative');
     }
+    public function acetattoz(){
+        return view('frontend/caseStudy/acetattoz');
+    }
+    public function smarterIndia(){
+        return view('frontend/caseStudy/smarterIndia');
+    }
+    public function realestateawards(){
+        return view('frontend/caseStudy/realestateawards');
+    }
+    
 }
 

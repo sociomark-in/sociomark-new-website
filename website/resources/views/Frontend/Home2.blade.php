@@ -276,7 +276,7 @@
                             out in a crowded digital world.
 
                         </p>
-                        <a href="" class="th-btn white-border th-icon th-radius">
+                        <a href="{{ route('about') }}" class="th-btn white-border th-icon th-radius">
                             Read More <i class="fa-solid fa-arrow-right ms-2"></i>
                         </a>
                     </div>
@@ -289,16 +289,16 @@
                     </div>
                     <div class="col-12">
                         <div class="counter-box-wrap">
-                            <div class="row g-3 gx-5 text-center">
-                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-6">
+                            <div class="row g-3 gx-5 justify-content-between text-center">
+                                <div class="col-xl-auto col-lg-6 col-6">
                                     <div class="counter-box">
                                         <h3 class="box-number text-orange"><span class="counter-number">8</span>+</h3>
                                         <div class="media-body">
-                                            <p class="text-white counter-text mb-n1">years</p>
+                                            <p class="text-white counter-text mb-n1">Years</p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-6">
+                                <div class="col-xl-auto col-lg-6 col-6">
                                     <div class="counter-box">
                                         <h3 class="box-number text-orange"><span class="counter-number">50</span>+</h3>
                                         <div class="media-body">
@@ -306,7 +306,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-6">
+                                <div class="col-xl-auto col-lg-6 col-6">
                                     <div class="counter-box">
                                         <h3 class="box-number text-orange"><span class="counter-number">70</span>+</h3>
                                         <div class="media-body">
@@ -314,7 +314,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-6">
+                                <div class="col-xl-auto col-lg-6 col-6">
                                     <div class="counter-box">
                                         <h3 class="box-number text-orange"><span class="counter-number">200</span>+</h3>
                                         <div class="media-body">

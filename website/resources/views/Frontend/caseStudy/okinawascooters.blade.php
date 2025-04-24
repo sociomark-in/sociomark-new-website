@@ -9,20 +9,21 @@
         background-color: #106c97;
         color: white;
     }
+    .breadcumb-wrapper {
+        margin-top: 4.3rem;
+        background-color: #e2e2e2;
+        background-size: contain;
+    }
 </style>
 
 @endsection
 
 @section('content')
 <main>
-    <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x520">
+    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/case-study/OKINAWA.png') }}">
         <div class="container">
             <div class="breadcumb-content">
-                <h1 class="breadcumb-title">stemrxbio</h1>
-                <ul class="breadcumb-menu">
-                    <li><a href="home-seo-agency.html">Home</a></li>
-                    <li>stemrxbio</li>
-                </ul>
+               
             </div>
         </div>
     </div>
