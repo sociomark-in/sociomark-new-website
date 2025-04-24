@@ -1,10 +1,11 @@
+@include('Frontend/partial/CTA')
 <!--==============================
  Footer Area
 ==============================-->
 <footer class="footer-wrapper bg-title footer-layout1 footer-layout2">
     <div class="widget-area">
         <div class="container">
-            <div class="row justify-content-between">
+            <div class="row justify-content-between mb-3">
                 <div class="col-md-6 col-xxl-3 col-xl-4">
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
@@ -28,16 +29,16 @@
                 </div>
                 <div class="col-md-6 col-xl-2">
                     <div class="widget widget_nav_menu footer-widget">
-                        <h3 class="widget_title">Remarkable Services</h3>
+                        <h3 class="widget_title">Services</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
-                                <li class=""><a href="{{ route('home') }}">Home</a></li>
-                                <li><a href="{{ route('about') }}">About Us</a></li>
-                                <li><a href="#">Services</a></li>
-                                {{-- <li><a href="#">Creator</a></li> --}}
-                                <li><a href="{{ route('portfolio') }}">Case Studies</a></li>
-                                <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
-                                <li><a href="{{ route('blog') }}">Blogs</a></li>
+                                <li><a href="{{ route('digitalMarketing') }}">Digital Marketing</a></li>
+                                <li><a href="{{ route('seo') }}">SEO</a></li>
+                                <li><a href="{{ route('socialMedia') }}">Social Media Marketing</a></li>
+                                <li><a href="{{ route('website') }}">Website Development</a></li>
+                                <li><a href="{{ route('contentMarketing') }}">Content Marketing</a></li>
+                                <li><a href="{{ route('sem') }}">SEM</a></li>
+                                <li><a href="{{ route('photoVideography') }}">Photography & Video Production</a></li>
                             </ul>
                         </div>
                     </div>
@@ -90,6 +91,62 @@
                                 </div>
                                 <div class="box-text">
                                     <a href="mailto:business@sociomark.in" class="box-link">business@sociomark.in</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="accordion accordion-transparent no-title">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button text-center collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                    <i class="fa-solid fa-chevron-down"></i>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body px-0">
+                                    <p class="text-white-50">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda natus quis
+                                        obcaecati nesciunt quos molestiae, vero iste eveniet blanditiis impedit, atque
+                                        dolore sequi porro accusantium nemo sapiente similique enim labore laudantium
+                                        deserunt quod minus. Impedit quis nulla quisquam reprehenderit fugit nihil
+                                        repudiandae amet doloremque dolor, mollitia dolore. Praesentium ad quasi sint
+                                        neque beatae at dignissimos ratione eaque nihil quis dolorum, fugit fugiat
+                                        voluptates, vitae consectetur laborum quia repellendus? Obcaecati quasi aut
+                                        corrupti omnis assumenda, ratione quos quidem doloremque magnam consequuntur
+                                        commodi, corporis tempora laborum, voluptatibus nostrum voluptatem neque illo
+                                        autem? Fuga eveniet laudantium delectus beatae eum cumque omnis impedit cum.
+                                    </p>
+                                    <p class="text-white-50">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda natus quis
+                                        obcaecati nesciunt quos molestiae, vero iste eveniet blanditiis impedit, atque
+                                        dolore sequi porro accusantium nemo sapiente similique enim labore laudantium
+                                        deserunt quod minus. Impedit quis nulla quisquam reprehenderit fugit nihil
+                                        repudiandae amet doloremque dolor, mollitia dolore. Praesentium ad quasi sint
+                                        neque beatae at dignissimos ratione eaque nihil quis dolorum, fugit fugiat
+                                        voluptates, vitae consectetur laborum quia repellendus? Obcaecati quasi aut
+                                        corrupti omnis assumenda, ratione quos quidem doloremque magnam consequuntur
+                                        commodi, corporis tempora laborum, voluptatibus nostrum voluptatem neque illo
+                                        autem? Fuga eveniet laudantium delectus beatae eum cumque omnis impedit cum.
+                                    </p>
+                                    <p class="text-white-50">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda natus quis
+                                        obcaecati nesciunt quos molestiae, vero iste eveniet blanditiis impedit, atque
+                                        dolore sequi porro accusantium nemo sapiente similique enim labore laudantium
+                                        deserunt quod minus. Impedit quis nulla quisquam reprehenderit fugit nihil
+                                        repudiandae amet doloremque dolor, mollitia dolore. Praesentium ad quasi sint
+                                        neque beatae at dignissimos ratione eaque nihil quis dolorum, fugit fugiat
+                                        voluptates, vitae consectetur laborum quia repellendus? Obcaecati quasi aut
+                                        corrupti omnis assumenda, ratione quos quidem doloremque magnam consequuntur
+                                        commodi, corporis tempora laborum, voluptatibus nostrum voluptatem neque illo
+                                        autem? Fuga eveniet laudantium delectus beatae eum cumque omnis impedit cum.
+                                    </p>
                                 </div>
                             </div>
                         </div>
