@@ -491,6 +491,12 @@ main#home {
     color: var(--color-black);
 }
 
+/* Process Card */
+.process-card .box-icon{
+    display: grid;
+    place-items: center;
+}
+
 /* portfolio flip image css  */
 .flip-box {
     background-color: transparent;

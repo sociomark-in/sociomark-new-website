@@ -569,8 +569,7 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-12 col-md-2 first-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-left"
+                    <div class="col-12 col-md-2 second-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-left"
                         data-aos-delay="300">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
@@ -583,7 +582,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-2 second-feature-card feature-card flip-box p-0 mx-2">
+                    <div class="col-12 col-md-2 first-feature-card feature-card flip-box p-0 mx-2">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt=""
@@ -595,7 +594,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-12 col-md-2 second-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-right"
                         data-aos-delay="400">
                         <div class="flip-box-inner h-100">
@@ -609,8 +607,7 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-12 col-md-2 second-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-right"
+                    <div class="col-12 col-md-2 first-feature-card feature-card flip-box p-0 mx-2" data-aos="fade-right"
                         data-aos-delay="400">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
