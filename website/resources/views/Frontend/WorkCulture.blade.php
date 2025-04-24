@@ -372,54 +372,29 @@
         <section class="space">
             <div class="container">
                 <div class="step-wrap">
-                    <div class="process-card_wrapp">
-                        <div class="process-card">
-                            <div class="box-wrapp">
-                                <div class="box-icon">
-                                    <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg')}}" alt="icon">
-                                </div>
-                                <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
-                                <div class="box-number">
-                                    01 </div>
-                            </div>
-                            <div class="box-content">
-                                <h2 class="box-title">Research and Strategy</h2>
-                                <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                    behaviors. Submit as many design tasks</p>
+                    <div class="process-">
+                        <div class="row gy-3 gy-md-5">
+                            @for ($i = 2025; $i > 2017; $i--)
+                            <div class="col-xl-6">
+                                <div class="process-card">
+                                    <div class="box-wrapp justify-content-start gap-2">
+                                        <div class="box-icon">
+                                            <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg')}}" alt="icon">
+                                        </div>
+                                        <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                        <div class="box-number">
+                                            {{ $i }} </div>
+                                    </div>
+                                    <div class="box-content">
+                                        <h2 class="box-title">Lorem ipsum dolor sit amet.</h2>
+                                        <p class="box-text">
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, esse veniam unde tempora, quaerat ex modi quidem delectus quas velit, autem eum cumque eos dolore. Possimus ullam unde cum quod.
+                                        </p>
 
-                            </div>
-                        </div>
-                        <div class="process-card">
-                            <div class="box-wrapp">
-                                <div class="box-icon">
-                                    <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg')}}" alt="icon">
+                                    </div>
                                 </div>
-                                <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
-                                <div class="box-number">
-                                    02 </div>
                             </div>
-                            <div class="box-content">
-                                <h2 class="box-title">Plan Customization</h2>
-                                <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                    behaviors. Submit as many design tasks</p>
-
-                            </div>
-                        </div>
-                        <div class="process-card">
-                            <div class="box-wrapp">
-                                <div class="box-icon">
-                                    <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg')}}" alt="icon">
-                                </div>
-                                <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
-                                <div class="box-number">
-                                    03 </div>
-                            </div>
-                            <div class="box-content">
-                                <h2 class="box-title">Finished &amp; User Testing</h2>
-                                <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                    behaviors. Submit as many design tasks</p>
-
-                            </div>
+                            @endfor
                         </div>
                     </div>
                 </div>
