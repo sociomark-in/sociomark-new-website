@@ -289,8 +289,8 @@
                     </div>
                     <div class="col-12">
                         <div class="counter-box-wrap">
-                            <div class="row g-3 gx-5">
-                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
+                            <div class="row g-3 gx-5 text-center">
+                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-6">
                                     <div class="counter-box">
                                         <h3 class="box-number text-orange"><span class="counter-number">8</span>+</h3>
                                         <div class="media-body">
@@ -298,7 +298,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
+                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-6">
                                     <div class="counter-box">
                                         <h3 class="box-number text-orange"><span class="counter-number">50</span>+</h3>
                                         <div class="media-body">
@@ -306,7 +306,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
+                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-6">
                                     <div class="counter-box">
                                         <h3 class="box-number text-orange"><span class="counter-number">70</span>+</h3>
                                         <div class="media-body">
@@ -314,7 +314,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-12">
+                                <div class="col-xxl-3 col-xl-4 col-lg-6 col-6">
                                     <div class="counter-box">
                                         <h3 class="box-number text-orange"><span class="counter-number">200</span>+</h3>
                                         <div class="media-body">
@@ -660,7 +660,7 @@
                                         <div class="col-12">
                                             <img loading="lazy"
                                                 src="{{ asset('frontend-assets/img/service/DM_gray.jpg') }}"
-                                                alt="" class="w-100 service-image rounded-overflow">
+                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">Want to go viral and drive sales? Discover the strategies
@@ -678,7 +678,7 @@
                                         <div class="col-12">
                                             <img loading="lazy"
                                                 src="{{ asset('frontend-assets/img/service/SM_gray.jpg') }}"
-                                                alt="" class="w-100 service-image rounded-overflow">
+                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">Don’t just show up—stand out. We turn your social feed
@@ -696,7 +696,7 @@
                                         <div class="col-12">
                                             <img loading="lazy"
                                                 src="{{ asset('frontend-assets/img/service/SEO_gray.jpg') }}"
-                                                alt="" class="w-100 service-image rounded-overflow">
+                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">Struggling to show up on Google? We’ve cracked the code to
@@ -714,7 +714,7 @@
                                         <div class="col-12">
                                             <img loading="lazy"
                                                 src="{{ asset('frontend-assets/img/service/WD_gray.jpg') }}"
-                                                alt="" class="w-100 service-image rounded-overflow">
+                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3"> Is your website your best salesperson? If not, you’re
@@ -733,7 +733,7 @@
                                         <div class="col-12">
                                             <img loading="lazy"
                                                 src="{{ asset('frontend-assets/img/service/DM_gray.jpg') }}"
-                                                alt="" class="w-100 service-image rounded-overflow">
+                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
                                         </div>
                                         <div class="col-">
                                             <p class="text mt-3">Tired of burning the budget with zero ROI? Get campaigns
@@ -752,7 +752,7 @@
                                         <div class="col-12">
                                             <img loading="lazy"
                                                 src="{{ asset('frontend-assets/img/service/CM_gray.jpg') }}"
-                                                alt="" class="w-100 service-image rounded-overflow">
+                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">Content that pulls, persuades and performs. From blogs to
@@ -771,7 +771,7 @@
                                         <div class="col-12">
                                             <img loading="lazy"
                                                 src="{{ asset('frontend-assets/img/service/VP_gray.jpg') }}"
-                                                alt="" class="w-100 service-image rounded-overflow">
+                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">If it doesn’t stop the scroll, it’s not us. Let’s turn
