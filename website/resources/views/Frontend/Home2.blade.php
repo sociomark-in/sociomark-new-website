@@ -62,8 +62,8 @@
         }
 
         /* #home #about-sec3 .sec-para{
-                                                                                                            font-weight: 400;
-                                                                                                        } */
+                                                                                                                    font-weight: 400;
+                                                                                                                } */
         #home #about-sec3 .accordion-item2 {
             max-width: 510px;
         }
@@ -592,7 +592,7 @@
                             <span>Social Media Marketing</span>
                             <span>Website Development</span>
                             <span>Content Marketing</span>
-                            <span>SEM</span>
+                            <span>Performance Marketing</span>
                             <span>Photography & Video Production</span>
                         </div>
                     </div>
@@ -614,7 +614,8 @@
                         <script>
                             new Typewriter('#workTitle', {
                                 strings: ['Lasting Impressions', 'Digital Marketing', 'Search Engine Optimization',
-                                    'Social Media Marketing', 'Website Development', 'Content Marketing', 'SEM', 'Photography',
+                                    'Social Media Marketing', 'Website Development', 'Content Marketing', 'Performance Marketing',
+                                    'Photography',
                                     'Video Production'
                                 ],
                                 autoStart: true,
@@ -624,7 +625,7 @@
                         </script>
                     </div>
                 </div>
-                <div class="tabbed-content tab-dark">
+                <div class="services-tab tabbed-content tab-dark">
                     <div class="row">
                         {{-- <div class="d-flex align-items-start"> --}}
                         <div class="col-lg-4">
@@ -668,21 +669,22 @@
 
                             </div>
                         </div>
-                        <div class="col-lg-8">
+                        <div class="offset-xl-1 col-xl-7 col-lg-8">
                             <div class="tab-content" id="v-pills-tabContent">
                                 <div class="tab-pane fade show active" id="v-pills-digital" role="tabpanel"
                                     aria-labelledby="v-pills-digital-tab">
                                     <div class="row">
                                         <div class="col-12">
-                                            <img loading="lazy"
-                                                src="{{ asset('frontend-assets/img/service/DM_gray.jpg') }}"
-                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
+                                            <div class="service-image rounded-overflow" style="--background-image: url('{{ asset('frontend-assets/img/service/DM_bg.jpg') }}')">
+                                                <h2 class="text-center text-orange">Digital Marketing</h2>
+                                            </div>
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">Want to go viral and drive sales? Discover the strategies
                                                 that turn browsers into buyers and brands into buzzwords.
                                             </p>
-                                            <a href="{{ route('digitalMarketing') }}" class="th-btn white-border th-icon th-radius">
+                                            <a href="{{ route('digitalMarketing') }}"
+                                                class="th-btn white-border th-icon th-radius">
                                                 Read More
                                             </a>
                                         </div>
@@ -692,15 +694,16 @@
                                     aria-labelledby="v-pills-social-tab">
                                     <div class="row">
                                         <div class="col-12">
-                                            <img loading="lazy"
-                                                src="{{ asset('frontend-assets/img/service/SM_gray.jpg') }}"
-                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
+                                            <div class="service-image rounded-overflow" style="--background-image: url('{{ asset('frontend-assets/img/service/SM_bg.jpg') }}')">
+                                                <h2 class="text-center text-orange">Social Media Marketing</h2>
+                                            </div>
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">Don’t just show up—stand out. We turn your social feed
                                                 into your strongest marketing weapon.
                                             </p>
-                                            <a href="{{ route('socialMedia') }}" class="th-btn white-border th-icon th-radius">
+                                            <a href="{{ route('socialMedia') }}"
+                                                class="th-btn white-border th-icon th-radius">
                                                 Read More
                                             </a>
                                         </div>
@@ -710,9 +713,9 @@
                                     aria-labelledby="v-pills-seo-tab">
                                     <div class="row">
                                         <div class="col-12">
-                                            <img loading="lazy"
-                                                src="{{ asset('frontend-assets/img/service/SEO_gray.jpg') }}"
-                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
+                                            <div class="service-image rounded-overflow" style="--background-image: url('{{ asset('frontend-assets/img/service/SEO_bg.jpg') }}')">
+                                                <h2 class="text-center text-orange">Search Engine Optimization</h2>
+                                            </div>
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">Struggling to show up on Google? We’ve cracked the code to
@@ -728,16 +731,17 @@
                                     aria-labelledby="v-pills-website-tab">
                                     <div class="row">
                                         <div class="col-12">
-                                            <img loading="lazy"
-                                                src="{{ asset('frontend-assets/img/service/WD_gray.jpg') }}"
-                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
+                                            <div class="service-image rounded-overflow" style="--background-image: url('{{ asset('frontend-assets/img/service/WD_bg.jpg') }}')">
+                                                <h2 class="text-center text-orange">Web Development</h2>
+                                            </div>
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3"> Is your website your best salesperson? If not, you’re
                                                 losing money. We build websites that work 24/7 to grow your business.
 
                                             </p>
-                                            <a href="{{ route('website') }}" class="th-btn white-border th-icon th-radius">
+                                            <a href="{{ route('website') }}"
+                                                class="th-btn white-border th-icon th-radius">
                                                 Read More
                                             </a>
                                         </div>
@@ -747,9 +751,9 @@
                                     aria-labelledby="v-pills-performance-tab">
                                     <div class="row">
                                         <div class="col-12">
-                                            <img loading="lazy"
-                                                src="{{ asset('frontend-assets/img/service/DM_gray.jpg') }}"
-                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
+                                            <div class="service-image rounded-overflow" style="--background-image: url('{{ asset('frontend-assets/img/service/PM_bg.jpg') }}')">
+                                                <h2 class="text-center text-orange">Performance Marketing</h2>
+                                            </div>
                                         </div>
                                         <div class="col-">
                                             <p class="text mt-3">Tired of burning the budget with zero ROI? Get campaigns
@@ -766,16 +770,17 @@
                                     aria-labelledby="v-pills-content-tab">
                                     <div class="row">
                                         <div class="col-12">
-                                            <img loading="lazy"
-                                                src="{{ asset('frontend-assets/img/service/CM_gray.jpg') }}"
-                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
+                                            <div class="service-image rounded-overflow" style="--background-image: url('{{ asset('frontend-assets/img/service/CM_bg.jpg') }}')">
+                                                <h2 class="text-center text-orange">Content Marketing</h2>
+                                            </div>
                                         </div>
                                         <div class="col-12">
                                             <p class="text mt-3">Content that pulls, persuades and performs. From blogs to
                                                 banners—we make every word work for you.
 
                                             </p>
-                                            <a href="{{ route('contentMarketing') }}" class="th-btn white-border th-icon th-radius">
+                                            <a href="{{ route('contentMarketing') }}"
+                                                class="th-btn white-border th-icon th-radius">
                                                 Read More
                                             </a>
                                         </div>
@@ -785,16 +790,17 @@
                                     aria-labelledby="v-pills-production-tab">
                                     <div class="row">
                                         <div class="col-12">
-                                            <img loading="lazy"
-                                                src="{{ asset('frontend-assets/img/service/VP_gray.jpg') }}"
-                                                alt="" class="w-100 mt-4 service-image rounded-overflow">
+                                            <div class="service-image rounded-overflow" style="--background-image: url('{{ asset('frontend-assets/img/service/VP_bg.jpg') }}')">
+                                                <h2 class="text-center text-orange">Graphic Designing & Video Production</h2>
+                                            </div>
                                         </div>
                                         <div class="col-12">
-                                            <p class="text mt-3">If it doesn’t stop the scroll, it’s not us. Let’s turn
+                                            <p class="text mt-3">If it doesn't stop the scroll, it's not us. Let's turn
                                                 your brand into a visual story that people will remember.
 
                                             </p>
-                                            <a href="{{  route('photoVideography') }}" class="th-btn white-border th-icon th-radius">
+                                            <a href="{{ route('photoVideography') }}"
+                                                class="th-btn white-border th-icon th-radius">
                                                 Read More
                                             </a>
                                         </div>
@@ -860,7 +866,7 @@
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
                                         <img loading="lazy"
-                                            src="{{ asset('frontend-assets/img/portfolio/Mastercard.png') }}"
+                                            src="{{ asset('frontend-assets/img/portfolio/Mastercard.jpg') }}"
                                             class="w-100" alt="Team Cashless India" />
                                     </div>
                                     <div class="flip-box-back">
@@ -875,7 +881,7 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Nodwin.png') }}"
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Nodwin.jpg') }}"
                                             class="w-100" alt="NODWIN Gaming" class="w-100" />
                                     </div>
                                     <div class="flip-box-back">
@@ -892,7 +898,7 @@
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
                                         <img loading="lazy"
-                                            src="{{ asset('frontend-assets/img/portfolio/Shahenaz.png') }}"
+                                            src="{{ asset('frontend-assets/img/portfolio/Shahenaz.jpg') }}"
                                             class="w-100" alt="Shahenaz" />
                                     </div>
                                     <div class="flip-box-back">
@@ -908,7 +914,7 @@
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
                                         <img loading="lazy"
-                                            src="{{ asset('frontend-assets/img/portfolio/Ayushakti.png') }}"
+                                            src="{{ asset('frontend-assets/img/portfolio/Ayushakti.jpg') }}"
                                             class="w-100" alt="Ayushakti" />
                                     </div>
                                     <div class="flip-box-back">
@@ -923,7 +929,7 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Jivana.png') }}"
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Jivana.jpg') }}"
                                             class="w-100" alt="Jivana" />
                                     </div>
                                     <div class="flip-box-back">
@@ -938,7 +944,7 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/TPC.png') }}"
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/TPC.jpg') }}"
                                             class="w-100" alt="The Professional Couriers" />
                                     </div>
                                     <div class="flip-box-back">
@@ -953,7 +959,7 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Euro.png') }}"
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Euro.jpg') }}"
                                             class="w-100" alt="EURO" />
                                     </div>
                                     <div class="flip-box-back">
@@ -968,7 +974,7 @@
                             <div class="flip-box">
                                 <div class="flip-box-inner">
                                     <div class="flip-box-front">
-                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Jop.png') }}"
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Jop.jpg') }}"
                                             class="w-100" alt="JOP Group" />
                                     </div>
                                     <div class="flip-box-back">
@@ -1005,7 +1011,7 @@
                             <span>Social Media Marketing</span>
                             <span>Website Development</span>
                             <span>Content Marketing</span>
-                            <span>SEM</span>
+                            <span>Performance Marketing</span>
                             <span>Photography & Video Production</span>
                         </div>
                     </div>
@@ -1209,21 +1215,96 @@
                     <div class="col-12">
                         <div class="swiper prSwiper">
                             <div class="swiper-wrapper">
-                                @for ($i = 0; $i < 10; $i++)
-                                    <div class="swiper-slide">
-                                        <a href="">
-                                            <img src="https://placehold.co/200x100" alt="Logo" class="w-100">
-                                        </a>
-                                    </div>
-                                @endfor
+                                <div class="swiper-slide">
+                                    <a href="">
+                                        <img src="{{ asset('frontend-assets/img/logo/pr/4p.jpg') }}" alt="Logo"
+                                            class="w-100">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">
+                                        <img src="{{ asset('frontend-assets/img/logo/pr/adgully.jpg') }}" alt="Logo"
+                                            class="w-100">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">
+                                        <img src="{{ asset('frontend-assets/img/logo/pr/bmi.jpg') }}" alt="Logo"
+                                            class="w-100">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">
+                                        <img src="{{ asset('frontend-assets/img/logo/pr/etbeq.jpg') }}" alt="Logo"
+                                            class="w-100">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">
+                                        <img src="{{ asset('frontend-assets/img/logo/pr/mb.jpg') }}" alt="Logo"
+                                            class="w-100">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">
+                                        <img src="{{ asset('frontend-assets/img/logo/pr/prsync.jpg') }}" alt="Logo"
+                                            class="w-100">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">
+                                        <img src="{{ asset('frontend-assets/img/logo/pr/socialsamosa.jpg') }}"
+                                            alt="Logo" class="w-100">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">
+                                        <img src="{{ asset('frontend-assets/img/logo/pr/storyboard.jpg') }}"
+                                            alt="Logo" class="w-100">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">
+                                        <img src="{{ asset('frontend-assets/img/logo/pr/yf.jpg') }}" alt="Logo"
+                                            class="w-100">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="">
+                                        <img src="{{ asset('frontend-assets/img/logo/pr/zada.jpg') }}" alt="Logo"
+                                            class="w-100">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     @push('scripts')
                         <script>
                             new Swiper(".prSwiper", {
-                                slidesPerView: 6,
+                                loop: true,
+                                autoplay: {
+                                    delay: 1000,
+                                },
+                                slidesPerView: 2,
                                 spaceBetween: 20,
+                                breakpoints: {
+                                    640: {
+                                        slidesPerView: 4,
+                                        spaceBetween: 20,
+                                    },
+                                    768: {
+                                        slidesPerView: 5,
+                                        spaceBetween: 40,
+                                    },
+                                    1024: {
+                                        slidesPerView: 6,
+                                        spaceBetween: 50,
+                                    },
+                                    1400: {
+                                        slidesPerView: 6,
+                                        spaceBetween: 50,
+                                    },
+                                },
                             })
                         </script>
                     @endpush
@@ -1312,7 +1393,8 @@
                     <div class="col-lg-5 pe-md-5">
                         <div class="title-area mb-20">
                             <h2 class="sec-title text-black" data-aos="fade-right" data-aos-delay="100">
-                                Start the <span class="highlight-orange">Conversation</span>, <span class="text-blue"> Spark the Change </span></h2>
+                                Start the <span class="highlight-orange">Conversation</span>, <span class="text-blue">
+                                    Spark the Change </span></h2>
                         </div>
                         <p class="sec-para mb-35 " data-aos="fade-right" data-aos-delay="100">Whether it’s a big brief or
                             a tiny thought, we’d love to hear what’s on your mind.
@@ -1366,7 +1448,7 @@
                                         <option value="Social Media">Social Media</option>
                                         <option value="Digital Marketing">Digital Marketing</option>
                                         <option value="Conetnt Marketing">Conetnt Marketing</option>
-                                        <option value="SEM">SEM</option>
+                                        <option value="SEM">Performance Marketing</option>
                                         <option value="Photography & Video Production">Photography & Video Production
                                         </option>
                                     </select>
@@ -1491,7 +1573,7 @@
                                         <option value="Social Media">Social Media</option>
                                         <option value="Digital Marketing">Digital Marketing</option>
                                         <option value="Conetnt Marketing">Conetnt Marketing</option>
-                                        <option value="SEM">SEM</option>
+                                        <option value="SEM">Performance Marketing</option>
                                         <option value="Photography & Video Production">Photography & Video Production
                                         </option>
                                     </select>

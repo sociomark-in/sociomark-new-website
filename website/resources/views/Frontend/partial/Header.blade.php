@@ -64,7 +64,7 @@ Header Area
                                             <li><a href="{{ route('socialMedia') }}">Social Media Marketing</a></li>
                                             <li><a href="{{ route('website') }}">Website Development</a></li>
                                             <li><a href="{{ route('contentMarketing') }}">Content Marketing</a></li>
-                                            <li><a href="{{ route('sem') }}">SEM</a></li>
+                                            <li><a href="{{ route('sem') }}">Performance Marketing</a></li>
                                             <li><a href="{{ route('photoVideography') }}">Photography & Video Production</a></li>
                                         </ul>
                                     </li>
@@ -81,6 +81,8 @@ Header Area
                                             <li><a href="{{ route('industry_single', ['segment' => "gaming"]) }}">Gaming</a></li>
                                             <li><a href="{{ route('industry_single', ['segment' => "home-interior"]) }}">Home & Interior</a></li>
                                             <li><a href="{{ route('industry_single', ['segment' => "automobile"]) }}">Automobile</a></li>
+                                            <li><a href="{{ route('industry_single', ['segment' => "b2b"]) }}">B2B</a></li>
+                                            <li><a href="{{ route('industry_single', ['segment' => "travel"]) }}">Travel</a></li>
                                         </ul>
                                     </li>
 
