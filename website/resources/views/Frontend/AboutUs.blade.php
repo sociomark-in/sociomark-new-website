@@ -1,23 +1,23 @@
 @extends('Frontend.layout.app')
 
 @section('custome-style')
-<style>
-    #about-us #about-process,
-    #about-us #contact {
-        background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
-    }
+    <style>
+        #about-us #about-process,
+        #about-us #contact {
+            background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
+        }
 
-    #about-us #aboutUs-KEyPoints,
-    #our-founder {
-        background-color: #F5F5F5;
-    }
-</style>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
-    integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/additional-methods.min.js"
-    integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        #about-us #aboutUs-KEyPoints,
+        #our-founder {
+            background-color: #F5F5F5;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
+        integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/additional-methods.min.js"
+        integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 @endsection
 @section('content')
 <main id="about-us">
@@ -597,119 +597,119 @@
         <div class="container">
             <div class="row text-center d-flex justify-content-center justify-content-md-end mt-4">
 
-                <div class="col-md-12 col-12 pe-0 pe-md-5">
-                    <h2 class="fw-bold sec-title my-3" data-aos="fade-down" data-aos-delay="100">
-                        What Makes Us <span class="text-blue"> Remarkable</span>
-                    </h2>
-                    <p class="sec-para" data-aos="fade-up" data-aos-delay="200">
-                        We’re not just another digital agency—we’re storytellers, strategists, and serious brand nerds.
-                        From brainstorming big ideas to building lasting impact, we bring the perfect mix of creativity,
-                        strategy, and speed to the table.
-                    </p>
-                    <p class="sec-para" data-aos="fade-up" data-aos-delay="200">
-                        Over the past 8 years, we’ve partnered with brands across India and beyond—crafting digital
-                        journeys that are anything but ordinary. Whether it’s content, campaigns, or conversions—we keep
-                        it fresh, we keep it focused, and we keep it fast.
-                    </p>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center mt-4" data-aos="fade-right" data-aos-delay="400">
-                <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mt-3 mx-2"
-                    data-aos="fade-left" data-aos-delay=" 300">
-                    <div class="flip-box-inner h-100">
-                        <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
-                            <img src="{{ asset('frontend-assets/img/icon/about/Quality Content.png') }}"
-                                alt="" class="h-50 w-50">
-                            <h4 class="sub-sec-title">Quality Content</h4>
-                        </div>
-                        <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                            <p class="sec-para">We create content that connects, converts and keeps your audience
-                                coming back for more.</p>
-                        </div>
+                    <div class="col-md-12 col-12 pe-0 pe-md-5">
+                        <h2 class="fw-bold sec-title my-3" data-aos="fade-down" data-aos-delay="100">
+                            What Makes Us <span class="text-blue"> Remarkable</span>
+                        </h2>
+                        <p class="sec-para" data-aos="fade-up" data-aos-delay="200">
+                            We’re not just another digital agency—we’re storytellers, strategists, and serious brand nerds.
+                            From brainstorming big ideas to building lasting impact, we bring the perfect mix of creativity,
+                            strategy, and speed to the table.
+                        </p>
+                        <p class="sec-para" data-aos="fade-up" data-aos-delay="200">
+                            Over the past 8 years, we’ve partnered with brands across India and beyond—crafting digital
+                            journeys that are anything but ordinary. Whether it’s content, campaigns, or conversions—we keep
+                            it fresh, we keep it focused, and we keep it fast.
+                        </p>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 mt-3 mx-2"
-                    data-aos="fade-left" data-aos-delay="300">
-                    <div class="flip-box-inner h-100">
-                        <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
-                            <img src="{{ asset('frontend-assets/img/icon/about/Custumized Content.png') }}"
-                                alt="" class="h-50 w-50">
-                            <h4 class="sub-sec-title">Customized Strategy</h4>
-                        </div>
-                        <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                            <p class="sec-para">No one-size-fits-all here. Every strategy is made-to-measure for your
-                                brand and its unique voice.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mt-3 mx-2">
-                    <div class="flip-box-inner h-100">
-                        <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
-                            <img src="{{ asset('frontend-assets/img/icon/about/Result Driven.png') }}" alt=""
-                                class="h-50 w-50">
-                            <h4 class="sub-sec-title">Results-Driven</h4>
-                        </div>
-                        <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                            <p class="sec-para">We love creativity, but we love conversions more. Think ROI with a
-                                creative twist.</p>
+                <div class="row d-flex justify-content-center mt-4" data-aos="fade-right" data-aos-delay="400">
+                    <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 pb-3 mx-2"
+                        data-aos="fade-left" data-aos-delay=" 300">
+                        <div class="flip-box-inner h-100">
+                            <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                                <img src="{{ asset('frontend-assets/img/icon/about/Quality Content.png') }}"
+                                    alt="" class="h-50 w-50">
+                                <h4 class="sub-sec-title">Quality Content</h4>
+                            </div>
+                            <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
+                                <p class="sec-para">We create content that connects, converts and keeps your audience
+                                    coming back for more.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 mt-3 mx-2"
-                    data-aos="fade-right" data-aos-delay="400">
-                    <div class="flip-box-inner h-100">
-                        <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
-                            <img src="{{ asset('frontend-assets/img/icon/about/Creative distinction.png') }}"
-                                alt="" class="h-50 w-50">
-                            <h4 class="sub-sec-title">Creative Distinction</h4>
-                        </div>
-                        <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                            <p class="sec-para">Ideas that turn heads, visuals that stop scrolls—our creative game is
-                                always a level up.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mt-3 mx-2"
-                    data-aos="fade-right" data-aos-delay="400">
-                    <div class="flip-box-inner h-100">
-                        <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
-                            <img src="{{ asset('frontend-assets/img/icon/about/Collaborative Growth.png') }}"
-                                alt="" class="h-50 w-50">
-                            <h4 class="sub-sec-title">Collaborative Growth</h4>
-                        </div>
-                        <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                            <p class="sec-para">We don’t just work for you—we work with you. Because real success is a
-                                team sport.</p>
+                    <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 pb-3 mx-2"
+                        data-aos="fade-left" data-aos-delay="300">
+                        <div class="flip-box-inner h-100">
+                            <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                                <img src="{{ asset('frontend-assets/img/icon/about/Custumized Content.png') }}"
+                                    alt="" class="h-50 w-50">
+                                <h4 class="sub-sec-title">Customized Strategy</h4>
+                            </div>
+                            <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
+                                <p class="sec-para">No one-size-fits-all here. Every strategy is made-to-measure for your
+                                    brand and its unique voice.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mt-3 mx-2"
-                    data-aos="fade-right" data-aos-delay="400">
-                    <div class="flip-box-inner h-100">
-                        <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
-                            <img src="{{ asset('frontend-assets/img/icon/about/Collaborative Growth.png') }}"
-                                alt="" class="h-50 w-50">
-                            <h4 class="sub-sec-title">Quirky Approach </h4>
-                        </div>
-                        <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                            <p class="sec-para">A pinch of humour, a whole lot of hustle - That’s our recipe. We like
-                                to keep things fun, fresh and fearlessly different.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mt-3 mx-2"
-                    data-aos="fade-right" data-aos-delay="400">
-                    <div class="flip-box-inner h-100">
-                        <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
-                            <img src="{{ asset('frontend-assets/img/icon/about/Collaborative Growth.png') }}"
-                                alt="" class="h-50 w-50">
-                            <h4 class="sub-sec-title">Quick Turn Around Time</h4>
-                        </div>
-                        <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                            <p class="sec-para">Your deadlines are sacred. We move fast—without losing the magic.</p>
+                    <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 pb-3 mx-2">
+                        <div class="flip-box-inner h-100">
+                            <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                                <img src="{{ asset('frontend-assets/img/icon/about/Result Driven.png') }}" alt=""
+                                    class="h-50 w-50">
+                                <h4 class="sub-sec-title">Results-Driven</h4>
+                            </div>
+                            <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
+                                <p class="sec-para">We love creativity, but we love conversions more. Think ROI with a
+                                    creative twist.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 pb-3 mx-2"
+                        data-aos="fade-right" data-aos-delay="400">
+                        <div class="flip-box-inner h-100">
+                            <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                                <img src="{{ asset('frontend-assets/img/icon/about/Creative distinction.png') }}"
+                                    alt="" class="h-50 w-50">
+                                <h4 class="sub-sec-title">Creative Distinction</h4>
+                            </div>
+                            <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
+                                <p class="sec-para">Ideas that turn heads, visuals that stop scrolls—our creative game is
+                                    always a level up.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 pb-3 mx-2"
+                        data-aos="fade-right" data-aos-delay="400">
+                        <div class="flip-box-inner h-100">
+                            <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                                <img src="{{ asset('frontend-assets/img/icon/about/Collaborative Growth.png') }}"
+                                    alt="" class="h-50 w-50">
+                                <h4 class="sub-sec-title">Collaborative Growth</h4>
+                            </div>
+                            <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
+                                <p class="sec-para">We don’t just work for you—we work with you. Because real success is a
+                                    team sport.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 pb-3 mx-2"
+                        data-aos="fade-right" data-aos-delay="400">
+                        <div class="flip-box-inner h-100">
+                            <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                                <img src="{{ asset('frontend-assets/img/icon/about/Collaborative Growth.png') }}"
+                                    alt="" class="h-50 w-50">
+                                <h4 class="sub-sec-title">Quirky Approach </h4>
+                            </div>
+                            <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
+                                <p class="sec-para">A pinch of humour, a whole lot of hustle - That’s our recipe. We like
+                                    to keep things fun, fresh and fearlessly different.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 pb-3 mx-2"
+                        data-aos="fade-right" data-aos-delay="400">
+                        <div class="flip-box-inner h-100">
+                            <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                                <img src="{{ asset('frontend-assets/img/icon/about/Collaborative Growth.png') }}"
+                                    alt="" class="h-50 w-50">
+                                <h4 class="sub-sec-title">Quick Turn Around Time</h4>
+                            </div>
+                            <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
+                                <p class="sec-para">Your deadlines are sacred. We move fast—without losing the magic.</p>
+                            </div>
+                        </div>
+                    </div>
 
             </div>
         </div>

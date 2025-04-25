@@ -55,6 +55,10 @@ p {
     color: var(--color-black) !important;
 }
 
+.highlight-orange{
+    background-color: var(--theme-color2);
+}
+
 .rounded {
     border-radius: 1.75rem;
 }
@@ -222,6 +226,10 @@ select {
 .main-menu.style2 ul.sub-menu {
     border-radius: 0.75rem;
     margin-top: 2rem;
+}
+
+.counter-box .box-number {
+    font-size: 4rem;
 }
 
 /* Showreel */

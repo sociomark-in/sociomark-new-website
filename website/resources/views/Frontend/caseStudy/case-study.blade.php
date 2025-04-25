@@ -92,20 +92,33 @@
 
 @section('content')
 <main id="case-study">
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg') }}">
+    <section class="">
+        <div class="full-width">
+            <picture>
+                <source media="(min-width: 1400px)" srcset="https://placehold.co/1920x900">
+                <img src="https://placehold.co/1080x1080" alt="">
+            </picture>
+        </div>
+    </section>
+    <section class="overflow-hidden space">
         <div class="container">
-            <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Case Study</h1>
-                <ul class="breadcumb-menu">
-                    <li><a href="home-seo-agency.html">Home</a></li>
-                    <li>Case Study</li>
-                </ul>
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcumb-content breadcrumb-light">
+                        <h1 class="breadcumb-title">Case Studies</h1>
+                        <ul class="breadcumb-menu">
+                            <li><a href="{{ route('home') }}">Home</a></li>
+                            {{-- <li><a href="{{ route('about') }}">About Us</a></li> --}}
+                            <li>Case Studies</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="overflow-hidden garally mt-md-5" id="portfolio-sec">
+    </section>
+    <section class="overflow-hidden garally space" id="portfolio-sec">
         <div class="container ">
-            <div class="row justify-content-center">
+            {{-- <div class="row justify-content-center">
                 <div class="col-xl-8">
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title"
@@ -117,8 +130,7 @@
                         </h2>
                     </div>
                 </div>
-            </div>
-
+            </div> --}}
 
             <div class="filter-menu filter-menu-active nav nav-tabs justify-content-center mb-4">
 
@@ -272,7 +284,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </main>
 
 @endsection

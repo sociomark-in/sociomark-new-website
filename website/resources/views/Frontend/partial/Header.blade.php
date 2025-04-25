@@ -71,16 +71,16 @@ Header Area
                                     <li class="menu-item-has-children">
                                         <a href="#">Industries</a>
                                         <ul class="sub-menu">
-                                            <li><a href="{{ route('education') }}">Education</a></li>
-                                            <li><a href="{{ route('healthcare') }}">Healthcare</a></li>
-                                            <li><a href="{{ route('FMCG') }}">FMCG</a></li>
-                                            <li><a href="{{ route('newsMedia') }}">News & Media</a></li>
-                                            <li><a href="{{ route('realEstate') }}">Real Estate</a></li>
-                                            <li><a href="{{ route('logistics') }}">Logistics</a></li>
-                                            <li><a href="{{ route('fashionLifestyle') }}">Fashion & Lifestyle</a></li>
-                                            <li><a href="{{ route('gaming') }}">Gaming</a></li>
-                                            <li><a href="{{ route('homeInterior') }}">Home & Interior</a></li>
-                                            <li><a href="{{ route('automation') }}">Automobile</a></li>
+                                            <li><a href="{{ route('industry_single', ['segment' => "education"]) }}">Education</a></li>
+                                            <li><a href="{{ route('industry_single', ['segment' => "healthcare"]) }}">Healthcare</a></li>
+                                            <li><a href="{{ route('industry_single', ['segment' => "fmcg"]) }}">FMCG</a></li>
+                                            <li><a href="{{ route('industry_single', ['segment' => "news-media"]) }}">News & Media</a></li>
+                                            <li><a href="{{ route('industry_single', ['segment' => "real-estate"]) }}">Real Estate</a></li>
+                                            <li><a href="{{ route('industry_single', ['segment' => "logistics"]) }}">Logistics</a></li>
+                                            <li><a href="{{ route('industry_single', ['segment' => "fashion"]) }}">Fashion & Lifestyle</a></li>
+                                            <li><a href="{{ route('industry_single', ['segment' => "gaming"]) }}">Gaming</a></li>
+                                            <li><a href="{{ route('industry_single', ['segment' => "home-interior"]) }}">Home & Interior</a></li>
+                                            <li><a href="{{ route('industry_single', ['segment' => "automobile"]) }}">Automobile</a></li>
                                         </ul>
                                     </li>
 

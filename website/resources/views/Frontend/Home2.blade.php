@@ -437,7 +437,7 @@
                                             trigger: "#videoScaleDown",
                                             start: "40% 50%",
                                             end: "+=1000",
-                                            markers: true,
+                                            // markers: true,
                                             pin: true,
                                             scrub: true
                                         }
@@ -682,7 +682,7 @@
                                             <p class="text mt-3">Want to go viral and drive sales? Discover the strategies
                                                 that turn browsers into buyers and brands into buzzwords.
                                             </p>
-                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                            <a href="{{ route('digitalMarketing') }}" class="th-btn white-border th-icon th-radius">
                                                 Read More
                                             </a>
                                         </div>
@@ -700,7 +700,7 @@
                                             <p class="text mt-3">Don’t just show up—stand out. We turn your social feed
                                                 into your strongest marketing weapon.
                                             </p>
-                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                            <a href="{{ route('socialMedia') }}" class="th-btn white-border th-icon th-radius">
                                                 Read More
                                             </a>
                                         </div>
@@ -718,7 +718,7 @@
                                             <p class="text mt-3">Struggling to show up on Google? We’ve cracked the code to
                                                 page one rankings—and your competitors aren’t ready for it.
                                             </p>
-                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                            <a href="{{ route('seo') }}" class="th-btn white-border th-icon th-radius">
                                                 Read More
                                             </a>
                                         </div>
@@ -737,7 +737,7 @@
                                                 losing money. We build websites that work 24/7 to grow your business.
 
                                             </p>
-                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                            <a href="{{ route('website') }}" class="th-btn white-border th-icon th-radius">
                                                 Read More
                                             </a>
                                         </div>
@@ -756,7 +756,7 @@
                                                 that don’t just perform—they outperform. See how we make every click count.
 
                                             </p>
-                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                            <a href="{{ route('sem') }}" class="th-btn white-border th-icon th-radius">
                                                 Read More
                                             </a>
                                         </div>
@@ -775,7 +775,7 @@
                                                 banners—we make every word work for you.
 
                                             </p>
-                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                            <a href="{{ route('contentMarketing') }}" class="th-btn white-border th-icon th-radius">
                                                 Read More
                                             </a>
                                         </div>
@@ -794,7 +794,7 @@
                                                 your brand into a visual story that people will remember.
 
                                             </p>
-                                            <a href="" class="th-btn white-border th-icon th-radius">
+                                            <a href="{{  route('photoVideography') }}" class="th-btn white-border th-icon th-radius">
                                                 Read More
                                             </a>
                                         </div>
@@ -1297,7 +1297,7 @@
                                 trigger: "#contact",
                                 start: "0% 50%",
                                 end: "+=1",
-                                markers: true,
+                                // markers: true,
                                 pin: true,
                                 scrub: true
                             }
@@ -1311,8 +1311,8 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-5 pe-md-5">
                         <div class="title-area mb-20">
-                            <h2 class="sec-title text-black" data-aos="fade-right" data-aos-delay="100">Start the
-                                Conversation, <span class="text-blue"> Spark the Change </span></h2>
+                            <h2 class="sec-title text-black" data-aos="fade-right" data-aos-delay="100">
+                                Start the <span class="highlight-orange">Conversation</span>, <span class="text-blue"> Spark the Change </span></h2>
                         </div>
                         <p class="sec-para mb-35 " data-aos="fade-right" data-aos-delay="100">Whether it’s a big brief or
                             a tiny thought, we’d love to hear what’s on your mind.

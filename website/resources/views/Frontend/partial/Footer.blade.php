@@ -51,8 +51,8 @@
                         <h3 class="widget_title">Quick Links</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
-                                <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
-                                <li><a href="{{ route('portfolio') }}">Case Studies</a></li>
+                                <li><a href="{{ route('portfolio') }}">Portfolios</a></li>
+                                <li><a href="{{ route('case-study') }}">Case Studies</a></li>
                                 <li><a href="{{ route('workculture') }}">Work Culture</a></li>
                                 <li><a href="{{ route('contact') }}">Contact Us</a></li>
 
