@@ -480,9 +480,9 @@
             </div>
         </section>
 
-        <section class="mb-md-5 mb-2 py-4 px-3 founder" id="our-founder">
+        <section class="mb-2 founder space" id="our-founder">
             <div class="container">
-                <div class="row align-items-center justify-content-center">
+                <div class="row align-items-start justify-content-center">
                     <div class="col-md-6 position-relative img custom-top me-0 me-md-5" data-aos="fade-right"
                         data-aos-delay="100"
                         style="--tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--tw-bg-opacity)); padding: 1rem; border-radius: 30px;">
@@ -689,7 +689,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mt-3 mx-2"
+                    <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 mt-3 mx-2"
                         data-aos="fade-right" data-aos-delay="400">
                         <div class="flip-box-inner h-100">
                             <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
