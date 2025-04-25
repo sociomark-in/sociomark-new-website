@@ -193,7 +193,7 @@
     <section class="overflow-hidden bg-smoke2 space split-hover-section" id="about-sec2">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 mt-md-0 mt-3">
+                <div class="col-md-4 col-sm-6 mt-3">
                     <div class="hover-split-box">
                         <div class="image-wrapper" data-aos="zoom-in"
                             data-aos-delay="100"
@@ -201,17 +201,17 @@
                             data-aos-easing="ease-in-out">
                             <img src="https://www.digitalnexa.com/hubfs/shutterstock_1067423849%20copy.jpg" alt="About" class="hover-img w-100 h-100">
                             <div class="img-heading d-flex justify-content-center align-items-center">
-                                <h3>Website</h3>
+                                <h3>Social Media</h3>
                             </div>
                         </div>
                         <div class="hover-content">
                             <!-- <h3>Who We Are</h3> -->
                             <p class="blog-text">We are a digital marketing agency focused on innovation and results. Our expertise delivers impactful campaigns across all digital platforms.</p>
-                            <a href="#" class="th-btn black-border th-icon th-radius">Read More</a>
+                            <a href="{{ route('portfolioSocio') }}" class="th-btn black-border th-icon th-radius">Read More</a>
                         </div>
                     </div>
                 </div>
-                <div class=" col-md-4 mt-md-0 mt-3">
+                <div class="col-md-4 col-sm-6  mt-3">
                     <div class="hover-split-box">
                         <div class="image-wrapper" data-aos="zoom-in"
                             data-aos-delay="100"
@@ -230,7 +230,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-4 mt-md-0 mt-3">
+                    <div class="col-md-4 col-sm-6  mt-3">
                         <div class="hover-split-box">
                             <div class="image-wrapper" data-aos="zoom-in"
                                 data-aos-delay="100"
@@ -249,35 +249,53 @@
                             </div>
 
                         </div>
+                   
+                    <div class="col-md-4 col-sm-6  mt-3">
+                        <div class="hover-split-box">
+                            <div class="image-wrapper" data-aos="zoom-in"
+                                data-aos-delay="100"
+                                data-aos-duration="1200"
+                                data-aos-easing="ease-in-out">
+                                <img src="https://www.digitalnexa.com/hubfs/shutterstock_1067423849%20copy.jpg" alt="About" class="hover-img w-100 h-100">
+                                <div class="img-heading d-flex justify-content-center align-items-center">
+                                    <h3>Website</h3>
+                                </div>
+                            </div>
+                            <div class="hover-content">
+                                <!-- <h3>Who We Are</h3> -->
+                                <p class="blog-text">We are a digital marketing agency focused on innovation and results. Our expertise delivers impactful campaigns across all digital platforms.</p>
+                                <a href="#" class="th-btn black-border th-icon th-radius">Read More</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row mt-md-5 mt-0">
-                        <div class="col-md-4 mt-md-0 mt-3">
+                    <div class="col-md-4 col-sm-6  mt-3">
+                        <div class="hover-split-box">
+                            <div class="image-wrapper" data-aos="zoom-in"
+                                data-aos-delay="100"
+                                data-aos-duration="1200"
+                                data-aos-easing="ease-in-out">
+                                <img src="https://www.digitalnexa.com/hubfs/Screen%20Shot%202021-09-16%20at%2012.47.59%20PM.png" alt="About" class="hover-img w-100 h-100">
+                                <div class="img-heading d-flex justify-content-center align-items-center"">
+                                <h3>Seo</h3>
+                            </div>
+                        </div>
+                        <div class=" hover-content">
+                                    <!-- <h3>Who We Are</h3> -->
+                                    <p class="blog-text">We are a digital marketing agency focused on innovation and results. Our expertise delivers impactful campaigns across all digital platforms.</p>
+                                    <a href="#" class="th-btn black-border th-icon th-radius">Read More</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-sm-6 mt-3">
                             <div class="hover-split-box">
                                 <div class="image-wrapper" data-aos="zoom-in"
                                     data-aos-delay="100"
                                     data-aos-duration="1200"
                                     data-aos-easing="ease-in-out">
                                     <img src="https://www.digitalnexa.com/hubfs/shutterstock_1067423849%20copy.jpg" alt="About" class="hover-img w-100 h-100">
-                                    <div class="img-heading d-flex justify-content-center align-items-center">
-                                        <h3>Website</h3>
-                                    </div>
-                                </div>
-                                <div class="hover-content">
-                                    <!-- <h3>Who We Are</h3> -->
-                                    <p class="blog-text">We are a digital marketing agency focused on innovation and results. Our expertise delivers impactful campaigns across all digital platforms.</p>
-                                    <a href="#" class="th-btn black-border th-icon th-radius">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=" col-md-4 mt-md-0 mt-3">
-                            <div class="hover-split-box">
-                                <div class="image-wrapper" data-aos="zoom-in"
-                                    data-aos-delay="100"
-                                    data-aos-duration="1200"
-                                    data-aos-easing="ease-in-out">
-                                    <img src="https://www.digitalnexa.com/hubfs/Screen%20Shot%202021-09-16%20at%2012.47.59%20PM.png" alt="About" class="hover-img w-100 h-100">
                                     <div class="img-heading d-flex justify-content-center align-items-center"">
-                                <h3>Seo</h3>
+                                <h3>Graphics</h3>
                             </div>
                         </div>
                         <div class=" hover-content">
@@ -288,27 +306,8 @@
                                 </div>
 
                             </div>
-                            <div class="col-md-4 mt-md-0 mt-3">
-                                <div class="hover-split-box">
-                                    <div class="image-wrapper" data-aos="zoom-in"
-                                        data-aos-delay="100"
-                                        data-aos-duration="1200"
-                                        data-aos-easing="ease-in-out">
-                                        <img src="https://www.digitalnexa.com/hubfs/shutterstock_1067423849%20copy.jpg" alt="About" class="hover-img w-100 h-100">
-                                        <div class="img-heading d-flex justify-content-center align-items-center"">
-                                <h3>Graphics</h3>
-                            </div>
                         </div>
-                        <div class=" hover-content">
-                                            <!-- <h3>Who We Are</h3> -->
-                                            <p class="blog-text">We are a digital marketing agency focused on innovation and results. Our expertise delivers impactful campaigns across all digital platforms.</p>
-                                            <a href="#" class="th-btn black-border th-icon th-radius">Read More</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
+                    </div>
     </section>
 
     @include('Frontend/partial/clientList')

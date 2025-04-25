@@ -1114,7 +1114,7 @@ main#home {
 
 /* Diagonal down (1 to 2 and 3 to 4) */
 #about-process .zig-down::after {
-    top: 68px;
+    top: 85px;
     left: 70%;
     transform: rotate(22deg);
     transform-origin: left center;
@@ -1122,7 +1122,7 @@ main#home {
 
 /* Diagonal up (2 to 3) */
 #about-us #about-process .zig-up::after {
-    bottom: 68px;
+    bottom: 85px;
     left: 70%;
     transform: rotate(-22deg);
     transform-origin: left center;
@@ -1138,12 +1138,17 @@ main#home {
     background-color: rgb(255, 215, 235);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
     #about-us #about-process .process-step::after {
         display: none;
     }
 }
 
+@media (max-width: 1200px) {
+    #about-us #about-process .process-step::after {
+        display: none;
+    }
+}
 /* about-process section2 end */
 
 /* about banner */

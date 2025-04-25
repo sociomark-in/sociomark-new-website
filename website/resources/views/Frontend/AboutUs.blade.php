@@ -6,6 +6,9 @@
         #about-us #contact {
             background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
         }
+        #our-founder{
+            background-color: #f5f5f5
+        }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
         integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
@@ -215,15 +218,15 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="title-area text-center">
-                            <div class="shadow-title">Process</div>
-                            <span class="sub-title sub-title4 mb-4 mb-md-5">Work Process<span></span></span>
+                            <!-- <div class="shadow-title">Process</div> -->
+                            <!-- <span class="sub-title sub-title4 mb-4 mb-md-5">Work Process<span></span></span> -->
                             <h2 class="sec-title  ">From Brief to <span class="text-blue">Brilliance</span></h2>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-center gy-5">
                     <!-- Step 1 -->
-                    <div class="col-md-3 process-step zig-down" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-md-3 col-sm-6 process-step zig-down" data-aos="fade-up" data-aos-delay="300">
 
                         <div class="img">
                             <div class="shadow-title">01</div>
@@ -231,16 +234,16 @@
                                 <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
                             </div>
                         </div>
-                        <div class="text mt-1 mt-3">
+                        <div class="text mt-1 mt-3 d-flex justify-content-center align-items-center flex-column">
                             <h4 class="sub-sec-title">Pick What You Need</h4>
                             <p class="sec-para">Choose the service that fits your brand’s current goals.</p>
                         </div>
                     </div>
 
                     <!-- Step 2 (reversed) -->
-                    <div class="col-md-3 process-step d-flex flex-column-reverse flex-md-column zig-up" data-aos="fade-up"
+                    <div class="col-md-3 col-sm-6 process-step d-flex flex-column-reverse flex-md-column zig-up" data-aos="fade-up"
                         data-aos-delay="400">
-                        <div class="text">
+                        <div class="text d-flex justify-content-center align-items-center flex-column">
                             <h4 class="sub-sec-title">Share Your Vision</h4>
                             <p class="sec-para">From campaign goals to creative vibes, the more you share, the better we plan.</p>
                         </div>
@@ -255,23 +258,23 @@
                     </div>
 
                     <!-- Step 3 -->
-                    <div class="col-md-3 process-step zig-down" data-aos="fade-up" data-aos-delay="500">
+                    <div class="col-md-3 col-sm-6 process-step zig-down" data-aos="fade-up" data-aos-delay="500">
                         <div class="img ">
                             <div class="shadow-title">03</div>
                             <div class="icon" style="background-color: rgb(238 251 229);">
                                 <img src="{{ asset('frontend-assets/img/ourCulture/4.png') }}" alt="">
                             </div>
                         </div>
-                        <div class="text mt-1 mt-3">
+                        <div class="text mt-1 mt-3 d-flex justify-content-center align-items-center flex-column">
                             <h4 class="sub-sec-title">Let’s Talk</h4>
                             <p class="sec-para">We’ll schedule a call to align on vision, ideas, and execution.</p>
                         </div>
                     </div>
 
                     <!-- Step 4 (reversed) -->
-                    <div class="col-md-3 process-step d-flex flex-column-reverse flex-md-column" data-aos="fade-up"
+                    <div class="col-md-3 col-sm-6 process-step d-flex flex-column-reverse flex-md-column" data-aos="fade-up"
                         data-aos-delay="600">
-                        <div class="text">
+                        <div class="text d-flex justify-content-center align-items-center flex-column">
                             <h4 class="sub-sec-title">Watch It Come Alive</h4>
                             <p class="sec-para">Get the final solution, tailored to your brief and ready to roll.</p>
                         </div>
@@ -292,17 +295,17 @@
                 <div class="row gy-5 align-items-center">
                     <div class="col-xl-6">
                         <div class="title-area mb-35">
-                            <h2 class="sec-title ">90-Days <br><span class="text-blue">Gameplan</span></h2>
-                            <p class="mb-30"><b>"A Growth Success cycle formula created by Team Sociomark to give the
+                            <h2 class="sec-title " data-aos="fade-right" data-aos-delay="200">90-Days <span class="text-blue">Gameplan</span></h2>
+                            <p class="mb-30 sec-para" data-aos="fade-right" data-aos-delay="200"><b>"A Growth Success cycle formula created by Team Sociomark to give the
                                     best results to its clients.</b></p>
-                            <ol>
-                                <li>Learn from the past</li>
-                                <li>Uncover the bottlenecks</li>
-                                <li>Clear the mind to make room for new</li>
+                            <ol data-aos="fade-right" data-aos-delay="200">
+                                <li class="sec-para">Learn from the past</li>
+                                <li class="sec-para">Uncover the bottlenecks</li>
+                                <li class="sec-para">Clear the mind to make room for new</li>
                             </ol>
                         </div>
                     </div>
-                    <div class="col-xl-6 text-center">
+                    <div class="col-xl-6 text-center" data-aos="zoom-in" data-aos-delay="200">
                         <img src="{{ asset('frontend-assets/img/about/90days.png')}}" alt="" class="w-100">
                     </div>
 
