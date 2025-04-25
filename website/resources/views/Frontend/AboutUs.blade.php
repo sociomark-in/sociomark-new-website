@@ -483,13 +483,13 @@
         <section class="mb-2 founder space" id="our-founder">
             <div class="container">
                 <div class="row align-items-start justify-content-center">
-                    <div class="col-md-6 position-relative img custom-top me-0 me-md-5" data-aos="fade-right"
+                    <div class="col-md-6 col-sm-12 col-12 position-relative img custom-top me-0 me-md-5" data-aos="fade-right"
                         data-aos-delay="100"
                         style="--tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--tw-bg-opacity)); padding: 1rem; border-radius: 30px;">
                         <img src="{{ asset('frontend-assets/img/team/founders.png') }}"
                             class="img-fluid rounded w-100 h-100 object-fit-cover" alt="Office Team">
                     </div>
-                    <div class="col-md-6 text-white p-4 ">
+                    <div class="col-md-6 col-sm-12 col-12 text-white p-4 ">
                         <h2 class="fw-bold mb-1 sec-title" data-aos="fade-left" data-aos-delay="100">
                             Meet Our <span class="text-blue"> Founders</span>
                         </h2>
