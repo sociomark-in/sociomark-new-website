@@ -75,8 +75,8 @@ Route::get('/portfolio/smarter-india/social-media-work', [PortfolioController::c
 Route::get('/portfolio/grill-box/social-media-work', [PortfolioController::class, 'grillbox'])->name('grillboxSocial');
 Route::get('/portfolio/kolkata-rolls/social-media-work', [PortfolioController::class, 'kolkatarolls'])->name('kolkatarollsSocio');
 Route::get('/portfolio/hollywood-opticians/social-media-work', [PortfolioController::class, 'hollywoodopticians'])->name('hollywoodopticiansSocial');
-Route::get('/portfolio/foresight-opticals/social-media-work', [PortfolioController::class, 'foresightopticals'])->name('foresightopticals');
-Route::get('/portfolio/inifd-vashi/social-media-work', [PortfolioController::class, 'inifdvashi'])->name('inifdvashi');
+Route::get('/portfolio/foresight-opticals/social-media-work', [PortfolioController::class, 'foresightopticals'])->name('foresightopticalsSocial');
+Route::get('/portfolio/inifd-vashi/social-media-work', [PortfolioController::class, 'inifdvashi'])->name('inifdvashiSocial');
 Route::get('/portfolio/profinet/branding-work', [PortfolioController::class, 'profinet'])->name('profinet');
 Route::get('/portfolio/ayushakti/website-work', [PortfolioController::class, 'ayushaktiweb'])->name('ayushaktiweb');
 Route::get('/portfolio/electrocare/website-work', [PortfolioController::class, 'electrocareweb'])->name('electrocareweb');
