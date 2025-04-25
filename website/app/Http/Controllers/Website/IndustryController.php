@@ -52,6 +52,14 @@ class IndustryController extends Controller
                 return view("Frontend/industry/automobile_industry");
                 # code...
                 break;
+            case 'travel':
+                return view("Frontend/industry/travel_industry");
+                # code...
+                break;
+            case 'b2b':
+                return view("Frontend/industry/b2b_industry");
+                # code...
+                break;
 
             default:
                 # code...
