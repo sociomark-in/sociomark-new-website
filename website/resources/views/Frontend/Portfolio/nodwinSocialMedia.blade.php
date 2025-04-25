@@ -104,17 +104,18 @@
                                 class="fa-brands fa-x-twitter"></i></a>
                 </div>
                 <div class="th-social">
-                    <p><b>Nodwin Africa Page Link:</b>
+                    <p class="sec-para"><b>Nodwin Africa Page Link:</b>
                         <a href="https://www.facebook.com/NODWINGaming" target="_blank"><i
                                 class="fab fa-facebook-f"></i></a>
                         <a href="https://twitter.com/NODWINGamingAF" target="_blank"><i class="fab fa-instagram"></i></a>
                         <a href="https://www.instagram.com/nodwingamingafrica/" target="_blank"><i
                                 class="fa-brands fa-x-twitter"></i></a>
+                               
                 </div>
                 </p>
 
                 <div class="header-button mt-3">
-                    <a href="#" class="th-btn th-icon">READ OUR CASE STUDY</a>
+                    <a href="{{ route('nodwinGaming') }}" class="th-btn th-icon">READ OUR CASE STUDY</a>
                 </div>
             </div>
         </div>

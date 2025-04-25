@@ -1,4 +1,4 @@
-@extends('frontend.layout.app')
+@extends('Frontend.layout.app')
 @section('content')
     <section class="port-bann">
         <div class="container-fluid">
@@ -95,7 +95,7 @@
                                 class="fa-brands fa-x-twitter"></i></a>
                 </div>
                 <div class="header-button mt-3">
-                    <a href="#" class="th-btn th-icon">READ OUR CASE STUDY</a>
+                    <a href="{{ route('ayushakti') }}" class="th-btn th-icon">READ OUR CASE STUDY</a>
                 </div>
             </div>
         </div>
