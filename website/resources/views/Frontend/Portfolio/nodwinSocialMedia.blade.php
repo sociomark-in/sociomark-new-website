@@ -88,15 +88,15 @@
     <section class="porfolio-text section-margin">
         <div class="container">
             <div class="row">
-                <h2 class="text-blue">NODWIN Gaming ( India, Africa)</h2>
-                <p><b>About the Brand:</b> NODWIN Gaming is a venture by the NODWIN group in the sphere of gaming in India.
+                <h2 class="text-blue sec-title">NODWIN Gaming ( India, Africa)</h2>
+                <p class="sec-para"><b>About the Brand:</b> NODWIN Gaming is a venture by the NODWIN group in the sphere of gaming in India.
                     NODWIN had been Building an Esports Legacy since 2014 Games | Gamers | Careers | Fame | Success |
                     Pioneers.</p>
-                <p><b>Services Offered: </b>Social media Management for Nodwin Gaming India, Nodwin Gaming Africa and
+                <p class="sec-para"><b>Services Offered: </b>Social media Management for Nodwin Gaming India, Nodwin Gaming Africa and
                     Cosplay Genie, Content Writing, Script Writing, Graphic Designs with 2D Animated Videos, ORM.</p>
 
                 <div class="th-social">
-                    <p><b>Nodwin India Page Link:</b>
+                    <p class="sec-para"><b>Nodwin India Page Link:</b>
                         <a href="https://www.facebook.com/NODWINGaming" target="_blank"><i
                                 class="fab fa-facebook-f"></i></a>
                         <a href="https://twitter.com/NodwinGaming" target="_blank"><i class="fab fa-instagram"></i></a>

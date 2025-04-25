@@ -51,7 +51,7 @@ Route::get('/service/sem', [ServiceController::class, 'sem'])->name('sem');
 Route::get('/service/photography-videography', [ServiceController::class, 'photoVideography'])->name('photoVideography');
 
 Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');
-Route::get('/portfolio/inside', [PortfolioController::class, 'portfolioInside'])->name('portfolioinside');
+Route::get('/portfolio/social-media', [PortfolioController::class, 'portfolioInside'])->name('portfolioSocio');
 
 Route::get('/portfolio/euro/social-media-work', [PortfolioController::class, 'euro'])->name('euro');
 Route::get('/portfolio/bumchumps/social-media-work', [PortfolioController::class, 'bumchumps'])->name('bumchumps');
@@ -74,7 +74,7 @@ Route::get('/portfolio/ai-awards/social-media-work', [PortfolioController::class
 Route::get('/portfolio/smarter-india/social-media-work', [PortfolioController::class, 'smarterindia'])->name('smarterindiaSocio');
 Route::get('/portfolio/grill-box/social-media-work', [PortfolioController::class, 'grillbox'])->name('grillboxSocial');
 Route::get('/portfolio/kolkata-rolls/social-media-work', [PortfolioController::class, 'kolkatarolls'])->name('kolkatarollsSocio');
-Route::get('/portfolio/hollywood-opticians/social-media-work', [PortfolioController::class, 'hollywoodopticians'])->name('hollywoodopticians');
+Route::get('/portfolio/hollywood-opticians/social-media-work', [PortfolioController::class, 'hollywoodopticians'])->name('hollywoodopticiansSocial');
 Route::get('/portfolio/foresight-opticals/social-media-work', [PortfolioController::class, 'foresightopticals'])->name('foresightopticals');
 Route::get('/portfolio/inifd-vashi/social-media-work', [PortfolioController::class, 'inifdvashi'])->name('inifdvashi');
 Route::get('/portfolio/profinet/branding-work', [PortfolioController::class, 'profinet'])->name('profinet');
