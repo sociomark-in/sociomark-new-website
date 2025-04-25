@@ -290,18 +290,10 @@
                     </div>
                     <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
                         <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                            data-aos-duration="1200" data-aos-easing="ease-in-out"> Words have power. And when they’re used
-                            right, they can grow your business. We help brands do just that with effective <b>content
-                                marketing</b>. From social posts to long-form blogs, our aim is to make content that will
-                            bring results. At Sociomark, our team blends creativity with data to form a competent <b>digital
-                                content strategy</b>.
+                            data-aos-duration="1200" data-aos-easing="ease-in-out"> Words have power. And when they’re used right, they can grow your business. We help brands do just that with effective <b>content marketing</b>. From social posts to long-form blogs, our aim is to make content that will bring results. At Sociomark, our team blends creativity with data to form a competent <b>digital content strategy</b>.
                         </p>
                         <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                            data-aos-duration="1200" data-aos-easing="ease-in-out">Every line we write and every design we
-                            build is backed by purpose. Being a <b>content marketing agency</b>, telling stories isn’t just
-                            what we do —we solve problems too. Need your brand to rank better or connect deeper? We’ll
-                            handle that. With visuals, blogs, and smart messaging, your content becomes more than just
-                            words. It becomes your best-performing asset.
+                            data-aos-duration="1200" data-aos-easing="ease-in-out">Every line we write and every design we build is backed by purpose. Being a <b>content marketing agency</b>, telling stories isn’t just what we do —we solve problems too. Need your brand to rank better or connect deeper? We’ll handle that. With visuals, blogs, and smart messaging, your content becomes more than just words. It becomes your best-performing asset.
                         </p>
                     </div>
                 </div>
@@ -494,8 +486,7 @@
                                 </div>
                                 <div class="media-body">
                                     <h4 class="sub-sec-title">Creative That Clicks</h4>
-                                    <p class="sec-para"> We turn complex ideas into fun, shareable content. That makes your
-                                        audience stick around longer.
+                                    <p class="sec-para">  We turn complex ideas into fun, shareable content. That makes your audience stick around longer.
                                     </p>
                                 </div>
                             </div>

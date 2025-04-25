@@ -275,28 +275,22 @@
                         <div class="title-area mb-md-3 mb-2 mt-n1">
                             <h2 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                Accelerate your digital growth with a reliable <span class="text-blue"> SEO Agency in
-                                    UAE</span>
+                                Achieve a Significant Growth in your Business with the power of <span class="text-blue"> Digital Marketing</span>
                             </h2>
                         </div>
                     </div>
                     <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
                         <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                            data-aos-duration="1200" data-aos-easing="ease-in-out">SEO is more than just showing up in
-                            search results. It is about getting recognised by the audience that matters to you. No matter if
-                            you are a new startup or an MNC company, at Sociomark, we make strategies that drive real
-                            growth.
+                            data-aos-duration="1200" data-aos-easing="ease-in-out">Your digital presence is more than just a checklist. It's an ongoing conversation between your brand and the world. At Sociomark, we understand that every touchpoint matters, and we bring a blend of strategy, creativity, and technical know-how to make sure your brand stands out.
                         </p>
                         <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                            data-aos-duration="1200" data-aos-easing="ease-in-out">With our expertise in <strong>SEO in
-                                Dubai,</strong>, we tailor each approach to fit your unique goals. From local market
-                            insights to global trends, we ensure that you gain visibility where it matters the most. We
-                            focus on the things that create real, lasting results—like technical optimisation and content
-                            that speaks to your audience. We don't just chase rankings; we chase meaningful engagement.
-                            Through our strategies, we help our clients to increase visibility, drive meaningful traffic and
-                            enhance the user experience. As one of the <strong>top SEO companies in Dubai,</strong> we help
-                            businesses across the world grow, not just appear on search engines.
-
+                            data-aos-duration="1200" data-aos-easing="ease-in-out">Whether you're looking for <b>search engine optimization</b> to increase your visibility, or a smart <b>social media marketing</b> plan to build meaningful connections with your audience, we've got you covered. We know that a webpage isn’t just a page but the foundation of your digital identity. This is reason why our <b>website development</b> services aim on crafting user-friendly, SEO-optimized platforms that make a lasting impression.
+                        </p>
+                        <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
+                            data-aos-duration="1200" data-aos-easing="ease-in-out">We don’t stop at just creating. We amplify your reach through <b>paid ads</b> that drive engagement and conversions. And because content is key, our <b>content marketing services</b> ensure that you create value for your audience while telling your brand’s story. Need visuals to capture attention? Our <b>photography & video production</b> services bring your brand’s personality to life in the most engaging way possible.
+                        </p>
+                        <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
+                            data-aos-duration="1200" data-aos-easing="ease-in-out">Sociomark doesn't just offer services—we offer a partnership to help you grow. As per your needs we customize our plan of action so that every piece of your online presence works together to help you shine.
                         </p>
                     </div>
                 </div>
@@ -324,8 +318,8 @@
                         <div class="title-area text-center">
                             <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                Our Way of 
-                                <span class="text-blue"> Creating Impact</span>.
+                                Our Method to make the 
+                                <span class="text-blue">magic happen</span>
                             </h2>
                             {{-- <p class="sec-para">Here are a few of the SEO strategies that we as a Leading Digital Marketing
                                 Agency in Mumbai
@@ -349,37 +343,25 @@
                     <div class="col-md-6">
                         <div id="benefits">
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Competitor Analysis</h4>
-                                <p class="sec-para">We deep-dive into what your competitors are doing—what’s working, what’s not. These insights help shape a smarter strategy tailored to your goals, especially in the space of <strong>search engine optimisation in Dubai</strong> and UAE. </p>
+                                <h4 class="sub-sec-title">Start with Goals</h4>
+                                <p class="sec-para">We begin by understanding your business, your audience, and what is the end result you are aiming for. Clear goals = clear path. </p>
                             </div>
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Technical SEO Audit</h4>
-                                <p class="sec-para">Identifying what’s slowing your site down or holding it back from better rankings. From crawling issues to broken links, we fix the technical gaps that matter.</p>
+                                <h4 class="sub-sec-title">Craft the Plan</h4>
+                                <p class="sec-para">No cut-paste templates. We build a strategy that fits your voice and serves your growth, step by step.</p>
                             </div>
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Content Strategy</h4>
-                                <p class="sec-para">Crafting meaningful content that connects with the audience and aligns with your brand voice. As an <strong>SEO optimisation agency</strong>, we ensure every piece is polished to boost discoverability and delivers long-term value.</p>
-                            </div>
-                            
-                    
-                            <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">On Page SEO </h4>
-                                <p class="sec-para">Optimisation of every element—meta tags, headers, internal links—to make your pages more search-friendly. It's about making sure your content speaks clearly to both users and search engines.</p>
+                                <h4 class="sub-sec-title">Create for Every Channel</h4>
+                                <p class="sec-para"> From blogs to visuals to ads, we design content that’s right for each space—and connects instantly.
+                                </p>
                             </div>
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">GMB Optimisation</h4>
-                                <p class="sec-para">We fine-tune your Google Business Profile to enhance visibility in local searches. This is key for location-based traffic and local engagement.</p>
+                                <h4 class="sub-sec-title">Distribute Smartly</h4>
+                                <p class="sec-para"> We don’t just post. We promote with purpose, making sure the right eyes land on your message.</p>
                             </div>
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Off-Page SEO</h4>
-                                <p class="sec-para">Building a strong online reputation with valuable backlinks from
-                                    trusted and reputed sources. Implementing strategies to increase your website’s
-                                    authority and credibility through external platforms.</p>
-                            </div>
-                            
-                            <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Traffic Analysis</h4>
-                                <p class="sec-para">Tracking how users reach your website and what they do once they land. These insights help fine-tune performance and conversions over time for businesses seeking a trusted <strong>SEO company in Abu Dhabi and UAE.</strong></p>
+                                <h4 class="sub-sec-title">Refine as We Go</h4>
+                                <p class="sec-para">Digital is always moving. We monitor, analyse, and tweak regularly to keep your growth steady.</p>
                             </div>
                         </div>
                     </div>
@@ -394,8 +376,8 @@
                         <div class="title-area text-center">
                             <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                Best Industry-Specific
-                                <span class="text-blue"> SEO Company</span> Strategies.
+                                Our Approach is All About
+                                <span class="text-blue"> Balance</span>
                             </h2>
                         </div>
                     </div>
@@ -403,84 +385,55 @@
                 <div class="according-list-area">
                     <div class="according-list hover-item item-active">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Ecommerce SEO</h3>
+                            <h3 class="box-title">Understand the Brand Inside Out</h3>
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/Services-page/seo/Ecommerce Seo.png') }}" alt="" class="rounded-overflow">
-                            <p class="sec-para text">Transform passive visitors into engaged customers.
-                                Our strategies are designed to boost website traffic and conversions through a combination
-                                of content optimization, in-depth website audits, and keyword research.
-                                We'll help you dominate search engine results and attract quality leads.
+                            <p class="sec-para text">We dive into your business, market, and audience to know exactly what makes your brand tick.
                             </p>
 
                         </div>
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">International SEO</h3>
+                            <h3 class="box-title">Study Competitors and Gaps</h3>
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/Services-page/seo/International Seo.png') }}" alt="" class="rounded-overflow">
-                            <p class="sec-para text">We excel in international SEO. Our strategies focus on key elements
-                                like multilingual keyword research, in-depth audience analysis, and optimized website
-                                structure. We also specialize in geo-targeting, ensuring your content reaches the right
-                                people in the right places.
-
+                            <p class="sec-para text">We study what others in your space are doing—and how we can help you stand out.
                             </p>
 
                         </div>
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Mobile SEO</h3>
+                            <h3 class="box-title">Plan with Precision</h3>
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/Services-page/seo/Mobile Seo.png') }}" alt="" class="rounded-overflow">
-                            <p class="sec-para text"> It plays an essential role in any business. Our strategies focus on
-                                optimizing your website for mobile devices, including improving loading speed, enhancing
-                                user experience, and optimizing for local search. This ensures your business stands out in
-                                the competitive mobile landscape.
-
+                            <p class="sec-para text"> We build detailed plans with timelines and touchpoints so everything flows smoothly from day one.
                             </p>
 
                         </div>
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Local SEO</h3>
+                            <h3 class="box-title">Create with Intent</h3>
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/Services-page/seo/Local Seo.png') }}" alt="" class="rounded-overflow">
-                            <p class="sec-para text">We focus on enhancing customer engagement at the offline stores,
-                                increasing their online audience who are often unaware of their local presence, and getting
-                                them on the map with Google Listings.
+                            <p class="sec-para text"> Every creative is built to speak your brand’s language, and every word is placed with purpose.
                             </p>
 
                         </div>
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Google Analytics and Reports </h3>
+                            <h3 class="box-title">Execute and Optimise</h3>
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/Services-page/seo/Goodle Analytics and Report.png') }}" alt="" class="rounded-overflow">
-                            <p class="sec-para text">Our Google Analytics and reporting services transform raw data into a
-                                strategic advantage. We delve deep into your website's performance, identifying trends, user
-                                behaviour, and conversion opportunities.
-                            </p>
-
-                        </div>
-                    </div>
-                    <div class="according-list hover-item">
-                        <div class="accordion-item2">
-                            <h3 class="box-title">SEO Audit</h3>
-                        </div>
-                        <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Seo Audit.png') }}" alt="" class="rounded-overflow">
-                            <p class="sec-para text">Our SEO audits provide a deep dive into your online presence,
-                                identifying strengths, weaknesses, and opportunities for growth. We scrutinize every aspect,
-                                from technical SEO to content optimization, delivering actionable insights to boost your
-                                search rankings and drive organic traffic.
+                            <p class="sec-para text">We run your campaigns, track results, and keep fine-tuning so every effort moves the needle.
                             </p>
 
                         </div>
@@ -505,7 +458,7 @@
                         data-aos-easing="ease-in-out">
                         <div class="title-area mb-20">
                             <h2 class="sec-title mb-md-3 mb-2">
-                                The impact of partnering with <span class="text-blue">Sociomark</span>
+                                The Roots of Our <span class="text-blue">Trusted Reputation</span>
                             </h2>
                         </div>
                         <p class="sec-para d-none ">Our SEO strategies are designed to improve your website’s ranking on
@@ -517,8 +470,8 @@
                                     <img src="https://placehold.co/80x80" alt="Icon">
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="sub-sec-title">Comprehensive Digital Solutions</h4>
-                                    <p class="sec-para"> We provide cost-effective SEO strategies that enhance your visibility and bring measurable growth to your business.</p>
+                                    <h4 class="sub-sec-title">Sharp Strategy First</h4>
+                                    <p class="sec-para">  We don’t guess. We research, plan, and build strategies that are tailored to your goals and audience. That’s how we drive real impact.</p>
                                 </div>
                             </div>
                             <div class="choose-feature">
@@ -526,8 +479,9 @@
                                     <img src="https://placehold.co/80x80" alt="Icon">
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="sub-sec-title">Tailored Strategies for Long-term Growth</h4>
-                                    <p class="sec-para">Our approach focuses on sustainable results, ensuring that your brand ranks higher and stays relevant in the market.</p>
+                                    <h4 class="sub-sec-title">Channel-by-Channel Expertise</h4>
+                                    <p class="sec-para">From SEO to social to content and ads—we understand how each piece works. More importantly, how they work together.
+                                    </p>
                                 </div>
                             </div>
                             <div class="choose-feature">
@@ -535,8 +489,8 @@
                                     <img src="https://placehold.co/80x80" alt="Icon">
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="sub-sec-title">Perfect Integration of SEO and Web Development</h4>
-                                    <p class="sec-para"> By combining SEO with expert <strong>web development,</strong> we ensure that your website is optimised for both performance and user experience.
+                                    <h4 class="sub-sec-title">Built to Grow</h4>
+                                    <p class="sec-para"> Our approach is long-term. Everything we do is structured to scale with your business and its ambitions.
                                     </p>
                                 </div>
                             </div>
@@ -634,7 +588,7 @@
                 <!-- Header Text -->
                 <h2 class="fw-bold mb-5 sec-title text-center" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    What’s Included in Our <span class="text-blue"> SEO Package</span>
+                    What’s Included in Our <span class="text-blue"> Digital Marketing Package</span>
                 </h2>
                 <!-- Feature Icons Row 1 -->
                 <div class="row justify-content-evenly mt-5">
