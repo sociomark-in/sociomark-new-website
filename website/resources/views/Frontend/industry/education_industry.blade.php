@@ -425,7 +425,7 @@
                     <button data-filter=".cat3" class="tab-btn" type="button">Social Media Marketing</button>
                     <button data-filter=".cat4" class="tab-btn" type="button">Website Development</button>
                     <button data-filter=".cat5" class="tab-btn" type="button">Content Marketing</button>
-                    <button data-filter=".cat6" class="tab-btn" type="button">SEM</button>
+                    <button data-filter=".cat6" class="tab-btn" type="button">Performance Marketing</button>
                     <button data-filter=".cat6" class="tab-btn" type="button">Production & Photography</button>
 
                 </div>

@@ -81,6 +81,8 @@ Header Area
                                             <li><a href="{{ route('industry_single', ['segment' => "gaming"]) }}">Gaming</a></li>
                                             <li><a href="{{ route('industry_single', ['segment' => "home-interior"]) }}">Home & Interior</a></li>
                                             <li><a href="{{ route('industry_single', ['segment' => "automobile"]) }}">Automobile</a></li>
+                                            <li><a href="{{ route('industry_single', ['segment' => "b2b"]) }}">B2B</a></li>
+                                            <li><a href="{{ route('industry_single', ['segment' => "travel"]) }}">Travel</a></li>
                                         </ul>
                                     </li>
 
