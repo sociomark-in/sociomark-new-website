@@ -64,7 +64,7 @@ Header Area
                                             <li><a href="{{ route('socialMedia') }}">Social Media Marketing</a></li>
                                             <li><a href="{{ route('website') }}">Website Development</a></li>
                                             <li><a href="{{ route('contentMarketing') }}">Content Marketing</a></li>
-                                            <li><a href="{{ route('sem') }}">SEM</a></li>
+                                            <li><a href="{{ route('sem') }}">Performance Marketing</a></li>
                                             <li><a href="{{ route('photoVideography') }}">Photography & Video Production</a></li>
                                         </ul>
                                     </li>

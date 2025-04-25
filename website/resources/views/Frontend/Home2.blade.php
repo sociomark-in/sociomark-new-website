@@ -592,7 +592,7 @@
                             <span>Social Media Marketing</span>
                             <span>Website Development</span>
                             <span>Content Marketing</span>
-                            <span>SEM</span>
+                            <span>Performance Marketing</span>
                             <span>Photography & Video Production</span>
                         </div>
                     </div>
@@ -614,7 +614,7 @@
                         <script>
                             new Typewriter('#workTitle', {
                                 strings: ['Lasting Impressions', 'Digital Marketing', 'Search Engine Optimization',
-                                    'Social Media Marketing', 'Website Development', 'Content Marketing', 'SEM', 'Photography',
+                                    'Social Media Marketing', 'Website Development', 'Content Marketing', 'Performance Marketing', 'Photography',
                                     'Video Production'
                                 ],
                                 autoStart: true,
@@ -1005,7 +1005,7 @@
                             <span>Social Media Marketing</span>
                             <span>Website Development</span>
                             <span>Content Marketing</span>
-                            <span>SEM</span>
+                            <span>Performance Marketing</span>
                             <span>Photography & Video Production</span>
                         </div>
                     </div>
@@ -1366,7 +1366,7 @@
                                         <option value="Social Media">Social Media</option>
                                         <option value="Digital Marketing">Digital Marketing</option>
                                         <option value="Conetnt Marketing">Conetnt Marketing</option>
-                                        <option value="SEM">SEM</option>
+                                        <option value="SEM">Performance Marketing</option>
                                         <option value="Photography & Video Production">Photography & Video Production
                                         </option>
                                     </select>
@@ -1491,7 +1491,7 @@
                                         <option value="Social Media">Social Media</option>
                                         <option value="Digital Marketing">Digital Marketing</option>
                                         <option value="Conetnt Marketing">Conetnt Marketing</option>
-                                        <option value="SEM">SEM</option>
+                                        <option value="SEM">Performance Marketing</option>
                                         <option value="Photography & Video Production">Photography & Video Production
                                         </option>
                                     </select>
