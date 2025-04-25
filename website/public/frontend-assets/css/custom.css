@@ -1203,8 +1203,7 @@ main#home {
 /* Team Collage */
 
 /* about-flip section3 */
-#about-flip .first-feature-card:nth-child(odd) .flip-box-front,
-#about-flip .second-feature-card:nth-child(even) .flip-box-front {
+#about-flip .first-feature-card {
     background-color: #ffffff;
 }
 
@@ -1213,7 +1212,7 @@ main#home {
     height: 320px;
 }
 
-#about-flip .second-feature-card{
+#about-flip .second-feature-card {
     background-color: #f6f9ff;
 }
 
