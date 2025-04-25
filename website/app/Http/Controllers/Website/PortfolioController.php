@@ -65,75 +65,75 @@ class PortfolioController extends Controller
         return view('Frontend/Portfolio/ayushaktiSocialMedia');
     }
     public function aiawards(){
-        return view('frontend/Portfolio/aiawards');
+        return view('Frontend/Portfolio/aiawards');
     }
     public function smarterindia(){
-        return view('frontend/Portfolio/smarterindiaSocialMedia');
+        return view('Frontend/Portfolio/smarterindiaSocialMedia');
     }
     public function grillbox(){
-        return view('frontend/Portfolio/grillboxSocialMedia');
+        return view('Frontend/Portfolio/grillboxSocialMedia');
     }
     public function kolkatarolls(){
-        return view('frontend/Portfolio/kolkatarollsSocialMedia');
+        return view('Frontend/Portfolio/kolkatarollsSocialMedia');
     }
     public function hollywoodopticians(){
-        return view('frontend/Portfolio/hollywoodopticiansSocialMedia');
+        return view('Frontend/Portfolio/hollywoodopticiansSocialMedia');
     }
     public function foresightopticals(){
-        return view('frontend/Portfolio/foresightopticalsSocialMedia');
+        return view('Frontend/Portfolio/foresightopticalsSocialMedia');
     }
     public function inifdvashi(){
-        return view('frontend/Portfolio/inifdvashiSocialMedia');
+        return view('Frontend/Portfolio/inifdvashiSocialMedia');
     }
     public function profinet(){
-        return view('frontend/Portfolio/profinetbranding');
+        return view('Frontend/Portfolio/profinetbranding');
     }
     public function ayushaktiweb(){
-        return view('frontend/Portfolio/ayushaktiweb');
+        return view('Frontend/Portfolio/ayushaktiweb');
     }
     public function electrocareweb(){
-        return view('frontend/Portfolio/electrocareweb');
+        return view('Frontend/Portfolio/electrocareweb');
     }
     public function offthehookgrabandgo(){
-        return view('frontend/Portfolio/offthehookgrabandgoweb');
+        return view('Frontend/Portfolio/offthehookgrabandgoweb');
     }
     public function offthehooknanaimo(){
-        return view('frontend/Portfolio/offthehooknanaimoweb');
+        return view('Frontend/Portfolio/offthehooknanaimoweb');
     }
     public function barebonesfishhouse(){
-        return view('frontend/Portfolio/barebonesfishhouseweb');
+        return view('Frontend/Portfolio/barebonesfishhouseweb');
     }
     public function kinnaltoys(){
-        return view('frontend/Portfolio/kinnaltoysweb');
+        return view('Frontend/Portfolio/kinnaltoysweb');
     }
     public function trollerfishandchips(){
-        return view('frontend/Portfolio/trollerfishandchipsweb');
+        return view('Frontend/Portfolio/trollerfishandchipsweb');
     }
     public function limeweb(){
-        return view('frontend/Portfolio/limeweb');
+        return view('Frontend/Portfolio/limeweb');
     }
     public function ayushaktiusaweb(){
-        return view('frontend/Portfolio/ayushaktiusaweb');
+        return view('Frontend/Portfolio/ayushaktiusaweb');
     }
     public function drsmitanaramweb(){
-        return view('frontend/Portfolio/drsmitanaramweb');
+        return view('Frontend/Portfolio/drsmitanaramweb');
     }
     public function realEAweb(){
-        return view('frontend/Portfolio/realEAweb');
+        return view('Frontend/Portfolio/realEAweb');
     }
     public function portraitureByPariWeb(){
-        return view('frontend/Portfolio/portraitureByPariWeb');
+        return view('Frontend/Portfolio/portraitureByPariWeb');
     }
     public function profinetWeb(){
-        return view('frontend/Portfolio/profinetWeb');
+        return view('Frontend/Portfolio/profinetWeb');
     }
     public function aainosWeb(){
-        return view('frontend/Portfolio/aainosWeb');
+        return view('Frontend/Portfolio/aainosWeb');
     }
     public function hollywoodOpticiansBranding(){
-        return view('frontend/Portfolio/hollywoodOpticiansBranding');
+        return view('Frontend/Portfolio/hollywoodOpticiansBranding');
     }
     public function foresightOpticalsBranding(){
-        return view('frontend/Portfolio/foresightOpticalsBranding');
+        return view('Frontend/Portfolio/foresightOpticalsBranding');
     }
 }

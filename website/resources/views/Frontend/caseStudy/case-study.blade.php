@@ -1,4 +1,4 @@
-@extends('frontend.layout.app')
+@extends('Frontend.layout.app')
 
 @section('custome-style')
 <style>
@@ -40,7 +40,7 @@
     /* card  */
     .card__article {
         position: static !important;
-        height: 380px !important;
+        height: 280px !important;
     }
 
     .card__img {
@@ -83,11 +83,10 @@
     #portfolio-sec i {
         font-size: 45px;
     }
+
     .img-fluid {
-    
-    height: 350px;
-    object-fit: contain;
-}
+        object-fit: contain;
+    }
 </style>
 @endsection
 
@@ -160,110 +159,110 @@
             <div class="portfolio-container">
                 <div class="filter-active row h-auto g-4">
                     <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
-                        <img src="{{ asset('frontend-assets/img/case-study/new.png') }}" alt="image" class="card__img img-fluid">
+                        <img src="{{ asset('frontend-assets/img/case-study/new.png') }}" alt="image" class="card__img img-fluid w-100 h-100">
                         <div class="card__data">
                             <h4 class="sub-sec-title">StemRx Bioscience</h4>
                             <a href="{{ route('stemrxbio') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
                     <article class="card__article filter-item cat2 cat1 col-12 col-sm-6 col-md-4 col-lg-3">
-                        <img src="{{ asset('frontend-assets/img/case-study/E4T.png') }}" alt="image" class="card__img img-fluid">
+                        <img src="{{ asset('frontend-assets/img/case-study/E4T.png') }}" alt="image" class="card__img img-fluid w-100 h-100">
                         <div class="card__data">
                             <h4 class="sub-sec-title">Expert4travel</h4>
                             <a href="{{ route('expert4travel') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                   
+
                     <article class="card__article filter-item cat3 col-12 col-sm-6 col-md-4 col-lg-3">
-                        <img src="{{ asset('frontend-assets/img/case-study/EDUAURAA.png') }}" alt="image" class="card__img img-fluid">
+                        <img src="{{ asset('frontend-assets/img/case-study/EDUAURAA.png') }}" alt="image" class="card__img img-fluid w-100 h-100">
                         <div class="card__data">
                             <h4 class="sub-sec-title">Eduauraa</h4>
                             <a href="{{ route('eduauraa') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                    
+
                     <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
-                        <img src="{{ asset('frontend-assets/img/case-study/shahenaz.png') }}" alt="image" class="card__img img-fluid">
+                        <img src="{{ asset('frontend-assets/img/case-study/shahenaz.png') }}" alt="image" class="card__img img-fluid w-100 h-100">
                         <div class="card__data">
                             <h4 class="sub-sec-title">Shahenaz</h4>
                             <a href="{{ route('shahenaz') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                   
+
                     <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
-                        <img src="{{ asset('frontend-assets/img/case-study/OKINAWA.png') }}" alt="image" class="card__img img-fluid">
+                        <img src="{{ asset('frontend-assets/img/case-study/OKINAWA.png') }}" alt="image" class="card__img img-fluid w-100 h-100">
                         <div class="card__data">
                             <h4 class="sub-sec-title">Okinawa scooters</h4>
                             <a href="{{ route('okinawascooters') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                    
+
                     <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
-                        <img src="{{ asset('frontend-assets/img/case-study/theprofessional.png') }}" alt="image" class="card__img img-fluid">
+                        <img src="{{ asset('frontend-assets/img/case-study/theprofessional.png') }}" alt="image" class="card__img img-fluid w-100 h-100">
                         <div class="card__data">
                             <h4 class="sub-sec-title">The Professional Couriers</h4>
                             <a href="{{ route('the-professional-couriers') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                    
+
                     <article class="card__article filter-item cat3 cat2 col-12 col-sm-6 col-md-4 col-lg-3">
-                        <img src="{{ asset('frontend-assets/img/case-study/ayushakti.png') }}" alt="image" class="card__img img-fluid">
+                        <img src="{{ asset('frontend-assets/img/case-study/ayushakti.png') }}" alt="image" class="card__img img-fluid w-100 h-100">
                         <div class="card__data">
                             <h4 class="sub-sec-title">Ayushakti Ayurved</h4>
                             <a href="{{ route('ayushakti') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                    
+
                     <article class="card__article filter-item cat1 cat3 cat2 col-12 col-sm-6 col-md-4 col-lg-3">
-                        <img src="{{ asset('frontend-assets/img/case-study/nodwin-gaming.jpg') }}" alt="image" class="card__img img-fluid">
+                        <img src="{{ asset('frontend-assets/img/case-study/nodwin-gaming.jpg') }}" alt="image" class="card__img img-fluid w-100 h-100">
                         <div class="card__data">
                             <h4 class="sub-sec-title">Nodwin Gaming</h4>
                             <a href="{{ route('nodwinGaming') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                    
+
                     <article class="card__article filter-item cat3 col-12 col-sm-6 col-md-4 col-lg-3">
-                        <img src="{{ asset('frontend-assets/img/case-study/bddb.png') }}" alt="image" class="card__img img-fluid">
+                        <img src="{{ asset('frontend-assets/img/case-study/bddb.png') }}" alt="image" class="card__img img-fluid w-100 h-100">
                         <div class="card__data">
                             <h4 class="sub-sec-title">Button Dabao Desh Banao</h4>
                             <a href="{{ route('buttondabaodeshbanao') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                   
+
                     <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
-                        <img src="{{ asset('frontend-assets/img/case-study/rts.png') }}" alt="image" class="card__img img-fluid">
+                        <img src="{{ asset('frontend-assets/img/case-study/rts.png') }}" alt="image" class="card__img img-fluid w-100 h-100">
                         <div class="card__data">
                             <h4 class="sub-sec-title">Road To Safty Initiative</h4>
                             <a href="{{ route('roadtosafetyinitiative') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                   
+
                     <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
-                        <img src="{{ asset('frontend-assets/img/case-study/lime_logo.png') }}" alt="image" class="card__img img-fluid">
+                        <img src="{{ asset('frontend-assets/img/case-study/lime_logo.png') }}" alt="image" class="card__img img-fluid w-100 h-100">
                         <div class="card__data">
                             <h4 class="sub-sec-title">Lime XII</h4>
                             <a href="{{ route('lime') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                   
+
                     <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
-                        <img src="{{ asset('frontend-assets/img/case-study/ace tatto.png') }}" alt="image" class="card__img img-fluid">
+                        <img src="{{ asset('frontend-assets/img/case-study/ace tatto.png') }}" alt="image" class="card__img img-fluid w-100 h-100">
                         <div class="card__data">
                             <h4 class="sub-sec-title">Ace Tattooz</h4>
                             <a href="{{ route('acetattoz') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                   
+
                     <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
-                        <img src="{{ asset('frontend-assets/img/case-study/smarter-logo.png') }}" alt="image" class="card__img img-fluid">
+                        <img src="{{ asset('frontend-assets/img/case-study/smarter-logo.png') }}" alt="image" class="card__img img-fluid w-100 h-100">
                         <div class="card__data">
                             <h4 class="sub-sec-title">Smarter India</h4>
                             <a href="{{ route('smarterIndia') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
-                   
+
                     <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
-                        <img src="{{ asset('frontend-assets/img/case-study/rea.png') }}" alt="image" class="card__img img-fluid">
+                        <img src="{{ asset('frontend-assets/img/case-study/rea.png') }}" alt="image" class="card__img img-fluid w-100 h-100">
                         <div class="card__data">
                             <h4 class="sub-sec-title">Real Estate Awards</h4>
                             <a href="{{ route('realestateawards') }}" class="card__button text-blue">Read More</a>
