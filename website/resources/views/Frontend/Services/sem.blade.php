@@ -224,8 +224,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <img src="https://placehold.co/1920x900"
-                            alt="" srcset="" width="100%">
+                        <img src="https://placehold.co/1920x900" alt="" srcset="" width="100%">
                     </div>
                 </div>
             </div>
@@ -271,32 +270,32 @@
         <section class="overflow-hidden py-5" id="about-sec">
             <div class="container">
                 <div class="row align-items-end justify-content-center">
-                    <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
+                    <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
                         <div class="title-area mb-md-3 mb-2 mt-n1">
                             <h2 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                Accelerate your digital growth with a reliable <span class="text-blue"> SEO Agency in
-                                    UAE</span>
+                                Get <span class="text-blue">Seen</span>, Get <span class="text-blue">Clicked</span>, Get
+                                <span class="text-blue">Results </span>
                             </h2>
                         </div>
                     </div>
                     <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
                         <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                            data-aos-duration="1200" data-aos-easing="ease-in-out">SEO is more than just showing up in
-                            search results. It is about getting recognised by the audience that matters to you. No matter if
-                            you are a new startup or an MNC company, at Sociomark, we make strategies that drive real
-                            growth.
+                            data-aos-duration="1200" data-aos-easing="ease-in-out">Your audience is out there, scrolling,
+                            searching, comparing—and ads are how you grab their attention. Paid advertising isn’t just about
+                            showing up. It’s about appearing in the right place with a right message at the right time.
+                            That’s where Sociomark steps in. We craft ads that stop thumbs and spark interest. Whether it’s
+                            search, display, or video, each click is backed by strategy, creativity, and constant
+                            optimization. From snappy headlines to conversion-ready landing pages, every piece is built to
+                            bring in business.
                         </p>
                         <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                            data-aos-duration="1200" data-aos-easing="ease-in-out">With our expertise in <strong>SEO in
-                                Dubai,</strong>, we tailor each approach to fit your unique goals. From local market
-                            insights to global trends, we ensure that you gain visibility where it matters the most. We
-                            focus on the things that create real, lasting results—like technical optimisation and content
-                            that speaks to your audience. We don't just chase rankings; we chase meaningful engagement.
-                            Through our strategies, we help our clients to increase visibility, drive meaningful traffic and
-                            enhance the user experience. As one of the <strong>top SEO companies in Dubai,</strong> we help
-                            businesses across the world grow, not just appear on search engines.
-
+                            data-aos-duration="1200" data-aos-easing="ease-in-out">No cookie-cutter templates here. Your
+                            goals guide the approach. Want to boost traffic? Sell a product? Capture leads? There’s a paid
+                            solution for that. With <b>SEM</b>, you get targeted visibility that translates into action.
+                            From <b>Google pay per click</b> to <b>LinkedIn paid advertising</b>, we help you tap into the
+                            platforms that matter.Your budget works smarter, your results go further, and your brand is
+                            under the spotlight that it needs.
                         </p>
                     </div>
                 </div>
@@ -324,8 +323,7 @@
                         <div class="title-area text-center">
                             <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                Our Way of 
-                                <span class="text-blue"> Creating Impact</span>.
+                                How We Deliver <span class="text-blue">Impact</span>, Not Just <span class="text-blue">Impressions</span>
                             </h2>
                             {{-- <p class="sec-para">Here are a few of the SEO strategies that we as a Leading Digital Marketing
                                 Agency in Mumbai
@@ -349,37 +347,28 @@
                     <div class="col-md-6">
                         <div id="benefits">
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Competitor Analysis</h4>
-                                <p class="sec-para">We deep-dive into what your competitors are doing—what’s working, what’s not. These insights help shape a smarter strategy tailored to your goals, especially in the space of <strong>search engine optimisation in Dubai</strong> and UAE. </p>
+                                <h4 class="sub-sec-title">Goal-First Planning</h4>
+                                <p class="sec-para"> It begins with knowing your destination. Every campaign is woven around a particular objective. </p>
                             </div>
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Technical SEO Audit</h4>
-                                <p class="sec-para">Identifying what’s slowing your site down or holding it back from better rankings. From crawling issues to broken links, we fix the technical gaps that matter.</p>
+                                <h4 class="sub-sec-title"> Precision Targeting</h4>
+                                <p class="sec-para">With <b>paid search advertising</b>, we go beyond demographics. Behaviour, intent, location—we zero in on what matters.
+                                </p>
                             </div>
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Content Strategy</h4>
-                                <p class="sec-para">Crafting meaningful content that connects with the audience and aligns with your brand voice. As an <strong>SEO optimisation agency</strong>, we ensure every piece is polished to boost discoverability and delivers long-term value.</p>
+                                <h4 class="sub-sec-title">Creative That Converts</h4>
+                                <p class="sec-para"> Ad fatigue is real. That’s why our creatives—from <b>YouTube paid ads</b> to carousel posts—are built to engage and convert.</p>
                             </div>
-                            
-                    
+
+
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">On Page SEO </h4>
-                                <p class="sec-para">Optimisation of every element—meta tags, headers, internal links—to make your pages more search-friendly. It's about making sure your content speaks clearly to both users and search engines.</p>
-                            </div>
-                            <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">GMB Optimisation</h4>
-                                <p class="sec-para">We fine-tune your Google Business Profile to enhance visibility in local searches. This is key for location-based traffic and local engagement.</p>
+                                <h4 class="sub-sec-title">Smart Spend Allocation</h4>
+                                <p class="sec-para"> Your money deserves better. We place every rupee where it works hardest, from <b>Google paid search</b> to retargeting.</p>
                             </div>
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Off-Page SEO</h4>
-                                <p class="sec-para">Building a strong online reputation with valuable backlinks from
-                                    trusted and reputed sources. Implementing strategies to increase your website’s
-                                    authority and credibility through external platforms.</p>
-                            </div>
-                            
-                            <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Traffic Analysis</h4>
-                                <p class="sec-para">Tracking how users reach your website and what they do once they land. These insights help fine-tune performance and conversions over time for businesses seeking a trusted <strong>SEO company in Abu Dhabi and UAE.</strong></p>
+                                <h4 class="sub-sec-title"> Reports That Make Sense</h4>
+                                <p class="sec-para">Clear, useful, and jargon-free. You know what’s working and where we’re heading next.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -394,8 +383,8 @@
                         <div class="title-area text-center">
                             <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                Best Industry-Specific
-                                <span class="text-blue"> SEO Company</span> Strategies.
+                                Our  
+                                <span class="text-blue"> Paid Ads</span> Playbook
                             </h2>
                         </div>
                     </div>
@@ -403,43 +392,24 @@
                 <div class="according-list-area">
                     <div class="according-list hover-item item-active">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Ecommerce SEO</h3>
+                            <h3 class="box-title">Understand the Audience</h3>
                         </div>
                         <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Ecommerce Seo.png') }}" alt="" class="rounded-overflow">
-                            <p class="sec-para text">Transform passive visitors into engaged customers.
-                                Our strategies are designed to boost website traffic and conversions through a combination
-                                of content optimization, in-depth website audits, and keyword research.
-                                We'll help you dominate search engine results and attract quality leads.
+                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Ecommerce Seo.png') }}"
+                                alt="" class="rounded-overflow">
+                            <p class="sec-para text">People don’t click what doesn’t connect. So we start with understanding about them and their needs.
                             </p>
 
                         </div>
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">International SEO</h3>
+                            <h3 class="box-title">Dig Into Keywords</h3>
                         </div>
                         <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/Services-page/seo/International Seo.png') }}" alt="" class="rounded-overflow">
-                            <p class="sec-para text">We excel in international SEO. Our strategies focus on key elements
-                                like multilingual keyword research, in-depth audience analysis, and optimized website
-                                structure. We also specialize in geo-targeting, ensuring your content reaches the right
-                                people in the right places.
-
-                            </p>
-
-                        </div>
-                    </div>
-                    <div class="according-list hover-item">
-                        <div class="accordion-item2">
-                            <h3 class="box-title">Mobile SEO</h3>
-                        </div>
-                        <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Mobile Seo.png') }}" alt="" class="rounded-overflow">
-                            <p class="sec-para text"> It plays an essential role in any business. Our strategies focus on
-                                optimizing your website for mobile devices, including improving loading speed, enhancing
-                                user experience, and optimizing for local search. This ensures your business stands out in
-                                the competitive mobile landscape.
+                            <img src="{{ asset('frontend-assets/img/Services-page/seo/International Seo.png') }}"
+                                alt="" class="rounded-overflow">
+                            <p class="sec-para text">Effective <b>sem marketing</b> relies on strong keyword research. We pick high-intent words that lead to results
 
                             </p>
 
@@ -447,40 +417,36 @@
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Local SEO</h3>
+                            <h3 class="box-title">Build Campaigns That Fit</h3>
                         </div>
                         <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Local Seo.png') }}" alt="" class="rounded-overflow">
-                            <p class="sec-para text">We focus on enhancing customer engagement at the offline stores,
-                                increasing their online audience who are often unaware of their local presence, and getting
-                                them on the map with Google Listings.
+                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Mobile Seo.png') }}" alt=""
+                                class="rounded-overflow">
+                            <p class="sec-para text">One-size ads don’t perform. From <b>LinkedIn paid ads</b> to dynamic remarketing, we tailor it all.
                             </p>
 
                         </div>
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Google Analytics and Reports </h3>
+                            <h3 class="box-title">Launch, Monitor, Adapt</h3>
                         </div>
                         <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Goodle Analytics and Report.png') }}" alt="" class="rounded-overflow">
-                            <p class="sec-para text">Our Google Analytics and reporting services transform raw data into a
-                                strategic advantage. We delve deep into your website's performance, identifying trends, user
-                                behaviour, and conversion opportunities.
+                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Local Seo.png') }}" alt=""
+                                class="rounded-overflow">
+                            <p class="sec-para text"> Campaigns go live with a plan—and a backup. Because digital never sleeps, and neither do we.
                             </p>
 
                         </div>
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">SEO Audit</h3>
+                            <h3 class="box-title"> Stay On Top </h3>
                         </div>
                         <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Seo Audit.png') }}" alt="" class="rounded-overflow">
-                            <p class="sec-para text">Our SEO audits provide a deep dive into your online presence,
-                                identifying strengths, weaknesses, and opportunities for growth. We scrutinize every aspect,
-                                from technical SEO to content optimization, delivering actionable insights to boost your
-                                search rankings and drive organic traffic.
+                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Goodle Analytics and Report.png') }}"
+                                alt="" class="rounded-overflow">
+                            <p class="sec-para text">With ongoing <b>ppc management services</b>, we keep campaigns sharp and in-sync with trends.
                             </p>
 
                         </div>
@@ -505,7 +471,7 @@
                         data-aos-easing="ease-in-out">
                         <div class="title-area mb-20">
                             <h2 class="sec-title mb-md-3 mb-2">
-                                The impact of partnering with <span class="text-blue">Sociomark</span>
+                                Our Paid <span class="text-blue">Advertising Expertise </span>
                             </h2>
                         </div>
                         <p class="sec-para d-none ">Our SEO strategies are designed to improve your website’s ranking on
@@ -517,8 +483,8 @@
                                     <img src="https://placehold.co/80x80" alt="Icon">
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="sub-sec-title">Comprehensive Digital Solutions</h4>
-                                    <p class="sec-para"> We provide cost-effective SEO strategies that enhance your visibility and bring measurable growth to your business.</p>
+                                    <h4 class="sub-sec-title"> Strategy Over Spray</h4>
+                                    <p class="sec-para">We don’t throw ads into the wind. As a <b>paid ads agency</b>, each of our campaign starts with intent, insight and ends with tangible results.</p>
                                 </div>
                             </div>
                             <div class="choose-feature">
@@ -526,8 +492,8 @@
                                     <img src="https://placehold.co/80x80" alt="Icon">
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="sub-sec-title">Tailored Strategies for Long-term Growth</h4>
-                                    <p class="sec-para">Our approach focuses on sustainable results, ensuring that your brand ranks higher and stays relevant in the market.</p>
+                                    <h4 class="sub-sec-title">Platform Power</h4>
+                                    <p class="sec-para">From <b>YouTube paid promotion</b> to <b>Facebook paid ads</b>, we know what works where—and why.</p>
                                 </div>
                             </div>
                             <div class="choose-feature">
@@ -535,8 +501,8 @@
                                     <img src="https://placehold.co/80x80" alt="Icon">
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="sub-sec-title">Perfect Integration of SEO and Web Development</h4>
-                                    <p class="sec-para"> By combining SEO with expert <strong>web development,</strong> we ensure that your website is optimised for both performance and user experience.
+                                    <h4 class="sub-sec-title">Always Optimizing</h4>
+                                    <p class="sec-para"> Numbers don’t lie. We track, test, tweak, and repeat to keep performance high.
                                     </p>
                                 </div>
                             </div>
@@ -548,8 +514,7 @@
                             <div class="tilt-active">
                                 {{-- <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}"
                                     alt="Choose" class="w-100"> --}}
-                                <img src="https://placehold.co/300x400"
-                                    alt="Choose" class="w-100">
+                                <img src="https://placehold.co/300x400" alt="Choose" class="w-100">
 
                             </div>
                         </div>
@@ -558,8 +523,8 @@
             </div>
         </section>
         <!--==============================
-            Testimonial Area
-            ==============================-->
+                Testimonial Area
+                ==============================-->
         <section class="space overflow-hidden overflow-hidden">
             <div class="container">
                 <div class="title-area text-center">
@@ -577,8 +542,12 @@
                                         <div class="testi-logo">
                                             <img src="http://placehold.co/200x80" alt="">
                                         </div>
-                                        <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto repellendus sequi. Velit cumque aut rerum</h3>
-                                        <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis provident doloremque blanditiis. Molestiae?</p>
+                                        <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                                            iusto repellendus sequi. Velit cumque aut rerum</h3>
+                                        <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                                            corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore
+                                            laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis
+                                            provident doloremque blanditiis. Molestiae?</p>
                                         <h3 class="box-title">Lorem ipsum</h3>
                                         <span class="box-desig">Lorem ipsum</span>
                                     </div>
@@ -593,8 +562,12 @@
                                         <div class="testi-logo">
                                             <img src="http://placehold.co/200x80" alt="">
                                         </div>
-                                        <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto repellendus sequi. Velit cumque aut rerum</h3>
-                                        <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis provident doloremque?</p>
+                                        <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                                            iusto repellendus sequi. Velit cumque aut rerum</h3>
+                                        <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                                            corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore
+                                            laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis
+                                            provident doloremque?</p>
                                         <h3 class="box-title">Lorem ipsum</h3>
                                         <span class="box-desig">Lorem ipsum</span>
                                     </div>
@@ -609,8 +582,12 @@
                                         <div class="testi-logo">
                                             <img src="http://placehold.co/200x80" alt="">
                                         </div>
-                                        <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto repellendus sequi. Velit cumque aut rerum</h3>
-                                        <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis provident doloremque blanditiis.?</p>
+                                        <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                                            iusto repellendus sequi. Velit cumque aut rerum</h3>
+                                        <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                                            corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore
+                                            laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis
+                                            provident doloremque blanditiis.?</p>
                                         <h3 class="box-title">Lorem ipsum</h3>
                                         <span class="box-desig">Lorem ipsum</span>
                                     </div>
@@ -634,7 +611,7 @@
                 <!-- Header Text -->
                 <h2 class="fw-bold mb-5 sec-title text-center" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    What’s Included in Our <span class="text-blue"> SEO Package</span>
+                    What’s Included in Our <span class="text-blue"> Performance Marketing Package</span>
                 </h2>
                 <!-- Feature Icons Row 1 -->
                 <div class="row justify-content-evenly mt-5">

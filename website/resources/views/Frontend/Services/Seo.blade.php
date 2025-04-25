@@ -349,7 +349,7 @@
                     <div class="col-md-6 text-center">
                         <div class="circle-wrapper" data-aos="fade-right" data-aos-delay="200" data-tilt data-tilt-max="10">
                             <div class="circle" data-tilt data-tilt-max="10">
-                                <img src="{{ asset('frontend-assets/img/Services-page/Services_Main.png') }}" alt="Key"
+                                <img src="{{ asset('frontend-assets/img/Services-page/seo/Creating Impact.png') }}" alt="Key"
                                     class="key-image mt-3">
                             </div>
                         </div>
@@ -578,7 +578,7 @@
                             <div class="tilt-active">
                                 {{-- <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}"
                                     alt="Choose" class="w-100"> --}}
-                                <img src="https://placehold.co/300x400" alt="Choose" class="w-100">
+                                <img src="{{ asset('frontend-assets/img/Services-page/seo/Impact.png') }}" alt="Choose" class="w-100">
 
                             </div>
                         </div>
@@ -733,8 +733,8 @@
                 <!-- Dashboard Images -->
                 <div class="mt-5" data-aos="zoom-in" data-tilt data-tilt-max="10" data-aos-delay="100"
                     data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <img src="https://www.gbim.com/gbim/OurDigitalMarketingSoftware.webp" alt="Dashboard Screenshot"
-                        class="dashboard-img">
+                    <img src="{{ asset('frontend-assets/img/Services-page/seo/Footer_banner.png') }}" alt="Dashboard Screenshot"
+                        class="dashboard-img rounded-overflow">
                 </div>
             </div>
         </section>

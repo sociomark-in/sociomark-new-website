@@ -224,8 +224,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <img src="https://placehold.co/1920x900"
-                            alt="" srcset="" width="100%">
+                        <img src="https://placehold.co/1920x900" alt="" srcset="" width="100%">
                     </div>
                 </div>
             </div>
@@ -275,28 +274,33 @@
                         <div class="title-area mb-md-3 mb-2 mt-n1">
                             <h2 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                Accelerate your digital growth with a reliable <span class="text-blue"> SEO Agency in
-                                    UAE</span>
+                                Stories that <span class="text-blue"> shine through the lens</span>
                             </h2>
                         </div>
                     </div>
                     <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
                         <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                            data-aos-duration="1200" data-aos-easing="ease-in-out">SEO is more than just showing up in
-                            search results. It is about getting recognised by the audience that matters to you. No matter if
-                            you are a new startup or an MNC company, at Sociomark, we make strategies that drive real
-                            growth.
+                            data-aos-duration="1200" data-aos-easing="ease-in-out">People remember emotions and feelings
+                            over mere facts. And nothing captures those better than powerful visuals. At Sociomark, we help
+                            brands speak the visual language of today through striking <b>Photography</b> and high-impact
+                            <b>Video Production</b>.
                         </p>
                         <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                            data-aos-duration="1200" data-aos-easing="ease-in-out">With our expertise in <strong>SEO in
-                                Dubai,</strong>, we tailor each approach to fit your unique goals. From local market
-                            insights to global trends, we ensure that you gain visibility where it matters the most. We
-                            focus on the things that create real, lasting results—like technical optimisation and content
-                            that speaks to your audience. We don't just chase rankings; we chase meaningful engagement.
-                            Through our strategies, we help our clients to increase visibility, drive meaningful traffic and
-                            enhance the user experience. As one of the <strong>top SEO companies in Dubai,</strong> we help
-                            businesses across the world grow, not just appear on search engines.
-
+                            data-aos-duration="1200" data-aos-easing="ease-in-out">No matter if you are launching a product,
+                            hosting an event, or building a brand from the start—visual content plays a starring role. More
+                            than looking good, It’s about creating content that connects, converts, and stays with your
+                            audience. Every frame we craft is rooted in your brand’s story and goals.
+                        </p>
+                        <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
+                            data-aos-duration="1200" data-aos-easing="ease-in-out">From the plan to the final shot, we mix
+                            creativity with intent. Need crisp shots for your next catalogue? Or a brand film that tells
+                            your journey in 60 seconds? We’ve got the lens for it. With an eye for detail and a love for
+                            stories, we create visuals that don’t just get seen—they get remembered.
+                        </p>
+                        <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
+                            data-aos-duration="1200" data-aos-easing="ease-in-out">Let’s skip the stock footage and go for
+                            something real. Real moments, real people, and real results. Because the right shot at the right
+                            time? It’s more powerful than a paragraph.
                         </p>
                     </div>
                 </div>
@@ -324,8 +328,8 @@
                         <div class="title-area text-center">
                             <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                Our Way of 
-                                <span class="text-blue"> Creating Impact</span>.
+                                Our Approach to 
+                                <span class="text-blue"> Visual Storytelling</span>.
                             </h2>
                             {{-- <p class="sec-para">Here are a few of the SEO strategies that we as a Leading Digital Marketing
                                 Agency in Mumbai
@@ -349,37 +353,28 @@
                     <div class="col-md-6">
                         <div id="benefits">
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Competitor Analysis</h4>
-                                <p class="sec-para">We deep-dive into what your competitors are doing—what’s working, what’s not. These insights help shape a smarter strategy tailored to your goals, especially in the space of <strong>search engine optimisation in Dubai</strong> and UAE. </p>
+                                <h4 class="sub-sec-title">Understand the Brand Vibe</h4>
+                                <p class="sec-para">We find out what makes your brand tick. So, your visuals feel like an extension of your personality.
+                                </p>
                             </div>
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Technical SEO Audit</h4>
-                                <p class="sec-para">Identifying what’s slowing your site down or holding it back from better rankings. From crawling issues to broken links, we fix the technical gaps that matter.</p>
+                                <h4 class="sub-sec-title">Scout and Prep Like Pros</h4>
+                                <p class="sec-para">The right lighting and location matter. Our team preps everything in advance, so shoot day runs smooth.
+                                </p>
                             </div>
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Content Strategy</h4>
-                                <p class="sec-para">Crafting meaningful content that connects with the audience and aligns with your brand voice. As an <strong>SEO optimisation agency</strong>, we ensure every piece is polished to boost discoverability and delivers long-term value.</p>
-                            </div>
-                            
-                    
-                            <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">On Page SEO </h4>
-                                <p class="sec-para">Optimisation of every element—meta tags, headers, internal links—to make your pages more search-friendly. It's about making sure your content speaks clearly to both users and search engines.</p>
+                                <h4 class="sub-sec-title">Capture Moments That Matter</h4>
+                                <p class="sec-para">It’s not just about poses—it’s about presence. We look for authenticity, movement, and energy in every shot.</p>
                             </div>
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">GMB Optimisation</h4>
-                                <p class="sec-para">We fine-tune your Google Business Profile to enhance visibility in local searches. This is key for location-based traffic and local engagement.</p>
+                                <h4 class="sub-sec-title">Use the Right Gear and People</h4>
+                                <p class="sec-para">From studio setups to drone shots, we use the latest tools and skilled talent for crisp, pro-level quality.
+                                </p>
                             </div>
                             <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Off-Page SEO</h4>
-                                <p class="sec-para">Building a strong online reputation with valuable backlinks from
-                                    trusted and reputed sources. Implementing strategies to increase your website’s
-                                    authority and credibility through external platforms.</p>
-                            </div>
-                            
-                            <div class="benefit-block border-start border-4">
-                                <h4 class="sub-sec-title">Traffic Analysis</h4>
-                                <p class="sec-para">Tracking how users reach your website and what they do once they land. These insights help fine-tune performance and conversions over time for businesses seeking a trusted <strong>SEO company in Abu Dhabi and UAE.</strong></p>
+                                <h4 class="sub-sec-title">Tailor the Story for Your Audience</h4>
+                                <p class="sec-para"> Visuals aren't one-size-fits-all. Whether it’s <b>commercial photography</b> or <b>brand storytelling through video</b>, we shape each piece for impact.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -394,8 +389,8 @@
                         <div class="title-area text-center">
                             <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                Best Industry-Specific
-                                <span class="text-blue"> SEO Company</span> Strategies.
+                                How We Deliver 
+                                <span class="text-blue"> Stand-Out Visuals</span>
                             </h2>
                         </div>
                     </div>
@@ -403,70 +398,59 @@
                 <div class="according-list-area">
                     <div class="according-list hover-item item-active">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Ecommerce SEO</h3>
+                            <h3 class="box-title">Creative Discovery </h3>
                         </div>
                         <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Ecommerce Seo.png') }}" alt="" class="rounded-overflow">
-                            <p class="sec-para text">Transform passive visitors into engaged customers.
-                                Our strategies are designed to boost website traffic and conversions through a combination
-                                of content optimization, in-depth website audits, and keyword research.
-                                We'll help you dominate search engine results and attract quality leads.
+                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Ecommerce Seo.png') }}"
+                                alt="" class="rounded-overflow">
+                            <p class="sec-para text">Every great visual begins with a great brief. Understanding your story, your audience, and your goals is our first step.
                             </p>
 
                         </div>
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">International SEO</h3>
+                            <h3 class="box-title">Concept Planning</h3>
                         </div>
                         <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/Services-page/seo/International Seo.png') }}" alt="" class="rounded-overflow">
-                            <p class="sec-para text">We excel in international SEO. Our strategies focus on key elements
-                                like multilingual keyword research, in-depth audience analysis, and optimized website
-                                structure. We also specialize in geo-targeting, ensuring your content reaches the right
-                                people in the right places.
-
+                            <img src="{{ asset('frontend-assets/img/Services-page/seo/International Seo.png') }}"
+                                alt="" class="rounded-overflow">
+                            <p class="sec-para text">We map out what the visuals will look like and feel like—from mood boards to shot lists—so there are no surprises on set.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="according-list hover-item">
+                        <div class="accordion-item2">
+                            <h3 class="box-title">Production with Purpose</h3>
+                        </div>
+                        <div class="according-img">
+                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Mobile Seo.png') }}" alt=""
+                                class="rounded-overflow">
+                            <p class="sec-para text">Our team captures content with intention, whether it’s for a short ad, event, or long-form campaign.
                             </p>
 
                         </div>
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Mobile SEO</h3>
+                            <h3 class="box-title">Post-Production Magic</h3>
                         </div>
                         <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Mobile Seo.png') }}" alt="" class="rounded-overflow">
-                            <p class="sec-para text"> It plays an essential role in any business. Our strategies focus on
-                                optimizing your website for mobile devices, including improving loading speed, enhancing
-                                user experience, and optimizing for local search. This ensures your business stands out in
-                                the competitive mobile landscape.
-
+                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Local Seo.png') }}" alt=""
+                                class="rounded-overflow">
+                            <p class="sec-para text">From editing to colour correction, our finishing touches bring clarity and polish to every frame.
                             </p>
 
                         </div>
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Local SEO</h3>
+                            <h3 class="box-title">Multi-Platform Focus</h3>
                         </div>
                         <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Local Seo.png') }}" alt="" class="rounded-overflow">
-                            <p class="sec-para text">We focus on enhancing customer engagement at the offline stores,
-                                increasing their online audience who are often unaware of their local presence, and getting
-                                them on the map with Google Listings.
-                            </p>
-
-                        </div>
-                    </div>
-                    <div class="according-list hover-item">
-                        <div class="accordion-item2">
-                            <h3 class="box-title">Google Analytics and Reports </h3>
-                        </div>
-                        <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Goodle Analytics and Report.png') }}" alt="" class="rounded-overflow">
-                            <p class="sec-para text">Our Google Analytics and reporting services transform raw data into a
-                                strategic advantage. We delve deep into your website's performance, identifying trends, user
-                                behaviour, and conversion opportunities.
+                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Goodle Analytics and Report.png') }}"
+                                alt="" class="rounded-overflow">
+                            <p class="sec-para text">Whether it’s a reel or a banner, we tailor each piece for where it will live and how your audience will engage with it.
                             </p>
 
                         </div>
@@ -476,7 +460,8 @@
                             <h3 class="box-title">SEO Audit</h3>
                         </div>
                         <div class="according-img">
-                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Seo Audit.png') }}" alt="" class="rounded-overflow">
+                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Seo Audit.png') }}" alt=""
+                                class="rounded-overflow">
                             <p class="sec-para text">Our SEO audits provide a deep dive into your online presence,
                                 identifying strengths, weaknesses, and opportunities for growth. We scrutinize every aspect,
                                 from technical SEO to content optimization, delivering actionable insights to boost your
@@ -505,7 +490,7 @@
                         data-aos-easing="ease-in-out">
                         <div class="title-area mb-20">
                             <h2 class="sec-title mb-md-3 mb-2">
-                                The impact of partnering with <span class="text-blue">Sociomark</span>
+                                Why Brands <span class="text-blue">Trust Our Lens</span>
                             </h2>
                         </div>
                         <p class="sec-para d-none ">Our SEO strategies are designed to improve your website’s ranking on
@@ -517,8 +502,9 @@
                                     <img src="https://placehold.co/80x80" alt="Icon">
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="sub-sec-title">Comprehensive Digital Solutions</h4>
-                                    <p class="sec-para"> We provide cost-effective SEO strategies that enhance your visibility and bring measurable growth to your business.</p>
+                                    <h4 class="sub-sec-title">Visuals That Resonate </h4>
+                                    <p class="sec-para">We don’t just take pictures or shoot videos. We frame emotion,
+                                        energy, and purpose into every project.</p>
                                 </div>
                             </div>
                             <div class="choose-feature">
@@ -526,8 +512,9 @@
                                     <img src="https://placehold.co/80x80" alt="Icon">
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="sub-sec-title">Tailored Strategies for Long-term Growth</h4>
-                                    <p class="sec-para">Our approach focuses on sustainable results, ensuring that your brand ranks higher and stays relevant in the market.</p>
+                                    <h4 class="sub-sec-title">Strategic Storytelling</h4>
+                                    <p class="sec-para">Our work reflects your voice. Each piece is tailored to deliver the
+                                        right message to the right audience.</p>
                                 </div>
                             </div>
                             <div class="choose-feature">
@@ -535,8 +522,9 @@
                                     <img src="https://placehold.co/80x80" alt="Icon">
                                 </div>
                                 <div class="media-body">
-                                    <h4 class="sub-sec-title">Perfect Integration of SEO and Web Development</h4>
-                                    <p class="sec-para"> By combining SEO with expert <strong>web development,</strong> we ensure that your website is optimised for both performance and user experience.
+                                    <h4 class="sub-sec-title">Always on Brand</h4>
+                                    <p class="sec-para"> Whether it's sleek <b>product photography</b> or immersive
+                                        <b>corporate video production</b>, consistency is key—and we nail it every time.
                                     </p>
                                 </div>
                             </div>
@@ -548,8 +536,7 @@
                             <div class="tilt-active">
                                 {{-- <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}"
                                     alt="Choose" class="w-100"> --}}
-                                <img src="https://placehold.co/300x400"
-                                    alt="Choose" class="w-100">
+                                <img src="https://placehold.co/300x400" alt="Choose" class="w-100">
 
                             </div>
                         </div>
@@ -558,8 +545,8 @@
             </div>
         </section>
         <!--==============================
-            Testimonial Area
-            ==============================-->
+                Testimonial Area
+                ==============================-->
         <section class="space overflow-hidden overflow-hidden">
             <div class="container">
                 <div class="title-area text-center">
@@ -577,8 +564,12 @@
                                         <div class="testi-logo">
                                             <img src="http://placehold.co/200x80" alt="">
                                         </div>
-                                        <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto repellendus sequi. Velit cumque aut rerum</h3>
-                                        <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis provident doloremque blanditiis. Molestiae?</p>
+                                        <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                                            iusto repellendus sequi. Velit cumque aut rerum</h3>
+                                        <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                                            corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore
+                                            laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis
+                                            provident doloremque blanditiis. Molestiae?</p>
                                         <h3 class="box-title">Lorem ipsum</h3>
                                         <span class="box-desig">Lorem ipsum</span>
                                     </div>
@@ -593,8 +584,12 @@
                                         <div class="testi-logo">
                                             <img src="http://placehold.co/200x80" alt="">
                                         </div>
-                                        <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto repellendus sequi. Velit cumque aut rerum</h3>
-                                        <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis provident doloremque?</p>
+                                        <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                                            iusto repellendus sequi. Velit cumque aut rerum</h3>
+                                        <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                                            corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore
+                                            laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis
+                                            provident doloremque?</p>
                                         <h3 class="box-title">Lorem ipsum</h3>
                                         <span class="box-desig">Lorem ipsum</span>
                                     </div>
@@ -609,8 +604,12 @@
                                         <div class="testi-logo">
                                             <img src="http://placehold.co/200x80" alt="">
                                         </div>
-                                        <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto repellendus sequi. Velit cumque aut rerum</h3>
-                                        <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis provident doloremque blanditiis.?</p>
+                                        <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                                            iusto repellendus sequi. Velit cumque aut rerum</h3>
+                                        <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                                            corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore
+                                            laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis
+                                            provident doloremque blanditiis.?</p>
                                         <h3 class="box-title">Lorem ipsum</h3>
                                         <span class="box-desig">Lorem ipsum</span>
                                     </div>
@@ -634,7 +633,7 @@
                 <!-- Header Text -->
                 <h2 class="fw-bold mb-5 sec-title text-center" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    What’s Included in Our <span class="text-blue"> SEO Package</span>
+                    What’s Included in Our <span class="text-blue"> Photography& Videography Package</span>
                 </h2>
                 <!-- Feature Icons Row 1 -->
                 <div class="row justify-content-evenly mt-5">
@@ -697,207 +696,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- <section class="overflow-hidden space" id="services-tab">
-                                    <div class="container-fluid">
-                                        <div class="row">
-
-                                            <div class="title-area mb-md-3 mb-2">
-                                                <h2 class="fw-bold mb-5 sec-title text-center"
-                                                    data-aos="fade-up"
-                                                    data-aos-delay="100"
-                                                    data-aos-duration="1000"
-                                                    data-aos-easing="ease-in-out">
-                                                    International Seo <span class="text-blue"> Roadmap</span>
-                                                </h2>
-                                            </div>
-
-                                            <div class="d-lg-flex ps-0">
-                                                <div class="col-lg-3 col-12" data-aos="fade-right"
-                                                    data-aos-delay="200"
-                                                    data-aos-duration="1200"
-                                                    data-aos-easing="ease-in-out">
-                                                    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
-                                                        aria-orientation="vertical">
-                                                        <button class="nav-link p-3 fs-5 " data-bs-toggle="pill"
-                                                            data-bs-target="#" type="button" role="tab"
-                                                            aria-controls="v-pills-profile" aria-selected="false"><span class="border-bottom border-4 d-inline-block">Services</span></button>
-                                                        <button class="nav-link active p-3 fs-5" id="v-pills-home-tab" data-bs-toggle="pill"
-                                                            data-bs-target="#v-pills-home" type="button" role="tab"
-                                                            aria-controls="v-pills-home" aria-selected="true">Education institutions</button>
-                                                        <button class="nav-link p-3 fs-5" id="v-pills-profile-tab" data-bs-toggle="pill"
-                                                            data-bs-target="#v-pills-profile" type="button" role="tab"
-                                                            aria-controls="v-pills-profile" aria-selected="false">Healthcare industry</button>
-                                                        <button class="nav-link p-3 fs-5" id="v-pills-messages-tab" data-bs-toggle="pill"
-                                                            data-bs-target="#v-pills-messages" type="button" role="tab"
-                                                            aria-controls="v-pills-messages" aria-selected="false">Technology companies</button>
-                                                        <button class="nav-link p-3 fs-5" id="v-pills-settings-tab" data-bs-toggle="pill"
-                                                            data-bs-target="#v-pills-settings" type="button" role="tab"
-                                                            aria-controls="v-pills-settings" aria-selected="false">Publication</button>
-                                                        <button class="nav-link p-3 fs-5" id="v-pills-settings-tab" data-bs-toggle="pill"
-                                                            data-bs-target="#v-pills-settings" type="button" role="tab"
-                                                            aria-controls="v-pills-settings" aria-selected="false">E-commerce businesses</button>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-9 col-12">
-                                                    <div class="tab-content" id="v-pills-tabContent">
-                                                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                                                            aria-labelledby="v-pills-home-tab" tabindex="0">
-                                                            <div class="row ">
-                                                                <div class="col-lg-6 col-12 text-center side-padding-mbl" data-aos="zoom-in"
-                                                                    data-aos-delay="200"
-                                                                    data-aos-duration="1200"
-                                                                    data-aos-easing="ease-in-out">
-                                                                    <div class="page-img mt-md-0 mt-3">
-                                                                        <img class="w-50" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-6 col-12 side-padding-mbl" data-aos="fade-left"
-                                                                    data-aos-delay="200"
-                                                                    data-aos-duration="1200"
-                                                                    data-aos-easing="ease-in-out">
-                                                                    <h4 class="mb-20 text-blue">How We Can Help</h4>
-                                                                    <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
-                                                                        touchpoints.
-                                                                    </p>
-                                                                    <div class="checklist style4 mb-20">
-                                                                        <ul>
-                                                                            <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
-                                                                                Engagement &
-                                                                                Conversion Rates</li>
-                                                                            <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
-                                                                                Perception
-                                                                            </li>
-                                                                            <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
-                                                                                Accessibility</li>
-                                                                            <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
-                                                                                Costs
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                                                            aria-labelledby="v-pills-profile-tab" tabindex="0">
-
-                                                            <div class="row ">
-                                                                <div class="col-lg-6 col-12 text-center side-padding-mbl">
-                                                                    <div class="row mt-md-0 mt-3">
-                                                                        <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
-                                                                            <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                                        </div>
-                                                                        <div class="col-lg-6 col-6 page-img side-padding-mbl" data-aos="fade-right" data-aos-duration="5000">
-                                                                            <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                                        </div>
-                                                                    </div>
-
-                                                                </div>
-                                                                <div class="col-lg-6 col-12 side-padding-mbl">
-                                                                    <h4 class="mb-20 text-blue">How We Can Help</h4>
-                                                                    <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
-                                                                        touchpoints.
-                                                                    </p>
-                                                                    <div class="checklist style4 mb-20">
-                                                                        <ul>
-                                                                            <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
-                                                                                Engagement &
-                                                                                Conversion Rates</li>
-                                                                            <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
-                                                                                Perception
-                                                                            </li>
-                                                                            <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
-                                                                                Accessibility</li>
-                                                                            <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
-                                                                                Costs
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-
-
-                                                            </div>
-
-                                                        </div>
-                                                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                                                            aria-labelledby="v-pills-messages-tab" tabindex="0">
-                                                            <div class="row ">
-                                                                <div class="col-lg-6 col-12 text-center side-padding-mbl">
-                                                                    <div class="page-img mt-md-0 mt-3">
-                                                                        <img class="w-50" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-6 col-12 side-padding-mbl">
-                                                                    <h4 class="mb-20 text-blue">How We Can Help</h4>
-                                                                    <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
-                                                                        touchpoints.
-                                                                    </p>
-                                                                    <div class="checklist style4 mb-20">
-                                                                        <ul>
-                                                                            <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
-                                                                                Engagement &
-                                                                                Conversion Rates</li>
-                                                                            <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
-                                                                                Perception
-                                                                            </li>
-                                                                            <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
-                                                                                Accessibility</li>
-                                                                            <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
-                                                                                Costs
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                                                            aria-labelledby="v-pills-settings-tab" tabindex="0">
-
-                                                            <div class="row ">
-                                                                <div class="col-lg-6 col-12 text-center side-padding-mbl">
-                                                                    <div class="row mt-md-0 mt-3">
-                                                                        <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
-                                                                            <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                                        </div>
-                                                                        <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
-                                                                            <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                                        </div>
-                                                                    </div>
-
-                                                                </div>
-                                                                <div class="col-lg-6 col-12 side-padding-mbl">
-                                                                    <h4 class="mb-20 text-blue">How We Can Help</h4>
-                                                                    <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
-                                                                        touchpoints.
-                                                                    </p>
-                                                                    <div class="checklist style4 mb-20">
-                                                                        <ul>
-                                                                            <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
-                                                                                Engagement &
-                                                                                Conversion Rates</li>
-                                                                            <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
-                                                                                Perception
-                                                                            </li>
-                                                                            <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
-                                                                                Accessibility</li>
-                                                                            <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
-                                                                                Costs
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </div>
-
-
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section> -->
 
         @include('Frontend.partial.clientList')
 
