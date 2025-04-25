@@ -232,6 +232,10 @@ select {
     font-size: 4rem;
 }
 
+.choose-feature .box-icon{
+    background-color: var(--color-white);
+}
+
 /* Showreel */
 .showreel-fixed {
     z-index: 999;
