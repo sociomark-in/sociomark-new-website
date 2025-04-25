@@ -30,7 +30,7 @@
         <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden" id="about-sec">
             <div class="container">
                 <div class="row align-items-end justify-content-center">
-                    <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
+                    <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
                         <div class="title-area mb-md-3 mb-2 mt-n1">
                             <!-- <h2 class="sec-title text-center "> Our Comprehensive International SEO Solutions</h2> -->
                             <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100">
@@ -226,7 +226,7 @@
                 </div>
                 <div class="row justify-content-center gy-5">
                     <!-- Step 1 -->
-                    <div class="col-md-3 col-sm-6 process-step zig-down" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-md-3 col-sm-6 col-12 process-step zig-down" data-aos="fade-up" data-aos-delay="300">
 
                         <div class="img">
                             <div class="shadow-title">01</div>
@@ -241,13 +241,13 @@
                     </div>
 
                     <!-- Step 2 (reversed) -->
-                    <div class="col-md-3 col-sm-6 process-step d-flex flex-column-reverse flex-md-column zig-up" data-aos="fade-up"
+                    <div class="col-md-3 col-sm-6 col-12 process-step d-flex flex-column-reverse flex-md-column zig-up" data-aos="fade-up"
                         data-aos-delay="400">
                         <div class="text d-flex justify-content-center align-items-center flex-column">
                             <h4 class="sub-sec-title">Share Your Vision</h4>
                             <p class="sec-para">From campaign goals to creative vibes, the more you share, the better we plan.</p>
                         </div>
-                        <div class="img mt-1 mt-3">
+                        <div class="img mt-0 mt-md-3">
                             <div class="shadow-title">02</div>
 
                             <div class="icon">
@@ -258,7 +258,7 @@
                     </div>
 
                     <!-- Step 3 -->
-                    <div class="col-md-3 col-sm-6 process-step zig-down" data-aos="fade-up" data-aos-delay="500">
+                    <div class="col-md-3 col-sm-6 col-12 process-step zig-down" data-aos="fade-up" data-aos-delay="500">
                         <div class="img ">
                             <div class="shadow-title">03</div>
                             <div class="icon" style="background-color: rgb(238 251 229);">
@@ -272,13 +272,13 @@
                     </div>
 
                     <!-- Step 4 (reversed) -->
-                    <div class="col-md-3 col-sm-6 process-step d-flex flex-column-reverse flex-md-column" data-aos="fade-up"
+                    <div class="col-md-3 col-sm-6 col-12 process-step d-flex flex-column-reverse flex-md-column" data-aos="fade-up"
                         data-aos-delay="600">
                         <div class="text d-flex justify-content-center align-items-center flex-column">
                             <h4 class="sub-sec-title">Watch It Come Alive</h4>
                             <p class="sec-para">Get the final solution, tailored to your brief and ready to roll.</p>
                         </div>
-                        <div class="img mt-1 mt-3">
+                        <div class="img mt-0 mt-md-3">
                             <div class="shadow-title">04</div>
                             <div class="icon position-absolute-img" style="background-color: rgb(252 243 233);">
                                 <img src="{{ asset('frontend-assets/img/ourCulture/3.png') }}" alt="">
@@ -480,16 +480,16 @@
             </div>
         </section>
 
-        <section class="mb-md-5 mb-2 py-4 px-3 founder" id="our-founder">
+        <section class="mb-2 founder space" id="our-founder">
             <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-md-6 position-relative img custom-top me-0 me-md-5" data-aos="fade-right"
+                <div class="row align-items-start justify-content-center">
+                    <div class="col-md-6 col-sm-12 col-12 position-relative img custom-top me-0 me-md-5" data-aos="fade-right"
                         data-aos-delay="100"
                         style="--tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--tw-bg-opacity)); padding: 1rem; border-radius: 30px;">
                         <img src="{{ asset('frontend-assets/img/team/founders.png') }}"
                             class="img-fluid rounded w-100 h-100 object-fit-cover" alt="Office Team">
                     </div>
-                    <div class="col-md-6 text-white p-4 ">
+                    <div class="col-md-6 col-sm-12 col-12 text-white p-4 ">
                         <h2 class="fw-bold mb-1 sec-title" data-aos="fade-left" data-aos-delay="100">
                             Meet Our <span class="text-blue"> Founders</span>
                         </h2>
@@ -595,7 +595,7 @@
         </section>
         <style>
             #about-flip .flip-box {
-                width: 240px;
+                /* width: 240px; */
                 height: 320px;
             }
         </style>
@@ -623,7 +623,7 @@
                     <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mt-3 mx-2"
                         data-aos="fade-left" data-aos-delay=" 300">
                         <div class="flip-box-inner h-100">
-                            <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                            <div class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/icon/about/Quality Content.png') }}"
                                     alt="" class="h-50 w-50">
                                 <h4 class="sub-sec-title">Quality Content</h4>
@@ -637,7 +637,7 @@
                     <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 mt-3 mx-2"
                         data-aos="fade-left" data-aos-delay="300">
                         <div class="flip-box-inner h-100">
-                            <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                            <div class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/icon/about/Custumized Content.png') }}"
                                     alt="" class="h-50 w-50">
                                 <h4 class="sub-sec-title">Customized Strategy</h4>
@@ -648,9 +648,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mt-3 mx-2">
+                    <div class="col-12 col-md-3  feature-card flip-box p-0 mt-3 mx-2">
                         <div class="flip-box-inner h-100">
-                            <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                            <div class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/icon/about/Result Driven.png') }}" alt=""
                                     class="h-50 w-50">
                                 <h4 class="sub-sec-title">Results-Driven</h4>
@@ -661,10 +661,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 mt-3 mx-2"
+                    <div class="col-12 col-md-3  feature-card flip-box p-0 mt-3 mx-2"
                         data-aos="fade-right" data-aos-delay="400">
                         <div class="flip-box-inner h-100">
-                            <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                            <div class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/icon/about/Creative distinction.png') }}"
                                     alt="" class="h-50 w-50">
                                 <h4 class="sub-sec-title">Creative Distinction</h4>
@@ -675,10 +675,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mt-3 mx-2"
+                    <div class="col-12 col-md-3  feature-card flip-box p-0 mt-3 mx-2"
                         data-aos="fade-right" data-aos-delay="400">
                         <div class="flip-box-inner h-100">
-                            <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                            <div class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/icon/about/Collaborative Growth.png') }}"
                                     alt="" class="h-50 w-50">
                                 <h4 class="sub-sec-title">Collaborative Growth</h4>
@@ -689,10 +689,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mt-3 mx-2"
+                    <div class="col-12 col-md-3  feature-card flip-box p-0 mt-3 mx-2"
                         data-aos="fade-right" data-aos-delay="400">
                         <div class="flip-box-inner h-100">
-                            <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                            <div class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/icon/about/Collaborative Growth.png') }}"
                                     alt="" class="h-50 w-50">
                                 <h4 class="sub-sec-title">Quirky Approach </h4>
@@ -703,10 +703,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mt-3 mx-2"
+                    <div class="col-12 col-md-3  feature-card flip-box p-0 mt-3 mx-2"
                         data-aos="fade-right" data-aos-delay="400">
                         <div class="flip-box-inner h-100">
-                            <div class="flip-box-front h-100 d-flex align-items-center justify-content-center flex-column">
+                            <div class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/icon/about/Collaborative Growth.png') }}"
                                     alt="" class="h-50 w-50">
                                 <h4 class="sub-sec-title">Quick Turn Around Time</h4>
