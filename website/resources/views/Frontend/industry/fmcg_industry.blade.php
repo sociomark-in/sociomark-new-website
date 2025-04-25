@@ -441,8 +441,40 @@
                         <div class="col-md-3 col-xl-auto filter-item cat5 cat1">
                             <a href="javascript:void(0)" class="project-item d-block">
                                 <div class="box-img global-img">
-                                    <img src="{{ asset('frontend-assets/img/clients/totalfood.png') }}"
+                                    <img src="{{ asset('frontend-assets/img/clients/total.jpg') }}"
                                         alt="project image">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                            <a href="javascript:void(0)" class="project-item d-block">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/clients/othnanaimo.jpg') }}"
+                                        alt="project image w-100">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                            <a href="javascript:void(0)" class="project-item d-block">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/clients/trollers.jpg') }}"
+                                        alt="project image w-100">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                            <a href="javascript:void(0)" class="project-item d-block">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/clients/trollersfishnchips.jpg') }}"
+                                        alt="project image w-100">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                            <a href="javascript:void(0)" class="project-item d-block">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/clients/kinnal.jpg') }}"
+                                        alt="project image w-100">
                                 </div>
                             </a>
                         </div>
