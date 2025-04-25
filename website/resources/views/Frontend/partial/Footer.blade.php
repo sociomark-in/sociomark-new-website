@@ -24,7 +24,7 @@
                                 <a href="https://www.youtube.com/@sociomarkdigitalmarketing" target="_blank"><i class="fab fa-youtube"></i></a>
                                 <a href="https://twitter.com/sociomarkin" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
                                 <a href="https://www.linkedin.com/company/sociomark/" target="_blank" class="mt-10"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="https://api.whatsapp.com/send?phone=919819988640&text=Hello!%20I%20just%20came%20across%20your%20website.%20I%20am%20very%20much%20impressed%20by%20the%20services%20you%20provide.%20I%20want%20to%20know%20more%20about%20your%20services%20as%20I%20am%20interested%20in%20working%20with%20you%20for%20the%20growth%20of%20my%20business." target="_blank" class="mt-10"><i class="fab fa-whatsapp"></i></a>
+                                {{-- <a href="https://api.whatsapp.com/send?phone=919819988640&text=Hello!%20I%20just%20came%20across%20your%20website.%20I%20am%20very%20much%20impressed%20by%20the%20services%20you%20provide.%20I%20want%20to%20know%20more%20about%20your%20services%20as%20I%20am%20interested%20in%20working%20with%20you%20for%20the%20growth%20of%20my%20business." target="_blank" class="mt-10"><i class="fab fa-whatsapp"></i></a> --}}
                             </div>
 
                         </div>

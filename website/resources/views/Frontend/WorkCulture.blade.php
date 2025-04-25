@@ -1,4 +1,22 @@
 @extends('Frontend.layout.app')
+<!-- Plugin: LightGallery -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery-bundle.min.css"
+    integrity="sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js"
+    integrity="sha512-jEJ0OA9fwz5wUn6rVfGhAXiiCSGrjYCwtQRUwI/wRGEuWRZxrnxoeDoNc+Pnhx8qwKVHs2BRQrVR9RE6T4UHBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.umd.min.js"
+    integrity="sha512-VOQBxCIgNssJrB8+irZF7L8MvfpAshegc36C3H5QD7vmibXM4uCNaqJIaSNatD2z2ZQQJSx0k+q+m+xsSPp4Xw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/thumbnail/lg-thumbnail.umd.min.js"
+    integrity="sha512-dc8xJSGs0ib9uo0fLT/v4wp2LG7+4OSzc+UpFiIKiv6QP/e4hZH/S8manUCTtO3tNVGzcje8uJjSdL+NH29blQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/zoom/lg-zoom.umd.min.js"
+    integrity="sha512-OUF2jbRheQR5yXPCvXN71udWa5cvwPf+shcXM+5GrW1vtNurTn7az8LCP3hS50gm17ULXdh3cdkhiPa0Qqyczw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Plugin: LightGallery -->
+
 <style>
     #work-culture #about-sec {
         padding: 8px;
@@ -195,6 +213,9 @@
         background: #106c97;
     }
 
+    .portfolio-area .filter-item{
+        width: clamp(150px, 25%, 300px)
+    }
 
 
     /* gallary end */
@@ -245,7 +266,8 @@
                                     digital landscape and a proven track record of success. Conveys a collaborative
                                     approach, suggesting that the agency works closely with clients.</p>
 
-                                    <a href="{{ route('about') }}" class="th-btn th-icon">About Us<i class="fa-solid fa-arrow-right ms-2"></i></a>
+                                <a href="{{ route('about') }}" class="th-btn th-icon">About Us<i
+                                        class="fa-solid fa-arrow-right ms-2"></i></a>
                             </div>
                         </div>
                     </div>
@@ -376,25 +398,30 @@
                     <div class="process-mobile d-block d-md-none">
                         <div class="row gy-3 gy-md-5">
                             @for ($i = 2025; $i > 2017; $i--)
-                            <div class="col-xl-6">
-                                <div class="process-card">
-                                    <div class="box-wrapp justify-content-start gap-2">
-                                        <div class="box-icon">
-                                            <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg')}}" alt="icon">
+                                <div class="col-xl-6">
+                                    <div class="process-card">
+                                        <div class="box-wrapp justify-content-start gap-2">
+                                            <div class="box-icon">
+                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
+                                                    alt="icon">
+                                            </div>
+                                            <div class="box-shape"><img
+                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
+                                            <div class="box-number">
+                                                {{ $i }} </div>
                                         </div>
-                                        <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
-                                        <div class="box-number">
-                                            {{ $i }} </div>
-                                    </div>
-                                    <div class="box-content">
-                                        <h2 class="box-title">Lorem ipsum dolor sit amet.</h2>
-                                        <p class="box-text">
-                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, esse veniam unde tempora, quaerat ex modi quidem delectus quas velit, autem eum cumque eos dolore. Possimus ullam unde cum quod.
-                                        </p>
+                                        <div class="box-content">
+                                            <h2 class="box-title">Lorem ipsum dolor sit amet.</h2>
+                                            <p class="box-text">
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, esse
+                                                veniam unde tempora, quaerat ex modi quidem delectus quas velit, autem eum
+                                                cumque eos dolore. Possimus ullam unde cum quod.
+                                            </p>
 
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
                             @endfor
                         </div>
                     </div>
@@ -405,9 +432,12 @@
                                     <div class="process-card">
                                         <div class="box-wrapp justify-content-start gap-2">
                                             <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg')}}" alt="icon">
+                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
+                                                    alt="icon">
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-shape"><img
+                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
                                             <div class="box-number">
                                                 2017 </div>
                                         </div>
@@ -422,9 +452,12 @@
                                     <div class="process-card">
                                         <div class="box-wrapp justify-content-start gap-2">
                                             <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg')}}" alt="icon">
+                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
+                                                    alt="icon">
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-shape"><img
+                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
                                             <div class="box-number">
                                                 2018 </div>
                                         </div>
@@ -438,9 +471,12 @@
                                     <div class="process-card">
                                         <div class="box-wrapp justify-content-start gap-2">
                                             <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg')}}" alt="icon">
+                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
+                                                    alt="icon">
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-shape"><img
+                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
                                             <div class="box-number">
                                                 2019 </div>
                                         </div>
@@ -453,7 +489,8 @@
                                             <p class="box-text">Button Dabao Desh Banao</p>
                                             <p class="box-text">DigiPub Awards 2019</p>
                                             <p class="box-text">Best Use of Social Media</p>
-                                            <p class="box-text">Social Samosa shoutout for our Diageo X Network18 campaign 'Road to Safety'</p>
+                                            <p class="box-text">Social Samosa shoutout for our Diageo X Network18 campaign
+                                                'Road to Safety'</p>
 
                                         </div>
                                     </div>
@@ -462,16 +499,21 @@
                                     <div class="process-card">
                                         <div class="box-wrapp justify-content-start gap-2">
                                             <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg')}}" alt="icon">
+                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
+                                                    alt="icon">
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-shape"><img
+                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
                                             <div class="box-number">
                                                 2020 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                            <p class="box-text">Maintained social distancing through WFH in the COVID period</p>
-                                            <p class="box-text">Social Samosa shoutout for our NODWIN Gaming X Cosplaygenie's Halloween Campaign</p>
+                                            <p class="box-text">Maintained social distancing through WFH in the COVID
+                                                period</p>
+                                            <p class="box-text">Social Samosa shoutout for our NODWIN Gaming X
+                                                Cosplaygenie's Halloween Campaign</p>
 
                                         </div>
                                     </div>
@@ -480,15 +522,19 @@
                                     <div class="process-card">
                                         <div class="box-wrapp justify-content-start gap-2">
                                             <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg')}}" alt="icon">
+                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
+                                                    alt="icon">
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-shape"><img
+                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
                                             <div class="box-number">
                                                 2021 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                            <p class="box-text">Shifted to a 2000 sq. ft. area office, overseeing Navi Mumbai's beautiful Palm Beach</p>
+                                            <p class="box-text">Shifted to a 2000 sq. ft. area office, overseeing Navi
+                                                Mumbai's beautiful Palm Beach</p>
 
                                         </div>
                                     </div>
@@ -497,16 +543,20 @@
                                     <div class="process-card">
                                         <div class="box-wrapp justify-content-start gap-2">
                                             <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg')}}" alt="icon">
+                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
+                                                    alt="icon">
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-shape"><img
+                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
                                             <div class="box-number">
                                                 2022 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
                                             <p class="box-text">Our reMARKable pool grew to 30+ employees</p>
-                                            <p class="box-text">Our illustrations for NODWIN Gaming's BGMS were collaborated with Star Sports India</p>
+                                            <p class="box-text">Our illustrations for NODWIN Gaming's BGMS were
+                                                collaborated with Star Sports India</p>
 
                                         </div>
                                     </div>
@@ -515,18 +565,25 @@
                                     <div class="process-card">
                                         <div class="box-wrapp justify-content-start gap-2">
                                             <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg')}}" alt="icon">
+                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
+                                                    alt="icon">
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-shape"><img
+                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
                                             <div class="box-number">
                                                 2023 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                            <p class="box-text">Heta Baandal, our founder, was named one of the 21 Rising Business Leaders of India 2023 by Startup Reporter</p>
-                                            <p class="box-text">Multiple PR features on platforms like AdGully, Afaqs & Brand Equity</p>
-                                            <p class="box-text">Our illustrations for NODWIN Gaming's VCSA were collaborated with Hyundai India</p>
-                                            <p class="box-text">Started our own in-house photography & videography section</p>
+                                            <p class="box-text">Heta Baandal, our founder, was named one of the 21 Rising
+                                                Business Leaders of India 2023 by Startup Reporter</p>
+                                            <p class="box-text">Multiple PR features on platforms like AdGully, Afaqs &
+                                                Brand Equity</p>
+                                            <p class="box-text">Our illustrations for NODWIN Gaming's VCSA were
+                                                collaborated with Hyundai India</p>
+                                            <p class="box-text">Started our own in-house photography & videography section
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -534,9 +591,12 @@
                                     <div class="process-card">
                                         <div class="box-wrapp justify-content-start gap-2">
                                             <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg')}}" alt="icon">
+                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
+                                                    alt="icon">
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-shape"><img
+                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
                                             <div class="box-number">
                                                 2024 </div>
                                         </div>
@@ -545,7 +605,8 @@
                                             <p class="box-text">Bagged our 1st international client</p>
                                             <p class="box-text">Agency Head of the Year - Women Disruptors 2024</p>
                                             <p class="box-text">Our Boss Lady Heta Baandal was recognized by AdGully</p>
-                                            <p class="box-text">Our first Infinity Canvas video for Navi Mumbai Municipal Corporation was played in a Swachh Survekshan LIVE event </p>
+                                            <p class="box-text">Our first Infinity Canvas video for Navi Mumbai Municipal
+                                                Corporation was played in a Swachh Survekshan LIVE event </p>
 
                                         </div>
                                     </div>
@@ -554,16 +615,20 @@
                                     <div class="process-card">
                                         <div class="box-wrapp justify-content-start gap-2">
                                             <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg')}}" alt="icon">
+                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
+                                                    alt="icon">
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-shape"><img
+                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
                                             <div class="box-number">
                                                 2025 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
                                             <p class="box-text">We are now a team of 50+ Employees</p>
-                                            <p class="box-text"> Multiple Social Media Dissect features for our clients - Markets4you & CyberPowerPC</p>
+                                            <p class="box-text"> Multiple Social Media Dissect features for our clients -
+                                                Markets4you & CyberPowerPC</p>
                                             <p class="box-text">International Expansion</p>
                                             <p class="box-text">Opened an office in Dubai</p>
                                         </div>
@@ -572,12 +637,12 @@
                             </div>
                         </div>
                         @push('scripts')
-                        <script>
-                            new Swiper('.journeySwiper', {
-                                spaceBetween: 30,
-                                slidesPerView: 3,
-                            })
-                        </script>
+                            <script>
+                                new Swiper('.journeySwiper', {
+                                    spaceBetween: 30,
+                                    slidesPerView: 3,
+                                })
+                            </script>
                         @endpush
                     </div>
                 </div>
@@ -595,12 +660,15 @@
                         </div>
                     </div>
                     <div class="col-lg-5">
-                        <p class="ps-xl-5 text-center text-lg-start">We start with a comprehensive analysis of your business, industry, target audience, and current
+                        <p class="ps-xl-5 text-center text-lg-start">We start with a comprehensive analysis of your
+                            business, industry, target audience, and current
                             digital presence. Through this process, we identify opportunities.</p>
                         <div class="sec-btn text-end">
                             <div class="icon-box">
-                                <button data-slider-prev="#teamSwiper" class="slider-arrow prev style4 default"><i class="fas fa-arrow-left"></i></button>
-                                <button data-slider-next="#teamSwiper" class="slider-arrow next style4 default"><i class="fa-solid fa-arrow-right"></i></button>
+                                <button data-slider-prev="#teamSwiper" class="slider-arrow prev style4 default"><i
+                                        class="fas fa-arrow-left"></i></button>
+                                <button data-slider-next="#teamSwiper" class="slider-arrow next style4 default"><i
+                                        class="fa-solid fa-arrow-right"></i></button>
                             </div>
                         </div>
                     </div>
@@ -612,8 +680,7 @@
                             <div class="swiper-slide">
                                 <div class="th-team team-card style1 mb-3">
                                     <div class="box-img">
-                                        <img src="https://placehold.co/300x400"
-                                            alt="Team">
+                                        <img src="https://placehold.co/300x400" alt="Team">
                                     </div>
                                     <div class="box-content">
                                         <div>
@@ -669,165 +736,174 @@
                         </div>
                     </div>
                 </div>
-                <div class="filter-menu filter-menu-active mt-5 mb-4">
-                    <button data-filter="*" class="tab-btn active" type="button">All Moments</button>
-                    <button data-filter=".cat1" class="tab-btn" type="button">2025 -2024</button>
-                    <button data-filter=".cat2" class="tab-btn" type="button">2024 - 2022</button>
-                    <button data-filter=".cat3" class="tab-btn" type="button">2022 - 2018</button>
-                    <button data-filter=".cat3" class="tab-btn" type="button">2017</button>
-                </div>
                 <div class="portfolio-area">
-                    <div class="row gy-4 filter-active">
-                        <div class="col-md-6 col-xl-auto filter-item cat1 cat5 cat7 cat3">
-                            <div class="project-item">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                        alt="project image">
-                                </div>
-                            </div>
+                    <div class="filter-menu filter-menu-active mt-5 mb-4">
+                        <button data-filter="*" class="tab-btn active" type="button">All Moments</button>
+                        <button data-filter=".cat-2025" class="tab-btn" type="button">2025</button>
+                        <button data-filter=".cat-2024" class="tab-btn" type="button">2024</button>
+                        <button data-filter=".cat-2022, .cat-2023" class="tab-btn" type="button">2023 - 2022</button>
+                        <button data-filter=".cat-2020" class="tab-btn" type="button">2022 - 2018</button>
+                        <button data-filter=".cat-old" class="tab-btn" type="button">2017</button>
+                    </div>
+                    <div class="masonary-gallery-active" id="masonary-gallery">
+                        @for ($i = 1; $i <= 25; $i++)
+                            <a href="{{ asset('frontend-assets/img/gallery/workplace/2020 (' . $i . ').jpg') }}"
+                                class="filter-item mb-3 cat-2020 project-item box-img">
+                                <img src="{{ asset('frontend-assets/img/gallery/workplace/2020 (' . $i . ').jpg') }}"
+                                    class="w-100" alt="">
+                            </a>
+                        @endfor
+                        @for ($i = 1; $i <= 6; $i++)
+                            <a href="{{ asset('frontend-assets/img/gallery/workplace/2022 (' . $i . ').jpg') }}"
+                                class="filter-item mb-3 cat-2022 project-item box-img">
+                                <img src="{{ asset('frontend-assets/img/gallery/workplace/2022 (' . $i . ').jpg') }}"
+                                    class="w-100" alt="">
+                            </a>
+                        @endfor
+                        @for ($i = 1; $i <= 3; $i++)
+                            <a href="{{ asset('frontend-assets/img/gallery/workplace/2023 (' . $i . ').jpg') }}"
+                                class="filter-item mb-3 cat-2023 project-item box-img">
+                                <img src="{{ asset('frontend-assets/img/gallery/workplace/2023 (' . $i . ').jpg') }}"
+                                    class="w-100" alt="">
+                            </a>
+                        @endfor
+                        @for ($i = 1; $i <= 15; $i++)
+                            <a href="{{ asset('frontend-assets/img/gallery/workplace/2024 (' . $i . ').jpg') }}"
+                                class="filter-item mb-3 cat-2024 project-item box-img">
+                                <img src="{{ asset('frontend-assets/img/gallery/workplace/2024 (' . $i . ').jpg') }}"
+                                    class="w-100" alt="">
+                            </a>
+                        @endfor
+                        @for ($i = 1; $i <= 5; $i++)
+                            <a href="https://placehold.co/1920x1080"
+                                class="filter-item mb-3 cat-2025 project-item box-img">
+                                <img src="{{ asset('frontend-assets/img/gallery/workplace/2025 (' . $i . ').jpg') }}"
+                                    class="w-100" alt="">
+                            </a>
+                        @endfor
+                    </div>
+                    <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
+                                                            </div> -->
+                </div>
+            </div>
+            @push('scripts')
+                <script>
+                    $(".masonary-gallery-active").imagesLoaded(function() {
+                        var $filter = ".masonary-gallery-active",
+                            $filterItem = ".filter-item",
+                            $filterMenu = ".filter-menu-active";
+
+                        if ($($filter).length > 0) {
+                            var $grid = $($filter).isotope({
+                                itemSelector: $filterItem,
+                                filter: "*",
+                                masonry: {
+                                    // use outer width of grid-sizer for columnWidth
+
+                                    gutter: 24,
+                                    columnWidth: 4,
+                                    fitWidth: true
+                                    // horizontalOrder: true
+                                },
+                            });
+
+                            // filter items on button click
+                            $($filterMenu).on("click", "button", function() {
+                                var filterValue = $(this).attr("data-filter");
+                                $grid.isotope({
+                                    filter: filterValue,
+                                });
+                            });
+
+                            // Menu Active Class
+                            $($filterMenu).on("click", "button", function(event) {
+                                event.preventDefault();
+                                $(this).addClass("active");
+                                $(this).siblings(".active").removeClass("active");
+                            });
+                        }
+
+                    }).progress(function(){
+
+                    });
+                    var gallery = lightGallery(document.getElementById('masonary-gallery'), {
+                        plugins: [lgZoom, lgThumbnail],
+                        speed: 500,
+                    });
+                </script>
+            @endpush
+        </section>
+
+        <section class="position-relative space overflow-hidden d-none">
+            <div class="container">
+                <div class="row justify-content-center mb-4">
+                    <div class="col-lg-8">
+                        <div class="title-area text-center">
+                            <div class="shadow-title">Culture</div>
+                            <span class="sub-title sub-title4 mb-4 mb-md-5">Our Culture<span></span></span>
+                            <h2 class="sec-title">Work Culture</h2>
                         </div>
-                        <div class="col-md-6 col-xl-auto filter-item cat5 cat5 cat8 cat1">
-                            <div class="project-item">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                        alt="project image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto filter-item cat5 cat3 cat2">
-                            <div class="project-item">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                        alt="project image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto filter-item cat4 cat1 cat6">
-                            <div class="project-item">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                        alt="project image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto filter-item cat2 cat3">
-                            <div class="project-item">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                        alt="project image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto filter-item cat7 cat5 cat3">
-                            <div class="project-item">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                        alt="project image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto filter-item cat4 cat6">
-                            <div class="project-item">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                        alt="project image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto filter-item cat1 cat2 cat5">
-                            <div class="project-item">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                        alt="project image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto filter-item cat1 cat2 cat5">
-                            <div class="project-item">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                        alt="project image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto filter-item cat1 cat5 cat7 cat3">
-                            <div class="project-item">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                        alt="project image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto filter-item cat5 cat5 cat8 cat1">
-                            <div class="project-item">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                        alt="project image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto filter-item cat5 cat3 cat2">
-                            <div class="project-item">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                        alt="project image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto filter-item cat4 cat1 cat6">
-                            <div class="project-item">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                        alt="project image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto filter-item cat2 cat3">
-                            <div class="project-item">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                        alt="project image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto filter-item cat7 cat5 cat3">
-                            <div class="project-item">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                        alt="project image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto filter-item cat4 cat6">
-                            <div class="project-item">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                        alt="project image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto filter-item cat1 cat2 cat5">
-                            <div class="project-item">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                        alt="project image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-auto filter-item cat1 cat2 cat5">
-                            <div class="project-item">
-                                <div class="box-img global-img">
-                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                        alt="project image">
+                    </div>
+                </div>
+                <ul class="nav nav-pills gap-3 justify-content-center" id="galleryTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link tab-btn active" id="tab-2524" data-bs-toggle="tab"
+                            data-bs-target="#tab-2524-pane" type="button" role="tab" aria-controls="tab-2524-pane"
+                            aria-selected="true">2025 - 2024</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link tab-btn" id="tab-2422" data-bs-toggle="tab"
+                            data-bs-target="#tab-2422-pane" type="button" role="tab" aria-controls="tab-2422-pane"
+                            aria-selected="false">2024 - 2022</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link tab-btn" id="tab-2217" data-bs-toggle="tab"
+                            data-bs-target="#tab-2217-pane" type="button" role="tab" aria-controls="tab-2217-pane"
+                            aria-selected="false">2022 - 2017</button>
+                    </li>
+                </ul>
+                <div class="tab-content position-relative" id="galleryTabContent">
+                    <div class="tab-pane fade show active" id="tab-2524-pane" role="tabpanel" aria-labelledby="tab-2524"
+                        tabindex="0">
+                        <div class="row gy-4 filter-active">
+                            <div class="col-md-6 col-xl-3">
+                                <div class="project-item">
+                                    <div class="box-img global-img">
+                                        <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
+                                            alt="project image">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
-                    </div> -->
+                    <div class="tab-pane fade" id="tab-2422-pane" role="tabpanel" aria-labelledby="tab-2422"
+                        tabindex="0">
+                        <div class="row gy-4 filter-active">
+                            <div class="col-md-6 col-xl-3">
+                                <div class="project-item">
+                                    <div class="box-img global-img">
+                                        <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
+                                            alt="project image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="tab-2217-pane" role="tabpanel" aria-labelledby="tab-2217"
+                        tabindex="0">
+                        <div class="row gy-4 filter-active">
+                            <div class="col-md-6 col-xl-3">
+                                <div class="project-item">
+                                    <div class="box-img global-img">
+                                        <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
+                                            alt="project image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-
     </main>
 @endsection
