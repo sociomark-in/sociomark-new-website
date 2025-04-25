@@ -434,7 +434,15 @@
                             <a href="{{ route('okinawascooters') }}" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/okinawa.jpg') }}"
-                                        alt="project image">
+                                        alt="project image w-100">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                            <a href="javascript:void(0)" class="project-item d-block">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/clients/bem.jpg') }}"
+                                        alt="project image w-100">
                                 </div>
                             </a>
                         </div>

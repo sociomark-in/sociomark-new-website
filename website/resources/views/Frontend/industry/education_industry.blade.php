@@ -440,10 +440,66 @@
                             </a>
                         </div>
                         <div class="col-md-3 col-xl-auto filter-item cat3 cat4">
-                            <a href="{{ route('eduauraa') }}" class="project-item d-block">
+                            <a href="javascript:void(0)" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/nhs_logo.png') }}"
                                         alt="project image">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xl-auto filter-item cat3 cat4">
+                            <a href="javascript:void(0)" class="project-item d-block">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/clients/nhspsa.jpg') }}"
+                                        alt="project image">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xl-auto filter-item cat3 cat4">
+                            <a href="javascript:void(0)" class="project-item d-block">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/clients/nhsinternational.jpg') }}"
+                                        alt="project image">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                            <a href="javascript:void(0)" class="project-item d-block">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/clients/tilak.jpg') }}"
+                                        alt="project image w-100">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                            <a href="javascript:void(0)" class="project-item d-block">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/clients/dyp01.jpg') }}"
+                                        alt="project image w-100">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                            <a href="javascript:void(0)" class="project-item d-block">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/clients/dyp_ambi.jpg') }}"
+                                        alt="project image w-100">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                            <a href="javascript:void(0)" class="project-item d-block">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/clients/dpu.jpg') }}"
+                                        alt="project image w-100">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                            <a href="javascript:void(0)" class="project-item d-block">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/clients/worldgrad.jpg') }}"
+                                        alt="project image w-100">
                                 </div>
                             </a>
                         </div>

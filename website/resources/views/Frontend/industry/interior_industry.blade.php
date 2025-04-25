@@ -457,6 +457,14 @@
                                 </div>
                             </a>
                         </div>
+                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                            <a href="javascript:void(0)" class="project-item d-block">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/clients/quebero.jpg') }}"
+                                        alt="project image w-100">
+                                </div>
+                            </a>
+                        </div>
                     </div>
                     <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
                                                                 </div> -->

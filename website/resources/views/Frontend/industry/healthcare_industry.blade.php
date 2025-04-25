@@ -454,6 +454,14 @@
                                 </div>
                             </a>
                         </div>
+                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                            <a href="javascript:void(0)" class="project-item d-block">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('frontend-assets/img/clients/stemrxbio.jpg') }}"
+                                        alt="project image w-100">
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
