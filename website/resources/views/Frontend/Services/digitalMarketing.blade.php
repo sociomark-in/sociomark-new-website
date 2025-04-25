@@ -318,7 +318,7 @@
                         <div class="title-area text-center">
                             <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                Our Method to make the 
+                                Our Method to make the
                                 <span class="text-blue">magic happen</span>
                             </h2>
                             {{-- <p class="sec-para">Here are a few of the SEO strategies that we as a Leading Digital Marketing
@@ -467,7 +467,7 @@
                         <div class="choose-feature-wrap">
                             <div class="choose-feature">
                                 <div class="box-icon d-flex justify-content-center align-items-center">
-                                    <img src="https://placehold.co/80x80" alt="Icon">
+                                    <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt="Icon">
                                 </div>
                                 <div class="media-body">
                                     <h4 class="sub-sec-title">Sharp Strategy First</h4>
@@ -476,7 +476,7 @@
                             </div>
                             <div class="choose-feature">
                                 <div class="box-icon d-flex justify-content-center align-items-center">
-                                    <img src="https://placehold.co/80x80" alt="Icon">
+                                    <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt="Icon">
                                 </div>
                                 <div class="media-body">
                                     <h4 class="sub-sec-title">Channel-by-Channel Expertise</h4>
@@ -486,7 +486,7 @@
                             </div>
                             <div class="choose-feature">
                                 <div class="box-icon d-flex justify-content-center align-items-center">
-                                    <img src="https://placehold.co/80x80" alt="Icon">
+                                    <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt="Icon">
                                 </div>
                                 <div class="media-body">
                                     <h4 class="sub-sec-title">Built to Grow</h4>
@@ -576,9 +576,9 @@
                         </div>
                     </div>
                     <button data-slider-prev="#testiSlide2" class="slider-arrow style3 slider-prev"><i
-                            class="far fa-arrow-left"></i></button>
+                            class="fas fa-arrow-left"></i></button>
                     <button data-slider-next="#testiSlide2" class="slider-arrow style3 slider-next"><i
-                            class="far fa-arrow-right"></i></button>
+                            class="fas fa-arrow-right"></i></button>
                 </div>
             </div>
         </section>

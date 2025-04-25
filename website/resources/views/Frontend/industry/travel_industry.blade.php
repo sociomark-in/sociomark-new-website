@@ -71,7 +71,7 @@
                     <div class="row justify-content-around">
                         <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
                             <div class="counter-box">
-                                <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt=""></div>
                                 <h3 class="box-number"><span class="counter-number">95</span>K<sup>+</sup></h3>
                                 <div class="media-body">
                                     <p class=" counter-text mb-n1">Organic Traffic</p>
@@ -80,7 +80,7 @@
                         </div>
                         <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
                             <div class="counter-box">
-                                <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt=""></div>
                                 <h3 class="box-number"><span class="counter-number">20</span>K<sup>+</sup></h3>
                                 <div class="media-body">
                                     <p class=" counter-text mb-n1">Organic Keywords</p>
@@ -89,7 +89,7 @@
                         </div>
                         <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
                             <div class="counter-box">
-                                <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt=""></div>
                                 <h3 class="box-number"><span class="counter-number">40</span>K<sup>+</sup></h3>
                                 <div class="media-body">
                                     <p class=" counter-text mb-n1">Leads</p>
@@ -98,7 +98,7 @@
                         </div>
                         <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
                             <div class="counter-box">
-                                <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt=""></div>
                                 <h3 class="box-number"><span class="counter-number">38</span>K<sup>+</sup></h3>
                                 <div class="media-body">
                                     <p class=" counter-text mb-n1">Organic Reach</p>
@@ -107,7 +107,7 @@
                         </div>
                         <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
                             <div class="counter-box">
-                                <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt=""></div>
                                 <h3 class="box-number"><span class="counter-number">30</span>K<sup>+</sup></h3>
                                 <div class="media-body">
                                     <p class=" counter-text mb-n1">Engagement</p>
@@ -116,7 +116,7 @@
                         </div>
                         <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
                             <div class="counter-box">
-                                <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt=""></div>
                                 <h3 class="box-number"><span class="counter-number">100</span>K<sup>+</sup></h3>
                                 <div class="media-body">
                                     <p class=" counter-text mb-n1">Community Growth</p>
@@ -215,9 +215,9 @@
                         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
                     </div>
                     <button data-slider-prev="#testiSlide2" class="slider-arrow style3 slider-prev"><i
-                            class="far fa-arrow-left"></i></button>
+                            class="fas fa-arrow-left"></i></button>
                     <button data-slider-next="#testiSlide2" class="slider-arrow style3 slider-next"><i
-                            class="far fa-arrow-right"></i></button>
+                            class="fas fa-arrow-right"></i></button>
                 </div>
             </div>
         </section>
@@ -283,7 +283,7 @@
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="counter-box">
-                                        <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                        <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt=""></div>
                                         <h3 class="box-number"><span class="counter-number">200</span><sup>+</sup></h3>
                                         <div class="media-body">
                                             <p class=" counter-text mb-n1">Experienced Team</p>
@@ -292,7 +292,7 @@
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="counter-box">
-                                        <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                        <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt=""></div>
                                         <h3 class="box-number"><span class="counter-number">200</span><sup>+</sup></h3>
                                         <div class="media-body">
                                             <p class=" counter-text mb-n1">Experienced Team</p>
@@ -304,7 +304,7 @@
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="counter-box">
-                                        <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                        <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt=""></div>
                                         <h3 class="box-number"><span class="counter-number">200</span><sup>+</sup></h3>
                                         <div class="media-body">
                                             <p class=" counter-text mb-n1">Experienced Team</p>
@@ -313,7 +313,7 @@
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="counter-box">
-                                        <div class="box-icon"><img src="https://placehold.co/80x80" alt=""></div>
+                                        <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt=""></div>
                                         <h3 class="box-number"><span class="counter-number">200</span><sup>+</sup></h3>
                                         <div class="media-body">
                                             <p class=" counter-text mb-n1">Experienced Team</p>

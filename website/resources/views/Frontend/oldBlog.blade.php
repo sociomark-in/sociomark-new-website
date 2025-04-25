@@ -60,8 +60,8 @@ Blog Area
                                     </a>
                                 </div>
                             </div>
-                            <button class="slider-arrow slider-prev"><i class="far fa-arrow-left"></i></button>
-                            <button class="slider-arrow slider-next"><i class="far fa-arrow-right"></i></button>
+                            <button class="slider-arrow slider-prev"><i class="fas fa-arrow-left"></i></button>
+                            <button class="slider-arrow slider-next"><i class="fas fa-arrow-right"></i></button>
                         </div>
                         <div class="blog-content content-padding">
                             <div class="blog-meta">
@@ -130,7 +130,7 @@ Blog Area
                         <div class="box widget widget_search   ">
                             <form class="search-form">
                                 <input type="text" placeholder="Enter Keyword">
-                                <button type="submit"><i class="far fa-search"></i></button>
+                                <button type="submit"><i class="fas fa-search"></i></button>
                             </form>
                         </div>
                         <div class="box widget widget_categories  ">

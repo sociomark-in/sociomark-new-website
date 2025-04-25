@@ -91,7 +91,7 @@ Header Area
                             </nav>
                             <div class="header-button">
                                 <button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i
-                                        class="far fa-bars"></i></button>
+                                        class="fas fa-bars"></i></button>
                             </div>
                         </div>
                         <div class="col-auto d-none d-lg-block">

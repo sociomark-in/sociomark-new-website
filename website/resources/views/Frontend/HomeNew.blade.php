@@ -1700,9 +1700,9 @@
                     </div>
                 </div>
                 <button data-slider-prev="#testiSlide1" class="slider-arrow slider-prev"><i
-                        class="far fa-arrow-left"></i></button>
+                        class="fas fa-arrow-left"></i></button>
                 <button data-slider-next="#testiSlide1" class="slider-arrow slider-next"><i
-                        class="far fa-arrow-right"></i></button>
+                        class="fas fa-arrow-right"></i></button>
             </div>
         </div>
         {{-- <div class="shape-mockup" data-top="0" data-right="0">
@@ -1747,7 +1747,7 @@
                             </div>
 
                             <div class="form-group col-md-6">
-                                <i class="far fa-envelope"></i>
+                                <i class="fas fa-envelope"></i>
                                 <label for="email">Email</label>
                                 <input type="text" class="form-control @error('email') is-invalid @enderror" name="email" id="email" placeholder="Enter your Email" value="{{ old('email') }}">
                                 @error('email')
