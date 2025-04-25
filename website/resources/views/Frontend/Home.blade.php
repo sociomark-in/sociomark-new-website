@@ -793,9 +793,9 @@
                         </div>
                         <div class="icon-box">
                             <button data-slider-prev="#teamSlider2" class="slider-arrow default"><i
-                                    class="far fa-arrow-left"></i></button>
+                                    class="fas fa-arrow-left"></i></button>
                             <button data-slider-next="#teamSlider2" class="slider-arrow default"><i
-                                    class="far fa-arrow-right"></i></button>
+                                    class="fas fa-arrow-right"></i></button>
                         </div>
                     </div>
                 </div>
@@ -1147,9 +1147,9 @@
                             </div>
                         </div>
                         <button data-slider-prev="#blogSlider3" class="slider-arrow style3 slider-prev"><i
-                                class="far fa-arrow-left"></i></button>
+                                class="fas fa-arrow-left"></i></button>
                         <button data-slider-next="#blogSlider3" class="slider-arrow style3 slider-next"><i
-                                class="far fa-arrow-right"></i></button>
+                                class="fas fa-arrow-right"></i></button>
                     </div>
 
                 </div>
@@ -1316,9 +1316,9 @@
                         </div>
                     </div>
                     <button data-slider-prev="#testiSlide1" class="slider-arrow slider-prev"><i
-                            class="far fa-arrow-left"></i></button>
+                            class="fas fa-arrow-left"></i></button>
                     <button data-slider-next="#testiSlide1" class="slider-arrow slider-next"><i
-                            class="far fa-arrow-right"></i></button>
+                            class="fas fa-arrow-right"></i></button>
                 </div>
             </div>
             {{-- <div class="shape-mockup" data-top="0" data-right="0">
@@ -1456,9 +1456,9 @@
                         </div>
                     </div>
                     <button data-slider-prev="#blogSlider3" class="slider-arrow style3 slider-prev"><i
-                            class="far fa-arrow-left"></i></button>
+                            class="fas fa-arrow-left"></i></button>
                     <button data-slider-next="#blogSlider3" class="slider-arrow style3 slider-next"><i
-                            class="far fa-arrow-right"></i></button>
+                            class="fas fa-arrow-right"></i></button>
                 </div>
 
             </div>

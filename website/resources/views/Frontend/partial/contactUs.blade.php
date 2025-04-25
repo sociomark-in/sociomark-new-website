@@ -22,7 +22,7 @@
                             </div>
 
                             <div class="form-group col-md-6">
-                                <i class="far fa-envelope"></i>
+                                <i class="fas fa-envelope"></i>
                                 <label class="form-label" for="email">Email</label>
                                 <input type="text" class="form-control @error('email') is-invalid @enderror" name="email" id="email" placeholder="Enter your Email" value="{{ old('email') }}">
                                 @error('email')

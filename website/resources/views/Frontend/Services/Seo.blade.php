@@ -541,7 +541,7 @@
                         <div class="choose-feature-wrap">
                             <div class="choose-feature">
                                 <div class="box-icon d-flex justify-content-center align-items-center">
-                                    <img src="https://placehold.co/80x80" alt="Icon">
+                                    <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt="Icon">
                                 </div>
                                 <div class="media-body">
                                     <h4 class="sub-sec-title">Comprehensive Digital Solutions</h4>
@@ -551,7 +551,7 @@
                             </div>
                             <div class="choose-feature">
                                 <div class="box-icon d-flex justify-content-center align-items-center">
-                                    <img src="https://placehold.co/80x80" alt="Icon">
+                                    <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt="Icon">
                                 </div>
                                 <div class="media-body">
                                     <h4 class="sub-sec-title">Tailored Strategies for Long-term Growth</h4>
@@ -561,7 +561,7 @@
                             </div>
                             <div class="choose-feature">
                                 <div class="box-icon d-flex justify-content-center align-items-center">
-                                    <img src="https://placehold.co/80x80" alt="Icon">
+                                    <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt="Icon">
                                 </div>
                                 <div class="media-body">
                                     <h4 class="sub-sec-title">Perfect Integration of SEO and Web Development</h4>
@@ -663,9 +663,9 @@
                         </div>
                     </div>
                     <button data-slider-prev="#testiSlide2" class="slider-arrow style3 slider-prev"><i
-                            class="far fa-arrow-left"></i></button>
+                            class="fas fa-arrow-left"></i></button>
                     <button data-slider-next="#testiSlide2" class="slider-arrow style3 slider-next"><i
-                            class="far fa-arrow-right"></i></button>
+                            class="fas fa-arrow-right"></i></button>
                 </div>
             </div>
         </section>
