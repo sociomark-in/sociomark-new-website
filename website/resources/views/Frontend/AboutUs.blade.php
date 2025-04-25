@@ -595,7 +595,7 @@
         </section>
         <style>
             #about-flip .flip-box {
-                width: 240px;
+                /* width: 240px; */
                 height: 320px;
             }
         </style>
