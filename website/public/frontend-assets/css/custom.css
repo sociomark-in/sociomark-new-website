@@ -448,7 +448,7 @@ main#home {
 
 .sec-para {
     line-height: 28px;
-    font-size: 18px;
+    font-size: 20px;
     /* font-size: calc(max(3vmax, 1rem)); */
     line-height: calc(1.56 * 1em);
     letter-spacing: 0.1px;
@@ -457,7 +457,7 @@ main#home {
 }
 
 .sub-sec-title {
-    font-size: 20px;
+    font-size: 22px;
     /* font-size: calc(min(5vw, 2rem)); */
     line-height: 30px;
     color: #121212;
