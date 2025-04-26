@@ -974,7 +974,7 @@
                                 <div id="collapse-6" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-6" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">It's a model illustrating the customer journey from awareness to conversion, guiding strategies at each stage to optimize engagement and sales.</p>
+                                        <p class="sec-para-faq">It's  a model illustrating the customer journey from awareness to conversion, guiding strategies at each stage to optimize engagement and sales.</p>
                                     </div>
                                 </div>
                             </div>
