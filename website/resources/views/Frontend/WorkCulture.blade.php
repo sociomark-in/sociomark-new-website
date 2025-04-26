@@ -775,7 +775,7 @@
                             </a>
                         @endfor
                         @for ($i = 1; $i <= 5; $i++)
-                            <a href="https://placehold.co/1920x1080"
+                            <a href="{{ asset('frontend-assets/img/gallery/workplace/2025 (' . $i . ').jpg') }}"
                                 class="filter-item mb-3 cat-2025 project-item box-img">
                                 <img src="{{ asset('frontend-assets/img/gallery/workplace/2025 (' . $i . ').jpg') }}"
                                     class="w-100" alt="">
