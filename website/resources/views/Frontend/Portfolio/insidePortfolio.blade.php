@@ -123,6 +123,80 @@
         <div class="brand-sec bg-smoke2 overflow-hidden space shape-mockup-wrap" id="brand-list">
             <div class="container">
                 <div class="row">
+
+
+                <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
+                        data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <a href="{{ route('roadToSafety') }}">
+                            <img src="{{ asset('frontend-assets/img/work/ayu health/ayu health.jpg') }}" alt="Brand Logo"
+                                class="img-fluid">
+                        </a>
+                    </div>
+{{ route('industry_single', ['segment' => "education"]) }}
+                    <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
+                        data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <a href="{{ route('roadToSafety') }}">
+                            <img src="{{ asset('frontend-assets/img/work/rts/1.jpg') }}" alt="Brand Logo"
+                                class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
+                        data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <a href="{{ route('roadToSafety') }}">
+                            <img src="{{ asset('frontend-assets/img/work/rts/1.jpg') }}" alt="Brand Logo"
+                                class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
+                        data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <a href="{{ route('roadToSafety') }}">
+                            <img src="{{ asset('frontend-assets/img/work/rts/1.jpg') }}" alt="Brand Logo"
+                                class="img-fluid">
+                        </a>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
                         <a href="{{ route('roadToSafety') }}">

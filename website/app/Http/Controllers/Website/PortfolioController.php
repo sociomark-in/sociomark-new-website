@@ -194,7 +194,7 @@ class PortfolioController extends Controller
                 return view("Frontend/Portfolio/bemSocial");
                 # code...
                 break;
-            case 'ayu-Health':
+            case 'ayu-health':
                 return view("Frontend/Portfolio/ayuHealthSocial");
                 # code...
                 break;
