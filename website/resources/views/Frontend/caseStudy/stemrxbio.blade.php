@@ -9,6 +9,9 @@
         background-color: #e2e2e2;
         background-size: contain;
     }
+    #portfolioCommon{
+        background-color: white !important;
+    }
 </style>
 
 @endsection
@@ -24,7 +27,7 @@
     </div>
     <div class="container space">
 
-        <h1 class="sec-title text-blue text-center">StemRx Bioscience: Transforming Market Presence with a 90-Day Game Plan for Success</h1>
+        <h1 class="sec-title text-center">Transforming Market Presence with a <span class="text-blue">90-Day Game Plan</span> for Success</h1>
 
         <h2 class="mt-4 sub-sec-title text-blue">About the Brand:</h2>
 
@@ -193,5 +196,11 @@
         <p class="sec-para">Which resulted in a growth in views from two digits to six digits, boosting the sales of the website.</p>
         <img src="{{ asset('frontend-assets/img/case-study/stemrx/stem1.png') }}" alt="">
     </div>
+    <div class="header-button mb-5 d-flex align-items-center justify-content-center">
+        <a href="{{ route('smartCityOfIndia') }}" class="th-btn th-icon">View Portfolio</a>
+    </div>
+    @include('Frontend/partial/commonCaseStudy')
+   
+    @include('Frontend/partial/portfolioCommon')
 </main>
 @endsection

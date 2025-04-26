@@ -9,10 +9,14 @@
         background-color: #106c97;
         color: white;
     }
+
     .breadcumb-wrapper {
         margin-top: 4.3rem;
         background-color: #e2e2e2;
         background-size: contain;
+    }
+    #portfolioCommon{
+        background-color: white !important;
     }
 </style>
 
@@ -23,12 +27,12 @@
     <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/case-study/smarter-logo.png') }}">
         <div class="container">
             <div class="breadcumb-content">
-                
+
             </div>
         </div>
     </div>
     <div class="container space">
-        <h1 class="sec-title text-blue text-center">How a smarter approach was used to amplify Lenovo's Smarter India Campaign</h1>
+        <h1 class="sec-title text-center">How a smarter approach was used to amplify Lenovo's <span class="text-blue">Smarter India Campaign</span> </h1>
 
 
         <h2 class="mt-4 sub-sec-title text-blue">Brief:</h2>
@@ -169,5 +173,12 @@
             </div>
         </div>
     </div>
+    <div class="header-button my-b d-flex align-items-center justify-content-center">
+        <a href="{{ route('smartCityOfIndia') }}" class="th-btn th-icon">View Portfolio</a>
+    </div>
+    @include('Frontend/partial/commonCaseStudy')
+
+
+    @include('Frontend/partial/portfolioCommon')
 </main>
 @endsection

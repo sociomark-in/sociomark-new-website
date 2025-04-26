@@ -9,10 +9,14 @@
         background-color: #106c97;
         color: white;
     }
+
     .breadcumb-wrapper {
         margin-top: 4.3rem;
         background-color: #e2e2e2;
         background-size: contain;
+    }
+    #portfolioCommon{
+        background-color: white !important;
     }
 </style>
 
@@ -23,7 +27,7 @@
     <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/case-study/ayushakti.png') }}">
         <div class="container">
             <div class="breadcumb-content">
-                
+
             </div>
         </div>
     </div>
@@ -109,40 +113,40 @@
 
 
         <h2 class="mt-4 sub-sec-title text-blue">Daily Design on Social Media</h2>
-            
-            <div class="row">
-                <div class="col-sm-6 imgs">
-                    <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-0" src="https://www.instagram.com/p/CCAlGxtK-Ty/embed/captioned/?cr=1&amp;v=12&amp;wp=400&amp;rd=https%3A%2F%2Fwww.sociomark.in&amp;rp=%2Fcase-study%2Fayushakti#%7B%22ci%22%3A0%2C%22os%22%3A1714.9000000059605%2C%22ls%22%3A220.69999998807907%2C%22le%22%3A806.8000000119209%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" height="874" data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" style="background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;"></iframe>
-                    <script async="" src="//www.instagram.com/embed.js"></script>
-                </div>
-                <div class="col-sm-6 imgs">
-                    <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-1" src="https://www.instagram.com/p/CGzDrfcqO3P/embed/captioned/?cr=1&amp;v=12&amp;wp=400&amp;rd=https%3A%2F%2Fwww.sociomark.in&amp;rp=%2Fcase-study%2Fayushakti#%7B%22ci%22%3A1%2C%22os%22%3A1721.199999988079%2C%22ls%22%3A220.69999998807907%2C%22le%22%3A806.8000000119209%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" height="904" data-instgrm-payload-id="instagram-media-payload-1" scrolling="no" style="background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;"></iframe>
-                    <script async="" src="//www.instagram.com/embed.js"></script>
-                </div>
-            </div>
-            <h2 class="mt-4 sub-sec-title text-blue">Topical Posts</h2>
-           
-            <div class="row">
-                <div class="col-sm-6 imgs">
-                    <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-2" src="https://www.instagram.com/p/B9WJ72Lp18E/embed/captioned/?cr=1&amp;v=12&amp;wp=400&amp;rd=https%3A%2F%2Fwww.sociomark.in&amp;rp=%2Fcase-study%2Fayushakti#%7B%22ci%22%3A2%2C%22os%22%3A1727.9000000059605%2C%22ls%22%3A220.69999998807907%2C%22le%22%3A806.8000000119209%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" height="760" data-instgrm-payload-id="instagram-media-payload-2" scrolling="no" style="background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;"></iframe>
-                    <script async="" src="//www.instagram.com/embed.js"></script>
-                </div>
 
+        <div class="row">
+            <div class="col-sm-6 imgs">
+                <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-0" src="https://www.instagram.com/p/CCAlGxtK-Ty/embed/captioned/?cr=1&amp;v=12&amp;wp=400&amp;rd=https%3A%2F%2Fwww.sociomark.in&amp;rp=%2Fcase-study%2Fayushakti#%7B%22ci%22%3A0%2C%22os%22%3A1714.9000000059605%2C%22ls%22%3A220.69999998807907%2C%22le%22%3A806.8000000119209%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" height="874" data-instgrm-payload-id="instagram-media-payload-0" scrolling="no" style="background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;"></iframe>
+                <script async="" src="//www.instagram.com/embed.js"></script>
+            </div>
+            <div class="col-sm-6 imgs">
+                <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-1" src="https://www.instagram.com/p/CGzDrfcqO3P/embed/captioned/?cr=1&amp;v=12&amp;wp=400&amp;rd=https%3A%2F%2Fwww.sociomark.in&amp;rp=%2Fcase-study%2Fayushakti#%7B%22ci%22%3A1%2C%22os%22%3A1721.199999988079%2C%22ls%22%3A220.69999998807907%2C%22le%22%3A806.8000000119209%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" height="904" data-instgrm-payload-id="instagram-media-payload-1" scrolling="no" style="background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;"></iframe>
+                <script async="" src="//www.instagram.com/embed.js"></script>
+            </div>
+        </div>
+        <h2 class="mt-4 sub-sec-title text-blue">Topical Posts</h2>
+
+        <div class="row">
+            <div class="col-sm-6 imgs">
+                <iframe class="instagram-media instagram-media-rendered" id="instagram-embed-2" src="https://www.instagram.com/p/B9WJ72Lp18E/embed/captioned/?cr=1&amp;v=12&amp;wp=400&amp;rd=https%3A%2F%2Fwww.sociomark.in&amp;rp=%2Fcase-study%2Fayushakti#%7B%22ci%22%3A2%2C%22os%22%3A1727.9000000059605%2C%22ls%22%3A220.69999998807907%2C%22le%22%3A806.8000000119209%7D" allowtransparency="true" allowfullscreen="true" frameborder="0" height="760" data-instgrm-payload-id="instagram-media-payload-2" scrolling="no" style="background: white; max-width: 540px; width: calc(100% - 2px); border-radius: 3px; border: 1px solid rgb(219, 219, 219); box-shadow: none; display: block; margin: 0px 0px 12px; min-width: 326px; padding: 0px;"></iframe>
+                <script async="" src="//www.instagram.com/embed.js"></script>
             </div>
 
-            <h2 class="mt-4 sub-sec-title text-blue">Product Promotion</h2>
-           
-            <div class="row">
-                <div class="col-sm-6 imgs">
-                    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FAyushakti%2Fposts%2F3305620212802611&amp;show_text=true&amp;width=552&amp;height=691&amp;appId" width="" height="550px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-                <div class="col-sm-6 imgs">
-                    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FAyushakti%2Fposts%2F3134701806561120&amp;show_text=true&amp;width=552&amp;height=691&amp;appId" width="" height="550px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
+        </div>
+
+        <h2 class="mt-4 sub-sec-title text-blue">Product Promotion</h2>
+
+        <div class="row">
+            <div class="col-sm-6 imgs">
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FAyushakti%2Fposts%2F3305620212802611&amp;show_text=true&amp;width=552&amp;height=691&amp;appId" width="" height="550px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
+            <div class="col-sm-6 imgs">
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FAyushakti%2Fposts%2F3134701806561120&amp;show_text=true&amp;width=552&amp;height=691&amp;appId" width="" height="550px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+        </div>
 
 
-        
+
 
 
         <h2 class="mt-4 sub-sec-title text-blue">Paid Advertising:</h2>
@@ -424,7 +428,11 @@
 
         </div>
     </div>
-    
-  @include('Frontend/partial/commonCaseStudy')
+    <div class="header-button mb-5 d-flex align-items-center justify-content-center">
+        <a href="{{ route('ayushaktisocoialM') }}" class="th-btn th-icon">View Portfolio</a>
+    </div>
+    @include('Frontend/partial/commonCaseStudy')
+
+    @include('Frontend/partial/portfolioCommon')
 </main>
 @endsection

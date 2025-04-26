@@ -14,6 +14,9 @@
         background-color: #e2e2e2;
         background-size: contain;
     }
+    #portfolioCommon{
+        background-color: white !important;
+    }
 </style>
 
 @endsection
@@ -151,5 +154,11 @@
             </div>
         </div>
     </div>
+    <div class="header-button mb-5 d-flex align-items-center justify-content-center">
+        <a href="{{ route('limesocio') }}" class="th-btn th-icon">View Portfolio</a>
+    </div>
+    @include('Frontend/partial/commonCaseStudy')
+    @include('Frontend/partial/portfolioCommon')
+   
 </main>
 @endsection

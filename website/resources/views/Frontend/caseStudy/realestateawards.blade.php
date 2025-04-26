@@ -15,6 +15,9 @@
         background-color: #e2e2e2;
         background-size: contain;
     }
+    #portfolioCommon{
+        background-color: white !important;
+    }
 </style>
 
 @endsection
@@ -29,7 +32,7 @@
         </div>
     </div>
     <div class="container space">
-        <h1 class="sec-title text-blue text-center">Taking the unconventional route to recognige the best real estate projects</h1>
+        <h1 class="sec-title text-center">Taking the unconventional route to recognige the <span class="text-blue">best real estate projects</span> </h1>
         <h2 class="mt-4 sub-sec-title text-blue">Brief:</h2>
         <p class="sec-para"><b>RR Kabel presents CNBC-AWAAZ Real Estate Awards</b>, from the past 13 years has always aimed at boosting the Real Estate enthusiasm in India and rewarding its excellent accomplishments. These awards identify and honour professionals who have envisioned and created marvels in the real estate industry.</p>
         <h2 class="mt-4 sub-sec-title text-blue">Obstacles:</h2>
@@ -287,5 +290,11 @@
             </div>
         </div>
     </div>
+    <div class="header-button mb-5 d-flex align-items-center justify-content-center">
+        <a href="{{ route('realEstateAwardsocio') }}" class="th-btn th-icon">View Portfolio</a>
+    </div>
+    @include('Frontend/partial/commonCaseStudy')
+    @include('Frontend/partial/portfolioCommon')
+  
 </main>
 @endsection

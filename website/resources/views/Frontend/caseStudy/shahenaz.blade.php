@@ -28,6 +28,9 @@
         background-color: #e2e2e2;
         background-size: contain;
     }
+    #portfolioCommon{
+        background-color: white !important;
+    }
 </style>
 
 @endsection
@@ -43,7 +46,7 @@
     </div>
     <div class="container space">
 
-        <h1 class="sec-title text-blue text-center">Shahenaz- Clothing & Home Decor Brand</h1>
+        <h1 class="sec-title text-center">Shahenaz- Clothing & Home Decor <span class="text-blue">Brand</span></h1>
         <p class="sec-para">Shahenaz is a premium clothing and home decor brand that celebrates India's rich cultural heritage by blending Mughal elegance with modern designs. Specializing in hand block prints, Shahenaz has a legacy of more than 30 years. The brand believes in sustainability and is proudly made in India.</p>
         <h2 class="my-3 sec-title text-blue text-center"><span class="orange">SOCIAL</span> MEDIA</h2>
         <img src="{{ asset('frontend-assets/img/case-study/shahenaz/1 (2).jpeg') }}" alt="">
@@ -443,5 +446,7 @@
             </div>
         </div>
     </div>
+    @include('Frontend/partial/commonCaseStudy')
+    @include('Frontend/partial/portfolioCommon')
 </main>
 @endsection
