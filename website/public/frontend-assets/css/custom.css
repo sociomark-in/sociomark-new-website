@@ -1377,3 +1377,13 @@ main#home {
     box-shadow: 0 4px 8px #ff900b;
     border-radius: 10px;
 }
+
+.team-grid .team-img img {
+    filter: saturate(1); /* normal color */
+    transition: 0.5s;
+  }
+  
+  .team-grid .team-img:hover img {
+    filter: saturate(1.5); /* little more colorful on hover */
+  }
+  

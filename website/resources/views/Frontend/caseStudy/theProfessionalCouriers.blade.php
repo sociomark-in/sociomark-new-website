@@ -9,10 +9,14 @@
         background-color: #106c97;
         color: white;
     }
+
     .breadcumb-wrapper {
         margin-top: 4.3rem;
         background-color: #e2e2e2;
         background-size: contain;
+    }
+    #portfolioCommon{
+        background-color: white !important;
     }
 </style>
 
@@ -23,13 +27,13 @@
     <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/case-study/theprofessional.png') }}">
         <div class="container">
             <div class="breadcumb-content">
-               
+
             </div>
         </div>
     </div>
     <div class="container space">
 
-        <h1 class="sec-title text-blue text-center">Strategy planning & implementation for india's largest Courier company</h1>
+        <h1 class="sec-title text-center">Strategy planning & implementation for india's largest <span class="text-blue">Courier company</span> </h1>
         <h2 class="mt-4 sub-sec-title text-blue">Brief:</h2>
         <p class="sec-para"><b>The Professional Couriers</b>, is amongst India's Largest Courier companies, which has been established since 1987. They aimed to focalise on rendering the customers with digital customer services i.e.- ORM and with quirky, service-based, metaphoric content across all digital platforms.</p>
         <h2 class="mt-4 sub-sec-title text-blue">Obstacles:</h2>
@@ -105,22 +109,22 @@
                 <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftheprofessionalcouriers%2Fposts%2F3173325142702593&amp;width=500&amp;show_text=true&amp;appId=977254235797172&amp;height=634" width="100%" height="610" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
         </div>
-        
+
 
 
         <p class="sec-para">To ensure maximum brand awareness, we also boosted service-centric posts to reach out to more people and bring in business for the brand. We carried out different ad campaigns for the brand on platforms such as YouTube &amp; Facebook, that yielded favourable results.</p>
         <p class="sec-para">We started with the social media campaign to ensure maximum amount of brand awareness, by promoting the services provided, some topical posts, metaphoric creatives, celebratory dates and much more</p>
 
-       
+
 
         <h2 class="mt-4 sub-sec-title text-blue">Online Reputation Management:</h2>
         <p class="sec-para">Every brand needs an ORM strategy to maintain their image online. So, we established an ORM strategy for our client to keep track of their customers’ queries and aid whenever needed.</p>
         <p class="sec-para">We recorded the highest number of complaints from Facebook &amp; Twitter and co-ordinated with the HO in resolving over 26% of the total customers’ queries.</p>
 
-        
+
         <h2 class="mt-4 sub-sec-title text-blue">Results/Conclusion:</h2>
         <p class="sec-para">Monitoring the social media campaigns, we were successful in achieving steady community growth and increased impressions &amp; engagements.</p>
-        
+
 
         <h2 class="mt-4 sub-sec-title text-blue">Achivement in Numbers:</h2>
         <div class="row" style="text-align: center">
@@ -139,9 +143,14 @@
             </div>
 
         </div>
-       
-
 
     </div>
+    <div class="header-button mb-5 d-flex align-items-center justify-content-center">
+        <a href="{{ route('theProffessionalCouriers') }}" class="th-btn th-icon">View Portfolio</a>
+    </div>
+    @include('Frontend/partial/commonCaseStudy')
+
+    @include('Frontend/partial/portfolioCommon')
+   
 </main>
 @endsection

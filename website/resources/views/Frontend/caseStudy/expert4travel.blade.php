@@ -14,6 +14,9 @@
         background-color: #e2e2e2;
         background-size: contain;
     }
+    #portfolioCommon{
+        background-color: white !important;
+    }
 </style>
 
 @endsection
@@ -104,5 +107,7 @@
             <div class="col-6"><img src="{{ asset('frontend-assets/img/case-study/growth2.png') }}" alt=""></div>
         </div>
     </div>
+    @include('Frontend/partial/commonCaseStudy')
+    @include('Frontend/partial/portfolioCommon')
 </main>
 @endsection

@@ -14,6 +14,9 @@
         background-color: #e2e2e2;
         background-size: contain;
     }
+    #portfolioCommon{
+        background-color: white !important;
+    }
 </style>
 
 @endsection
@@ -28,7 +31,7 @@
         </div>
     </div>
     <div class="container space">
-        <h1 class="sec-title text-blue text-center">Stratergically Amusing Journey resulting in a 3x return on awareness</h1>
+        <h1 class="sec-title text-center">Stratergically Amusing Journey resulting in a <span class="text-blue"> 3x return on awareness</span> </h1>
 
 
         <div class="row">
@@ -194,5 +197,11 @@
             </div>
         </div>
     </div>
+    <div class="header-button mb-5 d-flex align-items-center justify-content-center">
+        <a href="{{ route('roadToSafety') }}" class="th-btn th-icon">View Portfolio</a>
+    </div>
+    @include('Frontend/partial/commonCaseStudy')
+  
+    @include('Frontend/partial/portfolioCommon')
 </main>
 @endsection

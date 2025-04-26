@@ -24,8 +24,7 @@
                                 <div class="team-img">
                                     <img src="{{ asset('frontend-assets/img/case-study/bddb.png') }}" alt="case-study">
                                     <div class="th-social">
-                                        <a href="{{ route('buttondabaodeshbanao') }}"><i
-                                                class="fab fa-facebook-f"></i></a>
+                                        <a href="{{ route('buttondabaodeshbanao') }}"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                     </div>
                                 </div>
                                 <h3 class="sub-sec-title"><a href="{{ route('buttondabaodeshbanao') }}">Button Dabo Desh Bano</a></h3>
@@ -39,8 +38,7 @@
                                 <div class="team-img">
                                     <img src="{{ asset('frontend-assets/img/clients/stemrx.jpg') }}" alt="case-study">
                                     <div class="th-social">
-                                        <a href="{{ route('stemrxbio') }}"><i
-                                                class="fab fa-facebook-f"></i></a>
+                                        <a href="{{ route('stemrxbio') }}"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                     </div>
                                 </div>
                                 <h3 class="sub-sec-title"><a href="{{ route('stemrxbio') }}">Stemrxbio</a></h3>
@@ -54,8 +52,7 @@
                                 <div class="team-img">
                                     <img src="{{ asset('frontend-assets/img/case-study/E4T.png') }}" alt="case-study">
                                     <div class="th-social">
-                                        <a href="{{ route('expert4travel') }}"><i
-                                                class="fab fa-facebook-f"></i></a>
+                                        <a href="{{ route('expert4travel') }}"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                     </div>
                                 </div>
                                 <h3 class="sub-sec-title"><a href="{{ route('expert4travel') }}">Expert For Travel</a></h3>
@@ -69,8 +66,7 @@
                                 <div class="team-img">
                                     <img src="{{ asset('frontend-assets/img/clients/tpc01.jpg') }}" alt="case-study">
                                     <div class="th-social">
-                                        <a href="{{ route('the-professional-couriers') }}"><i
-                                                class="fab fa-facebook-f"></i></a>
+                                        <a href="{{ route('the-professional-couriers') }}"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                     </div>
                                 </div>
                                 <h3 class="sub-sec-title"><a href="{{ route('the-professional-couriers') }}">The Professional Courier</a></h3>
@@ -83,8 +79,7 @@
                                 <div class="team-img">
                                     <img src="{{ asset('frontend-assets/img/clients/eduauraa.jpg') }}" alt="case-study">
                                     <div class="th-social">
-                                        <a href="{{ route('eduauraa') }}"><i
-                                                class="fab fa-facebook-f"></i></a>
+                                        <a href="{{ route('eduauraa') }}"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                     </div>
                                 </div>
                                 <h3 class="sub-sec-title"><a href="{{ route('eduauraa') }}">Eduauraa</a></h3>
@@ -97,8 +92,7 @@
                                 <div class="team-img">
                                     <img src="{{ asset('frontend-assets/img/clients/shahenaz.jpg') }}" alt="case-study">
                                     <div class="th-social">
-                                        <a href="{{ route('shahenaz') }}"><i
-                                                class="fab fa-facebook-f"></i></a>
+                                        <a href="{{ route('shahenaz') }}"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                     </div>
                                 </div>
                                 <h3 class="sub-sec-title"><a href="{{ route('shahenaz') }}">Shehanaz</a></h3>
@@ -111,8 +105,7 @@
                                 <div class="team-img">
                                     <img src="{{ asset('frontend-assets/img/clients/okinawa.jpg') }}" alt="case-study">
                                     <div class="th-social">
-                                        <a href="{{ route('okinawascooters') }}"><i
-                                                class="fab fa-facebook-f"></i></a>
+                                        <a href="{{ route('okinawascooters') }}"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                     </div>
                                 </div>
                                 <h3 class="sub-sec-title"><a href="{{ route('okinawascooters') }}">Okinawa</a></h3>
@@ -125,8 +118,7 @@
                                 <div class="team-img">
                                     <img src="{{ asset('frontend-assets/img/clients/ayushakti.jpg') }}" alt="case-study">
                                     <div class="th-social">
-                                        <a href="{{ route('ayushakti') }}"><i
-                                                class="fab fa-facebook-f"></i></a>
+                                        <a href="{{ route('ayushakti') }}"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                     </div>
                                 </div>
                                 <h3 class="sub-sec-title"><a href="{{ route('ayushakti') }}">Ayushakti</a></h3>
@@ -141,3 +133,10 @@
 
         </div>
     </section>
+
+    <style>
+        i{
+            color: white;
+        }
+      
+    </style>

@@ -15,6 +15,9 @@
         background-color: #e2e2e2;
         background-size: contain;
     }
+    #portfolioCommon{
+        background-color: white !important;
+    }
 </style>
 
 @endsection
@@ -30,7 +33,7 @@
         </div>
     </div>
     <div class="container space">
-        <h1 class="sec-title text-blue text-center">Button Dabao Desh Banao</h1>
+        <h1 class="sec-title text-center">Button Dabao <span class="text-blue">Desh Banao</span> </h1>
 
         <div class="row">
             <div class="col-md-6 col-12">
@@ -168,5 +171,11 @@
             </div>
         </div>
     </div>
+    <div class="header-button mb-5 d-flex align-items-center justify-content-center">
+        <a href="{{ route('buttonbabaoDeshBanaoSocio') }}" class="th-btn th-icon">View Portfolio</a>
+    </div>
+    @include('Frontend/partial/commonCaseStudy')
+ 
+    @include('Frontend/partial/portfolioCommon')
 </main>
 @endsection
