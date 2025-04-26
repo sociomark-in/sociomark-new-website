@@ -1,32 +1,15 @@
 @extends('Frontend.layout.app')
 @section('content')
 <section class="port-bann">
-    <div class="container-fluid">
+    <div class="container-fluid p-0">
         <div class="row mt-60">
-            {{-- <h2 class="h2 page-title mb-20 text-center text-uppercase">The <span class="text-blue">Mighty
-                Exposure</span> --}}
-            </h2>
             <div class="swiper caseStudySwiper">
                 <div class="swiper-wrapper">
-                    {{-- <div class="swiper-slide">
-                        <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/ayushakti/ayushakti.jpg') }}" alt=""
-                                srcset="" class="w-100">
-                        </div>
-                    </div> --}}
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/ayu health/ayu health.jpg') }}" alt=""
                                 srcset="" class="w-100">
                         </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu2.jpeg') }}" alt=""
-                            srcset="" class="w-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu3.jpeg') }}" alt=""
-                            srcset="" class="w-100">
                     </div>
                 </div>
                 <!--<div class="swiper-button-next"></div>-->
@@ -85,23 +68,18 @@
 <section class="porfolio-text section-margin">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Ayushakti Ayurved</h2>
-            <p class="sec-para"><b>About the Brand:</b> Ayushakti is a global leader in providing ayurvedic healthcare
-                services
-                and holistic wellness solutions. Its authentic powerful herbal treatments have successfully helped lakhs
-                of people, around 108 countries for the past 32 years.</p>
-            <p class="sec-para"><b>Services Offered:</b> Complete Marketing Strategy (Online + Offline), Social Media
-                Management, Print Design, ORM, Content Writing, Social media Ads, Googles Ads, Website Development &
-                Management, Search Engine Optimization(SEO), Email Marketing, Influencer Activity, Blogger Outreach.</p>
+            <h2 class="text-blue sec-title">Ayu health</h2>
+            <p class="sec-para"><b>About the Brand:</b> </p>
+            <p class="sec-para"><b>Services Offered:</b> </p>
             <div class="th-social">
                 <p class="sec-para"><b>Page Link:</b>
-                    <a href="https://www.facebook.com/Ayushakti" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/ayushakti/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://twitter.com/ayushakti_ind" target="_blank"><i
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i
                             class="fa-brands fa-x-twitter"></i></a>
             </div>
             <div class="header-button mt-3">
-                <a href="{{ route('ayushakti') }}" class="th-btn th-icon">READ OUR CASE STUDY</a>
+                <a href="#" class="th-btn th-icon">READ OUR CASE STUDY</a>
             </div>
         </div>
     </div>
@@ -115,19 +93,19 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/ayushkati/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/ayuhealth/1.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/ayushkati/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/ayuhealth/2.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/ayushkati/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/ayuhealth/3.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/ayushkati/4.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/ayuhealth/4.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                 </div>
@@ -135,9 +113,7 @@
                 <!--<div class="swiper-button-prev"></div>-->
                 {{-- <div class="swiper-pagination"></div> --}}
             </div>
-            <div class="header-button mt-3 justify-content-center">
-                <a href="{{ route('ayushakti') }}" class="th-btn th-icon">VIEW OUR CASE STUDY</a>
-            </div>
+           
             <script>
                 var swiper = new Swiper(".creativeSwiper", {
                     spaceBetween: 30,
@@ -190,9 +166,6 @@
                 <p class="sec-para text-center text-blue mt-2"><b>StemRx Bio</b></p>
             </div>
 
-            <div class="header-button mt-3">
-                <a href="{{ route('ayushakti') }}" class="th-btn th-icon">View Our Porfolio</a>
-            </div>
         </div>
     </div>
 </section>

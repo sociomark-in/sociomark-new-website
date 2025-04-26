@@ -218,10 +218,6 @@ class PortfolioController extends Controller
                 return view("Frontend/Portfolio/ismSocial");
                 # code...
                 break;
-            case 'jivana':
-                return view("Frontend/Portfolio/jivanaSocial");
-                # code...
-                break;
             case 'm4u':
                 return view("Frontend/Portfolio/m4uSocial");
                 # code...
