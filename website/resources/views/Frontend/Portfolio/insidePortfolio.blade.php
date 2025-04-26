@@ -155,16 +155,29 @@
                         </a>
                     </div>
 
-
-
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('social', ['segment'=>'jivana']) }}">
-                            <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="Brand Logo"
+                        <a href="{{ route('social', ['segment'=>'m4u']) }}">
+                            <img src="{{ asset('frontend-assets/img/work/banner/market4you.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
-                    
+
+                    <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
+                        data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <a href="{{ route('social', ['segment'=>'nhss']) }}">
+                            <img src="{{ asset('frontend-assets/img/work/banner/NHS.jpg') }}" alt="Brand Logo"
+                                class="img-fluid">
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
+                        data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <a href="{{ route('social', ['segment'=>'shahenaz']) }}">
+                            <img src="{{ asset('frontend-assets/img/work/banner/Shahenaz.jpg') }}" alt="Brand Logo"
+                                class="img-fluid">
+                        </a>
+                    </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
                         <a href="{{ route('social', ['segment'=>'nodwin']) }}">

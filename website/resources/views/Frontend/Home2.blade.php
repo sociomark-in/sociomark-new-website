@@ -1297,6 +1297,7 @@
                         loop: true,
                         autoplay: {
                             delay: 1000,
+                            disableOnInteraction: false,
                         },
                         slidesPerView: 2,
                         spaceBetween: 20,
