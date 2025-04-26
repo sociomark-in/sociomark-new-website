@@ -259,7 +259,7 @@ class PortfolioController extends Controller
                 # code...
                 break;
 
-            
+
             case 'repute':
                 return view("Frontend/Portfolio/reputeSocial");
                 # code...
@@ -292,6 +292,10 @@ class PortfolioController extends Controller
                 break;
             case 'world-grad':
                 return view("Frontend/Portfolio/worldGradSocial");
+
+                break;
+            case 'pare':
+                return view("Frontend/Portfolio/pareSocial");
 
                 break;
 
