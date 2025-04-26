@@ -424,5 +424,7 @@
 
         </div>
     </div>
+    
+  @include('Frontend/partial/commonCaseStudy')
 </main>
 @endsection
