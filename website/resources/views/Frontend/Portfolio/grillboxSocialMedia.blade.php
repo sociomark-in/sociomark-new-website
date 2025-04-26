@@ -97,4 +97,85 @@
         </div>
     </div>
 </section>
+<section class="port-bann section-margin">
+    <div class="container-fluid">
+        <div class="row mt-60">
+            <h2 class=" sec-title text-center">The Mighty <span class="text-blue">Creative</span></h2>
+            </h2>
+            <div class="swiper creativeSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="{{ asset('frontend-assets/img/portfolio/grillbox/1.png') }}" alt="" srcset=""
+                            class="w-100">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('frontend-assets/img/portfolio/grillbox/2.png') }}" alt="" srcset=""
+                            class="w-100">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('frontend-assets/img/portfolio/grillbox/3.png') }}" alt="" srcset=""
+                            class="w-100">
+                    </div>
+
+                </div>
+                <!--<div class="swiper-button-next"></div>-->
+                <!--<div class="swiper-button-prev"></div>-->
+                {{-- <div class="swiper-pagination"></div> --}}
+            </div>
+
+            <script>
+                var swiper = new Swiper(".creativeSwiper", {
+                    spaceBetween: 30,
+                    // centeredSlides: true,
+                    slidesPerView: 1,
+                    loop: true,
+                    // autoplay: {
+                    //     delay: 2500,
+                    //     disableOnInteraction: false,
+                    // },
+                    breakpoints: {
+                        375: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 40,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 50,
+                        },
+                    },
+                    pagination: {
+                        el: ".creativeSwiper .swiper-pagination",
+                        clickable: true,
+                    },
+                });
+            </script>
+        </div>
+    </div>
+</section>
+
+<section class="porfolio-text section-margin">
+    <div class="container">
+        <div class="row">
+            <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
+
+            <div class="col lg-4 col-md-4 col-12">
+                <img src="https://placehold.co/400x200" alt="" srcset="" class="w-100">
+                <p class="sec-para text-center text-blue mt-2"><b>lorem</b></p>
+            </div>
+            <div class="col lg-4 col-md-4 col-12">
+                <img src="https://placehold.co/400x200" alt="" srcset="" class="w-100">
+                <p class="sec-para text-center text-blue mt-2"><b>lorem</b></p>
+            </div>
+            <div class="col lg-4 col-md-4 col-12">
+                <img src="https://placehold.co/400x200" alt="" srcset="" class="w-100">
+                <p class="sec-para text-center text-blue mt-2"><b>lorem</b></p>
+            </div>
+
+        </div>
+    </div>
+</section>
 @endsection

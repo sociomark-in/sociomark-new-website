@@ -30,7 +30,7 @@
                     <div class="col-lg-4 mb-30 mb-xl-0">
                         <div class="imgBox img-box2 me-xl-4 mt-lg-60">
                             <div class="img1 th-anim mb-35">
-                                <img src="https://placehold.co/600x800" class="w-100" alt="About">
+                                <img src="{{ asset('frontend-assets/img/industry/images/Automobile Industry.jpg') }}" class="w-100" alt="About">
                             </div>
                         </div>
                     </div>

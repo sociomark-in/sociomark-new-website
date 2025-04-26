@@ -891,18 +891,13 @@
                             <div class="accordion-card">
                                 <div class="accordion-header" id="collapse-item-1">
                                     <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">How
-                                        long does it take to see results from SEO?</button>
+                                        data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">What is digital marketing?</button>
                                 </div>
                                 <div id="collapse-1" class="accordion-collapse collapse show"
                                     aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
-                                            initial improvements in website traffic and rankings within 3-6 months with a
-                                            well-defined strategy. Long-term results and significant traffic growth. We are
-                                            a five-star rated holistic full-service digital marketing agencies, serving
-                                            thousands of clients. Our digital agency covers all aspects of internet
-                                            marketing:</p>
+                                        <p class="sec-para-faq">Digital marketing encompasses all marketing efforts that use electronic devices or the internet, including channels like search engines, social media, email, and websites.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -911,18 +906,12 @@
                             <div class="accordion-card ">
                                 <div class="accordion-header" id="collapse-item-2">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">How
-                                        will I be kept informed about my SEO progress?</button>
+                                        data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">Why is digital marketing important?</button>
                                 </div>
                                 <div id="collapse-2" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
-                                            initial improvements in website traffic and rankings within 3-6 months with a
-                                            well-defined strategy. Long-term results and significant traffic growth. We are
-                                            a five-star rated holistic full-service digital marketing agencies, serving
-                                            thousands of clients. Our digital agency covers all aspects of internet
-                                            marketing:</p>
+                                        <p class="sec-para-faq">It allows businesses to reach a broader audience, target specific demographics, and measure campaign effectiveness in real-time.</p>
                                     </div>
                                 </div>
                             </div>
@@ -932,17 +921,13 @@
                                 <div class="accordion-header" id="collapse-item-3">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapse-3" aria-expanded="false"
-                                        aria-controls="collapse-3">What kind of SEO techniques do you use?</button>
+                                        aria-controls="collapse-3">What are the main types of digital marketing?</button>
                                 </div>
                                 <div id="collapse-3" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
-                                            initial improvements in website traffic and rankings within 3-6 months with a
-                                            well-defined strategy. Long-term results and significant traffic growth. We are
-                                            a five-star rated holistic full-service digital marketing agencies, serving
-                                            thousands of clients. Our digital agency covers all aspects of internet
-                                            marketing:</p>
+                                        <p class="sec-para-faq">Key types include Search Engine Optimization (SEO), Pay-Per-Click (PPC) advertising, content marketing, social media marketing, email marketing, and affiliate marketing.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -952,18 +937,13 @@
                                 <div class="accordion-header" id="collapse-item-4">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapse-4" aria-expanded="false"
-                                        aria-controls="collapse-4">What happens if I don't see results after a
-                                        while?</button>
+                                        aria-controls="collapse-4">How does digital marketing differ from traditional marketing?</button>
                                 </div>
                                 <div id="collapse-4" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-4" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
-                                            initial improvements in website traffic and rankings within 3-6 months with a
-                                            well-defined strategy. Long-term results and significant traffic growth. We are
-                                            a five-star rated holistic full-service digital marketing agencies, serving
-                                            thousands of clients. Our digital agency covers all aspects of internet
-                                            marketing:</p>
+                                        <p class="sec-para-faq">Digital marketing is primarily online, offering real-time analytics and targeted outreach, whereas traditional marketing uses offline channels like print and TV without immediate feedback.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -972,18 +952,13 @@
                             <div class="accordion-card ">
                                 <div class="accordion-header" id="collapse-item-5">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">How
-                                        do I get started with your agency?</button>
+                                        data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">How do I measure the success of digital marketing campaigns?
+                                    </button>
                                 </div>
                                 <div id="collapse-5" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-5" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
-                                            initial improvements in website traffic and rankings within 3-6 months with a
-                                            well-defined strategy. Long-term results and significant traffic growth. We are
-                                            a five-star rated holistic full-service digital marketing agencies, serving
-                                            thousands of clients. Our digital agency covers all aspects of internet
-                                            marketing:</p>
+                                        <p class="sec-para-faq">Success is gauged using metrics like website traffic, conversion rates, click-through rates (CTR), and return on investment (ROI).</p>
                                     </div>
                                 </div>
                             </div>
@@ -993,18 +968,13 @@
                                 <div class="accordion-header" id="collapse-item-6">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapse-6" aria-expanded="false"
-                                        aria-controls="collapse-6">What is your process for starting a new
-                                        project?</button>
+                                        aria-controls="collapse-6">What is a digital marketing funnel?
+                                    </button>
                                 </div>
                                 <div id="collapse-6" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-6" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
-                                            initial improvements in website traffic and rankings within 3-6 months with a
-                                            well-defined strategy. Long-term results and significant traffic growth. We are
-                                            a five-star rated holistic full-service digital marketing agencies, serving
-                                            thousands of clients. Our digital agency covers all aspects of internet
-                                            marketing:</p>
+                                        <p class="sec-para-faq">It's a model illustrating the customer journey from awareness to conversion, guiding strategies at each stage to optimize engagement and sales.</p>
                                     </div>
                                 </div>
                             </div>
