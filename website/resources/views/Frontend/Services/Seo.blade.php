@@ -9,7 +9,7 @@
         #seo-service #about-sec5,
         #seo-service #Features,
         #seo-service #contact {
-            background-color: #F5F5F5 !important;
+            /* background-color: #F5F5F5 !important; */
         }
 
         #seo-service #features .sub-sec-title {
@@ -43,7 +43,7 @@
         /* section 2 */
         #seo-service #about-sec2 {
             /* background-color: #F5F5F5; */
-            background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
+            /* background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent); */
         }
 
         /* section 2 end */
@@ -235,10 +235,10 @@
                 <div class="row text-center">
                     <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                         <div class="counter-card pb-2">
-                            <h3 class="box-number"><span class="counter-number">100</span>M<span class="plus">+</span>
+                            <h3 class="box-number text-orange"><span class="counter-number">123</span>M<span class="plus">+</span>
                             </h3>
                             <div class="media-body">
-                                <p class=" counter-text mb-n1">Organic Traffic</p>
+                                <p class=" counter-text mb-n1"><b>Organic Traffic</b></p>
                             </div>
                         </div>
                         <div class="divider"></div>
@@ -246,10 +246,10 @@
 
                     <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                         <div class="counter-card pb-2">
-                            <h3 class="box-number"><span class="counter-number">500</span>K<span class="plus">+</span>
+                            <h3 class="box-number text-orange"><span class="counter-number">412</span>K<span class="plus">+</span>
                             </h3>
                             <div class="media-body">
-                                <p class=" counter-text mb-n1">Organic Keywords Growth</p>
+                                <p class=" counter-text mb-n1"><b>Organic Keywords Growth</b></p>
                             </div>
                         </div>
                         <div class="divider"></div>
@@ -257,9 +257,10 @@
 
                     <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                         <div class="counter-card pb-2">
-                            <h3 class="box-number"><span class="counter-number">2</span>M<span class="plus">+</span></h3>
+                            <h3 class="box-number text-orange"><span class="counter-number">2.4</span>M<span class="plus">+</span>
+                            </h3>
                             <div class="media-body">
-                                <p class=" counter-text mb-n1">Organic Revenue Generated</p>
+                                <p class=" counter-text mb-n1"><b>Organic Revenue Generated</b></p>
                             </div>
                         </div>
                         <div class="divider"></div>
@@ -267,9 +268,9 @@
 
                     <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                         <div class="counter-card pb-2">
-                            <h3 class="box-number"><span class="counter-number">50</span><span class="plus">+</span></h3>
+                            <h3 class="box-number text-orange"><span class="counter-number">48</span><span class="plus">+</span></h3>
                             <div class="media-body">
-                                <p class=" counter-text mb-n1">Happy Customers</p>
+                                <p class=" counter-text mb-n1"><b>Happy Customers</b></p>
                             </div>
                         </div>
                         <div class="divider"></div>
@@ -349,8 +350,8 @@
                     <div class="col-md-6 text-center">
                         <div class="circle-wrapper" data-aos="fade-right" data-aos-delay="200" data-tilt data-tilt-max="10">
                             <div class="circle" data-tilt data-tilt-max="10">
-                                <img src="{{ asset('frontend-assets/img/Services-page/seo/Creating Impact.png') }}" alt="Key"
-                                    class="key-image mt-3">
+                                <img src="{{ asset('frontend-assets/img/Services-page/seo/Creating Impact.png') }}"
+                                    alt="Key" class="key-image mt-3">
                             </div>
                         </div>
                     </div>
@@ -366,7 +367,8 @@
                             </div>
                             <div class="benefit-block border-start border-4">
                                 <h4 class="sub-sec-title">Technical SEO Audit</h4>
-                                <p class="sec-para">Identifying what’s slowing your site down or holding it back from better
+                                <p class="sec-para">Identifying what’s slowing your site down or holding it back from
+                                    better
                                     rankings. From crawling issues to broken links, we fix the technical gaps that matter.
                                 </p>
                             </div>
@@ -415,8 +417,8 @@
                         <div class="title-area text-center">
                             <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                Best Industry-Specific
-                                <span class="text-blue"> SEO Company</span> Strategies.
+                                SEO Solutions that are
+                                <span class="text-blue"> Tailored for Every Industry</span>
                             </h2>
                         </div>
                     </div>
@@ -455,15 +457,15 @@
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Mobile SEO</h3>
+                            <h3 class="box-title">App Store SEO</h3>
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/Services-page/seo/Mobile Seo.png') }}" alt=""
                                 class="rounded-overflow">
-                            <p class="sec-para text"> It plays an essential role in any business. Our strategies focus on
-                                optimizing your website for mobile devices, including improving loading speed, enhancing
-                                user experience, and optimizing for local search. This ensures your business stands out in
-                                the competitive mobile landscape.
+                            <p class="sec-para text"> Optimizing your app's visibility is key to attracting the right
+                                users. By enhancing keywords, reviews, and user interaction, we ensure your app stands out
+                                and gets more downloads.
+
 
                             </p>
 
@@ -485,29 +487,30 @@
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Google Analytics and Reports </h3>
+                            <h3 class="box-title">AI SEO</h3>
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/Services-page/seo/Goodle Analytics and Report.png') }}"
                                 alt="" class="rounded-overflow">
-                            <p class="sec-para text">Our Google Analytics and reporting services transform raw data into a
-                                strategic advantage. We delve deep into your website's performance, identifying trends, user
-                                behaviour, and conversion opportunities.
+                            <p class="sec-para text">By leveraging AI, we enhance your website’s visibility with smart,
+                                data-driven adjustments. This approach ensures you're always ahead of the curve, delivering
+                                results that matter.
+
                             </p>
 
                         </div>
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">SEO Audit</h3>
+                            <h3 class="box-title">GEO</h3>
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/Services-page/seo/Seo Audit.png') }}" alt=""
                                 class="rounded-overflow">
-                            <p class="sec-para text">Our SEO audits provide a deep dive into your online presence,
-                                identifying strengths, weaknesses, and opportunities for growth. We scrutinize every aspect,
-                                from technical SEO to content optimization, delivering actionable insights to boost your
-                                search rankings and drive organic traffic.
+                            <p class="sec-para text">Crafting content that speaks your brand’s truth while aligning with
+                                how AI engines search and rank. We focus on making your digital presence more authentic,
+                                visible, and valuable.
+
                             </p>
 
                         </div>
@@ -541,7 +544,8 @@
                         <div class="choose-feature-wrap">
                             <div class="choose-feature">
                                 <div class="box-icon d-flex justify-content-center align-items-center">
-                                    <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt="Icon">
+                                    <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"
+                                        alt="Icon">
                                 </div>
                                 <div class="media-body">
                                     <h4 class="sub-sec-title">Comprehensive Digital Solutions</h4>
@@ -551,7 +555,8 @@
                             </div>
                             <div class="choose-feature">
                                 <div class="box-icon d-flex justify-content-center align-items-center">
-                                    <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt="Icon">
+                                    <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"
+                                        alt="Icon">
                                 </div>
                                 <div class="media-body">
                                     <h4 class="sub-sec-title">Tailored Strategies for Long-term Growth</h4>
@@ -561,7 +566,8 @@
                             </div>
                             <div class="choose-feature">
                                 <div class="box-icon d-flex justify-content-center align-items-center">
-                                    <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt="Icon">
+                                    <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"
+                                        alt="Icon">
                                 </div>
                                 <div class="media-body">
                                     <h4 class="sub-sec-title">Perfect Integration of SEO and Web Development</h4>
@@ -578,7 +584,8 @@
                             <div class="tilt-active">
                                 {{-- <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}"
                                     alt="Choose" class="w-100"> --}}
-                                <img src="{{ asset('frontend-assets/img/Services-page/seo/Impact.png') }}" alt="Choose" class="w-100">
+                                <img src="{{ asset('frontend-assets/img/Services-page/seo/Impact.png') }}" alt="Choose"
+                                    class="w-100">
 
                             </div>
                         </div>
@@ -587,8 +594,8 @@
             </div>
         </section>
         <!--==============================
-                Testimonial Area
-                ==============================-->
+                    Testimonial Area
+                    ==============================-->
         <section class="space overflow-hidden overflow-hidden">
             <div class="container">
                 <div class="title-area text-center">
@@ -675,7 +682,7 @@
                 <!-- Header Text -->
                 <h2 class="fw-bold mb-5 sec-title text-center" data-aos="fade-up" data-aos-delay="100"
                     data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    What’s Included in Our <span class="text-blue"> SEO Package</span>
+                    What’s Included in Our <span class="text-blue"> SEO Services</span>
                 </h2>
                 <!-- Feature Icons Row 1 -->
                 <div class="row justify-content-evenly mt-5">
@@ -684,14 +691,14 @@
                             <img src="https://www.gbim.com/gbim/one_click.webp" alt="One-Click Reports"
                                 class="feature-icon">
                         </div>
-                        <div class="sub-sec-title">Keyword Research</div>
+                        <div class="sub-sec-title">Keyword Research & Ranking</div>
                     </div>
                     <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                         <div class="icon-img me-3">
                             <img src="	https://www.gbim.com/gbim/traffic.webp" alt="Traffic Performance"
                                 class="feature-icon">
                         </div>
-                        <div class="sub-sec-title">Competitor Analysis</div>
+                        <div class="sub-sec-title">Organic Traffic Growth</div>
 
                     </div>
                     <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
@@ -733,212 +740,212 @@
                 <!-- Dashboard Images -->
                 <div class="mt-5" data-aos="zoom-in" data-tilt data-tilt-max="10" data-aos-delay="100"
                     data-aos-duration="1000" data-aos-easing="ease-in-out">
-                    <img src="{{ asset('frontend-assets/img/Services-page/seo/Footer_banner.png') }}" alt="Dashboard Screenshot"
-                        class="dashboard-img rounded-overflow">
+                    <img src="{{ asset('frontend-assets/img/Services-page/seo/Footer_banner.png') }}"
+                        alt="Dashboard Screenshot" class="dashboard-img rounded-overflow">
                 </div>
             </div>
         </section>
 
         <!-- <section class="overflow-hidden space" id="services-tab">
-                                        <div class="container-fluid">
-                                            <div class="row">
+                                            <div class="container-fluid">
+                                                <div class="row">
 
-                                                <div class="title-area mb-md-3 mb-2">
-                                                    <h2 class="fw-bold mb-5 sec-title text-center"
-                                                        data-aos="fade-up"
-                                                        data-aos-delay="100"
-                                                        data-aos-duration="1000"
-                                                        data-aos-easing="ease-in-out">
-                                                        International Seo <span class="text-blue"> Roadmap</span>
-                                                    </h2>
-                                                </div>
-
-                                                <div class="d-lg-flex ps-0">
-                                                    <div class="col-lg-3 col-12" data-aos="fade-right"
-                                                        data-aos-delay="200"
-                                                        data-aos-duration="1200"
-                                                        data-aos-easing="ease-in-out">
-                                                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
-                                                            aria-orientation="vertical">
-                                                            <button class="nav-link p-3 fs-5 " data-bs-toggle="pill"
-                                                                data-bs-target="#" type="button" role="tab"
-                                                                aria-controls="v-pills-profile" aria-selected="false"><span class="border-bottom border-4 d-inline-block">Services</span></button>
-                                                            <button class="nav-link active p-3 fs-5" id="v-pills-home-tab" data-bs-toggle="pill"
-                                                                data-bs-target="#v-pills-home" type="button" role="tab"
-                                                                aria-controls="v-pills-home" aria-selected="true">Education institutions</button>
-                                                            <button class="nav-link p-3 fs-5" id="v-pills-profile-tab" data-bs-toggle="pill"
-                                                                data-bs-target="#v-pills-profile" type="button" role="tab"
-                                                                aria-controls="v-pills-profile" aria-selected="false">Healthcare industry</button>
-                                                            <button class="nav-link p-3 fs-5" id="v-pills-messages-tab" data-bs-toggle="pill"
-                                                                data-bs-target="#v-pills-messages" type="button" role="tab"
-                                                                aria-controls="v-pills-messages" aria-selected="false">Technology companies</button>
-                                                            <button class="nav-link p-3 fs-5" id="v-pills-settings-tab" data-bs-toggle="pill"
-                                                                data-bs-target="#v-pills-settings" type="button" role="tab"
-                                                                aria-controls="v-pills-settings" aria-selected="false">Publication</button>
-                                                            <button class="nav-link p-3 fs-5" id="v-pills-settings-tab" data-bs-toggle="pill"
-                                                                data-bs-target="#v-pills-settings" type="button" role="tab"
-                                                                aria-controls="v-pills-settings" aria-selected="false">E-commerce businesses</button>
-                                                        </div>
+                                                    <div class="title-area mb-md-3 mb-2">
+                                                        <h2 class="fw-bold mb-5 sec-title text-center"
+                                                            data-aos="fade-up"
+                                                            data-aos-delay="100"
+                                                            data-aos-duration="1000"
+                                                            data-aos-easing="ease-in-out">
+                                                            International Seo <span class="text-blue"> Roadmap</span>
+                                                        </h2>
                                                     </div>
-                                                    <div class="col-lg-9 col-12">
-                                                        <div class="tab-content" id="v-pills-tabContent">
-                                                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                                                                aria-labelledby="v-pills-home-tab" tabindex="0">
-                                                                <div class="row ">
-                                                                    <div class="col-lg-6 col-12 text-center side-padding-mbl" data-aos="zoom-in"
-                                                                        data-aos-delay="200"
-                                                                        data-aos-duration="1200"
-                                                                        data-aos-easing="ease-in-out">
-                                                                        <div class="page-img mt-md-0 mt-3">
-                                                                            <img class="w-50" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+
+                                                    <div class="d-lg-flex ps-0">
+                                                        <div class="col-lg-3 col-12" data-aos="fade-right"
+                                                            data-aos-delay="200"
+                                                            data-aos-duration="1200"
+                                                            data-aos-easing="ease-in-out">
+                                                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                                                                aria-orientation="vertical">
+                                                                <button class="nav-link p-3 fs-5 " data-bs-toggle="pill"
+                                                                    data-bs-target="#" type="button" role="tab"
+                                                                    aria-controls="v-pills-profile" aria-selected="false"><span class="border-bottom border-4 d-inline-block">Services</span></button>
+                                                                <button class="nav-link active p-3 fs-5" id="v-pills-home-tab" data-bs-toggle="pill"
+                                                                    data-bs-target="#v-pills-home" type="button" role="tab"
+                                                                    aria-controls="v-pills-home" aria-selected="true">Education institutions</button>
+                                                                <button class="nav-link p-3 fs-5" id="v-pills-profile-tab" data-bs-toggle="pill"
+                                                                    data-bs-target="#v-pills-profile" type="button" role="tab"
+                                                                    aria-controls="v-pills-profile" aria-selected="false">Healthcare industry</button>
+                                                                <button class="nav-link p-3 fs-5" id="v-pills-messages-tab" data-bs-toggle="pill"
+                                                                    data-bs-target="#v-pills-messages" type="button" role="tab"
+                                                                    aria-controls="v-pills-messages" aria-selected="false">Technology companies</button>
+                                                                <button class="nav-link p-3 fs-5" id="v-pills-settings-tab" data-bs-toggle="pill"
+                                                                    data-bs-target="#v-pills-settings" type="button" role="tab"
+                                                                    aria-controls="v-pills-settings" aria-selected="false">Publication</button>
+                                                                <button class="nav-link p-3 fs-5" id="v-pills-settings-tab" data-bs-toggle="pill"
+                                                                    data-bs-target="#v-pills-settings" type="button" role="tab"
+                                                                    aria-controls="v-pills-settings" aria-selected="false">E-commerce businesses</button>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-9 col-12">
+                                                            <div class="tab-content" id="v-pills-tabContent">
+                                                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                                                    aria-labelledby="v-pills-home-tab" tabindex="0">
+                                                                    <div class="row ">
+                                                                        <div class="col-lg-6 col-12 text-center side-padding-mbl" data-aos="zoom-in"
+                                                                            data-aos-delay="200"
+                                                                            data-aos-duration="1200"
+                                                                            data-aos-easing="ease-in-out">
+                                                                            <div class="page-img mt-md-0 mt-3">
+                                                                                <img class="w-50" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                                                            </div>
                                                                         </div>
+                                                                        <div class="col-lg-6 col-12 side-padding-mbl" data-aos="fade-left"
+                                                                            data-aos-delay="200"
+                                                                            data-aos-duration="1200"
+                                                                            data-aos-easing="ease-in-out">
+                                                                            <h4 class="mb-20 text-blue">How We Can Help</h4>
+                                                                            <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
+                                                                                touchpoints.
+                                                                            </p>
+                                                                            <div class="checklist style4 mb-20">
+                                                                                <ul>
+                                                                                    <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
+                                                                                        Engagement &
+                                                                                        Conversion Rates</li>
+                                                                                    <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
+                                                                                        Perception
+                                                                                    </li>
+                                                                                    <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
+                                                                                        Accessibility</li>
+                                                                                    <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
+                                                                                        Costs
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+
                                                                     </div>
-                                                                    <div class="col-lg-6 col-12 side-padding-mbl" data-aos="fade-left"
-                                                                        data-aos-delay="200"
-                                                                        data-aos-duration="1200"
-                                                                        data-aos-easing="ease-in-out">
-                                                                        <h4 class="mb-20 text-blue">How We Can Help</h4>
-                                                                        <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
-                                                                            touchpoints.
-                                                                        </p>
-                                                                        <div class="checklist style4 mb-20">
-                                                                            <ul>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
-                                                                                    Engagement &
-                                                                                    Conversion Rates</li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
-                                                                                    Perception
-                                                                                </li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
-                                                                                    Accessibility</li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
-                                                                                    Costs
-                                                                                </li>
-                                                                            </ul>
+                                                                </div>
+                                                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                                                    aria-labelledby="v-pills-profile-tab" tabindex="0">
+
+                                                                    <div class="row ">
+                                                                        <div class="col-lg-6 col-12 text-center side-padding-mbl">
+                                                                            <div class="row mt-md-0 mt-3">
+                                                                                <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
+                                                                                    <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                                                                </div>
+                                                                                <div class="col-lg-6 col-6 page-img side-padding-mbl" data-aos="fade-right" data-aos-duration="5000">
+                                                                                    <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                                                                </div>
+                                                                            </div>
+
                                                                         </div>
+                                                                        <div class="col-lg-6 col-12 side-padding-mbl">
+                                                                            <h4 class="mb-20 text-blue">How We Can Help</h4>
+                                                                            <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
+                                                                                touchpoints.
+                                                                            </p>
+                                                                            <div class="checklist style4 mb-20">
+                                                                                <ul>
+                                                                                    <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
+                                                                                        Engagement &
+                                                                                        Conversion Rates</li>
+                                                                                    <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
+                                                                                        Perception
+                                                                                    </li>
+                                                                                    <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
+                                                                                        Accessibility</li>
+                                                                                    <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
+                                                                                        Costs
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+
+
                                                                     </div>
 
                                                                 </div>
-                                                            </div>
-                                                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                                                                aria-labelledby="v-pills-profile-tab" tabindex="0">
-
-                                                                <div class="row ">
-                                                                    <div class="col-lg-6 col-12 text-center side-padding-mbl">
-                                                                        <div class="row mt-md-0 mt-3">
-                                                                            <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
-                                                                                <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                                                    aria-labelledby="v-pills-messages-tab" tabindex="0">
+                                                                    <div class="row ">
+                                                                        <div class="col-lg-6 col-12 text-center side-padding-mbl">
+                                                                            <div class="page-img mt-md-0 mt-3">
+                                                                                <img class="w-50" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
                                                                             </div>
-                                                                            <div class="col-lg-6 col-6 page-img side-padding-mbl" data-aos="fade-right" data-aos-duration="5000">
-                                                                                <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                                                        </div>
+                                                                        <div class="col-lg-6 col-12 side-padding-mbl">
+                                                                            <h4 class="mb-20 text-blue">How We Can Help</h4>
+                                                                            <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
+                                                                                touchpoints.
+                                                                            </p>
+                                                                            <div class="checklist style4 mb-20">
+                                                                                <ul>
+                                                                                    <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
+                                                                                        Engagement &
+                                                                                        Conversion Rates</li>
+                                                                                    <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
+                                                                                        Perception
+                                                                                    </li>
+                                                                                    <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
+                                                                                        Accessibility</li>
+                                                                                    <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
+                                                                                        Costs
+                                                                                    </li>
+                                                                                </ul>
                                                                             </div>
                                                                         </div>
 
                                                                     </div>
-                                                                    <div class="col-lg-6 col-12 side-padding-mbl">
-                                                                        <h4 class="mb-20 text-blue">How We Can Help</h4>
-                                                                        <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
-                                                                            touchpoints.
-                                                                        </p>
-                                                                        <div class="checklist style4 mb-20">
-                                                                            <ul>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
-                                                                                    Engagement &
-                                                                                    Conversion Rates</li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
-                                                                                    Perception
-                                                                                </li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
-                                                                                    Accessibility</li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
-                                                                                    Costs
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-
-
                                                                 </div>
+                                                                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                                                    aria-labelledby="v-pills-settings-tab" tabindex="0">
 
-                                                            </div>
-                                                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                                                                aria-labelledby="v-pills-messages-tab" tabindex="0">
-                                                                <div class="row ">
-                                                                    <div class="col-lg-6 col-12 text-center side-padding-mbl">
-                                                                        <div class="page-img mt-md-0 mt-3">
-                                                                            <img class="w-50" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-6 col-12 side-padding-mbl">
-                                                                        <h4 class="mb-20 text-blue">How We Can Help</h4>
-                                                                        <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
-                                                                            touchpoints.
-                                                                        </p>
-                                                                        <div class="checklist style4 mb-20">
-                                                                            <ul>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
-                                                                                    Engagement &
-                                                                                    Conversion Rates</li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
-                                                                                    Perception
-                                                                                </li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
-                                                                                    Accessibility</li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
-                                                                                    Costs
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
-
-                                                                </div>
-                                                            </div>
-                                                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                                                                aria-labelledby="v-pills-settings-tab" tabindex="0">
-
-                                                                <div class="row ">
-                                                                    <div class="col-lg-6 col-12 text-center side-padding-mbl">
-                                                                        <div class="row mt-md-0 mt-3">
-                                                                            <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
-                                                                                <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                                                    <div class="row ">
+                                                                        <div class="col-lg-6 col-12 text-center side-padding-mbl">
+                                                                            <div class="row mt-md-0 mt-3">
+                                                                                <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
+                                                                                    <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                                                                </div>
+                                                                                <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
+                                                                                    <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+                                                                                </div>
                                                                             </div>
-                                                                            <div class="col-lg-6 col-6 page-img" data-aos="fade-right" data-aos-duration="5000">
-                                                                                <img class="w-75" src="https://www.gbim.com/seo/local_seo.webp" alt="service">
+
+                                                                        </div>
+                                                                        <div class="col-lg-6 col-12 side-padding-mbl">
+                                                                            <h4 class="mb-20 text-blue">How We Can Help</h4>
+                                                                            <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
+                                                                                touchpoints.
+                                                                            </p>
+                                                                            <div class="checklist style4 mb-20">
+                                                                                <ul>
+                                                                                    <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
+                                                                                        Engagement &
+                                                                                        Conversion Rates</li>
+                                                                                    <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
+                                                                                        Perception
+                                                                                    </li>
+                                                                                    <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
+                                                                                        Accessibility</li>
+                                                                                    <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
+                                                                                        Costs
+                                                                                    </li>
+                                                                                </ul>
                                                                             </div>
                                                                         </div>
 
-                                                                    </div>
-                                                                    <div class="col-lg-6 col-12 side-padding-mbl">
-                                                                        <h4 class="mb-20 text-blue">How We Can Help</h4>
-                                                                        <p class="mt-n1 mb-4 blog-text sec-para">Our designers translate your brand identity into a captivating visual language, ensuring consistency across all
-                                                                            touchpoints.
-                                                                        </p>
-                                                                        <div class="checklist style4 mb-20">
-                                                                            <ul>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Increased User
-                                                                                    Engagement &
-                                                                                    Conversion Rates</li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Enhanced Brand
-                                                                                    Perception
-                                                                                </li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Improved Global Reach &
-                                                                                    Accessibility</li>
-                                                                                <li class="sec-para-list"><i class="fa-solid fa-shield-check"></i>Reduced Development
-                                                                                    Costs
-                                                                                </li>
-                                                                            </ul>
-                                                                        </div>
-                                                                    </div>
 
-
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </section> -->
+                                        </section> -->
 
         @include('Frontend.partial.clientList')
 

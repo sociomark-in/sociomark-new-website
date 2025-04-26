@@ -185,6 +185,9 @@
         .tabbed-content .nav-pills .nav-link.active {
             background-color: var(--theme-color);
         }
+        .services-tab .text{
+            font-size: 20px;
+        }
     </style>
 @endpush
 
@@ -206,7 +209,7 @@
                                     <span>No Noise</span>
                                 </h1>
                                 <h1 data-aos="fade-right" data-aos-delay="2500" data-aos-duration="1000">
-                                    <span class="text-orange">#JustResults</span>
+                                    <span class="result">#JustResults</span>
                                 </h1>
                             </div>
                         </div>
@@ -215,6 +218,9 @@
             </div>
             @push('styles')
                 <style>
+                    #home .result:hover{
+                        color: #ff900b;
+                    }
                     #home .video-heading {
                         position: relative;
                     }
@@ -262,7 +268,7 @@
                 <div class="row g-4 g-md-5">
                     <div class="col-xl-6 pe-5">
                         <div class="title-area mb-20">
-                            <h1 class="sec-title " data-aos="fade-right" data-aos-delay="300">A Bold Digital Marketing
+                            <h1 class="sec-title " data-aos="fade-right" data-aos-delay="300">A Remarkable Digital Marketing
                                 Company
                                 <span class="text-orange"> for Brands that Think Bigger</span>
                             </h1>
