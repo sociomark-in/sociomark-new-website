@@ -1,14 +1,19 @@
 @extends('Frontend.layout.app')
 @section('content')
     <main id="industries">
-        <section>
+        <section class="p-0" style="margin-top: 66px;">
+            <div class="full-width">
+                <img src="{{ asset('frontend-assets/img/industry/B2B.png') }}" alt="" srcset="" class="w-100">
+            </div>
+        </section>
+        {{-- <section>
             <div class="full-width">
                 <picture>
                     <source media="(min-width: 1400px)" srcset="https://placehold.co/1920x900">
                     <img src="https://placehold.co/1080x1080" alt="">
                 </picture>
             </div>
-        </section>
+        </section> --}}
         <section class="overflow-hidden space" id="about-sec">
             <div class="container">
                 <div class="row">
