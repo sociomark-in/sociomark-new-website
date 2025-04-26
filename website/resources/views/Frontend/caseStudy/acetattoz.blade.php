@@ -14,6 +14,7 @@
         background-color: #e2e2e2;
         background-size: contain;
     }
+   
 </style>
 
 @endsection
@@ -96,5 +97,7 @@
             If you wish to grow your brand organically, connect with us today!
         </h2>
     </div>
+
+  @include('Frontend/partial/commonCaseStudy')
 </main>
 @endsection
