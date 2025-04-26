@@ -210,10 +210,7 @@ class PortfolioController extends Controller
                 return view("Frontend/Portfolio/expert4travelSocial");
                 # code...
                 break;
-            case 'inifd':
-                return view("Frontend/Portfolio/inifdSocial");
-                # code...
-                break;
+        
             case 'ism':
                 return view("Frontend/Portfolio/ismSocial");
                 # code...
