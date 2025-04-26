@@ -4,9 +4,11 @@
     <style>
         #about-us #about-process,
         #about-us #contact {
-            background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
+            /* background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent); */
         }
-        #our-founder, #about-flip{
+
+        #our-founder,
+        #about-flip {
             background-color: #f5f5f5
         }
     </style>
@@ -34,7 +36,7 @@
                         <div class="title-area mb-md-3 mb-2 mt-n1">
                             <!-- <h2 class="sec-title text-center "> Our Comprehensive International SEO Solutions</h2> -->
                             <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100">
-                                Your Brand’s Digital Partner, <span class="text-blue"> Every Step of the Way</span>
+                                Your Brand’s Digital Partner, <br><span class="text-blue"> Every Step of the Way</span>
                             </h1>
                         </div>
                     </div>
@@ -79,7 +81,7 @@
                         <div class="title-area text-center">
                             <div class="shadow-title">Process</div>
                             <span class="sub-title sub-title4 mb-4 mb-md-5">Work Process<span></span></span>
-                            <h2 class="sec-title  ">From Brief to <span class="text-blue">Brilliance</span></h2>
+                            <h2 class="sec-title">From Brief to <span class="text-blue">Brilliance</span></h2>
                         </div>
                     </div>
                 </div>
@@ -89,7 +91,7 @@
                             <div class="process-card">
                                 <div class="box-wrapp">
                                     <div class="box-icon">
-                                        <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}" alt="icon">
+                                        <img src="{{ asset('frontend-assets/img/icon/about/Pick.png') }}" alt="icon">
                                     </div>
                                     {{-- <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
                                 alt="">
@@ -108,7 +110,7 @@
                             <div class="process-card">
                                 <div class="box-wrapp">
                                     <div class="box-icon">
-                                        <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
+                                        <img src="{{ asset('frontend-assets/img/icon/about/Vision.png') }}" alt="icon">
                                     </div>
                                     {{-- <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
                             alt="">
@@ -128,7 +130,7 @@
                             <div class="process-card">
                                 <div class="box-wrapp">
                                     <div class="box-icon">
-                                        <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}" alt="icon">
+                                        <img src="{{ asset('frontend-assets/img/icon/about/Talk.png') }}" alt="icon">
                                     </div>
                                     {{-- <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
                         alt="">
@@ -147,7 +149,7 @@
                             <div class="process-card">
                                 <div class="box-wrapp">
                                     <div class="box-icon">
-                                        <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}" alt="icon">
+                                        <img src="{{ asset('frontend-assets/img/icon/about/Alive.png') }}" alt="icon">
                                     </div>
                                     {{-- <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
                     alt="">
@@ -164,44 +166,44 @@
                             </div>
                         </div>
                         <!--<div class="col-xl-4 col-md-6 col-12">
-                                                                                    <div class="process-card">
-                                                                                        <div class="box-wrapp">
-                                                                                            <div class="box-icon">
-                                                                                                <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
-                                                                                            </div>
-                                                                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                                                                    alt=""></div>
-                                                                                            <div class="box-number">
-                                                                                                05 </div>
-                                                                                        </div>
-                                                                                        <div class="box-content">
-                                                                                            <h2 class="box-title">Plan Customization</h2>
-                                                                                            <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                                                                                behaviors. Submit as many design tasks</p>
+                                                                                            <div class="process-card">
+                                                                                                <div class="box-wrapp">
+                                                                                                    <div class="box-icon">
+                                                                                                        <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
+                                                                                                    </div>
+                                                                                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                                                                            alt=""></div>
+                                                                                                    <div class="box-number">
+                                                                                                        05 </div>
+                                                                                                </div>
+                                                                                                <div class="box-content">
+                                                                                                    <h2 class="box-title">Plan Customization</h2>
+                                                                                                    <p class="box-text">Conduct thorough market of the research to the fast target audience
+                                                                                                        behaviors. Submit as many design tasks</p>
 
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="col-xl-4 col-md-6 col-12">
-                                                                                    <div class="process-card">
-                                                                                        <div class="box-wrapp">
-                                                                                            <div class="box-icon">
-                                                                                                <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}"
-                                                                                                    alt="icon">
+                                                                                                </div>
                                                                                             </div>
-                                                                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                                                                    alt=""></div>
-                                                                                            <div class="box-number">
-                                                                                                06 </div>
                                                                                         </div>
-                                                                                        <div class="box-content">
-                                                                                            <h2 class="box-title">Finished &amp; User Testing</h2>
-                                                                                            <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                                                                                behaviors. Submit as many design tasks</p>
+                                                                                        <div class="col-xl-4 col-md-6 col-12">
+                                                                                            <div class="process-card">
+                                                                                                <div class="box-wrapp">
+                                                                                                    <div class="box-icon">
+                                                                                                        <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}"
+                                                                                                            alt="icon">
+                                                                                                    </div>
+                                                                                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                                                                            alt=""></div>
+                                                                                                    <div class="box-number">
+                                                                                                        06 </div>
+                                                                                                </div>
+                                                                                                <div class="box-content">
+                                                                                                    <h2 class="box-title">Finished &amp; User Testing</h2>
+                                                                                                    <p class="box-text">Conduct thorough market of the research to the fast target audience
+                                                                                                        behaviors. Submit as many design tasks</p>
 
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>-->
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>-->
                     </div>
                 </div>
             </div>
@@ -213,7 +215,7 @@
             }
         </style>
 
-        <section class="overflow-hidden mb-md-3 mt-md-3 mt-0 md-0" id="about-process">
+        <section class="overflow-hidden mb-md-3 mt-md-3 mt-0 md-0 bg-smoke2" id="about-process">
             <div class="container process-container text-center">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
@@ -231,7 +233,7 @@
                         <div class="img">
                             <div class="shadow-title">01</div>
                             <div class=" icon " style="background-color: rgb(255 235 245);">
-                                <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
+                                <img src="{{ asset('frontend-assets/img/icon/about/Pick.png') }}" alt="">
                             </div>
                         </div>
                         <div class="text mt-1 mt-3 d-flex justify-content-center align-items-center flex-column">
@@ -241,17 +243,18 @@
                     </div>
 
                     <!-- Step 2 (reversed) -->
-                    <div class="col-md-3 col-sm-6 col-12 process-step d-flex flex-column-reverse flex-md-column zig-up" data-aos="fade-up"
-                        data-aos-delay="400">
+                    <div class="col-md-3 col-sm-6 col-12 process-step d-flex flex-column-reverse flex-md-column zig-up"
+                        data-aos="fade-up" data-aos-delay="400">
                         <div class="text d-flex justify-content-center align-items-center flex-column">
                             <h4 class="sub-sec-title">Share Your Vision</h4>
-                            <p class="sec-para">From campaign goals to creative vibes, the more you share, the better we plan.</p>
+                            <p class="sec-para">From campaign goals to creative vibes, the more you share, the better we
+                                plan.</p>
                         </div>
                         <div class="img mt-0 mt-md-3">
                             <div class="shadow-title">02</div>
 
                             <div class="icon">
-                                <img src="{{ asset('frontend-assets/img/ourCulture/1.png') }}" alt="">
+                                <img src="{{ asset('frontend-assets/img/icon/about/Vision.png') }}" alt="">
                             </div>
 
                         </div>
@@ -262,7 +265,7 @@
                         <div class="img ">
                             <div class="shadow-title">03</div>
                             <div class="icon" style="background-color: rgb(238 251 229);">
-                                <img src="{{ asset('frontend-assets/img/ourCulture/4.png') }}" alt="">
+                                <img src="{{ asset('frontend-assets/img/icon/about/Talk.png') }}" alt="">
                             </div>
                         </div>
                         <div class="text mt-1 mt-3 d-flex justify-content-center align-items-center flex-column">
@@ -272,8 +275,8 @@
                     </div>
 
                     <!-- Step 4 (reversed) -->
-                    <div class="col-md-3 col-sm-6 col-12 process-step d-flex flex-column-reverse flex-md-column" data-aos="fade-up"
-                        data-aos-delay="600">
+                    <div class="col-md-3 col-sm-6 col-12 process-step d-flex flex-column-reverse flex-md-column"
+                        data-aos="fade-up" data-aos-delay="600">
                         <div class="text d-flex justify-content-center align-items-center flex-column">
                             <h4 class="sub-sec-title">Watch It Come Alive</h4>
                             <p class="sec-para">Get the final solution, tailored to your brief and ready to roll.</p>
@@ -281,7 +284,7 @@
                         <div class="img mt-0 mt-md-3">
                             <div class="shadow-title">04</div>
                             <div class="icon position-absolute-img" style="background-color: rgb(252 243 233);">
-                                <img src="{{ asset('frontend-assets/img/ourCulture/3.png') }}" alt="">
+                                <img src="{{ asset('frontend-assets/img/icon/about/Alive.png') }}" alt="">
                             </div>
                         </div>
                     </div>
@@ -290,13 +293,15 @@
         </section>
 
 
-        <section class="overflow-hidden bg-smoke2 space">
+        <section class="overflow-hidden space">
             <div class="container">
                 <div class="row gy-5 align-items-center">
                     <div class="col-xl-6">
                         <div class="title-area mb-35">
-                            <h2 class="sec-title " data-aos="fade-right" data-aos-delay="200">90-Days <span class="text-blue">Gameplan</span></h2>
-                            <p class="mb-30 sec-para" data-aos="fade-right" data-aos-delay="200"><b>"A Growth Success cycle formula created by Team Sociomark to give the
+                            <h2 class="sec-title " data-aos="fade-right" data-aos-delay="200">90-Days <span
+                                    class="text-blue">Gameplan</span></h2>
+                            <p class="mb-30 sec-para" data-aos="fade-right" data-aos-delay="200"><b>"A Growth Success
+                                    cycle formula created by Team Sociomark to give the
                                     best results to its clients.</b></p>
                             <ol data-aos="fade-right" data-aos-delay="200">
                                 <li class="sec-para">Learn from the past</li>
@@ -306,7 +311,7 @@
                         </div>
                     </div>
                     <div class="col-xl-6 text-center" data-aos="zoom-in" data-aos-delay="200">
-                        <img src="{{ asset('frontend-assets/img/about/90days.png')}}" alt="" class="w-100">
+                        <img src="{{ asset('frontend-assets/img/about/90days.png') }}" alt="" class="w-100">
                     </div>
 
                 </div>
@@ -386,7 +391,7 @@
                                 </div>
                                 <div class="">
                                     {{-- <a href="{{ route('team') }}" --}}
-                                    <a href="{{ route('workculture') }}"
+                                    <a href="{{ route('portfolio') }}"
                                         class="th-btn th-btn-white th-icon d-flex justify-content-between">Explore More <i
                                             class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
@@ -421,7 +426,7 @@
                                     </p> --}}
                                 </div>
                                 <div class="">
-                                    <a href="#"
+                                    <a href="{{ route('workculture') }}"
                                         class="th-btn th-btn-white th-icon d-flex justify-content-between">Explore More <i
                                             class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
@@ -483,8 +488,8 @@
         <section class="mb-2 founder space" id="our-founder">
             <div class="container">
                 <div class="row align-items-start justify-content-center">
-                    <div class="col-md-6 col-sm-12 col-12 position-relative img custom-top me-0 me-md-5" data-aos="fade-right"
-                        data-aos-delay="100"
+                    <div class="col-md-6 col-sm-12 col-12 position-relative img custom-top me-0 me-md-5"
+                        data-aos="fade-right" data-aos-delay="100"
                         style="--tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--tw-bg-opacity)); padding: 1rem; border-radius: 30px;">
                         <img src="{{ asset('frontend-assets/img/team/founders.png') }}"
                             class="img-fluid rounded w-100 h-100 object-fit-cover" alt="Office Team">
@@ -494,8 +499,10 @@
                             Meet Our <span class="text-blue"> Founders</span>
                         </h2>
 
-                        <h4 class="sec-para text-uppercase sub-sec-title " data-aos="fade-left" data-aos-delay="100">Mr.
-                            Vivek Baandal & Mrs. Heta Desai Baandal</h4>
+                        <h4 class="sec-para text-uppercase sub-sec-title " data-aos="fade-left" data-aos-delay="100"><a
+                                href="https://www.linkedin.com/in/vivek-baandal-7b478243/">Mr.
+                                Vivek Baandal </a>& <a href="https://www.linkedin.com/in/hetadesai/">Mrs. Heta Desai
+                                Baandal</a></h4>
                         <p class="sec-para" data-aos="fade-left">
                             From a shared mezzanine-floor office with two passionate dreamers to a vibrant team of 50+
                             overlooking the beautiful Palm Beach—this journey has been nothing short of magic. What began in
@@ -511,7 +518,7 @@
                             just meant to be...
                         </p>
 
-                        <a href="#team" class="th-btn th-icon text-white p-3 logo-info mt-2" data-aos="fade-left"
+                        <a href="{{route('workculture')}}" class="th-btn th-icon text-white p-3 logo-info mt-2" data-aos="fade-left"
                             data-aos-delay="100">Meet Our Team</a>
                     </div>
                 </div>
@@ -552,8 +559,7 @@
                                     <div class="swiper-slide">
                                         <div class="th-team team-card style1 mb-3">
                                             <div class="box-img">
-                                                <img src="https://placehold.co/300x400"
-                                                    alt="Team">
+                                                <img src="https://placehold.co/300x400" alt="Team">
                                             </div>
                                             <div class="box-content">
                                                 <div>
@@ -623,7 +629,8 @@
                     <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mt-3 mx-2"
                         data-aos="fade-left" data-aos-delay=" 300">
                         <div class="flip-box-inner h-100">
-                            <div class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
+                            <div
+                                class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/icon/about/Quality Content.png') }}"
                                     alt="" class="h-50 w-50">
                                 <h4 class="sub-sec-title">Quality Content</h4>
@@ -637,7 +644,8 @@
                     <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 mt-3 mx-2"
                         data-aos="fade-left" data-aos-delay="300">
                         <div class="flip-box-inner h-100">
-                            <div class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
+                            <div
+                                class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/icon/about/Custumized Content.png') }}"
                                     alt="" class="h-50 w-50">
                                 <h4 class="sub-sec-title">Customized Strategy</h4>
@@ -650,7 +658,8 @@
                     </div>
                     <div class="col-12 col-md-3  feature-card flip-box p-0 mt-3 mx-2">
                         <div class="flip-box-inner h-100">
-                            <div class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
+                            <div
+                                class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/icon/about/Result Driven.png') }}" alt=""
                                     class="h-50 w-50">
                                 <h4 class="sub-sec-title">Results-Driven</h4>
@@ -661,10 +670,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3  feature-card flip-box p-0 mt-3 mx-2"
-                        data-aos="fade-right" data-aos-delay="400">
+                    <div class="col-12 col-md-3  feature-card flip-box p-0 mt-3 mx-2" data-aos="fade-right"
+                        data-aos-delay="400">
                         <div class="flip-box-inner h-100">
-                            <div class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
+                            <div
+                                class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/icon/about/Creative distinction.png') }}"
                                     alt="" class="h-50 w-50">
                                 <h4 class="sub-sec-title">Creative Distinction</h4>
@@ -675,10 +685,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3  feature-card flip-box p-0 mt-3 mx-2"
-                        data-aos="fade-right" data-aos-delay="400">
+                    <div class="col-12 col-md-3  feature-card flip-box p-0 mt-3 mx-2" data-aos="fade-right"
+                        data-aos-delay="400">
                         <div class="flip-box-inner h-100">
-                            <div class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
+                            <div
+                                class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                                 <img src="{{ asset('frontend-assets/img/icon/about/Collaborative Growth.png') }}"
                                     alt="" class="h-50 w-50">
                                 <h4 class="sub-sec-title">Collaborative Growth</h4>
@@ -689,11 +700,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3  feature-card flip-box p-0 mt-3 mx-2"
-                        data-aos="fade-right" data-aos-delay="400">
+                    <div class="col-12 col-md-3  feature-card flip-box p-0 mt-3 mx-2" data-aos="fade-right"
+                        data-aos-delay="400">
                         <div class="flip-box-inner h-100">
-                            <div class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
-                                <img src="{{ asset('frontend-assets/img/icon/about/Collaborative Growth.png') }}"
+                            <div
+                                class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
+                                <img src="{{ asset('frontend-assets/img/icon/about/Quick Approach.png') }}"
                                     alt="" class="h-50 w-50">
                                 <h4 class="sub-sec-title">Quirky Approach </h4>
                             </div>
@@ -703,12 +715,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-3  feature-card flip-box p-0 mt-3 mx-2"
-                        data-aos="fade-right" data-aos-delay="400">
+                    <div class="col-12 col-md-3  feature-card flip-box p-0 mt-3 mx-2" data-aos="fade-right"
+                        data-aos-delay="400">
                         <div class="flip-box-inner h-100">
-                            <div class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
-                                <img src="{{ asset('frontend-assets/img/icon/about/Collaborative Growth.png') }}"
-                                    alt="" class="h-50 w-50">
+                            <div
+                                class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
+                                <img src="{{ asset('frontend-assets/img/icon/about/Turn-around.png') }}" alt=""
+                                    class="h-50 w-50">
                                 <h4 class="sub-sec-title">Quick Turn Around Time</h4>
                             </div>
                             <div class="flip-box-back d-flex justify-content-center align-items-center h-100">

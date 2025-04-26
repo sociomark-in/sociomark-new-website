@@ -231,38 +231,53 @@
         </div>
         <div class="space-extra2-bottom">
             <div class="container">
-                <div class="counter-card-wrap">
-                    <div class="counter-card">
-                        <h3 class="box-number"><span class="counter-number">100</span>M<span class="plus">+</span></h3>
-                        <div class="media-body">
-                            <p class=" counter-text mb-n1">Organic Traffic</p>
+                <div class="row text-center">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                        <div class="counter-card pb-2">
+                            <h3 class="box-number text-orange"><span class="counter-number">123</span>M<span
+                                    class="plus">+</span>
+                            </h3>
+                            <div class="media-body">
+                                <p class=" counter-text mb-n1"><b>Organic Traffic</b></p>
+                            </div>
                         </div>
+                        <div class="divider"></div>
                     </div>
-                    <div class="divider"></div>
 
-                    <div class="counter-card">
-                        <h3 class="box-number"><span class="counter-number">500</span>K<span class="plus">+</span></h3>
-                        <div class="media-body">
-                            <p class=" counter-text mb-n1">Organic Keywords Growth</p>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                        <div class="counter-card pb-2">
+                            <h3 class="box-number text-orange"><span class="counter-number">412</span>K<span
+                                    class="plus">+</span>
+                            </h3>
+                            <div class="media-body">
+                                <p class=" counter-text mb-n1"><b>Organic Keywords Growth</b></p>
+                            </div>
                         </div>
+                        <div class="divider"></div>
                     </div>
-                    <div class="divider"></div>
 
-                    <div class="counter-card">
-                        <h3 class="box-number"><span class="counter-number">2</span>M<span class="plus">+</span></h3>
-                        <div class="media-body">
-                            <p class=" counter-text mb-n1">Organic Revenue Generated</p>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                        <div class="counter-card pb-2">
+                            <h3 class="box-number text-orange"><span class="counter-number">2.4</span>M<span
+                                    class="plus">+</span>
+                            </h3>
+                            <div class="media-body">
+                                <p class=" counter-text mb-n1"><b>Organic Revenue Generated</b></p>
+                            </div>
                         </div>
+                        <div class="divider"></div>
                     </div>
-                    <div class="divider"></div>
 
-                    <div class="counter-card">
-                        <h3 class="box-number"><span class="counter-number">50</span><span class="plus">+</span></h3>
-                        <div class="media-body">
-                            <p class=" counter-text mb-n1">Happy Customers</p>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                        <div class="counter-card pb-2">
+                            <h3 class="box-number text-orange"><span class="counter-number">48</span><span
+                                    class="plus">+</span></h3>
+                            <div class="media-body">
+                                <p class=" counter-text mb-n1"><b>Happy Customers</b></p>
+                            </div>
                         </div>
+                        <div class="divider"></div>
                     </div>
-                    <div class="divider"></div>
 
                 </div>
             </div>
@@ -343,8 +358,8 @@
                     <div class="col-md-6 text-center">
                         <div class="circle-wrapper" data-aos="fade-right" data-aos-delay="200" data-tilt data-tilt-max="10">
                             <div class="circle" data-tilt data-tilt-max="10">
-                                <img src="{{ asset('frontend-assets/img/Services-page/Services_Main.png') }}" alt="Key"
-                                    class="key-image mt-3">
+                                <img src="{{ asset('frontend-assets/img/Services-page/Services_Main.png') }}"
+                                    alt="Key" class="key-image mt-3">
                             </div>
                         </div>
                     </div>
@@ -354,26 +369,32 @@
                         <div id="benefits">
                             <div class="benefit-block border-start border-4">
                                 <h4 class="sub-sec-title">Understand the Brand Vibe</h4>
-                                <p class="sec-para">We find out what makes your brand tick. So, your visuals feel like an extension of your personality.
+                                <p class="sec-para">We find out what makes your brand tick. So, your visuals feel like an
+                                    extension of your personality.
                                 </p>
                             </div>
                             <div class="benefit-block border-start border-4">
                                 <h4 class="sub-sec-title">Scout and Prep Like Pros</h4>
-                                <p class="sec-para">The right lighting and location matter. Our team preps everything in advance, so shoot day runs smooth.
+                                <p class="sec-para">The right lighting and location matter. Our team preps everything in
+                                    advance, so shoot day runs smooth.
                                 </p>
                             </div>
                             <div class="benefit-block border-start border-4">
                                 <h4 class="sub-sec-title">Capture Moments That Matter</h4>
-                                <p class="sec-para">It’s not just about poses—it’s about presence. We look for authenticity, movement, and energy in every shot.</p>
+                                <p class="sec-para">It’s not just about poses—it’s about presence. We look for
+                                    authenticity, movement, and energy in every shot.</p>
                             </div>
                             <div class="benefit-block border-start border-4">
                                 <h4 class="sub-sec-title">Use the Right Gear and People</h4>
-                                <p class="sec-para">From studio setups to drone shots, we use the latest tools and skilled talent for crisp, pro-level quality.
+                                <p class="sec-para">From studio setups to drone shots, we use the latest tools and skilled
+                                    talent for crisp, pro-level quality.
                                 </p>
                             </div>
                             <div class="benefit-block border-start border-4">
                                 <h4 class="sub-sec-title">Tailor the Story for Your Audience</h4>
-                                <p class="sec-para"> Visuals aren't one-size-fits-all. Whether it’s <b>commercial photography</b> or <b>brand storytelling through video</b>, we shape each piece for impact.
+                                <p class="sec-para"> Visuals aren't one-size-fits-all. Whether it’s <b>commercial
+                                        photography</b> or <b>brand storytelling through video</b>, we shape each piece for
+                                    impact.
                                 </p>
                             </div>
                         </div>
@@ -403,7 +424,8 @@
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/Services-page/seo/Ecommerce Seo.png') }}"
                                 alt="" class="rounded-overflow">
-                            <p class="sec-para text">Every great visual begins with a great brief. Understanding your story, your audience, and your goals is our first step.
+                            <p class="sec-para text">Every great visual begins with a great brief. Understanding your
+                                story, your audience, and your goals is our first step.
                             </p>
 
                         </div>
@@ -415,7 +437,8 @@
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/Services-page/seo/International Seo.png') }}"
                                 alt="" class="rounded-overflow">
-                            <p class="sec-para text">We map out what the visuals will look like and feel like—from mood boards to shot lists—so there are no surprises on set.
+                            <p class="sec-para text">We map out what the visuals will look like and feel like—from mood
+                                boards to shot lists—so there are no surprises on set.
                             </p>
                         </div>
                     </div>
@@ -426,7 +449,8 @@
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/Services-page/seo/Mobile Seo.png') }}" alt=""
                                 class="rounded-overflow">
-                            <p class="sec-para text">Our team captures content with intention, whether it’s for a short ad, event, or long-form campaign.
+                            <p class="sec-para text">Our team captures content with intention, whether it’s for a short ad,
+                                event, or long-form campaign.
                             </p>
 
                         </div>
@@ -438,7 +462,8 @@
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/Services-page/seo/Local Seo.png') }}" alt=""
                                 class="rounded-overflow">
-                            <p class="sec-para text">From editing to colour correction, our finishing touches bring clarity and polish to every frame.
+                            <p class="sec-para text">From editing to colour correction, our finishing touches bring clarity
+                                and polish to every frame.
                             </p>
 
                         </div>
@@ -450,7 +475,8 @@
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/Services-page/seo/Goodle Analytics and Report.png') }}"
                                 alt="" class="rounded-overflow">
-                            <p class="sec-para text">Whether it’s a reel or a banner, we tailor each piece for where it will live and how your audience will engage with it.
+                            <p class="sec-para text">Whether it’s a reel or a banner, we tailor each piece for where it
+                                will live and how your audience will engage with it.
                             </p>
 
                         </div>
@@ -499,7 +525,8 @@
                         <div class="choose-feature-wrap">
                             <div class="choose-feature">
                                 <div class="box-icon d-flex justify-content-center align-items-center">
-                                    <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt="Icon">
+                                    <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"
+                                        alt="Icon">
                                 </div>
                                 <div class="media-body">
                                     <h4 class="sub-sec-title">Visuals That Resonate </h4>
@@ -509,7 +536,8 @@
                             </div>
                             <div class="choose-feature">
                                 <div class="box-icon d-flex justify-content-center align-items-center">
-                                    <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt="Icon">
+                                    <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"
+                                        alt="Icon">
                                 </div>
                                 <div class="media-body">
                                     <h4 class="sub-sec-title">Strategic Storytelling</h4>
@@ -519,7 +547,8 @@
                             </div>
                             <div class="choose-feature">
                                 <div class="box-icon d-flex justify-content-center align-items-center">
-                                    <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt="Icon">
+                                    <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"
+                                        alt="Icon">
                                 </div>
                                 <div class="media-body">
                                     <h4 class="sub-sec-title">Always on Brand</h4>
@@ -545,8 +574,8 @@
             </div>
         </section>
         <!--==============================
-                Testimonial Area
-                ==============================-->
+                    Testimonial Area
+                    ==============================-->
         <section class="space overflow-hidden overflow-hidden">
             <div class="container">
                 <div class="title-area text-center">

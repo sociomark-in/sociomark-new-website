@@ -136,7 +136,7 @@
                     {{-- <div class="swiper-pagination"></div> --}}
                 </div>
                 <div class="header-button mt-3 justify-content-center">
-                    <a href="{{ route('nodwin-gaming') }}" class="th-btn th-icon">VIEW OUR CASE STUDY</a>
+                    <a href="{{ route('ayushakti') }}" class="th-btn th-icon">VIEW OUR CASE STUDY</a>
                 </div>
                 <script>
                     var swiper = new Swiper(".creativeSwiper", {
