@@ -4,9 +4,7 @@
 <style>
     /* gallary :start */
 
-    #portfolio-sec {
-        padding-top: 20px;
-    }
+
 
     .tab-icon-img {
         width: 40px;
@@ -18,21 +16,20 @@
     .nav-tabs .nav-link {
         text-align: center;
         border: none;
-        /* padding: 10px 25px; */
-        width: 150px;
         color: #333;
         margin: 12px 15px;
         background: transparent;
+        border-radius: 50px !important;
     }
 
     .nav-tabs .nav-link.active {
         background-color: #106c97;
         color: #fff !important;
-        border-radius: 8px;
     }
 
     .nav-tabs .nav-link.active .sec-para {
         color: #fff !important;
+        padding: 3px 5px;
     }
 
     /* gallary end */
@@ -58,7 +55,8 @@
         margin-inline: auto;
         opacity: 0;
         transition: opacity 1s 1s;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 8px #ff900b;
+        ;
     }
 
     /* Naming animations in hover */
@@ -92,33 +90,16 @@
 
 @section('content')
 <main id="case-study">
-    <section class="">
-        <div class="full-width">
-            <picture>
-                <source media="(min-width: 1400px)" srcset="https://placehold.co/1920x900">
-                <img src="https://placehold.co/1080x1080" alt="">
-            </picture>
-        </div>
-    </section>
-    <section class="overflow-hidden space">
+    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/case-study/ace tatto.png') }}">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="breadcumb-content breadcrumb-light">
-                        <h1 class="breadcumb-title">Case Studies</h1>
-                        <ul class="breadcumb-menu">
-                            <li><a href="{{ route('home') }}">Home</a></li>
-                            {{-- <li><a href="{{ route('about') }}">About Us</a></li> --}}
-                            <li>Case Studies</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="breadcumb-content">
+
             </div>
         </div>
-    </section>
+    </div>
     <section class="overflow-hidden garally space" id="portfolio-sec">
         <div class="container ">
-            {{-- <div class="row justify-content-center">
+            <div class="row justify-content-center">
                 <div class="col-xl-8">
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title"
@@ -130,41 +111,22 @@
                         </h2>
                     </div>
                 </div>
-            </div> --}}
+            </div>
 
             <div class="filter-menu filter-menu-active nav nav-tabs justify-content-center mb-4">
 
 
                 <button data-filter="*" class=" nav-link active d-flex flex-column justify-content-around align-items-center" type="button">
-                    <i class="fa-solid fa-check-double"></i>
-                    <!-- <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="SEO" class="tab-icon-img"> -->
-                    <div class="tab-label mt-3 sec-para">All</div>
+                    <div class="tab-label sec-para">Social Media</div>
                 </button>
 
                 <button data-filter=".cat1" class="nav-link d-flex flex-column justify-content-around align-items-center" type="button">
-                    <i class="fa-brands fa-searchengin"></i>
-                    <!-- <img src="https://cdn-icons-png.flaticon.com/512/1388/1388999.png" alt="Keyword" class="tab-icon-img"> -->
-                    <div class="tab-label mt-3 sec-para">SEO</div>
+                    <div class="tab-label sec-para">Search Engine Optimization</div>
                 </button>
 
                 <button data-filter=".cat2" class="nav-link d-flex flex-column justify-content-around align-items-center" type="button">
-                    <i class="fa-solid fa-laptop-file"></i>
-                    <!-- <img src="https://cdn-icons-png.flaticon.com/512/1828/1828911.png" alt="Page Analyzer" class="tab-icon-img"> -->
-                    <div class="tab-label mt-3 sec-para">Website</div>
+                    <div class="tab-label sec-para">Performance marketing</div>
                 </button>
-
-                <button data-filter=".cat3" class="nav-link d-flex flex-column justify-content-around align-items-center" type="button">
-                    <i class="fa-solid fa-hashtag"></i>
-                    <!-- <img src="https://cdn-icons-png.flaticon.com/512/2920/2920322.png" alt="Digital Agency" class="tab-icon-img"> -->
-                    <div class="tab-label mt-3 sec-para">Social Media</div>
-                </button>
-
-                <!-- <button data-filter=".cat4" class="nav-link" type="button">
-                    <img src="https://cdn-icons-png.flaticon.com/512/2913/2913461.png" alt="Content" class="tab-icon-img">
-                    <div class="tab-label"></div>
-                </button> -->
-
-
             </div>
 
             <!-- Tab Content -->
@@ -285,6 +247,111 @@
             </div>
         </div>
     </section>
+
+    <section class="space" style="background-color: #f5f5f5;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-8">
+                    <div class="title-area text-center">
+                        <h2 class="fw-bold mb-5 sec-title"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out">
+                            View Our <span class="text-blue"> Portfolio</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="swiper caseStudySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+
+                            <div class="col-12">
+                                <a href="{{ route('roadToSafety') }}">
+                                <img src="{{ asset('frontend-assets/img/project/rts-600.jpg') }}" alt=""
+                                    srcset="" class="w-100">
+                                    </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                        <a href="{{ route('roadToSafety') }}">
+                            <img src="{{ asset('frontend-assets/img/project/Euro_600x600.jpg') }}" alt=""
+                                srcset="" class="w-100">
+                                </a>
+                        </div>
+                        <div class="swiper-slide">
+                        <a href="{{ route('roadToSafety') }}">
+                            <img src="{{ asset('frontend-assets/img/project/Euro_600x600.jpg') }}" alt=""
+                                srcset="" class="w-100">
+                                </a>
+                        </div>
+                        <div class="swiper-slide">
+                        <a href="{{ route('roadToSafety') }}">
+                            <img src="{{ asset('frontend-assets/img/project/Euro_600x600.jpg') }}" alt=""
+                                srcset="" class="w-100">
+                                </a>
+                        </div>
+                        <div class="swiper-slide">
+                        <a href="{{ route('roadToSafety') }}">
+                            <img src="{{ asset('frontend-assets/img/project/Euro_600x600.jpg') }}" alt=""
+                                srcset="" class="w-100">
+                                </a>
+                        </div>
+                        <div class="swiper-slide">
+                        <a href="{{ route('roadToSafety') }}">
+                            <img src="{{ asset('frontend-assets/img/project/Euro_600x600.jpg') }}" alt=""
+                                srcset="" class="w-100">
+                                </a>
+                        </div>
+                        <div class="swiper-slide">
+                        <a href="{{ route('roadToSafety') }}">
+                            <img src="{{ asset('frontend-assets/img/project/Euro_600x600.jpg') }}" alt=""
+                                srcset="" class="w-100">
+                                </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Link Swiper's CSS -->
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+                <!-- Swiper JS -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+                <script>
+                    var swiper = new Swiper(".caseStudySwiper", {
+                        spaceBetween: 30,
+                        centeredSlides: true,
+                        slidesPerView: 1,
+                        loop: true,
+                        autoplay: {
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        },
+                        breakpoints: {
+                            375: {
+                                slidesPerView: 1,
+                                spaceBetween: 20,
+                            },
+                            768: {
+                                slidesPerView: 2,
+                                spaceBetween: 40,
+                            },
+                            1024: {
+                                slidesPerView: 3,
+                                spaceBetween: 50,
+                            },
+                        },
+                        pagination: {
+                            el: ".caseStudySwiper .swiper-pagination",
+                            clickable: true,
+                        },
+                    });
+                </script>
+            </div>
+        </div>
+    </section>
+
 </main>
 
 @endsection
