@@ -53,31 +53,6 @@ Route::get('/service/photography-videography', [ServiceController::class, 'photo
 Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');
 Route::get('/portfolio/social-media', [PortfolioController::class, 'portfolioInside'])->name('portfolioSocio');
 
-Route::get('/portfolio/euro/social-media-work', [PortfolioController::class, 'euro'])->name('euro');
-Route::get('/portfolio/bumchumps/social-media-work', [PortfolioController::class, 'bumchumps'])->name('bumchumps');
-Route::get('/portfolio/jivana/social-media-work', [PortfolioController::class, 'jivana'])->name('jivana');
-Route::get('/portfolio/road-to-safety/social-media-work', [PortfolioController::class, 'roadToSafety'])->name('roadToSafety');
-Route::get('/portfolio/nodwin/social-media-work', [PortfolioController::class, 'nodwin'])->name('nodwin');
-Route::get('/portfolio/lime/social-media-work', [PortfolioController::class, 'lime'])->name('limesocio');
-Route::get('/portfolio/button-dabao-desh-banao/social-media-work', [PortfolioController::class, 'buttonbabaoDeshBanao'])->name('buttonbabaoDeshBanaoSocio');
-Route::get('/portfolio/castrol/social-media-work', [PortfolioController::class, 'castrol'])->name('castrolSocial');
-Route::get('/portfolio/mission-insure-india/social-media-work', [PortfolioController::class, 'missionInsureIndia'])->name('missionInsureIndiaSocial');
-Route::get('/portfolio/real-estate-awards/social-media-work', [PortfolioController::class, 'realEstateAward'])->name('realEstateAwardsocio');
-Route::get('/portfolio/cosplay-genie/social-media-work', [PortfolioController::class, 'cosplayGenie'])->name('cosplayGenieSocio');
-Route::get('/portfolio/smart-cities-of-india/social-media-work', [PortfolioController::class, 'smartCityOfIndia'])->name('smartCityOfIndia');
-Route::get('/portfolio/mahindra-first-choice-services/social-media-work', [PortfolioController::class, 'mahidraFirstChoice'])->name('mahidraFirstChoiceSocio');
-Route::get('/portfolio/the-professional-couriers/social-media-work', [PortfolioController::class, 'theProffessionalCouriers'])->name('theProffessionalCouriers');
-Route::get('/portfolio/team-cashless-india/social-media-work', [PortfolioController::class, 'teamCashlessIndia'])->name('teamCashlessIndiaSocio');
-Route::get('/portfolio/sportz-consult/social-media-work', [PortfolioController::class, 'sportzConsult'])->name('sportzConsultSocio');
-Route::get('/portfolio/ayushakti/social-media-work', [PortfolioController::class, 'ayushaktisocoialM'])->name('ayushaktisocoialM');
-Route::get('/portfolio/ai-awards/social-media-work', [PortfolioController::class, 'aiawards'])->name('aiawardsSocial');
-Route::get('/portfolio/smarter-india/social-media-work', [PortfolioController::class, 'smarterindia'])->name('smarterindiaSocio');
-Route::get('/portfolio/grill-box/social-media-work', [PortfolioController::class, 'grillbox'])->name('grillboxSocial');
-Route::get('/portfolio/kolkata-rolls/social-media-work', [PortfolioController::class, 'kolkatarolls'])->name('kolkatarollsSocio');
-Route::get('/portfolio/hollywood-opticians/social-media-work', [PortfolioController::class, 'hollywoodopticians'])->name('hollywoodopticiansSocial');
-Route::get('/portfolio/foresight-opticals/social-media-work', [PortfolioController::class, 'foresightopticals'])->name('foresightopticalsSocial');
-Route::get('/portfolio/inifd-vashi/social-media-work', [PortfolioController::class, 'inifdvashi'])->name('inifdvashiSocial');
-Route::get('/portfolio/profinet/branding-work', [PortfolioController::class, 'profinet'])->name('profinet');
 Route::get('/portfolio/ayushakti/website-work', [PortfolioController::class, 'ayushaktiweb'])->name('ayushaktiweb');
 Route::get('/portfolio/electrocare/website-work', [PortfolioController::class, 'electrocareweb'])->name('electrocareweb');
 Route::get('/portfolio/offthehookgrabandgo/website-work', [PortfolioController::class, 'offthehookgrabandgo'])->name('offthehookgrabandgo');
@@ -92,14 +67,11 @@ Route::get('/portfolio/real-estate-awards/website-work', [PortfolioController::c
 Route::get('/portfolio/portraiture-by-pari/website-work', [PortfolioController::class, 'portraitureByPariWeb'])->name('portraitureByPariWeb');
 Route::get('/portfolio/profinet/website-work', [PortfolioController::class, 'profinetWeb'])->name('profinetWeb');
 Route::get('/portfolio/aainos/website-work', [PortfolioController::class, 'aainosWeb'])->name('aainosWeb');
-Route::get('/portfolio/hollywood-opticians/branding-work', [PortfolioController::class, 'hollywoodOpticiansBranding'])->name('hollywoodOpticiansBranding');
-Route::get('/portfolio/foresight-opticals/branding-work', [PortfolioController::class, 'foresightOpticalsBranding'])->name('foresightOpticalsBranding');
 
 
-
-
-
-Route::get('/portfolio/{segment}/social-media-work', [PortfolioController::class, 'social'])->name('social');
+Route::get('/portfolio/{client}/social-media-work', [PortfolioController::class, 'social_media'])->name('social_media');
+Route::get('/portfolio/{client}/branding-work', [PortfolioController::class, 'branding_work'])->name('branding_work');
+Route::get('/portfolio/{client}/website-work', [PortfolioController::class, 'website_work'])->name('website_work');
 
 Route::get('/case-study', [CaseStudyController::class, 'index'])->name('case-study');
 Route::get('/case-study/stemrxbio', [CaseStudyController::class, 'stemrxbio'])->name('stemrxbio');
