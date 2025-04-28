@@ -168,7 +168,7 @@
                         <div class="box widget widget_tag_cloud   ">
                             <h3 class="widget_title">Popular Tags</h3>
                             <div class="tagcloud">
-                                @foreach ($tags as $tag)
+                            @foreach ($tags->take(6) as $tag)
                                 <a href="{{ route('tagBlog', ['slug' => $tag->slug]) }}">{{ $tag->name }}</a>
                                 @endforeach
 

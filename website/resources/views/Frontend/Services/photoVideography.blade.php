@@ -829,6 +829,21 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="accordion-card ">
+                            <div class="accordion-header" id="collapse-item-6">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-6" aria-expanded="false"
+                                    aria-controls="collapse-6">What are the benefits of photography?
+                                </button>
+                            </div>
+                            <div id="collapse-6" class="accordion-collapse collapse "
+                                aria-labelledby="collapse-item-6" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <p class="sec-para-faq">Photography is a visual art that captures moments, emotions, and stories through images. Benefits of photography extend far beyond mere documentation. The practice allows for self-expression, preserves memories, fosters creativity, and serves as a powerful communication tool.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
