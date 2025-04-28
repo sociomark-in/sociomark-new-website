@@ -1,4 +1,4 @@
-<section class="overflow-hidden space" id="about-sec5">
+<section class="overflow-hidden space bg-grey" id="about-sec5">
     <div class="container">
 
 

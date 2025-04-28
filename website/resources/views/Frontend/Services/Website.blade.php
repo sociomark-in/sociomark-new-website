@@ -5,12 +5,7 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 @section('custome-style')
     <style>
-        #seo-service #work-flow,
-        #seo-service #about-sec5,
-        #seo-service #Features,
-        #seo-service #contact {
-            background-color: #F5F5F5 !important;
-        }
+  
 
         #seo-service #features .sub-sec-title {
             font-weight: 700 !important;
@@ -39,16 +34,6 @@
                 padding: 40px 2px !important;
             }
         }
-
-        /* section 2 */
-        #seo-service #about-sec2 {
-            /* background-color: #F5F5F5; */
-            background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
-        }
-
-        /* section 2 end */
-
-
         /* section3 */
         .according-img {
             opacity: 0;
@@ -339,7 +324,7 @@
                 max-height: 60vh;
             }
         </style>
-        <section class="overflow-hidden space" id="work-flow">
+        <section class="overflow-hidden space bg-grey" id="work-flow">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
@@ -490,7 +475,7 @@
 
         </section>
 
-        <section class="overflow-hidden space" id="about-sec2">
+        <section class="overflow-hidden space bg-grey" id="about-sec2">
             <div class="container">
                 <div class="row align-items-end">
                     <div class="col-xl-8" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
@@ -640,7 +625,7 @@
             </div>
         </section>
 
-        <section class="overflow-hidden space" id="Features">
+        <section class="overflow-hidden space bg-grey" id="Features">
             <div class="container">
                 <!-- Header Text -->
                 <h2 class="fw-bold mb-5 sec-title text-center" data-aos="fade-up" data-aos-delay="100"
@@ -735,18 +720,14 @@
                             <div class="accordion-card">
                                 <div class="accordion-header" id="collapse-item-1">
                                     <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">How
-                                        long does it take to see results from SEO?</button>
+                                        data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1"> What is website development?
+                                        </button>
                                 </div>
                                 <div id="collapse-1" class="accordion-collapse collapse show"
                                     aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
-                                            initial improvements in website traffic and rankings within 3-6 months with a
-                                            well-defined strategy. Long-term results and significant traffic growth. We are
-                                            a five-star rated holistic full-service digital marketing agencies, serving
-                                            thousands of clients. Our digital agency covers all aspects of internet
-                                            marketing:</p>
+                                        <p class="sec-para-faq">It involves building and maintaining websites, encompassing aspects like web design, content creation, and coding.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -755,18 +736,13 @@
                             <div class="accordion-card ">
                                 <div class="accordion-header" id="collapse-item-2">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">How
-                                        will I be kept informed about my SEO progress?</button>
+                                        data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">Why is a website important for my business?
+                                        </button>
                                 </div>
                                 <div id="collapse-2" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
-                                            initial improvements in website traffic and rankings within 3-6 months with a
-                                            well-defined strategy. Long-term results and significant traffic growth. We are
-                                            a five-star rated holistic full-service digital marketing agencies, serving
-                                            thousands of clients. Our digital agency covers all aspects of internet
-                                            marketing:</p>
+                                        <p class="sec-para-faq">A website establishes online presence, credibility, and provides a platform for customer engagement and sales.</p>
                                     </div>
                                 </div>
                             </div>
@@ -776,17 +752,14 @@
                                 <div class="accordion-header" id="collapse-item-3">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapse-3" aria-expanded="false"
-                                        aria-controls="collapse-3">What kind of SEO techniques do you use?</button>
+                                        aria-controls="collapse-3">How much does it cost to develop a website?
+                                        </button>
                                 </div>
                                 <div id="collapse-3" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
-                                            initial improvements in website traffic and rankings within 3-6 months with a
-                                            well-defined strategy. Long-term results and significant traffic growth. We are
-                                            a five-star rated holistic full-service digital marketing agencies, serving
-                                            thousands of clients. Our digital agency covers all aspects of internet
-                                            marketing:</p>
+                                        <p class="sec-para-faq">Costs vary based on complexity, features, and design, ranging from a few hundred to several thousand dollars.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -796,18 +769,14 @@
                                 <div class="accordion-header" id="collapse-item-4">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapse-4" aria-expanded="false"
-                                        aria-controls="collapse-4">What happens if I don't see results after a
-                                        while?</button>
+                                        aria-controls="collapse-4">How long does it take to build a website?
+                                        </button>
                                 </div>
                                 <div id="collapse-4" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-4" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
-                                            initial improvements in website traffic and rankings within 3-6 months with a
-                                            well-defined strategy. Long-term results and significant traffic growth. We are
-                                            a five-star rated holistic full-service digital marketing agencies, serving
-                                            thousands of clients. Our digital agency covers all aspects of internet
-                                            marketing:</p>
+                                        <p class="sec-para-faq">Development time depends on project scope, typically ranging from a few weeks to several months.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -816,18 +785,13 @@
                             <div class="accordion-card ">
                                 <div class="accordion-header" id="collapse-item-5">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">How
-                                        do I get started with your agency?</button>
+                                        data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">What is responsive web design?</button>
                                 </div>
                                 <div id="collapse-5" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-5" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
-                                            initial improvements in website traffic and rankings within 3-6 months with a
-                                            well-defined strategy. Long-term results and significant traffic growth. We are
-                                            a five-star rated holistic full-service digital marketing agencies, serving
-                                            thousands of clients. Our digital agency covers all aspects of internet
-                                            marketing:</p>
+                                        <p class="sec-para-faq">It's an approach ensuring websites function well on various devices and screen sizes.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -837,18 +801,13 @@
                                 <div class="accordion-header" id="collapse-item-6">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapse-6" aria-expanded="false"
-                                        aria-controls="collapse-6">What is your process for starting a new
-                                        project?</button>
+                                        aria-controls="collapse-6">What is the difference between web design and web development?
+                                        </button>
                                 </div>
                                 <div id="collapse-6" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-6" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
-                                            initial improvements in website traffic and rankings within 3-6 months with a
-                                            well-defined strategy. Long-term results and significant traffic growth. We are
-                                            a five-star rated holistic full-service digital marketing agencies, serving
-                                            thousands of clients. Our digital agency covers all aspects of internet
-                                            marketing:</p>
+                                        <p class="sec-para-faq">Web design focuses on aesthetics and user experience, while development involves coding and functionality.</p>
                                     </div>
                                 </div>
                             </div>
