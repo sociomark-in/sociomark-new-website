@@ -226,7 +226,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center gy-5">
+                <div class="row justify-content-center gy-5 mt-md-4 mt-2">
                     <!-- Step 1 -->
                     <div class="col-md-3 col-sm-6 col-12 process-step zig-down" data-aos="fade-up" data-aos-delay="300">
 
