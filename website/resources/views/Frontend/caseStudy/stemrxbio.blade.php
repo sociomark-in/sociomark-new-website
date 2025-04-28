@@ -21,7 +21,7 @@
     <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/case-study/stembio.png') }}">
         <div class="container">
             <div class="breadcumb-content">
-              
+
             </div>
         </div>
     </div>
@@ -197,10 +197,10 @@
         <img src="{{ asset('frontend-assets/img/case-study/stemrx/stem1.png') }}" alt="">
     </div>
     <div class="header-button mb-5 d-flex align-items-center justify-content-center">
-        <a href="{{ route('smartCityOfIndia') }}" class="th-btn th-icon">View Portfolio</a>
+        <a href="{{ route('social_media', ['client'=>'stemrx-bioscience']) }}" class="th-btn th-icon">View Portfolio</a>
     </div>
     @include('Frontend/partial/commonCaseStudy')
-   
+
     @include('Frontend/partial/portfolioCommon')
 </main>
 @endsection

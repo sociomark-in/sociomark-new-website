@@ -172,10 +172,10 @@
         </div>
     </div>
     <div class="header-button mb-5 d-flex align-items-center justify-content-center">
-        <a href="{{ route('buttonbabaoDeshBanaoSocio') }}" class="th-btn th-icon">View Portfolio</a>
+        <a href="{{ route('social_media', ['client'=>'button-dabao-desh-banao']) }}" class="th-btn th-icon">View Portfolio</a>
     </div>
     @include('Frontend/partial/commonCaseStudy')
- 
+
     @include('Frontend/partial/portfolioCommon')
 </main>
 @endsection

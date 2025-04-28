@@ -138,8 +138,8 @@ class PortfolioController extends Controller
                 return view("Frontend/Portfolio/nmmcSocial");
                 # code...
                 break;
-            case 'nodwin':
-                return view("Frontend/Portfolio/nodwinSocial");
+            case 'nodwin-gaming':
+                // return view("Frontend/Portfolio/nodwinSocial");
                 return view("Frontend/Portfolio/nodwinSocialMedia");
                 # code...
                 break;
@@ -191,7 +191,7 @@ class PortfolioController extends Controller
                 return view('Frontend/Portfolio/sportzConsultSocialMedia');
                 # code...
                 break;
-            case 'stem-RX-bio-science':
+            case 'stemrx-bioscience':
                 return view("Frontend/Portfolio/stemRXBioScience");
                 # code...
                 break;

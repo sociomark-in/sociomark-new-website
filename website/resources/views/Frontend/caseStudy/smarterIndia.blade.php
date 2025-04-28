@@ -174,7 +174,7 @@
         </div>
     </div>
     <div class="header-button my-b d-flex align-items-center justify-content-center">
-        <a href="{{ route('smartCityOfIndia') }}" class="th-btn th-icon">View Portfolio</a>
+        <a href="{{ route('social_media', ['client'=>'smarter-india']) }}" class="th-btn th-icon">View Portfolio</a>
     </div>
     @include('Frontend/partial/commonCaseStudy')
 

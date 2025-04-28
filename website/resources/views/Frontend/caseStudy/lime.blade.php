@@ -26,7 +26,7 @@
     <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/case-study/lime_logo.png') }}">
         <div class="container">
             <div class="breadcumb-content">
-               
+
             </div>
         </div>
     </div>
@@ -155,10 +155,10 @@
         </div>
     </div>
     <div class="header-button mb-5 d-flex align-items-center justify-content-center">
-        <a href="{{ route('limesocio') }}" class="th-btn th-icon">View Portfolio</a>
+        <a href="{{ route('social_media', ['client'=>'lime']) }}" class="th-btn th-icon">View Portfolio</a>
     </div>
     @include('Frontend/partial/commonCaseStudy')
     @include('Frontend/partial/portfolioCommon')
-   
+
 </main>
 @endsection
