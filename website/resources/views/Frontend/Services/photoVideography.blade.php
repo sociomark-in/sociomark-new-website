@@ -218,11 +218,11 @@
             <div class="row text-center">
                 <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">123</span>M<span
+                        <h3 class="box-number text-orange"><span class="counter-number">1.2</span>B<sup>+</sup><span
                                 class="plus">+</span>
                         </h3>
                         <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Organic Traffic</b></p>
+                            <p class=" counter-text sec-para mb-n1"><b>Video Views</b></p>
                         </div>
                     </div>
                     <div class="divider"></div>
@@ -230,11 +230,11 @@
 
                 <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">412</span>K<span
+                        <h3 class="box-number text-orange"><span class="counter-number">70</span><sup>+</sup><span
                                 class="plus">+</span>
                         </h3>
                         <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Organic Keywords Growth</b></p>
+                            <p class=" counter-text sec-para mb-n1"><b>Events Covered</b></p>
                         </div>
                     </div>
                     <div class="divider"></div>
@@ -242,11 +242,11 @@
 
                 <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">2.4</span>M<span
+                        <h3 class="box-number text-orange"><span class="counter-number">25</span><sup>+</sup><span
                                 class="plus">+</span>
                         </h3>
                         <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Organic Revenue Generated</b></p>
+                            <p class=" counter-text sec-para mb-n1"><b>Product Shoot</b></p>
                         </div>
                     </div>
                     <div class="divider"></div>
@@ -254,7 +254,7 @@
 
                 <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">48</span><span
+                        <h3 class="box-number text-orange"><span class="counter-number">30</span><sup>+</sup><span
                                 class="plus">+</span></h3>
                         <div class="media-body">
                             <p class=" counter-text sec-para mb-n1"><b>Happy Customers</b></p>

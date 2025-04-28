@@ -262,9 +262,7 @@
                                 <span class="sub-title sub-title4 style1 mb-4 mb-md-5">Why Choose Sociomark</span>
                                 <h2 class="sec-title ">Your <span class="text-blue">Trusted Partner</span> for Global
                                     Digital Success</h2>
-                                <p class="mb-30">With over 29 years of experience, Saor has a deep understanding of the
-                                    digital landscape and a proven track record of success. Conveys a collaborative
-                                    approach, suggesting that the agency works closely with clients.</p>
+                                <p class="mb-30">At Sociomark, work feels less like a duty and more like a shared passion. Our culture is built on creativity, collaboration, and a healthy dose of everyday fun. We believe that the best ideas are born when people feel valued, inspired, and empowered to bring their whole selves to work. From brainstorming sessions that spark innovation to team lunches, festive celebrations, and spontaneous laugh sessions, every day here is a blend of hustle and heart. Together, we’re not just growing brands; we’re building a workplace where growth, ownership, and good vibes are non-negotiable.</p>
 
                                 <a href="{{ route('about') }}" class="th-btn th-icon">About Us<i
                                         class="fa-solid fa-arrow-right ms-2"></i></a>

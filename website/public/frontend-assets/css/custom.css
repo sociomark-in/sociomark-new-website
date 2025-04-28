@@ -444,18 +444,18 @@ main#home {
     font-size: calc(max(3vmax, 2rem));
     line-height: 1.2;
     font-weight: 700 !important;
+    position: relative;
 }
 .sec-title::after{
     content: '';
-    background: url("../img/icon/stroke.png");
-    background-size: cover;
-    display: inline-block;
+    background: url("../img/icon/stroke.svg");
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
     width: 7rem;
-    height: 2rem;
-    position: relative;
-    bottom: -2rem;
-    right: 4rem;
-
+    height: 8rem;
+    transform-origin: center;
+    transform: rotate(26deg) translate(8rem);
     z-index: 1;
 }
 
@@ -825,7 +825,7 @@ main#home {
 #Blog_Section .box-blog img{
      object-fit: contain !important;
  }
- 
+
 #about-sec5 .box {
     padding: 28px 20px;
     border-radius: 10px;
