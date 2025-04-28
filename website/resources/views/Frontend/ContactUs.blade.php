@@ -326,7 +326,7 @@
         $.validator.addMethod("numbers", function(value, element) {
             return this.optional(element) || /^[0-9 ]*$/i.test(value);
         });
-        $('#popupForm').validate({
+        $('#contactform').validate({
             rules: {
                 name: {
                     required: true,

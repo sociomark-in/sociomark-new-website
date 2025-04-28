@@ -1,8 +1,5 @@
 @extends('Frontend.layout.app')
-
-
-@section('content')
-
+@section('custome-style')
 <style>
     #Blog_Section .box {
         padding: 28px 20px;
@@ -45,6 +42,7 @@
         object-fit: cover;
         border-radius: 10px;
     }
+
     #Blog_section .widget_categories a:hover,
     #Blog_section .tagcloud a:hover,
     #Blog_Section .widget_categories a.active,
@@ -52,8 +50,25 @@
         background-color: #106c97 !important;
         color: white !important;
     }
-</style>
 
+    .recent-post .media-img img{
+        object-fit: cover !important;
+    }
+
+    .blog-img {
+        width: 400px;
+        height: 230px;
+    }
+    .blog-single{
+        margin-right: 0px !important;
+    }
+    #Blog_Section .box-blog img{
+         object-fit: contain !important;
+     }
+</style>
+@endsection
+
+@section('content')
 <main>
 
     <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg')}}">
@@ -79,7 +94,7 @@
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
                                 <div class="blog-img box-blog">
                                     <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                        <img src="{{ asset('storage/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image" width="100%" style="height: 270px; object-fit: cover; margin-right: 5px;">
+                                        <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image" width="100%" style="height: 270px; object-fit: cover; margin-right: 5px;">
                                     </a>
                                 </div>
                                 <div class="blog-content content-padding">
@@ -145,7 +160,7 @@
                                 <div class="recent-post">
                                     <div class="media-img recent_blog_img">
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                            <img src="{{ asset('storage/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image">
+                                            <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image" class="w-100 h-100 object-fit-cover">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -168,7 +183,7 @@
                         <div class="box widget widget_tag_cloud   ">
                             <h3 class="widget_title">Popular Tags</h3>
                             <div class="tagcloud">
-                            @foreach ($tags->take(6) as $tag)
+                                @foreach ($tags->take(6) as $tag)
                                 <a href="{{ route('tagBlog', ['slug' => $tag->slug]) }}">{{ $tag->name }}</a>
                                 @endforeach
 

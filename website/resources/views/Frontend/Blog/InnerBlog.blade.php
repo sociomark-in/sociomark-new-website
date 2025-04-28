@@ -5,8 +5,7 @@
 @section('keywords', $blog->meta_keywords)
 @section('robots', 'INDEX,FOLLOW')
 
-@section('content')
-
+@section('custome-style')
 <style>
     #Blog_Section .box {
         padding: 28px 20px;
@@ -55,7 +54,24 @@
         background-color: #106c97 !important;
         color: white !important;
     }
+    .recent-post .media-img img{
+            object-fit: cover !important;
+    }
+    .blog-img{
+        width: 400px;
+        height: 230px;
+    }
+    .blog-single{
+        margin-right: 0px !important;
+    }
+    #Blog_Section .box-blog img{
+         object-fit: contain !important;
+     }
 </style>
+@endsection
+@section('content')
+
+
 
 <main>
 
@@ -86,7 +102,7 @@
                         <div class="box-blog th-blog blog-single has-post-thumbnail">
                             <div class="blog-img box-blog">
                                 <a href="">
-                                    <img src="{{ asset('storage/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image" width="100%" style="height: 270px; object-fit: cover; margin-right: 5px;">
+                                    <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image" class="w-100 h-100 object-fit-cover">
                                 </a>
                             </div>
                             <div class="blog-content content-padding">
@@ -120,7 +136,7 @@
                                 <div class="recent-post">
                                     <div class="media-img recent_blog_img">
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                            <img src="{{ asset('storage/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image">
+                                            <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image" class="w-100 h-100 object-fit-cover">
                                         </a>
                                     </div>
                                     <div class="media-body">

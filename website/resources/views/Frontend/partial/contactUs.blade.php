@@ -103,7 +103,7 @@
                             return this.optional(element) || /^[a-zA-Z \s']*$/i.test(value);
                         });
                         $.validator.addMethod("numbers", function(value, element) {
-                            return this.optional(element) || /^[0-9 ]*$/i.test(value);
+                            return this.optional(element) || /^[0-9]{10}$/.test(value);
                         });
                         $('#contactform').validate({
                             rules: {
@@ -120,6 +120,8 @@
                                 phone: {
                                     required: true,
                                     numbers: true,
+                                    minlength: 10,
+                                    maxlength: 10,
                                 },
                                 message: {
                                     required: true,
@@ -132,8 +134,9 @@
                                 },
                                 phone: {
                                     required: 'This Phone field is required',
-                                    maxlength: 'Please enter a Valid Mobile Number',
-                                    minlength: 'Please enter a Valid Mobile Number',
+                                    numbers: 'Please enter exactly 10 digits',
+                                    minlength: 'Phone number must be 10 digits',
+                                    maxlength: 'Phone number must be 10 digits',
                                 },
                                 lastname: 'This Last Name field is required',
                                 organisation: 'This Organisation field is required',
