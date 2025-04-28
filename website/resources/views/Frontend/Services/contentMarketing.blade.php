@@ -5,12 +5,6 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 @section('custome-style')
     <style>
-        #seo-service #work-flow,
-        #seo-service #about-sec5,
-        #seo-service #Features,
-        #seo-service #contact {
-            background-color: #F5F5F5 !important;
-        }
 
         #seo-service #features .sub-sec-title {
             font-weight: 700 !important;
@@ -40,15 +34,6 @@
             }
         }
 
-        /* section 2 */
-        #seo-service #about-sec2 {
-            /* background-color: #F5F5F5; */
-            background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
-        }
-
-        /* section 2 end */
-
-
         /* section3 */
         .according-img {
             opacity: 0;
@@ -74,8 +59,6 @@
             height: auto;
             overflow: visible;
         }
-
-
 
         #seo-service #about-sec3 .box-title {
             line-height: 32px;
@@ -237,7 +220,7 @@
                             <h3 class="box-number text-orange"><span class="counter-number">123</span>M<span class="plus">+</span>
                             </h3>
                             <div class="media-body">
-                                <p class=" counter-text mb-n1"><b>Organic Traffic</b></p>
+                                <p class=" counter-text sec-para mb-n1"><b>Organic Traffic</b></p>
                             </div>
                         </div>
                         <div class="divider"></div>
@@ -248,7 +231,7 @@
                             <h3 class="box-number text-orange"><span class="counter-number">412</span>K<span class="plus">+</span>
                             </h3>
                             <div class="media-body">
-                                <p class=" counter-text mb-n1"><b>Organic Keywords Growth</b></p>
+                                <p class=" counter-text sec-para mb-n1"><b>Organic Keywords Growth</b></p>
                             </div>
                         </div>
                         <div class="divider"></div>
@@ -259,7 +242,7 @@
                             <h3 class="box-number text-orange"><span class="counter-number">2.4</span>M<span class="plus">+</span>
                             </h3>
                             <div class="media-body">
-                                <p class=" counter-text mb-n1"><b>Organic Revenue Generated</b></p>
+                                <p class=" counter-text sec-para mb-n1"><b>Organic Revenue Generated</b></p>
                             </div>
                         </div>
                         <div class="divider"></div>
@@ -269,7 +252,7 @@
                         <div class="counter-card pb-2">
                             <h3 class="box-number text-orange"><span class="counter-number">48</span><span class="plus">+</span></h3>
                             <div class="media-body">
-                                <p class=" counter-text mb-n1"><b>Happy Customers</b></p>
+                                <p class=" counter-text sec-para mb-n1"><b>Happy Customers</b></p>
                             </div>
                         </div>
                         <div class="divider"></div>
@@ -278,7 +261,7 @@
                 </div>
             </div>
         </div>
-        <section class="overflow-hidden" id="about-sec">
+        <section class="overflow-hidden mb-md-5 md-2" id="about-sec">
             <div class="container">
                 <div class="row align-items-end justify-content-center">
                     <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
@@ -315,7 +298,7 @@
                 max-height: 60vh;
             }
         </style>
-        <section class="overflow-hidden space" id="work-flow">
+        <section class="overflow-hidden space bg-grey" id="work-flow">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
@@ -467,7 +450,7 @@
 
         </section>
 
-        <section class="overflow-hidden space" id="about-sec2">
+        <section class="overflow-hidden space bg-grey" id="about-sec2">
             <div class="container">
                 <div class="row align-items-end">
                     <div class="col-xl-8" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
@@ -612,7 +595,7 @@
             </div>
         </section>
 
-        <section class="overflow-hidden space" id="Features">
+        <section class="overflow-hidden space bg-grey" id="Features">
             <div class="container">
                 <!-- Header Text -->
                 <h2 class="fw-bold mb-5 sec-title text-center" data-aos="fade-up" data-aos-delay="100"
@@ -626,21 +609,21 @@
                             <img src="https://www.gbim.com/gbim/one_click.webp" alt="One-Click Reports"
                                 class="feature-icon">
                         </div>
-                        <div class="sub-sec-title">Keyword Research</div>
+                        <div class="sub-sec-title">Website Content</div>
                     </div>
                     <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                         <div class="icon-img me-3">
                             <img src="	https://www.gbim.com/gbim/traffic.webp" alt="Traffic Performance"
                                 class="feature-icon">
                         </div>
-                        <div class="sub-sec-title">Competitor Analysis</div>
+                        <div class="sub-sec-title">Short-form content</div>
 
                     </div>
                     <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                         <div class="icon-img me-3">
                             <img src="https://www.gbim.com/gbim/traffic.webp" alt="CRM Module" class="feature-icon">
                         </div>
-                        <div class="sub-sec-title">Link Building</div>
+                        <div class="sub-sec-title">Blog & Article</div>
 
                     </div>
                 </div>
@@ -652,7 +635,7 @@
                             <img src="https://www.gbim.com/gbim/keyword.webp" alt="Keyword Performance"
                                 class="feature-icon">
                         </div>
-                        <div class="sub-sec-title">On-Page Optimization</div>
+                        <div class="sub-sec-title">Caption</div>
 
                     </div>
                     <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
@@ -660,14 +643,7 @@
                             <img src="https://www.gbim.com/gbim/marketing.webp" alt="Marketing Activities"
                                 class="feature-icon">
                         </div>
-                        <div class="sub-sec-title">Technical Audit </div>
-
-                    </div>
-                    <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
-                        <div class="icon-img me-3">
-                            <img src="	https://www.gbim.com/gbim/leads.webp" alt="Leads Management" class="feature-icon">
-                        </div>
-                        <div class="sub-sec-title">Local SEO</div>
+                        <div class="sub-sec-title">Banners </div>
 
                     </div>
                 </div>
@@ -707,18 +683,14 @@
                             <div class="accordion-card">
                                 <div class="accordion-header" id="collapse-item-1">
                                     <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">How
-                                        long does it take to see results from SEO?</button>
+                                        data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">What is content marketing?
+                                        </button>
                                 </div>
                                 <div id="collapse-1" class="accordion-collapse collapse show"
                                     aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
-                                            initial improvements in website traffic and rankings within 3-6 months with a
-                                            well-defined strategy. Long-term results and significant traffic growth. We are
-                                            a five-star rated holistic full-service digital marketing agencies, serving
-                                            thousands of clients. Our digital agency covers all aspects of internet
-                                            marketing:</p>
+                                        <p class="sec-para-faq">It's a strategy focused on creating and distributing valuable content to attract and retain a target audience.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -727,18 +699,14 @@
                             <div class="accordion-card ">
                                 <div class="accordion-header" id="collapse-item-2">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">How
-                                        will I be kept informed about my SEO progress?</button>
+                                        data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">Why is content marketing important?
+                                        </button>
                                 </div>
                                 <div id="collapse-2" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
-                                            initial improvements in website traffic and rankings within 3-6 months with a
-                                            well-defined strategy. Long-term results and significant traffic growth. We are
-                                            a five-star rated holistic full-service digital marketing agencies, serving
-                                            thousands of clients. Our digital agency covers all aspects of internet
-                                            marketing:</p>
+                                        <p class="sec-para-faq">It builds trust, educates consumers, and supports SEO efforts, leading to increased brand authority and customer engagement.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -748,79 +716,13 @@
                                 <div class="accordion-header" id="collapse-item-3">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapse-3" aria-expanded="false"
-                                        aria-controls="collapse-3">What kind of SEO techniques do you use?</button>
+                                        aria-controls="collapse-3">How to do SEO for content marketing?
+                                        </button>
                                 </div>
                                 <div id="collapse-3" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
-                                            initial improvements in website traffic and rankings within 3-6 months with a
-                                            well-defined strategy. Long-term results and significant traffic growth. We are
-                                            a five-star rated holistic full-service digital marketing agencies, serving
-                                            thousands of clients. Our digital agency covers all aspects of internet
-                                            marketing:</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="accordion-card ">
-                                <div class="accordion-header" id="collapse-item-4">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-4" aria-expanded="false"
-                                        aria-controls="collapse-4">What happens if I don't see results after a
-                                        while?</button>
-                                </div>
-                                <div id="collapse-4" class="accordion-collapse collapse "
-                                    aria-labelledby="collapse-item-4" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
-                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
-                                            initial improvements in website traffic and rankings within 3-6 months with a
-                                            well-defined strategy. Long-term results and significant traffic growth. We are
-                                            a five-star rated holistic full-service digital marketing agencies, serving
-                                            thousands of clients. Our digital agency covers all aspects of internet
-                                            marketing:</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="accordion-card ">
-                                <div class="accordion-header" id="collapse-item-5">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">How
-                                        do I get started with your agency?</button>
-                                </div>
-                                <div id="collapse-5" class="accordion-collapse collapse "
-                                    aria-labelledby="collapse-item-5" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
-                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
-                                            initial improvements in website traffic and rankings within 3-6 months with a
-                                            well-defined strategy. Long-term results and significant traffic growth. We are
-                                            a five-star rated holistic full-service digital marketing agencies, serving
-                                            thousands of clients. Our digital agency covers all aspects of internet
-                                            marketing:</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="accordion-card ">
-                                <div class="accordion-header" id="collapse-item-6">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-6" aria-expanded="false"
-                                        aria-controls="collapse-6">What is your process for starting a new
-                                        project?</button>
-                                </div>
-                                <div id="collapse-6" class="accordion-collapse collapse "
-                                    aria-labelledby="collapse-item-6" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
-                                        <p class="sec-para-faq">SEO is an ongoing process, but you can expect to see
-                                            initial improvements in website traffic and rankings within 3-6 months with a
-                                            well-defined strategy. Long-term results and significant traffic growth. We are
-                                            a five-star rated holistic full-service digital marketing agencies, serving
-                                            thousands of clients. Our digital agency covers all aspects of internet
-                                            marketing:</p>
+                                        <p class="sec-para-faq">SEO for content marketing means creating valuable, keyword-optimized content that ranks well, earns backlinks, and stays updated to attract ongoing traffic.</p>
                                     </div>
                                 </div>
                             </div>

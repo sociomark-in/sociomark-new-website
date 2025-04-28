@@ -5,13 +5,7 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 @section('custome-style')
     <style>
-        #seo-service #work-flow,
-        #seo-service #about-sec5,
-        #seo-service #Features,
-        #seo-service #contact {
-            background-color: #F5F5F5 !important;
-        }
-
+       
         #seo-service #features .sub-sec-title {
             font-weight: 700 !important;
         }
@@ -39,15 +33,6 @@
                 padding: 40px 2px !important;
             }
         }
-
-        /* section 2 */
-        #seo-service #about-sec2 {
-            /* background-color: #F5F5F5; */
-            background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent);
-        }
-
-        /* section 2 end */
-
 
         /* section3 */
         .according-img {
@@ -238,7 +223,7 @@
                             <h3 class="box-number text-orange"><span class="counter-number">123</span>M<span class="plus">+</span>
                             </h3>
                             <div class="media-body">
-                                <p class=" counter-text mb-n1"><b>Organic Traffic</b></p>
+                                <p class=" counter-text sec-para mb-n1"><b>Organic Traffic</b></p>
                             </div>
                         </div>
                         <div class="divider"></div>
@@ -249,7 +234,7 @@
                             <h3 class="box-number text-orange"><span class="counter-number">412</span>K<span class="plus">+</span>
                             </h3>
                             <div class="media-body">
-                                <p class=" counter-text mb-n1"><b>Organic Keywords Growth</b></p>
+                                <p class=" counter-text sec-para mb-n1"><b>Organic Keywords Growth</b></p>
                             </div>
                         </div>
                         <div class="divider"></div>
@@ -260,7 +245,7 @@
                             <h3 class="box-number text-orange"><span class="counter-number">2.4</span>M<span class="plus">+</span>
                             </h3>
                             <div class="media-body">
-                                <p class=" counter-text mb-n1"><b>Organic Revenue Generated</b></p>
+                                <p class=" counter-text sec-para mb-n1"><b>Organic Revenue Generated</b></p>
                             </div>
                         </div>
                         <div class="divider"></div>
@@ -270,7 +255,7 @@
                         <div class="counter-card pb-2">
                             <h3 class="box-number text-orange"><span class="counter-number">48</span><span class="plus">+</span></h3>
                             <div class="media-body">
-                                <p class=" counter-text mb-n1"><b>Happy Customers</b></p>
+                                <p class=" counter-text sec-para mb-n1"><b>Happy Customers</b></p>
                             </div>
                         </div>
                         <div class="divider"></div>
@@ -280,7 +265,7 @@
             </div>
         </div>
 
-        <section class="overflow-hidden py-5" id="about-sec">
+        <section class="overflow-hidden mb-md-5 md-2" id="about-sec">
             <div class="container">
                 <div class="row align-items-end justify-content-center">
                     <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
@@ -323,7 +308,7 @@
                 max-height: 60vh;
             }
         </style>
-        <section class="overflow-hidden space" id="work-flow">
+        <section class="overflow-hidden space bg-grey" id="work-flow">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-8">
@@ -463,7 +448,7 @@
 
         </section>
 
-        <section class="overflow-hidden space" id="about-sec2">
+        <section class="overflow-hidden space bg-grey" id="about-sec2">
             <div class="container">
                 <div class="row align-items-end">
                     <div class="col-xl-8" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
@@ -595,7 +580,7 @@
             </div>
         </section>
 
-        <section class="overflow-hidden space" id="Features">
+        <section class="overflow-hidden space bg-grey" id="Features">
             <div class="container">
                 <!-- Header Text -->
                 <h2 class="fw-bold mb-5 sec-title text-center" data-aos="fade-up" data-aos-delay="100"
