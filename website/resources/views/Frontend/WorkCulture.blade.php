@@ -222,11 +222,11 @@
 </style>
 @section('content')
     <main id="work-culture">
-        <section class="">
+        <section>
             <div class="full-width">
                 <picture>
-                    <source media="(min-width: 1400px)" srcset="https://placehold.co/1920x900">
-                    <img src="https://placehold.co/1080x1080" alt="">
+                    <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/work.jpg') }}">
+                    <img src="{{ asset('frontend-assets/img/banners/work.jpg')}}" alt="">
                 </picture>
             </div>
         </section>
@@ -651,7 +651,7 @@
 
         <section class="overflow-hidden space arrow-wrap" id="team-sec">
             <div class="container">
-                <div class="row justify-content-lg-between justify-content-center align-items-end">
+                <div class="row justify-content-lg-between justify-content-center align-items-end d-none">
                     <div class="col-lg-7">
                         <div class="title-area text-center text-lg-start pe-xl-5">
                             <div class="shadow-title style3">Team</div>
@@ -674,7 +674,7 @@
                     </div>
                 </div> <!-- / Title row -->
 
-                <div class="swiper teamSwiper">
+                <div class="swiper teamSwiper d-none">
                     <div class="swiper-wrapper">
                         @for ($i = 0; $i < 10; $i++)
                             <div class="swiper-slide">
@@ -721,7 +721,13 @@
                         })
                     </script>
                 @endpush
-
+                <div class="row g-3">
+                    <div class="col-12">
+                        <video loop muted autoplay class="w-100">
+                            <source src="{{ asset('frontend-assets/team-video.mp4') }}">
+                        </video>
+                    </div>
+                </div>
             </div>
         </section>
 

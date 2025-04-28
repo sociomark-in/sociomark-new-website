@@ -90,13 +90,29 @@
 
 @section('content')
 <main id="case-study">
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/case-study/ace tatto.png') }}">
+    <section>
+        <div class="full-width">
+            <picture>
+                <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/case-studies.jpg') }}">
+                <img src="{{ asset('frontend-assets/img/banners/case-studies.jpg')}}" alt="">
+            </picture>
+        </div>
+    </section>
+    <section class="overflow-hidden space" id="about-sec">
         <div class="container">
-            <div class="breadcumb-content">
-
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcumb-content breadcrumb-light">
+                        <h1 class="breadcumb-title">Case Studies</h1>
+                        <ul class="breadcumb-menu">
+                            <li><a href="{{ route('home') }}">Home</a></li>
+                            <li>Case Studies</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <section class="overflow-hidden garally space" id="portfolio-sec">
         <div class="container ">
             <div class="row justify-content-center">
@@ -117,7 +133,7 @@
 
 
                 <button data-filter="*" class=" nav-link active d-flex flex-column justify-content-around align-items-center" type="button">
-                    <div class="tab-label sec-para">Social Media</div>
+                    <div class="tab-label sec-para">Digital Media</div>
                 </button>
 
                 <button data-filter=".cat1" class="nav-link d-flex flex-column justify-content-around align-items-center" type="button">

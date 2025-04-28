@@ -14,11 +14,11 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="breadcumb-content breadcrumb-light">
-                            <h1 class="breadcumb-title">Education Industry</h1>
+                            <h1 class="breadcumb-title">Logistic Industry</h1>
                             <ul class="breadcumb-menu">
                                 <li><a href="{{ route('home') }}">Home</a></li>
                                 {{-- <li><a href="{{ route('ind')}}">Services</a></li> --}}
-                                <li>Education Industry</li>
+                                <li>Logistic Industry</li>
                             </ul>
                         </div>
                     </div>

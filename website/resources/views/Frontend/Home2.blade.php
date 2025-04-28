@@ -275,9 +275,9 @@
             <div class="row g-4 g-md-5">
                 <div class="col-xl-6 pe-5">
                     <div class="title-area mb-20">
-                        <h1 class="sec-title" data-aos="fade-right" data-aos-delay="300">A Remarkable Digital Marketing
-                            Company
-                            <span class="text-orange"> for Brands that Think Bigger</span>
+                        <h1 class="sec-title" data-aos="fade-right" data-aos-delay="300">Remarkable <br>Digital Marketing
+                            <br>Company
+                            <span class="text-orange"> for Brands that Think <br> Bigger</span>
                         </h1>
                     </div>
                     <p class="sec-para text-white-50" data-aos="fade-right" data-aos-delay="300">We're more than just a
@@ -884,7 +884,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h4 class="sub-sec-title">Team Cashless India </h4>
-                                    <p class="sec-para">Crafted in perfect sync with Mastercard’s signature
+                                    <p class="sec-para text-center">Crafted in perfect sync with Mastercard’s signature
                                         circles—where every post was a swipe of seamless design.</p>
                                 </div>
                             </div>
@@ -899,7 +899,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h4 class="sub-sec-title">NODWIN Gaming</h4>
-                                    <p class="sec-para">From nostalgic 90s vibes to viral memes, our designs merged
+                                    <p class="sec-para text-center">From nostalgic 90s vibes to viral memes, our designs merged
                                         gaming culture with creative flair, making every campaign/series a high-score
                                         hit.</p>
                                 </div>
@@ -916,7 +916,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h4 class="sub-sec-title">Shahenaz</h4>
-                                    <p class="sec-para">A grid as graceful as the brand—designed to drape your feed in
+                                    <p class="sec-para text-center">A grid as graceful as the brand—designed to drape your feed in
                                         elegance.</p>
                                 </div>
                             </div>
@@ -932,7 +932,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h4 class="sub-sec-title">Ayushakti</h4>
-                                    <p class="sec-para">Healing through design—our creatives spoke the language of
+                                    <p class="sec-para text-center">Healing through design—our creatives spoke the language of
                                         trust, care and Ayurveda.</p>
                                 </div>
                             </div>
@@ -947,7 +947,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h4 class="sub-sec-title">Jivana</h4>
-                                    <p class="sec-para">Captured the essence of authenticity, turning everyday
+                                    <p class="sec-para text-center">Captured the essence of authenticity, turning everyday
                                         ingredients into visual delights.</p>
                                 </div>
                             </div>
@@ -962,7 +962,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h4 class="sub-sec-title">The Professional Couriers</h4>
-                                    <p class="sec-para">We kept it clean, clear and customer-first—just like their
+                                    <p class="sec-para text-center">We kept it clean, clear and customer-first—just like their
                                         deliveries.</p>
                                 </div>
                             </div>
@@ -977,7 +977,7 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h4 class="sub-sec-title">EURO</h4>
-                                    <p class="sec-para">Styled comfort with star power—our creatives echoed Kartik
+                                    <p class="sec-para text-center">Styled comfort with star power—our creatives echoed Kartik
                                         Aaryan's charisma.</p>
                                 </div>
                             </div>
@@ -992,14 +992,21 @@
                                 </div>
                                 <div class="flip-box-back">
                                     <h4 class="sub-sec-title">JOP Group</h4>
-                                    <p class="sec-para">Visualized spaces that speak—our designs mirrored JOP's
+                                    <p class="sec-para text-center">Visualized spaces that speak—our designs mirrored JOP's
                                         architectural elegance. Crafted visuals that captured the essence of modern
                                         living and timeless design.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
+                    <div class="col-12">
+                        <div class="text-center">
+                            <a href="{{ route('portfolio') }}"
+                                            class="th-btn white-border th-icon th-radius">
+                                            View All Portfolio
+                                        </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1230,42 +1237,6 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/4p.jpg') }}" alt="Logo"
-                                        class="w-100">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/adgully.jpg') }}" alt="Logo"
-                                        class="w-100">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/bmi.jpg') }}" alt="Logo"
-                                        class="w-100">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/etbeq.jpg') }}" alt="Logo"
-                                        class="w-100">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/mb.jpg') }}" alt="Logo"
-                                        class="w-100">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/prsync.jpg') }}" alt="Logo"
-                                        class="w-100">
-                                </a>
-                            </div>
-                            <div class="swiper-slide">
-                                <a href="">
                                     <img src="{{ asset('frontend-assets/img/logo/pr/socialsamosa.jpg') }}"
                                         alt="Logo" class="w-100">
                                 </a>
@@ -1278,7 +1249,43 @@
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/adgully.jpg') }}" alt="Logo"
+                                        class="w-100">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
                                     <img src="{{ asset('frontend-assets/img/logo/pr/yf.jpg') }}" alt="Logo"
+                                    class="w-100">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/etbeq.jpg') }}" alt="Logo"
+                                        class="w-100">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/4p.jpg') }}" alt="Logo"
+                                        class="w-100">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/bmi.jpg') }}" alt="Logo"
+                                        class="w-100">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/mb.jpg') }}" alt="Logo"
+                                        class="w-100">
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="">
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/prsync.jpg') }}" alt="Logo"
                                         class="w-100">
                                 </a>
                             </div>

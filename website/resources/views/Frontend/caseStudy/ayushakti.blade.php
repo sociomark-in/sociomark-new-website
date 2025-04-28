@@ -423,9 +423,8 @@
 
         <h3 class="fs-5 text-blue">Still Not Convinced?</h3>
         <h2 class="mt-4 sub-sec-title text-blue">Hear it from Dr. Smita Naram, Co-Founder of Ayushakti Ayurved on associating her brand with us.</h2>
-        <div class="imgs">
-            <iframe class="yt-video" width="560" height="315" src="https://www.youtube.com/embed/F44hEXu7HRo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-
+        <div class="ratio ratio-16x9">
+            <iframe class="yt-video w-100" src="https://www.youtube.com/embed/F44hEXu7HRo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
         </div>
     </div>
     <div class="header-button mb-5 d-flex align-items-center justify-content-center">

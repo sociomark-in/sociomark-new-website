@@ -519,7 +519,7 @@
                         </p>
 
                         <a href="{{route('workculture')}}" class="th-btn th-icon text-white p-3 logo-info mt-2" data-aos="fade-left"
-                            data-aos-delay="100">Meet Our Team</a>
+                            data-aos-delay="100">See Our Work Culture</a>
                     </div>
                 </div>
             </div>
@@ -527,7 +527,7 @@
 
         <section class="space" id="team">
             <div class="container">
-                <div class="title-area text-center">
+                <div class="title-area text-center d-none">
                     {{-- <span class="sub-title sub-title4 ">EXPERT TEAM <span></span></span> --}}
                     <h2 class="sec-title ">Meet Our <span class="text-blue">Remarkables</span></h2>
                 </div>
@@ -551,7 +551,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row g-3">
+                <div class="row g-3 d-none">
                     <div class="col-12">
                         <div class="swiper teamSwiper">
                             <div class="swiper-wrapper">
@@ -595,6 +595,13 @@
                                 })
                             </script>
                         @endpush
+                    </div>
+                </div>
+                <div class="row g-3">
+                    <div class="col-12">
+                        <video loop muted autoplay class="w-100">
+                            <source src="{{ asset('frontend-assets/core-team.mp4') }}">
+                        </video>
                     </div>
                 </div>
             </div>

@@ -150,17 +150,29 @@
 @endsection
 @section('content')
 <main id="portfolio">
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg') }}">
+    <section>
+        <div class="full-width">
+            <picture>
+                <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/portfolio.jpg') }}">
+                <img src="{{ asset('frontend-assets/img/banners/portfolio.jpg')}}" alt="">
+            </picture>
+        </div>
+    </section>
+    <section class="overflow-hidden space" id="about-sec">
         <div class="container">
-            <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Portfolio</h1>
-                <ul class="breadcumb-menu">
-                    <li><a href="home-seo-agency.html">Home</a></li>
-                    <li>Portfolio</li>
-                </ul>
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcumb-content breadcrumb-light">
+                        <h1 class="breadcumb-title">Portfolios</h1>
+                        <ul class="breadcumb-menu">
+                            <li><a href="{{ route('home') }}">Home</a></li>
+                            <li>Portfolios</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <div class="overflow-hidden space contact-head" id="about-sec1">
         <div class="container">
             <div class="row">
@@ -249,7 +261,7 @@
                             </div>
 
                         </div>
-                   
+
                     <div class="col-md-4 col-sm-6  mt-3">
                         <div class="hover-split-box">
                             <div class="image-wrapper" data-aos="zoom-in"

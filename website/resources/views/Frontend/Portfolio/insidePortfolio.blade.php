@@ -1,5 +1,5 @@
 @extends('Frontend.layout.app')
-@section('title', 'brand')
+@section('title', 'Portfolio')
 @section('author', 'Your Company Name')
 @section('description', 'This is a dynamic description for the home page.')
 @section('keywords', 'seo, marketing, agency, web design')
@@ -62,7 +62,7 @@
             width: 100%;
             height: 100%;
             background-color: white;
-            padding: 20px 50px;
+            overflow: hidden;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
@@ -85,17 +85,29 @@
 @endsection
 @section('content')
     <main id="brand">
-        <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg') }}">
+        <section>
+            <div class="full-width">
+                <picture>
+                    <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/portfolio.jpg') }}">
+                    <img src="{{ asset('frontend-assets/img/banners/portfolio.jpg')}}" alt="">
+                </picture>
+            </div>
+        </section>
+        <section class="overflow-hidden space" id="about-sec">
             <div class="container">
-                <div class="breadcumb-content">
-                    <h1 class="breadcumb-title">brand</h1>
-                    <ul class="breadcumb-menu">
-                        <li><a href="home-seo-agency.html">Home</a></li>
-                        <li>brand</li>
-                    </ul>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="breadcumb-content breadcrumb-light">
+                            <h1 class="breadcumb-title">Portfolios</h1>
+                            <ul class="breadcumb-menu">
+                                <li><a href="{{ route('home') }}">Home</a></li>
+                                <li>Portfolios</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
         <div class="overflow-hidden space contact-head" id="about-sec1">
             <div class="container">
                 <div class="row">
@@ -127,21 +139,21 @@
 
                 <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('social', ['segment'=>'ayu-health']) }}">
+                        <a href="{{ route('social_media', ['client'=>'ayu-health']) }}">
                             <img src="{{ asset('frontend-assets/img/work/ayu health/ayu health.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('social', ['segment'=>'bem']) }}">
+                        <a href="{{ route('social_media', ['client'=>'bem']) }}">
                             <img src="{{ asset('frontend-assets/img/work/bem/BEM.png') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('social', ['segment'=>'cyber-power']) }}">
+                        <a href="{{ route('social_media', ['client'=>'cyber-power']) }}">
                             <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
@@ -149,7 +161,7 @@
 
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('social', ['segment'=>'jivana']) }}">
+                        <a href="{{ route('social_media', ['client'=>'jivana']) }}">
                             <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
@@ -157,7 +169,7 @@
 
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('social', ['segment'=>'m4u']) }}">
+                        <a href="{{ route('social_media', ['client'=>'m4u']) }}">
                             <img src="{{ asset('frontend-assets/img/work/banner/market4you.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
@@ -165,7 +177,7 @@
 
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('social', ['segment'=>'nhss']) }}">
+                        <a href="{{ route('social_media', ['client'=>'nhss']) }}">
                             <img src="{{ asset('frontend-assets/img/work/banner/NHS.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
@@ -173,105 +185,98 @@
 
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('social', ['segment'=>'shahenaz']) }}">
+                        <a href="{{ route('social_media', ['client'=>'shahenaz']) }}">
                             <img src="{{ asset('frontend-assets/img/work/banner/Shahenaz.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('social', ['segment'=>'nodwin']) }}">
+                        <a href="{{ route('social_media', ['client'=>'nodwin-gaming']) }}">
                             <img src="{{ asset('frontend-assets/img/work/nodwin/1.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('social', ['segment'=>'grill-box']) }}">
+                        <a href="{{ route('social_media', ['client'=>'grill-box']) }}">
                             <img src="{{ asset('frontend-assets/img/work/grill-box/1.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('roadToSafety') }}">
+                        <a href="{{ route('social_media', ['client'=>'road-to-safety']) }}">
                             <img src="{{ asset('frontend-assets/img/work/rts/1.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('nodwin') }}">
-                            <img src="{{ asset('frontend-assets/img/clients/nodwin.jpg') }}" alt="Brand Logo"
-                                class="img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
-                        data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('ayushaktisocoialM') }}">
+                        <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
                             <img src="{{ asset('frontend-assets/img/clients/ayushakti.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('limesocio') }}">
+                        <a href="{{ route('social_media', ['client'=>'lime']) }}">
                             <img src="{{ asset('frontend-assets/img/case-study/lime_logo.png') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('buttonbabaoDeshBanaoSocio') }}">
+                        <a href="{{ route('social_media', ['client'=>'button-dabao-desh-banao']) }}">
                             <img src="{{ asset('frontend-assets/img/case-study/bddb.png') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('castrolSocial') }}">
+                        <a href="{{ route('social_media', ['client'=>'castrol']) }}">
                             <img src="{{ asset('frontend-assets/img/work/castrol/1.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('missionInsureIndiaSocial') }}">
+                        <a href="{{ route('social_media', ['client'=>'mission-insure-india']) }}">
                             <img src="{{ asset('frontend-assets/img/work/mission-insure-india/1.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('realEstateAwardsocio') }}">
+                        <a href="{{ route('social_media', ['client'=>'real-estate-awards']) }}">
                             <img src="{{ asset('frontend-assets/img/case-study/rea.png') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('cosplayGenieSocio') }}">
+                        <a href="{{ route('social_media', ['client'=>'cosplay-genie']) }}">
                             <img src="{{ asset('frontend-assets/img/work/cosplay-genie/1.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('smarterindiaSocio') }}">
+                        <a href="{{ route('social_media', ['client'=>'smarter-india']) }}">
                             <img src="{{ asset('frontend-assets/img/case-study/smarter-logo.png') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('mahidraFirstChoiceSocio') }}">
+                        <a href="{{ route('social_media', ['client'=>'mahindra-first-choice-services']) }}">
                             <img src="{{ asset('frontend-assets/img/work/mahindra-first-choice-services/1.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('teamCashlessIndiaSocio') }}">
+                        <a href="{{ route('social_media', ['client'=>'team-cashless-india']) }}">
                             <img src="{{ asset('frontend-assets/img/work/team-cashless-india/1.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
@@ -279,28 +284,28 @@
 
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('sportzConsultSocio') }}">
+                        <a href="{{ route('social_media', ['client'=>'sportz-consult']) }}">
                             <img src="{{ asset('frontend-assets/img/work/sportz-consult/1.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('aiawardsSocial') }}">
+                        <a href="{{ route('social_media', ['client'=>'ai-awards']) }}">
                             <img src="{{ asset('frontend-assets/img/work/ai-awards/1.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('grillboxSocial') }}">
+                        <a href="{{ route('social_media', ['client'=>'grill-box']) }}">
                             <img src="{{ asset('frontend-assets/img/work/grill-box/grill1.jpeg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('kolkatarollsSocio') }}">
+                        <a href="{{ route('social_media', ['client'=>'kolkata-rolls']) }}">
                             <img src="{{ asset('frontend-assets/img/work/kolkata-rolls/1.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
@@ -308,26 +313,26 @@
 
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('hollywoodopticiansSocial') }}">
+                        <a href="{{ route('social_media', ['client'=>'hollywood-opticians']) }}">
                             <img src="{{ asset('frontend-assets/img/work/hollywood-opticians/1.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('foresightopticalsSocial') }}">
+                        <a href="{{ route('social_media', ['client'=>'foresight-opticals']) }}">
                             <img src="{{ asset('frontend-assets/img/work/foresight-opticals/1.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
                     <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                         data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        <a href="{{ route('inifdvashiSocial') }}">
+                        <a href="{{ route('social_media', ['client'=>'inifd-vashi']) }}">
                             <img src="{{ asset('frontend-assets/img/work/inifd-vashi/1.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                         </a>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
