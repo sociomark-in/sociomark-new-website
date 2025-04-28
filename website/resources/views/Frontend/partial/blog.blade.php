@@ -1,12 +1,11 @@
+
 <section class="overflow-hidden space bg-grey" id="about-sec5">
     <div class="container">
 
-
-
-            <h2 class="fw-bold mb-5 sec-title text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"
-                data-aos-easing="ease-in-out">
-                From The Blog: Blogs worth binging on.  <span class="text-blue"> Dive in!</span>
-            </h2>
+        <h2 class="fw-bold mb-5 sec-title text-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"
+            data-aos-easing="ease-in-out">
+            Sociopedia A Library To Go Beyond <span class="text-blue"> The Brief</span>
+        </h2>
 
         <div class="swiper mySwiper mt-5">
             <div class="swiper-wrapper">
@@ -16,8 +15,7 @@
                         <div class="blog-img box-blog">
                             <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
                                 <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}"
-                                    alt="Blog Image" width="100%"
-                                    style="height: 270px; object-fit: cover; margin-right: 5px;">
+                                    alt="Blog Image" class="w-100 h-100 object-fit-cover">
                             </a>
                         </div>
                         <div class="blog-content content-padding">
