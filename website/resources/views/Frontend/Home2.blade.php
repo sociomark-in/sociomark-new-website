@@ -275,7 +275,7 @@
             <div class="row g-4 g-md-5">
                 <div class="col-xl-6 pe-5">
                     <div class="title-area mb-20">
-                        <h1 class="sec-title " data-aos="fade-right" data-aos-delay="300">A Remarkable Digital Marketing
+                        <h1 class="sec-title" data-aos="fade-right" data-aos-delay="300">A Remarkable Digital Marketing
                             Company
                             <span class="text-orange"> for Brands that Think Bigger</span>
                         </h1>

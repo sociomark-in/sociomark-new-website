@@ -445,6 +445,19 @@ main#home {
     line-height: 1.2;
     font-weight: 700 !important;
 }
+.sec-title::after{
+    content: '';
+    background: url("../img/icon/stroke.png");
+    background-size: cover;
+    display: inline-block;
+    width: 7rem;
+    height: 2rem;
+    position: relative;
+    bottom: -2rem;
+    right: 4rem;
+
+    z-index: 1;
+}
 
 .sec-para {
     line-height: 28px;
@@ -1382,8 +1395,7 @@ main#home {
     filter: saturate(1); /* normal color */
     transition: 0.5s;
   }
-  
+
   .team-grid .team-img:hover img {
     filter: saturate(1.5); /* little more colorful on hover */
   }
-  
