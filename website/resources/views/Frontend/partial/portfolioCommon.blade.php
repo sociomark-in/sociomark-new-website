@@ -24,7 +24,7 @@
             <div class="swiper caseStudySwiper">
                 <div class="swiper-wrapper">
                     <!-- <div class="swiper-slide">
-                        <a href="{{ route('social', ['segment'=>'ayu-health']) }}" class="portfolio-item">
+                        <a href="{{ route('social_media', ['client'=>'ayu-health']) }}" class="portfolio-item">
                             <img src="{{ asset('frontend-assets/img/work/ayu health/ayu health.jpg') }}" alt="" class="w-100">
                             <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
                                 <h4 class="sub-sec-title text-white">Ayu Shakti</h4>
@@ -32,7 +32,7 @@
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="{{ route('social', ['segment'=>'bem']) }}" class="portfolio-item">
+                        <a href="{{ route('social_media', ['client'=>'bem']) }}" class="portfolio-item">
                             <img src="{{ asset('frontend-assets/img/work/bem/BEM.png') }}" alt="Brand Logo"
                                 class="img-fluid">
                             <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
@@ -41,7 +41,7 @@
                         </a>
                     </div> -->
                     <!-- <div class="swiper-slide">
-                        <a href="{{ route('social', ['segment'=>'cyber-power']) }}" class="portfolio-item">
+                        <a href="{{ route('social_media', ['client'=>'cyber-power']) }}" class="portfolio-item">
                             <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                             <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
@@ -51,7 +51,7 @@
                     </div>
 
                     <div class="swiper-slide">
-                        <a href="{{ route('social', ['segment'=>'jivana']) }}" class="portfolio-item">
+                        <a href="{{ route('social_media', ['client'=>'jivana']) }}" class="portfolio-item">
                             <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                             <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
@@ -61,7 +61,7 @@
                     </div> -->
 
                     <!-- <div class="swiper-slide">
-                        <a href="{{ route('social', ['segment'=>'m4u']) }}" class="portfolio-item">
+                        <a href="{{ route('social_media', ['client'=>'m4u']) }}" class="portfolio-item">
                             <img src="{{ asset('frontend-assets/img/work/banner/market4you.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                             <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
@@ -70,7 +70,7 @@
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="{{ route('social', ['segment'=>'nhss']) }}" class="portfolio-item">
+                        <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="portfolio-item">
                             <img src="{{ asset('frontend-assets/img/work/banner/NHS.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                             <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
@@ -80,7 +80,7 @@
                     </div> -->
 
                     <!-- <div class="swiper-slide">
-                        <a href="{{ route('social', ['segment'=>'shahenaz']) }}" class="portfolio-item">
+                        <a href="{{ route('social_media', ['client'=>'shahenaz']) }}" class="portfolio-item">
                             <img src="{{ asset('frontend-assets/img/work/banner/Shahenaz.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                             <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
@@ -89,7 +89,7 @@
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="{{ route('social', ['segment'=>'nodwin']) }}" class="portfolio-item">
+                        <a href="{{ route('social_media', ['client'=>'nodwin']) }}" class="portfolio-item">
                             <img src="{{ asset('frontend-assets/img/work/nodwin/1.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                             <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
@@ -98,7 +98,7 @@
                         </a>
                     </div> -->
                     <!-- <div class="swiper-slide">
-                        <a href="{{ route('social', ['segment'=>'grill-box']) }}" class="portfolio-item">
+                        <a href="{{ route('social_media', ['client'=>'grill-box']) }}" class="portfolio-item">
                             <img src="{{ asset('frontend-assets/img/work/grill-box/1.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                             <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
@@ -108,7 +108,7 @@
                     </div> -->
 
                     <div class="swiper-slide">
-                        <a href="{{ route('roadToSafety') }}" class="portfolio-item">
+                        <a href="{{ route('social_media', ['client'=>'road-to-safety']) }}" class="portfolio-item">
                             <img src="{{ asset('frontend-assets/img/project/rts-600.jpg') }}" alt="" class="w-100">
                             <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
                                 <h4 class="sub-sec-title text-white">Road to Safety</h4>
@@ -117,7 +117,7 @@
                     </div>
 
                     <div class="swiper-slide">
-                        <a href="{{ route('euro') }}" class="portfolio-item">
+                        <a href="{{ route('social_media', ['client'=>'euro']) }}" class="portfolio-item">
                             <img src="{{ asset('frontend-assets/img/project/Euro_600x600.jpg') }}" alt=""
                                 srcset="" class="w-100">
                             <div class="portfolio-title d-flex justify-content-center align-items-center">
@@ -127,7 +127,7 @@
                     </div>
 
                     <div class="swiper-slide">
-                        <a href="{{ route('nodwin') }}" class="portfolio-item">
+                        <a href="{{ route('social_media', ['client'=>'nodwin']) }}" class="portfolio-item">
                             <img src="{{ asset('frontend-assets/img/project/nodwin-600.jpg') }}" alt=""
                                 srcset="" class="w-100">
                             <div class="portfolio-title d-flex justify-content-center align-items-center">
@@ -136,7 +136,7 @@
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="{{ route('lime') }}" class="portfolio-item">
+                        <a href="{{ route('social_media', ['client'=>'lime']) }}" class="portfolio-item">
                             <img src="{{ asset('frontend-assets/img/project/lime-600.jpg') }}" alt=""
                                 srcset="" class="w-100">
                             <div class="portfolio-title d-flex justify-content-center align-items-center">
@@ -145,7 +145,7 @@
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="{{ route('realEstateAwardsocio') }}" class="portfolio-item">
+                        <a href="{{ route('social_media', ['client'=>'real-estate-awards']) }}" class="portfolio-item">
                             <img src="{{ asset('frontend-assets/img/project/real-estate-awards.jpg') }}" alt=""
                                 srcset="" class="w-100">
                             <div class="portfolio-title d-flex justify-content-center align-items-center">
@@ -154,7 +154,7 @@
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="{{ route('theProffessionalCouriers') }}" class="portfolio-item">
+                        <a href="{{ route('social_media', ['client'=>'the-professional-couriers']) }}" class="portfolio-item">
                             <img src="{{ asset('frontend-assets/img/project/tpc.jpeg') }}" alt=""
                                 srcset="" class="w-100">
                             <div class="portfolio-title d-flex justify-content-center align-items-center">
@@ -163,7 +163,7 @@
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="{{ route('buttonbabaoDeshBanaoSocio') }}" class="portfolio-item">
+                        <a href="{{ route('social_media', ['client'=>'button-dabao-desh-banao']) }}" class="portfolio-item">
                             <img src="{{ asset('frontend-assets/img/project/Button-Dabo-Desh-Bano.jpg') }}" alt=""
                                 srcset="" class="w-100">
                             <div class="portfolio-title d-flex justify-content-center align-items-center">

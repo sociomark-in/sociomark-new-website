@@ -15,210 +15,117 @@ class PortfolioController extends Controller
     {
         return view('Frontend/Portfolio/insidePortfolio');
     }
-    public function euro()
-    {
-        return view('Frontend/Portfolio/euroSocialMedia');
-    }
-    public function bumchumps()
-    {
-        return view('Frontend/Portfolio/bumchumpsSocialMedia');
-    }
-    public function jivana()
-    {
-        return view('Frontend/Portfolio/jivanaSocialMedia');
-    }
-    public function roadToSafety()
-    {
-        return view('Frontend/Portfolio/roadToSafetySocialMedia');
-    }
-    public function nodwin()
-    {
-        return view('Frontend/Portfolio/nodwinSocialMedia');
-    }
-    public function lime()
-    {
-        return view('Frontend/Portfolio/limeSocialMedia');
-    }
-    public function castrol()
-    {
-        return view('Frontend/Portfolio/castrolSocialMedia');
-    }
-    public function missionInsureIndia()
-    {
-        return view('Frontend/Portfolio/missionInsureIndiaSocialMedia');
-    }
-    public function realEstateAward()
-    {
-        return view('Frontend/Portfolio/realEstateAwardSocialMedia');
-    }
-    public function cosplayGenie()
-    {
-        return view('Frontend/Portfolio/cosplayGenieSocialMedia');
-    }
-    public function smartCityOfIndia()
-    {
-        return view('Frontend/Portfolio/smartCityOfIndiaSocialMedia');
-    }
-    public function buttonbabaoDeshBanao()
-    {
-        return view('Frontend/Portfolio/buttonbabaoDeshBanaoSocialMedia');
-    }
-    public function mahidraFirstChoice()
-    {
-        return view('Frontend/Portfolio/mahidraFirstChoiceSocialMedia');
-    }
-    public function theProffessionalCouriers()
-    {
-        return view('Frontend/Portfolio/theProffessionalCouriersSocialMedia');
-    }
-    public function teamCashlessIndia()
-    {
-        return view('Frontend/Portfolio/teamCashlessIndiaSocialMedia');
-    }
-    public function sportzConsult()
-    {
-        return view('Frontend/Portfolio/sportzConsultSocialMedia');
-    }
-    public function ayushaktisocoialM()
-    {
-        return view('Frontend/Portfolio/ayushaktiSocialMedia');
-    }
-    public function aiawards()
-    {
-        return view('Frontend/Portfolio/aiawards');
-    }
-    public function smarterindia()
-    {
-        return view('Frontend/Portfolio/smarterindiaSocialMedia');
-    }
-    public function grillbox()
-    {
-        return view('Frontend/Portfolio/grillboxSocialMedia');
-    }
-    public function kolkatarolls()
-    {
-        return view('Frontend/Portfolio/kolkatarollsSocialMedia');
-    }
-    public function hollywoodopticians()
-    {
-        return view('Frontend/Portfolio/hollywoodopticiansSocialMedia');
-    }
-    public function foresightopticals()
-    {
-        return view('Frontend/Portfolio/foresightopticalsSocialMedia');
-    }
-    public function inifdvashi()
-    {
-        return view('Frontend/Portfolio/inifdvashiSocialMedia');
-    }
-    public function profinet()
-    {
-        return view('Frontend/Portfolio/profinetbranding');
-    }
-    public function ayushaktiweb()
-    {
-        return view('Frontend/Portfolio/ayushaktiweb');
-    }
-    public function electrocareweb()
-    {
-        return view('Frontend/Portfolio/electrocareweb');
-    }
-    public function offthehookgrabandgo()
-    {
-        return view('Frontend/Portfolio/offthehookgrabandgoweb');
-    }
-    public function offthehooknanaimo()
-    {
-        return view('Frontend/Portfolio/offthehooknanaimoweb');
-    }
-    public function barebonesfishhouse()
-    {
-        return view('Frontend/Portfolio/barebonesfishhouseweb');
-    }
-    public function kinnaltoys()
-    {
-        return view('Frontend/Portfolio/kinnaltoysweb');
-    }
-    public function trollerfishandchips()
-    {
-        return view('Frontend/Portfolio/trollerfishandchipsweb');
-    }
-    public function limeweb()
-    {
-        return view('Frontend/Portfolio/limeweb');
-    }
-    public function ayushaktiusaweb()
-    {
-        return view('Frontend/Portfolio/ayushaktiusaweb');
-    }
-    public function drsmitanaramweb()
-    {
-        return view('Frontend/Portfolio/drsmitanaramweb');
-    }
-    public function realEAweb()
-    {
-        return view('Frontend/Portfolio/realEAweb');
-    }
-    public function portraitureByPariWeb()
-    {
-        return view('Frontend/Portfolio/portraitureByPariWeb');
-    }
-    public function profinetWeb()
-    {
-        return view('Frontend/Portfolio/profinetWeb');
-    }
-    public function aainosWeb()
-    {
-        return view('Frontend/Portfolio/aainosWeb');
-    }
-    public function hollywoodOpticiansBranding()
-    {
-        return view('Frontend/Portfolio/hollywoodOpticiansBranding');
-    }
-    public function foresightOpticalsBranding()
-    {
-        return view('Frontend/Portfolio/foresightOpticalsBranding');
-    }
 
-
-
-
-    public function social($segment)
+    public function social_media($client)
     {
-        switch ($segment) {
-            case 'bulid-track':
-                return view("Frontend/Portfolio/bulidTrackSocial");
-                # code...
-                break;
-            case 'bem':
-                return view("Frontend/Portfolio/bemSocial");
+        switch ($client) {
+            /* A */
+            case 'ai-awards':
+                return view('Frontend/Portfolio/aiawards');
                 # code...
                 break;
             case 'ayu-health':
                 return view("Frontend/Portfolio/ayuHealthSocial");
                 # code...
                 break;
+            case 'ayushakti':
+                return view('Frontend/Portfolio/ayushaktiSocialMedia');
+                # code...
+                break;
+            /* B */
+            case 'bulid-track':
+                return view("Frontend/Portfolio/bulidTrackSocial");
+                # code...
+                break;
+            case 'button-dabao-desh-banao':
+                return view('Frontend/Portfolio/buttonbabaoDeshBanaoSocialMedia');
+                # code...
+                break;
+            case 'bumchumps':
+                return view('Frontend/Portfolio/bumchumpsSocialMedia');
+                # code...
+                break;
+            case 'bem':
+                return view("Frontend/Portfolio/bemSocial");
+                # code...
+                break;
+            /* C */
+            case 'castrol':
+                return view('Frontend/Portfolio/castrolSocialMedia');
+                # code...
+                break;
+            case 'cosplay-genie':
+                return view('Frontend/Portfolio/cosplayGenieSocialMedia');
+                # code...
+                break;
             case 'cyber-power':
                 return view("Frontend/Portfolio/cyberPowerSocial");
                 # code...
                 break;
+            /* D */
             case 'dy-patil':
                 return view("Frontend/Portfolio/dyPatilSocial");
+                # code...
+                break;
+            /* E */
+            case 'euro':
+                return view('Frontend/Portfolio/euroSocialMedia');
                 # code...
                 break;
             case 'expert-4-travel':
                 return view("Frontend/Portfolio/expert4travelSocial");
                 # code...
                 break;
-        
+            /* F */
+            case 'foresight-opticals':
+                return view('Frontend/Portfolio/foresightopticalsSocialMedia');
+                break;
+            /* G */
+            case 'grill-box':
+                return view('Frontend/Portfolio/grillboxSocialMedia');
+                # code...
+                break;
+            /* H */
+            case 'hollywood-opticians':
+                return view('Frontend/Portfolio/hollywoodopticiansSocialMedia');
+                break;
+            /* I */
+            case 'inifd-vashi':
+                return view('Frontend/Portfolio/inifdvashiSocialMedia');
+                break;
             case 'ism':
                 return view("Frontend/Portfolio/ismSocial");
+                # code...
+                break;
+            /* J */
+            case 'jivana':
+                return view('Frontend/Portfolio/jivanaSocialMedia');
+                # code...
+                break;
+            /* K */
+            case 'kolkata-rolls':
+                return view('Frontend/Portfolio/kolkatarollsSocialMedia');
+                # code...
+                break;
+            /* L */
+            case 'lime':
+                return view('Frontend/Portfolio/limeSocialMedia');
+                # code...
+                break;
+            /* M */
+            case 'mahindra-first-choice-services':
+                return view('Frontend/Portfolio/mahidraFirstChoiceSocialMedia');
                 # code...
                 break;
             case 'm4u':
                 return view("Frontend/Portfolio/m4uSocial");
                 # code...
                 break;
+            case 'mission-insure-india':
+                return view('Frontend/Portfolio/missionInsureIndiaSocialMedia');
+                # code...
+                break;
+            /* N */
             case 'network18':
                 return view("Frontend/Portfolio/network18Social");
                 # code...
@@ -231,44 +138,74 @@ class PortfolioController extends Controller
                 return view("Frontend/Portfolio/nmmcSocial");
                 # code...
                 break;
-
             case 'nodwin':
                 return view("Frontend/Portfolio/nodwinSocial");
+                return view("Frontend/Portfolio/nodwinSocialMedia");
                 # code...
                 break;
-
+            /* O */
             case 'okinawa':
                 return view("Frontend/Portfolio/okinawaSocial");
                 # code...
                 break;
-
+            /* P */
+            case 'pare':
+                return view("Frontend/Portfolio/pareSocial");
+                break;
             case 'patankar-farm':
                 return view("Frontend/Portfolio/patankarFarmSocial");
                 # code...
                 break;
-
+            /* Q */
             case 'qubero':
                 return view("Frontend/Portfolio/quberoSocial");
                 # code...
                 break;
-
-
+            /* R */
+            case 'real-estate-awards':
+                return view('Frontend/Portfolio/realEstateAwardSocialMedia');
+                # code...
+                break;
             case 'repute':
                 return view("Frontend/Portfolio/reputeSocial");
                 # code...
                 break;
-
+            case 'road-to-safety':
+                return view('Frontend/Portfolio/roadToSafetySocialMedia');
+                # code...
+                break;
+            /* S */
             case 'shahenaz':
                 return view("Frontend/Portfolio/shahenazSocial");
                 # code...
                 break;
-
+            case 'smart-cities-of-india':
+                return view('Frontend/Portfolio/smartCityOfIndiaSocialMedia');
+                # code...
+                break;
+            case 'smarter-india':
+                return view('Frontend/Portfolio/smarterindiaSocialMedia');
+                # code...
+                break;
+            case 'sportz-consult':
+                return view('Frontend/Portfolio/sportzConsultSocialMedia');
+                # code...
+                break;
             case 'stem-RX-bio-science':
                 return view("Frontend/Portfolio/stemRXBioScience");
                 # code...
                 break;
+            /* T */
             case 'tata-play':
                 return view("Frontend/Portfolio/tataplaySocial");
+                # code...
+                break;
+            case 'team-cashless-india':
+                return view('Frontend/Portfolio/teamCashlessIndiaSocialMedia');
+                # code...
+                break;
+            case 'the-professional-couriers':
+                return view('Frontend/Portfolio/theProffessionalCouriersSocialMedia');
                 # code...
                 break;
             case 'tmc':
@@ -279,17 +216,85 @@ class PortfolioController extends Controller
                 return view("Frontend/Portfolio/tpcSocial");
                 # code...
                 break;
+            /* U */
+            /* V */
+            /* W */
             case 'watch':
                 return view("Frontend/Portfolio/watchSocial");
                 # code...
                 break;
             case 'world-grad':
                 return view("Frontend/Portfolio/worldGradSocial");
-
                 break;
-            case 'pare':
-                return view("Frontend/Portfolio/pareSocial");
 
+            default:
+                # code...
+                break;
+        }
+    }
+
+    public function branding_work($client)
+    {
+        switch ($client) {
+            case 'profinet':
+                return view('Frontend/Portfolio/profinetbranding');
+                break;
+            case 'hollywood-opticians':
+                return view('Frontend/Portfolio/hollywoodOpticiansBranding');
+                break;
+            case 'foresight-opticals':
+                return view('Frontend/Portfolio/foresightOpticalsBranding');
+                break;
+
+            default:
+                # code...
+                break;
+        }
+    }
+
+    public function website_work($client){
+        switch ($client) {
+            case 'ayushakti':
+                return view('Frontend/Portfolio/ayushaktiweb');
+                break;
+            case 'electrocare':
+                return view('Frontend/Portfolio/electrocareweb');
+                break;
+            case 'offthehookgrabandgo':
+                return view('Frontend/Portfolio/offthehookgrabandgoweb');
+                break;
+            case 'offthehooknanaimo':
+                return view('Frontend/Portfolio/offthehooknanaimoweb');
+                break;
+            case 'barebonesfishhouse':
+                return view('Frontend/Portfolio/barebonesfishhouseweb');
+                break;
+            case 'kinnaltoys':
+                return view('Frontend/Portfolio/kinnaltoysweb');
+                break;
+            case 'trollerfishandchips':
+                return view('Frontend/Portfolio/trollerfishandchipsweb');
+                break;
+            case 'lime':
+                return view('Frontend/Portfolio/limeweb');
+                break;
+            case 'ayushakti-usa':
+                return view('Frontend/Portfolio/ayushaktiusaweb');
+                break;
+            case 'dr-smita-naram':
+                return view('Frontend/Portfolio/drsmitanaramweb');
+                break;
+            case 'real-estate-awards':
+                return view('Frontend/Portfolio/realEAweb');
+                break;
+            case 'portraiture-by-pari':
+                return view('Frontend/Portfolio/portraitureByPariWeb');
+                break;
+            case 'profinet':
+                return view('Frontend/Portfolio/profinetWeb');
+                break;
+            case 'aainos':
+                return view('Frontend/Portfolio/aainosWeb');
                 break;
 
             default:
