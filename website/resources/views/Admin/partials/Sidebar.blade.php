@@ -345,6 +345,12 @@
                     <span class="link-title">Leads</span>
                 </a>
             </li>
+            <li class="nav-item">
+                <a href="{{ route('popUpcontactList') }}"  class="nav-link">
+                    <i class="link-icon" data-feather="hash"></i>
+                    <span class="link-title">Pop Form Leads</span>
+                </a>
+            </li>
             @endcan
         </ul>
     </div>

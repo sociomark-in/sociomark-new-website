@@ -103,6 +103,7 @@ Route::get('/industry/{segment}', [IndustryController::class, 'single'])->name('
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');
+Route::post('/contact/popUpStore', [ContactController::class, 'popUpStore'])->name('popUpContact.store');
 
 Route::get('/privacy-and-policy', [HomeController::class, 'privacyAndPolicy'])->name('privacyAndPolicy');
 Route::get('/terms-and-condition', [HomeController::class, 'termsAndcondition'])->name('termsAndcondition');
@@ -123,4 +124,5 @@ Route::middleware(['admin:admin,hr,business,user'])->group(function () {
     Route::resource('blogs', BlogController::class);
     Route::get('Admin/Work-gallary/create', [AdminWorkCultureController::class, 'create']);
     Route::get('admin/enquiryList', [ContatListController::class,'index'])->name('contactList');
+    Route::get('admin/contact-list', [ContatListController::class,'popContact'])->name('popUpcontactList');
 });

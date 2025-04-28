@@ -5,6 +5,7 @@
     @include('Frontend/partial/styleLinks')
     @yield('custome-style')
     @stack('styles')
+
 </head>
 
 <body>
