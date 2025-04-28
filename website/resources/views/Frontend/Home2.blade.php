@@ -1343,8 +1343,7 @@
                                 <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
                                     <img loading="lazy"
                                         src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}"
-                                        alt="Blog Image" width="100%"
-                                        style="height: 270px; object-fit: cover; margin-right: 5px;">
+                                        alt="Blog Image" class="w-100 h-100 object-fit-cover">
                                 </a>
                             </div>
                             <div class="blog-content content-padding">
