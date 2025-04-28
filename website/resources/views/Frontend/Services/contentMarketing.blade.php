@@ -220,7 +220,7 @@
                             <h3 class="box-number text-orange"><span class="counter-number">123</span>M<span class="plus">+</span>
                             </h3>
                             <div class="media-body">
-                                <p class=" counter-text mb-n1"><b>Organic Traffic</b></p>
+                                <p class=" counter-text sec-para mb-n1"><b>Organic Traffic</b></p>
                             </div>
                         </div>
                         <div class="divider"></div>
@@ -231,7 +231,7 @@
                             <h3 class="box-number text-orange"><span class="counter-number">412</span>K<span class="plus">+</span>
                             </h3>
                             <div class="media-body">
-                                <p class=" counter-text mb-n1"><b>Organic Keywords Growth</b></p>
+                                <p class=" counter-text sec-para mb-n1"><b>Organic Keywords Growth</b></p>
                             </div>
                         </div>
                         <div class="divider"></div>
@@ -242,7 +242,7 @@
                             <h3 class="box-number text-orange"><span class="counter-number">2.4</span>M<span class="plus">+</span>
                             </h3>
                             <div class="media-body">
-                                <p class=" counter-text mb-n1"><b>Organic Revenue Generated</b></p>
+                                <p class=" counter-text sec-para mb-n1"><b>Organic Revenue Generated</b></p>
                             </div>
                         </div>
                         <div class="divider"></div>
@@ -252,7 +252,7 @@
                         <div class="counter-card pb-2">
                             <h3 class="box-number text-orange"><span class="counter-number">48</span><span class="plus">+</span></h3>
                             <div class="media-body">
-                                <p class=" counter-text mb-n1"><b>Happy Customers</b></p>
+                                <p class=" counter-text sec-para mb-n1"><b>Happy Customers</b></p>
                             </div>
                         </div>
                         <div class="divider"></div>
@@ -261,7 +261,7 @@
                 </div>
             </div>
         </div>
-        <section class="overflow-hidden" id="about-sec">
+        <section class="overflow-hidden mb-md-5 md-2" id="about-sec">
             <div class="container">
                 <div class="row align-items-end justify-content-center">
                     <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
