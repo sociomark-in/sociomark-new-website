@@ -811,6 +811,21 @@ main#home {
 /* portfolio- client :end */
 
 /* blog */
+
+.recent-post .media-img img {
+    object-fit: cover !important;
+}
+.blog-img{
+    width: 400px;
+    height: 230px;
+}
+.blog-single{
+    margin-right: 0px !important;
+}
+#Blog_Section .box-blog img{
+     object-fit: contain !important;
+ }
+ 
 #about-sec5 .box {
     padding: 28px 20px;
     border-radius: 10px;

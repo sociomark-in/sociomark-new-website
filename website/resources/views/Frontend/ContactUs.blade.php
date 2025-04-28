@@ -323,35 +323,22 @@
                 </div>
             </div>
         </div>
-        <script type="text/javascript">
-            $.validator.addMethod("emailregex", function(value, element) {
-                return this.optional(element) || /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i.test(value);
-            })
-            $.validator.addMethod("letters", function(value, element) {
-                return this.optional(element) || /^[a-zA-Z \s']*$/i.test(value);
-            });
-            $.validator.addMethod("numbers", function(value, element) {
-                return this.optional(element) || /^[0-9 ]*$/i.test(value);
-            });
-            $('#popupForm').validate({
-                rules: {
-                    name: {
-                        required: true,
-                        letters: true,
-                    },
-                    lastname: 'required',
-                    organisation: 'required',
-                    email: {
-                        required: true,
-                        emailregex: true,
-                    },
-                    phone: {
-                        required: true,
-                        numbers: true,
-                    },
-                    message: {
-                        required: true,
-                    }
+    </div>
+    <script type="text/javascript">
+        $.validator.addMethod("emailregex", function(value, element) {
+            return this.optional(element) || /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i.test(value);
+        })
+        $.validator.addMethod("letters", function(value, element) {
+            return this.optional(element) || /^[a-zA-Z \s']*$/i.test(value);
+        });
+        $.validator.addMethod("numbers", function(value, element) {
+            return this.optional(element) || /^[0-9 ]*$/i.test(value);
+        });
+        $('#contactform').validate({
+            rules: {
+                name: {
+                    required: true,
+                    letters: true,
                 },
                 messages: {
                     name: {

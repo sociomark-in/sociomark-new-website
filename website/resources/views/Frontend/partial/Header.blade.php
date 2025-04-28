@@ -164,24 +164,25 @@ Header Area
                             </div>
                         </div>
                     </form>
-
                     <script type="text/javascript">
                         $.validator.addMethod("emailregex", function(value, element) {
                             return this.optional(element) || /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i.test(value);
-                        })
+                        });
+
                         $.validator.addMethod("letters", function(value, element) {
-                            return this.optional(element) || /^[a-zA-Z \s']*$/i.test(value);
+                            return this.optional(element) || /^[a-zA-Z\s']*$/i.test(value);
                         });
+
                         $.validator.addMethod("numbers", function(value, element) {
-                            return this.optional(element) || /^[0-9 ]*$/i.test(value);
+                            return this.optional(element) || /^[0-9]{10}$/.test(value);
                         });
+
                         $('#popupForm').validate({
                             rules: {
                                 name: {
                                     required: true,
                                     letters: true,
                                 },
-                                
                                 email: {
                                     required: true,
                                     emailregex: true,
@@ -189,7 +190,10 @@ Header Area
                                 phone: {
                                     required: true,
                                     numbers: true,
-                                }
+                                    minlength: 10,
+                                    maxlength: 10,
+                                },
+
                             },
                             messages: {
                                 name: {
@@ -198,16 +202,20 @@ Header Area
                                 },
                                 phone: {
                                     required: 'This Phone field is required',
-                                    maxlength: 'Please enter a Valid Mobile Number',
-                                    minlength: 'Please enter a Valid Mobile Number',
+                                    numbers: 'Please enter 10 digits',
+                                    minlength: 'Phone number must be 10 digits',
+                                    maxlength: 'Phone number must be 10 digits',
                                 },
+
                                 email: 'Please enter a Valid Email Id',
+
                             },
                             submitHandler: function(form) {
                                 form.submit();
                             }
                         });
                     </script>
+
 
                 </div>
             </div>
