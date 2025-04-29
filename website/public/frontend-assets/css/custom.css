@@ -92,6 +92,7 @@ select {
 .form-group label.error {
     margin-top: 0.5rem;
     color: red;
+    font-weight: 600 !important;
 }
 
 .form-group .form-label {
