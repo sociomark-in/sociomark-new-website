@@ -70,7 +70,21 @@
             <div class="row">
                 <h2 class="text-blue sec-title">Jivana</h2>
                 <p class="sec-para"><b>About the Brand:</b> </p>
+                <p>
+                    Jivana, from Somiya Foods Group, is a growing brand in the <a href="">FMCG Industry</a> known for
+                    strong brand building and product awareness. Focused on retaining the purity and goodness of natural
+                    ingredients, Jivana offers essential products like spices, jaggery variants, and sugar powders. Their
+                    flagship product, Classic Sugar, is loved for its natural purity and quality. Proudly, Jivana has
+                    crossed ₹15+ crores in revenue, reflecting the trust of its customers across the consumer packaged goods
+                    segment.
+                </p>
                 <p class="sec-para"><b>Services Offered:</b> </p>
+                <p>
+                    We manage Jivana's social media with a growing community of 5,000+ followers, creating engaging content
+                    through static posts, reels, shoots, and more. Our focus is on promoting brand identity and product
+                    value to the target audience, while boosting reach with effective SEO strategies and ad campaigns. We
+                    also build a strong virtual presence and handle offline branding projects, from printing to execution.
+                </p>
                 <div class="th-social">
                     <p class="sec-para"><b>Page Link:</b>
                         <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -159,26 +173,65 @@
             </div>
         </div>
     </section>
-
-    <section class="porfolio-text section-margin">
-    <div class="container">
-        <div class="row">
-            <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
-
-            <div class="col lg-4 col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Ayuhealth</b></p>
+    <section class="overflow-hidden space garally" id="portfolio-sec">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-12">
+                    <h2 class="sec-title">Similar Projects,<br><span class="text-blue">We Worked On</span> </h2>
+                </div>
+                <div class="col-12">
+                    <div class="portfolio-area" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1200"
+                        data-aos-easing="ease-in-out">
+                        <div class="row gy-4">
+                            <div class="col-md-6 col-xl-4">
+                                <a href="">
+                                    <div class="row g-0 gy-3">
+                                        <div class="project-item col-12">
+                                            <div class="box-img global-img">
+                                                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayushakti.jpg') }}"
+                                                    alt="project image" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="sec-para">Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-xl-4">
+                                <a href="">
+                                    <div class="row g-0 gy-3">
+                                        <div class="project-item col-12">
+                                            <div class="box-img global-img">
+                                                <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}"
+                                                    alt="project image" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="sec-para">Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-xl-4">
+                                <a href="">
+                                    <div class="row g-0 gy-3">
+                                        <div class="project-item col-12">
+                                            <div class="box-img global-img">
+                                                <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}"
+                                                    alt="project image" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="sec-para">Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col lg-4 col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Shehanaz</b></p>
-            </div>
-            <div class="col lg-4 col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
-            </div>
-
         </div>
-    </div>
-</section>
+    </section>
 @endsection

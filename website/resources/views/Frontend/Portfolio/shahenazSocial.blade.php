@@ -70,6 +70,9 @@
             <div class="row">
                 <h2 class="text-blue sec-title">Shahenaz</h2>
                 <p class="sec-para"><b>About the Brand:</b> </p>
+                <p>
+                    With over 60 years of legacy, Shahenaz is a distinguished clothing brand rooted in timeless elegance and Indian artistry. Known for blending heritage with modern design, Shahenaz curates collections that highlight the beauty of handcrafted textiles and meticulous detailing. From luxurious ethnic wear to curated home décor, every piece reflects a deep respect for craftsmanship and a flair for contemporary sophistication. Designed for those who value authenticity and quiet luxury, Shahenaz continues to redefine tradition for the modern lifestyle.
+                </p>
                 <p class="sec-para"><b>Services Offered:</b> </p>
                 <div class="th-social">
                     <p class="sec-para"><b>Page Link:</b>
@@ -167,7 +170,7 @@
                 <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
                 <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
             </div>
-           
+
         </div>
     </div>
 </section>

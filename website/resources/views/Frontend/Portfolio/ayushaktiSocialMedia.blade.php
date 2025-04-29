@@ -86,8 +86,8 @@
     <div class="container">
         <div class="row">
             <h2 class="text-blue sec-title">Ayushakti Ayurved</h2>
-            <p class="sec-para"><b>About the Brand:</b> Ayushakti is a global leader in providing ayurvedic healthcare
-                services
+            <p class="sec-para"><b>About the Brand:</b>
+                Ayushakti is a global leader in providing ayurvedic healthcareservices
                 and holistic wellness solutions. Its authentic powerful herbal treatments have successfully helped lakhs
                 of people, around 108 countries for the past 32 years.</p>
             <p class="sec-para"><b>Services Offered:</b> Complete Marketing Strategy (Online + Offline), Social Media

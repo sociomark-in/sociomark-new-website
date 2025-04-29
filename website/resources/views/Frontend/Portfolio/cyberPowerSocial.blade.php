@@ -70,6 +70,9 @@
         <div class="row">
             <h2 class="text-blue sec-title">Cyber Power</h2>
             <p class="sec-para"><b>About the Brand:</b> </p>
+            <p>
+                CyberPowerPC India is more than a gaming PC brand — it’s a creator of immersive gaming experiences. Known for its high-performance machines built with authentic components, expert craftsmanship, and meticulous testing, CyberPowerPC delivers systems that people from the Esports Industry can truly rely on. Each PC is assembled on-site, comes pre-installed with genuine Microsoft Windows, and is supported by full warranties and free on-site service. From casual gamers to competitive pros, CyberPowerPC India ensures every player is always Play Ready—redefining what it means to game with the best. 
+            </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
             <div class="th-social">
                 <p class="sec-para"><b>Page Link:</b>
@@ -77,7 +80,7 @@
                     <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
-           
+
         </div>
     </div>
 </section>
@@ -122,7 +125,7 @@
                 <!--<div class="swiper-button-prev"></div>-->
                 {{-- <div class="swiper-pagination"></div> --}}
             </div>
-            
+
             <script>
                 var swiper = new Swiper(".creativeSwiper", {
                     spaceBetween: 30,
@@ -174,7 +177,7 @@
                 <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
                 <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
             </div>
-           
+
         </div>
     </div>
 </section>

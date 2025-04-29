@@ -546,8 +546,8 @@
         </div>
     </section>
     <!--==============================
-                                        Testimonial Area
-                                        ==============================-->
+    Testimonial Area
+    ==============================-->
     <section class="space overflow-hidden overflow-hidden">
         <div class="container">
             <div class="title-area text-center">

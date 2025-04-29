@@ -82,18 +82,22 @@
 <section class="porfolio-text section-margin">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">RR Kabel & CNBC-Awaaz Presents’ Real Estate Awards</h2>
-            <p class="sec-para"><b>About the Brand:</b> Grill Box is the place to head to when you want to indulge your taste buds with some good Barbeque. It’s styled in a forest/cave theme and is absolutely fun. It is a celebration of traditional charcoal & fire-based cooking with some incredible ingredients. Their menu consists of a huge variety of Vegetarian and Non-Vegetarian dishes consisting of Starters, Soups, Salads, Main Course, Fruits and Desserts.</p>
+            <h2 class="text-blue sec-title">GrillBox Restaurant</h2>
+            <p class="sec-para"><b>About the Brand:</b> </p>
+            <p>
+                GrillBox is a standout name in the Restaurant sector, offering an elevated take on Experiential dining. Known for its unlimited BBQ and grand buffet spreads, GrillBox invites guests on a flavourful journey complete with live grills, diverse cuisines, and indulgent desserts. Each dish is made using fresh ingredients and authentic recipes, crafted to create memorable dining moments. Whether it’s a celebration or a casual outing, GrillBox turns every meal into a feast worth sharing.
+            </p>
+            {{-- <p class="sec-para"><b>About the Brand:</b> Grill Box is the place to head to when you want to indulge your taste buds with some good Barbeque. It’s styled in a forest/cave theme and is absolutely fun. It is a celebration of traditional charcoal & fire-based cooking with some incredible ingredients. Their menu consists of a huge variety of Vegetarian and Non-Vegetarian dishes consisting of Starters, Soups, Salads, Main Course, Fruits and Desserts.</p> --}}
             <p class="sec-para"><b>Services Offered:</b> Complete Marketing Strategy (Online + Offline), Social Media Management, ORM, Content Writing, In store branding includes - Flyers, Danglers.</p>
             <div class="th-social">
                 <p class="sec-para"><b>Page Link: </b>
                     <a href="https://www.facebook.com/grillboxrestaurant" target="_blank"><i
                             class="fab fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/grillbox_chennai/" target="_blank"><i class="fab fa-instagram"></i></a>
-                   
+
 
             </div>
-           
+
         </div>
     </div>
 </section>
@@ -174,7 +178,7 @@
                 <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
                 <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
             </div>
-           
+
         </div>
     </div>
 </section>
