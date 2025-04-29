@@ -281,9 +281,9 @@
             <div class="row g-4 g-md-5">
                 <div class="col-xl-6 pe-5">
                     <div class="title-area mb-20">
-                        <h1 class="sec-title" data-aos="fade-right" data-aos-delay="300">Remarkable <br>Digital Marketing
+                        <h1 class="sec-title hero-title" data-aos="fade-right" data-aos-delay="300">Remarkable <br>Digital Marketing
                             <br>Company
-                            <span class="text-orange"> for Brands that Think <br> Bigger</span>
+                            <span class="text-orange"> for Brands that Think <br> <span class="big-font">Bigger</span></span>
                         </h1>
                     </div>
                     <p class="sec-para text-white-50" data-aos="fade-right" data-aos-delay="300">We're more than just a
@@ -1101,6 +1101,37 @@
                                                     <h3 class="box-title text-black">Dr. Smita Naram</h3>
                                                     <span class="box-desig text-black">Founder, Ayushakti
                                                         Ayurveda</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide testimonial-card">
+                                    <div class=" ">
+                                        <div class="sec-para">
+                                            <div class="testimonial-message mb-3 mb-md-4">
+                                                <p class="">
+                                                    Sociomark's ability to understand our brand's voice and translate it into visually appealing content is unmatched.
+                                                </p>
+                                                <div class="d-none d-md-block">
+                                                    <p>
+                                                        Working with Sociomark has been an absolute pleasure. They have consistently exceeded my expectations in handling The WorldGrad's social media creative needs, from stunning static images to engaging reels and videos. Their creativity and attention to detail have truly brought our brand's vision to life across all platforms.
+                                                    </p>
+                                                </div>
+                                                <strong class="text-black">We highly recommend Sociomark to anyone in need of top-notch creative services!</strong>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                        <div class="box-wrapp">
+                                            <div class="box-profile">
+                                                <div class="box-author">
+                                                    <img loading="lazy"
+                                                        src="https://ui-avatars.com/api/?name=Suyash%20Birje"
+                                                        alt="Avater">
+                                                </div>
+                                                <div class="box-info">
+                                                    <h3 class="box-title text-black">Suyash Birje</h3>
+                                                    <span class="box-desig text-black">The WorldGrad</span>
                                                 </div>
                                             </div>
                                         </div>

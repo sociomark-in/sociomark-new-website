@@ -456,16 +456,19 @@ main#home {
     background-color: #000000;
     color: white;
 }
-
+.sec-title .big-font{
+    font-size: calc(max(3.5rem, 6vw));
+}
 .sec-title {
     text-transform: capitalize;
     font-size: calc(max(3vmax, 2rem));
+    /* display: inline; */
+    /* width: fit-content; */
     line-height: 1.2;
     font-weight: 700 !important;
     position: relative;
 }
-
-.sec-title::after {
+.sec-title::after{
     content: '';
     background: url("../img/icon/stroke.svg");
     position: absolute;
@@ -653,6 +656,26 @@ main#home {
 /* homw page css start */
 .testimonial {
     background: none;
+    position: relative;
+}
+.testimonial::before,
+.testimonial::after{
+    opacity: 0.2;
+    content: '';
+    width: calc(max(15%, 3rem));
+    aspect-ratio: 1;
+    background: url('../img/icon/quote-left.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+}
+.testimonial::before{
+    left: -10%;
+    transform: scale(-1);
+}
+.testimonial::after{
+    right: -10%;
 }
 
 .testimonial-card {
