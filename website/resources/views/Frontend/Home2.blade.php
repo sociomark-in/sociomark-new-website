@@ -281,7 +281,7 @@
             <div class="row g-4 g-md-5">
                 <div class="col-xl-6 pe-5">
                     <div class="title-area mb-20">
-                        <h1 class="sec-title" data-aos="fade-right" data-aos-delay="300">Remarkable <br>Digital Marketing
+                        <h1 class="sec-title hero-title" data-aos="fade-right" data-aos-delay="300">Remarkable <br>Digital Marketing
                             <br>Company
                             <span class="text-orange"> for Brands that Think <br> <span class="big-font">Bigger</span></span>
                         </h1>

@@ -451,7 +451,7 @@ main#home {
     font-weight: 700 !important;
     position: relative;
 }
-.sec-title::after{
+.sec-title:not(.hero-title):after{
     content: '';
     background: url("../img/icon/stroke.svg");
     position: absolute;
@@ -639,6 +639,26 @@ main#home {
 /* homw page css start */
 .testimonial {
     background: none;
+    position: relative;
+}
+.testimonial::before,
+.testimonial::after{
+    opacity: 0.2;
+    content: '';
+    width: calc(max(15%, 3rem));
+    aspect-ratio: 1;
+    background: url('../img/icon/quote-left.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+}
+.testimonial::before{
+    left: -10%;
+    transform: scale(-1);
+}
+.testimonial::after{
+    right: -10%;
 }
 .testimonial-card {
     background: #ffffffc5;
