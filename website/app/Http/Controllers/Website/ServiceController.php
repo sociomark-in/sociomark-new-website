@@ -10,17 +10,72 @@ use App\Models\Blog;
 
 class ServiceController extends Controller
 {
-    public function seo(){
-        $categories = Category::all();
-        $tags = Tag::all();
-        $blogs = Blog::latest()->paginate(4); // Paginate all blogs
-        $firstBlog = Blog::latest()->first(); // Get latest blog
-
-        // ✅ Paginate other blogs instead of using `take()`
-        $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/Seo", compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags'));
+    public $data;
+    public function __construct()
+    {
+        $this->data = [
+            'industries' => [
+                [
+                    'name' => "Education",
+                    'id' => "education",
+                    'slug' => "education",
+                ],
+                [
+                    'name' => "Healthcare",
+                    'id' => "healthcare",
+                    'slug' => "healthcare",
+                ],
+                [
+                    'name' => "FMCG",
+                    'id' => "fmcg",
+                    'slug' => "fmcg",
+                ],
+                [
+                    'name' => "News & Media",
+                    'id' => "news-and-media",
+                    'slug' => "news-and-media",
+                ],
+                [
+                    'name' => "Real Estate",
+                    'id' => "real-estate",
+                    'slug' => "real-estate",
+                ],
+                [
+                    'name' => "Logistics",
+                    'id' => "logistics",
+                    'slug' => "logistics",
+                ],
+                [
+                    'name' => "Fashion & Lifestyle",
+                    'id' => "fashion-and-lifestyle",
+                    'slug' => "fashion-and-lifestyle",
+                ],
+                [
+                    'name' => "Gaming",
+                    'id' => "gaming",
+                    'slug' => "gaming",
+                ],
+                [
+                    'name' => "Home & Interior",
+                    'id' => "home-and-interior",
+                    'slug' => "home-and-interior",
+                ],
+                [
+                    'name' => "Automobile",
+                    'id' => "automobile",
+                    'slug' => "automobile",
+                ],
+                [
+                    'name' => "Public Sector",
+                    'id' => "public-sector",
+                    'slug' => "public-sector",
+                ],
+            ]
+        ];
     }
-    public function website(){
+
+    public function seo()
+    {
         $categories = Category::all();
         $tags = Tag::all();
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
@@ -28,19 +83,26 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/Website", compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags'));
+        return view("Frontend/Services/Seo", compact('data', 'blogs'));
     }
-    public function socialMedia(){
-        $categories = Category::all();
-        $tags = Tag::all();
+    public function website()
+    {
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
-        $firstBlog = Blog::latest()->first(); // Get latest blog
-
-        // ✅ Paginate other blogs instead of using `take()`
-        $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/SocialMedia", compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags'));
+        $this->data['clients'] = [
+            'news-and-media' => [
+                [
+                    'logo' => "clients/times.jpg",
+                    'name' => "Times Network",
+                    'redirect' => [
+                        'route' => 'home'
+                    ]
+                ]
+            ]
+        ];
+        return view("Frontend/Services/Website", compact('blogs'), ['data', $this->data]);
     }
-    public function digitalMarketing(){
+    public function socialMedia()
+    {
         $categories = Category::all();
         $tags = Tag::all();
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
@@ -48,9 +110,10 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/digitalMarketing", compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags'));
+        return view("Frontend/Services/SocialMedia", compact('data', 'blogs'));
     }
-    public function contentMarketing(){
+    public function digitalMarketing()
+    {
         $categories = Category::all();
         $tags = Tag::all();
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
@@ -58,9 +121,10 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/contentMarketing", compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags'));
+        return view("Frontend/Services/digitalMarketing", compact('data', 'blogs'));
     }
-    public function sem(){
+    public function contentMarketing()
+    {
         $categories = Category::all();
         $tags = Tag::all();
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
@@ -68,9 +132,10 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/sem", compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags'));
+        return view("Frontend/Services/contentMarketing", compact('data', 'blogs'));
     }
-    public function photoVideography(){
+    public function sem()
+    {
         $categories = Category::all();
         $tags = Tag::all();
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
@@ -78,6 +143,17 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/photoVideography", compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags'));
+        return view("Frontend/Services/sem", compact('data', 'blogs'));
+    }
+    public function photoVideography()
+    {
+        $categories = Category::all();
+        $tags = Tag::all();
+        $blogs = Blog::latest()->paginate(4); // Paginate all blogs
+        $firstBlog = Blog::latest()->first(); // Get latest blog
+
+        // ✅ Paginate other blogs instead of using `take()`
+        $otherBlogs = Blog::paginate(4);
+        return view("Frontend/Services/photoVideography", compact('data', 'blogs'));
     }
 }

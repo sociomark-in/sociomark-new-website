@@ -41,6 +41,7 @@
 }
 
 p {
+    font-weight: 500;
     color: var(--color-black);
 }
 
@@ -470,6 +471,7 @@ main#home {
 }
 .sec-title::after{
     content: '';
+    display: none;
     background: url("../img/icon/stroke.svg");
     position: absolute;
     bottom: 0px;
@@ -861,6 +863,14 @@ main#home {
 }
 
 /* portfolio- client :end */
+
+
+/* PORTFOLIO AREA */
+.portfolio-area{}
+.portfolio-area .project-item:before{
+    background: rgba(0, 0, 0, 0.15);
+}
+/* PORTFOLIO AREA */
 
 /* blog */
 

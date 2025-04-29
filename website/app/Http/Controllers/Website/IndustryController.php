@@ -61,6 +61,7 @@ class IndustryController extends Controller
                 # code...
                 break;
             case 'public':
+            case 'public-sector':
                 return view("Frontend/industry/public_sector");
                 # code...
                 break;
