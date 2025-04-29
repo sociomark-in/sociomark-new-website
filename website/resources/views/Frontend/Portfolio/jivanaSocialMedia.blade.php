@@ -161,24 +161,24 @@
     </section>
 
     <section class="porfolio-text section-margin">
-        <div class="container">
-            <div class="row">
-                <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
+    <div class="container">
+        <div class="row">
+            <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
 
-                <div class="col lg-4 col-md-4 col-12">
-                    <img src="https://placehold.co/400x200" alt="" srcset="" class="w-100">
-                    <p class="sec-para text-center text-blue mt-2"><b>lorem</b></p>
-                </div>
-                <div class="col lg-4 col-md-4 col-12">
-                    <img src="https://placehold.co/400x200" alt="" srcset="" class="w-100">
-                    <p class="sec-para text-center text-blue mt-2"><b>lorem</b></p>
-                </div>
-                <div class="col lg-4 col-md-4 col-12">
-                    <img src="https://placehold.co/400x200" alt="" srcset="" class="w-100">
-                    <p class="sec-para text-center text-blue mt-2"><b>lorem</b></p>
-                </div>
-
+            <div class="col lg-4 col-md-4 col-12">
+                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
+                <p class="sec-para text-center text-blue mt-2"><b>Ayuhealth</b></p>
             </div>
+            <div class="col lg-4 col-md-4 col-12">
+                <img src="{{ asset('frontend-assets/img/case-study/stemrx/stem1.png') }}" alt="" srcset="" class="w-100">
+                <p class="sec-para text-center text-blue mt-2"><b>StemRx</b></p>
+            </div>
+            <div class="col lg-4 col-md-4 col-12">
+                <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
+                <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
+            </div>
+
         </div>
-    </section>
+    </div>
+</section>
 @endsection
