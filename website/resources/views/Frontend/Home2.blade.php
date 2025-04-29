@@ -283,7 +283,7 @@
                     <div class="title-area mb-20">
                         <h1 class="sec-title" data-aos="fade-right" data-aos-delay="300">Remarkable <br>Digital Marketing
                             <br>Company
-                            <span class="text-orange"> for Brands that Think <br> Bigger</span>
+                            <span class="text-orange"> for Brands that Think <br> <span class="big-font">Bigger</span></span>
                         </h1>
                     </div>
                     <p class="sec-para text-white-50" data-aos="fade-right" data-aos-delay="300">We're more than just a

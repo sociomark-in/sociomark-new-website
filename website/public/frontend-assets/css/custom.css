@@ -439,10 +439,14 @@ main#home {
     background-color: #000000;
     color: white;
 }
-
+.sec-title .big-font{
+    font-size: calc(max(3.5rem, 6vw));
+}
 .sec-title {
     text-transform: capitalize;
     font-size: calc(max(3vmax, 2rem));
+    /* display: inline; */
+    /* width: fit-content; */
     line-height: 1.2;
     font-weight: 700 !important;
     position: relative;

@@ -3,7 +3,7 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-xl-5 pe-md-5">
                     <div class="title-area mb-20">
-                        <h2 class="sec-title " data-aos="fade-right" data-aos-delay="100">Start the <span class="highlight-orange">Conversation</span>, <span class="text-blue"> Spark the Change </span></h2>
+                        <h2 class="sec-title " data-aos="fade-right" data-aos-delay="100">Start the <span class="highlight-orange">Conversation</span>, <span class="text-blue"> Spark the <span class="big-font">Change</span> </span></h2>
                     </div>
                     <p class="sec-para mb-35 " data-aos="fade-right" data-aos-delay="100">Whether it’s a big brief or a tiny thought, we’d love to hear what’s on your mind.
                     </p>
@@ -85,7 +85,7 @@
                                     Instagram etc.)</option>
                                     <option value="Word of Mouth/ Referral">Word of Mouth/ Referral</option>
                                     <option value="Other">Other</option>
-                                    
+
                                 </select>
                                 @error('aboutUs')
                                 <span class="text-danger">{{ $message }}</span>
