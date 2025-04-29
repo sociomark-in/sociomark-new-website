@@ -189,6 +189,12 @@
     .services-tab .sec-para {
         color: white;
     }
+    #contact{
+        background-color: white !important;
+    }
+    #contact .sec-title{
+        color: black;
+    }
 </style>
 @endpush
 
@@ -1407,134 +1413,7 @@
         })
     </script>
     @endpush
-    <section class="th-blog-wrapper bg-white text-black space-top space-extra-bottom" id="contact">
-        <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-5 pe-md-5">
-                    <div class="title-area mb-20">
-                        <h2 class="sec-title text-black" data-aos="fade-right" data-aos-delay="100">
-                            Start the <span class="highlight-orange">Conversation</span>, <span class="text-blue">
-                                Spark the Change </span></h2>
-                    </div>
-                    <p class="sec-para mb-35 " data-aos="fade-right" data-aos-delay="100">Whether it’s a big brief or
-                        a tiny thought, we’d love to hear what’s on your mind.
-                    </p>
-
-
-                </div>
-                <div class="col-lg-7 d-none d-lg-block">
-                    <form action="{{ route('contact.store') }}" method="POST" class="contact-form style2">
-                        @csrf
-                        <div class="row g-3">
-                            <div class="form-group col-md-6">
-                                <label for="name">Your Name</label>
-                                <input type="text" class="form-control @error('name') is-invalid @enderror"
-                                    name="name" id="name" placeholder="Enter your Name"
-                                    value="{{ old('name') }}">
-                                @error('name')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-
-                            <div class="form-group col-md-6">
-                                {{-- <i class="fas fa-envelope"></i> --}}
-                                <label for="email">Email</label>
-                                <input type="text" class="form-control @error('email') is-invalid @enderror"
-                                    name="email" id="email" placeholder="Enter your Email"
-                                    value="{{ old('email') }}">
-                                @error('email')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-                            <div class="form-group col-md-6">
-                                {{-- <i class="fal fa-phone"></i> --}}
-                                <label for="phone">Phone</label>
-                                <input type="text" class="form-control @error('phone') is-invalid @enderror"
-                                    name="phone" id="phone" placeholder="Enter your Phone"
-                                    value="{{ old('phone') }}">
-                                @error('phone')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-
-                            <div class="form-group col-md-6">
-
-                                <label for="service">Service you want?</label>
-                                <select class="form-select @error('service') is-invalid @enderror" id="service"
-                                    name="service">
-                                    <option selected disabled>Choose an option</option>
-                                    <option value="Search Engine Optimization">Search Engine Optimization</option>
-                                    <option value="Website Development">Website Development</option>
-                                    <option value="Social Media">Social Media</option>
-                                    <option value="Digital Marketing">Digital Marketing</option>
-                                    <option value="Conetnt Marketing">Conetnt Marketing</option>
-                                    <option value="SEM">Performance Marketing</option>
-                                    <option value="Photography & Video Production">Photography & Video Production
-                                    </option>
-                                </select>
-
-                                @error('service')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-
-                            <div class="form-group col-md-6">
-
-                                <label for="budget">Marketing Budget</label>
-                                <select class="form-select @error('budget') is-invalid @enderror" id="budget"
-                                    name="budget">
-                                    <option selected disabled>Choose an option</option>
-                                    <option value="Under ₹ 25000">Under ₹ 25000</option>
-                                    <option value="₹ 25,000 - ₹ 1,00,000">₹ 25,000 - ₹ 1,00,000</option>
-                                    <option value="Above ₹ 1,00,000">Above ₹ 1,00,000</option>
-                                    <option value="Have not Estimated Yet">Have not Estimated Yet</option>
-                                </select>
-                                @error('budget')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-
-                            <div class="form-group col-md-6">
-
-                                <label for="aboutUs">How did you hear about Us?</label>
-                                <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs"
-                                    name="aboutUs">
-                                    <option selected disabled>Choose an option</option>
-                                    <option value="Through Search Engines(Google, Bing etc.)">Through Search
-                                        Engines(Google, Bing etc.)</option>
-                                    <option value="Social Media(Facebook, Instagram etc.)">Social Media(Facebook,
-                                        Instagram etc.)</option>
-                                    <option value="Word of Mouth/ Referral">Word of Mouth/ Referral</option>
-                                    <option value="Other">Other</option>
-                                </select>
-                                @error('aboutUs')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-                            <div class="form-group col-12">
-
-                                <label for="messageforus">Your Message</label>
-                                <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus"
-                                    placeholder="Enter your message" rows="4" name="messageforus"></textarea>
-                                {{-- <i class="fal fa-pencil"></i> --}}
-                                @error('messageforus')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
-                            </div>
-                            <div class="col-12 form-group mb-0 text-center">
-                                <button class="th-btn th-radius">Submit Message</button>
-                            </div>
-                        </div>
-
-                    </form>
-                </div>
-                <div class="col-12 d-block d-md-none">
-                    <button class="th-btn th-radius" data-bs-toggle="modal"
-                        data-bs-target="#homeContactModal">Contact Us</button>
-                </div>
-            </div>
-        </div>
-    </section>
+   @include('Frontend.partial.contactUs')
 
     <style>
         label {

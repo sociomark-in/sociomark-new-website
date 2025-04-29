@@ -43,9 +43,13 @@
                                 <label class="form-label" for="service">Service you want?</label>
                                 <select class="form-select @error('service') is-invalid @enderror" id="service" name="service">
                                     <option selected disabled>Choose an option</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
+                                    <option value="Search Engine Optimization">Search Engine Optimization</option>
+                                    <option value="Website Development">Website Development</option>
+                                    <option value="Social Media">Social Media</option>
+                                    <option value="Digital Marketing">Digital Marketing</option>
+                                    <option value="Conetnt Marketing">Conetnt Marketing</option>
+                                    <option value="Performance Marketing">Performance Marketing</option>
+                                    <option value="Photography & Video Production">Photography & Video Production</option>
                                 </select>
 
                                 @error('service')
@@ -58,9 +62,10 @@
                                 <label class="form-label" for="budget">Marketing Budget</label>
                                 <select class="form-select @error('budget') is-invalid @enderror" id="budget" name="budget">
                                     <option selected disabled>Choose an option</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
+                                    <option value="Under ₹ 25000">Under ₹ 25000</option>
+                                    <option value="₹ 25,000 - ₹ 1,00,000">₹ 25,000 - ₹ 1,00,000</option>
+                                    <option value="Above ₹ 1,00,000">Above ₹ 1,00,000</option>
+                                    <option value="Have not Estimated Yet">Have not Estimated Yet</option>
                                 </select>
                                 @error('budget')
                                 <span class="text-danger">{{ $message }}</span>
@@ -72,9 +77,15 @@
                                 <label class="form-label" for="aboutUs">How did you hear about Us?</label>
                                 <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs" name="aboutUs">
                                     <option selected disabled>Choose an option</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
+                                    <option value="Through Search
+                                        Engines(Google, Bing etc.)">Through Search
+                                    Engines(Google, Bing etc.)</option>
+                                    <option value="Social Media(Facebook,
+                                        Instagram etc.)">Social Media(Facebook,
+                                    Instagram etc.)</option>
+                                    <option value="Word of Mouth/ Referral">Word of Mouth/ Referral</option>
+                                    <option value="Other">Other</option>
+                                    
                                 </select>
                                 @error('aboutUs')
                                 <span class="text-danger">{{ $message }}</span>
