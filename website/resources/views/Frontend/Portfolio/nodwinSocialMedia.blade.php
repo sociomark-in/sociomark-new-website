@@ -195,8 +195,8 @@
                 <p class="sec-para text-center text-blue mt-2"><b>Ayuhealth</b></p>
             </div>
             <div class="col lg-4 col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/case-study/stemrx/stem1.png') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>StemRx</b></p>
+                <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
+                <p class="sec-para text-center text-blue mt-2"><b>Shehanaz</b></p>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
