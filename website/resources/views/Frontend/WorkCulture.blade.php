@@ -213,7 +213,7 @@
         background: #106c97;
     }
 
-    .portfolio-area .filter-item{
+    .portfolio-area .filter-item {
         width: clamp(150px, 25%, 300px)
     }
 
@@ -222,11 +222,12 @@
 </style>
 @section('content')
     <main id="work-culture">
-        <section>
+        <section class="p-0" style="margin-top: 66px;">
             <div class="full-width">
                 <picture>
-                    <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/work.jpg') }}">
-                    <img src="{{ asset('frontend-assets/img/banners/work.jpg')}}" alt="">
+                    <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/work.jpg') }}"
+                        class="w-100">
+                    <img src="{{ asset('frontend-assets/img/banners/work.jpg') }}" alt="" class="w-100">
                 </picture>
             </div>
         </section>
@@ -262,7 +263,13 @@
                                 <span class="sub-title sub-title4 style1 mb-4 mb-md-5">Why Choose Sociomark</span>
                                 <h2 class="sec-title ">Your <span class="text-blue">Trusted Partner</span> for Global
                                     Digital Success</h2>
-                                <p class="mb-30">At Sociomark, work feels less like a duty and more like a shared passion. Our culture is built on creativity, collaboration, and a healthy dose of everyday fun. We believe that the best ideas are born when people feel valued, inspired, and empowered to bring their whole selves to work. From brainstorming sessions that spark innovation to team lunches, festive celebrations, and spontaneous laugh sessions, every day here is a blend of hustle and heart. Together, we’re not just growing brands; we’re building a workplace where growth, ownership, and good vibes are non-negotiable.</p>
+                                <p class="mb-30">At Sociomark, work feels less like a duty and more like a shared passion.
+                                    Our culture is built on creativity, collaboration, and a healthy dose of everyday fun.
+                                    We believe that the best ideas are born when people feel valued, inspired, and empowered
+                                    to bring their whole selves to work. From brainstorming sessions that spark innovation
+                                    to team lunches, festive celebrations, and spontaneous laugh sessions, every day here is
+                                    a blend of hustle and heart. Together, we’re not just growing brands; we’re building a
+                                    workplace where growth, ownership, and good vibes are non-negotiable.</p>
 
                                 <a href="{{ route('about') }}" class="th-btn th-icon">About Us<i
                                         class="fa-solid fa-arrow-right ms-2"></i></a>
@@ -433,12 +440,14 @@
                                                 <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
                                                     alt="icon">
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-shape"><img
+                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
                                             <div class="box-number">2018 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                            <div  class="box-text">
+                                            <div class="box-text">
                                                 <p>Along with 2 employees, started in a co-working space</p>
                                                 <p>Shifted to a mezzanine floor office in the same year</p>
                                             </div>
@@ -452,7 +461,9 @@
                                                 <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
                                                     alt="icon">
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-shape"><img
+                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
                                             <div class="box-number">2018 </div>
                                         </div>
                                         <div class="box-content">
@@ -468,7 +479,9 @@
                                                 <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
                                                     alt="icon">
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-shape"><img
+                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
                                             <div class="box-number">2018 </div>
                                         </div>
                                         <div class="box-content">
@@ -493,7 +506,9 @@
                                                 <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
                                                     alt="icon">
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-shape"><img
+                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
                                             <div class="box-number">2018 </div>
                                         </div>
                                         <div class="box-content">
@@ -513,7 +528,9 @@
                                                 <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
                                                     alt="icon">
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-shape"><img
+                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
                                             <div class="box-number">2018 </div>
                                         </div>
                                         <div class="box-content">
@@ -531,7 +548,9 @@
                                                 <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
                                                     alt="icon">
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-shape"><img
+                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
                                             <div class="box-number">2018 </div>
                                         </div>
                                         <div class="box-content">
@@ -550,7 +569,9 @@
                                                 <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
                                                     alt="icon">
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-shape"><img
+                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
                                             <div class="box-number">2018 </div>
                                         </div>
                                         <div class="box-content">
@@ -573,7 +594,9 @@
                                                 <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
                                                     alt="icon">
                                             </div>
-                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-shape"><img
+                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                    alt=""></div>
                                             <div class="box-number">2018 </div>
                                         </div>
                                         <div class="box-content">
@@ -617,6 +640,10 @@
                                 new Swiper('.journeySwiper', {
                                     spaceBetween: 30,
                                     slidesPerView: 3,
+                                    autoplay: {
+                                        delay: 2500,
+                                        disableOnInteraction: false,
+                                    },
                                 })
                             </script>
                         @endpush
@@ -765,7 +792,7 @@
                         @endfor
                     </div>
                     <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
-                                                            </div> -->
+                                                                </div> -->
                 </div>
             </div>
             @push('scripts')
@@ -805,7 +832,7 @@
                             });
                         }
 
-                    }).progress(function(){
+                    }).progress(function() {
 
                     });
                     var gallery = lightGallery(document.getElementById('masonary-gallery'), {

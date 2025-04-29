@@ -22,7 +22,7 @@
     <div class="preloader-inner">
         <img src="{{ asset('frontend-assets/img/preloader.gif') }}" alt="Sociomark" height="200">
 
-        <span class="loader"></span>
+        {{-- <span class="loader"></span> --}}
     </div>
 </div>
 <div class="popup-search-box d-none d-lg-block">
