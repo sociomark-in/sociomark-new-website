@@ -1111,6 +1111,37 @@
                                         <div class="sec-para">
                                             <div class="testimonial-message mb-3 mb-md-4">
                                                 <p class="">
+                                                    Sociomark's ability to understand our brand's voice and translate it into visually appealing content is unmatched.
+                                                </p>
+                                                <div class="d-none d-md-block">
+                                                    <p>
+                                                        Working with Sociomark has been an absolute pleasure. They have consistently exceeded my expectations in handling The WorldGrad's social media creative needs, from stunning static images to engaging reels and videos. Their creativity and attention to detail have truly brought our brand's vision to life across all platforms.
+                                                    </p>
+                                                </div>
+                                                <strong class="text-black">We highly recommend Sociomark to anyone in need of top-notch creative services!</strong>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                        <div class="box-wrapp">
+                                            <div class="box-profile">
+                                                <div class="box-author">
+                                                    <img loading="lazy"
+                                                        src="https://ui-avatars.com/api/?name=Suyash%20Birje"
+                                                        alt="Avater">
+                                                </div>
+                                                <div class="box-info">
+                                                    <h3 class="box-title text-black">Suyash Birje</h3>
+                                                    <span class="box-desig text-black">The WorldGrad</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide testimonial-card">
+                                    <div class=" ">
+                                        <div class="sec-para">
+                                            <div class="testimonial-message mb-3 mb-md-4">
+                                                <p class="">
                                                     Working with SocioMark for about 3 years now. <strong> Lovely people
                                                         to work with.</strong>.
                                                 </p>
