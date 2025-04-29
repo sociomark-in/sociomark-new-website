@@ -42,6 +42,7 @@
         object-fit: cover;
         border-radius: 10px;
     }
+
     #Blog_section .widget_categories a:hover,
     #Blog_section .tagcloud a:hover,
     #Blog_Section .widget_categories a.active,
@@ -49,19 +50,31 @@
         background-color: #106c97 !important;
         color: white !important;
     }
-    .recent-post .media-img img {
-            object-fit: cover !important;
+
+    .widget_categories a:hover,
+    .widget_categories a.active,
+    .tagcloud a:hover,
+    .tagcloud a:active {
+        background-color: #106c97 !important;
+        color: white !important;
     }
-    .blog-img{
+
+    .recent-post .media-img img {
+        object-fit: cover !important;
+    }
+
+    .blog-img {
         width: 400px;
         height: 230px;
     }
-    .blog-single{
+
+    .blog-single {
         margin-right: 0px !important;
     }
-    #Blog_Section .box-blog img{
-         object-fit: contain !important;
-     }
+
+    #Blog_Section .box-blog img {
+        object-fit: contain !important;
+    }
 </style>
 
 @endsection
@@ -183,7 +196,7 @@
                         <div class="box widget widget_tag_cloud   ">
                             <h3 class="widget_title">Popular Tags</h3>
                             <div class="tagcloud">
-                            @foreach ($tags->take(6) as $tag)
+                                @foreach ($tags->take(6) as $tag)
                                 <a href="{{ route('tagBlog', ['slug' => $tag->slug]) }}">{{ $tag->name }}</a>
                                 @endforeach
 

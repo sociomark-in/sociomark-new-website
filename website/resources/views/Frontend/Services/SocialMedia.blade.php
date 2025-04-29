@@ -200,6 +200,10 @@
 
     /* services tab end */
 
+    #Features .icon-img {
+        width: 80px !important;
+        height: 80px !important;
+    }
 </style>
 @endsection
 
@@ -209,7 +213,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 p-0">
-                    <img src="https://placehold.co/1920x518" alt="" srcset="" width="100%">
+                    <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/hero.png') }}" alt="" srcset="" width="100%">
                 </div>
             </div>
         </div>
@@ -219,10 +223,10 @@
             <div class="row text-center">
                 <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">123</span>M<span class="plus">+</span>
+                        <h3 class="box-number text-orange"><span class="counter-number">1</span>B<span class="plus">+</span>
                         </h3>
                         <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Organic Traffic</b></p>
+                            <p class=" counter-text sec-para mb-n1"><b>Impressions</b></p>
                         </div>
                     </div>
                     <div class="divider"></div>
@@ -230,10 +234,10 @@
 
                 <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">412</span>K<span class="plus">+</span>
+                        <h3 class="box-number text-orange"><span class="counter-number">10</span>M<span class="plus">+</span>
                         </h3>
                         <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Organic Keywords Growth</b></p>
+                            <p class=" counter-text sec-para mb-n1"><b>Engagement</b></p>
                         </div>
                     </div>
                     <div class="divider"></div>
@@ -241,10 +245,10 @@
 
                 <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">2.4</span>M<span class="plus">+</span>
+                        <h3 class="box-number text-orange"><span class="counter-number">1.4</span>B<span class="plus">+</span>
                         </h3>
                         <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Organic Revenue Generated</b></p>
+                            <p class=" counter-text sec-para mb-n1"><b>Community</b></p>
                         </div>
                     </div>
                     <div class="divider"></div>
@@ -252,9 +256,9 @@
 
                 <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">48</span><span class="plus">+</span></h3>
+                        <h3 class="box-number text-orange"><span class="counter-number">3</span>B<span class="plus">+</span></h3>
                         <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Happy Customers</b></p>
+                            <p class=" counter-text sec-para mb-n1"><b>Video Views</b></p>
                         </div>
                     </div>
                     <div class="divider"></div>
@@ -339,7 +343,7 @@
                 <div class="col-md-6 text-center">
                     <div class="circle-wrapper" data-aos="fade-right" data-aos-delay="200" data-tilt data-tilt-max="10">
                         <div class="circle" data-tilt data-tilt-max="10">
-                            <img src="https://placehold.co/400x400"
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Impact.png') }}"
                                 alt="Key" class="key-image mt-3">
                         </div>
                     </div>
@@ -413,7 +417,7 @@
                         <h3 class="box-title">Discovery & Goal Setting</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/Services-page/seo/Ecommerce Seo.png') }}"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Services/Discovery & Goal Setting.png') }}"
                             alt="" class="rounded-overflow">
                         <p class="sec-para text">We begin by learning about your business, audience, and your end
                             goal. It’s all about setting a clear direction from day one.
@@ -426,7 +430,7 @@
                         <h3 class="box-title">Strategy That Fits You </h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/Services-page/seo/International Seo.png') }}"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Services/Strategy That Fits You.png') }}"
                             alt="" class="rounded-overflow">
                         <p class="sec-para text">No copy-paste templates here. We craft a custom plan to match your
                             voice, values, and vision—so your brand feels consistent across platforms.
@@ -439,7 +443,7 @@
                         <h3 class="box-title">Visuals + Voice, together</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/Services-page/seo/Mobile Seo.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Services/Visuals + Voice, together.png') }}" alt=""
                             class="rounded-overflow">
                         <p class="sec-para text"> Our creative team builds content that looks great and sounds like
                             you. From graphics to captions, we focus on creating scroll-stopping posts.
@@ -452,7 +456,7 @@
                         <h3 class="box-title">Smart Campaign Execution</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/Services-page/seo/Local Seo.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Services/Smart Campaign Execution.png') }}" alt=""
                             class="rounded-overflow">
                         <p class="sec-para text">Once the plan is ready, we bring it to life. With targeted <b>social
                                 media advertising,</b> we help you reach the people that matter to your brand aka your
@@ -465,7 +469,7 @@
                         <h3 class="box-title">Track, Learn, improve </h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/Services-page/seo/Goodle Analytics and Report.png') }}"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Services/Track, Learn, improve.png') }}"
                             alt="" class="rounded-overflow">
                         <p class="sec-para text">We monitor performance closely and make regular adjustments. As a
                             <b>social media management company</b>, we ensure every step moves you closer to your goals.
@@ -485,7 +489,7 @@
 
     <section class="overflow-hidden space bg-grey" id="about-sec2">
         <div class="container">
-            <div class="row align-items-end">
+            <div class="row align-items-start">
                 <div class="col-xl-8" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
@@ -499,7 +503,7 @@
                     <div class="choose-feature-wrap">
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60" alt="Icon">
+                                <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Icons/Brand.png') }}" width="60" alt="Icon">
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Brand-First Planning</h4>
@@ -510,7 +514,7 @@
                         </div>
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60" alt="Icon">
+                                <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Icons/Global.png') }}" width="60" alt="Icon">
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Global, Local Fit</h4>
@@ -522,7 +526,7 @@
                         </div>
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60" alt="Icon">
+                                <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Icons/Posting.png') }}" width="60" alt="Icon">
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Purposeful Posting</h4>
@@ -540,7 +544,7 @@
                         <div class="tilt-active">
                             {{-- <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}"
                             alt="Choose" class="w-100"> --}}
-                            <img src="https://placehold.co/300x400" alt="Choose" class="w-100">
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/skills.png') }}" alt="Choose" class="w-100">
 
                         </div>
                     </div>
@@ -643,14 +647,14 @@
             <div class="row justify-content-evenly mt-5">
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
-                        <img src="https://www.gbim.com/gbim/one_click.webp" alt="One-Click Reports"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Icons/ideation.png') }}" alt="One-Click Reports"
                             class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Ideation</div>
                 </div>
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
-                        <img src="	https://www.gbim.com/gbim/traffic.webp" alt="Traffic Performance"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Icons/Strategy.png') }}" alt="Traffic Performance"
                             class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Strategy</div>
@@ -658,7 +662,7 @@
                 </div>
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
-                        <img src="https://www.gbim.com/gbim/traffic.webp" alt="CRM Module" class="feature-icon">
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Icons/Caption.png') }}" alt="CRM Module" class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Captions</div>
 
@@ -669,7 +673,7 @@
             <div class="row justify-content-evenly mt-3 mt-md-5">
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
-                        <img src="https://www.gbim.com/gbim/keyword.webp" alt="Keyword Performance"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Icons/Calander.png') }}" alt="Keyword Performance"
                             class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Calendar</div>
@@ -677,7 +681,7 @@
                 </div>
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
-                        <img src="https://www.gbim.com/gbim/marketing.webp" alt="Marketing Activities"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Icons/Campaings.png') }}" alt="Marketing Activities"
                             class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Campaigns </div>
@@ -685,7 +689,7 @@
                 </div>
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
-                        <img src="	https://www.gbim.com/gbim/leads.webp" alt="Leads Management" class="feature-icon">
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Icons/Shoot.png') }}" alt="Leads Management" class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Shoot</div>
 
@@ -695,7 +699,7 @@
             <!-- Dashboard Images -->
             <div class="mt-5" data-aos="zoom-in" data-tilt data-tilt-max="10" data-aos-delay="100"
                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                <img src="https://www.gbim.com/gbim/OurDigitalMarketingSoftware.webp" alt="Dashboard Screenshot"
+                <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Package.png') }}" alt="Dashboard Screenshot"
                     class="dashboard-img">
             </div>
         </div>

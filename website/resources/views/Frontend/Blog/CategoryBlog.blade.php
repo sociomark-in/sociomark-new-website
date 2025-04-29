@@ -51,7 +51,15 @@
         color: white !important;
     }
 
-    .recent-post .media-img img{
+    .widget_categories a:hover,
+    .widget_categories a.active,
+    .tagcloud a:hover,
+    .tagcloud a:active {
+        background-color: #106c97 !important;
+        color: white !important;
+    }
+
+    .recent-post .media-img img {
         object-fit: cover !important;
     }
 
@@ -59,12 +67,14 @@
         width: 400px;
         height: 230px;
     }
-    .blog-single{
+
+    .blog-single {
         margin-right: 0px !important;
     }
-    #Blog_Section .box-blog img{
-         object-fit: contain !important;
-     }
+
+    #Blog_Section .box-blog img {
+        object-fit: contain !important;
+    }
 </style>
 @endsection
 
@@ -94,7 +104,7 @@
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
                                 <div class="blog-img box-blog">
                                     <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                        <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image"class="w-100 h-100 object-fit-cover">
+                                        <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image" class="w-100 h-100 object-fit-cover">
                                     </a>
                                 </div>
                                 <div class="blog-content content-padding">

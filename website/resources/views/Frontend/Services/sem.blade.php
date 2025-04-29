@@ -198,6 +198,11 @@
         }
     }
 
+    #Features .icon-img {
+        width: 80px !important;
+        height: 80px !important;
+    }
+
     /* services tab end */
 </style>
 @endsection
@@ -208,7 +213,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <img src="https://placehold.co/1920x900" alt="" srcset="" width="100%">
+                    <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/hero.png') }}" alt="" srcset="" width="100%">
                 </div>
             </div>
         </div>
@@ -218,10 +223,10 @@
             <div class="row text-center">
                 <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">123</span>M<span class="plus">+</span>
+                        <h3 class="box-number text-orange"><span class="counter-number">1.4</span>B<span class="plus">+</span>
                         </h3>
                         <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Organic Traffic</b></p>
+                            <p class=" counter-text sec-para mb-n1"><b>Paid Ads Expression(Google Ads)</b></p>
                         </div>
                     </div>
                     <div class="divider"></div>
@@ -229,10 +234,10 @@
 
                 <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">412</span>K<span class="plus">+</span>
+                        <h3 class="box-number text-orange"><span class="counter-number">10</span>M<span class="plus">+</span>
                         </h3>
                         <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Organic Keywords Growth</b></p>
+                            <p class=" counter-text sec-para mb-n1"><b>Paid Ads Expression(Meta Ads)</b></p>
                         </div>
                     </div>
                     <div class="divider"></div>
@@ -240,10 +245,10 @@
 
                 <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">2.4</span>M<span class="plus">+</span>
+                        <h3 class="box-number text-orange"><span class="counter-number">367</span>K<span class="plus">+</span>
                         </h3>
                         <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Organic Revenue Generated</b></p>
+                            <p class=" counter-text sec-para mb-n1"><b>Leads Generated</b></p>
                         </div>
                     </div>
                     <div class="divider"></div>
@@ -251,9 +256,9 @@
 
                 <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">48</span><span class="plus">+</span></h3>
+                        <h3 class="box-number text-orange"><span class="counter-number">19</span><span class="plus">%</span></h3>
                         <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Happy Customers</b></p>
+                            <p class=" counter-text sec-para mb-n1"><b>Conv.Rate</b></p>
                         </div>
                     </div>
                     <div class="divider"></div>
@@ -333,7 +338,7 @@
                 <div class="col-md-6 text-center">
                     <div class="circle-wrapper" data-aos="fade-right" data-aos-delay="200" data-tilt data-tilt-max="10">
                         <div class="circle" data-tilt data-tilt-max="10">
-                            <img src="{{ asset('frontend-assets/img/Services-page/Services_Main.png') }}" alt="Key"
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Deliver Impact.png') }}" alt="Key"
                                 class="key-image mt-3">
                         </div>
                     </div>
@@ -391,7 +396,7 @@
                         <h3 class="box-title">Understand the Audience</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/Services-page/seo/Ecommerce Seo.png') }}"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Understand the Audience.png') }}"
                             alt="" class="rounded-overflow">
                         <p class="sec-para text">People don’t click what doesn’t connect. So we start with understanding about them and their needs.
                         </p>
@@ -403,7 +408,7 @@
                         <h3 class="box-title">Dig Into Keywords</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/Services-page/seo/International Seo.png') }}"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Dig Into Keywords.png') }}"
                             alt="" class="rounded-overflow">
                         <p class="sec-para text">Effective <b>sem marketing</b> relies on strong keyword research. We pick high-intent words that lead to results
 
@@ -416,7 +421,7 @@
                         <h3 class="box-title">Build Campaigns That Fit</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/Services-page/seo/Mobile Seo.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Build Campaigns That Fit.png') }}" alt=""
                             class="rounded-overflow">
                         <p class="sec-para text">One-size ads don’t perform. From <b>LinkedIn paid ads</b> to dynamic remarketing, we tailor it all.
                         </p>
@@ -428,7 +433,7 @@
                         <h3 class="box-title">Launch, Monitor, Adapt</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/Services-page/seo/Local Seo.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Launch, Monitor, Adapt.png') }}" alt=""
                             class="rounded-overflow">
                         <p class="sec-para text"> Campaigns go live with a plan—and a backup. Because digital never sleeps, and neither do we.
                         </p>
@@ -440,7 +445,7 @@
                         <h3 class="box-title"> Stay On Top </h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/Services-page/seo/Goodle Analytics and Report.png') }}"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Stay On Top.png') }}"
                             alt="" class="rounded-overflow">
                         <p class="sec-para text">With ongoing <b>ppc management services</b>, we keep campaigns sharp and in-sync with trends.
                         </p>
@@ -476,7 +481,7 @@
                     <div class="choose-feature-wrap">
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60" alt="Icon">
+                                <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/icons/strategy.png') }}" width="60" alt="Icon">
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title"> Strategy Over Spray</h4>
@@ -485,7 +490,7 @@
                         </div>
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60" alt="Icon">
+                                <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/icons/Platfortm.png') }}" width="60" alt="Icon">
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Platform Power</h4>
@@ -494,7 +499,7 @@
                         </div>
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60" alt="Icon">
+                                <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/icons/Optimizing.png') }}" width="60" alt="Icon">
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Always Optimizing</h4>
@@ -510,7 +515,7 @@
                         <div class="tilt-active">
                             {{-- <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}"
                             alt="Choose" class="w-100"> --}}
-                            <img src="https://placehold.co/300x400" alt="Choose" class="w-100">
+                            <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Advertising Expertise.png') }}" alt="Choose" class="w-100">
 
                         </div>
                     </div>
@@ -613,14 +618,14 @@
             <div class="row justify-content-evenly mt-5">
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
-                        <img src="https://www.gbim.com/gbim/one_click.webp" alt="One-Click Reports"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/icons/Branding.png') }}" alt="One-Click Reports"
                             class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Branding</div>
                 </div>
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
-                        <img src="	https://www.gbim.com/gbim/traffic.webp" alt="Traffic Performance"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/icons/Awareness.png') }}" alt="Traffic Performance"
                             class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Awarness</div>
@@ -628,7 +633,7 @@
                 </div>
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
-                        <img src="https://www.gbim.com/gbim/traffic.webp" alt="CRM Module" class="feature-icon">
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/icons/Video Ads_.png') }}" alt="CRM Module" class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Video Ads</div>
 
@@ -639,7 +644,7 @@
             <div class="row justify-content-evenly mt-3 mt-md-5">
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
-                        <img src="https://www.gbim.com/gbim/keyword.webp" alt="Keyword Performance"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/icons/Lead Generation.png') }}" alt="Keyword Performance"
                             class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Lead Generation</div>
@@ -647,7 +652,7 @@
                 </div>
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
-                        <img src="https://www.gbim.com/gbim/marketing.webp" alt="Marketing Activities"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/icons/Conversion rate.png') }}" alt="Marketing Activities"
                             class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Conversion Rate Optimization (CRO) </div>
@@ -658,7 +663,7 @@
             <!-- Dashboard Images -->
             <div class="mt-5" data-aos="zoom-in" data-tilt data-tilt-max="10" data-aos-delay="100"
                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                <img src="https://www.gbim.com/gbim/OurDigitalMarketingSoftware.webp" alt="Dashboard Screenshot"
+                <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Package.png') }}" alt="Dashboard Screenshot"
                     class="dashboard-img">
             </div>
         </div>

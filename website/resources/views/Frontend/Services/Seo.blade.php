@@ -216,6 +216,10 @@
 
     /* services tab end */
 
+    #Features .icon-img {
+    width: 80px !important;
+    height: 80px !important;
+}
 </style>
 @endsection
 
@@ -225,7 +229,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 p-0">
-                    <img src="{{ asset('frontend-assets/img/Services-page/seo/seo.png') }}" alt="" srcset=""
+                    <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Hero.png') }}" alt="" srcset=""
                         width="100%">
                 </div>
             </div>
@@ -250,7 +254,7 @@
                         <h3 class="box-number text-orange"><span class="counter-number">412</span>K<span class="plus">+</span>
                         </h3>
                         <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Organic Keywords Growth</b></p>
+                            <p class=" counter-text sec-para mb-n1"><b>Organic Keywords</b></p>
                         </div>
                     </div>
                     <div class="divider"></div>
@@ -261,7 +265,7 @@
                         <h3 class="box-number text-orange"><span class="counter-number">2.4</span>M<span class="plus">+</span>
                         </h3>
                         <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Organic Revenue Generated</b></p>
+                            <p class=" counter-text sec-para mb-n1"><b>Revenue Generated</b></p>
                         </div>
                     </div>
                     <div class="divider"></div>
@@ -269,9 +273,9 @@
 
                 <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">48</span><span class="plus">+</span></h3>
+                        <h3 class="box-number text-orange"><span class="counter-number">7</span><span class="plus">%</span></h3>
                         <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Happy Customers</b></p>
+                            <p class=" counter-text sec-para mb-n1"><b>Minimum bounce rate</b></p>
                         </div>
                     </div>
                     <div class="divider"></div>
@@ -351,7 +355,7 @@
                 <div class="col-md-6 text-center">
                     <div class="circle-wrapper" data-aos="fade-right" data-aos-delay="200" data-tilt data-tilt-max="10">
                         <div class="circle" data-tilt data-tilt-max="10">
-                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Creating Impact.png') }}"
+                            <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Creating Impact.png') }}"
                                 alt="Key" class="key-image mt-3">
                         </div>
                     </div>
@@ -430,7 +434,7 @@
                         <h3 class="box-title">Ecommerce SEO</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/Services-page/seo/Ecommerce Seo.png') }}"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Services/Ecommerce Seo.png') }}"
                             alt="" class="rounded-overflow">
                         <p class="sec-para text">Transform passive visitors into engaged customers.
                             Our strategies are designed to boost website traffic and conversions through a combination
@@ -445,7 +449,7 @@
                         <h3 class="box-title">International SEO</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/Services-page/seo/International Seo.png') }}"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Services/International Seo.png') }}"
                             alt="" class="rounded-overflow">
                         <p class="sec-para text">We excel in international SEO. Our strategies focus on key elements
                             like multilingual keyword research, in-depth audience analysis, and optimized website
@@ -461,7 +465,7 @@
                         <h3 class="box-title">App Store SEO</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/Services-page/seo/Mobile Seo.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Services/Mobile Seo.png') }}" alt=""
                             class="rounded-overflow">
                         <p class="sec-para text"> Optimizing your app's visibility is key to attracting the right
                             users. By enhancing keywords, reviews, and user interaction, we ensure your app stands out
@@ -477,7 +481,7 @@
                         <h3 class="box-title">Local SEO</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/Services-page/seo/Local Seo.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Services/Local Seo.png') }}" alt=""
                             class="rounded-overflow">
                         <p class="sec-para text">We focus on enhancing customer engagement at the offline stores,
                             increasing their online audience who are often unaware of their local presence, and getting
@@ -491,7 +495,7 @@
                         <h3 class="box-title">AI SEO</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/Services-page/seo/Goodle Analytics and Report.png') }}"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Services/Seo Audit.png') }}"
                             alt="" class="rounded-overflow">
                         <p class="sec-para text">By leveraging AI, we enhance your website’s visibility with smart,
                             data-driven adjustments. This approach ensures you're always ahead of the curve, delivering
@@ -506,7 +510,7 @@
                         <h3 class="box-title">GEO</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/Services-page/seo/Seo Audit.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Services/Goodle Analytics and Report.png') }}" alt=""
                             class="rounded-overflow">
                         <p class="sec-para text">Crafting content that speaks your brand’s truth while aligning with
                             how AI engines search and rank. We focus on making your digital presence more authentic,
@@ -545,7 +549,7 @@
                     <div class="choose-feature-wrap">
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"
+                                <img src="{{ asset('frontend-assets/img/ServicePages/SEO/icons/idea.png') }}" width="60"
                                     alt="Icon">
                             </div>
                             <div class="media-body">
@@ -556,7 +560,7 @@
                         </div>
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"
+                                <img src="{{ asset('frontend-assets/img/ServicePages/SEO/icons/Keyword.png') }}" width="60"
                                     alt="Icon">
                             </div>
                             <div class="media-body">
@@ -567,7 +571,7 @@
                         </div>
                         <div class="choose-feature">
                             <div class="box-icon d-flex justify-content-center align-items-center">
-                                <img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"
+                                <img src="{{ asset('frontend-assets/img/ServicePages/SEO/icons/integration.png') }}" width="60"
                                     alt="Icon">
                             </div>
                             <div class="media-body">
@@ -585,7 +589,7 @@
                         <div class="tilt-active">
                             {{-- <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}"
                             alt="Choose" class="w-100"> --}}
-                            <img src="{{ asset('frontend-assets/img/Services-page/seo/Impact.png') }}" alt="Choose"
+                            <img src="{{ asset('frontend-assets/img/ServicePages/SEO/IMpact.png') }}" alt="Choose"
                                 class="w-100">
 
                         </div>
@@ -689,14 +693,14 @@
             <div class="row justify-content-evenly mt-5">
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
-                        <img src="https://www.gbim.com/gbim/one_click.webp" alt="One-Click Reports"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/SEO/icons/Keyword.png') }}" alt="One-Click Reports"
                             class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Keyword Research & Ranking</div>
                 </div>
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
-                        <img src="	https://www.gbim.com/gbim/traffic.webp" alt="Traffic Performance"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/SEO/icons/Competitor.png') }}" alt="Traffic Performance"
                             class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Organic Traffic Growth</div>
@@ -704,7 +708,7 @@
                 </div>
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
-                        <img src="https://www.gbim.com/gbim/traffic.webp" alt="CRM Module" class="feature-icon">
+                        <img src="{{ asset('frontend-assets/img/ServicePages/SEO/icons/Link.png') }}" alt="CRM Module" class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Link Building</div>
 
@@ -715,7 +719,7 @@
             <div class="row justify-content-evenly mt-3 mt-md-5">
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
-                        <img src="https://www.gbim.com/gbim/keyword.webp" alt="Keyword Performance"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/SEO/icons/On page.png') }}" alt="Keyword Performance"
                             class="feature-icon">
                     </div>
                     <div class="sub-sec-title">On-Page Optimization</div>
@@ -723,7 +727,7 @@
                 </div>
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
-                        <img src="https://www.gbim.com/gbim/marketing.webp" alt="Marketing Activities"
+                        <img src="{{ asset('frontend-assets/img/ServicePages/SEO/icons/Technical audit.png') }}" alt="Marketing Activities"
                             class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Technical Audit </div>
@@ -731,7 +735,7 @@
                 </div>
                 <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
-                        <img src="	https://www.gbim.com/gbim/leads.webp" alt="Leads Management" class="feature-icon">
+                        <img src="{{ asset('frontend-assets/img/ServicePages/SEO/icons/Local_.png') }}" alt="Leads Management" class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Local SEO</div>
 

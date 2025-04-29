@@ -33,6 +33,7 @@
     #Blog_Section .content-padding {
         padding: 0px 20px 20px 20px;
     }
+
     #Blog_Section .category-filter {
         display: grid !important;
     }
@@ -47,6 +48,7 @@
         object-fit: cover;
         border-radius: 10px;
     }
+
     #Blog_section .widget_categories a:hover,
     #Blog_section .tagcloud a:hover,
     #Blog_Section .widget_categories a.active,
@@ -54,19 +56,49 @@
         background-color: #106c97 !important;
         color: white !important;
     }
-    .recent-post .media-img img{
-            object-fit: cover !important;
+
+    .widget_categories a:hover,
+    .widget_categories a.active,
+    .tagcloud a:hover,
+    .tagcloud a:active {
+        background-color: #106c97 !important;
+        color: white !important;
     }
-    .blog-img{
-        width: 400px;
-        height: 230px;
+
+    .recent-post .media-img img {
+        object-fit: cover !important;
     }
-    .blog-single{
+
+    .blog-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .blog-single {
         margin-right: 0px !important;
     }
-    #Blog_Section .box-blog img{
-         object-fit: contain !important;
-     }
+
+    #Blog_Section .box-blog img {
+        object-fit: contain !important;
+    }
+
+    p {
+        line-height: 28px;
+        font-size: 20px !important;
+        /* font-size: calc(max(3vmax, 1rem)); */
+        line-height: calc(1.56 * 1em) important;
+        letter-spacing: 0.1px !important;
+        color: rgb(19, 20, 20) !important;
+        font-weight: 400 !important;
+    }
+
+    h3 {
+        font-size: 22px !important;
+        /* font-size: calc(min(5vw, 2rem)); */
+        line-height: 30px;
+        color: #121212 !important;
+        font-weight: 600 !important;
+    }
 </style>
 @endsection
 @section('content')
@@ -91,13 +123,13 @@
             <div class="row">
                 <div class="col-xxl-8 col-lg-8">
                     <div class="col-md-12" data-category="{{ implode(',', $blog->getCategoryNames()) }}">
-                        <div class="blog-content content-padding">
+                        <div class="blog-content mb-3">
                             <div class="blog-meta">
                                 <a href="#"><i class="fa-light fa-calendar"></i> {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}</a>
                                 <a href="#"><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->getCategoryNames()) ?? 'No Category' }}</a>
                             </div>
-                            <h3 class="blog-title blog-title-text"><a href="">{{ $blog->blog_name }}</a></h3>
-                          
+                            <h2 class=" blog-title blog-title-text"><a href="" class="sec-title">{{ $blog->blog_name }}</a></h2>
+
                         </div>
                         <div class="box-blog th-blog blog-single has-post-thumbnail">
                             <div class="blog-img box-blog">
@@ -106,10 +138,10 @@
                                 </a>
                             </div>
                             <div class="blog-content content-padding">
-                            
-                            <div class="">{!! $blog->content !!}</div>
 
-                            <!-- <p class="blog-text">{!! nl2br(e($blog->content)) !!}</p> -->
+                                <div class="mt-md-5 mt-3">{!! $blog->content !!}</div>
+
+                                <!-- <p class="blog-text">{!! nl2br(e($blog->content)) !!}</p> -->
 
                             </div>
                         </div>
@@ -122,11 +154,11 @@
                             <ul>
                                 <li><a href="{{ route('blog') }}" class="category-filter" data-category="all">All Categories</a></li>
                                 @foreach ($categories as $category)
-                                
+
                                 <li><a href="{{ route('categoryBlog', ['slug' => $category->slug]) }}" class="category-filter">{{ $category->category_name }}</a></li>
                                 @endforeach
 
-                               
+
                             </ul>
                         </div>
                         <div class="widget box">
@@ -159,10 +191,10 @@
                         <div class="box widget widget_tag_cloud   ">
                             <h3 class="widget_title">Popular Tags</h3>
                             <div class="tagcloud">
-                            @foreach ($tags->take(6) as $tag)
+                                @foreach ($tags->take(6) as $tag)
                                 <a href="{{ route('tagBlog', ['slug' => $tag->slug]) }}">{{ $tag->name }}</a>
                                 @endforeach
-                                
+
                             </div>
                         </div>
                     </aside>
@@ -174,4 +206,3 @@
 </main>
 
 @endsection
-
