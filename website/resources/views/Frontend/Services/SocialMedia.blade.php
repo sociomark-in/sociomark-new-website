@@ -415,7 +415,7 @@
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/Services-page/seo/Ecommerce Seo.png') }}"
                             alt="" class="rounded-overflow">
-                        <p class="sec-para text">T We begin by learning about your business, audience, and your end
+                        <p class="sec-para text">We begin by learning about your business, audience, and your end
                             goal. It’s all about setting a clear direction from day one.
                         </p>
 
@@ -469,20 +469,6 @@
                             alt="" class="rounded-overflow">
                         <p class="sec-para text">We monitor performance closely and make regular adjustments. As a
                             <b>social media management company</b>, we ensure every step moves you closer to your goals.
-                        </p>
-                    </div>
-                </div>
-                <div class="according-list hover-item">
-                    <div class="accordion-item2">
-                        <h3 class="box-title">SEO Audit</h3>
-                    </div>
-                    <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/Services-page/seo/Seo Audit.png') }}" alt=""
-                            class="rounded-overflow">
-                        <p class="sec-para text">Our SEO audits provide a deep dive into your online presence,
-                            identifying strengths, weaknesses, and opportunities for growth. We scrutinize every aspect,
-                            from technical SEO to content optimization, delivering actionable insights to boost your
-                            search rankings and drive organic traffic.
                         </p>
                     </div>
                 </div>
