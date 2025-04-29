@@ -433,8 +433,8 @@
                                                 <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
                                                     alt="icon">
                                             </div>
-                                            {{-- <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
-                                            <div class="box-number">2018 </div> --}}
+                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-number">2018 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
@@ -452,11 +452,11 @@
                                                 <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
                                                     alt="icon">
                                             </div>
-                                            {{-- <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
-                                            <div class="box-number">2018 </div> --}}
+                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-number">2018 </div>
                                         </div>
                                         <div class="box-content">
-                                            {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                            <h2 class="box-title">2018</h2>
                                             <p class="box-text">Moved into our new office with 8 employees</p>
                                         </div>
                                     </div>
@@ -468,8 +468,8 @@
                                                 <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
                                                     alt="icon">
                                             </div>
-                                            {{-- <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
-                                            <div class="box-number">2018 </div> --}}
+                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-number">2018 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
@@ -493,8 +493,8 @@
                                                 <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
                                                     alt="icon">
                                             </div>
-                                            {{-- <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
-                                            <div class="box-number">2018 </div> --}}
+                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-number">2018 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
@@ -513,8 +513,8 @@
                                                 <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
                                                     alt="icon">
                                             </div>
-                                            {{-- <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
-                                            <div class="box-number">2018 </div> --}}
+                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-number">2018 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
@@ -531,8 +531,8 @@
                                                 <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
                                                     alt="icon">
                                             </div>
-                                            {{-- <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
-                                            <div class="box-number">2018 </div> --}}
+                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-number">2018 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
@@ -550,8 +550,8 @@
                                                 <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
                                                     alt="icon">
                                             </div>
-                                            {{-- <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
-                                            <div class="box-number">2018 </div> --}}
+                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-number">2018 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
@@ -573,8 +573,8 @@
                                                 <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
                                                     alt="icon">
                                             </div>
-                                            {{-- <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
-                                            <div class="box-number">2018 </div> --}}
+                                            <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}" alt=""></div>
+                                            <div class="box-number">2018 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
