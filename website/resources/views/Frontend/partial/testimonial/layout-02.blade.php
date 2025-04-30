@@ -6,10 +6,8 @@
             <h2 class="sec-title  ">What <span class="text-blue">Our Clients Say</span> About Us?</h2>
         </div>
         <div class="slider-area testi-box-area">
-            <div class="swiper th-slider" id="testiSlide2"
-                data-slider-options="{effect:fade,loop:true,breakpoints:{0:{slidesPerView:1},576:{slidesPerView:1},768:{slidesPerView:1},992:{slidesPerView:1},1200:{slidesPerView:1}}}">
-                <div class="swiper-wrapper" id="swiper-wrapper-067831845871f9ee" aria-live="off"
-                    style="transition-duration: 0ms; transition-delay: 0ms;">
+            <div class="swiper testimonialSlider">
+                <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="testi-grid">
                             <div class="box-content">
@@ -153,14 +151,14 @@
                 </div>
                 <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
             </div>
-            <button data-slider-prev="#testiSlide2" class="slider-arrow style3 slider-prev"><i
+            <button data-slider-prev=".testimonialSlider" class="slider-arrow style3 slider-prev"><i
                     class="fas fa-arrow-left"></i></button>
-            <button data-slider-next="#testiSlide2" class="slider-arrow style3 slider-next"><i
+            <button data-slider-next=".testimonialSlider" class="slider-arrow style3 slider-next"><i
                     class="fas fa-arrow-right"></i></button>
         </div>
         @push('scripts')
             <script>
-                new Swiper('.testi-box-area #testiSlide2', {
+                new Swiper('.testi-box-area .testimonialSlider', {
                     loop: true,
                     navigation: {
                         nextEl: ".testi-box-area .slider-next",
