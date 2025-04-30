@@ -12,7 +12,7 @@
         <div class="breadcumb-wrapper p-0">
             <div class="">
                 <div class="w-100" style="height: 70vh;">
-                    <video src="{{ asset('frontend-assets/services.mp4') }}" loop autoplay muted class="w-100 h-100"
+                    <video playsinline src="{{ asset('frontend-assets/services.mp4') }}" loop autoplay muted class="w-100 h-100"
                         style="object-fit: cover;"></video>
                 </div>
             </div>

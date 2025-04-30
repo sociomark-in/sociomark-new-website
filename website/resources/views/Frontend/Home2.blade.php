@@ -203,7 +203,7 @@
     {{-- Video Section --}}
     <section class="overflow-hidden video-heading height-full mb-md-3">
         <div class="content video-bg">
-            <video class="w-100" autoplay muted loop>
+            <video playsinline class="w-100" autoplay muted loop>
                 <source src="{{ asset('frontend-assets/video.mp4') }}">
             </video>
         </div>
@@ -437,7 +437,7 @@
                             src="https://www.youtube.com/embed/fUcECL2KLeg?controls=0&autoplay=1&mute=1"
                             title="Sociomark Showreel" frameborder="0" allow="autoplay;  picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
-                        <video class="w-100" autoplay muted loop>
+                        <video class="w-100" playsinline autoplay muted loop>
                             <source src="{{ asset('frontend-assets/test_video.mp4') }}">
                         </video>
                     </div>

@@ -18,7 +18,7 @@
         <div class="breadcumb-wrapper p-0">
             <div class="">
                 <div class="w-100" style="height: 70vh;">
-                    <video src="{{ asset('frontend-assets/about.mp4') }}" loop autoplay muted class="w-100 h-100"
+                    <video playsinline src="{{ asset('frontend-assets/about.mp4') }}" loop autoplay muted class="w-100 h-100"
                         style="object-fit: cover;"></video>
                 </div>
             </div>
@@ -447,7 +447,7 @@
 
                         <!-- Video Layer -->
                         <div class="img player-video" id="videoScaleDown" style="position: relative; z-index: 1;">
-                            <video class="w-100" autoplay muted loop>
+                            <video class="w-100" playsinline autoplay muted loop>
                                 <source src="{{ asset('frontend-assets/test_video.mp4') }}">
                             </video>
                         </div>
@@ -593,7 +593,7 @@
                 </div>
                 <div class="row g-3">
                     <div class="col-12">
-                        <video loop muted autoplay class="w-100">
+                        <video loop muted playsinline autoplay class="w-100">
                             <source src="{{ asset('frontend-assets/core-team.mp4') }}">
                         </video>
                     </div>
