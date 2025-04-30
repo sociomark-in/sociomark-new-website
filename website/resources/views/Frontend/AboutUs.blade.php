@@ -20,59 +20,59 @@
 </style>
 @endsection
 @section('content')
-<main id="about-us">
-    <div class="breadcumb-wrapper p-0">
-        <div class="">
-            <div class="w-100" style="height: 70vh;">
-                <video src="{{ asset('frontend-assets/about.mp4') }}" loop autoplay muted class="w-100 h-100"
-                    style="object-fit: cover;"></video>
-            </div>
-        </div>
-    </div>
-    <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden" id="about-sec">
-        <div class="container">
-            <div class="row align-items-end justify-content-center">
-                <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
-                    <div class="title-area mb-md-3 mb-2 mt-n1">
-                        <!-- <h2 class="sec-title text-center "> Our Comprehensive International SEO Solutions</h2> -->
-                        <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100">
-                            Your Brand’s Digital Partner, <br><span class="text-blue"> Every Step of the Way</span>
-                        </h1>
-                    </div>
-                </div>
-                <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
-                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100">
-                        At Sociomark, we don’t believe in one-size-fits-all. For over 8 years, we’ve partnered with
-                        brands across India and beyond—crafting tailored digital strategies that are as unique as their
-                        stories. Be it SEO, social media, performance marketing, or full-stack development, our approach
-                        is rooted in listening first, executing second, and always delivering what truly works.
-                    </p>
-                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100">
-                        As a full-service digital marketing agency, we bring together creativity, data, and strategy
-                        under one roof. For us, success isn’t measured by vanity metrics—it's measured by real impact
-                        and lasting relationships. While the world chases trends, we build brands with purpose and
-                        precision. That’s what makes us truly reMARKable.
-                    </p>
-                </div>
-                <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
-                    <div class="title-area mb-md-3 mb-2 mt-n1">
-                        <!-- <h2 class="sec-title text-center "> Our Comprehensive International SEO Solutions</h2> -->
-                        <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100">
-                            What <span class="text-blue">Drives Us</span>
-                        </h1>
-                    </div>
-                </div>
-                <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
-                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100">
-                        We're not just a team—we're a collective of curious minds, passionate storytellers, strategic
-                        thinkers, and design junkies. Our power lies in how we mix insight with imagination and strategy
-                        with soul. From 8 years of building brands across industries, we’ve learned that meaningful
-                        marketing comes from meaningful intent.
-                    </p>
+    <main id="about-us">
+        <div class="breadcumb-wrapper p-0">
+            <div class="">
+                <div class="w-100" style="height: 70vh;">
+                    <video src="{{ asset('frontend-assets/about.mp4') }}" loop autoplay muted class="w-100 h-100"
+                        style="object-fit: cover;"></video>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="about-area2 mb-md-5 mt-md-5 mt-5 md-5 overflow-hidden" id="about-sec">
+            <div class="container">
+                <div class="row align-items-end justify-content-center">
+                    <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
+                        <div class="title-area mb-md-3 mb-2 mt-n1">
+                            <!-- <h2 class="sec-title text-center "> Our Comprehensive International SEO Solutions</h2> -->
+                            <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100">
+                                Your Brand’s Digital Partner, <br><span class="text-blue"> Every Step of the Way</span>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
+                        <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100">
+                            At Sociomark, we don’t believe in one-size-fits-all. For over 8 years, we’ve partnered with
+                            brands across India and beyond—crafting tailored digital strategies that are as unique as their
+                            stories. Be it SEO, social media, performance marketing, or full-stack development, our approach
+                            is rooted in listening first, executing second, and always delivering what truly works.
+                        </p>
+                        <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100">
+                            As a full-service digital marketing agency, we bring together creativity, data, and strategy
+                            under one roof. For us, success isn’t measured by vanity metrics—it's measured by real impact
+                            and lasting relationships. While the world chases trends, we build brands with purpose and
+                            precision. That’s what makes us truly reMARKable.
+                        </p>
+                    </div>
+                    <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
+                        <div class="title-area mb-md-3 mb-2 mt-n1">
+                            <!-- <h2 class="sec-title text-center "> Our Comprehensive International SEO Solutions</h2> -->
+                            <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100">
+                                What <span class="text-blue">Drives Us</span>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
+                        <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100">
+                            We're not just a team—we're a collective of curious minds, passionate storytellers, strategic
+                            thinkers, and design junkies. Our power lies in how we mix insight with imagination and strategy
+                            with soul. From 8 years of building brands across industries, we’ve learned that meaningful
+                            marketing comes from meaningful intent.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     <section class="position-relative overflow-hidden space overflow-hidden d-none" id="process-sec">
         <div class="container">
@@ -451,12 +451,12 @@
                         </h1>
                     </div>
 
-                    <!-- Video Layer -->
-                    <div class="img player-video" id="videoScaleDown" style="position: relative; z-index: 1;">
-                        <video class="w-100" autoplay muted loop>
-                            <source src="{{ asset('frontend-assets/test_video.mp4') }}">
-                        </video>
-                    </div>
+                        <!-- Video Layer -->
+                        <div class="img player-video" id="videoScaleDown" style="position: relative; z-index: 1;">
+                            <video class="w-100" autoplay muted loop>
+                                <source src="{{ asset('frontend-assets/test_video.mp4') }}">
+                            </video>
+                        </div>
 
                     @push('scripts')
                     <script>
@@ -582,39 +582,39 @@
                                     </div>
                                 </div>
 
+                                        </div>
+                                    </div>
+                                @endfor
                             </div>
+                        </div>
+                        @push('scripts')
+                            <script>
+                                new Swiper(".teamSwiper", {
+                                    spaceBetween: 30,
+                                    slidesPerView: 4,
+                                })
+                            </script>
+                        @endpush
                     </div>
-                    @endfor
+                </div>
+                <div class="row g-3">
+                    <div class="col-12">
+                        <video loop muted autoplay class="w-100">
+                            <source src="{{ asset('frontend-assets/core-team.mp4') }}">
+                        </video>
+                    </div>
                 </div>
             </div>
-            @push('scripts')
-            <script>
-                new Swiper(".teamSwiper", {
-                    spaceBetween: 30,
-                    slidesPerView: 4,
-                })
-            </script>
-            @endpush
-        </div>
-        </div>
-        <div class="row g-3">
-            <div class="col-12">
-                <video loop muted autoplay class="w-100">
-                    <source src="{{ asset('frontend-assets/core-team.mp4') }}">
-                </video>
-            </div>
-        </div>
-        </div>
-    </section>
-    <style>
-        #about-flip .flip-box {
-            /* width: 240px; */
-            height: 320px;
-        }
-    </style>
-    <section class="mb-md-5 mt-md-5 mt-5 mb-2 py-1 py-md-4 overflow-hidden position-relative space" id="about-flip">
-        <div class="container">
-            <div class="row text-center d-flex justify-content-center justify-content-md-end mt-4">
+        </section>
+        <style>
+            #about-flip .flip-box {
+                /* width: 240px; */
+                height: 320px;
+            }
+        </style>
+        <section class="mb-md-5 mt-md-5 mt-5 mb-2 py-1 py-md-4 overflow-hidden position-relative space" id="about-flip">
+            <div class="container">
+                <div class="row text-center d-flex justify-content-center justify-content-md-end mt-4">
 
                 <div class="col-md-12 col-12 pe-0 pe-md-5">
                     <h2 class="fw-bold sec-title my-3" data-aos="fade-down" data-aos-delay="100">

@@ -387,29 +387,6 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
 
                     <iframe src="https://www.google.com/maps/d/embed?mid=1bY2NcKFXkbZaH1vzvSDwY51bT_fXqDo&ehbc=2E312F" width="640" height="480"></iframe>
-
-                    {{-- <div id="google-map" style="width: 100%; height: 500px;"></div> --}}
-
-                    @push('scripts')
-                        <script>
-                            function initialize() {
-                                var mapOptions = {
-                                    center: new google.maps.LatLng(19.0330, 73.0297), // Replace with your desired center coordinates
-                                    zoom: 10, // Adjust the zoom level as needed
-                                    mapTypeId: google.maps.MapTypeId.ROADMAP // Or SATELLITE, HYBRID, etc.
-                                };
-                                var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
-
-                                var kmlLayer = new google.maps.KmlLayer(
-                                "{{ asset('locations.kml') }}", { // Replace with the actual path to your KML file
-                                    preserveViewport: false, // Set to true if you want the map to zoom and pan to fit the KML content
-                                    suppressInfoWindows: false, // Set to true to hide info windows
-                                    map: map
-                                });
-                            }
-                            google.maps.event.addDomListener(window, 'load', initialize);
-                        </script>
-                    @endpush
                 </div>
             </div>
         </div>

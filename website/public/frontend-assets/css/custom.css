@@ -462,7 +462,7 @@ main#home {
 }
 .sec-title {
     text-transform: capitalize;
-    font-size: calc(max(3vmax, 2rem));
+    font-size: calc(max(3vmax, 2.5rem));
     /* display: inline; */
     /* width: fit-content; */
     line-height: 1.2;
@@ -878,7 +878,7 @@ main#home {
     object-fit: cover !important;
 }
 
-.blog-img {  
+.blog-img {
     width: 100%;
     height: 230px;
 }

@@ -164,18 +164,6 @@
 
     /* blog end */
 
-
-
-    /* contact form */
-    #home #contact {
-        padding: 30px;
-    }
-
-    /* contact form */
-    #home #contact {
-        padding: 30px;
-    }
-
     /* contact form end */
     .tabbed-content .nav-pills .nav-link h3 {
         color: white !important;
@@ -203,7 +191,7 @@
     {{-- Video Section --}}
     <section class="overflow-hidden video-heading height-full mb-md-3">
         <div class="content video-bg">
-            <video class="w-100" autoplay muted loop>
+            <video playsinline class="w-100" autoplay muted loop>
                 <source src="{{ asset('frontend-assets/video.mp4') }}">
             </video>
         </div>
@@ -428,7 +416,7 @@
     @endpush
 
     {{-- Video Scroll --}}
-    <section class="about-area" id="about-sec">
+    <section class="about-area d-none d-md-block" id="about-sec">
         <div class="container-fluid overflow-hidden">
             <div class="row justify-content-center">
                 <div class="col-12 p-0">
@@ -437,7 +425,7 @@
                             src="https://www.youtube.com/embed/fUcECL2KLeg?controls=0&autoplay=1&mute=1"
                             title="Sociomark Showreel" frameborder="0" allow="autoplay;  picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
-                        <video class="w-100" autoplay muted loop>
+                        <video class="w-100" playsinline autoplay muted loop>
                             <source src="{{ asset('frontend-assets/test_video.mp4') }}">
                         </video>
                     </div>
@@ -880,7 +868,7 @@
             </div> --}}
             <div class="portfolio-area">
                 <div class="row g-3 g-md-4 justify-content-center">
-                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-6 col-md-4 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
@@ -896,7 +884,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-6 col-md-4 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
@@ -912,7 +900,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-6 col-md-4 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
@@ -928,7 +916,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-6 col-md-4 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
@@ -944,7 +932,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-6 col-md-4 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
@@ -959,7 +947,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-6 col-md-4 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
@@ -974,7 +962,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-6 col-md-4 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
@@ -989,7 +977,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-6 col-md-4 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
@@ -1421,7 +1409,7 @@
 
     {{-- Contact --}}
     @push('scripts')
-    <script>
+    {{-- <script>
         $(window).resize(function() {
             /*Bind an event handler to the "resize"*/
             if ($(window).width() < 786 || $(window).height() < 480) {
@@ -1441,7 +1429,7 @@
                 })
             }
         })
-    </script>
+    </script> --}}
     @endpush
    @include('Frontend.partial.contactUs')
 
@@ -1450,7 +1438,7 @@
             font-weight: 600;
         }
     </style>
-    <div class="modal fade" id="homeContactModal" tabindex="-1" aria-labelledby="homeContactModalLabel"
+    <div class="modal fade d-none" id="homeContactModal" tabindex="-1" aria-labelledby="homeContactModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-fullscreen">
             <div class="modal-content">

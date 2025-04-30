@@ -12,7 +12,7 @@
         <div class="breadcumb-wrapper p-0">
             <div class="">
                 <div class="w-100" style="height: 70vh;">
-                    <video src="{{ asset('frontend-assets/services.mp4') }}" loop autoplay muted class="w-100 h-100"
+                    <video playsinline src="{{ asset('frontend-assets/services.mp4') }}" loop autoplay muted class="w-100 h-100"
                         style="object-fit: cover;"></video>
                 </div>
             </div>
@@ -674,8 +674,8 @@
 
 
 
-        <section class="space">
-            <div class="container">
+        <section class="space bg-grey">
+            <div class="container-fluid">
                 <div class="row g-3">
                     {{-- @for ($i = 0; $i < 12; $i++)
                         <div class="col-xxl-3 col-lg-4 col-md-6 col-12">

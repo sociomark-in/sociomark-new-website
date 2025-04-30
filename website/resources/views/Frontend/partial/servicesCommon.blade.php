@@ -1,4 +1,4 @@
-<section class="space bg-grey" id="portfolioCommon">
+<section class="space" id="portfolioCommon">
     <div class="container">
         <div class="row">
             <h2 class="h2 mt-35 page-title mb-20 text-center text-uppercase"><span class="text-blue">Our Featured
@@ -9,7 +9,7 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="swiper servicesSwiper">
+            <div class="swiper projectSwiper">
                 <div class="swiper-wrapper">
                     <!-- <div class="swiper-slide">
                         <a href="{{ route('social_media', ['client' => 'ayu-health']) }}" class="portfolio-item">
@@ -169,31 +169,31 @@
             <!-- Swiper JS -->
             <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
             <script>
-                var swiper = new Swiper(".servicesSwiper", {
+                var swiper = new Swiper(".projectSwiper", {
                     spaceBetween: 30,
-                    centeredSlides: true,
-                    slidesPerView: 1,
+                    // centeredSlides: true,
+                    slidesPerView: 4,
                     loop: true,
                     autoplay: {
                         delay: 2500,
                         disableOnInteraction: false,
                     },
-                    breakpoints: {
-                        375: {
-                            slidesPerView: 1,
-                            spaceBetween: 20,
-                        },
-                        768: {
-                            slidesPerView: 2,
-                            spaceBetween: 40,
-                        },
-                        1024: {
-                            slidesPerView: 3,
-                            spaceBetween: 50,
-                        },
-                    },
+                    // breakpoints: {
+                    //     375: {
+                    //         slidesPerView: 1,
+                    //         spaceBetween: 20,
+                    //     },
+                    //     768: {
+                    //         slidesPerView: 2,
+                    //         spaceBetween: 40,
+                    //     },
+                    //     1024: {
+                    //         slidesPerView: 4,
+                    //         spaceBetween: 50,
+                    //     },
+                    // },
                     pagination: {
-                        el: ".servicesSwiper .swiper-pagination",
+                        el: ".projectSwiper .swiper-pagination",
                         clickable: true,
                     },
                 });
