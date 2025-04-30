@@ -98,7 +98,7 @@
 @endsection
 @section('content')
     <main id="contact">
-        <section>
+        <section style="margin-top: 66px;">
             <div class="full-width">
                 <picture>
                     <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/contact-us.jpg') }}">
