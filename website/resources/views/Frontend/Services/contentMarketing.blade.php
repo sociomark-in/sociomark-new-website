@@ -515,89 +515,9 @@
             </div>
         </div>
     </section>
-    <!--==============================
-                                Testimonial Area
-                                ==============================-->
-    <section class="space overflow-hidden overflow-hidden">
-        <div class="container">
-            <div class="title-area text-center">
-                <div class="shadow-title">Testimonial</div>
-                <span class="sub-title sub-title4 ">Testimonials<span></span></span>
-                <h2 class="sec-title  ">What <span class="text-blue">Our Clients Say</span> About Us?</h2>
-            </div>
-            <div class="slider-area testi-box-area">
-                <div class="swiper th-slider has-shadow testiSlider2" id="testiSlide2"
-                    data-slider-options='{"effect":"fade","loop":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"1"},"1200":{"slidesPerView":"1"}}}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testi-grid">
-                                <div class="box-content">
-                                    <div class="testi-logo">
-                                        <img src="http://placehold.co/200x80" alt="">
-                                    </div>
-                                    <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-                                        iusto repellendus sequi. Velit cumque aut rerum</h3>
-                                    <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                                        corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore
-                                        laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis
-                                        provident doloremque blanditiis. Molestiae?</p>
-                                    <h3 class="box-title">Lorem ipsum</h3>
-                                    <span class="box-desig">Lorem ipsum</span>
-                                </div>
-                                <div class="box-img">
-                                    <img src="http://placehold.co/200x200" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-grid">
-                                <div class="box-content">
-                                    <div class="testi-logo">
-                                        <img src="http://placehold.co/200x80" alt="">
-                                    </div>
-                                    <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-                                        iusto repellendus sequi. Velit cumque aut rerum</h3>
-                                    <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                                        corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore
-                                        laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis
-                                        provident doloremque?</p>
-                                    <h3 class="box-title">Lorem ipsum</h3>
-                                    <span class="box-desig">Lorem ipsum</span>
-                                </div>
-                                <div class="box-img">
-                                    <img src="http://placehold.co/200x200" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-grid">
-                                <div class="box-content">
-                                    <div class="testi-logo">
-                                        <img src="http://placehold.co/200x80" alt="">
-                                    </div>
-                                    <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-                                        iusto repellendus sequi. Velit cumque aut rerum</h3>
-                                    <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-                                        corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore
-                                        laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis
-                                        provident doloremque blanditiis.?</p>
-                                    <h3 class="box-title">Lorem ipsum</h3>
-                                    <span class="box-desig">Lorem ipsum</span>
-                                </div>
-                                <div class="box-img">
-                                    <img src="http://placehold.co/200x200" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button data-slider-prev="#testiSlide2" class="slider-arrow style3 slider-prev"><i
-                        class="fas fa-arrow-left"></i></button>
-                <button data-slider-next="#testiSlide2" class="slider-arrow style3 slider-next"><i
-                        class="fas fa-arrow-right"></i></button>
-            </div>
-        </div>
-    </section>
+
+    {{-- Testimonials --}}
+    @include('Frontend.partial.testimonial.layout-02')
 
     <section class="overflow-hidden space bg-grey" id="Features">
         <div class="container">
