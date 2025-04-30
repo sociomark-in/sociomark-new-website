@@ -209,8 +209,8 @@
 
 @section('content')
 <main id="seo-service">
-    <div class="breadcumb-wrapper p-0">
-        <div class="container-fluid">
+    <div class="breadcumb-wrapper p-0" style="margin-top: 66px;">
+        <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-12">
                     <img src="{{ asset('frontend-assets/img/ServicePages/Photography and Video/hero.png') }}" alt="" srcset="" width="100%">
@@ -342,7 +342,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row align-items-start">
+            <div class="row align-items-center">
                 <!-- Left Side -->
                 <div class="col-md-6 text-center">
                     <div class="circle-wrapper" data-aos="fade-right" data-aos-delay="200" data-tilt data-tilt-max="10">
@@ -684,7 +684,7 @@
             <div class="mt-5" data-aos="zoom-in" data-tilt data-tilt-max="10" data-aos-delay="100"
                 data-aos-duration="1000" data-aos-easing="ease-in-out">
                 <img src="{{ asset('frontend-assets/img/ServicePages/Photography and Video/Package.png') }}" alt="Dashboard Screenshot"
-                    class="dashboard-img">
+                    class="dashboard-img rounded-overflow">
             </div>
         </div>
     </section>

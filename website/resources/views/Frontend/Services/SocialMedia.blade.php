@@ -338,7 +338,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row align-items-start">
+            <div class="row align-items-center">
                 <!-- Left Side -->
                 <div class="col-md-6 text-center">
                     <div class="circle-wrapper" data-aos="fade-right" data-aos-delay="200" data-tilt data-tilt-max="10">
