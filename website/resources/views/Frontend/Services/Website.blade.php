@@ -213,7 +213,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 p-0">
-                    <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/Hero Web Development.png') }}" alt="" srcset="" width="100%">
+                    <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/web_development.png') }}" alt="" srcset="" width="100%">
                 </div>
             </div>
         </div>
@@ -223,11 +223,11 @@
             <div class="row text-center">
                 <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">30</span>K<span
+                        <h3 class="box-number text-orange"><span class="counter-number">50</span><span
                                 class="plus">+</span>
                         </h3>
                         <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Organic keywords</b></p>
+                            <p class=" counter-text sec-para mb-n1"><b>Projects</b></p>
                         </div>
                     </div>
                     <div class="divider"></div>
@@ -235,11 +235,11 @@
 
                 <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">50</span>L<span
+                        <h3 class="box-number text-orange"><span class="counter-number">10</span><span
                                 class="plus">+</span>
                         </h3>
                         <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Revenue Generated</b></p>
+                            <p class=" counter-text sec-para mb-n1"><b>Technologies/Frameworks</b></p>
                         </div>
                     </div>
                     <div class="divider"></div>
@@ -247,11 +247,11 @@
 
                 <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">10</span>M<span
+                        <h3 class="box-number text-orange"><span class="counter-number">10</span><span
                                 class="plus">+</span>
                         </h3>
                         <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Organic traffic</b></p>
+                            <p class=" counter-text sec-para mb-n1"><b>CMS Panels</b></p>
                         </div>
                     </div>
                     <div class="divider"></div>
@@ -259,10 +259,10 @@
 
                 <div class="col-xl-3 col-lg-3 col-md-3 col-6">
                     <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">7</span>%<span
+                        <h3 class="box-number text-orange"><span class="counter-number">80</span><span
                                 class="plus">+</span></h3>
                         <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Minimum bounce rate</b></p>
+                            <p class=" counter-text sec-para mb-n1"><b>Happy Clients</b></p>
                         </div>
                     </div>
                     <div class="divider"></div>
