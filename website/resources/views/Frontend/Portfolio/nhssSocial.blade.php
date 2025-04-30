@@ -70,17 +70,17 @@
             <div class="row">
                 <h2 class="text-blue sec-title">New Horizon School</h2>
                 <p class="sec-para"><b>About the Brand:</b> </p>
-                <p>
+                <p class="sec-para">
                     New Horizon School is a renowned educational institution that encompasses 7 schools, offering both ICSE and CBSE curricula. Committed to fostering academic excellence, creativity, and character development, the school nurtures students to unlock their full potential. New Horizon School creates an environment conducive to holistic growth, equipping students to be confident, compassionate, and ready to face the challenges of tomorrow. Last year, Sociomark played a pivotal role in supporting the school’s remarkable achievement of over 3000 admissions.
                 </p>
                 <p class="sec-para"><b>Services Offered:</b> </p>
                 <ul>
-                    <li>Social Media Management</li>
-                    <li>Content Creation</li>
-                    <li>Graphic Design</li>
-                    <li>Campaign Planning and Execution</li>
-                    <li>Admissions Support Content</li>
-                    <li>Strategy and Consultation</li>
+                    <li class="sec-para">Social Media Management</li>
+                    <li class="sec-para">Content Creation</li>
+                    <li class="sec-para">Graphic Design</li>
+                    <li class="sec-para">Campaign Planning and Execution</li>
+                    <li class="sec-para">Admissions Support Content</li>
+                    <li class="sec-para">Strategy and Consultation</li>
                 </ul>
                 <div class="th-social">
                     <p class="sec-para"><b>Page Link:</b>

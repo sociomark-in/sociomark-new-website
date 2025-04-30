@@ -217,13 +217,13 @@
                             class="img-fluid">
                     </a>
                 </div>
-                <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
+                <!-- <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                     data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
                     <a href="{{ route('social_media', ['client'=>'grill-box']) }}">
                         <img src="{{ asset('frontend-assets/img/work/grill-box/1.jpg') }}" alt="Brand Logo"
                             class="img-fluid">
                     </a>
-                </div>
+                </div> -->
                 <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                     data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
                     <a href="{{ route('social_media', ['client'=>'road-to-safety']) }}">
@@ -369,6 +369,13 @@
                 <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
                     data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
                     <a href="{{ route('social_media', ['client'=>'qubero']) }}">
+                        <img src="https://placehold.co/400" alt="Brand Logo"
+                            class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
+                    data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                    <a href="{{ route('social_media', ['client'=>'tmc']) }}">
                         <img src="https://placehold.co/400" alt="Brand Logo"
                             class="img-fluid">
                     </a>
