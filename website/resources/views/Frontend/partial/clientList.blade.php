@@ -320,14 +320,14 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 col-xl-auto filter-item cat2">
+                {{-- <div class="col-md-3 col-xl-auto filter-item cat2">
                     <a href="" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/totalfood.png') }}"
                                 alt="project image">
                         </div>
                     </a>
-                </div>
+                </div> --}}
                 <div class="col-md-3 col-xl-auto filter-item cat_">
                     <a href="" class="project-item d-block">
                         <div class="box-img global-img">
