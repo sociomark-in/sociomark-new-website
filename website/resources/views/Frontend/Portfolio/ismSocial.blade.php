@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/Cyberpower.jpg') }}" alt=""
+                            <img src="https://placehold.co/400" alt=""
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -70,15 +70,15 @@
         <div class="row">
             <h2 class="text-blue sec-title">Indian School of Media (ISM)</h2>
             <p class="sec-para"><b>About the Brand:</b> </p>
-            <p>
-                Indian School of Media (ISM) is a leading institution in Media education, nurturing the next generation of media and event management professionals. Its curriculum combines industry-led lectures, hands-on training, and expert mentorship to ensure students are career-ready from day one. With deep ties to the Media and entertainment industry, ISM has empowered over 5000 graduates in the past decade, many of whom are shaping the future of this fast-evolving sector.
+            <p class="sec-para">
+            Indian School of Media (ISM) is a leading institution in <strong>Media education, </strong> nurturing the next generation of media and event management professionals. Its curriculum combines industry-led lectures, hands-on training, and expert mentorship to ensure students are career-ready from day one. With deep ties to the <strong>Media and entertainment industry,</strong> ISM has empowered over 5000 graduates in the past decade, many of whom are shaping the future of this fast-evolving sector.
             </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
             <ul>
-                <li>Social Media Management</li>
-                <li>Videography(in-house & outdoor shoots for humanized reels)</li>
-                <li>SEO </li>
-                <li>Performance Marketing (Google Ads & Meta Ads)</li>
+                <li class="sec-para">Social Media Management</li>
+                <li class="sec-para">Videography(in-house & outdoor shoots for humanized reels)</li>
+                <li class="sec-para">SEO </li>
+                <li class="sec-para">Performance Marketing (Google Ads & Meta Ads)</li>
             </ul>
             <div class="th-social">
                 <p class="sec-para"><b>Page Link:</b>
@@ -172,18 +172,24 @@
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
 
             <div class="col lg-4 col-md-4 col-12">
+                <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
                 <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Ayuhealth</b></p>
+                <p class="sec-para text-center text-blue mt-2"><b>Ayushakti</b></p>
+                </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
+                <a href="{{ route('social_media', ['client'=>'jivana']) }}">
                 <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Shehanaz</b></p>
+                <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
+                </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
+                <a href="{{ route('social_media', ['client'=>'cyber-power']) }}">
                 <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
                 <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
+                </a>
             </div>
-
+           
         </div>
     </div>
 </section>

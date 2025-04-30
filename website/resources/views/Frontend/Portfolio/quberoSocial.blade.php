@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/Cyberpower.jpg') }}" alt=""
+                            <img src="https://placehold.co/400" alt=""
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -70,19 +70,19 @@
         <div class="row">
             <h2 class="text-blue sec-title">Qubero by Nirali BG</h2>
             <p class="sec-para"><b>About the Brand:</b> </p>
-            <p>
+            <p class="sec-para">
                 From the house of Nirali BG — a trusted name in the Indian kitchen sink space — Qubero brings over 30 years of expertise into the heart of modern homes. Backed by a legacy of precision, innovation, and craftsmanship, Qubero offers premium-quality, designer solutions crafted to simplify everyday kitchen tasks. With a diverse range of finishes and styles, the brand caters to the evolving needs of the modular furniture segment and seamlessly blends into the aesthetics of the Interior design industry. Thoughtfully designed and built to last, Qubero products are where function meets form.
             </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
             <ul>
-                <li>Social Media Management</li>
-                <li>Content Creation</li>
-                <li>On-Site Videography and Photography</li>
-                <li>Graphic Design and Visual Content</li>
-                <li>Performance Marketing Support</li>
-                <li>Campaign Planning and Execution</li>
-                <li>Community Management</li>
-                <li>Strategy Consultation</li>
+                <li class="sec-para">Social Media Management</li>
+                <li class="sec-para">Content Creation</li>
+                <li class="sec-para">On-Site Videography and Photography</li>
+                <li class="sec-para">Graphic Design and Visual Content</li>
+                <li class="sec-para">Performance Marketing Support</li>
+                <li class="sec-para">Campaign Planning and Execution</li>
+                <li class="sec-para">Community Management</li>
+                <li class="sec-para">Strategy Consultation</li>
             </ul>
             <div class="th-social">
                 <p class="sec-para"><b>Page Link:</b>
@@ -103,33 +103,22 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/1.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/3.jpg') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/3.jpg') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/4.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/4.jpg') }}" alt=""
                             srcset="" class="w-100">
                     </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/5.png') }}" alt=""
-                            srcset="" class="w-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/6.jpg') }}" alt=""
-                            srcset="" class="w-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/7.jpg') }}" alt=""
-                            srcset="" class="w-100">
-                    </div>
+                   
                 </div>
                 <!--<div class="swiper-button-next"></div>-->
                 <!--<div class="swiper-button-prev"></div>-->
@@ -176,18 +165,24 @@
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
 
             <div class="col lg-4 col-md-4 col-12">
+                <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
                 <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Ayuhealth</b></p>
+                <p class="sec-para text-center text-blue mt-2"><b>Ayushakti</b></p>
+                </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
+                <a href="{{ route('social_media', ['client'=>'jivana']) }}">
                 <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Shehanaz</b></p>
+                <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
+                </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
+                <a href="{{ route('social_media', ['client'=>'cyber-power']) }}">
                 <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
                 <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
+                </a>
             </div>
-
+           
         </div>
     </div>
 </section>

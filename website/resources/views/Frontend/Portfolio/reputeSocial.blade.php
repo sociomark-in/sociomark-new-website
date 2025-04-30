@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/Cyberpower.jpg') }}" alt=""
+                            <img src="https://placehold.co/400" alt=""
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -70,10 +70,14 @@
         <div class="row">
             <h2 class="text-blue sec-title">Repute</h2>
             <p class="sec-para"><b>About the Brand:</b> </p>
-            <p>
-                Repute is a trusted name in the Consumer goods space, delivering premium-quality offerings designed to elevate daily living. With a focus on Everyday use products, the brand combines thoughtfully sourced ingredients with meticulous craftsmanship to create items that reflect authenticity, reliability, and value. Built on a foundation of integrity and innovation, Repute is committed to enhancing lifestyles through products that are pure, purposeful, and consistently customer-focused.
+            <p class="sec-para">
+                Repute is a trusted name in the <strong>Consumer goods</strong> space, delivering premium-quality offerings designed to elevate daily living. With a focus on <strong>Everyday use products,</strong>  the brand combines thoughtfully sourced ingredients with meticulous craftsmanship to create items that reflect authenticity, reliability, and value. Built on a foundation of integrity and innovation, Repute is committed to enhancing lifestyles through products that are pure, purposeful, and consistently customer-focused.
             </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
+            <p class="sec-para">
+            Social Media Management
+
+            </p>
             <div class="th-social">
                 <p class="sec-para"><b>Page Link:</b>
                     <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -85,7 +89,7 @@
     </div>
 </section>
 
-<section class="port-bann section-margin d-none">
+<section class="port-bann section-margin">
     <div class="container-fluid">
         <div class="row mt-60">
             <h2 class=" sec-title text-center">The Mighty <span class="text-blue">Creative</span></h2>
@@ -93,31 +97,19 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/repute/1.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/repute/2.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/repute/3.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/4.png') }}" alt=""
-                            srcset="" class="w-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/5.png') }}" alt=""
-                            srcset="" class="w-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/6.jpg') }}" alt=""
-                            srcset="" class="w-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/7.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/repute/toilet-paper-1.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                 </div>
@@ -166,18 +158,24 @@
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
 
             <div class="col lg-4 col-md-4 col-12">
+                <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
                 <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Ayuhealth</b></p>
+                <p class="sec-para text-center text-blue mt-2"><b>Ayushakti</b></p>
+                </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
+                <a href="{{ route('social_media', ['client'=>'jivana']) }}">
                 <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Shehanaz</b></p>
+                <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
+                </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
+                <a href="{{ route('social_media', ['client'=>'cyber-power']) }}">
                 <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
                 <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
+                </a>
             </div>
-
+           
         </div>
     </div>
 </section>

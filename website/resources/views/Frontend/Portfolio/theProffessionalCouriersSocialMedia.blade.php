@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/Cyberpower.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/the prfessional courier/The Professional Couriers.jpg') }}" alt=""
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -68,18 +68,19 @@
 <section class="porfolio-text section-margin">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Cyber Power</h2>
+            <h2 class="text-blue sec-title">The Professional Couriers </h2>
             <p class="sec-para"><b>About the Brand:</b> </p>
-            <p>
-                Founded in 1987, The Professional Couriers is a global leader in courier and cargo services. With over 200 major hubs, 850+ sub-hubs, and 3,300+ branches, they provide B2C and B2B solutions with their vast logistics network of 200+ countries and 70,000+ destinations worldwide, ensuring fast, reliable deliveries every time.
+            <p class="sec-para">
+                Founded in 1987, The Professional Couriers is a global leader in <strong>courier and cargo services.</strong> With over 200 major hubs, 850+ sub-hubs, and 3,300+ branches, they provide B2C and B2B solutions with their vast <strong>logistics network</strong> of 200+ countries and 70,000+ destinations worldwide, ensuring fast, reliable deliveries every time.
+
             </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
             <ul>
-                <li>Managing and optimizing their social media presence with a community of 4,000+ followers</li>
-                <li>Creating engaging content through posts & reels</li>
-                <li>Promoting brand visibility and trust to both B2C and B2B audiences</li>
-                <li>Harnessing the power of digital marketing to Strengthen their global virtual presence </li>
-                <li>Handling offline branding projects, from print to execution</li>
+                <li class="sec-para">Managing and optimizing their social media presence with a community of 4,000+ followers</li>
+                <li class="sec-para">Creating engaging content through posts & reels</li>
+                <li class="sec-para">Promoting brand visibility and trust to both B2C and B2B audiences</li>
+                <li class="sec-para">Harnessing the power of digital marketing to Strengthen their global virtual presence </li>
+                <li class="sec-para">Handling offline branding projects, from print to execution</li>
             </ul>
             <div class="th-social">
                 <p class="sec-para"><b>Page Link:</b>
@@ -92,7 +93,7 @@
     </div>
 </section>
 
-<section class="port-bann section-margin d-none">
+<section class="port-bann section-margin">
     <div class="container-fluid">
         <div class="row mt-60">
             <h2 class=" sec-title text-center">The Mighty <span class="text-blue">Creative</span></h2>
@@ -100,37 +101,32 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tpc/1.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tpc/2.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tpc/3.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/4.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tpc/4.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/5.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tpc/5.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/6.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tpc/6.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/7.jpg') }}" alt=""
-                            srcset="" class="w-100">
-                    </div>
+
                 </div>
-                <!--<div class="swiper-button-next"></div>-->
-                <!--<div class="swiper-button-prev"></div>-->
-                {{-- <div class="swiper-pagination"></div> --}}
+
             </div>
 
             <script>
@@ -174,23 +170,23 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
-                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Ayushakti</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Ayushakti</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'jivana']) }}">
-                <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'cyber-power']) }}">
-                <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
                 </a>
             </div>
-           
+
         </div>
     </div>
 </section>
