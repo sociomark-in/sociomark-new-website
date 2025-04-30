@@ -278,12 +278,12 @@
     {{-- About Section --}}
     <section class="choose-area" id="about-sec2">
         <div class="container">
-            <div class="row g-4 g-md-5">
+            <div class="row g-4 g-md-5 align-items-center">
                 <div class="col-xl-6 pe-5">
                     <div class="title-area mb-20">
                         <h1 class="sec-title hero-title" data-aos="fade-right" data-aos-delay="300">Remarkable <br>Digital Marketing
                             <br>Company
-                            <span class="text-orange"> for Brands that Think <br> <span class="big-font">Bigger</span></span>
+                            <span class="text-orange"> for Brands that Think <br> <span class="">Bigger</span></span>
                         </h1>
                     </div>
                     <p class="sec-para text-white-50" data-aos="fade-right" data-aos-delay="300">We're more than just a
@@ -1382,7 +1382,7 @@
                     @foreach ($blogs as $blog)
                     <div class="swiper-slide">
                         <div class="box-blog th-blog blog-single has-post-thumbnail">
-                            <div class="blog-img box-blog">
+                            <div class="blog-img box-blog w-100">
                                 <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
                                     <img loading="lazy"
                                         src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}"
