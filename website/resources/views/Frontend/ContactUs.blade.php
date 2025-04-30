@@ -383,8 +383,7 @@
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
 
-                    <iframe src="https://www.google.com/maps/d/embed?mid=1nzvfd-h_8OUYjiTkXBRwYa2w8LMM3pc&ehbc=2E312F"
-                        width="600" height="450"></iframe>
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1bY2NcKFXkbZaH1vzvSDwY51bT_fXqDo&ehbc=2E312F" width="640" height="480"></iframe>
                 </div>
             </div>
         </div>

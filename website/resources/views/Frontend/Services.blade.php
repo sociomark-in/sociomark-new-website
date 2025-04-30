@@ -674,8 +674,8 @@
 
 
 
-        <section class="space">
-            <div class="container">
+        <section class="space bg-grey">
+            <div class="container-fluid">
                 <div class="row g-3">
                     {{-- @for ($i = 0; $i < 12; $i++)
                         <div class="col-xxl-3 col-lg-4 col-md-6 col-12">
