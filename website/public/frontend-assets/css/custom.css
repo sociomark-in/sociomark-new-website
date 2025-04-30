@@ -323,6 +323,22 @@ select {
     font-weight: 700;
 }
 
+
+.mobile-service .service-image {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 300px;
+    background: var(--background-image), rgba(0, 0, 0, 0.5);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: hue;
+}
+
+.mobile-service .service-image h2 {
+    font-weight: 700;
+}
+
 .service-process_img {
     width: 70px;
     height: 70px;

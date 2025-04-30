@@ -183,6 +183,9 @@
     #contact .sec-title{
         color: black;
     }
+    .accordion-card .accordion-button:after{
+        color: white;
+    }
 </style>
 @endpush
 
@@ -632,7 +635,7 @@
                     </script>
                 </div>
             </div>
-            <div class="services-tab tabbed-content tab-dark">
+            <div class="services-tab tabbed-content tab-dark d-none d-md-block">
                 <div class="row">
                     {{-- <div class="d-flex align-items-start"> --}}
                     <div class="col-lg-4">
@@ -813,30 +816,219 @@
                                     </div>
                                 </div>
                             </div>
-                            {{-- <div class="tab-pane fade" id="v-pills-video" role="tabpanel"
-                                aria-labelledby="v-pills-video-tab">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <img loading="lazy"
-                                            src="{{ asset('frontend-assets/img/service/VP_gray.jpg') }}" alt=""
-                            class="w-100 service-image rounded-overflow">
-                        </div>
-                        <div class="col-12">
-                            <p class="text mt-3">Appeals to clients looking for innovative and creative
-                                digital
-                                solutions,
-                                positioning the agency as a leader in creativity. Conveys a collaborative
-                                approach,
-                                suggesting that the agency works closely with clients to achieve their
-                                digital
-                                goals.
-                            </p>
-                            <a href="" class="th-btn white-border th-icon th-radius">
-                                Read More
-                            </a>
                         </div>
                     </div>
-                </div> --}}
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center mt-5 mobile-service d-md-none d-block">
+                <div class="col-xl-12 mt-35 mt-xl-0 h-auto" id="faqAccordion">
+                    <div class="accordion-area accordion">
+                        <div class="accordion-card">
+                            <div class="accordion-header" id="collapse-item-1">
+                                <button class="accordion-button text-white" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-1" aria-expanded="false" aria-controls="collapse-1">Digital Marketing</button>
+                            </div>
+                            <div id="collapse-1" class="accordion-collapse collapse show"
+                                aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-6 col-120">
+                                            <div class="service-image rounded-overflow" style="--background-image: url('{{ asset('frontend-assets/img/service/DM_bg.jpg') }}')">
+                                                <h2 class="text-center text-orange">Digital Marketing</h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <p class="sec-para mt-3 text-white">Want to go viral and drive sales? Discover the strategies
+                                                that turn browsers into buyers and brands into buzzwords.
+                                            </p>
+                                            <a href="{{ route('digitalMarketing') }}"
+                                                class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-card ">
+                            <div class="accordion-header" id="collapse-item-2">
+                                <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">Social Media Marketing</button>
+                            </div>
+                            <div id="collapse-2" class="accordion-collapse collapse "
+                                aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="row align-items-center">
+                                        <div class="col-12">
+                                            <div class="service-image rounded-overflow" style="--background-image: url('{{ asset('frontend-assets/img/service/SM_bg.jpg') }}')">
+                                                <h2 class="text-center text-orange">Social Media Marketing</h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="sec-para mt-3 text-white">Don’t just show up—stand out. We turn your social feed
+                                                into your strongest marketing weapon.
+                                            </p>
+                                            <a href="{{ route('socialMedia') }}"
+                                                class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-card ">
+                            <div class="accordion-header" id="collapse-item-3">
+                                <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-3" aria-expanded="false"
+                                    aria-controls="collapse-3">Search Engine Optimization</button>
+                            </div>
+                            <div id="collapse-3" class="accordion-collapse collapse "
+                                aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="row align-items-center">
+                                        <div class="col-12">
+                                            <div class="service-image rounded-overflow" style="--background-image: url('{{ asset('frontend-assets/img/service/SEO_bg.jpg') }}')">
+                                                <h2 class="text-center text-orange">Search Engine Optimization</h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="sec-para mt-3 text-white">Struggling to show up on Google? We’ve cracked the code to
+                                                page one rankings—and your competitors aren’t ready for it.
+                                            </p>
+                                            <a href="{{ route('seo') }}" class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-card ">
+                            <div class="accordion-header" id="collapse-item-4">
+                                <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-4" aria-expanded="false"
+                                    aria-controls="collapse-4">Web Development</button>
+                            </div>
+                            <div id="collapse-4" class="accordion-collapse collapse "
+                                aria-labelledby="collapse-item-4" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="row align-items-center">
+                                        <div class="col-12">
+                                            <div class="service-image rounded-overflow" style="--background-image: url('{{ asset('frontend-assets/img/service/WD_bg.jpg') }}')">
+                                                <h2 class="text-center text-orange">Web Development</h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="sec-para mt-3 text-white"> Is your website your best salesperson? If not, you’re
+                                                losing money. We build websites that work 24/7 to grow your business.
+    
+                                            </p>
+                                            <a href="{{ route('website') }}"
+                                                class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-card ">
+                            <div class="accordion-header" id="collapse-item-5">
+                                <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">Performance Marketing</button>
+                            </div>
+                            <div id="collapse-5" class="accordion-collapse collapse "
+                                aria-labelledby="collapse-item-5" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="row align-items-center">
+                                        <div class="col-12">
+                                            <div class="service-image rounded-overflow" style="--background-image: url('{{ asset('frontend-assets/img/service/PM_bg.jpg') }}')">
+                                                <h2 class="text-center text-orange">Performance Marketing</h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-">
+                                            <p class="sec-para mt-3 text-white">Tired of burning the budget with zero ROI? Get campaigns
+                                                that don’t just perform—they outperform. See how we make every click count.
+    
+                                            </p>
+                                            <a href="{{ route('sem') }}" class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion-card ">
+                            <div class="accordion-header" id="collapse-item-6">
+                                <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-6" aria-expanded="false"
+                                    aria-controls="collapse-6">Content Marketing</button>
+                            </div>
+                            <div id="collapse-6" class="accordion-collapse collapse "
+                                aria-labelledby="collapse-item-6" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="row align-items-center">
+                                        <div class="col-12">
+                                            <div class="service-image rounded-overflow" style="--background-image: url('{{ asset('frontend-assets/img/service/CM_bg.jpg') }}')">
+                                                <h2 class="text-center text-orange">Content Marketing</h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="sec-para mt-3 text-white">Content that pulls, persuades and performs. From blogs to
+                                                banners—we make every word work for you.
+    
+                                            </p>
+                                            <a href="{{ route('contentMarketing') }}"
+                                                class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-card ">
+                            <div class="accordion-header" id="collapse-item-7">
+                                <button class="accordion-button collapsed text-white" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse-7" aria-expanded="false"
+                                    aria-controls="collapse-7">Photography & Video Production</button>
+                            </div>
+                            <div id="collapse-7" class="accordion-collapse collapse "
+                                aria-labelledby="collapse-item-7" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <div class="row align-items-center">
+                                        <div class="col-12">
+                                            <div class="service-image rounded-overflow" style="--background-image: url('{{ asset('frontend-assets/img/service/VP_bg.jpg') }}')">
+                                                <h2 class="text-center text-orange">Photography & Video Production</h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="sec-para mt-3 text-white">If it doesn't stop the scroll, it's not us. Let's turn
+                                                your brand into a visual story that people will remember.
+    
+                                            </p>
+                                            <a href="{{ route('photoVideography') }}"
+                                                class="th-btn white-border th-icon th-radius">
+                                                Read More
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         </div>
