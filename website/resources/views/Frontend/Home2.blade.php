@@ -1062,7 +1062,7 @@
             <div class="row justify-content-center">
                 <div class="col-xxl-7 col-xl-9 col-md-10 col-12">
                     <div class="slider-area">
-                        <div class="swiper testimonial testimonialSwiper th-slider has-shadow">
+                        <div class="swiper testimonial testimonialSwiper has-shadow">
                             <div class="swiper-wrapper">
 
                                 <div class="swiper-slide testimonial-card">

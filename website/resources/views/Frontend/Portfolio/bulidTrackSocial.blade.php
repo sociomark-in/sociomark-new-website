@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/Cyberpower.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/build track/Buildtrack.jpg') }}" alt=""
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -68,12 +68,16 @@
 <section class="porfolio-text section-margin">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Cyber Power</h2>
+            <h2 class="text-blue sec-title">BuildTrack </h2>
             <p class="sec-para"><b>About the Brand:</b> </p>
-            <p>
-                BuildTrack is at the forefront of innovation in the Home automation industry, delivering advanced solutions that transform how India lives and works. Catering to residential, commercial, hospitality, and healthcare spaces, BuildTrack offers a range of smart technologies — from intelligent touch switches to comprehensive home management systems. Focused on enhancing comfort, efficiency, and security, the brand brings Modern living solutions to life with a strong emphasis on quality, design, and customer satisfaction.
+            <p class="sec-para">
+                BuildTrack is at the forefront of innovation in the <strong>Home automation industry, </strong> delivering advanced solutions that transform how India lives and works. Catering to residential, commercial, hospitality, and healthcare spaces, BuildTrack offers a range of smart technologies — from intelligent touch switches to comprehensive home management systems. Focused on enhancing comfort, efficiency, and security, the brand brings <strong>Modern living solutions</strong> to life with a strong emphasis on quality, design, and customer satisfaction.
             </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
+            <p class="sec-para">
+                Social Media Management Including <strong>content</strong> like reels and Influencer marketing
+                Videography(in-house shoots for humanized reels)
+            </p>
             <div class="th-social">
                 <p class="sec-para"><b>Page Link:</b>
                     <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -85,7 +89,7 @@
     </div>
 </section>
 
-<section class="port-bann section-margin d-none">
+<section class="port-bann section-margin">
     <div class="container-fluid">
         <div class="row mt-60">
             <h2 class=" sec-title text-center">The Mighty <span class="text-blue">Creative</span></h2>
@@ -93,33 +97,18 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/Build Track/1.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/Build Track/2.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/Build Track/3.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/4.png') }}" alt=""
-                            srcset="" class="w-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/5.png') }}" alt=""
-                            srcset="" class="w-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/6.jpg') }}" alt=""
-                            srcset="" class="w-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/7.jpg') }}" alt=""
-                            srcset="" class="w-100">
-                    </div>
+                   
                 </div>
                 <!--<div class="swiper-button-next"></div>-->
                 <!--<div class="swiper-button-prev"></div>-->
@@ -142,11 +131,11 @@
                             spaceBetween: 20,
                         },
                         768: {
-                            slidesPerView: 2,
+                            slidesPerView: 1,
                             spaceBetween: 40,
                         },
                         1024: {
-                            slidesPerView: 3,
+                            slidesPerView: 1,
                             spaceBetween: 50,
                         },
                     },
@@ -167,23 +156,23 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
-                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Ayushakti</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Ayushakti</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'jivana']) }}">
-                <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'cyber-power']) }}">
-                <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
                 </a>
             </div>
-           
+
         </div>
     </div>
 </section>

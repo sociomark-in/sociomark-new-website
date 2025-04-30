@@ -173,65 +173,31 @@
             </div>
         </div>
     </section>
-    <section class="overflow-hidden space garally" id="portfolio-sec">
-        <div class="container">
-            <div class="row g-3">
-                <div class="col-12">
-                    <h2 class="sec-title">Similar Projects,<br><span class="text-blue">We Worked On</span> </h2>
-                </div>
-                <div class="col-12">
-                    <div class="portfolio-area" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1200"
-                        data-aos-easing="ease-in-out">
-                        <div class="row gy-4">
-                            <div class="col-md-6 col-xl-4">
-                                <a href="">
-                                    <div class="row g-0 gy-3">
-                                        <div class="project-item col-12">
-                                            <div class="box-img global-img">
-                                                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayushakti.jpg') }}"
-                                                    alt="project image" class="w-100">
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <p class="sec-para">Lorem ipsum dolor sit amet.</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-xl-4">
-                                <a href="">
-                                    <div class="row g-0 gy-3">
-                                        <div class="project-item col-12">
-                                            <div class="box-img global-img">
-                                                <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}"
-                                                    alt="project image" class="w-100">
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <p class="sec-para">Lorem ipsum dolor sit amet.</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col-md-6 col-xl-4">
-                                <a href="">
-                                    <div class="row g-0 gy-3">
-                                        <div class="project-item col-12">
-                                            <div class="box-img global-img">
-                                                <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}"
-                                                    alt="project image" class="w-100">
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <p class="sec-para">Lorem ipsum dolor sit amet.</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <section class="porfolio-text section-margin">
+    <div class="container">
+        <div class="row">
+            <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
+
+            <div class="col lg-4 col-md-4 col-12">
+                <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
+                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
+                <p class="sec-para text-center text-blue mt-2"><b>Ayushakti</b></p>
+                </a>
             </div>
+            <div class="col lg-4 col-md-4 col-12">
+                <a href="{{ route('social_media', ['client'=>'jivana']) }}">
+                <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
+                <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
+                </a>
+            </div>
+            <div class="col lg-4 col-md-4 col-12">
+                <a href="{{ route('social_media', ['client'=>'cyber-power']) }}">
+                <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
+                <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
+                </a>
+            </div>
+           
         </div>
-    </section>
+    </div>
+</section>
 @endsection
