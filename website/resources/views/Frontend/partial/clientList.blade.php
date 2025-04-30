@@ -161,7 +161,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xl-auto filter-item cat0">
-                    <a href="" class="project-item d-block">
+                    <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/nhsinternational.jpg') }}"
                                 alt="project image">
@@ -169,7 +169,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xl-auto filter-item cat0">
-                    <a href="" class="project-item d-block">
+                    <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/nhspsa.jpg') }}"
                                 alt="project image">
@@ -177,7 +177,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xl-auto filter-item cat0">
-                    <a href="" class="project-item d-block">
+                    <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/nhs_logo.png') }}"
                                 alt="project image">

@@ -70,7 +70,13 @@
         <div class="row">
             <h2 class="text-blue sec-title">Ayu health</h2>
             <p class="sec-para"><b>About the Brand:</b> </p>
+            <p class="sec-para">Ayu Health operates at the intersection of technology and the <strong>healthcare industry,</strong>  offering smart solutions that simplify insurance processes for hospitals. By streamlining claims and boosting operational efficiency, Ayu Health helps  <strong>hospitals</strong> improve patient satisfaction while enhancing their financial performance.</p>
             <p class="sec-para"><b>Services Offered:</b> </p>
+            <ul>
+                <li class="sec-para">Social Media Management</li>
+                <li class="sec-para">Content Creation</li>
+                <li class="sec-para">Graphic Design and Visual Content</li>
+            </ul>
             <div class="th-social">
                 <p class="sec-para"><b>Page Link:</b>
                     <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>

@@ -90,9 +90,15 @@
                 Ayushakti is a global leader in providing ayurvedic healthcareservices
                 and holistic wellness solutions. Its authentic powerful herbal treatments have successfully helped lakhs
                 of people, around 108 countries for the past 32 years.</p>
-            <p class="sec-para"><b>Services Offered:</b> Complete Marketing Strategy (Online + Offline), Social Media
-                Management, Print Design, ORM, Content Writing, Social media Ads, Googles Ads, Website Development &
-                Management, Search Engine Optimization(SEO), Email Marketing, Influencer Activity, Blogger Outreach.</p>
+            <p class="sec-para"><b>Services Offered:</b> </p>
+            <ul>
+                <li class="sec-para">Website Development</li>
+                <li class="sec-para">Social Media Marketing</li>
+                <li class="sec-para">Performance Marketing</li>
+                <li class="sec-para">SEO</li>
+                <li class="sec-para">Shoots</li>
+                <li class="sec-para">Content Curation</li>
+            </ul>
             <div class="th-social">
                 <p class="sec-para"><b>Page Link:</b>
                     <a href="https://www.facebook.com/Ayushakti" target="_blank"><i class="fab fa-facebook-f"></i></a>
