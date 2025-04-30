@@ -2,7 +2,7 @@
 
 @section('content')
 <main>
-    <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x520">
+    <!-- <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x520">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Privary Policy</h1>
@@ -12,10 +12,10 @@
                 </ul>
             </div>
         </div>
-    </div>
-    <div class="container space">
+    </div> -->
+    <div class="container space mt-4">
 
-        <h1 class="sec-title text-blue text-center">Privacy Policy for Sociomark</h1>
+        <h1 class="sec-title text-center">Privacy Policy for <span class="text-blue">Sociomark</span></h1>
         <p class="sec-para">At Sociomark, accessible from www.sociomark.in, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Sociomark and how we use it.</p>
         <p class="sec-para">If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
         <p class="sec-para">This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Sociomark. This policy is not applicable to any information collected offline or via channels other than this website. Our Privacy Policy was created with the help of the Privacy Policy Generator and the Free Privacy Policy Generator.</p>
