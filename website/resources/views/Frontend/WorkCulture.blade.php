@@ -443,7 +443,7 @@
                                             {{-- <div class="box-shape"><img
                                                     src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
                                                     alt=""></div> --}}
-                                            <div class="box-number">2017 </div>
+                                            <div class="box-number text-blue">2017 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
@@ -464,7 +464,7 @@
                                             {{-- <div class="box-shape"><img
                                                     src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
                                                     alt=""></div> --}}
-                                            <div class="box-number">2018 </div>
+                                            <div class="box-number text-blue">2018 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">2018</h2> --}}
@@ -482,7 +482,7 @@
                                             {{-- <div class="box-shape"><img
                                                     src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
                                                     alt=""></div> --}}
-                                            <div class="box-number">2019 </div>
+                                            <div class="box-number text-blue">2019 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
@@ -509,7 +509,7 @@
                                             {{-- <div class="box-shape"><img
                                                     src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
                                                     alt=""></div> --}}
-                                            <div class="box-number">2020 </div>
+                                            <div class="box-number text-blue">2020 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
@@ -531,7 +531,7 @@
                                             {{-- <div class="box-shape"><img
                                                     src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
                                                     alt=""></div> --}}
-                                            <div class="box-number">2021 </div>
+                                            <div class="box-number text-blue">2021 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
@@ -551,7 +551,7 @@
                                             {{-- <div class="box-shape"><img
                                                     src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
                                                     alt=""></div> --}}
-                                            <div class="box-number">2022 </div>
+                                            <div class="box-number text-blue">2022 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
@@ -572,7 +572,7 @@
                                             {{-- <div class="box-shape"><img
                                                     src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
                                                     alt=""></div> --}}
-                                            <div class="box-number">2023 </div>
+                                            <div class="box-number text-blue">2023 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
@@ -597,7 +597,7 @@
                                             {{-- <div class="box-shape"><img
                                                     src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
                                                     alt=""></div> --}}
-                                            <div class="box-number">2024 </div>
+                                            <div class="box-number text-blue">2024 </div>
                                         </div>
                                         <div class="box-content">
                                             {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
@@ -620,7 +620,7 @@
                                             {{-- <div class="box-shape"><img
                                                     src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
                                                     alt=""></div> --}}
-                                            <div class="box-number">
+                                            <div class="box-number text-blue">
                                                 2025 </div>
                                         </div>
                                         <div class="box-content">
