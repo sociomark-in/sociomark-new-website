@@ -878,7 +878,7 @@ main#home {
     object-fit: cover !important;
 }
 
-.blog-img {
+.blog-img {  
     width: 100%;
     height: 230px;
 }

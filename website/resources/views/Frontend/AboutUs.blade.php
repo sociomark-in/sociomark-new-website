@@ -481,8 +481,8 @@
 
         <section class="mb-2 founder space" id="our-founder">
             <div class="container">
-                <div class="row align-items-start justify-content-center">
-                    <div class="col-md-6 col-sm-12 col-12 position-relative img custom-top me-0 me-md-5"
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-6 col-sm-12 col-12 position-relative img custom-top me-0"
                         data-aos="fade-right" data-aos-delay="100"
                         style="--tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--tw-bg-opacity)); padding: 1rem; border-radius: 30px;">
                         <img src="{{ asset('frontend-assets/img/team/founders.png') }}"

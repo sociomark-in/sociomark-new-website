@@ -1060,7 +1060,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-xxl-7 col-xl-9 col-md-10 col-12">
+                <div class="col-xxl-10 col-xl-10 col-md-10 col-12">
                     <div class="slider-area">
                         <div class="swiper testimonial testimonialSwiper has-shadow">
                             <div class="swiper-wrapper">
