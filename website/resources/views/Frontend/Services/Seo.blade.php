@@ -1022,6 +1022,9 @@
 
     </div>
 
+
+   
+
     @include('Frontend.partial.blog')
 
 

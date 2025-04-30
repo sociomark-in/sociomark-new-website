@@ -15,7 +15,7 @@
                                     <img src="{{ asset('frontend-assets/img/clients/times.jpg') }}" alt="project image"
                                         style="height: 80px">
                                 </div>
-                                <h3 class="box-title2">"Seamless Call for Entries Thanks to Sociomark!"</h3>
+                                {{-- <h3 class="box-title2">"Seamless Call for Entries Thanks to Sociomark!"</h3> --}}
                                 <p class="box-text">
                                     Sociomark, particularly Heta, Vivek, and Hemant, is highly appreciated for their
                                     excellent work in developing and managing the Leaders of Tomorrow website. Their
@@ -41,7 +41,7 @@
                                     <img src="{{ asset('frontend-assets/img/clients/ayushakti.jpg') }}"
                                         style="height: 80px" alt="project image">
                                 </div>
-                                <h3 class="box-title2">"Sociomark is literally our partner in Digital Marketing"</h3>
+                                {{-- <h3 class="box-title2">"Sociomark is literally our partner in Digital Marketing"</h3> --}}
                                 <p class="box-text">
                                     Ever since we started working with Sociomark, <strong>our return on
                                         investment on marketing have significantly improved, almost
@@ -69,8 +69,8 @@
                                     <img src="{{ asset('frontend-assets/img/clients/worldgrad.jpg') }}"
                                         alt="project image" style="height: 80px">
                                 </div>
-                                <h3 class="box-title2">"Sociomark's Exceptional Ability to Capture and Visualize Brand
-                                    Voice"</h3>
+                                {{-- <h3 class="box-title2">"Sociomark's Exceptional Ability to Capture and Visualize Brand
+                                    Voice"</h3> --}}
                                 <p class="box-text">Working with Sociomark has been an absolute pleasure. They have
                                     consistently exceeded my expectations in handling The WorldGrad's social media
                                     creative needs, from stunning static images to engaging reels and videos. Their
@@ -90,7 +90,7 @@
                                     <img src="{{ asset('frontend-assets/img/clients/network18.jpg') }}"
                                         alt="project image" style="height: 80px">
                                 </div>
-                                <h3 class="box-title2">"A Rewarding 3-Year Journey with the Team at SocioMark"</h3>
+                                {{-- <h3 class="box-title2">"A Rewarding 3-Year Journey with the Team at SocioMark"</h3> --}}
                                 <p class="box-text">
                                     Working with SocioMark for about 3 years now. Lovely people to
                                     work with. They have hardly ever missed any deadlines.The best part about them
@@ -112,7 +112,7 @@
                                     <img src="{{ asset('frontend-assets/img/clients/tpc01.jpg') }}"
                                         alt="project image" style="height: 80px">
                                 </div>
-                                <h3 class="box-title2">"The Sociomark team is professional, flexible, and committed to their work"</h3>
+                                {{-- <h3 class="box-title2">"The Sociomark team is professional, flexible, and committed to their work"</h3> --}}
                                 <p class="box-text">
                                         Sociomark team is absolutely very professional in their work yet
                                         bring in high flexibility in terms of ownership in delivery.
@@ -134,7 +134,7 @@
                                     <img src="{{ asset('frontend-assets/img/clients/grillbox.jpg') }}"
                                         alt="project image" style="height: 80px">
                                 </div>
-                                <h3 class="box-title2">"Effective Facebook & Instagram Marketing by Sociomark for GrillBox"</h3>
+                                {{-- <h3 class="box-title2">"Effective Facebook & Instagram Marketing by Sociomark for GrillBox"</h3> --}}
                                 <p class="box-text">
                                     Its a pleasure working with Sociomark for social media marketing of
                                     our brand GrillBox through Facebook and Instagram.
