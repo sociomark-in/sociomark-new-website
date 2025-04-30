@@ -18,7 +18,7 @@
      Preloader
   ==============================-->
   <div class="preloader p-3">
-    <button class="th-btn style1 preloaderCls">Cancel Preloader </button>
+    {{-- <button class="th-btn style1 preloaderCls">Cancel Preloader </button> --}}
     <div class="preloader-inner">
         <img src="{{ asset('frontend-assets/img/preloader.gif') }}" alt="Sociomark" height="200">
 

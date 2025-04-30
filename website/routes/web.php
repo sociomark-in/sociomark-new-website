@@ -47,7 +47,7 @@ Route::get('/service/website', [ServiceController::class, 'website'])->name('web
 Route::get('/service/social-media', [ServiceController::class, 'socialMedia'])->name('socialMedia');
 Route::get('/service/digital-marketing', [ServiceController::class, 'digitalMarketing'])->name('digitalMarketing');
 Route::get('/service/content-marketing', [ServiceController::class, 'contentMarketing'])->name('contentMarketing');
-Route::get('/service/sem', [ServiceController::class, 'sem'])->name('sem');
+Route::get('/service/performance-marketing', [ServiceController::class, 'sem'])->name('sem');
 Route::get('/service/photography-videography', [ServiceController::class, 'photoVideography'])->name('photoVideography');
 
 Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');

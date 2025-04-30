@@ -223,6 +223,12 @@ select {
     filter: brightness(20);
 }
 
+@media (max-width: 575px) {
+    .header-logo {
+        max-width: unset;
+    }
+}
+
 .main-menu.style2>ul>li>a {
     color: var(--color-white);
 }

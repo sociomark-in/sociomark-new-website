@@ -426,7 +426,7 @@
                             title="Sociomark Showreel" frameborder="0" allow="autoplay;  picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
                         <video class="w-100" playsinline autoplay muted loop>
-                            <source src="{{ asset('frontend-assets/test_video.mp4') }}">
+                            <source src="{{ asset('frontend-assets/sociomark_showreel.mp4') }}">
                         </video>
                     </div>
                     @push('scripts')
@@ -1140,7 +1140,6 @@
                                                     there.They have set benchmarks for others by their creative work
                                                     done for the Road to safety campaign.</strong>
                                                 </div>
-                                                <strong class="text-black">Best of luck Sociomark!</strong>
                                                 <p></p>
                                             </div>
                                         </div>
@@ -1172,7 +1171,6 @@
                                                     contents. They were easy to work with and were flexible with meeting
                                                     our needs.
                                                 </div>
-                                                <strong class="text-black">Best of luck Sociomark!</strong>
                                                 <p></p>
                                             </div>
                                         </div>
@@ -1205,7 +1203,6 @@
                                                     worked on our feedbacks we have had a long term engagement with them
                                                     and they are an absolute pleasure to work with!
                                                 </div>
-                                                <strong class="text-black">Best of luck Sociomark!</strong>
                                                 <p></p>
                                             </div>
                                         </div>

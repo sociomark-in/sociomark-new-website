@@ -69,7 +69,7 @@ Header Area
                                 <picture>
                                     <source media="(min-width: 1024px)"
                                         srcset="{{ asset('frontend-assets/img/logo/sc-colored-horizontal.png') }}">
-                                    <img src="{{ asset('frontend-assets/img/logo/sociomark-new-logo.png') }}"
+                                    <img src="{{ asset('frontend-assets/img/logo/sc-colored-horizontal.png') }}"
                                         alt="Image Not Found" height="30">
                                 </picture>
                             </a>
