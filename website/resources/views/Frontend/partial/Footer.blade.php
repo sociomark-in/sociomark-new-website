@@ -171,8 +171,8 @@
                 <div class="col-md-6 text-center text-md-end">
                     <div class="footer-links">
                         <ul>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="{{ route('privacyAndPolicy') }}">Privacy Policy</a></li>
+                            <li><a href="{{ route('termsAndcondition') }}">Terms & Condition</a></li>
                         </ul>
                     </div>
                 </div>
