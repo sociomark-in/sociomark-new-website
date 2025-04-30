@@ -57,7 +57,7 @@
     <div id="cursor" class="d-none d-md-block"></div>
     <aside class="showreel-fixed d-none d-md-block">
         <a class="wrapper" href="https://www.instagram.com/reel/C53hrnWSGXQ/" target="_blank">
-            <img src="https://www.sociomark.in/lp/assets/media/images/showreel.gif" alt="Showreel">
+            <img src="{{ asset('frontend-assets/img/showreel.gif') }}" alt="Showreel">
         </a>
     </aside>
     <main class="overflow-hidden">
