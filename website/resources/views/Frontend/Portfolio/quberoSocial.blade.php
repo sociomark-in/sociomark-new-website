@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="https://placehold.co/400" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/banner/qubero.jpg') }}" alt=""
                                 srcset="" class="w-100">
                         </div>
                     </div>
