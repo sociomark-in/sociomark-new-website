@@ -70,13 +70,9 @@
     <section class="porfolio-text section-margin">
         <div class="container">
             <div class="row">
-                <h2 class="text-blue">Ayushakti Ayurved</h2>
-                <p><b>About the Brand:</b> Ayushakti is a global leader in providing ayurvedic healthcare services
-                    and holistic wellness solutions. Its authentic powerful herbal treatments have successfully helped lakhs
-                    of people, around 108 countries for the past 32 years.</p>
-                <p><b>Services Offered:</b> Complete Marketing Strategy (Online + Offline), Social Media
-                    Management, Print Design, ORM, Content Writing, Social media Ads, Googles Ads, Website Development &
-                    Management, Search Engine Optimization(SEO), Email Marketing, Influencer Activity, Blogger Outreach.</p>
+                <h2 class="text-blue">Euro</h2>
+                <p><b>About the Brand:</b> </p>
+                <p><b>Services Offered:</b> </p>
                 <div class="th-social">
                     <p><b>Page Link:</b>
                         <a href="https://www.facebook.com/Ayushakti" target="_blank"><i class="fab fa-facebook-f"></i></a>

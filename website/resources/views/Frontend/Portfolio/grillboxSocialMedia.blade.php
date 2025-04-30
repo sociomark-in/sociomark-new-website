@@ -84,7 +84,7 @@
         <div class="row">
             <h2 class="text-blue sec-title">GrillBox Restaurant</h2>
             <p class="sec-para"><b>About the Brand:</b> </p>
-            <p>
+            <p class="sec-para">
                 GrillBox is a standout name in the Restaurant sector, offering an elevated take on Experiential dining. Known for its unlimited BBQ and grand buffet spreads, GrillBox invites guests on a flavourful journey complete with live grills, diverse cuisines, and indulgent desserts. Each dish is made using fresh ingredients and authentic recipes, crafted to create memorable dining moments. Whether it’s a celebration or a casual outing, GrillBox turns every meal into a feast worth sharing.
             </p>
             {{-- <p class="sec-para"><b>About the Brand:</b> Grill Box is the place to head to when you want to indulge your taste buds with some good Barbeque. It’s styled in a forest/cave theme and is absolutely fun. It is a celebration of traditional charcoal & fire-based cooking with some incredible ingredients. Their menu consists of a huge variety of Vegetarian and Non-Vegetarian dishes consisting of Starters, Soups, Salads, Main Course, Fruits and Desserts.</p> --}}

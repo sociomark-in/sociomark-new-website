@@ -70,7 +70,7 @@
             <div class="row">
                 <h2 class="text-blue sec-title">Jivana</h2>
                 <p class="sec-para"><b>About the Brand:</b> </p>
-                <p>
+                <p class="sec-para">
                     Jivana, from Somiya Foods Group, is a growing brand in the <a href="">FMCG Industry</a> known for
                     strong brand building and product awareness. Focused on retaining the purity and goodness of natural
                     ingredients, Jivana offers essential products like spices, jaggery variants, and sugar powders. Their
@@ -79,7 +79,7 @@
                     segment.
                 </p>
                 <p class="sec-para"><b>Services Offered:</b> </p>
-                <p>
+                <p class="sec-para">
                     We manage Jivana's social media with a growing community of 5,000+ followers, creating engaging content
                     through static posts, reels, shoots, and more. Our focus is on promoting brand identity and product
                     value to the target audience, while boosting reach with effective SEO strategies and ad campaigns. We

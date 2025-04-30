@@ -81,11 +81,12 @@
     }
 
     /* brand list end */
+
 </style>
 @endsection
 @section('content')
 <main id="brand">
-    <section>
+    <section style="margin-top:68px;">
         <div class="full-width">
             <picture>
                 <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/portfolio.jpg') }}">
