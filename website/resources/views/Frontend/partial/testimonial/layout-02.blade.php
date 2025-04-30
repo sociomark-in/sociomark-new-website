@@ -131,7 +131,7 @@
                         <div class="testi-grid">
                             <div class="box-content">
                                 <div class="testi-logo">
-                                    <img src="{{ asset('frontend-assets/img/clients/network18.jpg') }}"
+                                    <img src="{{ asset('frontend-assets/img/clients/grillbox.jpg') }}"
                                         alt="project image" style="height: 80px">
                                 </div>
                                 <h3 class="box-title2">"Effective Facebook & Instagram Marketing by Sociomark for GrillBox"</h3>
