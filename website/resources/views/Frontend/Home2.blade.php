@@ -1119,7 +1119,6 @@
                                                     </p>
                                                 </div>
                                                 <strong class="text-black">We highly recommend Sociomark to anyone in need of top-notch creative services!</strong>
-                                                <p></p>
                                             </div>
                                         </div>
                                         <div class="box-wrapp">

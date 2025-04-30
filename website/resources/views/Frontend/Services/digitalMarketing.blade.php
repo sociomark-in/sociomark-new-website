@@ -209,8 +209,8 @@
 
 @section('content')
 <main id="seo-service">
-    <div class="breadcumb-wrapper p-0">
-        <div class="container-fluid">
+    <div class="breadcumb-wrapper p-0" style="margin-top: 66px;">
+        <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-12">
                     <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Digital Marketing.png') }}"
@@ -329,7 +329,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row align-items-start">
+            <div class="row align-items-center">
                 <!-- Left Side -->
                 <div class="col-md-6 text-center">
                     <div class="circle-wrapper" data-aos="fade-right" data-aos-delay="200" data-tilt data-tilt-max="10">
@@ -511,77 +511,9 @@
             </div>
         </div>
     </section>
-    <!--==============================
-            Testimonial Area
-            ==============================-->
-    <section class="space overflow-hidden overflow-hidden">
-        <div class="container">
-            <div class="title-area text-center">
-                <div class="shadow-title">Testimonial</div>
-                <span class="sub-title sub-title4 ">Testimonials<span></span></span>
-                <h2 class="sec-title  ">What <span class="text-blue">Our Clients Say</span> About Us?</h2>
-            </div>
-            <div class="slider-area testi-box-area">
-                <div class="swiper th-slider has-shadow testiSlider2" id="testiSlide2"
-                    data-slider-options='{"effect":"fade","loop":true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"1"},"1200":{"slidesPerView":"1"}}}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testi-grid">
-                                <div class="box-content">
-                                    <div class="testi-logo">
-                                        <img src="http://placehold.co/200x80" alt="">
-                                    </div>
-                                    <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto repellendus sequi. Velit cumque aut rerum</h3>
-                                    <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis provident doloremque blanditiis. Molestiae?</p>
-                                    <h3 class="box-title">Lorem ipsum</h3>
-                                    <span class="box-desig">Lorem ipsum</span>
-                                </div>
-                                <div class="box-img">
-                                    <img src="http://placehold.co/200x200" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-grid">
-                                <div class="box-content">
-                                    <div class="testi-logo">
-                                        <img src="http://placehold.co/200x80" alt="">
-                                    </div>
-                                    <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto repellendus sequi. Velit cumque aut rerum</h3>
-                                    <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis provident doloremque?</p>
-                                    <h3 class="box-title">Lorem ipsum</h3>
-                                    <span class="box-desig">Lorem ipsum</span>
-                                </div>
-                                <div class="box-img">
-                                    <img src="http://placehold.co/200x200" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-grid">
-                                <div class="box-content">
-                                    <div class="testi-logo">
-                                        <img src="http://placehold.co/200x80" alt="">
-                                    </div>
-                                    <h3 class="box-title2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto repellendus sequi. Velit cumque aut rerum</h3>
-                                    <p class="box-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum corporis ipsam nihil quaerat exercitationem, illum aut cupiditate tempore laudantium facilis ipsum architecto fugit deserunt laborum suscipit at veritatis provident doloremque blanditiis.?</p>
-                                    <h3 class="box-title">Lorem ipsum</h3>
-                                    <span class="box-desig">Lorem ipsum</span>
-                                </div>
-                                <div class="box-img">
-                                    <img src="http://placehold.co/200x200" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button data-slider-prev="#testiSlide2" class="slider-arrow style3 slider-prev"><i
-                        class="fas fa-arrow-left"></i></button>
-                <button data-slider-next="#testiSlide2" class="slider-arrow style3 slider-next"><i
-                        class="fas fa-arrow-right"></i></button>
-            </div>
-        </div>
-    </section>
+
+    {{-- Testimonials --}}
+    @include('Frontend.partial.testimonial.layout-02')
 
     <section class="overflow-hidden space bg-grey" id="Features">
         <div class="container">
@@ -592,14 +524,14 @@
             </h2>
             <!-- Feature Icons Row 1 -->
             <div class="row justify-content-evenly mt-5">
-                <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
+                <div class="col-12 col-md-4 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Icons/Search Engine Optimization.png') }}" alt="One-Click Reports"
                             class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Search Engine Optimization</div>
                 </div>
-                <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
+                <div class="col-12 col-md-4 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Icons/Social Media marketing.png') }}" alt="Traffic Performance"
                             class="feature-icon">
@@ -607,14 +539,14 @@
                     <div class="sub-sec-title">Social Media marketing</div>
 
                 </div>
-                <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
+                <div class="col-12 col-md-4 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Icons/Website development.png') }}" alt="CRM Module" class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Website development </div>
 
                 </div>
-                <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
+                <div class="col-12 col-md-4 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Icons/Performance marketing.png') }}" alt="Traffic Performance"
                             class="feature-icon">
@@ -622,20 +554,20 @@
                     <div class="sub-sec-title">Performance marketing</div>
 
                 </div>
-                <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
+                <div class="col-12 col-md-4 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Icons/photography & video production.png') }}" alt="CRM Module" class="feature-icon">
                     </div>
                     <div class="sub-sec-title">photography & video production
                     </div>
-                    
+
                 </div>
             </div>
             <!-- Dashboard Images -->
             <div class="mt-5" data-aos="zoom-in" data-tilt data-tilt-max="10" data-aos-delay="100"
                 data-aos-duration="1000" data-aos-easing="ease-in-out">
                 <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Package.png') }}" alt="Dashboard Screenshot"
-                    class="dashboard-img">
+                    class="dashboard-img rounded-overflow">
             </div>
         </div>
     </section>

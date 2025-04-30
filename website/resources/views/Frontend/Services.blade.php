@@ -9,14 +9,14 @@
 
 @section('content')
     <main id="contact">
-        <section class="">
-            <div class="full-width">
-                <picture>
-                    <source media="(min-width: 1400px)" srcset="https://placehold.co/1920x900">
-                    <img src="https://placehold.co/1080x1080" alt="">
-                </picture>
+        <div class="breadcumb-wrapper p-0">
+            <div class="">
+                <div class="w-100" style="height: 70vh;">
+                    <video src="{{ asset('frontend-assets/services.mp4') }}" loop autoplay muted class="w-100 h-100"
+                        style="object-fit: cover;"></video>
+                </div>
             </div>
-        </section>
+        </div>
         <section class="overflow-hidden space">
             <div class="container">
                 <div class="row">
@@ -34,8 +34,8 @@
             </div>
         </section>
         <!--==============================
-                                                                                                                                                                    Service Area
-                                                                                                                                                                ==============================-->
+                                                                                                                                                                        Service Area
+                                                                                                                                                                    ==============================-->
         <section class="space-top space-extra-bottom">
             <div class="container">
                 <div class="row">
@@ -44,7 +44,8 @@
                             <div class="row align-items-center">
                                 <div class="col-xxl-4 col-lg-4">
                                     <div class="page-img global-img mb-35" data-aos="fade-right" data-aos-duration="3000">
-                                        <img src="https://placehold.co/600x600" alt="Service Image">
+                                        <img src="{{ asset('frontend-assets/img/icon/service/mark.png') }}"
+                                            alt="Service Image">
                                     </div>
                                 </div>
                                 <div class="col-xxl-8 col-lg-8">
@@ -75,7 +76,7 @@
                                     <div class="service-process-wrap">
                                         <div class="service-process">
                                             <div class="align-content-center service-process_img"><img
-                                                    src="{{ asset('frontend-assets/img/icon/social-media-marketing.png') }}"
+                                                    src="{{ asset('frontend-assets/img/icon/service/Social.png') }}"
                                                     height="50" alt="">
                                             </div>
                                             <div class="service-process_centent">
@@ -86,7 +87,7 @@
                                         </div>
                                         <div class="service-process">
                                             <div class="align-content-center service-process_img"><img
-                                                    src="{{ asset('frontend-assets/img/icon/social-media-marketing.png') }}"
+                                                    src="{{ asset('frontend-assets/img/icon/service/SEO.png') }}"
                                                     height="50" alt="">
                                             </div>
                                             <div class="service-process_centent">
@@ -97,7 +98,7 @@
                                         </div>
                                         <div class="service-process">
                                             <div class="align-content-center service-process_img"><img
-                                                    src="{{ asset('frontend-assets/img/icon/social-media-marketing.png') }}"
+                                                    src="{{ asset('frontend-assets/img/icon/service/Website.png') }}"
                                                     height="50" alt="">
                                             </div>
                                             <div class="service-process_centent">
@@ -110,19 +111,21 @@
 
                                         <div class="service-process">
                                             <div class="align-content-center service-process_img"><img
-                                                    src="{{ asset('frontend-assets/img/icon/social-media-marketing.png') }}"
+                                                    src="{{ asset('frontend-assets/img/icon/service/Digital.png') }}"
                                                     height="50" alt="">
                                             </div>
-                                            <div class="service-process_centent">
-                                                <h5 class="service-process_title">Digital Marketing</h5>
-                                                <p class="service-process_text">71% prefer communicating through email. One
-                                                    of
-                                                    the best ways to personalize communication for your brand.</p>
-                                            </div>
+                                            <a href="{{ route('digitalMarketing') }}">
+                                                <div class="service-process_centent">
+                                                    <h5 class="service-process_title">Digital Marketing</h5>
+                                                    <p class="service-process_text">71% prefer communicating through email. One
+                                                        of
+                                                        the best ways to personalize communication for your brand.</p>
+                                                </div>
+                                            </a>
                                         </div>
                                         <div class="service-process">
                                             <div class="align-content-center service-process_img"><img
-                                                    src="{{ asset('frontend-assets/img/icon/social-media-marketing.png') }}"
+                                                    src="{{ asset('frontend-assets/img/icon/service/mark.png') }}"
                                                     height="50" alt="">
                                             </div>
                                             <div class="service-process_centent">
@@ -133,7 +136,7 @@
                                         </div>
                                         <div class="service-process">
                                             <div class="align-content-center service-process_img"><img
-                                                    src="{{ asset('frontend-assets/img/icon/social-media-marketing.png') }}"
+                                                    src="{{ asset('frontend-assets/img/icon/service/content.png') }}"
                                                     height="50" alt="">
                                             </div>
                                             <div class="service-process_centent">
@@ -144,7 +147,7 @@
                                         </div>
                                         <div class="service-process">
                                             <div class="align-content-center service-process_img"><img
-                                                    src="{{ asset('frontend-assets/img/icon/social-media-marketing.png') }}"
+                                                    src="{{ asset('frontend-assets/img/icon/service/mark.png') }}"
                                                     height="50" alt="">
                                             </div>
                                             <div class="service-process_centent">
@@ -178,75 +181,87 @@
                         <div class="service-process-wrap">
                             <div class="service-process">
                                 <div class="align-content-center service-process_img"><img
-                                        src="{{ asset('frontend-assets/img/icon/social-media-marketing.png') }}"
-                                        height="50" alt="">
+                                        src="{{ asset('frontend-assets/img/icon/service/Social.png') }}" height="50"
+                                        alt="">
                                 </div>
+                                <a href="{{ route('socialMedia') }}">
                                 <div class="service-process_centent">
                                     <h5 class="service-process_title">SOCIAL MEDIA MARKETING</h5>
                                     <p class="service-process_text">Targeting the correct audience at the right
                                         time, across all the social media platforms.</p>
                                 </div>
+                            </a>
                             </div>
                             <div class="service-process">
                                 <div class="align-content-center service-process_img"><img
-                                        src="{{ asset('frontend-assets/img/icon/social-media-marketing.png') }}"
-                                        height="50" alt="">
+                                        src="{{ asset('frontend-assets/img/icon/service/SEO.png') }}" height="50"
+                                        alt="">
                                 </div>
+                                <a href="{{ route('seo') }}">
                                 <div class="service-process_centent">
                                     <h5 class="service-process_title">SEO </h5>
                                     <p class="service-process_text">Ensuring visibility for the search engine,
                                         collaborative efforts that help in brand topping the search list.</p>
                                 </div>
+                                </a>
                             </div>
                             <div class="service-process">
                                 <div class="align-content-center service-process_img"><img
-                                        src="{{ asset('frontend-assets/img/icon/social-media-marketing.png') }}"
-                                        height="50" alt="">
+                                        src="{{ asset('frontend-assets/img/icon/service/Website.png') }}" height="50"
+                                        alt="">
                                 </div>
+                                <a href="{{ route('website') }}">
                                 <div class="service-process_centent">
                                     <h5 class="service-process_title">WEBSITE DEVELOPMENT</h5>
                                     <p class="service-process_text">Creating a face for the brand with seamless
                                         integration, that helps build a connect with your audience.</p>
                                 </div>
+                                </a>
                             </div>
 
 
                             <div class="service-process">
                                 <div class="align-content-center service-process_img"><img
-                                        src="{{ asset('frontend-assets/img/icon/social-media-marketing.png') }}"
-                                        height="50" alt="">
+                                        src="{{ asset('frontend-assets/img/icon/service/Digital.png') }}" height="50"
+                                        alt="">
                                 </div>
-                                <div class="service-process_centent">
-                                    <h5 class="service-process_title">DIGITAL MARKETING</h5>
-                                    <p class="service-process_text">71% prefer communicating through email. One of
-                                        the best ways to personalize communication for your brand.</p>
-                                </div>
+                                <a href="{{ route('digitalMarketing') }}">
+                                    <div class="service-process_centent">
+                                        <h5 class="service-process_title">DIGITAL MARKETING</h5>
+                                        <p class="service-process_text">71% prefer communicating through email. One of
+                                            the best ways to personalize communication for your brand.</p>
+                                    </div>
+                                </a>
                             </div>
                             <div class="service-process">
                                 <div class="align-content-center service-process_img"><img
-                                        src="{{ asset('frontend-assets/img/icon/social-media-marketing.png') }}"
-                                        height="50" alt="">
+                                        src="{{ asset('frontend-assets/img/icon/service/SEM.png') }}" height="50"
+                                        alt="">
                                 </div>
+                                <a href="{{ route('sem') }}">
                                 <div class="service-process_centent">
                                     <h5 class="service-process_title"> SEM</h5>
                                     <p class="service-process_text">Ensuring visibility for the search engine,
                                         collaborative efforts that help in brand topping the search list.</p>
                                 </div>
+                            </a>
                             </div>
                             <div class="service-process">
                                 <div class="align-content-center service-process_img"><img
-                                        src="{{ asset('frontend-assets/img/icon/social-media-marketing.png') }}"
-                                        height="50" alt="">
+                                        src="{{ asset('frontend-assets/img/icon/service/content.png') }}" height="50"
+                                        alt="">
                                 </div>
+                                <a href="{{ route('contentMarketing') }}">
                                 <div class="service-process_centent">
                                     <h5 class="service-process_title">Content Marketing</h5>
                                     <p class="service-process_text">Creating a face for the brand with seamless
                                         integration, that helps build a connect with your audience.</p>
                                 </div>
+                                </a>
                             </div>
                             {{-- <div class="service-process">
                                     <div class="align-content-center service-process_img"><img
-                                            src="{{ asset('frontend-assets/img/icon/social-media-marketing.png') }}"
+                                            src="{ asset('frontend-assets/img/icon/service/Social.png') }}"
                                             height="50" alt="">
                                     </div>
                                     <div class="service-process_centent">
@@ -547,7 +562,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="d-none">
             <div class="container">
                 <h2 class="h2 mt-35 page-title mb-20 text-center text-uppercase"><span class="text-blue">Create More
                         Awareness</span></h2>
@@ -560,10 +575,10 @@
                                 viewBox="0 0 21 20" enable-background="new 0 0 21 20" xml:space="preserve">
                                 <path fill="#FFFFFF"
                                     d="M19.998,6.766l-5.759-0.544c-0.362-0.032-0.676-0.264-0.822-0.61l-2.064-4.999
-                                                                                c-0.329-0.825-1.5-0.825-1.83,0L7.476,5.611c-0.132,0.346-0.462,0.578-0.824,0.61L0.894,6.766C0.035,6.848-0.312,7.921,0.333,8.499
-                                                                                l4.338,3.811c0.279,0.246,0.395,0.609,0.314,0.975l-1.304,5.345c-0.199,0.842,0.708,1.534,1.468,1.089l4.801-2.822
-                                                                                c0.313-0.181,0.695-0.181,1.006,0l4.803,2.822c0.759,0.445,1.666-0.23,1.468-1.089l-1.288-5.345
-                                                                                c-0.081-0.365,0.035-0.729,0.313-0.975l4.34-3.811C21.219,7.921,20.855,6.848,19.998,6.766z" />
+                                                                                    c-0.329-0.825-1.5-0.825-1.83,0L7.476,5.611c-0.132,0.346-0.462,0.578-0.824,0.61L0.894,6.766C0.035,6.848-0.312,7.921,0.333,8.499
+                                                                                    l4.338,3.811c0.279,0.246,0.395,0.609,0.314,0.975l-1.304,5.345c-0.199,0.842,0.708,1.534,1.468,1.089l4.801-2.822
+                                                                                    c0.313-0.181,0.695-0.181,1.006,0l4.803,2.822c0.759,0.445,1.666-0.23,1.468-1.089l-1.288-5.345
+                                                                                    c-0.081-0.365,0.035-0.729,0.313-0.975l4.34-3.811C21.219,7.921,20.855,6.848,19.998,6.766z" />
                             </svg>
 
                         </div>
@@ -584,11 +599,11 @@
                                 <g>
                                     <path fill="#FFFFFF"
                                         d="M17.92,3.065l-1.669-2.302c-0.336-0.464-0.87-0.75-1.479-0.755C14.732,0.008,7.653,0,7.653,0v5.6
-                                                                                    c0,0.096-0.047,0.185-0.127,0.237c-0.081,0.052-0.181,0.06-0.268,0.02l-1.413-0.64C5.773,5.183,5.69,5.183,5.617,5.215l-1.489,0.65
-                                                                                    c-0.087,0.038-0.19,0.029-0.271-0.023c-0.079-0.052-0.13-0.141-0.13-0.235V0H2.191C1.655,0,1.233,0.434,1.233,0.97
-                                                                                    c0,0,0.025,15.952,0.031,15.993c0.084,0.509,0.379,0.962,0.811,1.242l2.334,1.528C4.671,19.905,4.974,20,5.286,20h10.307
-                                                                                    c1.452,0,2.634-1.189,2.634-2.64V4.007C18.227,3.666,18.12,3.339,17.92,3.065z M16.42,17.36c0,0.464-0.361,0.833-0.827,0.833H5.341
-                                                                                    l-1.675-1.089h10.341c0.537,0,0.953-0.44,0.953-0.979V2.039l1.459,2.027V17.36L16.42,17.36z" />
+                                                                                        c0,0.096-0.047,0.185-0.127,0.237c-0.081,0.052-0.181,0.06-0.268,0.02l-1.413-0.64C5.773,5.183,5.69,5.183,5.617,5.215l-1.489,0.65
+                                                                                        c-0.087,0.038-0.19,0.029-0.271-0.023c-0.079-0.052-0.13-0.141-0.13-0.235V0H2.191C1.655,0,1.233,0.434,1.233,0.97
+                                                                                        c0,0,0.025,15.952,0.031,15.993c0.084,0.509,0.379,0.962,0.811,1.242l2.334,1.528C4.671,19.905,4.974,20,5.286,20h10.307
+                                                                                        c1.452,0,2.634-1.189,2.634-2.64V4.007C18.227,3.666,18.12,3.339,17.92,3.065z M16.42,17.36c0,0.464-0.361,0.833-0.827,0.833H5.341
+                                                                                        l-1.675-1.089h10.341c0.537,0,0.953-0.44,0.953-0.979V2.039l1.459,2.027V17.36L16.42,17.36z" />
                                 </g>
                             </svg>
 
@@ -610,10 +625,10 @@
                                 viewBox="0 0 21 20" enable-background="new 0 0 21 20" xml:space="preserve">
                                 <path fill="#FFFFFF"
                                     d="M19.998,6.766l-5.759-0.544c-0.362-0.032-0.676-0.264-0.822-0.61l-2.064-4.999
-                                                                                c-0.329-0.825-1.5-0.825-1.83,0L7.476,5.611c-0.132,0.346-0.462,0.578-0.824,0.61L0.894,6.766C0.035,6.848-0.312,7.921,0.333,8.499
-                                                                                l4.338,3.811c0.279,0.246,0.395,0.609,0.314,0.975l-1.304,5.345c-0.199,0.842,0.708,1.534,1.468,1.089l4.801-2.822
-                                                                                c0.313-0.181,0.695-0.181,1.006,0l4.803,2.822c0.759,0.445,1.666-0.23,1.468-1.089l-1.288-5.345
-                                                                                c-0.081-0.365,0.035-0.729,0.313-0.975l4.34-3.811C21.219,7.921,20.855,6.848,19.998,6.766z" />
+                                                                                    c-0.329-0.825-1.5-0.825-1.83,0L7.476,5.611c-0.132,0.346-0.462,0.578-0.824,0.61L0.894,6.766C0.035,6.848-0.312,7.921,0.333,8.499
+                                                                                    l4.338,3.811c0.279,0.246,0.395,0.609,0.314,0.975l-1.304,5.345c-0.199,0.842,0.708,1.534,1.468,1.089l4.801-2.822
+                                                                                    c0.313-0.181,0.695-0.181,1.006,0l4.803,2.822c0.759,0.445,1.666-0.23,1.468-1.089l-1.288-5.345
+                                                                                    c-0.081-0.365,0.035-0.729,0.313-0.975l4.34-3.811C21.219,7.921,20.855,6.848,19.998,6.766z" />
                             </svg>
 
                         </div>
@@ -635,11 +650,11 @@
                                 <g>
                                     <path fill="#FFFFFF"
                                         d="M17.92,3.065l-1.669-2.302c-0.336-0.464-0.87-0.75-1.479-0.755C14.732,0.008,7.653,0,7.653,0v5.6
-                                                                                    c0,0.096-0.047,0.185-0.127,0.237c-0.081,0.052-0.181,0.06-0.268,0.02l-1.413-0.64C5.773,5.183,5.69,5.183,5.617,5.215l-1.489,0.65
-                                                                                    c-0.087,0.038-0.19,0.029-0.271-0.023c-0.079-0.052-0.13-0.141-0.13-0.235V0H2.191C1.655,0,1.233,0.434,1.233,0.97
-                                                                                    c0,0,0.025,15.952,0.031,15.993c0.084,0.509,0.379,0.962,0.811,1.242l2.334,1.528C4.671,19.905,4.974,20,5.286,20h10.307
-                                                                                    c1.452,0,2.634-1.189,2.634-2.64V4.007C18.227,3.666,18.12,3.339,17.92,3.065z M16.42,17.36c0,0.464-0.361,0.833-0.827,0.833H5.341
-                                                                                    l-1.675-1.089h10.341c0.537,0,0.953-0.44,0.953-0.979V2.039l1.459,2.027V17.36L16.42,17.36z" />
+                                                                                        c0,0.096-0.047,0.185-0.127,0.237c-0.081,0.052-0.181,0.06-0.268,0.02l-1.413-0.64C5.773,5.183,5.69,5.183,5.617,5.215l-1.489,0.65
+                                                                                        c-0.087,0.038-0.19,0.029-0.271-0.023c-0.079-0.052-0.13-0.141-0.13-0.235V0H2.191C1.655,0,1.233,0.434,1.233,0.97
+                                                                                        c0,0,0.025,15.952,0.031,15.993c0.084,0.509,0.379,0.962,0.811,1.242l2.334,1.528C4.671,19.905,4.974,20,5.286,20h10.307
+                                                                                        c1.452,0,2.634-1.189,2.634-2.64V4.007C18.227,3.666,18.12,3.339,17.92,3.065z M16.42,17.36c0,0.464-0.361,0.833-0.827,0.833H5.341
+                                                                                        l-1.675-1.089h10.341c0.537,0,0.953-0.44,0.953-0.979V2.039l1.459,2.027V17.36L16.42,17.36z" />
                                 </g>
                             </svg>
 
@@ -661,22 +676,15 @@
 
         <section class="space">
             <div class="container">
-                <div class="row">
-                    <h2 class="h2 mt-35 page-title mb-20 text-center text-uppercase"><span class="text-blue">Our Featured
-                            Work</span></h2>
-                    <h4 class="mb-20 text-center"><b>We have successfully completed over 800+ Project <br>Now It’s YOUR
-                            turn!</b></h4>
-                </div>
-            </div>
-            <div class="container">
                 <div class="row g-3">
-                    @for ($i = 0; $i < 12; $i++)
+                    {{-- @for ($i = 0; $i < 12; $i++)
                         <div class="col-xxl-3 col-lg-4 col-md-6 col-12">
                             <a href="">
                                 <img src="https://placehold.co/1080x1350" alt="Instagram Post">
                             </a>
                         </div>
-                    @endfor
+                    @endfor --}}
+                    @include('Frontend/partial/servicesCommon')
                 </div>
             </div>
         </section>

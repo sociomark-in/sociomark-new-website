@@ -33,7 +33,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xl-auto filter-item cat1">
-                    <a href="" class="project-item d-block">
+                    <a href="{{ route('social_media', ['client'=>'ayu-health']) }}" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/ayuhealth.jpg') }}"
                                 alt="project image">
@@ -41,7 +41,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xl-auto filter-item cat1">
-                    <a href="" class="project-item d-block">
+                    <a href="{{ route('social_media', ['client'=>'ayu-health']) }}" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/ayuhealth01.jpg') }}"
                                 alt="project image">
@@ -49,7 +49,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xl-auto filter-item cat1">
-                    <a href="" class="project-item d-block">
+                    <a href="{{ route('social_media', ['client'=>'ayushakti']) }}" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/ayushakti.jpg') }}"
                                 alt="project image">
@@ -57,7 +57,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xl-auto filter-item cat9">
-                    <a href="" class="project-item d-block">
+                    <a href="{{ route('social_media', ['client'=>'bem']) }}" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/bem.jpg') }}"
                                 alt="project image">
@@ -88,7 +88,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 col-xl-auto filter-item cat0">
+                {{-- <div class="col-md-3 col-xl-auto filter-item cat0">
                     <a href="" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/dpu.jpg') }}"
@@ -111,7 +111,7 @@
                                 alt="project image">
                         </div>
                     </a>
-                </div>
+                </div> --}}
                 <div class="col-md-3 col-xl-auto filter-item cat0">
                     <a href="" class="project-item d-block">
                         <div class="box-img global-img">
@@ -129,7 +129,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xl-auto filter-item cat6">
-                    <a href="" class="project-item d-block">
+                    <a href="{{ route('social_media', ['client'=>'euro']) }}" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/euro.jpg') }}"
                                 alt="project image">
@@ -137,7 +137,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xl-auto filter-item cat2">
-                    <a href="" class="project-item d-block">
+                    <a href="{{ route('social_media', ['client'=>'jivana']) }}" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/jivana.jpg') }}"
                                 alt="project image">
@@ -185,7 +185,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xl-auto filter-item cat7">
-                    <a href="" class="project-item d-block">
+                    <a href="{{ route('social_media', ['client'=>'nodwin-gaming']) }}" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/nodwin.jpg') }}"
                                 alt="project image">
@@ -249,7 +249,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xl-auto filter-item cat6">
-                    <a href="" class="project-item d-block">
+                    <a href="{{ route('social_media', ['client'=>'shahenaz']) }}" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/shahenaz.jpg') }}"
                                 alt="project image">
@@ -320,14 +320,14 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 col-xl-auto filter-item cat2">
+                {{-- <div class="col-md-3 col-xl-auto filter-item cat2">
                     <a href="" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/totalfood.png') }}"
                                 alt="project image">
                         </div>
                     </a>
-                </div>
+                </div> --}}
                 <div class="col-md-3 col-xl-auto filter-item cat_">
                     <a href="" class="project-item d-block">
                         <div class="box-img global-img">
