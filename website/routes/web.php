@@ -94,7 +94,7 @@ Route::get('/work-culture', [WorkCultureController::class, 'index'])->name('work
 Route::get('/careers', [HomeController::class, 'careers'])->name('careers');
 
 Route::get('/blog', [BlogWebController::class, 'index'])->name('blog');
-Route::get('/blog-inner/{slug}', [BlogWebController::class, 'innerBlog'])->name('blog-inner');
+Route::get('/blog/{slug}', [BlogWebController::class, 'innerBlog'])->name('blog-inner');
 Route::get('/categoryBlog/{slug}', [BlogWebController::class, 'categoryBlog'])->name('categoryBlog');
 Route::get('/tagBlog/{slug}', [BlogWebController::class, 'tagBlog'])->name('tagBlog');
 

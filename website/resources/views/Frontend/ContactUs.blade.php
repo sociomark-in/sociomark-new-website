@@ -29,7 +29,7 @@
             border-radius: 10px;
             padding: 45px 23px;
             /* box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-                            border: 2px solid transparent; */
+                                border: 2px solid transparent; */
             box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
             -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
             -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
@@ -93,6 +93,8 @@
         integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Plugin: JQuery Validator  -->
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 @endsection
 @section('content')
     <main id="contact">
@@ -151,7 +153,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-4">
                         <!-- <div class="title-area text-center">
-                                                </div> -->
+                                                    </div> -->
                         <div class="row gy-4 flex-column">
                             <div class="col-xl-12 col-md-12">
                                 <div class="contact-media">
@@ -373,6 +375,7 @@
                 </div>
             </div>
         </div>
+
         <div id="map">
             <div class="container text-center">
                 <div class="ratio ratio-16x9 ">
