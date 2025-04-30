@@ -162,8 +162,8 @@
                                     </div>
                                     <div class="media-body">
                                         <h4 class="sub-sec-title">Our Address</h4>
-                                        <p class="sec-para">The Affaires, 6th Floor, 603, Sector 17, Palm Beach Road,
-                                            Sanpada,Navi Mumbai 400705</p>
+                                        <p class="sec-para">C1 - 1F - SF10283, Ajman Free Zone C1 Building,
+                                            Business district - Ajman Free Zone</p>
                                     </div>
                                 </div>
                             </div>
@@ -176,7 +176,7 @@
                                         <h4 class="sub-sec-title">Contact Number</h4>
                                         <h6 class="business-contact">For Business</h6>
                                         <p class="sec-para">
-                                            <a href="tel:+918169482831">Mobile: +918169482831</a><br>
+                                            <a href="tel:+919819988640">Mobile: +91 981 998 8640</a><br>
                                             <a href="mailto:
                                         business@sociomark.in">Email:
                                                 business@sociomark.in</a>
