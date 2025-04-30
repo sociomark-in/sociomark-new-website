@@ -29,7 +29,7 @@
             border-radius: 10px;
             padding: 45px 23px;
             /* box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-                            border: 2px solid transparent; */
+                                border: 2px solid transparent; */
             box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
             -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
             -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
@@ -93,6 +93,8 @@
         integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Plugin: JQuery Validator  -->
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 @endsection
 @section('content')
     <main id="contact">
@@ -151,7 +153,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-4">
                         <!-- <div class="title-area text-center">
-                                                </div> -->
+                                                    </div> -->
                         <div class="row gy-4 flex-column">
                             <div class="col-xl-12 col-md-12">
                                 <div class="contact-media">
@@ -373,6 +375,7 @@
                 </div>
             </div>
         </div>
+
         <div id="map">
             <div class="container text-center">
                 <div class="ratio ratio-16x9 ">
@@ -383,8 +386,30 @@
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
 
-                    <iframe src="https://www.google.com/maps/d/embed?mid=1nzvfd-h_8OUYjiTkXBRwYa2w8LMM3pc&ehbc=2E312F"
-                        width="600" height="450"></iframe>
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1bY2NcKFXkbZaH1vzvSDwY51bT_fXqDo&ehbc=2E312F" width="640" height="480"></iframe>
+
+                    {{-- <div id="google-map" style="width: 100%; height: 500px;"></div> --}}
+
+                    @push('scripts')
+                        <script>
+                            function initialize() {
+                                var mapOptions = {
+                                    center: new google.maps.LatLng(19.0330, 73.0297), // Replace with your desired center coordinates
+                                    zoom: 10, // Adjust the zoom level as needed
+                                    mapTypeId: google.maps.MapTypeId.ROADMAP // Or SATELLITE, HYBRID, etc.
+                                };
+                                var map = new google.maps.Map(document.getElementById('google-map'), mapOptions);
+
+                                var kmlLayer = new google.maps.KmlLayer(
+                                "{{ asset('locations.kml') }}", { // Replace with the actual path to your KML file
+                                    preserveViewport: false, // Set to true if you want the map to zoom and pan to fit the KML content
+                                    suppressInfoWindows: false, // Set to true to hide info windows
+                                    map: map
+                                });
+                            }
+                            google.maps.event.addDomListener(window, 'load', initialize);
+                        </script>
+                    @endpush
                 </div>
             </div>
         </div>
