@@ -678,6 +678,8 @@ main#home {
 }
 .testimonial::after{
     right: -10%;
+    top: unset;
+    bottom: 0;
 }
 
 .testimonial-card {

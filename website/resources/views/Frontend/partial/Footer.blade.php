@@ -77,8 +77,8 @@
                                     <a><i class="fa fa-map-marker"></i></a>
                                 </div>
                                 <div class="box-text">
-                                    <a class="box-link">The Affaires, 6th Floor, 603, Sector 17, Palm Beach Road,
-                                        Sanpada,Navi Mumbai 400705</a>
+                                    <a class="box-link">C1 - 1F - SF10283, Ajman Free Zone C1 Building,
+                                        Business district - Ajman Free Zone</a>
                                 </div>
                             </div>
                             <div class="info-box">
@@ -87,7 +87,7 @@
                                     {{-- <img src="assets/img/icon/call.svg" alt=""> --}}
                                 </div>
                                 <div class="box-text">
-                                    <a href="tel:+918169482831" class="box-link">+918169482831</a>
+                                    <a href="tel:+919819988640" class="box-link">+91 981 998 8640</a>
                                 </div>
                             </div>
                             <div class="info-box">
