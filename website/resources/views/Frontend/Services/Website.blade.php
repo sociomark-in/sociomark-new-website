@@ -481,7 +481,7 @@
 
     <section class="overflow-hidden space bg-grey" id="about-sec2">
         <div class="container">
-            <div class="row align-items-start">
+            <div class="row align-items-center">
                 <div class="col-xl-8" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">

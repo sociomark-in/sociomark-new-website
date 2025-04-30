@@ -209,8 +209,8 @@
 
 @section('content')
 <main id="seo-service">
-    <div class="breadcumb-wrapper p-0">
-        <div class="container-fluid">
+    <div class="breadcumb-wrapper p-0" style="margin-top: 66px;">
+        <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-12">
                     <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Digital Marketing.png') }}"
@@ -592,14 +592,14 @@
             </h2>
             <!-- Feature Icons Row 1 -->
             <div class="row justify-content-evenly mt-5">
-                <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
+                <div class="col-12 col-md-4 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Icons/Search Engine Optimization.png') }}" alt="One-Click Reports"
                             class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Search Engine Optimization</div>
                 </div>
-                <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
+                <div class="col-12 col-md-4 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Icons/Social Media marketing.png') }}" alt="Traffic Performance"
                             class="feature-icon">
@@ -607,14 +607,14 @@
                     <div class="sub-sec-title">Social Media marketing</div>
 
                 </div>
-                <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
+                <div class="col-12 col-md-4 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Icons/Website development.png') }}" alt="CRM Module" class="feature-icon">
                     </div>
                     <div class="sub-sec-title">Website development </div>
 
                 </div>
-                <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
+                <div class="col-12 col-md-4 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Icons/Performance marketing.png') }}" alt="Traffic Performance"
                             class="feature-icon">
@@ -622,7 +622,7 @@
                     <div class="sub-sec-title">Performance marketing</div>
 
                 </div>
-                <div class="col-12 col-md-3 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
+                <div class="col-12 col-md-4 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
                     <div class="icon-img me-3">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Icons/photography & video production.png') }}" alt="CRM Module" class="feature-icon">
                     </div>
@@ -635,7 +635,7 @@
             <div class="mt-5" data-aos="zoom-in" data-tilt data-tilt-max="10" data-aos-delay="100"
                 data-aos-duration="1000" data-aos-easing="ease-in-out">
                 <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Package.png') }}" alt="Dashboard Screenshot"
-                    class="dashboard-img">
+                    class="dashboard-img rounded-overflow">
             </div>
         </div>
     </section>

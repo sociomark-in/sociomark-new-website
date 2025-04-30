@@ -489,7 +489,7 @@
 
     <section class="overflow-hidden space bg-grey" id="about-sec2">
         <div class="container">
-            <div class="row align-items-start">
+            <div class="row align-items-center">
                 <div class="col-xl-8" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
@@ -700,7 +700,7 @@
             <div class="mt-5" data-aos="zoom-in" data-tilt data-tilt-max="10" data-aos-delay="100"
                 data-aos-duration="1000" data-aos-easing="ease-in-out">
                 <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Package.png') }}" alt="Dashboard Screenshot"
-                    class="dashboard-img">
+                    class="dashboard-img rounded-overflow">
             </div>
         </div>
     </section>

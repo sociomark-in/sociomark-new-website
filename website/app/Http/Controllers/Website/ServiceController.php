@@ -83,7 +83,7 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/Seo", compact('data', 'blogs'));
+        return view("Frontend/Services/Seo", compact('blogs'));
     }
     public function website()
     {
@@ -110,7 +110,7 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/SocialMedia", compact('data', 'blogs'));
+        return view("Frontend/Services/SocialMedia", compact('blogs'));
     }
     public function digitalMarketing()
     {
@@ -121,7 +121,7 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/digitalMarketing", compact('data', 'blogs'));
+        return view("Frontend/Services/digitalMarketing", compact('blogs'));
     }
     public function contentMarketing()
     {
@@ -132,7 +132,7 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/contentMarketing", compact('data', 'blogs'));
+        return view("Frontend/Services/contentMarketing", compact('blogs'));
     }
     public function sem()
     {
@@ -143,7 +143,7 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/sem", compact('data', 'blogs'));
+        return view("Frontend/Services/sem", compact('blogs'));
     }
     public function photoVideography()
     {
@@ -154,6 +154,6 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/photoVideography", compact('data', 'blogs'));
+        return view("Frontend/Services/photoVideography", compact('blogs'));
     }
 }
