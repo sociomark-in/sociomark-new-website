@@ -65,7 +65,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xl-auto filter-item cat8">
-                    <a href="" class="project-item d-block">
+                    <a href="{{ route('social_media', ['client'=>'bulid-track']) }}" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/buildtrack (1).png') }}"
                                 alt="project image">
@@ -188,6 +188,14 @@
                     <a href="{{ route('social_media', ['client'=>'nodwin-gaming']) }}" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/nodwin.jpg') }}"
+                                alt="project image">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-xl-auto filter-item cat7">
+                    <a href="{{ route('social_media', ['client'=>'grill-box']) }}" class="project-item d-block">
+                        <div class="box-img global-img">
+                            <img src="{{ asset('frontend-assets/img/clients/grillbox.jpg') }}"
                                 alt="project image">
                         </div>
                     </a>
