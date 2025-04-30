@@ -2,7 +2,7 @@
 
 @section('content')
 <main>
-    <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x520">
+    <!-- <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x520">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Terms & Condition</h1>
@@ -12,8 +12,8 @@
                 </ul>
             </div>
         </div>
-    </div>
-    <div class="container space">
+    </div> -->
+    <div class="container space mt-4">
 
         <h1 class="sec-title text-blue text-center">Terms & Condition for Sociomark</h1>
         <p class="sec-para">Welcome to Sociomark!</p>

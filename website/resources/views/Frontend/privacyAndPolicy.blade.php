@@ -2,7 +2,7 @@
 
 @section('content')
 <main>
-    <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x520">
+    <!-- <div class="breadcumb-wrapper " data-bg-src="https://placehold.co/1920x520">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Privary Policy</h1>
@@ -12,8 +12,8 @@
                 </ul>
             </div>
         </div>
-    </div>
-    <div class="container space">
+    </div> -->
+    <div class="container space mt-4">
 
         <h1 class="sec-title text-blue text-center">Privacy Policy for Sociomark</h1>
         <p class="sec-para">At Sociomark, accessible from www.sociomark.in, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Sociomark and how we use it.</p>
