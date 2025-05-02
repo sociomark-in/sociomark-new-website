@@ -27,6 +27,7 @@
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="frontend-assets/img/favicons/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
+<meta name="google-site-verification" content="google-site-verification=a0NtSu5SzNmNugHOqswvRTlQKI1Hb3NiJhhEeKa6rl8">
 
 <!--==============================
  Google Fonts
@@ -66,6 +67,15 @@
 <link rel="stylesheet" href="{{ asset('frontend-assets/css/style.css') }}">
 <link rel="stylesheet" href="{{ asset('frontend-assets/css/custom.css') }}">
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-34R794310E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-34R794310E');
+</script>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
