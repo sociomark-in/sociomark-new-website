@@ -107,6 +107,7 @@ Route::post('/contact/popUpStore', [ContactController::class, 'popUpStore'])->na
 
 Route::get('/privacy-and-policy', [HomeController::class, 'privacyAndPolicy'])->name('privacyAndPolicy');
 Route::get('/terms-and-condition', [HomeController::class, 'termsAndcondition'])->name('termsAndcondition');
+Route::get('/thank-you', [HomeController::class, 'thankYou'])->name('thankYou');
 
 // admin
 
