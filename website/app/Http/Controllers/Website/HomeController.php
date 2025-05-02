@@ -68,4 +68,8 @@ class HomeController extends Controller
     {
         return view("Frontend/termsAndcondition");
     }
+    public function thankYou()
+    {
+        return view("Frontend/thankYou");
+    }
 }
