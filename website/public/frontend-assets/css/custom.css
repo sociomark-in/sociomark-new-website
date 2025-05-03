@@ -722,6 +722,10 @@ main#home {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.testi-grid .box-text{
+    font-size: calc(max(2vmin, 16px));
+}
+
 .th-btn.th-black2:hover {
     color: white;
 }
