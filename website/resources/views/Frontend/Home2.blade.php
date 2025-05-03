@@ -201,7 +201,7 @@
         <div class="content text-content">
             <div class="container h-100">
                 <div class="row h-100 justify-content-center align-items-center">
-                    <div class="col-xxl-10 col-12">
+                    <div class="col-xxl-6 col-xl-6 col-md-6 col-12">
                         <div class="big-title">
                             <h1 data-aos="fade-right" data-aos-duration="2000">
                                 <span>No Noise</span>
