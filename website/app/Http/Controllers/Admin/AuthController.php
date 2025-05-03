@@ -39,7 +39,7 @@ class AuthController extends Controller
     // Login Form
     public function showLoginForm()
     {
-        return view('admin.Login');
+        return view('admin/Login');
     }
 
     // Handle Login
