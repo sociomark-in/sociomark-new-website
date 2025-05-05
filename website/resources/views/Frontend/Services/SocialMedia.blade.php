@@ -398,7 +398,7 @@
         </div>
     </section>
 
-    <section class="overflow-hidden space" id="about-sec3">
+    <section class="overflow-hidden space mb-md-5 mb-3" id="about-sec3">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-10">

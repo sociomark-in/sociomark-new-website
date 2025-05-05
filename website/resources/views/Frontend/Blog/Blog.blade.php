@@ -1,8 +1,8 @@
 @extends('Frontend.layout.app')
-@section('title', 'Home Page')
+@section('title', 'Blog')
 @section('author', 'Your Company Name')
 @section('description', 'This is a dynamic description for the home page.')
-@section('keywords', 'seo, marketing, agency, web design')
+@section('keywords', 'blog, marketing, agency, web design')
 @section('robots', 'INDEX,FOLLOW')
 @section('custome-style')
 <style>
