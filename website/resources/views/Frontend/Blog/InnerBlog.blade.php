@@ -107,15 +107,15 @@
 
 <main>
 
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg')}}">
+    <div class="breadcumb-wrapper " data-bg-src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" style="margin-top: 66px;">
         <div class="container">
-            <div class="breadcumb-content">
+            <!-- <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Blog</h1>
                 <ul class="breadcumb-menu">
                     <li><a href="home-seo-agency.html">Home</a></li>
                     <li>Blog</li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </div>
     <section class="th-blog-wrapper space-top space-extra-bottom" id="Blog_Section">
@@ -149,6 +149,17 @@
                 </div>
                 <div class="col-xxl-4 col-lg-4">
                     <aside class="sidebar-area">
+
+
+                        <div class="box widget widget_tag_cloud">
+                            <h3 class="widget_title">Tags</h3>
+                            <div class="tagcloud">
+                                @foreach ($blog->getTagNames() as $tag)
+                                <a href="#" class="tag-filter" data-tag="{{ $tag }}">{{ $tag }}</a>
+                                @endforeach
+                            </div>
+                        </div>
+
                         <div class="box widget widget_categories">
                             <h3 class="widget_title">Categories</h3>
                             <ul>
@@ -188,7 +199,7 @@
                                 @endforeach
                             </div>
                         </div>
-                        <div class="box widget widget_tag_cloud   ">
+                        <div class="box widget widget_tag_cloud">
                             <h3 class="widget_title">Popular Tags</h3>
                             <div class="tagcloud">
                                 @foreach ($tags->take(6) as $tag)

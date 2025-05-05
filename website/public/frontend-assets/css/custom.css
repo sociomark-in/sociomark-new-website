@@ -1478,8 +1478,8 @@ main#home {
     font-size: 16px;
     text-align: center;
     transition: background 0.3s ease;
+    border-radius: 10px !important;
 }
-
 /* Hover animation */
 .portfolio-item:hover img {
     transform: scale(1.05);
