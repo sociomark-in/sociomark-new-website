@@ -104,7 +104,7 @@
 
         window.onload = function() {
             var pageTitle = document.title;
-            var attentionMessage = 'Habibi Come to Sociomark';
+            var attentionMessage = 'Missing you already';
             var orginalfavicon = $("link[rel*='icon']").attr("href");
             document.addEventListener('visibilitychange', function(e) {
                 var isPageActive = !document.hidden;
