@@ -342,7 +342,7 @@
             <li class="nav-item">
                 <a href="{{ route('contactList') }}"  class="nav-link">
                     <i class="link-icon" data-feather="hash"></i>
-                    <span class="link-title">Leads</span>
+                    <span class="link-title">OutboundLeads</span>
                 </a>
             </li>
             <li class="nav-item">
