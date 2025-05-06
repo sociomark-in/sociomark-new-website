@@ -91,11 +91,11 @@
 
 @section('content')
 <main id="case-study">
-    <section>
+    <section style="margin-top: 68px;">
         <div class="full-width">
             <picture>
-                <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/case-studies.jpg') }}">
-                <img src="{{ asset('frontend-assets/img/banners/case-studies.jpg') }}" alt="">
+                <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/case-studies.png') }}" loading="lazy">
+                <img src="{{ asset('frontend-assets/img/banners/case-studies.png') }}" alt="" loading="lazy">
             </picture>
         </div>
     </section>
@@ -153,7 +153,7 @@
                     <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <img src="{{ asset('frontend-assets/img/case-study/thumbs/stemrx.jpg') }}" alt="image"
-                                class="card__img img-fluid w-100">
+                                class="card__img img-fluid w-100" loading="lazy">
                         </div>
                         <div class="card__data">
                             <h4 class="sub-sec-title">StemRx Bioscience</h4>
@@ -163,7 +163,7 @@
                     <article class="card__article filter-item cat2 cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <img src="{{ asset('frontend-assets/img/case-study/thumbs/expert4travel.jpg') }}"
-                                alt="image" class="card__img img-fluid w-100">
+                                alt="image" class="card__img img-fluid w-100" loading="lazy">
                         </div>
                         <div class="card__data">
                             <h4 class="sub-sec-title">Expert4travel</h4>
@@ -174,7 +174,7 @@
                     <article class="card__article filter-item cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <img src="{{ asset('frontend-assets/img/case-study/thumbs/eduauraa.jpg') }}" alt="image"
-                                class="card__img img-fluid w-100">
+                                class="card__img img-fluid w-100" loading="lazy">
                         </div>
                         <div class="card__data">
                             <h4 class="sub-sec-title">Eduauraa</h4>
@@ -185,7 +185,7 @@
                     <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <img src="{{ asset('frontend-assets/img/case-study/thumbs/shahenaz.jpg') }}" alt="image"
-                                class="card__img img-fluid w-100">
+                                class="card__img img-fluid w-100" loading="lazy">
                         </div>
                         <div class="card__data">
                             <h4 class="sub-sec-title">Shahenaz</h4>
@@ -196,7 +196,7 @@
                     <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <img src="{{ asset('frontend-assets/img/case-study/thumbs/okinawa.jpg') }}" alt="image"
-                                class="card__img img-fluid w-100">
+                                class="card__img img-fluid w-100" loading="lazy">
                         </div>
                         <div class="card__data">
                             <h4 class="sub-sec-title">Okinawa scooters</h4>
@@ -209,7 +209,7 @@
                     <article class="card__article filter-item cat3 cat2 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <img src="{{ asset('frontend-assets/img/case-study/thumbs/ayushakti.jpg') }}"
-                                alt="image" class="card__img img-fluid w-100">
+                                alt="image" class="card__img img-fluid w-100" loading="lazy">
                         </div>
                         <div class="card__data">
                             <h4 class="sub-sec-title">Ayushakti Ayurved</h4>
@@ -220,7 +220,7 @@
                     <article class="card__article filter-item cat1 cat3 cat2 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <img src="{{ asset('frontend-assets/img/case-study/thumbs/nodwin-gaming.jpg') }}"
-                                alt="image" class="card__img img-fluid w-100">
+                                alt="image" class="card__img img-fluid w-100" loading="lazy">
                         </div>
                         <div class="card__data">
                             <h4 class="sub-sec-title">Nodwin Gaming</h4>
@@ -230,7 +230,7 @@
                     <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <img src="{{ asset('frontend-assets/img/case-study/thumbs/smarter-india.jpg') }}"
-                                alt="image" class="card__img img-fluid w-100">
+                                alt="image" class="card__img img-fluid w-100" loading="lazy">
                         </div>
                         <div class="card__data">
                             <h4 class="sub-sec-title">Smarter India</h4>
@@ -241,7 +241,7 @@
                     <article class="card__article filter-item cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <img src="{{ asset('frontend-assets/img/case-study/thumbs/real-estate-awards.jpg') }}"
-                                alt="image" class="card__img img-fluid w-100">
+                                alt="image" class="card__img img-fluid w-100" loading="lazy">
                         </div>
                         <div class="card__data">
                             <h4 class="sub-sec-title">Real Estate Awards</h4>
@@ -252,7 +252,7 @@
                     <article class="card__article filter-item cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <img src="{{ asset('frontend-assets/img/case-study/thumbs/button-dabao-desh-banao.jpg') }}"
-                                alt="image" class="card__img img-fluid w-100">
+                                alt="image" class="card__img img-fluid w-100" loading="lazy">
                         </div>
                         <div class="card__data">
                             <h4 class="sub-sec-title">Button Dabao Desh Banao</h4>
@@ -264,7 +264,7 @@
                     <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <img src="{{ asset('frontend-assets/img/case-study/thumbs/road-to-safety.jpg') }}"
-                                alt="image" class="card__img img-fluid w-100">
+                                alt="image" class="card__img img-fluid w-100" loading="lazy">
                         </div>
                         <div class="card__data">
                             <h4 class="sub-sec-title">Road To Safty Initiative</h4>
@@ -287,7 +287,7 @@
                     <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <img src="{{ asset('frontend-assets/img/case-study/thumbs/lime.jpg') }}" alt="image"
-                                class="card__img img-fluid w-100">
+                                class="card__img img-fluid w-100" loading="lazy">
                         </div>
                         <div class="card__data">
                             <h4 class="sub-sec-title">Lime XII</h4>
@@ -298,7 +298,7 @@
                     <article class="card__article filter-item cat2 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <img src="{{ asset('frontend-assets/img/case-study/thumbs/ace-tattooz.jpg') }}"
-                                alt="image" class="card__img img-fluid w-100">
+                                alt="image" class="card__img img-fluid w-100" loading="lazy">
                         </div>
                         <div class="card__data">
                             <h4 class="sub-sec-title">Ace Tattooz</h4>

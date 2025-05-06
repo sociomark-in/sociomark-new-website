@@ -221,8 +221,8 @@
             <div class="full-width">
                 <picture>
                     <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/work.jpg') }}"
-                        class="w-100">
-                    <img src="{{ asset('frontend-assets/img/banners/work.jpg') }}" alt="" class="w-100">
+                        class="w-100" loading="lazy">
+                    <img src="{{ asset('frontend-assets/img/banners/work.jpg') }}" alt="" class="w-100" loading="lazy">
                 </picture>
             </div>
         </section>
@@ -248,7 +248,7 @@
                     <div class="col-lg-6 mb-30 mb-xl-0">
                         <div class="imgBox img-box2 me-xl-4 mt-lg-60" data-aos="fade-right" data-aos-delay="100">
                             <div class="img1 th-anim mb-35">
-                                <img src="{{ asset('frontend-assets/img/team/home.jpg') }}" class="w-100" alt="About">
+                                <img src="{{ asset('frontend-assets/img/team/home.jpg') }}" class="w-100" alt="About" loading="lazy">
                             </div>
                         </div>
                     </div>
@@ -256,8 +256,7 @@
                         <div class="">
                             <div class="title-area mb-35">
                                 <!-- <span class="sub-title sub-title4 style1 mb-4 mb-md-5">Why Choose Sociomark</span> -->
-                                <h2 class="sec-title ">Your <span class="text-blue">Trusted Partner</span> for Global
-                                    Digital Success</h2>
+                                <h1 class="sec-title ">More than just a  <span class="text-orange">Workplace</span> </h1>
                                 <p class="mb-30 sec-para">At Sociomark, work feels less like a duty and more like a shared passion.
                                     Our culture is built on creativity, collaboration, and a healthy dose of everyday fun.
                                     We believe that the best ideas are born when people feel valued, inspired, and empowered
@@ -305,7 +304,7 @@
                                     <div class="card-top-left"></div>
                                     <div class="card-bottom-right"></div>
                                     <div class="position-absolute-img">
-                                        <img src="{{ asset('frontend-assets/img/ourCulture/1.png') }}" alt="">
+                                        <img src="{{ asset('frontend-assets/img/ourCulture/1.png') }}" alt="" loading="lazy">
                                     </div>
                                     <div class="position-absolute-text">
                                         <h5 class="card-title">24/7 Support</h5>
@@ -389,8 +388,8 @@
                     <div class="col-lg-8">
                         <div class="title-area text-center">
                             <div class="shadow-title">Journey</div>
-                            <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span>
-                            <h2 class="sec-title  ">From Brief to <span class="text-blue">Brilliance</span></h2>
+                            {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
+                            <h2 class="sec-title  ">Our  <span class="text-orange">reMARKable Journey</span></h2>
                         </div>
                     </div>
                 </div>
@@ -736,7 +735,7 @@
                         <div class="text-center">
                             <!-- <div class="shadow-title">Culture</div> -->
                             <!-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Culture<span></span></span> -->
-                            <h2 class="sec-title mb-2">Work <span class="text-blue">Culture</span></h2>
+                            <h2 class="sec-title mb-2">Work <span class="text-orange">Culture</span></h2>
                         </div>
                     </div>
                 </div>
@@ -754,35 +753,35 @@
                             <a href="{{ asset('frontend-assets/img/gallery/workplace/2020 (' . $i . ').jpg') }}"
                                 class="filter-item mb-3 cat-2020 project-item box-img">
                                 <img src="{{ asset('frontend-assets/img/gallery/workplace/2020 (' . $i . ').jpg') }}"
-                                    class="w-100" alt="">
+                                    class="w-100" alt="" loading="lazy">
                             </a>
                         @endfor
                         @for ($i = 1; $i <= 6; $i++)
                             <a href="{{ asset('frontend-assets/img/gallery/workplace/2022 (' . $i . ').jpg') }}"
                                 class="filter-item mb-3 cat-2022 project-item box-img">
                                 <img src="{{ asset('frontend-assets/img/gallery/workplace/2022 (' . $i . ').jpg') }}"
-                                    class="w-100" alt="">
+                                    class="w-100" alt="" loading="lazy">
                             </a>
                         @endfor
                         @for ($i = 1; $i <= 3; $i++)
                             <a href="{{ asset('frontend-assets/img/gallery/workplace/2023 (' . $i . ').jpg') }}"
                                 class="filter-item mb-3 cat-2023 project-item box-img">
                                 <img src="{{ asset('frontend-assets/img/gallery/workplace/2023 (' . $i . ').jpg') }}"
-                                    class="w-100" alt="">
+                                    class="w-100" alt="" loading="lazy">
                             </a>
                         @endfor
                         @for ($i = 1; $i <= 15; $i++)
                             <a href="{{ asset('frontend-assets/img/gallery/workplace/2024 (' . $i . ').jpg') }}"
                                 class="filter-item mb-3 cat-2024 project-item box-img">
                                 <img src="{{ asset('frontend-assets/img/gallery/workplace/2024 (' . $i . ').jpg') }}"
-                                    class="w-100" alt="">
+                                    class="w-100" alt="" loading="lazy">
                             </a>
                         @endfor
                         @for ($i = 1; $i <= 5; $i++)
                             <a href="{{ asset('frontend-assets/img/gallery/workplace/2025 (' . $i . ').jpg') }}"
                                 class="filter-item mb-3 cat-2025 project-item box-img">
                                 <img src="{{ asset('frontend-assets/img/gallery/workplace/2025 (' . $i . ').jpg') }}"
-                                    class="w-100" alt="">
+                                    class="w-100" alt="" loading="lazy">
                             </a>
                         @endfor
                     </div>
