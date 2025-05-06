@@ -16,6 +16,11 @@ class HomeController extends Controller
     }
     public function Home()
     {
+        $meta = [
+            'title' => 'Digital Marketing Agency in UAE | Boost Your Business​',
+            'description' => "We are an award-winning digital marketing company in Dubai, specializing in creative, purpose-driven strategies that highlight your brand's unique personality.",
+            'keywords' => 'Digital Marketing Agency in UAE, digital marketing company in Dubai'
+        ];
         $categories = Category::all();
         $tags = Tag::all();
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
@@ -23,7 +28,7 @@ class HomeController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Home2", compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags'));
+        return view("Frontend/Home2", compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags', 'meta'));
     }
     public function HomeNew()
     {
@@ -50,7 +55,11 @@ class HomeController extends Controller
     }
     public function About()
     {
-        return view("Frontend/AboutUs");
+        $meta = [
+            'title' => 'About Us - Digital Marketing Company in Dubai​​',
+            'description' => "Learn about the story behind SocioMark, a leading digital marketing company in Dubai. Learn about our mission, values, and the team driving your brand's success."
+        ];
+        return view("Frontend/AboutUs", compact('meta'));
     }
     public function Services()
     {

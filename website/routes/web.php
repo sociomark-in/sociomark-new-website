@@ -119,6 +119,7 @@ Route::post('/admin/logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::middleware(['admin:admin,hr,business,user'])->group(function () {
     Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+    Route::get('/admin/leads-chart', [DashboardController::class, 'getLeadsChartData'])->name('admin.leads.chart');
     Route::get('/admin/addservices', [ServicesController::class, 'addServices'])->name('addservices');
     Route::resource('categories', CategoryController::class);
     Route::resource('tags', TagController::class);

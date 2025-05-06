@@ -2,6 +2,9 @@
 <html class="no-js" lang="zxx">
 
 <head>
+    <title>{{ $meta['title'] ?? 'Sociomark' }}</title>
+    <meta name="description" content="{{ $meta['description'] ?? 'Sociomark' }}">
+    <meta name="keywords" content="{{ $meta['keywords'] ?? 'Sociomark' }}">
     @include('Frontend/partial/styleLinks')
     @yield('custome-style')
     @stack('styles')
@@ -14,24 +17,24 @@
 </head>
 
 <body>
-        <!--==============================
+    <!--==============================
      Preloader
   ==============================-->
-  <div class="preloader p-3">
-    {{-- <button class="th-btn style1 preloaderCls">Cancel Preloader </button> --}}
-    <div class="preloader-inner">
-        <img src="{{ asset('frontend-assets/img/preloader.gif') }}" alt="Sociomark" height="200">
+    <div class="preloader p-3">
+        {{-- <button class="th-btn style1 preloaderCls">Cancel Preloader </button> --}}
+        <div class="preloader-inner">
+            <img src="{{ asset('frontend-assets/img/preloader.gif') }}" alt="Sociomark" height="200">
 
-        {{-- <span class="loader"></span> --}}
+            {{-- <span class="loader"></span> --}}
+        </div>
     </div>
-</div>
-<div class="popup-search-box d-none d-lg-block">
-    <button class="searchClose"><i class="fal fa-times"></i></button>
-    <form action="#">
-        <input type="text" placeholder="What are you looking for?">
-        <button type="submit"><i class="fal fa-search"></i></button>
-    </form>
-</div>
+    <div class="popup-search-box d-none d-lg-block">
+        <button class="searchClose"><i class="fal fa-times"></i></button>
+        <form action="#">
+            <input type="text" placeholder="What are you looking for?">
+            <button type="submit"><i class="fal fa-search"></i></button>
+        </form>
+    </div>
     @include('Frontend/partial/Header')
     <style>
         #cursor {

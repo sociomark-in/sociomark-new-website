@@ -9,8 +9,12 @@ class PortfolioController extends Controller
 {
     public function index()
     {
-        return view('Frontend/Portfolio/insidePortfolio');
-        return view('Frontend/Portfolio/ListPortfolioCat');
+        $meta = [
+            'title' => 'Creative Journey: Explore the Work That Speaks for Itself​',
+            'description' => "Explore Sociomark's portfolio showcasing innovative digital marketing, branding, and web development projects that deliver impactful results for clients."
+        ];
+        return view('Frontend/Portfolio/insidePortfolio' , compact('meta'));
+        // return view('Frontend/Portfolio/ListPortfolioCat');
     }
     public function portfolioInside()
     {

@@ -20,7 +20,7 @@
                         <table id="dataTableExample" class="table">
                             <thead>
                                 <tr>
-                                    <th>ID</th>
+                                    <th>Date</th>
                                     <th>Name</th>
                                     <th>Email</th>
                                     <th>Phone Number</th>
@@ -28,24 +28,23 @@
                                     <th>Budget</th>
                                     <th>About Us</th>
                                     <th>Message</th>
-                                    <th>Date</th>
+                                    <td>utm source</td>
+                                    <td>utm_medium </td>
                                 </tr>
                             </thead>
                             <tbody>
                                 @foreach ($contactLists as $contactList)
                                 <tr>
-                                    <td>{{ $contactList->id }}</td>
+                                    <td>{{ $contactList->created_at->format('Y-m-d') }}</td>
                                     <td>{{ $contactList->name }}</td>
-                                   
                                     <td>{{ $contactList->email }}</td>
                                     <td>{{ $contactList->phone }}</td>
                                     <td>{{ $contactList->service }}</td>
                                     <td>{{ $contactList->budget }}</td>
                                     <td>{{ $contactList->aboutUs }}</td>
                                     <td>{{ $contactList->messageforus }}</td>
-                                    <td>{{ $contactList->created_at->format('Y-m-d') }}</td>
-                                  
-
+                                    <td>{{ $contactList->utm_source }}</td>
+                                    <td>{{ $contactList->utm_medium }}</td>
                                 </tr>
                                 @endforeach
                             </tbody>

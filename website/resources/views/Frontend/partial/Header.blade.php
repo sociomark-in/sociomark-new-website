@@ -43,13 +43,14 @@ Mobile Menu
                         <li><a href="{{ route('industry_single', ['segment' => 'home-interior']) }}">Home &
                                 Interior</a></li>
                         <li><a href="{{ route('industry_single', ['segment' => 'automobile']) }}">Automobile</a></li>
-                        {{-- <li><a href="{{ route('industry_single', ['segment' => "b2b"]) }}">B2B</a></li>
-                                        <li><a href="{{ route('industry_single', ['segment' => "travel"]) }}">Travel</a></li> --}}
-                        <li><a href="{{ route('industry_single', ['segment' => 'public-sector']) }}">Public Sector</a>
-                        </li>
-                    </ul>
+                        {{-- <li><a href="{{ route('industry_single', ['segment' => "b2b"]) }}">B2B</a>
                 </li>
-                <li><a href="{{ route('contact') }}">Contact Us</a></li>
+                <li><a href="{{ route('industry_single', ['segment' => "travel"]) }}">Travel</a></li> --}}
+                <li><a href="{{ route('industry_single', ['segment' => 'public-sector']) }}">Public Sector</a>
+                </li>
+            </ul>
+            </li>
+            <li><a href="{{ route('contact') }}">Contact Us</a></li>
             </ul>
         </div>
     </div>
@@ -122,13 +123,14 @@ Header Area
                                         <li><a
                                                 href="{{ route('industry_single', ['segment' => 'automobile']) }}">Automobile</a>
                                         </li>
-                                        {{-- <li><a href="{{ route('industry_single', ['segment' => "b2b"]) }}">B2B</a></li>
-                                        <li><a href="{{ route('industry_single', ['segment' => "travel"]) }}">Travel</a></li> --}}
-                                        <li><a href="{{ route('industry_single', ['segment' => 'public-sector']) }}">Public
-                                                Sector</a></li>
-                                    </ul>
+                                        {{-- <li><a href="{{ route('industry_single', ['segment' => "b2b"]) }}">B2B</a>
                                 </li>
-                                <li><a href="{{ route('contact') }}">Contact Us</a></li>
+                                <li><a href="{{ route('industry_single', ['segment' => "travel"]) }}">Travel</a></li> --}}
+                                <li><a href="{{ route('industry_single', ['segment' => 'public-sector']) }}">Public
+                                        Sector</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="{{ route('contact') }}">Contact Us</a></li>
                             </ul>
                         </nav>
                         <div class="header-button">
@@ -162,9 +164,9 @@ Header Area
             <div class="modal-body">
                 <div class="">
                     @if (session('success'))
-                        <div class="alert alert-success">
-                            {{ session('success') }}
-                        </div>
+                    <div class="alert alert-success">
+                        {{ session('success') }}
+                    </div>
                     @endif
 
                     <!-- Contact Popup Form -->
@@ -177,7 +179,7 @@ Header Area
                                     name="name" id="popName" placeholder="Enter your Name"
                                     value="{{ old('name') }}">
                                 @error('name')
-                                    <span class="text-danger">{{ $message }}</span>
+                                <span class="text-danger">{{ $message }}</span>
                                 @enderror
                             </div>
 
@@ -187,7 +189,7 @@ Header Area
                                     name="email" id="popEmail" placeholder="Enter your Email"
                                     value="{{ old('email') }}">
                                 @error('email')
-                                    <span class="text-danger">{{ $message }}</span>
+                                <span class="text-danger">{{ $message }}</span>
                                 @enderror
                             </div>
 
@@ -197,7 +199,7 @@ Header Area
                                     name="phone" id="popPhone" placeholder="Enter your Phone"
                                     value="{{ old('phone') }}">
                                 @error('phone')
-                                    <span class="text-danger">{{ $message }}</span>
+                                <span class="text-danger">{{ $message }}</span>
                                 @enderror
                             </div>
 
@@ -271,18 +273,18 @@ Header Area
 <!-- popup modal  end-->
 
 @section('custome-style')
-    <style>
-        .modal {
-            position: fixed;
-            z-index: 99;
-        }
-    </style>
-    <!-- form 2 start Plugin: JQuery Validator  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
-        integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/additional-methods.min.js"
-        integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- Plugin: JQuery Validator  -->
+<style>
+    .modal {
+        position: fixed;
+        z-index: 99;
+    }
+</style>
+<!-- form 2 start Plugin: JQuery Validator  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
+    integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/additional-methods.min.js"
+    integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Plugin: JQuery Validator  -->
 @endsection

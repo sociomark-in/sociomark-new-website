@@ -852,6 +852,7 @@ main#home {
 /* portfolio- client :start */
 #portfolio-sec .filter-menu .tab-btn:hover {
     background: transparent !important;
+    border: none;
 }
 
 #portfolio-sec .filter-menu .tab-btn.active {

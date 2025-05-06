@@ -155,11 +155,6 @@
     /* key point section 2 end */
 
     /* gallary :start */
-
-    #portfolio-sec {
-        padding-top: 20px;
-    }
-
     .garally .filter-menu .tab-btn.active {
         border-radius: 27px !important;
         padding: 10px 25px !important;
@@ -176,7 +171,7 @@
         border-radius: 27px !important;
         padding: 10px 25px !important;
         /* box-shadow: 0 4px 8px rgba(0,0,0,0.1); */
-        border: 1px solid black;
+        /* border: 1px solid black; */
         outline: none;
         /* border: 2px solid transparent; */
     }
@@ -247,23 +242,23 @@
                 </div>
             </div>
         </section>
-        <section class="about-area2 mb-md-5 mt-md-5 mt-0 md-0 overflow-hidden space" id="about-sec">
+        <section class="about-area2 overflow-hidden pb-md-5 pb-3 pt-2" id="about-sec">
             <div class="container">
-                <div class="row flex-row-reverse align-items-center">
+                <div class="row flex-row-reverse align-items-start">
                     <div class="col-lg-6 mb-30 mb-xl-0">
                         <div class="imgBox img-box2 me-xl-4 mt-lg-60" data-aos="fade-right" data-aos-delay="100">
                             <div class="img1 th-anim mb-35">
-                                <img src="{{ asset('https://placehold.co/500x500') }}" class="w-100" alt="About">
+                                <img src="{{ asset('frontend-assets/img/team/home.jpg') }}" class="w-100" alt="About">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="">
                             <div class="title-area mb-35">
-                                <span class="sub-title sub-title4 style1 mb-4 mb-md-5">Why Choose Sociomark</span>
+                                <!-- <span class="sub-title sub-title4 style1 mb-4 mb-md-5">Why Choose Sociomark</span> -->
                                 <h2 class="sec-title ">Your <span class="text-blue">Trusted Partner</span> for Global
                                     Digital Success</h2>
-                                <p class="mb-30">At Sociomark, work feels less like a duty and more like a shared passion.
+                                <p class="mb-30 sec-para">At Sociomark, work feels less like a duty and more like a shared passion.
                                     Our culture is built on creativity, collaboration, and a healthy dose of everyday fun.
                                     We believe that the best ideas are born when people feel valued, inspired, and empowered
                                     to bring their whole selves to work. From brainstorming sessions that spark innovation
@@ -388,7 +383,7 @@
             </div>
         </section>
 
-        <section class="space">
+        <section class="space bg-grey">
             <div class="container">
                 <div class="row justify-content-center mb-4">
                     <div class="col-lg-8">
@@ -652,7 +647,7 @@
             </div>
         </section>
 
-        <section class="overflow-hidden space arrow-wrap" id="team-sec">
+        <section class="overflow-hidden arrow-wrap" id="team-sec">
             <div class="container">
                 <div class="row justify-content-lg-between justify-content-center align-items-end d-none">
                     <div class="col-lg-7">
@@ -734,19 +729,19 @@
             </div>
         </section>
 
-        <section class="position-relative space garally" id="portfolio-sec">
+        <section class="position-relative space garally bg-grey" id="portfolio-sec">
             <div class="container">
-                <div class="row justify-content-center mb-4">
+                <div class="row justify-content-center">
                     <div class="col-lg-8">
-                        <div class="title-area text-center">
-                            <div class="shadow-title">Culture</div>
-                            <span class="sub-title sub-title4 mb-4 mb-md-5">Our Culture<span></span></span>
-                            <h2 class="sec-title">Work Culture</h2>
+                        <div class="text-center">
+                            <!-- <div class="shadow-title">Culture</div> -->
+                            <!-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Culture<span></span></span> -->
+                            <h2 class="sec-title mb-2">Work <span class="text-blue">Culture</span></h2>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio-area">
-                    <div class="filter-menu filter-menu-active mt-5 mb-4">
+                    <div class="filter-menu filter-menu-active mt-5 mb-5">
                         <button data-filter="*" class="tab-btn active" type="button">All Moments</button>
                         <button data-filter=".cat-2025" class="tab-btn" type="button">2025</button>
                         <button data-filter=".cat-2024" class="tab-btn" type="button">2024</button>

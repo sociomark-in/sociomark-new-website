@@ -8,6 +8,10 @@ use Illuminate\Http\Request;
 class WorkCultureController extends Controller
 {
     public function index(){
-        return view("Frontend/WorkCulture");
+        $meta = [
+            'title' => 'Our Work Culture: Where Deadlines Meet Dance Breaks​',
+            'description' => "Get a glimpse of Sociomark's vibrant work culture where creativity thrives, collaboration is key, and innovation drives success in every digital marketing campaign."
+        ];
+        return view("Frontend/WorkCulture", compact('meta'));
     }
 }

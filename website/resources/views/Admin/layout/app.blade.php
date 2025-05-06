@@ -17,7 +17,7 @@
         </div>
     </div>
 
-
+    @yield('custom-js')
     @include('admin.partials.jsLink')
 
 </body>

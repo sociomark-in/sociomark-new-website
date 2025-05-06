@@ -76,6 +76,11 @@ class ServiceController extends Controller
 
     public function seo()
     {
+        $meta = [
+            'title' => 'SEO Agency in UAE | Boost Your Rankings with Sociomark',
+            'description' => 'Looking for the best SEO company in Dubai? Our SEO experts help your business grow online with proven strategies. Get top rankings and more traffic today!',
+            'keywords' => 'SEO Agency in UAE, SEO company in Dubai'
+        ];
         $categories = Category::all();
         $tags = Tag::all();
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
@@ -83,10 +88,15 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/Seo", compact('blogs'));
+        return view("Frontend/Services/Seo", compact('blogs', 'meta'));
     }
     public function website()
     {
+        $meta = [
+            'title' => 'Website Development Company in UAE | Build Your Online Presence',
+            'description' => 'Looking for a top website development agency in Dubai? Our experts build responsive, user-friendly websites that drive conversions and boost online presence.',
+            'keywords' => 'Website Development Company in UAE, website development agency in Dubai'
+        ];
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
         $this->data['clients'] = [
             'news-and-media' => [
@@ -99,10 +109,15 @@ class ServiceController extends Controller
                 ]
             ]
         ];
-        return view("Frontend/Services/Website", compact('blogs'), ['data', $this->data]);
+        return view("Frontend/Services/Website", compact('blogs'), 'meta', ['data', $this->data]);
     }
     public function socialMedia()
     {
+        $meta = [
+            'title' => 'Social Media Marketing Agency in UAE | Grow Your Brand',
+            'description' => 'Partner with the top Social Media Marketing Company in Dubai. We create impactful campaigns that drive engagement, reach, and growth for your business.',
+            'keywords' => 'Social Media Marketing Agency in UAE, Social Media Marketing Company in Dubai'
+        ];
         $categories = Category::all();
         $tags = Tag::all();
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
@@ -110,10 +125,15 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/SocialMedia", compact('blogs'));
+        return view("Frontend/Services/SocialMedia", compact('blogs' ,'meta'));
     }
     public function digitalMarketing()
     {
+        $meta = [
+            'title' => 'Leading Digital Marketing Agency in UAE | Grow with Experts',
+            'description' => 'Top Digital Marketing Company in Dubai offering SEO, social media, PPC & more. Drive leads, boost sales & grow your brand with proven strategies.',
+            'keywords' => 'digital marketing in Dubai, Digital Marketing in UAE '
+        ];
         $categories = Category::all();
         $tags = Tag::all();
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
@@ -121,10 +141,16 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/digitalMarketing", compact('blogs'));
+        return view("Frontend/Services/digitalMarketing", compact('blogs', 'meta'));
     }
     public function contentMarketing()
     {
+        $meta = [
+            'title' => 'Top Content Marketing Agency in UAE | Expert Services',
+            'description' => 'Looking for content marketing services in Dubai? Our agency offers tailored content strategies to boost your brand’s visibility and engagement across all platforms.',
+            'keywords' => 'Content Marketing Agency in UAE, content marketing services in Dubai'
+        ];
+
         $categories = Category::all();
         $tags = Tag::all();
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
@@ -132,10 +158,15 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/contentMarketing", compact('blogs'));
+        return view("Frontend/Services/contentMarketing", compact('blogs', 'meta'));
     }
     public function sem()
     {
+        $meta = [
+            'title' => 'Performance Marketing Agency in UAE | Get Quality Leads',
+            'description' => 'Boost your ROI with the best performance marketing company in Dubai. We deliver data driven strategies to maximize growth and drive measurable success.',
+            'keywords' => 'Performance Marketing Agency in UAE, performance marketing company in Dubai'
+        ];
         $categories = Category::all();
         $tags = Tag::all();
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
@@ -143,10 +174,15 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/sem", compact('blogs'));
+        return view("Frontend/Services/sem", compact('blogs', 'meta'));
     }
     public function photoVideography()
     {
+        $meta = [
+            'title' => 'Top Photography and Videography Services in UAE | Creative',
+            'description' => 'Capture stunning moments with top photography and videography services in Dubai. We create impactful visuals that elevate your brand’s story and engagement.',
+            'keywords' => 'Photography and Videography Company in UAE, photography and videography services in Dubai'
+        ];
         $categories = Category::all();
         $tags = Tag::all();
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
@@ -154,6 +190,6 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/photoVideography", compact('blogs'));
+        return view("Frontend/Services/photoVideography", compact('blogs','meta'));
     }
 }

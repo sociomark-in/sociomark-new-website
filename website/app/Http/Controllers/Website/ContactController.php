@@ -11,7 +11,10 @@ class ContactController extends Controller
 {
     public function index()
     {
-        return view("Frontend/ContactUs");
+        $meta = [
+            'description' => "Reach out to Sociomark, a leading digital marketing agency in Dubai, for expert solutions in branding, SEO, social media, and web development. Let's connect today!"
+        ];
+        return view("Frontend/ContactUs", compact('meta'));
     }
     public function store(Request $request)
     {
@@ -23,7 +26,13 @@ class ContactController extends Controller
             'budget' => 'required',
             'aboutUs' => 'required',
             'messageforus' => 'required',
-        ]);        
+            // Optional UTM parameters
+            'utm_source' => 'nullable|string|max:255',
+            'utm_medium' => 'nullable|string|max:255',
+            'utm_campaign' => 'nullable|string|max:255',
+            'utm_term' => 'nullable|string|max:255',
+            'utm_content' => 'nullable|string|max:255',
+        ]);
 
         Contact::create($request->all());
         return redirect()->route('thankYou')->with('success', 'Your message has been sent successfully!');
