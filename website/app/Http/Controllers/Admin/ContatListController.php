@@ -14,9 +14,9 @@ class ContatListController extends Controller
         $contactLists = Contact::orderBy("created_at", "desc")->paginate(10);
         return view("admin/Pages/Contact/ContactList", compact("contactLists", "popContactLists"));
     }
-    public function popContact()
-    {
-        $popContactLists = PopUpContact::orderBy("created_at", "desc")->paginate(10);
-        return view("admin/Pages/Contact/popUpContact", compact("popContactLists"));
-    }
+    // public function popContact()
+    // {
+    //     $popContactLists = PopUpContact::orderBy("created_at", "desc")->paginate(10);
+    //     return view("admin/Pages/Contact/popUpContact", compact("popContactLists"));
+    // }
 }

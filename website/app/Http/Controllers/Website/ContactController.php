@@ -45,7 +45,7 @@ class ContactController extends Controller
             'phone' => ['required', 'regex:/^\+?[0-9\s\-]{7,20}$/'],
         ]);
 
-        PopUpContact::create($request->all());
+        Contact::create($request->all());
         return redirect()->route('thankYou')->with('success', 'Your message has been sent successfully!');
     }
 }
