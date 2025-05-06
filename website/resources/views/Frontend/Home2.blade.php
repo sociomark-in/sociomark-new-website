@@ -204,8 +204,8 @@
             <div class="content text-content">
                 <div class="container h-100">
                     <div class="row h-100 justify-content-center align-items-center">
-                        <div class="col-xxl-6 col-xl-6 col-md-6 col-12">
-                            <div class="big-title">
+                        <div class="col-xxl-9 col-xl-9 col-md-9 col-12">
+                            <div class="big-title text-center">
                                 <h1 data-aos="fade-right" data-aos-duration="2000">
                                     <span>No Noise</span>
                                 </h1>
@@ -433,7 +433,7 @@
                             src="https://www.youtube.com/embed/fUcECL2KLeg?controls=0&autoplay=1&mute=1"
                             title="Sociomark Showreel" frameborder="0" allow="autoplay;  picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
-                            <video class="w-100" playsinline autoplay muted loop>
+                            <video preload="auto" class="w-100" playsinline autoplay muted loop>
                                 <source src="{{ asset('frontend-assets/sociomark_showreel.mp4') }}">
                             </video>
                         </div>

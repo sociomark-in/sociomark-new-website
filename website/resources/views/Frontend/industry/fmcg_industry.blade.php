@@ -345,50 +345,50 @@
                 </div>
                 <div class="portfolio-area" data-aos="zoom-in" data-aos-delay="200">
                     <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
-                        <div class="col-md-3 col-xl-auto filter-item cat2">
+                        <div class="col-md-3 col-xl-auto filter-item cat2 cat2 cat3">
                             <a href="javascript:void(0)" class="project-item d-block">
                                 <div class="box-img global-img">
-                                    <img src="{{ asset('frontend-assets/img/clients/jivana.jpg') }}" alt="project image">
+                                    <img src="{{ asset('frontend-assets/img/clients/jivana.jpg') }}" alt="Jivana">
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat5 cat1">
+                        <div class="col-md-3 col-xl-auto filter-item cat2 cat1">
                             <a href="javascript:void(0)" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/total.jpg') }}"
-                                        alt="project image">
+                                        alt="Total Foods">
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                        <div class="col-md-3 col-xl-auto filter-item cat4 cat1">
                             <a href="javascript:void(0)" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/othnanaimo.jpg') }}"
-                                        alt="project image w-100">
+                                        alt="offthook Nanaimo">
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                        <div class="col-md-3 col-xl-auto filter-item cat4 cat1">
                             <a href="javascript:void(0)" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/trollers.jpg') }}"
-                                        alt="project image w-100">
+                                        alt="Trollers">
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                        <div class="col-md-3 col-xl-auto filter-item cat4 cat1">
                             <a href="javascript:void(0)" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/trollersfishnchips.jpg') }}"
-                                        alt="project image w-100">
+                                        alt="Trollers fish & Chips">
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                        <div class="col-md-3 col-xl-auto filter-item cat4 cat1">
                             <a href="javascript:void(0)" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/kinnal.jpg') }}"
-                                        alt="project image w-100">
+                                        alt="Kinaal Toys">
                                 </div>
                             </a>
                         </div>

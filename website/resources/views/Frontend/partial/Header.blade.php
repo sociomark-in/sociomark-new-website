@@ -46,7 +46,7 @@ Mobile Menu
                         {{-- <li><a href="{{ route('industry_single', ['segment' => "b2b"]) }}">B2B</a>
                 </li>
                 <li><a href="{{ route('industry_single', ['segment' => "travel"]) }}">Travel</a></li> --}}
-                <li><a href="{{ route('industry_single', ['segment' => 'public-sector']) }}">Public Sector</a>
+                <li><a href="{{ route('industry_single', ['segment' => 'public-sector']) }}">Government Bodies</a>
                 </li>
             </ul>
             </li>
@@ -126,8 +126,7 @@ Header Area
                                         {{-- <li><a href="{{ route('industry_single', ['segment' => "b2b"]) }}">B2B</a>
                                 </li>
                                 <li><a href="{{ route('industry_single', ['segment' => "travel"]) }}">Travel</a></li> --}}
-                                <li><a href="{{ route('industry_single', ['segment' => 'public-sector']) }}">Public
-                                        Sector</a></li>
+                                <li><a href="{{ route('industry_single', ['segment' => 'public-sector']) }}">Government Bodies</a></li>
                             </ul>
                             </li>
                             <li><a href="{{ route('contact') }}">Contact Us</a></li>
