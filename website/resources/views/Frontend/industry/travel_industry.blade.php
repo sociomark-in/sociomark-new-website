@@ -1,12 +1,9 @@
 @extends('Frontend.layout.app')
 @section('content')
     <main id="industries">
-        <section>
+        <section class="p-0" style="margin-top: 66px;">
             <div class="full-width">
-                <picture>
-                    <source media="(min-width: 1400px)" srcset="https://placehold.co/1920x900">
-                    <img src="https://placehold.co/1080x1080" alt="">
-                </picture>
+                <img src="{{ asset('frontend-assets/img/industry/Travel.png') }}" alt="" srcset="" class="w-100" loading="lazy">
             </div>
         </section>
         <section class="overflow-hidden space" id="about-sec">
@@ -137,7 +134,7 @@
         </section>
 
         {{-- Testimonials --}}
-        @include('Frontend.partial.testimonials.layout-02')
+        @include('Frontend.partial.testimonial.layout-02')
 
 
         <section class="overflow-hidden bg-smoke2 space d-none">

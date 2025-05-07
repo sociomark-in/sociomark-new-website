@@ -3,7 +3,7 @@
     <main id="industries">
         <section class="p-0" style="margin-top: 66px;">
             <div class="full-width">
-                <img src="{{ asset('frontend-assets/img/industry/Automobile.png') }}" alt="" srcset="" class="w-100">
+                <img src="{{ asset('frontend-assets/img/industry/Automobile.png') }}" alt="" srcset="" class="w-100" loading="lazy">
             </div>
         </section>
         <section class="overflow-hidden space" id="about-sec">
