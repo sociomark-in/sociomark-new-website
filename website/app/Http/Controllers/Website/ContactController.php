@@ -25,7 +25,7 @@ class ContactController extends Controller
             'service' => 'required',
             'budget' => 'required',
             'aboutUs' => 'required',
-            'messageforus' => 'required',
+            'messageforus' => 'nullable',
             // Optional UTM parameters
             'utm_source' => 'nullable|string|max:255',
             'utm_medium' => 'nullable|string|max:255',

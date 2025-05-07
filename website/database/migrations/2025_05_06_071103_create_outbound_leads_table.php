@@ -23,11 +23,14 @@ return new class extends Migration
             $table->string('service')->nullable();
             $table->string('location')->nullable();
             $table->string('source')->nullable();
-            $table->enum('status', ['New', 'inProgress', 'active', 'done'])->default('New');
+            $table->enum('status', ['New', 'Hot', 'Warm', 'Cold'])->default('New');
             $table->date('first_contact_date')->nullable();
-            $table->date('previous_contact_date')->nullable();
             $table->text('notes')->nullable();
-            $table->date('follow_up_date')->nullable();
+            $table->date('second_followup_date')->nullable();
+            $table->text('notes2')->nullable();
+            $table->string('budget')->nullable();
+            $table->date('third_follow_up_date')->nullable();
+            $table->text('notes3')->nullable();
             $table->string('assigned_to')->nullable();
             $table->timestamps();
         });

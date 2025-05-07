@@ -47,7 +47,7 @@
                         <div class="form-group col-md-6">
 
                             <label class="form-label" for="service">Service you want?</label>
-                            <select class="form-select @error('service') is-invalid @enderror" id="service" name="service">
+                            <select class="form-select @error('service') is-invalid @enderror" id="service" name="service" required>
                                 <option selected disabled>Choose an option</option>
                                 <option value="Search Engine Optimization">Search Engine Optimization</option>
                                 <option value="Website Development">Website Development</option>
@@ -66,7 +66,7 @@
                         <div class="form-group col-md-6">
 
                             <label class="form-label" for="budget">Marketing Budget</label>
-                            <select class="form-select @error('budget') is-invalid @enderror" id="budget" name="budget">
+                            <select class="form-select @error('budget') is-invalid @enderror" id="budget" name="budget" required>
                                 <option selected disabled>Choose an option</option>
                                 <option value="Under ₹ 25000">Under ₹ 25000</option>
                                 <option value="₹ 25,000 - ₹ 1,00,000">₹ 25,000 - ₹ 1,00,000</option>
@@ -81,7 +81,7 @@
                         <div class="form-group col-md-6">
 
                             <label class="form-label" for="aboutUs">How did you hear about Us?</label>
-                            <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs" name="aboutUs">
+                            <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs" name="aboutUs" required>
                                 <option selected disabled>Choose an option</option>
                                 <option value="Through Search
                                         Engines(Google, Bing etc.)">Through Search

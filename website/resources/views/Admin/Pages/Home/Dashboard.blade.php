@@ -30,7 +30,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="d-flex justify-content-between align-items-baseline">
-                                <h6 class="card-title mb-0">Total Leads</h6>
+                                <h6 class="card-title mb-0">Total Inbound Leads</h6>
                                 <div class="dropdown mb-2">
                                     <a type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="icon-lg text-secondary pb-3px" data-feather="more-horizontal"></i>
@@ -65,7 +65,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="d-flex justify-content-between align-items-baseline">
-                                <h6 class="card-title mb-0">Leads in This Month</h6>
+                                <h6 class="card-title mb-0">Inbound Leads in This Month</h6>
                                 <div class="dropdown mb-2">
                                     <a type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="icon-lg text-secondary pb-3px" data-feather="more-horizontal"></i>
@@ -141,15 +141,137 @@
                     </div>
                 </div>
             </div>
+            
         </div>
-    </div> <!-- row -->
+    </div> 
+    <div class="row">
+        <div class="col-12 col-xl-12 stretch-card">
+            <div class="row flex-grow-1">
+                <div class="col-md-4 grid-margin stretch-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-baseline">
+                                <h6 class="card-title mb-0">Total Outbound Leads</h6>
+                                <div class="dropdown mb-2">
+                                    <a type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="icon-lg text-secondary pb-3px" data-feather="more-horizontal"></i>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="eye" class="icon-sm me-2"></i> <span class="">View</span></a>
+                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="edit-2" class="icon-sm me-2"></i> <span class="">Edit</span></a>
+                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="trash" class="icon-sm me-2"></i> <span class="">Delete</span></a>
+                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="printer" class="icon-sm me-2"></i> <span class="">Print</span></a>
+                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="download" class="icon-sm me-2"></i> <span class="">Download</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 col-md-12 col-xl-5">
+                                    <h3 class="mb-2">{{ $out_bound_lead->COUNT() }}</h3>
+                                    <div class="d-flex align-items-baseline">
+                                        <!-- <p class="text-success">
+                                            <span>+3.3%</span>
+                                            <i data-feather="arrow-up" class="icon-sm mb-1"></i>
+                                        </p> -->
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-12 col-xl-7">
+                                    <div id="customersChart" class="mt-md-3 mt-xl-0"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 grid-margin stretch-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-baseline">
+                                <h6 class="card-title mb-0">Outbound Leads in This Month</h6>
+                                <div class="dropdown mb-2">
+                                    <a type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="icon-lg text-secondary pb-3px" data-feather="more-horizontal"></i>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="eye" class="icon-sm me-2"></i> <span class="">View</span></a>
+                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="edit-2" class="icon-sm me-2"></i> <span class="">Edit</span></a>
+                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="trash" class="icon-sm me-2"></i> <span class="">Delete</span></a>
+                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="printer" class="icon-sm me-2"></i> <span class="">Print</span></a>
+                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="download" class="icon-sm me-2"></i> <span class="">Download</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-6 col-md-12 col-xl-5">
+                                    <h3 class="mb-2">{{ $currentMonthInLeadCount }}</h3>
+                                    @php
+                                    $isUp = $inchange >= 0;
+                                    $icon = $isUp ? 'arrow-up' : 'arrow-down';
+                                    $color = $isUp ? 'text-success' : 'text-danger';
+                                    $changeFormatted = number_format(abs($inchange), 1); // e.g. 2.8%
+                                    @endphp
+
+                                    <div class="d-flex align-items-baseline">
+                                        <p class="{{ $color }}">
+                                            <span>{{ $isUp ? '+' : '-' }}{{ $changeFormatted }}%</span>
+                                            <i data-feather="{{ $icon }}" class="icon-sm mb-1"></i>
+                                            
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-12 col-xl-7">
+                                    <div id="ordersChart" class="mt-md-3 mt-xl-0"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 grid-margin stretch-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-baseline">
+                                <h6 class="card-title mb-0">Visiter This Day</h6>
+                                <div class="dropdown mb-2">
+                                    <a type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="icon-lg text-secondary pb-3px" data-feather="more-horizontal"></i>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="eye" class="icon-sm me-2"></i> <span class="">View</span></a>
+                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="edit-2" class="icon-sm me-2"></i> <span class="">Edit</span></a>
+                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="trash" class="icon-sm me-2"></i> <span class="">Delete</span></a>
+                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="printer" class="icon-sm me-2"></i> <span class="">Print</span></a>
+                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="download" class="icon-sm me-2"></i> <span class="">Download</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6 col-md-12 col-xl-5">
+                                    <h3 class="mb-2">{{$visitsToday}}</h3>
+                                    <div class="d-flex align-items-baseline">
+                                        <p class="text-success">
+                                            <span>+2.8%</span>
+                                            <i data-feather="arrow-up" class="icon-sm mb-1"></i>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-12 col-xl-7">
+                                    <div id="growthChart" class="mt-md-3 mt-xl-0"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div> 
 
     <div class="row">
         <div class="col-12 col-xl-12 grid-margin stretch-card">
             <div class="card overflow-hidden">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-baseline mb-4 mb-md-3">
-                        <h6 class="card-title mb-0">MONTHLY LEADS</h6>
+                        <h6 class="card-title mb-0">MONTHLY Inbound LEADS</h6>
                         <div class="dropdown">
                             <a type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="icon-lg text-secondary pb-3px" data-feather="more-horizontal"></i>
@@ -165,7 +287,7 @@
                     </div>
                     <div class="row align-items-start">
                         <div class="col-md-7">
-                            <p class="text-secondary fs-13px mb-3 mb-md-0">Revenue is the income that a business has from its normal business activities, usually from the sale of goods and services to customers.</p>
+                            <!-- <p class="text-secondary fs-13px mb-3 mb-md-0">Revenue is the income that a business has from its normal business activities, usually from the sale of goods and services to customers.</p> -->
                         </div>
                         <div class="col-md-5 d-flex justify-content-md-end">
                             <div class="btn-group mb-3" role="group">

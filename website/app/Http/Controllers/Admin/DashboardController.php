@@ -7,41 +7,63 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
 use App\Models\Contact;
+use App\Models\outboundLead;
 use Illuminate\Support\Facades\Log;
 use App\Models\Visit;
 
 class DashboardController extends Controller
 {
+
     public function index()
     {
         $contact_leads = Contact::get();
-
+        $out_bound_lead = outboundLead::get();
         $now = Carbon::now();
-        // Current month lead count
+    
+        // ----- INBOUND (Contact) LEADS -----
         $currentMonthLeadCount = Contact::whereMonth('created_at', $now->month)
             ->whereYear('created_at', $now->year)
             ->count();
-
-        // Last month lead count
+    
         $lastMonth = $now->copy()->subMonth();
-
         $lastMonthLeadCount = Contact::whereMonth('created_at', $lastMonth->month)
             ->whereYear('created_at', $lastMonth->year)
             ->count();
-
-        // Calculate change percentage (handle divide-by-zero)
+    
         $change = 0;
         if ($lastMonthLeadCount > 0) {
             $change = (($currentMonthLeadCount - $lastMonthLeadCount) / $lastMonthLeadCount) * 100;
         }
-        // $currentMonthLeadCount = Contact::whereMonth('created_at', Carbon::now()->month)
-        //     ->whereYear('created_at', Carbon::now()->year)
-        //     ->count();
-
-
+    
+        // ----- OUTBOUND LEADS -----
+        $currentMonthInLeadCount = outboundLead::whereMonth('created_at', $now->month)
+            ->whereYear('created_at', $now->year)
+            ->count();
+    
+        $lastMonthOutbound = $now->copy()->subMonth(); // different variable to avoid confusion
+        $lastMonthinLeadCount = outboundLead::whereMonth('created_at', $lastMonthOutbound->month)
+            ->whereYear('created_at', $lastMonthOutbound->year)
+            ->count();
+    
+        $inchange = 0;
+        if ($lastMonthinLeadCount > 0) {
+            $inchange = (($currentMonthInLeadCount - $lastMonthinLeadCount) / $lastMonthinLeadCount) * 100;
+        }
+    
+        // ----- VISITS -----
         $visitsToday = Visit::whereDate('visited_at', Carbon::today())->count();
-        return view("admin/Pages/Home/Dashboard", compact('contact_leads', 'currentMonthLeadCount', 'change', 'visitsToday'));
+    
+        return view("admin/Pages/Home/Dashboard", compact(
+            'contact_leads',
+            'currentMonthLeadCount',
+            'change',
+            'visitsToday',
+            'out_bound_lead',
+            'inchange',
+            'currentMonthInLeadCount'
+        ));
     }
+    
     public function getLeadsChartData(Request $request)
     {
         try {

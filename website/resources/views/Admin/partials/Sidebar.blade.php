@@ -346,7 +346,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="{{ route('popUpcontactList') }}"  class="nav-link">
+                <a href="{{ route('listLead') }}"  class="nav-link">
                     <i class="link-icon" data-feather="hash"></i>
                     <span class="link-title">outbound Leads</span>
                 </a>

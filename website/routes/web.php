@@ -125,8 +125,12 @@ Route::middleware(['admin:admin,hr,business,user'])->group(function () {
     Route::resource('/admin/categories', CategoryController::class);
     Route::resource('/admin/tags', TagController::class);
     Route::resource('/admin/blogs', BlogController::class);
-    Route::get('admin/outbound-lead', [outboundLeadController::class, 'addLead']);
+    Route::get('admin/outbound-lead', [outboundLeadController::class, 'addLead'])->name('addlead');
     Route::post('admin/outbound-lead', [outboundLeadController::class, 'StoreLead'])->name('storeLead');
+    Route::get('admin/outbound-lead-list', [outboundLeadController::class, 'listLead'])->name('listLead');
+    Route::get('admin/outbound-lead-edit/{id}', [outboundLeadController::class, 'editLead'])->name('editLead');
+    Route::put('admin/outbound-lead-update/{id}', [outboundLeadController::class, 'updateLead'])->name('updateLead');
+    Route::post('admin/outbound-lead-delete/{id}', [outboundLeadController::class, 'deleteLead'])->name('deleteLead');
     Route::get('admin/Work-gallary/create', [AdminWorkCultureController::class, 'create']);
     Route::get('admin/enquiryList', [ContatListController::class,'index'])->name('contactList');
     Route::get('admin/contact-list', [ContatListController::class,'popContact'])->name('popUpcontactList');
