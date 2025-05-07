@@ -4,7 +4,7 @@
         <section>
             <div class="full-width">
                 <picture>
-                    <source media="(min-width: 1400px)" srcset="https://placehold.co/1920x900">
+                    <source media="(min-width: 1400px)" srcset="https://placehold.co/1920x900" loading="lazy">
                     <img src="https://placehold.co/1080x1080" alt="">
                 </picture>
             </div>
