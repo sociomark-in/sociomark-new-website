@@ -342,13 +342,13 @@
             <li class="nav-item">
                 <a href="{{ route('contactList') }}"  class="nav-link">
                     <i class="link-icon" data-feather="hash"></i>
-                    <span class="link-title">OutboundLeads</span>
+                    <span class="link-title">Inbound Leads</span>
                 </a>
             </li>
             <li class="nav-item">
                 <a href="{{ route('popUpcontactList') }}"  class="nav-link">
                     <i class="link-icon" data-feather="hash"></i>
-                    <span class="link-title">Pop Form Leads</span>
+                    <span class="link-title">outbound Leads</span>
                 </a>
             </li>
             @endcan
