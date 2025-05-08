@@ -18,6 +18,7 @@ use App\Http\Controllers\Website\CaseStudyController;
 use App\Http\Controllers\Website\PortfolioController;
 use App\Http\Controllers\Website\ServiceController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactListController;
 
 Route::get('/welcome', function () {
     return view('welcome');
@@ -132,6 +133,12 @@ Route::middleware(['admin:admin,hr,business,user'])->group(function () {
     Route::put('admin/outbound-lead-update/{id}', [outboundLeadController::class, 'updateLead'])->name('updateLead');
     Route::post('admin/outbound-lead-delete/{id}', [outboundLeadController::class, 'deleteLead'])->name('deleteLead');
     Route::get('admin/Work-gallary/create', [AdminWorkCultureController::class, 'create']);
-    Route::get('admin/enquiryList', [ContatListController::class,'index'])->name('contactList');
-    Route::get('admin/contact-list', [ContatListController::class,'popContact'])->name('popUpcontactList');
+    // Route::get('admin/enquiryList', [ContatListController::class,'index'])->name('contactList');
+    Route::get('admin/enquiryList', [ContatListController::class,'popContact'])->name('popUpcontactList');
+    
+
+    Route::get('/admin/contact-graph', [ContatListController::class, 'graph'])->name('contactList');
+    Route::get('admin/inbound-lead-edit/{id}', [ContatListController::class, 'editLead'])->name('ineditLead');
+    Route::put('admin/inbound-lead-update/{id}', [ContatListController::class, 'updateLead'])->name('inupdateLead');
+    Route::post('admin/inbound-lead-delete/{id}', [ContatListController::class, 'deleteLead'])->name('indeleteLead');
 });

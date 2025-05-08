@@ -53,7 +53,7 @@
                                 <option value="Website Development">Website Development</option>
                                 <option value="Social Media">Social Media</option>
                                 <option value="Digital Marketing">Digital Marketing</option>
-                                <option value="Conetnt Marketing">Conetnt Marketing</option>
+                                <option value="Content Marketing">Content Marketing</option>
                                 <option value="Performance Marketing">Performance Marketing</option>
                                 <option value="Photography & Video Production">Photography & Video Production</option>
                             </select>

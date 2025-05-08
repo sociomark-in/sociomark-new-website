@@ -50,8 +50,6 @@ class outboundLeadController extends Controller
         $lead = outboundLead::findOrFail($id);
         return view('admin/Pages/outBoundLead/EditLead', compact('lead'));
     }
-
-
     public function updateLead(Request $request, $id)
     {
         $lead = outboundLead::findOrFail($id);
@@ -100,14 +98,10 @@ class outboundLeadController extends Controller
 
         return redirect()->route('listLead')->with('success', 'Lead updated successfully.');
     }
-
-
-
-
     // Delete blog
     public function deleteLead(outboundLead $lead)
     {
         $lead->delete();
-        return redirect()->route('blogs.index')->with('success', 'Blog deleted successfully!');
+        return redirect()->route('listLead')->with('success', 'Lead deleted successfully!');
     }
 }
