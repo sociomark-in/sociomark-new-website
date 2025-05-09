@@ -121,7 +121,6 @@ Route::post('/admin/logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::middleware(['admin:admin,hr,business,user'])->group(function () {
     Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-    Route::get('/admin/leads-chart', [DashboardController::class, 'getLeadsChartData'])->name('admin.leads.chart');
     Route::get('/admin/addservices', [ServicesController::class, 'addServices'])->name('addservices');
     Route::resource('/admin/categories', CategoryController::class);
     Route::resource('/admin/tags', TagController::class);
@@ -129,6 +128,7 @@ Route::middleware(['admin:admin,hr,business,user'])->group(function () {
     Route::get('admin/outbound-lead', [outboundLeadController::class, 'addLead'])->name('addlead');
     Route::post('admin/outbound-lead', [outboundLeadController::class, 'StoreLead'])->name('storeLead');
     Route::get('admin/outbound-lead-list', [outboundLeadController::class, 'listLead'])->name('listLead');
+    Route::get('/admin/outbound-lead-chart', [outboundLeadController::class, 'getLeadsChartData'])->name('admin.outbound.lead.chart');
     Route::get('admin/outbound-lead-edit/{id}', [outboundLeadController::class, 'editLead'])->name('editLead');
     Route::put('admin/outbound-lead-update/{id}', [outboundLeadController::class, 'updateLead'])->name('updateLead');
     Route::post('admin/outbound-lead-delete/{id}', [outboundLeadController::class, 'deleteLead'])->name('deleteLead');

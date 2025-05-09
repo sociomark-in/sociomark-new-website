@@ -112,6 +112,20 @@
                                         </label>
                                     </div>
                                 </div>
+                                <div class="row mt-3">
+                                    <div class="form-check  col-6">
+                                        <input type="radio" class="form-check-input" name="status" id="Qualified" value="Qualified">
+                                        <label class="form-check-label" for="Qualified">
+                                        Qualified
+                                        </label>
+                                    </div>
+                                    <div class="form-check  col-6">
+                                        <input type="radio" class="form-check-input" name="status" id="Converted" value="Converted">
+                                        <label class="form-check-label" for="Converted">
+                                        Converted
+                                        </label>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -145,6 +159,22 @@
                                 </select>
                             </div>
                             <div class="col-md-6">
+                                <label class="form-label" for="service">Service you want?</label>
+                                <select class="form-select" id="service" name="service" required>
+                                    <option selected disabled>Choose an option</option>
+                                    <option value="Search Engine Optimization">Search Engine Optimization</option>
+                                    <option value="Website Development">Website Development</option>
+                                    <option value="Social Media">Social Media</option>
+                                    <option value="Digital Marketing">Digital Marketing</option>
+                                    <option value="Content Marketing">Content Marketing</option>
+                                    <option value="Performance Marketing">Performance Marketing</option>
+                                    <option value="Photography & Video Production">Photography & Video Production</option>
+                                </select>
+
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-12">
                                 <label>Source</label>
                                 <input type="text" name="source" class="form-control">
                             </div>

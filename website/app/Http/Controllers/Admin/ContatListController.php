@@ -50,7 +50,7 @@ class ContatListController extends Controller
             ->whereBetween('created_at', [$startOfMonth, $endOfMonth])
             ->count();
 
-         // Pie chart data service  // list of all lead
+        // Pie chart data service  // list of all lead
         // $contactLists = Contact::whereBetween('created_at', [$startOfMonth, $endOfMonth])
         // ->latest()
         // ->get();
@@ -62,6 +62,55 @@ class ContatListController extends Controller
             ->groupBy('service')
             ->pluck('count', 'service');
 
+        // status-wise leads in selected month    
+        $knownStatuses = ['new', 'Hot', 'Warm', 'Cold', 'Qualified', 'Converted'];
+        $allStatuses = ['new', 'Hot', 'Warm', 'Cold',  'Qualified', 'Converted', 'Unknown'];
+        $statusWiseLeads = [];
+
+        foreach ($allStatuses as $status) {
+            if ($status === 'Unknown') {
+                // Leads with NULL, empty, or unrecognized status
+                $statusData = Contact::selectRaw("DATE(created_at) as date, COUNT(*) as count")
+                    ->whereNotIn('status', $knownStatuses)
+                    ->orWhereNull('status')
+                    ->whereBetween('created_at', [$startOfMonth, $endOfMonth])
+                    ->groupBy('date')
+                    ->orderBy('date')
+                    ->get()
+                    ->pluck('count', 'date');
+            } else {
+                $statusData = Contact::selectRaw("DATE(created_at) as date, COUNT(*) as count")
+                    ->where('status', $status)
+                    ->whereBetween('created_at', [$startOfMonth, $endOfMonth])
+                    ->groupBy('date')
+                    ->orderBy('date')
+                    ->get()
+                    ->pluck('count', 'date');
+            }
+
+            // Fill missing dates with 0
+            $allDates = collect();
+            $current = $startOfMonth->copy();
+            while ($current <= $endOfMonth) {
+                $allDates->put($current->format('Y-m-d'), $statusData->get($current->format('Y-m-d'), 0));
+                $current->addDay();
+            }
+
+            $statusWiseLeads[] = [
+                'name' => ucfirst($status),
+                'data' => array_values($allDates->toArray())
+            ];
+        }
+
+        // Generate chart x-axis labels (e.g. 'May 01', 'May 02', etc.)
+        $chartDates = [];
+        $current = $startOfMonth->copy();
+        while ($current <= $endOfMonth) {
+            $chartDates[] = $current->format('M d');
+            $current->addDay();
+        }
+
+
         return view('admin/Pages/Contact/ContactList', compact(
             'contactLists',
             'leads',
@@ -69,7 +118,9 @@ class ContatListController extends Controller
             'totalOrganicLeadsThisMonth',
             'totalAdLeads',
             'totalAdLeadsThisMonth',
-            'serviceCounts'
+            'serviceCounts',
+            'statusWiseLeads',
+            'chartDates'
         ));
     }
 
@@ -83,15 +134,14 @@ class ContatListController extends Controller
         $lead = Contact::findOrFail($id);
 
         $request->validate([
-            
-            'status' => 'required|in:New,Hot,Warm,Cold',
+            'status' => 'required|in:New,Hot,Warm,Cold,Qualified,Converted',
         ]);
 
         $lead->update($request->only([
             'status',
         ]));
 
-        return redirect()->route('listLead')->with('success', 'Lead updated successfully.');
+        return redirect()->route('contactList')->with('success', 'Lead updated successfully.');
     }
     // Delete blog
     public function deleteLead(Contact $lead)

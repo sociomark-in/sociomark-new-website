@@ -23,7 +23,7 @@ return new class extends Migration
             $table->string('service')->nullable();
             $table->string('location')->nullable();
             $table->string('source')->nullable();
-            $table->enum('status', ['New', 'Hot', 'Warm', 'Cold'])->default('New');
+            $table->enum('status', ['New', 'Hot', 'Warm', 'Cold', 'Qualified','Converted'])->default('New');
             $table->date('first_contact_date')->nullable();
             $table->text('notes')->nullable();
             $table->date('second_followup_date')->nullable();

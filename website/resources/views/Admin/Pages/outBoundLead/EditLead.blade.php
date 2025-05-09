@@ -96,6 +96,14 @@
                                     <input type="radio" class="form-check-input" name="status" id="Cold" value="Cold" {{ $status == 'Cold' ? 'checked' : '' }}>
                                     <label class="form-check-label" for="Cold">Cold</label>
                                 </div>
+                                <div class="form-check col-6 mt-2">
+                                    <input type="radio" class="form-check-input" name="status" id="Qualified" value="Qualified" {{ $status == 'Qualified' ? 'checked' : '' }}>
+                                    <label class="form-check-label" for="Qualified">Qualified</label>
+                                </div>
+                                <div class="form-check col-6 mt-2">
+                                    <input type="radio" class="form-check-input" name="status" id="Converted" value="Converted" {{ $status == 'Converted' ? 'checked' : '' }}>
+                                    <label class="form-check-label" for="Converted">Converted</label>
+                                </div>
                             </div>
                         </div>
 
@@ -126,14 +134,15 @@
 
                             </div>
                             <div class="col-md-6">
-                                <label>Service</label>
-                                <!-- <input type="text" name="service" class="form-control" > -->
-                                <select class="js-example-basic-single form-select" data-width="100%" name="service" value="{{ old('service', $lead->service) }}">
-                                    <option value="TX">Texas</option>
-                                    <option value="NY">New York</option>
-                                    <option value="FL">Florida</option>
-                                    <option value="KN">Kansas</option>
-                                    <option value="HW">Hawaii</option>
+                            <label>Service</label>
+                            @php
+                                $service = old('service', $lead->service);
+                                @endphp
+                                <select class="js-example-basic-single form-select" data-width="100%" name="service">
+                                    <option value="">Choose An service</option>
+                                    @foreach(['Search Engine Optimization', 'Website Development', 'Social Media', 'Digital Marketing', 'Content Marketing', 'Performance Marketing', 'Photography & Video Production'] as $option)
+                                    <option value="{{ $option }}" {{ $service == $option ? 'selected' : '' }}>{{ $option }}</option>
+                                    @endforeach
                                 </select>
                             </div>
                         </div>
