@@ -1,39 +1,15 @@
 @extends('Frontend.layout.app')
 @section('content')
 <section class="port-bann">
-    <div class="container-fluid">
-        <div class="row">
-            {{-- <h2 class="h2 page-title mb-20 text-center text-uppercase">The <span class="text-blue">Mighty
-                    Exposure</span> --}}
-            </h2>
+    <div class="container-fluid p-0">
+        <div class="row mt-60">
             <div class="swiper caseStudySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/nodwin/1.jpg') }}" alt="" srcset=""
-                            class="w-100">
-                    </div>
-                    <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/nodwin/N2.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/banner/adi_arogyam.png') }}" alt=""
                                 srcset="" class="w-100">
                         </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/nodwin/N3.jpg') }}" alt="" srcset=""
-                            class="w-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/nodwin/N4.jpeg') }}" alt="" srcset=""
-                            class="w-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/nodwin/N5.jpeg') }}" alt="" srcset=""
-                            class="w-100">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/nodwin/N7.jpg') }}" alt="" srcset=""
-                            class="w-100">
                     </div>
                 </div>
                 <!--<div class="swiper-button-next"></div>-->
@@ -92,39 +68,22 @@
 <section class="porfolio-text section-margin">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">NODWIN Gaming ( India, Africa)</h2>
-            <p class="sec-para"><b>About the Brand:</b> NODWIN Gaming is a powerhouse in the <strong>Esports industry,</strong> shaping the future of digital entertainment across emerging markets. At the forefront of <strong>Competitive gaming,</strong> the brand brings together the worlds of esports, music, anime, comics, and comedy to create immersive experiences for youth audiences. With operations spanning 20+ global locations and a dynamic portfolio of 15+ companies, NODWIN Gaming continues to redefine how the next generation connects with entertainment.
-            </p>
-            <p class="sec-para"><b>Services Offered: </b>Social Media Management <br>
-                Videography(in-house shoots for humanized reels)
-            </p>
-
+            <h2 class="text-blue sec-title">AdiArogyam</h2>
+            <p class="sec-para"><b>About the Brand:</b> </p>
+            <p class="sec-para"><b>Services Offered:</b> </p>
+            
             <div class="th-social">
-                <p class="sec-para"><b>Nodwin India Page Link:</b>
-                    <a href="https://www.facebook.com/NODWINGaming" target="_blank"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a href="https://twitter.com/NodwinGaming" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.instagram.com/nodwingaming/" target="_blank"><i
-                            class="fa-brands fa-x-twitter"></i></a>
+                <p class="sec-para"><b>Page Link:</b>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
-            <div class="th-social">
-                <p class="sec-para"><b>Nodwin Africa Page Link:</b>
-                    <a href="https://www.facebook.com/NODWINGaming" target="_blank"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a href="https://twitter.com/NODWINGamingAF" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.instagram.com/nodwingamingafrica/" target="_blank"><i
-                            class="fa-brands fa-x-twitter"></i></a>
 
-            </div>
-            </p>
-
-            <div class="header-button mt-3">
-                <a href="{{ route('nodwinGaming') }}" class="th-btn th-icon">READ OUR CASE STUDY</a>
-            </div>
         </div>
     </div>
 </section>
-<section class="port-bann section-margin">
+
+<section class="port-bann section-margin d-none">
     <div class="container-fluid">
         <div class="row mt-60">
             <h2 class=" sec-title text-center">The Mighty <span class="text-blue">Creative</span></h2>
@@ -132,19 +91,31 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/nodwin/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/1.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/nodwin/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/2.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/nodwin/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/3.png') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/nodwin/4.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/4.png') }}" alt=""
+                            srcset="" class="w-100">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/5.png') }}" alt=""
+                            srcset="" class="w-100">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/6.jpg') }}" alt=""
+                            srcset="" class="w-100">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/7.jpg') }}" alt=""
                             srcset="" class="w-100">
                     </div>
                 </div>
@@ -152,9 +123,7 @@
                 <!--<div class="swiper-button-prev"></div>-->
                 {{-- <div class="swiper-pagination"></div> --}}
             </div>
-            <div class="header-button mt-3 justify-content-center">
-                <a href="{{ route('nodwinGaming') }}" class="th-btn th-icon">VIEW OUR CASE STUDY</a>
-            </div>
+
             <script>
                 var swiper = new Swiper(".creativeSwiper", {
                     spaceBetween: 30,
