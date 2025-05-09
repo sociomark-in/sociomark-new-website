@@ -221,6 +221,18 @@ class PortfolioController extends Controller
                 return view("Frontend/Portfolio/tpcSocial");
                 # code...
                 break;
+            case 'jop':
+                return view("Frontend/Portfolio/jopSocial");
+                # code...
+                break;
+            case 'adi-arogyam':
+                return view("Frontend/Portfolio/adiArogyamSocial");
+                # code...
+                break;
+            case 'vedco':
+                return view("Frontend/Portfolio/vedcoSocial");
+                # code...
+                break;
             /* U */
             /* V */
             /* W */
