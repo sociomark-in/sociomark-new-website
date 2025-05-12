@@ -48,10 +48,10 @@
                                 <div class="col-6 col-md-12 col-xl-5">
                                     <h3 class="mb-2">{{ $contact_leads->COUNT() }}</h3>
                                     <div class="d-flex align-items-baseline">
-                                        <p class="text-success">
+                                        <!-- <p class="text-success">
                                             <span>+3.3%</span>
                                             <i data-feather="arrow-up" class="icon-sm mb-1"></i>
-                                        </p>
+                                        </p> -->
                                     </div>
                                 </div>
                                 <div class="col-6 col-md-12 col-xl-7">
@@ -94,7 +94,7 @@
                                         <p class="{{ $color }}">
                                             <span>{{ $isUp ? '+' : '-' }}{{ $changeFormatted }}%</span>
                                             <i data-feather="{{ $icon }}" class="icon-sm mb-1"></i>
-                                            
+
                                         </p>
                                     </div>
                                 </div>
@@ -109,28 +109,16 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="d-flex justify-content-between align-items-baseline">
-                                <h6 class="card-title mb-0">Visiter This Day</h6>
-                                <div class="dropdown mb-2">
-                                    <a type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="icon-lg text-secondary pb-3px" data-feather="more-horizontal"></i>
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="eye" class="icon-sm me-2"></i> <span class="">View</span></a>
-                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="edit-2" class="icon-sm me-2"></i> <span class="">Edit</span></a>
-                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="trash" class="icon-sm me-2"></i> <span class="">Delete</span></a>
-                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="printer" class="icon-sm me-2"></i> <span class="">Print</span></a>
-                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="download" class="icon-sm me-2"></i> <span class="">Download</span></a>
-                                    </div>
-                                </div>
+                                <h6 class="card-title mb-0">Converted</h6>
                             </div>
                             <div class="row">
                                 <div class="col-6 col-md-12 col-xl-5">
-                                    <h3 class="mb-2">{{$visitsToday}}</h3>
+                                    <h3 class="mb-2">{{ $convertedInBound }}</h3>
                                     <div class="d-flex align-items-baseline">
-                                        <p class="text-success">
+                                        <!-- <p class="text-success">
                                             <span>+2.8%</span>
                                             <i data-feather="arrow-up" class="icon-sm mb-1"></i>
-                                        </p>
+                                        </p> -->
                                     </div>
                                 </div>
                                 <div class="col-6 col-md-12 col-xl-7">
@@ -141,9 +129,9 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
-    </div> 
+    </div>
     <div class="row">
         <div class="col-12 col-xl-12 stretch-card">
             <div class="row flex-grow-1">
@@ -215,7 +203,7 @@
                                         <p class="{{ $color }}">
                                             <span>{{ $isUp ? '+' : '-' }}{{ $changeFormatted }}%</span>
                                             <i data-feather="{{ $icon }}" class="icon-sm mb-1"></i>
-                                            
+
                                         </p>
                                     </div>
                                 </div>
@@ -230,28 +218,16 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="d-flex justify-content-between align-items-baseline">
-                                <h6 class="card-title mb-0">Visiter This Day</h6>
-                                <div class="dropdown mb-2">
-                                    <a type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="icon-lg text-secondary pb-3px" data-feather="more-horizontal"></i>
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="eye" class="icon-sm me-2"></i> <span class="">View</span></a>
-                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="edit-2" class="icon-sm me-2"></i> <span class="">Edit</span></a>
-                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="trash" class="icon-sm me-2"></i> <span class="">Delete</span></a>
-                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="printer" class="icon-sm me-2"></i> <span class="">Print</span></a>
-                                        <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="download" class="icon-sm me-2"></i> <span class="">Download</span></a>
-                                    </div>
-                                </div>
+                                <h6 class="card-title mb-0">Converted</h6>
                             </div>
                             <div class="row">
                                 <div class="col-6 col-md-12 col-xl-5">
-                                    <h3 class="mb-2">{{$visitsToday}}</h3>
+                                    <h3 class="mb-2">{{$convertedOutBound}}</h3>
                                     <div class="d-flex align-items-baseline">
-                                        <p class="text-success">
+                                        <!-- <p class="text-success">
                                             <span>+2.8%</span>
                                             <i data-feather="arrow-up" class="icon-sm mb-1"></i>
-                                        </p>
+                                        </p> -->
                                     </div>
                                 </div>
                                 <div class="col-6 col-md-12 col-xl-7">
@@ -262,49 +238,38 @@
                     </div>
                 </div>
             </div>
-            
-        </div>
-    </div> 
 
-    <div class="row">
-        <div class="col-12 col-xl-12 grid-margin stretch-card">
-            <div class="card overflow-hidden">
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <form method="GET" action="{{ route('dashboard') }}" class="mb-3">
+            <div class="row g-2 align-items-center">
+                <div class="col-auto">
+                    <label for="month" class="col-form-label">Select Month:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="month" id="month" name="month" class="form-control"
+                        value="{{ request('month', now()->format('Y-m')) }}">
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary">Filter</button>
+                </div>
+            </div>
+        </form>
+
+        <div class="col-xl-12 grid-margin stretch-card">
+            <div class="card">
                 <div class="card-body">
-                    <div class="d-flex justify-content-between align-items-baseline mb-4 mb-md-3">
-                        <h6 class="card-title mb-0">MONTHLY Inbound LEADS</h6>
-                        <div class="dropdown">
-                            <a type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="icon-lg text-secondary pb-3px" data-feather="more-horizontal"></i>
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
-                                <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="eye" class="icon-sm me-2"></i> <span class="">View</span></a>
-                                <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="edit-2" class="icon-sm me-2"></i> <span class="">Edit</span></a>
-                                <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="trash" class="icon-sm me-2"></i> <span class="">Delete</span></a>
-                                <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="printer" class="icon-sm me-2"></i> <span class="">Print</span></a>
-                                <a class="dropdown-item d-flex align-items-center" href="javascript:;"><i data-feather="download" class="icon-sm me-2"></i> <span class="">Download</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row align-items-start">
-                        <div class="col-md-7">
-                            <!-- <p class="text-secondary fs-13px mb-3 mb-md-0">Revenue is the income that a business has from its normal business activities, usually from the sale of goods and services to customers.</p> -->
-                        </div>
-                        <div class="col-md-5 d-flex justify-content-md-end">
-                            <div class="btn-group mb-3" role="group">
-                                <button class="btn btn-outline-primary" onclick="loadChart('day')">Day</button>
-                                <button class="btn btn-outline-primary" onclick="loadChart('week')">Week</button>
-                                <button class="btn btn-primary" onclick="loadChart('month')">Month</button>
-                                <button class="btn btn-outline-primary" onclick="loadChart('year')">Year</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="leadChart"></div>
+                    <h6 class="card-title">Lead Trend - Inbound vs Outbound</h6>
+                    <div id="apexArea"></div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="row">
+
+    <!-- <div class="row">
         <div class="col-lg-7 col-xl-8 grid-margin stretch-card">
             <div class="card">
                 <div class="card-body">
@@ -367,7 +332,7 @@
                 </div>
             </div>
         </div>
-    </div> <!-- row -->
+    </div> -->
 
     <div class="row">
         <div class="col-lg-5 col-xl-4 grid-margin grid-margin-xl-0 stretch-card">
@@ -555,63 +520,49 @@
 
 @section('custom-js')
 <!-- monthy lead Start -->
+<script>
+    const leadsData = @json($leads);
+</script>
+
 <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 <script>
-    let leadChart = null;
+    document.addEventListener("DOMContentLoaded", function() {
+        const dates = leadsData.map(item => item.date);
+        const inboundLeads = leadsData.map(item => parseInt(item.inbound_leads));
+        const outboundLeads = leadsData.map(item => parseInt(item.outbound_leads));
 
-    async function loadChart(type = 'month') {
-        const res = await fetch(`{{ route('admin.leads.chart') }}?type=${type}`);
-
-        if (!res.ok) {
-            const errorText = await res.text();
-            console.error("Error Response:", errorText);
-            return;
-        }
-
-        try {
-            const data = await res.json();
-            console.log("Response Data:", data);
-
-            if (!Array.isArray(data)) throw new Error('Data is not an array');
-
-            const categories = data.map(d => d.period);
-            const values = data.map(d => d.total);
-
-            const options = {
-                chart: {
-                    type: 'line',
-                    height: 350,
-                },
-                series: [{
-                    name: 'Leads',
-                    data: values
-                }],
-                xaxis: {
-                    categories: categories
+        const options = {
+            chart: {
+                type: 'area',
+                height: 350,
+                toolbar: {
+                    show: false
                 }
-            };
-
-            // If chart exists, destroy and re-render
-            if (leadChart) {
-                leadChart.destroy();
+            },
+            series: [{
+                    name: 'Inbound Leads',
+                    data: inboundLeads
+                },
+                {
+                    name: 'Outbound Leads',
+                    data: outboundLeads
+                }
+            ],
+            xaxis: {
+                categories: dates
+            },
+            colors: ['#1E90FF', '#FFA500'],
+            stroke: {
+                curve: 'smooth'
+            },
+            dataLabels: {
+                enabled: false
             }
+        };
 
-            const chartEl = document.querySelector("#leadChart");
-            if (!chartEl) {
-                console.error("Chart container #leadChart not found!");
-                return;
-            }
-
-            leadChart = new ApexCharts(chartEl, options);
-            leadChart.render();
-
-        } catch (error) {
-            console.error("Error in loadChart:", error);
-        }
-    }
-
-    // Load default chart
-    loadChart('month');
+        new ApexCharts(document.querySelector("#apexArea"), options).render();
+    });
 </script>
+
 <!-- monthy lead end -->
 @endsection

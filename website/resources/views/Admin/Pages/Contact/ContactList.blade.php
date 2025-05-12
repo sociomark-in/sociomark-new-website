@@ -1,12 +1,20 @@
 @extends('admin.layout.app')
 
+@section('custom-style')
+<style>
+    .bg-orange {
+        background-color: orangered;
+    }
+</style>
+@endsection
+
 @section('page-content')
 <div class="page-content">
 
     <nav class="page-breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Tables</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Blog Table</li>
+            <li class="breadcrumb-item active" aria-current="page">Inbound Lead Table</li>
         </ol>
     </nav>
 
@@ -14,12 +22,13 @@
         <div class="col-md-12 grid-margin stretch-card">
             <div class="card">
                 <div class="card-body">
-                    <h6 class="card-title">Blog Table</h6>
+                    <h6 class="card-title">Inbound Lead Table</h6>
                     <div class="table-responsive">
                         <table id="dataTableExample" class="table">
                             <thead>
                                 <tr>
                                     <th>Date</th>
+                                    <th>Status</th>
                                     <th>Name</th>
                                     <th>Email</th>
                                     <th>Phone Number</th>
@@ -29,6 +38,7 @@
                                     <th>Message</th>
                                     <th>UTM Source</th>
                                     <th>UTM Medium</th>
+
                                     <th>Action</th>
                                 </tr>
                             </thead>
@@ -36,6 +46,23 @@
                                 @foreach ($contactLists as $contactList)
                                 <tr>
                                     <td>{{ $contactList->created_at->format('Y-m-d') }}</td>
+                                    <td>
+                                        @if ($contactList->status == 'new')
+                                        <span class="badge bg-warning text-white">New</span>
+                                        @elseif ($contactList->status == 'Hot')
+                                        <span class="badge bg-danger">Hot</span>
+                                        @elseif ($contactList->status == 'Warm')
+                                        <span class="badge bg-orange text-white">Warm</span>
+                                        @elseif ($contactList->status == 'Cold')
+                                        <span class="badge bg-primary">Cold</span>
+                                        @elseif ($contactList->status == 'Qualified')
+                                        <span class="badge bg-info">Qualified</span>
+                                        @elseif ($contactList->status == 'Converted')
+                                        <span class="badge bg-success">Converted</span>
+                                        @else
+                                        <span class="badge bg-secondary">Unknown</span>
+                                        @endif
+                                    </td>
                                     <td>{{ $contactList->name }}</td>
                                     <td>{{ $contactList->email }}</td>
                                     <td>{{ $contactList->phone }}</td>
@@ -45,6 +72,7 @@
                                     <td>{{ $contactList->messageforus }}</td>
                                     <td>{{ $contactList->utm_source }}</td>
                                     <td>{{ $contactList->utm_medium }}</td>
+
                                     <td>
                                         <!-- Edit Icon -->
                                         <a href="{{ route('ineditLead', $contactList->id) }}" style="margin-right: 8px;">
@@ -72,7 +100,7 @@
 
     <!-- Area Chart -->
     <div class="row mt-4">
-    <form method="GET" action="{{ route('contactList') }}" class="mb-3">
+        <form method="GET" action="{{ route('contactList') }}" class="mb-3">
             <div class="row g-2 align-items-center">
                 <div class="col-auto">
                     <label for="month" class="col-form-label">Select Month:</label>
@@ -103,6 +131,14 @@
                 <div class="card-body">
                     <h6 class="card-title">Leads by Service</h6>
                     <div id="apexPie"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-6 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h6 class="card-title">Line Chart by Status</h6>
+                    <div id="apexLine"></div>
                 </div>
             </div>
         </div>
@@ -302,7 +338,7 @@
 
             new ApexCharts(document.querySelector("#apexArea"), options).render();
         });
-        // pie
+        // pie service
         const serviceCounts = @json($serviceCounts);
         const serviceLabels = Object.keys(serviceCounts);
         const serviceData = Object.values(serviceCounts);
@@ -320,6 +356,28 @@
 
             new ApexCharts(document.querySelector("#apexPie"), pieOptions).render();
         });
+
+        // chart status
+        var options = {
+            chart: {
+                type: 'line', // Specifies a line chart
+                height: 350 // Height of the chart in pixels
+            },
+            series: @json($statusWiseLeads), // Dynamic series data from Laravel (e.g. ['New', 'Hot', 'Unknown'])
+            xaxis: {
+                categories: @json($chartDates) // Dynamic x-axis labels (e.g. ['2025-05-01', '2025-05-02'])
+            },
+            colors: ['#ffc107', '#dc3545', '#fd7e14', '#0d6efd', '#9e9e9e','#00c292', '#441c76'], // Custom line colors per series
+            stroke: {
+                width: 2 // Line width
+            },
+            markers: {
+                size: 4 // Size of points on the lines
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#apexLine"), options);
+        chart.render(); // Renders the chart in the element with ID 'apexLine'
     </script>
 
 </div>

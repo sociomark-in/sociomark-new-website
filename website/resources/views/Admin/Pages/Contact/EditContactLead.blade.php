@@ -132,6 +132,14 @@
                                     <input type="radio" class="form-check-input" name="status" id="Cold" value="Cold" {{ $status == 'Cold' ? 'checked' : '' }}>
                                     <label class="form-check-label" for="Cold">Cold</label>
                                 </div>
+                                <div class="form-check col-6 mt-2">
+                                    <input type="radio" class="form-check-input" name="status" id="Qualified" value="Qualified" {{ $status == 'Qualified' ? 'checked' : '' }}>
+                                    <label class="form-check-label" for="Qualified">Qualified</label>
+                                </div>
+                                <div class="form-check col-6 mt-2">
+                                    <input type="radio" class="form-check-input" name="status" id="Converted" value="Converted" {{ $status == 'Converted' ? 'checked' : '' }}>
+                                    <label class="form-check-label" for="Converted">Converted</label>
+                                </div>
                             </div>
                         </div>
 
