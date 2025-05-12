@@ -160,44 +160,44 @@
                             </div>
                         </div>
                         <!--<div class="col-xl-4 col-md-6 col-12">
-                                                                                            <div class="process-card">
-                                                                                                <div class="box-wrapp">
-                                                                                                    <div class="box-icon">
-                                                                                                        <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
+                                                                                                <div class="process-card">
+                                                                                                    <div class="box-wrapp">
+                                                                                                        <div class="box-icon">
+                                                                                                            <img src="{{ asset('frontend-assets/img/icon/process_1_2.svg') }}" alt="icon">
+                                                                                                        </div>
+                                                                                                        <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                                                                                alt=""></div>
+                                                                                                        <div class="box-number">
+                                                                                                            05 </div>
                                                                                                     </div>
-                                                                                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                                                                            alt=""></div>
-                                                                                                    <div class="box-number">
-                                                                                                        05 </div>
-                                                                                                </div>
-                                                                                                <div class="box-content">
-                                                                                                    <h2 class="box-title">Plan Customization</h2>
-                                                                                                    <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                                                                                        behaviors. Submit as many design tasks</p>
+                                                                                                    <div class="box-content">
+                                                                                                        <h2 class="box-title">Plan Customization</h2>
+                                                                                                        <p class="box-text">Conduct thorough market of the research to the fast target audience
+                                                                                                            behaviors. Submit as many design tasks</p>
 
+                                                                                                    </div>
                                                                                                 </div>
                                                                                             </div>
-                                                                                        </div>
-                                                                                        <div class="col-xl-4 col-md-6 col-12">
-                                                                                            <div class="process-card">
-                                                                                                <div class="box-wrapp">
-                                                                                                    <div class="box-icon">
-                                                                                                        <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}"
-                                                                                                            alt="icon">
+                                                                                            <div class="col-xl-4 col-md-6 col-12">
+                                                                                                <div class="process-card">
+                                                                                                    <div class="box-wrapp">
+                                                                                                        <div class="box-icon">
+                                                                                                            <img src="{{ asset('frontend-assets/img/icon/process_1_3.svg') }}"
+                                                                                                                alt="icon">
+                                                                                                        </div>
+                                                                                                        <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
+                                                                                                                alt=""></div>
+                                                                                                        <div class="box-number">
+                                                                                                            06 </div>
                                                                                                     </div>
-                                                                                                    <div class="box-shape"><img src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                                                                            alt=""></div>
-                                                                                                    <div class="box-number">
-                                                                                                        06 </div>
-                                                                                                </div>
-                                                                                                <div class="box-content">
-                                                                                                    <h2 class="box-title">Finished &amp; User Testing</h2>
-                                                                                                    <p class="box-text">Conduct thorough market of the research to the fast target audience
-                                                                                                        behaviors. Submit as many design tasks</p>
+                                                                                                    <div class="box-content">
+                                                                                                        <h2 class="box-title">Finished &amp; User Testing</h2>
+                                                                                                        <p class="box-text">Conduct thorough market of the research to the fast target audience
+                                                                                                            behaviors. Submit as many design tasks</p>
 
+                                                                                                    </div>
                                                                                                 </div>
-                                                                                            </div>
-                                                                                        </div>-->
+                                                                                            </div>-->
                     </div>
                 </div>
             </div>
@@ -482,8 +482,8 @@
         <section class="mb-2 founder space" id="our-founder">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
-                    <div class="col-md-6 col-sm-12 col-12 position-relative img custom-top me-0"
-                        data-aos="fade-right" data-aos-delay="100"
+                    <div class="col-md-6 col-sm-12 col-12 position-relative img custom-top me-0" data-aos="fade-right"
+                        data-aos-delay="100"
                         style="--tw-bg-opacity: 1; background-color: rgb(255 255 255 / var(--tw-bg-opacity)); padding: 1rem; border-radius: 30px;">
                         <img src="{{ asset('frontend-assets/img/team/founders.png') }}"
                             class="img-fluid rounded w-100 h-100 object-fit-cover" alt="Office Team">
@@ -512,8 +512,8 @@
                             just meant to be...
                         </p>
 
-                        <a href="{{route('workculture')}}" class="th-btn th-icon text-white p-3 logo-info mt-2" data-aos="fade-left"
-                            data-aos-delay="100">See Our Work Culture</a>
+                        <a href="{{ route('workculture') }}" class="th-btn th-icon text-white p-3 logo-info mt-2"
+                            data-aos="fade-left" data-aos-delay="100">See Our Work Culture</a>
                     </div>
                 </div>
             </div>
