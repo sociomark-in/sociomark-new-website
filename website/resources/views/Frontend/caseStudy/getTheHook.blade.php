@@ -21,9 +21,7 @@
 
     }
 
-    td {
-        border: none;
-    }
+    
 
     .strategy {
         background-color: #ff900b;
