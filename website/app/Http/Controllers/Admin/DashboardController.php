@@ -90,10 +90,17 @@ class DashboardController extends Controller
         // convertion of inbound leads 
         $convertedInBound = Contact::where('status', 'Converted')->count();
         // $count = $convertedInBound->count();  
-        
-          // convertion of outbound leads 
+
+        // convertion of outbound leads 
         $convertedOutBound = OutboundLead::where('status', 'Converted')->count();
         // $count = $convertedOutBound->count(); 
+
+        // only hot lead from inbound & outbound 
+
+        $hotOutboundLeads = OutboundLead::where('status', 'hot')->get();
+        $hotContactLeads = Contact::where('status', 'hot')->get();
+
+        $hotLeads = $hotOutboundLeads->merge($hotContactLeads);
 
         return view("admin/Pages/Home/Dashboard", compact(
             'contact_leads',
@@ -105,7 +112,8 @@ class DashboardController extends Controller
             'currentMonthInLeadCount',
             'leads',
             'convertedInBound',
-            'convertedOutBound'
+            'convertedOutBound',
+            'hotLeads'
         ));
     }
 }

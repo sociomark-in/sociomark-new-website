@@ -13,6 +13,7 @@ use App\Http\Controllers\Website\ContactController;
 use App\Http\Controllers\Website\IndustryController;
 use App\Http\Controllers\Website\WorkCultureController;
 use App\Http\Controllers\Admin\AdminWorkCultureController;
+use App\Http\Controllers\admin\calenderController;
 use App\Http\Controllers\admin\outboundLeadController;
 use App\Http\Controllers\Website\CaseStudyController;
 use App\Http\Controllers\Website\PortfolioController;
@@ -90,7 +91,8 @@ Route::get('/case-study/road-to-safety-initiative', [CaseStudyController::class,
 Route::get('/case-study/acetattoz', [CaseStudyController::class, 'acetattoz'])->name('acetattoz');
 Route::get('/case-study/smarter-india', [CaseStudyController::class, 'smarterIndia'])->name('smarterIndia');
 Route::get('/case-study/real-estate-awards', [CaseStudyController::class, 'realestateawards'])->name('realestateawards');
-
+Route::get('/case-study/nhs', [CaseStudyController::class, 'nhs'])->name('nhs');
+Route::get('/case-study/get-the-hook', [CaseStudyController::class, 'getTheHook'])->name('getTheHook');
 
 Route::get('/work-culture', [WorkCultureController::class, 'index'])->name('workculture');
 Route::get('/careers', [HomeController::class, 'careers'])->name('careers');
@@ -128,6 +130,7 @@ Route::middleware(['admin:admin,hr,business,user'])->group(function () {
     Route::get('admin/outbound-lead', [outboundLeadController::class, 'addLead'])->name('addlead');
     Route::post('admin/outbound-lead', [outboundLeadController::class, 'StoreLead'])->name('storeLead');
     Route::get('admin/outbound-lead-list', [outboundLeadController::class, 'listLead'])->name('listLead');
+    Route::get('admin/outbound-lead-second-followup-list', [outboundLeadController::class, 'seclistLead'])->name('seclistLead');
     Route::get('/admin/outbound-lead-chart', [outboundLeadController::class, 'getLeadsChartData'])->name('admin.outbound.lead.chart');
     Route::get('admin/outbound-lead-edit/{id}', [outboundLeadController::class, 'editLead'])->name('editLead');
     Route::put('admin/outbound-lead-update/{id}', [outboundLeadController::class, 'updateLead'])->name('updateLead');
@@ -141,4 +144,6 @@ Route::middleware(['admin:admin,hr,business,user'])->group(function () {
     Route::get('admin/inbound-lead-edit/{id}', [ContatListController::class, 'editLead'])->name('ineditLead');
     Route::put('admin/inbound-lead-update/{id}', [ContatListController::class, 'updateLead'])->name('inupdateLead');
     Route::post('admin/inbound-lead-delete/{id}', [ContatListController::class, 'deleteLead'])->name('indeleteLead');
+
+    Route::get('/admin/calender', [calenderController::class, 'calender'])->name('calender');
 });

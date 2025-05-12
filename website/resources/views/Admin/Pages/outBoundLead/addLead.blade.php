@@ -114,9 +114,9 @@
                                 </div>
                                 <div class="row mt-3">
                                     <div class="form-check  col-6">
-                                        <input type="radio" class="form-check-input" name="status" id="Qualified" value="Qualified">
-                                        <label class="form-check-label" for="Qualified">
-                                        Qualified
+                                        <input type="radio" class="form-check-input" name="status" id="Lost" value="Lost">
+                                        <label class="form-check-label" for="Lost">
+                                        Lost
                                         </label>
                                     </div>
                                     <div class="form-check  col-6">

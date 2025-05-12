@@ -1,4 +1,4 @@
-@extends('admin.layout.app')
+@extends('admin/layout/app')
 @section('custom-style')
 <style>
     .bg-orange {
@@ -12,7 +12,7 @@
     <nav class="page-breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Tables</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Blog Table</li>
+            <li class="breadcrumb-item active" aria-current="page">Second FollowUp OutBound Lead Table</li>
         </ol>
     </nav>
 
@@ -22,7 +22,7 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-6">
-                            <h6 class="card-title">OutBound Lead Table</h6>
+                            <h6 class="card-title">Second FollowUp OutBound Lead Table</h6>
                         </div>
                         <div class="col-6 d-flex justify-content-end"> <a href="{{ route('addlead') }}" class="btn btn-success">Add Lead</a></div>
                     </div>
@@ -74,8 +74,8 @@
                                         <span class="badge bg-orange text-white">Warm</span>
                                         @elseif ($listLead->status == 'Cold')
                                         <span class="badge bg-primary">Cold</span>
-                                        @elseif ($listLead->status == 'Lost')
-                                        <span class="badge bg-info">Lost</span>
+                                        @elseif ($listLead->status == 'Qualified')
+                                        <span class="badge bg-info">Qualified</span>
                                         @elseif ($listLead->status == 'Converted')
                                         <span class="badge bg-success">Converted</span>
                                         @else
@@ -118,140 +118,4 @@
         </div>
     </div>
 
-    <div class="row mt-4">
-        <form method="GET" action="{{ route('listLead') }}" class="mb-3">
-            <div class="row g-2 align-items-center">
-                <div class="col-auto">
-                    <label for="month" class="col-form-label">Select Month:</label>
-                </div>
-                <div class="col-auto">
-                    <input type="month" id="month" name="month" class="form-control"
-                        value="{{ request('month', now()->format('Y-m')) }}">
-                </div>
-                <div class="col-auto">
-                    <button type="submit" class="btn btn-primary">Filter</button>
-                </div>
-            </div>
-        </form>
-
-        <div class="col-xl-12 grid-margin stretch-card">
-            <div class="card">
-                <div class="card-body">
-                    <h6 class="card-title">Lead Trend</h6>
-                    <div id="apexArea"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-xl-6 grid-margin stretch-card">
-            <div class="card">
-                <div class="card-body">
-                    <h6 class="card-title">Leads by Service</h6>
-                    <div id="apexPie"></div>
-                </div>
-            </div>
-        </div>
-        <div class="col-xl-6 grid-margin stretch-card">
-            <div class="card">
-                <div class="card-body">
-                    <h6 class="card-title">Line Chart by Status</h6>
-                    <div id="apexLine"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-@endsection
-
-@section('custom-js')
-    <!-- Load ApexCharts library FIRST -->
-    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-
-    <!-- Pass leads to JS -->
-    <script>
-        const leadsData = @json($leads);
-    </script>
-
-    <!-- Then initialize the chart -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const dates = leadsData.map(item => item.date);
-            const totalLeads = leadsData.map(item => parseInt(item.total_leads));
-
-            var options = {
-                chart: {
-                    type: 'area',
-                    height: 350,
-                    toolbar: {
-                        show: false
-                    }
-                },
-                series: [{
-                    name: 'Leads',
-                    data: totalLeads
-                }],
-                xaxis: {
-                    categories: dates,
-                    labels: {
-                        rotate: -45
-                    }
-                },
-                colors: ['#008ffb'],
-                stroke: {
-                    curve: 'smooth'
-                },
-                tooltip: {
-                    x: {
-                        format: 'yyyy-MM-dd'
-                    }
-                }
-            };
-
-            new ApexCharts(document.querySelector("#apexArea"), options).render();
-        });
-
-          // pie service
-          const serviceCounts = @json($serviceCounts);
-        const serviceLabels = Object.keys(serviceCounts);
-        const serviceData = Object.values(serviceCounts);
-
-        document.addEventListener("DOMContentLoaded", function() {
-            var pieOptions = {
-                chart: {
-                    type: 'pie',
-                    height: 350
-                },
-                labels: serviceLabels,
-                series: serviceData,
-                colors: ['#ff4c51', '#00c292', '#ff9800', '#03a9f4', '#9c27b0', '#607d8b', '#ffc107']
-            };
-
-            new ApexCharts(document.querySelector("#apexPie"), pieOptions).render();
-        });
-
-        // chart status
-        var options = {
-            chart: {
-                type: 'line', // Specifies a line chart
-                height: 350 // Height of the chart in pixels
-            },
-            series: @json($statusWiseLeads), // Dynamic series data from Laravel (e.g. ['New', 'Hot', 'Unknown'])
-            xaxis: {
-                categories: @json($chartDates) // Dynamic x-axis labels (e.g. ['2025-05-01', '2025-05-02'])
-            },
-            colors: ['#ffc107', '#ff4c51', '#ff9800', '#03a9f4','#66d1d1','#00c292'], // Custom line colors per series
-            stroke: {
-                width: 2 // Line width
-            },
-            markers: {
-                size: 4 // Size of points on the lines
-            }
-        };
-
-        var chart = new ApexCharts(document.querySelector("#apexLine"), options);
-        chart.render(); // Renders the chart in the element with ID 'apexLine'
-    </script>
-@endsection
+    @endsection

@@ -133,8 +133,8 @@
                                     <label class="form-check-label" for="Cold">Cold</label>
                                 </div>
                                 <div class="form-check col-6 mt-2">
-                                    <input type="radio" class="form-check-input" name="status" id="Qualified" value="Qualified" {{ $status == 'Qualified' ? 'checked' : '' }}>
-                                    <label class="form-check-label" for="Qualified">Qualified</label>
+                                    <input type="radio" class="form-check-input" name="status" id="Lost" value="Lost" {{ $status == 'Lost' ? 'checked' : '' }}>
+                                    <label class="form-check-label" for="Lost">Lost</label>
                                 </div>
                                 <div class="form-check col-6 mt-2">
                                     <input type="radio" class="form-check-input" name="status" id="Converted" value="Converted" {{ $status == 'Converted' ? 'checked' : '' }}>

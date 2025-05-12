@@ -47,7 +47,7 @@
                                 <tr>
                                     <td>{{ $contactList->created_at->format('Y-m-d') }}</td>
                                     <td>
-                                        @if ($contactList->status == 'new')
+                                        @if ($contactList->status == 'New')
                                         <span class="badge bg-warning text-white">New</span>
                                         @elseif ($contactList->status == 'Hot')
                                         <span class="badge bg-danger">Hot</span>
@@ -55,12 +55,12 @@
                                         <span class="badge bg-orange text-white">Warm</span>
                                         @elseif ($contactList->status == 'Cold')
                                         <span class="badge bg-primary">Cold</span>
-                                        @elseif ($contactList->status == 'Qualified')
-                                        <span class="badge bg-info">Qualified</span>
+                                        @elseif ($contactList->status == 'Lost')
+                                        <span class="badge bg-info">Lost</span>
                                         @elseif ($contactList->status == 'Converted')
                                         <span class="badge bg-success">Converted</span>
                                         @else
-                                        <span class="badge bg-secondary">Unknown</span>
+                                        <span class="badge bg-warning text-white">New</span>
                                         @endif
                                     </td>
                                     <td>{{ $contactList->name }}</td>
@@ -367,7 +367,7 @@
             xaxis: {
                 categories: @json($chartDates) // Dynamic x-axis labels (e.g. ['2025-05-01', '2025-05-02'])
             },
-            colors: ['#ffc107', '#dc3545', '#fd7e14', '#0d6efd', '#9e9e9e','#00c292', '#441c76'], // Custom line colors per series
+            colors: ['#ffc107', '#dc3545', '#fd7e14', '#0d6efd', '#9e9e9e','#00c292'], // Custom line colors per series
             stroke: {
                 width: 2 // Line width
             },

@@ -414,9 +414,6 @@
         <p class="sec-para">From March 2023 to June 2024, Shahenaz's website demonstrated significant growth and visibility:</p>
         <img src="{{ asset('frontend-assets/img/case-study/shahenaz/2 (4).png') }}" alt="shahenaz">
 
-
-
-
         <ul class="mb-md-4">
             <li class="sec-para"><b>Total Clicks: </b>20.4K clicks, showing strong user engagement.</li>
             <li class="sec-para"><b>Total Impressions: </b>1.55M impressions, indicating high visibility in search results.</li>

@@ -348,7 +348,13 @@
             <li class="nav-item">
                 <a href="{{ route('listLead') }}"  class="nav-link">
                     <i class="link-icon" data-feather="hash"></i>
-                    <span class="link-title">outbound Leads</span>
+                    <span class="link-title">Outbound Leads</span>
+                </a>
+            </li>
+            <li class="nav-item mt-2">
+                <a href="{{ route('seclistLead') }}"  class="nav-link">
+                    <i class="link-icon" data-feather="hash"></i>
+                    <span class="link-title">Second FollowUp <br>outbound Leads</span>
                 </a>
             </li>
             @endcan

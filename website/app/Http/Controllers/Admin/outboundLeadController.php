@@ -68,8 +68,8 @@ class outboundLeadController extends Controller
             ->pluck('count', 'service');
 
         // status-wise leads in selected month    
-        $knownStatuses = ['New', 'Hot', 'Warm', 'Cold', 'Qualified', 'Converted'];
-        $allStatuses = ['New', 'Hot', 'Warm', 'Cold', 'Qualified', 'Converted'];
+        $knownStatuses = ['New', 'Hot', 'Warm', 'Cold', 'Lost', 'Converted'];
+        $allStatuses = ['New', 'Hot', 'Warm', 'Cold', 'Lost', 'Converted'];
         $statusWiseLeads = [];
 
         foreach ($allStatuses as $status) {
@@ -140,7 +140,7 @@ class outboundLeadController extends Controller
             'linkedin_url' => 'nullable|url',
             'website_url' => 'nullable|url',
             'designation' => 'nullable|string',
-            'status' => 'required|in:New,Hot,Warm,Cold,Qualified,Converted',
+            'status' => 'required|in:New,Hot,Warm,Cold,Lost,Converted',
             'service' => 'nullable|string',
             'industry' => 'nullable|string',
             'source' => 'nullable|string',
@@ -242,5 +242,14 @@ class outboundLeadController extends Controller
                 'message' => $e->getMessage()
             ], 500);
         }
+    }
+    public function seclistLead()
+    {
+        // $listLeads = outboundLead::orderBy('created_at', 'desc')->get();
+        $listLeads = OutboundLead::whereNotNull('first_contact_date')
+            ->whereNull('second_followup_date')
+            ->orderBy('created_at', 'desc')
+            ->get();
+        return view('admin/Pages/outBoundLead/secFollowUp', compact('listLeads'));
     }
 }

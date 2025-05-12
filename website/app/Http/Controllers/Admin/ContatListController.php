@@ -16,7 +16,7 @@ class ContatListController extends Controller
         $startOfMonth = Carbon::parse($month)->startOfMonth();
         $endOfMonth = Carbon::parse($month)->endOfMonth();
 
-        // Graph data (daily)
+        // Graph data (daily ads vs organic)
         $leads = Contact::selectRaw("DATE(created_at) as date")
             ->selectRaw("SUM(CASE WHEN utm_source IN ('google','facebook','instagram','newsletter') THEN 1 ELSE 0 END) as ad_leads")
             ->selectRaw("SUM(CASE WHEN utm_source IS NULL OR utm_source NOT IN ('google','facebook','instagram','newsletter') THEN 1 ELSE 0 END) as organic_leads")
@@ -28,88 +28,80 @@ class ContatListController extends Controller
         // All Leads
         $contactLists = Contact::latest()->get();
 
-        // Total counts of Organic Leads
-        $totalOrganicLeads = Contact::where(function ($q) {
+        // Total counts
+        $adSources = ['google', 'facebook', 'instagram', 'newsletter'];
+
+        $totalAdLeads = Contact::whereIn('utm_source', $adSources)->count();
+
+        $totalOrganicLeads = Contact::where(function ($q) use ($adSources) {
             $q->whereNull('utm_source')
-                ->orWhereNotIn('utm_medium', ['cpc', 'paid', 'ppc', 'google', 'facebook', 'instagram', 'newsletter']);
+                ->orWhereNotIn('utm_source', $adSources);
         })->count();
 
-        // Total counts of Ads Leads
-        $totalAdLeads = Contact::whereNotNull('utm_source')
-            ->whereIn('utm_source', ['google', 'facebook', 'instagram', 'newsletter'])
-            ->count();
-
-        // Monthly counts using organic Leads
-        $totalOrganicLeadsThisMonth = Contact::where(function ($q) {
-            $q->whereNull('utm_source')
-                ->orWhereNotIn('utm_source', ['cpc', 'paid', 'ppc', 'google', 'facebook', 'instagram', 'newsletter']);
-        })->whereBetween('created_at', [$startOfMonth, $endOfMonth])->count();
-
-        // Monthly counts using Ads Leads
-        $totalAdLeadsThisMonth = Contact::whereIn('utm_source', ['google', 'facebook', 'instagram', 'newsletter'])
+        $totalAdLeadsThisMonth = Contact::whereIn('utm_source', $adSources)
             ->whereBetween('created_at', [$startOfMonth, $endOfMonth])
             ->count();
 
-        // Pie chart data service  // list of all lead
-        // $contactLists = Contact::whereBetween('created_at', [$startOfMonth, $endOfMonth])
-        // ->latest()
-        // ->get();
+        $totalOrganicLeadsThisMonth = Contact::where(function ($q) use ($adSources) {
+            $q->whereNull('utm_source')
+                ->orWhereNotIn('utm_source', $adSources);
+        })->whereBetween('created_at', [$startOfMonth, $endOfMonth])
+            ->count();
 
-        // Service-wise leads in selected month
+        // Pie chart data: service-wise leads
         $serviceCounts = Contact::selectRaw('service, COUNT(*) as count')
             ->whereBetween('created_at', [$startOfMonth, $endOfMonth])
             ->whereNotNull('service')
             ->groupBy('service')
             ->pluck('count', 'service');
 
-        // status-wise leads in selected month    
-        $knownStatuses = ['new', 'Hot', 'Warm', 'Cold', 'Qualified', 'Converted'];
-        $allStatuses = ['new', 'Hot', 'Warm', 'Cold',  'Qualified', 'Converted', 'Unknown'];
+        // Status-wise leads chart
+        $knownStatuses = ['New', 'Hot', 'Warm', 'Cold', 'Lost', 'Converted'];
         $statusWiseLeads = [];
 
-        foreach ($allStatuses as $status) {
-            if ($status === 'Unknown') {
-                // Leads with NULL, empty, or unrecognized status
-                $statusData = Contact::selectRaw("DATE(created_at) as date, COUNT(*) as count")
-                    ->whereNotIn('status', $knownStatuses)
-                    ->orWhereNull('status')
-                    ->whereBetween('created_at', [$startOfMonth, $endOfMonth])
-                    ->groupBy('date')
-                    ->orderBy('date')
-                    ->get()
-                    ->pluck('count', 'date');
-            } else {
-                $statusData = Contact::selectRaw("DATE(created_at) as date, COUNT(*) as count")
-                    ->where('status', $status)
-                    ->whereBetween('created_at', [$startOfMonth, $endOfMonth])
-                    ->groupBy('date')
-                    ->orderBy('date')
-                    ->get()
-                    ->pluck('count', 'date');
-            }
-
-            // Fill missing dates with 0
-            $allDates = collect();
-            $current = $startOfMonth->copy();
-            while ($current <= $endOfMonth) {
-                $allDates->put($current->format('Y-m-d'), $statusData->get($current->format('Y-m-d'), 0));
-                $current->addDay();
-            }
-
-            $statusWiseLeads[] = [
-                'name' => ucfirst($status),
-                'data' => array_values($allDates->toArray())
-            ];
-        }
-
-        // Generate chart x-axis labels (e.g. 'May 01', 'May 02', etc.)
-        $chartDates = [];
+        // Prepare all dates in the selected month
+        $allDatesRange = collect();
         $current = $startOfMonth->copy();
         while ($current <= $endOfMonth) {
-            $chartDates[] = $current->format('M d');
+            $allDatesRange->put($current->format('Y-m-d'), 0);
             $current->addDay();
         }
 
+        // Handle "New" (unrecognized or NULL status)
+        $newStatusData = Contact::selectRaw("DATE(created_at) as date, COUNT(*) as count")
+            ->where(function ($q) use ($knownStatuses) {
+                $q->whereNotIn('status', $knownStatuses)
+                    ->orWhereNull('status');
+            })
+            ->whereBetween('created_at', [$startOfMonth, $endOfMonth])
+            ->groupBy('date')
+            ->orderBy('date')
+            ->get()
+            ->pluck('count', 'date');
+
+        $statusWiseLeads[] = [
+            'name' => 'New',
+            'data' => array_values($allDatesRange->map(fn($_, $date) => $newStatusData->get($date, 0))->toArray())
+        ];
+
+        // Loop for known statuses (excluding "New")
+        foreach (array_diff($knownStatuses, ['New']) as $status) {
+            $statusData = Contact::selectRaw("DATE(created_at) as date, COUNT(*) as count")
+                ->where('status', $status)
+                ->whereBetween('created_at', [$startOfMonth, $endOfMonth])
+                ->groupBy('date')
+                ->orderBy('date')
+                ->get()
+                ->pluck('count', 'date');
+
+            $statusWiseLeads[] = [
+                'name' => ucfirst($status),
+                'data' => array_values($allDatesRange->map(fn($_, $date) => $statusData->get($date, 0))->toArray())
+            ];
+        }
+
+        // Chart x-axis labels
+        $chartDates = $allDatesRange->keys()->map(fn($date) => Carbon::parse($date)->format('M d'))->toArray();
 
         return view('admin/Pages/Contact/ContactList', compact(
             'contactLists',
@@ -124,6 +116,7 @@ class ContatListController extends Controller
         ));
     }
 
+
     public function editLead($id)
     {
         $lead = Contact::findOrFail($id);
@@ -134,7 +127,7 @@ class ContatListController extends Controller
         $lead = Contact::findOrFail($id);
 
         $request->validate([
-            'status' => 'required|in:New,Hot,Warm,Cold,Qualified,Converted',
+            'status' => 'required|in:New,Hot,Warm,Cold,Lost,Converted',
         ]);
 
         $lead->update($request->only([

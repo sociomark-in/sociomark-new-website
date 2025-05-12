@@ -58,7 +58,7 @@
                             </a>
                         </div>
                         <div class="col-3 text-center">
-                            <a href="pages/apps/calendar.html" class="dropdown-item d-flex flex-column align-items-center justify-content-center w-70px h-70px"><i data-feather="calendar" class="icon-lg mb-1"></i>
+                            <a href="{{ route('calender') }}" class="dropdown-item d-flex flex-column align-items-center justify-content-center w-70px h-70px"><i data-feather="calendar" class="icon-lg mb-1"></i>
                                 <p class="fs-12px">Calendar</p>
                             </a>
                         </div>

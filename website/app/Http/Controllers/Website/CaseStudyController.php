@@ -71,4 +71,12 @@ class CaseStudyController extends Controller
     {
         return view('Frontend/caseStudy/realestateawards');
     }
+    public function nhs()
+    {
+        return view('Frontend/caseStudy/nhs');
+    }
+    public function getTheHook()
+    {
+        return view('Frontend/caseStudy/getTheHook');
+    }
 }
