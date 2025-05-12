@@ -109,7 +109,7 @@ class ServiceController extends Controller
                 ]
             ]
         ];
-        return view("Frontend/Services/Website", compact('blogs'), 'meta', ['data', $this->data]);
+        return view("Frontend/Services/Website", compact('blogs'));
     }
     public function socialMedia()
     {
