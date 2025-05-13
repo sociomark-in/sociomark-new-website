@@ -441,11 +441,12 @@
                             <thead>
                                 <tr>
                                     <th class="pt-0">#</th>
+                                    <th class="pt-0">Date</th>
                                     <th class="pt-0">Name</th>
                                     <th class="pt-0">Email</th>
                                     <th class="pt-0">Phone No.</th>
                                     <th class="pt-0">Service</th>
-                                    <th class="pt-0">Date</th>
+
                                     <th class="pt-0">Action</th>
                                 </tr>
                             </thead>
@@ -453,16 +454,21 @@
                                 @php $i = 1; @endphp
                                 @foreach ($hotLeads as $hotLead)
                                 <tr>
-                                    <td>{{ $i++}}</td>
-                                    <td>{{$hotLead->name}}</td>
-                                    <td>{{$hotLead->email}}</td>
-                                    <td>{{$hotLead->phone}}</td>
-                                    <td>{{$hotLead->service}}</td>
-                                    <td>{{$hotLead->created_at->format('Y-m-d')}}</td>
+                                    <td>{{ $i++ }}</td>
+                                    <td>{{ $hotLead->created_at->format('Y-m-d') }}</td>
+                                    <td>{{ $hotLead->name ?? $hotLead->full_name }}</td>
+                                    <td>{{ $hotLead->email }}</td>
+                                    <td>{{ $hotLead->phone }}</td>
+                                    <td>{{ $hotLead->service ?? 'N/A' }}</td>
+                                    <td>
+                                        <a href="{{ route('leadsEdit', ['type' => $hotLead->type, 'id' => $hotLead->id]) }}" style="margin-right: 8px;">
+                                            <i data-feather="edit"></i>
+                                        </a>
+                                    </td>
                                 </tr>
                                 @endforeach
-
                             </tbody>
+
                         </table>
                     </div>
                 </div>

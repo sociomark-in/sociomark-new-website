@@ -93,6 +93,8 @@ Route::get('/case-study/smarter-india', [CaseStudyController::class, 'smarterInd
 Route::get('/case-study/real-estate-awards', [CaseStudyController::class, 'realestateawards'])->name('realestateawards');
 Route::get('/case-study/nhs', [CaseStudyController::class, 'nhs'])->name('nhs');
 Route::get('/case-study/get-the-hook', [CaseStudyController::class, 'getTheHook'])->name('getTheHook');
+Route::get('/case-study/ayushakti-new', [CaseStudyController::class, 'ayushaktiNew'])->name('getTheHook');
+Route::get('/case-study/cyber-power', [CaseStudyController::class, 'cyberPower'])->name('cyberPower');
 
 Route::get('/work-culture', [WorkCultureController::class, 'index'])->name('workculture');
 Route::get('/careers', [HomeController::class, 'careers'])->name('careers');
@@ -123,6 +125,12 @@ Route::post('/admin/logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::middleware(['admin:admin,hr,business,user'])->group(function () {
     Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+
+    Route::get('/admin/dashboard/leads/{type}/{id}/edit', [DashboardController::class, 'edit'])->name('leadsEdit');
+    Route::get('/admin/dashboard/leads/{type}/{id}', [DashboardController::class, 'show'])->name('leads.show');
+
+
+
     Route::get('/admin/addservices', [ServicesController::class, 'addServices'])->name('addservices');
     Route::resource('/admin/categories', CategoryController::class);
     Route::resource('/admin/tags', TagController::class);
@@ -137,8 +145,8 @@ Route::middleware(['admin:admin,hr,business,user'])->group(function () {
     Route::post('admin/outbound-lead-delete/{id}', [outboundLeadController::class, 'deleteLead'])->name('deleteLead');
     Route::get('admin/Work-gallary/create', [AdminWorkCultureController::class, 'create']);
     // Route::get('admin/enquiryList', [ContatListController::class,'index'])->name('contactList');
-    Route::get('admin/enquiryList', [ContatListController::class,'popContact'])->name('popUpcontactList');
-    
+    Route::get('admin/enquiryList', [ContatListController::class, 'popContact'])->name('popUpcontactList');
+
 
     Route::get('/admin/contact-graph', [ContatListController::class, 'graph'])->name('contactList');
     Route::get('admin/inbound-lead-edit/{id}', [ContatListController::class, 'editLead'])->name('ineditLead');

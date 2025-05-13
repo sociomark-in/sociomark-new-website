@@ -79,4 +79,12 @@ class CaseStudyController extends Controller
     {
         return view('Frontend/caseStudy/getTheHook');
     }
+    public function ayushaktiNew()
+    {
+        return view('Frontend/caseStudy/ayushaktiNew');
+    }
+    public function cyberPower()
+    {
+        return view('Frontend/caseStudy/cyberPower');
+    }
 }

@@ -97,10 +97,22 @@ class DashboardController extends Controller
 
         // only hot lead from inbound & outbound 
 
-        $hotOutboundLeads = OutboundLead::where('status', 'hot')->get();
-        $hotContactLeads = Contact::where('status', 'hot')->get();
+        $hotOutboundLeads = OutboundLead::where('status', 'hot')
+            ->get()
+            ->map(function ($lead) {
+                $lead->type = 'outbound';
+                return $lead;
+            });
+
+        $hotContactLeads = Contact::where('status', 'hot')
+            ->get()
+            ->map(function ($lead) {
+                $lead->type = 'contact';
+                return $lead;
+            });
 
         $hotLeads = $hotOutboundLeads->merge($hotContactLeads);
+
 
         return view("admin/Pages/Home/Dashboard", compact(
             'contact_leads',
@@ -115,5 +127,47 @@ class DashboardController extends Controller
             'convertedOutBound',
             'hotLeads'
         ));
+    }
+
+    public function show($type, $id)
+    {
+        $hotOutboundLeads = OutboundLead::where('status', 'hot')
+            ->get()
+            ->map(function ($lead) {
+                $lead->type = 'outbound';
+                return $lead;
+            });
+
+        $hotContactLeads = Contact::where('status', 'hot')
+            ->get()
+            ->map(function ($lead) {
+                $lead->type = 'contact';
+                return $lead;
+            });
+
+        $hotLeads = $hotOutboundLeads->merge($hotContactLeads);
+
+        if ($type === 'outbound') {
+            $outlead = OutboundLead::findOrFail($id);
+            return view('admin/Pages/Home/show', compact('outlead', 'type'));
+        } elseif ($type === 'contact') {
+            $conlead = Contact::findOrFail($id);
+            return view('admin/Pages/Home/Contactshow', compact('conlead', 'type'));
+        } else {
+            abort(404);
+        }
+    }
+
+    public function edit($type, $id)
+    {
+        if ($type === 'outbound') {
+            $lead = OutboundLead::findOrFail($id);
+            return view('admin/Pages/Home/outEdit', compact('lead', 'type'));
+        } elseif ($type === 'contact') {
+            $lead = Contact::findOrFail($id);
+            return view('admin/Pages/Home/ContactEdit', compact('lead', 'type'));
+        } else {
+            abort(404);
+        }
     }
 }
