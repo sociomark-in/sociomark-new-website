@@ -67,14 +67,15 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal"><span class="visually-hidden">close</span></button>
                 </div>
                 <div id="modalBody2" class="modal-body">
-                    <form>
+                    <form action="{{ route('eventsStore') }}" method="post" enctype="multipart/form-data">
+                        @csrf
                         <div class="mb-3">
-                            <label for="formGroupExampleInput" class="form-label">Example label</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                            <label for="Title" class="form-label">Title</label>
+                            <input type="text" name="title" class="form-control" id="Title" required>
                         </div>
                         <div class="mb-3">
-                            <label for="formGroupExampleInput2" class="form-label">Another label</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input">
+                            <label for="description" class="form-label">Description</label>
+                            <input type="text" name="description" class="form-control" id="description">
                         </div>
                     </form>
                 </div>
@@ -96,54 +97,44 @@
 
         var calendar = new FullCalendar.Calendar(calendarEl, {
             initialView: 'dayGridMonth',
-            editable: true,
             selectable: true,
-            droppable: true,
-            headerToolbar: {
-                left: 'prev,next today',
-                center: 'title',
-                right: 'dayGridMonth,timeGridWeek,timeGridDay'
-            },
+            events: '/calendar/events', // load from DB
+
             dateClick: function(info) {
                 $('#createEventModal').modal('show');
-                $('#createEventModal').data('date', info.dateStr);
-            },
-            eventClick: function(info) {
-                $('#modalTitle1').text(info.event.title);
-                $('#modalBody1').html(`<strong>Start:</strong> ${info.event.start}`);
-                $('#fullCalModal').modal('show');
+                $('#addEventForm').data('selected-date', info.dateStr); // store date in form data
             }
         });
 
         calendar.render();
 
-        // Add event from modal
         $('.btn-primary:contains("Add")').on('click', function() {
-            var title = $('#formGroupExampleInput').val();
-            var description = $('#formGroupExampleInput2').val();
-            var date = $('#createEventModal').data('date');
+            let date = $('#addEventForm').data('selected-date');
+            let title = $('#Title').val();
+            let description = $('#description').val();
 
-            if (title) {
-                calendar.addEvent({
-                    title: title,
-                    start: date,
-                    extendedProps: {
-                        description: description
+            if (title && date) {
+                $.ajax({
+                    url: '/calendar/events/store',
+                    type: 'POST',
+                    data: {
+                        _token: $('meta[name="csrf-token"]').attr('content'),
+                        title: title,
+                        description: description,
+                        start: date
+                    },
+                    success: function(event) {
+                        calendar.addEvent({
+                            id: event.id,
+                            title: event.title,
+                            start: event.start
+                        });
+
+                        $('#createEventModal').modal('hide');
+                        $('#Title').val('');
+                        $('#description').val('');
                     }
                 });
-                $('#createEventModal').modal('hide');
-                $('#formGroupExampleInput').val('');
-                $('#formGroupExampleInput2').val('');
-            }
-        });
-
-        // Make external events draggable
-        new FullCalendar.Draggable(document.getElementById('external-events'), {
-            itemSelector: '.fc-event',
-            eventData: function(eventEl) {
-                return {
-                    title: eventEl.innerText.trim()
-                };
             }
         });
     });

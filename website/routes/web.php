@@ -154,4 +154,5 @@ Route::middleware(['admin:admin,hr,business,user'])->group(function () {
     Route::post('admin/inbound-lead-delete/{id}', [ContatListController::class, 'deleteLead'])->name('indeleteLead');
 
     Route::get('/admin/calender', [calenderController::class, 'calender'])->name('calender');
+    Route::post('/admin/calendar/events', [calenderController::class, 'store'])->name('eventsStore');
 });
