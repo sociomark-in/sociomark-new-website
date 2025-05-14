@@ -293,7 +293,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-5 col-xl-4 grid-margin stretch-card">
+        <div class="col-lg-5 col-xl-4 grid-margin stretch-ca rd">
             <div class="card">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-baseline">
