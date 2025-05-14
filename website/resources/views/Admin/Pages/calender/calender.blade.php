@@ -1,5 +1,9 @@
 @extends('admin.layout.app')
 
+<meta name="csrf-token" content="{{ csrf_token() }}">
+<link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 @section('page-content')
 <div class="page-content">
@@ -59,15 +63,18 @@
         </div>
     </div>
 
+    <div id="fullcalendar"></div>
+
+    <!-- Modal -->
     <div id="createEventModal" class="modal fade">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 id="modalTitle2" class="modal-title">Add event</h4>
+                    <h4 id="modalTitle2" class="modal-title">Add Event</h4>
                     <button type="button" class="btn-close" data-bs-dismiss="modal"><span class="visually-hidden">close</span></button>
                 </div>
-                <div id="modalBody2" class="modal-body">
-                    <form action="{{ route('eventsStore') }}" method="post" enctype="multipart/form-data">
+                <div class="modal-body">
+                    <form id="addEventForm">
                         @csrf
                         <div class="mb-3">
                             <label for="Title" class="form-label">Title</label>
@@ -81,11 +88,12 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button class="btn btn-primary">Add</button>
+                    <button type="button" class="btn btn-primary" id="addEventBtn">Add</button>
                 </div>
             </div>
         </div>
     </div>
+
 
 </div>
 @endsection
@@ -98,24 +106,24 @@
         var calendar = new FullCalendar.Calendar(calendarEl, {
             initialView: 'dayGridMonth',
             selectable: true,
-            events: '/calendar/events', // load from DB
+            events: '/calendar/events', // fetch from DB
 
             dateClick: function(info) {
                 $('#createEventModal').modal('show');
-                $('#addEventForm').data('selected-date', info.dateStr); // store date in form data
+                $('#addEventForm').data('selected-date', info.dateStr); // store clicked date
             }
         });
 
         calendar.render();
 
-        $('.btn-primary:contains("Add")').on('click', function() {
+        $('#addEventBtn').on('click', function() {
             let date = $('#addEventForm').data('selected-date');
             let title = $('#Title').val();
             let description = $('#description').val();
 
             if (title && date) {
                 $.ajax({
-                    url: '/calendar/events/store',
+                    url: "{{ route('eventsStore') }}",
                     type: 'POST',
                     data: {
                         _token: $('meta[name="csrf-token"]').attr('content'),
@@ -139,5 +147,6 @@
         });
     });
 </script>
+
 
 @endsection
