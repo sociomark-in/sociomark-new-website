@@ -105,8 +105,8 @@ class BlogController extends Controller
             'blog_name' => 'required|string|max:255',
             'content' => 'required',
             'status' => 'required|in:draft,active,inactive',
-            'tags' => 'required|string', // Ensure it's a string
-            'categories' => 'required|array', // Categories should remain an array
+            'tags' => 'nullable|string', // Ensure it's a string
+            'categories' => 'nullable|array', // Categories should remain an array
             'meta_title' => 'nullable|string|max:255',
             'meta_description' => 'nullable|string|max:500',
             'meta_keywords' => 'nullable|string|max:500',
