@@ -13,7 +13,7 @@ class PortfolioController extends Controller
             'title' => 'Creative Journey: Explore the Work That Speaks for Itself​',
             'description' => "Explore Sociomark's portfolio showcasing innovative digital marketing, branding, and web development projects that deliver impactful results for clients."
         ];
-        return view('Frontend/Portfolio/insidePortfolio' , compact('meta'));
+        return view('Frontend/Portfolio/insidePortfolio', compact('meta'));
         // return view('Frontend/Portfolio/ListPortfolioCat');
     }
     public function portfolioInside()
@@ -233,6 +233,10 @@ class PortfolioController extends Controller
                 return view("Frontend/Portfolio/vedcoSocial");
                 # code...
                 break;
+            case 'desi-avtar':
+                return view("Frontend/Portfolio/desiAvtar");
+                # code...
+                break;
             /* U */
             /* V */
             /* W */
@@ -269,7 +273,8 @@ class PortfolioController extends Controller
         }
     }
 
-    public function website_work($client){
+    public function website_work($client)
+    {
         switch ($client) {
             case 'ayushakti':
                 return view('Frontend/Portfolio/ayushaktiweb');

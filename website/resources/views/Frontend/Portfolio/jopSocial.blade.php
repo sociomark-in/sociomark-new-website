@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/jop.png') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/portfolio/jop/JOP.png') }}" alt=""
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -69,16 +69,16 @@
     <div class="container">
         <div class="row">
             <h2 class="text-blue sec-title">JOP</h2>
-            <p class="sec-para"><b>About the Brand:</b> </p>
-            <p class="sec-para"><b>Services Offered:</b> </p>
-            
-            <div class="th-social">
-                <p class="sec-para"><b>Page Link:</b>
-                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-            </div>
+            <p class="sec-para"><b>About the Brand:</b><strong>JOP Palms </strong>is a premium <strong>real estate development</strong> in Rohtak, designed to offer modern comforts amidst peaceful surroundings. Blending contemporary infrastructure with thoughtful planning, JOP Palms aims to redefine <strong>urban living</strong> in the region. With well-laid plots, green landscapes, and future-ready amenities, the project caters to those seeking both investment potential and quality lifestyles. Backed by trusted development standards, JOP Palms is set to become one of Rohtak’s most desirable addresses. </p>
+            <p class="sec-para"><b>Services Offered:</b> 
+                <ul>
+                    <li class="sec-para"> Social Media Management</li>
+                    <li class="sec-para">Performance Marketing </li>
+                  
+                </ul>
+            </p>
 
+           
         </div>
     </div>
 </section>
@@ -157,23 +157,23 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
-                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Ayushakti</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Ayushakti</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'jivana']) }}">
-                <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'cyber-power']) }}">
-                <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
                 </a>
             </div>
-           
+
         </div>
     </div>
 </section>

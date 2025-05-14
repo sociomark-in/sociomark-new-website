@@ -7,7 +7,7 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="col-12">
-                                <img src="https://placehold.co/1920x900" alt=""
+                                <img src="{{ asset('frontend-assets/img/portfolio/pare/banner.jpg') }}" alt=""
                                     srcset="" class="w-100">
                             </div>
                         </div>
@@ -69,8 +69,10 @@
         <div class="container">
             <div class="row">
                 <h2 class="text-blue sec-title">Pare</h2>
-                <p class="sec-para"><b>About the Brand:</b> </p>
-                <p class="sec-para"><b>Services Offered:</b> </p>
+                <p class="sec-para"><b>About the Brand:</b> PARÉ Innovations is a standout name in the <strong>building materials</strong> industry, offering premium solutions tailored for modern architecture. Specializing in advanced <strong>wall and ceiling panels</strong> and facade systems, PARÉ is known for bringing pathbreaking surface technologies to India. With a strong emphasis on design and performance, the brand continues to redefine what’s possible in surface innovation.
+ </p>
+                <p class="sec-para"><b>Services Offered:</b> Search Engine Optimization (SEO)
+ </p>
                 <div class="th-social">
                     <p class="sec-para"><b>Page Link:</b>
                         <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -83,72 +85,6 @@
             </div>
         </div>
     </section>
-
-    <section class="port-bann section-margin">
-        <div class="container-fluid">
-            <div class="row mt-60">
-                <h2 class=" sec-title text-center">The Mighty <span class="text-blue">Creative</span></h2>
-                </h2>
-                <div class="swiper creativeSwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x600" alt=""
-                                srcset="" class="w-100">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x600" alt=""
-                                srcset="" class="w-100">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x600" alt=""
-                                srcset="" class="w-100">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="https://placehold.co/600x600" alt=""
-                                srcset="" class="w-100">
-                        </div>
-                    </div>
-                    <!--<div class="swiper-button-next"></div>-->
-                    <!--<div class="swiper-button-prev"></div>-->
-                    {{-- <div class="swiper-pagination"></div> --}}
-                </div>
-                <div class="header-button mt-3 justify-content-center">
-                    <a href="{{ route('ayushakti') }}" class="th-btn th-icon">VIEW OUR CASE STUDY</a>
-                </div>
-                <script>
-                    var swiper = new Swiper(".creativeSwiper", {
-                        spaceBetween: 30,
-                        centeredSlides: true,
-                        slidesPerView: 1,
-                        loop: true,
-                        autoplay: {
-                            delay: 2500,
-                            disableOnInteraction: false,
-                        },
-                        breakpoints: {
-                            375: {
-                                slidesPerView: 1,
-                                spaceBetween: 20,
-                            },
-                            768: {
-                                slidesPerView: 2,
-                                spaceBetween: 40,
-                            },
-                            1024: {
-                                slidesPerView: 3,
-                                spaceBetween: 50,
-                            },
-                        },
-                        pagination: {
-                            el: ".creativeSwiper .swiper-pagination",
-                            clickable: true,
-                        },
-                    });
-                </script>
-            </div>
-        </div>
-    </section>
-
     <section class="porfolio-text section-margin">
     <div class="container">
         <div class="row">
