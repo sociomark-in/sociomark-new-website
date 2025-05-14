@@ -23,7 +23,7 @@
                                 <a href="#"><i class="fa-light fa-calendar"></i>
                                     {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}</a>
                                 <a href="#"><i class="fa-light fa-tags"></i>
-                                    {{ implode(', ', $blog->getCategoryNames()) ?? 'No Category' }}</a>
+                                    {{ implode(', ', $blog->category_names) ?: 'No Category' }}</a>
                             </div>
                             <h3 class="blog-title blog-title-text">
                                 <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">

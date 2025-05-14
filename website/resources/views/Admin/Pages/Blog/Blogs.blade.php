@@ -49,16 +49,22 @@
                                         <i data-feather="zap-off" style="color: grey;"></i>
                                         @endif
                                     </td>
-                                    <td>{{ implode(', ', $blog->getCategoryNames()) ?: 'No Category' }}</td>
-                                    <!-- <td>{{ implode(', ', $blog->getTagNames()) ?: 'No tag' }}</td> -->
+                                    
+                                    
+                                   <td>{{ implode(', ', $blog->category_names) ?: 'No Category' }}</td>
                                     <td>
-                                        @if (!empty($blog->images) && is_array($blog->images))
-                                        @foreach ($blog->images as $image)
+                                        @php
+                                        $images = is_array($blog->images) ? $blog->images : json_decode($blog->images, true);
+                                        @endphp
+
+                                        @if (!empty($images))
+                                        @foreach ($images as $image)
                                         <img src="{{ url('storage/app/public/' . $image) }}" width="50" height="50" style="object-fit: cover; margin-right: 5px;" alt="Blog Image">
                                         @endforeach
                                         @else
                                         No Image
                                         @endif
+
                                     </td>
                                     <td>{{ $blog->created_at->format('Y-m-d') }}</td>
                                     <td>

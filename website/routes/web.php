@@ -92,7 +92,7 @@ Route::get('/case-study/acetattoz', [CaseStudyController::class, 'acetattoz'])->
 Route::get('/case-study/smarter-india', [CaseStudyController::class, 'smarterIndia'])->name('smarterIndia');
 Route::get('/case-study/real-estate-awards', [CaseStudyController::class, 'realestateawards'])->name('realestateawards');
 Route::get('/case-study/nhs', [CaseStudyController::class, 'nhs'])->name('nhs');
-Route::get('/case-study/get-the-hook', [CaseStudyController::class, 'getTheHook'])->name('getTheHook');
+Route::get('/case-study/off-the-hook', [CaseStudyController::class, 'getTheHook'])->name('getTheHook');
 Route::get('/case-study/ayushakti-new', [CaseStudyController::class, 'ayushaktiNew'])->name('getTheHook');
 Route::get('/case-study/cyber-power', [CaseStudyController::class, 'cyberPower'])->name('cyberPower');
 
@@ -154,5 +154,6 @@ Route::middleware(['admin:admin,hr,business,user'])->group(function () {
     Route::post('admin/inbound-lead-delete/{id}', [ContatListController::class, 'deleteLead'])->name('indeleteLead');
 
     Route::get('/admin/calender', [calenderController::class, 'calender'])->name('calender');
+    Route::get('/admin/calendar/events', [CalenderController::class, 'index']); // for FullCalendar AJAX
     Route::post('/admin/calendar/events', [calenderController::class, 'store'])->name('eventsStore');
 });

@@ -12,6 +12,14 @@ class calenderController extends Controller
     {
         return view('admin/Pages/calender/calender');
     }
+
+    public function index()
+    {
+        // Return only the necessary fields
+        return response()->json(
+            Event::select('id', 'title', 'description', 'start')->get()
+        );
+    }
     public function store(Request $request)
     {
         $request->validate([

@@ -1,9 +1,5 @@
 @extends('admin.layout.app')
 
-<meta name="csrf-token" content="{{ csrf_token() }}">
-<link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 @section('page-content')
 <div class="page-content">
@@ -98,46 +94,70 @@
 </div>
 @endsection
 
-@section('custom-js')
+@push('scripts')
+<!-- FullCalendar CSS -->
+<link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css" rel="stylesheet" />
+<!-- FullCalendar JS (GLOBAL build with all plugins included) -->
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('fullcalendar');
-
         var calendar = new FullCalendar.Calendar(calendarEl, {
             initialView: 'dayGridMonth',
             selectable: true,
-            events: '/calendar/events', // fetch from DB
+            events: "{{ url('/admin/calendar/events') }}", // Load from DB
 
             dateClick: function(info) {
+                // Show the modal to add event
                 $('#createEventModal').modal('show');
-                $('#addEventForm').data('selected-date', info.dateStr); // store clicked date
+                $('#addEventForm').data('selected-date', info.dateStr);
+            },
+
+            eventClick: function(info) {
+                // Show event details modal
+                info.jsEvent.preventDefault();
+
+                $('#modalTitle1').text(info.event.title);
+                $('#modalBody1').html(`
+                    <p>${info.event.extendedProps.description || 'No description provided.'}</p>
+                    <p><strong>Date:</strong> ${info.event.startStr}</p>
+                `);
+
+                $('#fullCalModal').modal('show');
             }
         });
 
         calendar.render();
 
-        $('#addEventBtn').on('click', function() {
+        // Add event to calendar via AJAX
+        $('.btn-primary:contains("Add")').on('click', function() {
             let date = $('#addEventForm').data('selected-date');
             let title = $('#Title').val();
             let description = $('#description').val();
 
             if (title && date) {
                 $.ajax({
-                    url: "{{ route('eventsStore') }}",
-                    type: 'POST',
+                    url: "{{ url('/calendar/events/store') }}",
+                    method: 'POST',
                     data: {
-                        _token: $('meta[name="csrf-token"]').attr('content'),
+                        _token: '{{ csrf_token() }}',
                         title: title,
                         description: description,
                         start: date
                     },
                     success: function(event) {
+                        // Add new event to calendar
                         calendar.addEvent({
                             id: event.id,
                             title: event.title,
-                            start: event.start
+                            start: event.start,
+                            extendedProps: {
+                                description: event.description
+                            }
                         });
 
+                        // Clear modal and close
                         $('#createEventModal').modal('hide');
                         $('#Title').val('');
                         $('#description').val('');
@@ -148,5 +168,4 @@
     });
 </script>
 
-
-@endsection
+@endpush

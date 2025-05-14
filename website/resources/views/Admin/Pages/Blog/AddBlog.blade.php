@@ -1,20 +1,4 @@
 @extends('admin.layout.app')
-@section("customCSSAndJS")
-<!-- Load Summernote -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-lite.min.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-lite.min.js"></script>
-
-<!-- Load Select2 -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
-
-<!-- Dropzone CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.css">
-<!-- Dropzone JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js"></script>
-
-
-@endsection
 
 @section('page-content')
 <div class="page-content">
@@ -50,17 +34,6 @@
                     <div class="card-body">
 
                         <h6 class="card-title">Horizontal Form</h6>
-
-                        <!-- <div class="mb-3">
-                            <label>Status</label>
-                            <div>
-                                <input type="radio" name="status" value="draft" checked> Draft
-                                <input type="radio" name="status" value="active"> Active
-                                <input type="radio" name="status" value="inactive"> Inactive
-                            </div>
-                        </div> -->
-
-
                         <div class="mb-3">
                             <label class="form-label">Status</label>
                             <div>
@@ -178,6 +151,19 @@
     </form>
 </div>
 
+@push('scripts')
+<!-- Load Summernote -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-lite.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.18/summernote-lite.min.js"></script>
+
+<!-- Load Select2 -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+<!-- Dropzone CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.css">
+<!-- Dropzone JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js"></script>
 <script>
     // $(document).ready(function() {
     //     $('#summernote').summernote({
@@ -243,4 +229,7 @@
         this.dataset.edited = true;
     });
 </script>
+@endpush
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
 @endsection

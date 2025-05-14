@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers\admin;
 
 use App\Http\Controllers\Controller;
 
@@ -18,12 +18,12 @@ class BlogController extends Controller
     // {
 
     //     $blogs = Blog::with('category')->latest()->get();
-    //     return view('Admin/Pages/Blog/Blogs', compact('blogs'));
+    //     return view('admin/Pages/Blog/Blogs', compact('blogs'));
     // }
     public function index()
     {
         $blogs = Blog::latest()->get();
-        return view('Admin/Pages/Blog/Blogs', compact('blogs'));
+        return view('admin/Pages/Blog/Blogs', compact('blogs'));
     }
 
     // Show form to create blog
@@ -83,7 +83,7 @@ class BlogController extends Controller
     // Show blog details
     // public function show(Blog $blog)
     // {
-    //     return view('Admin/Pages/Blog/EditBlog', compact('blog'));
+    //     return view('admin/Pages/Blog/EditBlog', compact('blog'));
     // }
 
     // Show form to edit blog

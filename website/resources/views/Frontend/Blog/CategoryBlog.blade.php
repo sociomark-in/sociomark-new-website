@@ -97,9 +97,9 @@
             <div class="row">
                 <div class="col-xxl-8 col-lg-8">
                     <div class="row">
-                        @foreach($blogs->chunk(2) as $blogChunk) <!-- Group blogs in pairs -->
-                        @foreach($blogChunk as $blog)
-                        <div class="col-md-6" data-category="{{ implode(',', $blog->getCategoryNames()) }}">
+                       
+                        @foreach($blogs as $blog)
+                        <div class="col-md-6" data-category="{{ implode(', ', $blog->category_names) ?: 'No Category' }}">
 
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
                                 <div class="blog-img box-blog">
@@ -111,7 +111,7 @@
                                     <div class="blog-meta">
                                         <a href=""><i class="fa-light fa-calendar"></i> {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}</a>
                                         <!-- <a href="#"><i class="fa-regular fa-clock"></i> 08 min read</a> -->
-                                        <a href=""><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->getCategoryNames()) ?? 'No Category' }}</a>
+                                        <a href=""><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->category_names) ?: 'No Category' }}</a>
                                     </div>
                                     <h3 class="blog-title blog-title-text"><a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">{{ $blog->blog_name }}</a></h3>
                                     <p class="blog-text">{{ Str::limit(strip_tags($blog->content), 100) }}</p>
@@ -121,7 +121,7 @@
 
                         </div>
                         @endforeach
-                        @endforeach
+                      
                     </div>
                     <div class="th-pagination">
                         <ul>

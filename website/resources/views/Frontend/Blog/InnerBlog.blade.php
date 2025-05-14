@@ -122,11 +122,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-xxl-8 col-lg-8">
-                    <div class="col-md-12" data-category="{{ implode(',', $blog->getCategoryNames()) }}">
+                    <div class="col-md-12" data-category="{{ implode(', ', $blog->category_names) ?: 'No Category' }}">
                         <div class="blog-content mb-3">
                             <div class="blog-meta">
                                 <a href="#"><i class="fa-light fa-calendar"></i> {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}</a>
-                                <a href="#"><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->getCategoryNames()) ?? 'No Category' }}</a>
+                                <a href="#"><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->category_names) ?: 'No Category' }}</a>
                             </div>
                             <h2 class=" blog-title blog-title-text"><a href="" class="sec-title">{{ $blog->blog_name }}</a></h2>
 
@@ -154,10 +154,15 @@
                         <div class="box widget widget_tag_cloud">
                             <h3 class="widget_title">Tags</h3>
                             <div class="tagcloud">
-                                @foreach ($blog->getTagNames() as $tag)
+                                @if (!empty($blog->tag_names))
+                                @foreach ($blog->tag_names as $tag)
                                 <a href="#" class="tag-filter" data-tag="{{ $tag }}">{{ $tag }}</a>
                                 @endforeach
+                                @else
+                                <span>No Tag</span>
+                                @endif
                             </div>
+
                         </div>
 
                         <div class="box widget widget_categories">

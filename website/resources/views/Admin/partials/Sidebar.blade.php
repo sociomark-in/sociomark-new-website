@@ -1,8 +1,9 @@
 <!-- partial:partials/_sidebar.html -->
 <nav class="sidebar">
     <div class="sidebar-header">
-        <a href="#" class="sidebar-brand">
-            Noble<span>UI</span>
+        <a href="#" class="sidebar-brand w-100 h-100">
+            <!-- Noble<span>UI</span> -->
+             <img src="{{ asset('frontend-assets/img/logo/sc-colored-horizontal.png') }}" alt="" class="w-100 h-100" style="object-fit: contain;">
         </a>
         <div class="sidebar-toggler">
             <span></span>
@@ -42,31 +43,19 @@
                         <li class="nav-item">
                             <a href="{{ route('blogs.create') }}" class="nav-link">Add Blog</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="{{ route('tags.create') }}" class="nav-link">Add Tag</a>
-                        </li>
-                        <!-- <li class="nav-item">
-                            <a href="pages/email/compose.html" class="nav-link">Compose</a>
-                        </li> -->
                     </ul>
                 </div>
             </li>
             <li class="nav-item">
                 <a href="{{ route('categories.create') }}" class="nav-link">
                     <i class="link-icon" data-feather="message-square"></i>
-                    <span class="link-title">Category</span>
+                    <span class="link-title">Add Category</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="pages/apps/chat.html" class="nav-link">
+                <a href="{{ route('tags.create') }}" class="nav-link">
                     <i class="link-icon" data-feather="message-square"></i>
-                    <span class="link-title">Work</span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="pages/apps/calendar.html" class="nav-link">
-                    <i class="link-icon" data-feather="calendar"></i>
-                    <span class="link-title">Case Study</span>
+                    <span class="link-title">Add Tags</span>
                 </a>
             </li>
             @endcan

@@ -30,27 +30,26 @@ class Blog extends Model
         'display_on_home' => 'boolean',
     ];
 
-    // ✅ Retrieve categories based on stored category IDs (JSON field)
+    // Optional: get full category objects
     public function categoryObjects()
     {
-        return Category::whereIn('id', $this->categories)->get();
+        return Category::whereIn('id', $this->categories ?? [])->get();
     }
 
-    // ✅ Retrieve tags based on stored tag IDs (JSON field)
+    // Optional: get full tag objects
     public function tagObjects()
     {
-        return Tag::whereIn('id', $this->tags)->get();
+        return Tag::whereIn('id', $this->tags ?? [])->get();
     }
-    public function getCategoryNames()
-    {
-        return Category::whereIn('id', $this->categories)->pluck('category_name')->toArray();
-    }
-    public function getTagNames()
-    {
-        return Tag::whereIn('id', $this->tags)->pluck('name')->toArray();
-    }
+
+    // ✅ Used in Blade: $blog->category_names
     public function getCategoryNamesAttribute()
     {
         return Category::whereIn('id', $this->categories ?? [])->pluck('category_name')->toArray();
+    }
+
+    public function getTagNamesAttribute()
+    {
+        return Tag::whereIn('id', $this->tags ?? [])->pluck('name')->toArray();
     }
 }

@@ -163,6 +163,8 @@
         <h2 class="mt-4 sub-sec-title text-blue">Post Launch Posts:</h2>
         <div class="row">
             <div class="col-sm-4 imgs">
+                <!-- <iframe src="https://www.instagram.com/p/DAOKxGlpZ16/embed/" width="400px" height="610px" frameborder="0" scrolling="yes" ></iframe> -->
+
                 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DAOKxGlpZ16/" data-instgrm-version="14" style="width:100%; max-width:540px; margin:auto;">
                 </blockquote>
                 <script async src="//www.instagram.com/embed.js"></script>
