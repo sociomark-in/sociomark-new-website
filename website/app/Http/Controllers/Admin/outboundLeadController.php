@@ -8,6 +8,7 @@ use App\Models\outboundLead;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Carbon\Carbon;
+use League\Uri\Exceptions\ConversionFailed;
 
 class outboundLeadController extends Controller
 {
@@ -58,7 +59,17 @@ class outboundLeadController extends Controller
             ->orderBy('date')
             ->get();
 
+        // all and month count of $leads
+        $month = $request->get('month', now()->format('Y-m'));
+        $startOfMonth = Carbon::parse($month)->startOfMonth();
+        $endOfMonth = Carbon::parse($month)->endOfMonth();
         $listLeads = outboundLead::orderBy('created_at', 'desc')->get();
+
+        $totalOutboundThisMonth = outboundLead::whereBetween('created_at', [$startOfMonth, $endOfMonth])
+            ->count();
+
+        // Conversion
+        $convertedOutBound = OutboundLead::where('status', 'Converted')->count();
 
         // Service-wise leads in selected month
         $serviceCounts = outboundLead::selectRaw('service, COUNT(*) as count')
@@ -120,7 +131,9 @@ class outboundLeadController extends Controller
             'leads',
             'serviceCounts',
             'statusWiseLeads',
-            'chartDates'
+            'chartDates',
+            'totalOutboundThisMonth',
+            'convertedOutBound'
         ));
     }
     public function editLead($id)

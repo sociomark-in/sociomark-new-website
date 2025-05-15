@@ -23,7 +23,7 @@ class HomeController extends Controller
         ];
         $categories = Category::all();
         $tags = Tag::all();
-        $blogs = Blog::latest()->paginate(4); // Paginate all blogs
+        $blogs = Blog::all(); // Paginate all blogs
         $firstBlog = Blog::latest()->first(); // Get latest blog
 
         // ✅ Paginate other blogs instead of using `take()`

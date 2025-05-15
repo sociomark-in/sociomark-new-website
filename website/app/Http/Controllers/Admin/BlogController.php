@@ -105,7 +105,7 @@ class BlogController extends Controller
             'blog_name' => 'required|string|max:255',
             'content' => 'required',
             'status' => 'required|in:draft,active,inactive',
-            'tags' => 'nullable|string', // Ensure it's a string
+            'tags' => 'nullable|array', // Ensure it's a string
             'categories' => 'nullable|array', // Categories should remain an array
             'meta_title' => 'nullable|string|max:255',
             'meta_description' => 'nullable|string|max:500',
@@ -140,7 +140,7 @@ class BlogController extends Controller
             'meta_description' => $request->meta_description,
             'meta_keywords' => $request->meta_keywords,
             'slug' => Str::slug($request->blog_name),
-            'tags' => explode(',', $request->tags), // Convert string to array
+            'tags' => $request->tags, // Convert string to array
             'categories' => $request->categories,
             'images' => $imagePaths, // Only store new images
             'status' => $request->status,

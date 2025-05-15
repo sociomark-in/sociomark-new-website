@@ -268,7 +268,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-5 col-xl-4 grid-margin grid-margin-xl-0 stretch-card">
+        <!-- <div class="col-lg-5 col-xl-4 grid-margin grid-margin-xl-0 stretch-card">
             <div class="card">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-baseline mb-2">
@@ -350,8 +350,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-lg-7 col-xl-8 stretch-card">
+        </div> -->
+        <div class="col-lg-12 col-xl-12 stretch-card">
             <div class="card">
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-baseline mb-2">
@@ -422,7 +422,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 col-md-12 col-xl-5">
-                                    <h3 class="mb-2">30</h3>
+                                    <h3 class="mb-2">{{ $blogs}}</h3>
                                     <div class="d-flex align-items-baseline">
                                     </div>
                                 </div>
@@ -438,7 +438,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 col-md-12 col-xl-5">
-                                    <h3 class="mb-2">20</h3>
+                                    <h3 class="mb-2">{{ $active }}</h3>
                                 </div>
                             </div>
                         </div>
@@ -452,7 +452,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-6 col-md-12 col-xl-5">
-                                    <h3 class="mb-2">4</h3>
+                                    <h3 class="mb-2">{{ $display_on_home }}</h3>
                                     <div class="d-flex align-items-baseline">
                                     </div>
                                 </div>

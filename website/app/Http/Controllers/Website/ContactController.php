@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Contact;
 use App\Models\PopUpContact;
+use App\Mail\NewLeadNotification;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -16,6 +18,8 @@ class ContactController extends Controller
         ];
         return view("Frontend/ContactUs", compact('meta'));
     }
+
+
     public function store(Request $request)
     {
         $request->validate([
@@ -26,7 +30,6 @@ class ContactController extends Controller
             'budget' => 'required',
             'aboutUs' => 'required',
             'messageforus' => 'nullable',
-            // Optional UTM parameters
             'utm_source' => 'nullable|string|max:255',
             'utm_medium' => 'nullable|string|max:255',
             'utm_campaign' => 'nullable|string|max:255',
@@ -34,9 +37,14 @@ class ContactController extends Controller
             'utm_content' => 'nullable|string|max:255',
         ]);
 
-        Contact::create($request->all());
+        $lead = Contact::create($request->all());
+
+        // Send email to business analyst
+        Mail::to('shruti.sociomark@gmail.com')->send(new NewLeadNotification($lead));
+
         return redirect()->route('thankYou')->with('success', 'Your message has been sent successfully!');
     }
+
     public function popUpStore(Request $request)
     {
         $request->validate([

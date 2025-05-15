@@ -96,41 +96,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-xxl-8 col-lg-8">
-                    <!-- @if($firstBlog)
-                    <div class="box-blog th-blog blog-single has-post-thumbnail">
-                        <div class="swiper-slide">
-                            <a href="">
-                                <img src="{{ url('storage/app/public/' . ($firstBlog->images[0] ?? 'default.jpg')) }}"
-                                    width="100%" style="height: 350px; object-fit: cover; margin-right: 5px;"
-                                    style="object-fit: cover; margin-right: 5px;"
-                                    alt="Blog Image">
-                            </a>
-                        </div>
-                        <div class="blog-content content-padding">
-                            <div class="blog-meta">
-                                <a href="blog.html">
-                                    <i class="fa-light fa-calendar"></i>
-                                    {{ $firstBlog->created_at ? $firstBlog->created_at->format('F d, Y') : 'Unpublished' }}
-                                </a>
-
-                                <a href="blog.html">
-                                    <i class="fa-regular fa-clock"></i> 08 min read
-                                </a>
-                            </div>
-                            <h3 class="blog-title blog-title-text">
-                                <a href="">{{ $firstBlog->blog_name }}</a>
-                            </h3>
-                            <p class="blog-text">{{ Str::limit(strip_tags($firstBlog->content), 100) }}</p>
-                            <a href="" class="th-btn black-border th-icon th-radius">
-                                Read More<i class="fa-solid fa-arrow-right ms-2"></i>
-                            </a>
-                        </div>
-                    </div>
-                    @endif -->
-
                     <div class="row">
                         <!-- Group blogs in pairs -->
                         @foreach($blogs as $blog)
+                        @if ($blog->status == 'active')
                         <div class="col-md-6" data-category="{{ implode(', ', $blog->category_names) ?: 'No Category' }}">
 
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
@@ -154,6 +123,8 @@
                             </div>
 
                         </div>
+                        @endif
+
                         @endforeach
                     </div>
                     <div class="th-pagination">
@@ -206,6 +177,7 @@
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
                                 @foreach ($blogs->take(3) as $blog)
+                                 @if ($blog->status == 'active')
                                 <div class="recent-post">
                                     <div class="media-img recent_blog_img">
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
@@ -226,6 +198,7 @@
                                         </h4>
                                     </div>
                                 </div>
+                                @endif
                                 @endforeach
                             </div>
                         </div>

@@ -44,72 +44,50 @@
 
                         <h6 class="card-title">Horizontal Form</h6>
 
-                        <!-- <div class="mb-3">
-                            <label>Status</label>
-                            <div>
-                                <input type="radio" name="status" value="draft" checked> Draft
-                                <input type="radio" name="status" value="active"> Active
-                                <input type="radio" name="status" value="inactive"> Inactive
-                            </div>
-                        </div> -->
-
 
                         <div class="mb-3">
                             <label class="form-label">Status</label>
                             <div>
+                               
                                 <div class="form-check form-check-inline">
-                                    <input type="radio" class="form-check-input" name="status" id="draft" value="{{$blog->status}}">
-                                    <label class="form-check-label" for="draft">
-                                        Draft
-                                    </label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input type="radio" class="form-check-input" name="status" id="active" value="active">
+
+                                    <input type="radio" class="form-check-input" name="status" id="active" value="active" {{ old('status', $blog->status) == 'active' ? 'checked' : '' }}>
                                     <label class="form-check-label" for="active">
                                         Active
                                     </label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input type="radio" class="form-check-input" name="status" id="inactive" value="inactive">
+                                    <input type="radio" class="form-check-input" name="status" id="inactive" value="inactive" {{ old('status', $blog->status) == 'inactive' ? 'checked' : '' }}>
                                     <label class="form-check-label" for="inactive">
                                         Inactive
                                     </label>
                                 </div>
                             </div>
                         </div>
-
-
                         <div class="mb-3">
                             <label>Tags</label>
-                            <select name="tags" class="form-control select2 @error('tags') is-invalid @enderror" multiple>
+                            <select name="tags[]" class="form-control select2" multiple>
                                 @foreach ($tags as $tag)
-                                <option value="{{ old('tags', implode(',', $blog->tags ?? [])) }}">{{ $tag->name }}</option>
+                                <option value="{{ $tag->id }}" {{ (collect(old('tags', $blog->tags))->contains($tag->id)) ? 'selected' : '' }}>{{ $tag->name }}</option>
                                 @endforeach
                             </select>
                             @error('tags')
                             <div class="text-danger">{{ $message }}</div>
                             @enderror
                         </div>
-
-
-
                         <div class="mb-3">
                             <label>Categories</label>
                             <select name="categories[]" class="form-control select2" multiple>
                                 @foreach ($categories as $category)
-                                <option value="{{ $category->id }}">{{ $category->category_name }}</option>
+                                <option value="{{ $category->id }}" {{ (collect(old('categories', $blog->categories))->contains($category->id)) ? 'selected' : '' }}>{{ $category->category_name }}</option>
                                 @endforeach
                             </select>
                         </div>
-                        <!-- <div class="mb-3">
-                            <input type="checkbox" name="display_on_home" value="1"> Display on Home
-                        </div> -->
-
                         <div class="mb-3">
                             <label class="form-label">Display On Home</label>
                             <div>
                                 <div class="form-check form-check-inline">
-                                    <input type="checkbox" name="display_on_home" class="form-check-input" id="display_on_home" value="1">
+                                    <input type="checkbox" name="display_on_home" class="form-check-input" id="display_on_home" value="1" {{ old('display_on_home', $blog->display_on_home) ? 'checked' : '' }}>
                                     <label class="form-check-label" for="display_on_home">
                                         Display on Home
                                 </div>
@@ -153,21 +131,10 @@
                     <div class="card-body">
 
                         <h6 class="card-title">Image</h6>
-
                         <div class="mb-3">
-                            <label class="form-label">Image</label>
+                            <label class="form-label">Images</label>
                             <input type="file" name="images[]" multiple class="form-control">
                         </div>
-                        <!-- <div class="mb-3">
-                            <label>Upload Images</label>
-                            <input type="file" name="images[]" multiple class="form-control">
-                            <input type="file" id="myDropify"/>
-                        </div> -->
-                        <!-- <div class="mb-3">
-                            <label class="form-label">Upload Images</label>
-                            <div class="dropzone" id="imageDropzone"></div>
-                        </div> -->
-
 
                     </div>
                 </div>

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Blog;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
@@ -112,7 +113,10 @@ class DashboardController extends Controller
             });
 
         $hotLeads = $hotOutboundLeads->merge($hotContactLeads);
-
+        // blog count
+        $blogs = Blog::COUNT();
+        $display_on_home = Blog::where('display_on_home', "1")->count();
+        $active = Blog::where('status', "active")->count();
 
         return view("admin/Pages/Home/Dashboard", compact(
             'contact_leads',
@@ -125,7 +129,10 @@ class DashboardController extends Controller
             'leads',
             'convertedInBound',
             'convertedOutBound',
-            'hotLeads'
+            'hotLeads',
+            'blogs',
+            'display_on_home',
+            'active'
         ));
     }
 

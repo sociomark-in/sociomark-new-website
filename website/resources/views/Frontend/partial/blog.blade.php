@@ -1,4 +1,3 @@
-
 <section class="overflow-hidden space bg-grey" id="about-sec5">
     <div class="container">
 
@@ -10,6 +9,7 @@
         <div class="swiper mySwiper mt-5">
             <div class="swiper-wrapper">
                 @foreach ($blogs as $blog)
+                @if ($blog->status == 'active')
                 <div class="swiper-slide">
                     <div class="box-blog th-blog blog-single has-post-thumbnail">
                         <div class="blog-img box-blog">
@@ -39,6 +39,7 @@
                         </div>
                     </div>
                 </div>
+                @endif
                 @endforeach
             </div>
             <!-- Pagination -->
