@@ -1723,31 +1723,117 @@
     @endpush
     @include('Frontend.partial.contactUs')
 
-    <style>
-        label {
-            font-weight: 600;
-        }
-    </style>
-    <div class="modal fade d-none" id="homeContactModal" tabindex="-1" aria-labelledby="homeContactModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="homeContactModalLabel">Modal title</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body contact-form style2">
-                    <form action="{{ route('contact.store') }}" method="POST" class="">
-                        @csrf
-                        <div class="row g-2">
-                            <div class="form-group col-md-6">
-                                <label for="name">Your Name</label>
-                                <input type="text" class="form-control @error('name') is-invalid @enderror"
-                                    name="name" id="name" placeholder="Enter your Name"
-                                    value="{{ old('name') }}">
-                                @error('name')
-                                <span class="text-danger">{{ $message }}</span>
-                                @enderror
+        <style>
+            label {
+                font-weight: 600;
+            }
+        </style>
+        <div class="modal fade d-none" id="homeContactModal" tabindex="-1" aria-labelledby="homeContactModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="homeContactModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body contact-form style2">
+                        <form action="{{ route('contact.store') }}" method="POST" class="">
+                            @csrf
+                            <div class="row g-2">
+                                <div class="form-group col-md-6">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" class="form-control @error('name') is-invalid @enderror"
+                                        name="name" id="name" placeholder="Enter your Name"
+                                        value="{{ old('name') }}">
+                                    @error('name')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-6">
+                                    {{-- <i class="fas fa-envelope"></i> --}}
+                                    <label for="email">Email</label>
+                                    <input type="text" class="form-control @error('email') is-invalid @enderror"
+                                        name="email" id="email" placeholder="Enter your Email"
+                                        value="{{ old('email') }}">
+                                    @error('email')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-6">
+                                    {{-- <i class="fal fa-phone"></i> --}}
+                                    <label for="phone">Phone</label>
+                                    <input type="text" class="form-control @error('phone') is-invalid @enderror"
+                                        name="phone" id="phone" placeholder="Enter your Phone"
+                                        value="{{ old('phone') }}">
+                                    @error('phone')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-6">
+
+                                    <label for="service">Service you want?</label>
+                                    <select class="form-select @error('service') is-invalid @enderror" id="service"
+                                        name="service">
+                                        <option selected disabled>Choose an option</option>
+                                        <option value="Search Engine Optimization">Search Engine Optimization</option>
+                                        <option value="Website Development">Website Development</option>
+                                        <option value="Social Media">Social Media</option>
+                                        <option value="Digital Marketing">Digital Marketing</option>
+                                        <option value="Conetnt Marketing">Conetnt Marketing</option>
+                                        <option value="SEM">Performance Marketing</option>
+                                        <option value="Photography & Video Production">Photography & Video Production
+                                        </option>
+                                    </select>
+
+                                    @error('service')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-6">
+
+                                    <label for="budget">Marketing Budget</label>
+                                    <select class="form-select @error('budget') is-invalid @enderror" id="budget"
+                                        name="budget">
+                                        <option selected disabled>Choose an option</option>
+                                        <option value="Under ₹ 50000">Under ₹ 50,000</option>
+                                        <option value="₹ 50,000 - ₹ 1,00,000">₹ 50,000 - ₹ 1,00,000</option>
+                                        <option value="Above ₹ 1,00,000">Above ₹ 1,00,000</option>
+                                        <option value="Have not Estimated Yet">Have not Estimated Yet</option>
+                                    </select>
+                                    @error('budget')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-md-6">
+
+                                    <label for="aboutUs">How did you hear about Us?</label>
+                                    <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs"
+                                        name="aboutUs">
+                                        <option selected disabled>Choose an option</option>
+                                        <option value="Through Search Engines(Google, Bing etc.)">Through Search
+                                            Engines(Google, Bing etc.)</option>
+                                        <option value="Social Media(Facebook, Instagram etc.)">Social Media(Facebook,
+                                            Instagram etc.)</option>
+                                        <option value="Word of Mouth/ Referral">Word of Mouth/ Referral</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                    @error('aboutUs')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="form-group col-12">
+
+                                    <label for="messageforus">Your Message</label>
+                                    <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus"
+                                        placeholder="Enter your message" rows="4" name="messageforus"></textarea>
+                                    {{-- <i class="fal fa-pencil"></i> --}}
+                                    @error('messageforus')
+                                        <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+                                <div class="col-12 form-group mb-0 text-center">
+                                    <button class="th-btn th-radius">Submit Message</button>
+                                </div>
                             </div>
                             <div class="form-group col-md-6">
                                 {{-- <i class="fas fa-envelope"></i> --}}
