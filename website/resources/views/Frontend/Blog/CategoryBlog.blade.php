@@ -99,6 +99,7 @@
                     <div class="row">
                        
                         @foreach($blogs as $blog)
+                         @if ($blog->status == 'active')
                         <div class="col-md-6" data-category="{{ implode(', ', $blog->category_names) ?: 'No Category' }}">
 
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
@@ -120,6 +121,7 @@
                             </div>
 
                         </div>
+                        @endif
                         @endforeach
                       
                     </div>
@@ -167,6 +169,7 @@
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
                                 @foreach ($blogs->take(3) as $blog)
+                                 @if ($blog->status == 'active')
                                 <div class="recent-post">
                                     <div class="media-img recent_blog_img">
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
@@ -187,6 +190,7 @@
                                         </h4>
                                     </div>
                                 </div>
+                                @endif
                                 @endforeach
                             </div>
                         </div>

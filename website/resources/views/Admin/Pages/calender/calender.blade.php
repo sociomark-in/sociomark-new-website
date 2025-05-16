@@ -138,7 +138,7 @@
 
             if (title && date) {
                 $.ajax({
-                    url: "{{ url('/calendar/events/store') }}",
+                    url: "{{ url('/admin/calendar/events/store') }}",
                     method: 'POST',
                     data: {
                         _token: '{{ csrf_token() }}',

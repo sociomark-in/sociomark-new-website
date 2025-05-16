@@ -38,12 +38,6 @@
                             <label class="form-label">Status</label>
                             <div>
                                 <div class="form-check form-check-inline">
-                                    <input type="radio" class="form-check-input" name="status" id="draft" value="draft">
-                                    <label class="form-check-label" for="draft">
-                                        Draft
-                                    </label>
-                                </div>
-                                <div class="form-check form-check-inline">
                                     <input type="radio" class="form-check-input" name="status" id="active" value="active">
                                     <label class="form-check-label" for="active">
                                         Active

@@ -155,5 +155,5 @@ Route::middleware(['admin:admin,hr,business,user'])->group(function () {
 
     Route::get('/admin/calender', [calenderController::class, 'calender'])->name('calender');
     Route::get('/admin/calendar/events', [CalenderController::class, 'index']); // for FullCalendar AJAX
-    Route::post('/admin/calendar/events', [calenderController::class, 'store'])->name('eventsStore');
+    Route::post('/admin/calendar/events/store', [calenderController::class, 'store'])->name('eventsStore');
 });
