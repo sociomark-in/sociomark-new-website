@@ -81,17 +81,14 @@
 @section('content')
 <main>
 
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/blog/Blogs.png')}}">
-        <div class="container">
-            <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Blog</h1>
-                <ul class="breadcumb-menu">
-                    <li><a href="home-seo-agency.html">Home</a></li>
-                    <li>Blog</li>
-                </ul>
-            </div>
+    <section style="margin-top: 68px;">
+        <div class="full-width">
+            <picture>
+                <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/blog/Blogs.png')}}" loading="lazy">
+                <img src="{{ asset('frontend-assets/img/blog/Blogs.png')}}" alt="" loading="lazy">
+            </picture>
         </div>
-    </div>
+    </section>
     <section class="th-blog-wrapper space-top space-extra-bottom" id="Blog_Section">
         <div class="container">
             <div class="row">
