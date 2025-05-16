@@ -14,6 +14,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/additional-methods.min.js"
         integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en'
+            }, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 
 <body>
@@ -35,6 +44,7 @@
             <button type="submit"><i class="fal fa-search"></i></button>
         </form>
     </div>
+  
     @include('Frontend/partial/Header')
     <style>
         #cursor {

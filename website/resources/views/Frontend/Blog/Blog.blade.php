@@ -81,7 +81,7 @@
 @section('content')
 <main>
 
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg')}}">
+    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/blog/Blogs.png')}}">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Blog</h1>
@@ -157,12 +157,6 @@
                 </div>
                 <div class="col-xxl-4 col-lg-4">
                     <aside class="sidebar-area">
-                        <div class="box widget widget_search   ">
-                            <form class="search-form">
-                                <input type="text" placeholder="Enter Keyword">
-                                <button type="submit"><i class="far fa-search"></i></button>
-                            </form>
-                        </div>
                         <div class="box widget widget_categories">
                             <h3 class="widget_title">Categories</h3>
                             <ul>

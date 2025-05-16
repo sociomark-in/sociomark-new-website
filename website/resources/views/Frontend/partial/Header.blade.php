@@ -145,6 +145,9 @@ Header Area
                                     class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <div id="google_translate_element"></div>
+                    </div>
                 </div>
             </div>
         </div>
