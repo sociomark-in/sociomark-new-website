@@ -61,7 +61,7 @@
                                 {{-- <li><a href="#">Creator</a></li> --}}
 
 
-                                {{-- <li><a href="{{ route('blog') }}">Blogs</a></li> --}}
+                                <li><a href="{{ route('blog') }}">Blogs</a></li>
                                 {{-- <li><a href="#">Careers</a></li> --}}
                             </ul>
                         </div>
