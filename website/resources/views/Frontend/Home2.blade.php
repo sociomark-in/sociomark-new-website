@@ -1790,8 +1790,8 @@
                                     <select class="form-select @error('budget') is-invalid @enderror" id="budget"
                                         name="budget">
                                         <option selected disabled>Choose an option</option>
-                                        <option value="Under ₹ 25000">Under ₹ 25000</option>
-                                        <option value="₹ 25,000 - ₹ 1,00,000">₹ 25,000 - ₹ 1,00,000</option>
+                                        <option value="Under ₹ 50000">Under ₹ 50,000</option>
+                                        <option value="₹ 50,000 - ₹ 1,00,000">₹ 50,000 - ₹ 1,00,000</option>
                                         <option value="Above ₹ 1,00,000">Above ₹ 1,00,000</option>
                                         <option value="Have not Estimated Yet">Have not Estimated Yet</option>
                                     </select>
