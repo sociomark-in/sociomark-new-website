@@ -182,21 +182,25 @@
         </div>
         <h2 class="mt-4 sub-sec-title text-blue">What numbers did we achieve overall:</h2>
         <div class="row">
-            <div class="col-6">
+            <div class="col-md-3 col-6">
                 <div class="percentage">
                     <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">50M+</div>
                     <h3 class="text-center fs-6 text-blue mt-3">Impressions</h3>
                 </div>
+            </div>
+            <div class="col-md-3 col-6">
                 <div class="percentage">
                     <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">36M+</div>
                     <h3 class="text-center fs-6 text-blue mt-3">Reach</h3>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-md-3 col-6">
                 <div class="percentage">
                     <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">4.4M+</div>
                     <h3 class="text-center fs-6 text-blue mt-3">Engagement</h3>
                 </div>
+            </div>
+            <div class="col-md-3 col-6">
                 <div class="percentage">
                     <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">10K</div>
                     <h3 class="text-center fs-6 text-blue mt-3">Community Growth:</h3>
@@ -205,7 +209,7 @@
         </div>
         <h2 class="mt-4 sub-sec-title text-blue">What numbers did we achieve in Comic Con Bengaluru:</h2>
         <div class="row mt-5">
-            <div class="col-6 col-md-6">
+            <div class="col-12 col-md-6">
 
                 <!-- <div class="strategy text-center sec-para" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">24.31%</div> -->
                 <!-- <h3 class="text-center text-blue sub-sec-title mt-3">Impressions Increased By</h3> -->
@@ -219,7 +223,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-12 col-md-4">
                 <div class="row">
                     <div class="col-6">
                         <div class="percentage">
@@ -251,7 +255,7 @@
 
         <h2 class="mt-4 sub-sec-title text-blue">What numbers did we achieve in Gaming Con:</h2>
         <div class="row mt-5">
-            <div class="col-6 col-md-6">
+            <div class="col-12 col-md-6">
 
                 <!-- <div class="strategy text-center sec-para" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">24.31%</div> -->
                 <!-- <h3 class="text-center text-blue sub-sec-title mt-3">Impressions Increased By</h3> -->
@@ -265,7 +269,7 @@
                     </tr>
                 </table>
             </div>
-            <div class="col-6 col-md-4">
+            <div class="col-12 col-md-4">
                 <div class="row">
                     <div class="col-6">
                         <div class="percentage">

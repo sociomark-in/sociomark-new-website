@@ -210,7 +210,7 @@
 @section('content')
 <main id="seo-service">
     <div class="breadcumb-wrapper p-0" style="margin-top: 66px;">
-        <div class="container-fluid">
+        <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-12">
                     <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/hero.png') }}" alt="" srcset="" width="100%">
@@ -218,66 +218,22 @@
             </div>
         </div>
     </div>
-    <div class="space-extra2-bottom">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
-                    <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">1.4</span>B<span class="plus">+</span>
-                        </h3>
-                        <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Paid Ads Expression(Google Ads)</b></p>
-                        </div>
-                    </div>
-                    <div class="divider"></div>
-                </div>
-
-                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
-                    <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">10</span>M<span class="plus">+</span>
-                        </h3>
-                        <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Paid Ads Expression(Meta Ads)</b></p>
-                        </div>
-                    </div>
-                    <div class="divider"></div>
-                </div>
-
-                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
-                    <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">367</span>K<span class="plus">+</span>
-                        </h3>
-                        <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Leads Generated</b></p>
-                        </div>
-                    </div>
-                    <div class="divider"></div>
-                </div>
-
-                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
-                    <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">19</span><span class="plus">%</span></h3>
-                        <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Conv.Rate</b></p>
-                        </div>
-                    </div>
-                    <div class="divider"></div>
-                </div>
-
-            </div>
-        </div>
-    </div>
+    
 
     <section class="overflow-hidden mb-md-5 md-2" id="about-sec">
         <div class="container">
             <div class="row align-items-end justify-content-center">
                 <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
                     <div class="title-area mb-md-3 mb-2 mt-n1">
-                        <h2 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
+                        {{-- <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
                             Get <span class="text-blue">Seen</span>, Get <span class="text-blue">Clicked</span>, Get
                             <span class="text-blue">Results </span>
-                        </h2>
+                        </h1> --}}
+                        <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
+                            data-aos-duration="1000" data-aos-easing="ease-in-out">
+                            <span class="text-blue">Performance marketing agency in Dubai</span> helping brands grow smarter Seen
+                        </h1>
                     </div>
                 </div>
                 <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
@@ -524,8 +480,61 @@
         </div>
     </section>
 
+
+    <div class="space-extra2-bottom">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                    <div class="counter-card pb-2">
+                        <h3 class="box-number text-orange"><span class="counter-number">1.4</span>B<span class="plus">+</span>
+                        </h3>
+                        <div class="media-body">
+                            <p class=" counter-text sec-para mb-n1"><b>Paid Ads Expression(Google Ads)</b></p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                    <div class="counter-card pb-2">
+                        <h3 class="box-number text-orange"><span class="counter-number">10</span>M<span class="plus">+</span>
+                        </h3>
+                        <div class="media-body">
+                            <p class=" counter-text sec-para mb-n1"><b>Paid Ads Expression(Meta Ads)</b></p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                    <div class="counter-card pb-2">
+                        <h3 class="box-number text-orange"><span class="counter-number">367</span>K<span class="plus">+</span>
+                        </h3>
+                        <div class="media-body">
+                            <p class=" counter-text sec-para mb-n1"><b>Leads Generated</b></p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                    <div class="counter-card pb-2">
+                        <h3 class="box-number text-orange"><span class="counter-number">19</span><span class="plus">%</span></h3>
+                        <div class="media-body">
+                            <p class=" counter-text sec-para mb-n1"><b>Conv.Rate</b></p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     {{-- Testimonials --}}
     @include('Frontend.partial.testimonial.layout-02')
+
+    
 
     <section class="overflow-hidden space bg-grey" id="Features">
         <div class="container">

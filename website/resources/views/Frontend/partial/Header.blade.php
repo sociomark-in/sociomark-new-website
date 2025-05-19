@@ -36,7 +36,7 @@ Mobile Menu
                         <li><a href="{{ route('industry_single', ['segment' => 'fmcg']) }}">FMCG</a></li>
                         <li><a href="{{ route('industry_single', ['segment' => 'news-media']) }}">News & Media</a></li>
                         <li><a href="{{ route('industry_single', ['segment' => 'real-estate']) }}">Real Estate</a></li>
-                        <li><a href="{{ route('industry_single', ['segment' => 'logistics']) }}">Logistics</a></li>
+                        {{-- <li><a href="{{ route('industry_single', ['segment' => 'logistics']) }}">Logistics</a></li> --}}
                         <li><a href="{{ route('industry_single', ['segment' => 'fashion']) }}">Fashion & Lifestyle</a>
                         </li>
                         <li><a href="{{ route('industry_single', ['segment' => 'gaming']) }}">Gaming</a></li>
@@ -110,9 +110,9 @@ Header Area
                                                 & Media</a></li>
                                         <li><a href="{{ route('industry_single', ['segment' => 'real-estate']) }}">Real
                                                 Estate</a></li>
-                                        <li><a
+                                        {{-- <li><a
                                                 href="{{ route('industry_single', ['segment' => 'logistics']) }}">Logistics</a>
-                                        </li>
+                                        </li> --}}
                                         <li><a href="{{ route('industry_single', ['segment' => 'fashion']) }}">Fashion
                                                 & Lifestyle</a></li>
                                         <li><a
@@ -160,7 +160,7 @@ Header Area
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content contact-form style2">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="getAQuoteModalLabel">Please Fill In The Form Below</h1>
+                <h2 class="modal-title fs-5" id="getAQuoteModalLabel">Please Fill In The Form Below</h2>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">

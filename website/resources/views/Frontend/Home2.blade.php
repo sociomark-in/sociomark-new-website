@@ -6,6 +6,26 @@
 <!-- Plugin: TypewriterJS -->
 <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 <!-- Plugin: TypewriterJS -->
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Sociomark Digital Marketing Agency",
+      "alternateName": "Sociomarkin",
+      "url": "https://www.sociomark.ae/",
+      "logo": "https://www.sociomark.ae/public/frontend-assets/img/logo/sociomark-new-logo.png",
+      "sameAs": [
+        "https://www.facebook.com/Sociomarkin",
+        "https://www.instagram.com/sociomarkin/",
+        "https://www.youtube.com/@sociomarkdigitalmarketing",
+        "https://www.linkedin.com/company/sociomark/",
+        "https://in.pinterest.com/Sociomarkin/",
+        "https://www.sociomark.ae/",
+        "https://x.com/sociomarkin"
+      ]
+    }
+    </script>
+    
 @push('styles')
 <style>
     #home .about-area2 .sec-title {
@@ -1733,7 +1753,7 @@
             <div class="modal-dialog modal-fullscreen">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="homeContactModalLabel">Modal title</h1>
+                        <h3 class="modal-title fs-5" id="homeContactModalLabel">Modal title</h3>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body contact-form style2">

@@ -18,12 +18,18 @@
                             </div>
                             {{-- <p class="about-text">Saor, meaning "free" in Gaelic, embodies our dedication to liberating your brand's potential in the digital realm. Founded in 1995, we boast a rich history.</p> --}}
                             <div class="th-social">
-                                <a href="https://www.facebook.com/Sociomarkin" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://www.instagram.com/sociomarkin/" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="https://in.pinterest.com/Sociomarkin/" target="_blank"><i class="fab fa-pinterest"></i></a>
-                                <a href="https://www.youtube.com/@sociomarkdigitalmarketing" target="_blank"><i class="fab fa-youtube"></i></a>
-                                <a href="https://twitter.com/sociomarkin" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-                                <a href="https://www.linkedin.com/company/sociomark/" target="_blank" class="mt-10"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.facebook.com/Sociomarkin" target="_blank"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/sociomarkin/" target="_blank"><i
+                                        class="fab fa-instagram"></i></a>
+                                <a href="https://in.pinterest.com/Sociomarkin/" target="_blank"><i
+                                        class="fab fa-pinterest"></i></a>
+                                <a href="https://www.youtube.com/@sociomarkdigitalmarketing" target="_blank"><i
+                                        class="fab fa-youtube"></i></a>
+                                <a href="https://twitter.com/sociomarkin" target="_blank"><i
+                                        class="fa-brands fa-x-twitter"></i></a>
+                                <a href="https://www.linkedin.com/company/sociomark/" target="_blank" class="mt-10"><i
+                                        class="fab fa-linkedin-in"></i></a>
                                 {{-- <a href="https://api.whatsapp.com/send?phone=919819988640&text=Hello!%20I%20just%20came%20across%20your%20website.%20I%20am%20very%20much%20impressed%20by%20the%20services%20you%20provide.%20I%20want%20to%20know%20more%20about%20your%20services%20as%20I%20am%20interested%20in%20working%20with%20you%20for%20the%20growth%20of%20my%20business." target="_blank" class="mt-10"><i class="fab fa-whatsapp"></i></a> --}}
                             </div>
 
@@ -118,40 +124,36 @@
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body px-0">
                                     <p class="text-white-50">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda natus quis
-                                        obcaecati nesciunt quos molestiae, vero iste eveniet blanditiis impedit, atque
-                                        dolore sequi porro accusantium nemo sapiente similique enim labore laudantium
-                                        deserunt quod minus. Impedit quis nulla quisquam reprehenderit fugit nihil
-                                        repudiandae amet doloremque dolor, mollitia dolore. Praesentium ad quasi sint
-                                        neque beatae at dignissimos ratione eaque nihil quis dolorum, fugit fugiat
-                                        voluptates, vitae consectetur laborum quia repellendus? Obcaecati quasi aut
-                                        corrupti omnis assumenda, ratione quos quidem doloremque magnam consequuntur
-                                        commodi, corporis tempora laborum, voluptatibus nostrum voluptatem neque illo
-                                        autem? Fuga eveniet laudantium delectus beatae eum cumque omnis impedit cum.
-                                    </p>
-                                    <p class="text-white-50">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda natus quis
-                                        obcaecati nesciunt quos molestiae, vero iste eveniet blanditiis impedit, atque
-                                        dolore sequi porro accusantium nemo sapiente similique enim labore laudantium
-                                        deserunt quod minus. Impedit quis nulla quisquam reprehenderit fugit nihil
-                                        repudiandae amet doloremque dolor, mollitia dolore. Praesentium ad quasi sint
-                                        neque beatae at dignissimos ratione eaque nihil quis dolorum, fugit fugiat
-                                        voluptates, vitae consectetur laborum quia repellendus? Obcaecati quasi aut
-                                        corrupti omnis assumenda, ratione quos quidem doloremque magnam consequuntur
-                                        commodi, corporis tempora laborum, voluptatibus nostrum voluptatem neque illo
-                                        autem? Fuga eveniet laudantium delectus beatae eum cumque omnis impedit cum.
-                                    </p>
-                                    <p class="text-white-50">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda natus quis
-                                        obcaecati nesciunt quos molestiae, vero iste eveniet blanditiis impedit, atque
-                                        dolore sequi porro accusantium nemo sapiente similique enim labore laudantium
-                                        deserunt quod minus. Impedit quis nulla quisquam reprehenderit fugit nihil
-                                        repudiandae amet doloremque dolor, mollitia dolore. Praesentium ad quasi sint
-                                        neque beatae at dignissimos ratione eaque nihil quis dolorum, fugit fugiat
-                                        voluptates, vitae consectetur laborum quia repellendus? Obcaecati quasi aut
-                                        corrupti omnis assumenda, ratione quos quidem doloremque magnam consequuntur
-                                        commodi, corporis tempora laborum, voluptatibus nostrum voluptatem neque illo
-                                        autem? Fuga eveniet laudantium delectus beatae eum cumque omnis impedit cum.
+                                        seo firms near me | seo agency dubai | seo Company in dubai | digital marketing companies in dubai |
+                                        website design dubai | advertising companies in dubai | web design agency dubai
+                                        | seo in dubai | best seo companies in dubai | seo expert in dubai | best seo
+                                        agency in dubai | best seo company in dubai | best seo services in dubai | best
+                                        digital marketing agency in dubai | best digital marketing company in dubai |
+                                        social media marketing companies in dubai | digital marketing Agency in UAE |
+                                        seo services | digital marketing companies in abu dhabi | best marketing agency
+                                        in dubai | seo Agency in UAE | top digital marketing agencies in dubai |
+                                        advertising agency in uae | seo company in abu dhabi | best digital marketing
+                                        agency in uae | marketing company in uae | seo companies in uae | seo consultant
+                                        in dubai | marketing agency in uae | ecommerce website design | digital
+                                        marketing agency in sharjah | digital marketing services in sharjah | best seo
+                                        services in uae | seo agency in abu dhabi | Seo services in UAE | seo
+                                        optimization companies | top seo companies in dubai | best seo in dubai | e
+                                        commerce seo services | search engine optimization company in dubai | search
+                                        engine optimization in dubai | seo optimization agency | website companies in
+                                        dubai | best seo agencies in dubai | best seo expert in dubai | local seo in
+                                        dubai | local seo services in dubai | digital marketing agency in dubai |
+                                        performance marketing agency | Advertising company In Dubai | seo service in
+                                        dubai | digital marketing agency | social media marketing | search engine
+                                        marketing | digital marketing company dubai | best digital marketing agency
+                                        dubai | best web design company in dubai | Website development agency | website
+                                        development company in dubai | social media agency dubai | digital marketing
+                                        company | seo agency uae | website development services | seo specialist | web
+                                        design companies near me | best seo companies | seo company | social media
+                                        marketing companies in uae | best social media marketing agency in dubai |
+                                        social media marketing services in dubai | digital marketing companies in uae |
+                                        top digital marketing companies in dubai | website development in uae | Web
+                                        Development Agency in Dubai | Content marketing agency dubai | content marketing
+                                        services
                                     </p>
                                 </div>
                             </div>

@@ -10,12 +10,12 @@
                         data-aos-easing="ease-in-out">
                         View Our <span class="text-blue"> Portfolio</span>
                     </h2>
-                    <p class="sec-para" data-aos="fade-up"
+                    {{-- <p class="sec-para" data-aos="fade-up"
                         data-aos-delay="200"
                         data-aos-duration="1200"
                         data-aos-easing="ease-in-out">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci recusandae expedita ex quam quod a nulla rerum suscipit aut ad.
-                    </p>
+                    </p> --}}
                 </div>
             </div>
         </div>

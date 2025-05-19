@@ -29,7 +29,7 @@
             border-radius: 10px;
             padding: 45px 23px;
             /* box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-                                border: 2px solid transparent; */
+                                    border: 2px solid transparent; */
             box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
             -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
             -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
@@ -95,6 +95,39 @@
     <!-- Plugin: JQuery Validator  -->
 
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Sociomark",
+          "image": "https://www.sociomark.ae/public/frontend-assets/img/logo/sociomark-new-logo.png",
+          "@id": "https://www.sociomark.ae/",
+          "url": "https://www.sociomark.ae/",
+          "telephone": "9819988640",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "C1 - 1F - SF10283, Ajman Free Zone C1 Building, Business district - Ajman Free Zone Makani No. 4442612247",
+            "addressLocality": "Ajman",
+            "postalCode": "00000",
+            "addressCountry": "AE"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 25.4191054,
+            "longitude": 55.4529209
+          } ,
+          "sameAs": [
+            "https://www.facebook.com/Sociomarkin",
+            "https://twitter.com/sociomarkin",
+            "https://www.instagram.com/sociomarkin/",
+            "https://www.youtube.com/@sociomarkdigitalmarketing",
+            "https://www.linkedin.com/company/sociomark/",
+            "https://in.pinterest.com/Sociomarkin/",
+            "https://www.sociomark.ae/"
+          ] 
+        }
+        </script>
 @endsection
 @section('content')
     <main id="contact">
@@ -153,7 +186,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-4">
                         <!-- <div class="title-area text-center">
-                                                    </div> -->
+                                                        </div> -->
                         <div class="row gy-4 flex-column">
                             <div class="col-xl-12 col-md-12">
                                 <div class="contact-media">
@@ -386,7 +419,8 @@
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
 
-                    <iframe src="https://www.google.com/maps/d/embed?mid=1bY2NcKFXkbZaH1vzvSDwY51bT_fXqDo&ehbc=2E312F" width="640" height="480"></iframe>
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1bY2NcKFXkbZaH1vzvSDwY51bT_fXqDo&ehbc=2E312F"
+                        width="640" height="480"></iframe>
                 </div>
             </div>
         </div>

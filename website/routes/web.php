@@ -45,12 +45,12 @@ Route::get('/about', [HomeController::class, 'About'])->name('about');
 Route::get('/our-team', [HomeController::class, 'About'])->name('team');
 
 Route::get('/services', [HomeController::class, 'Services'])->name('services');
-Route::get('/service/seo', [ServiceController::class, 'seo'])->name('seo');
-Route::get('/service/website', [ServiceController::class, 'website'])->name('website');
-Route::get('/service/social-media', [ServiceController::class, 'socialMedia'])->name('socialMedia');
-Route::get('/service/digital-marketing', [ServiceController::class, 'digitalMarketing'])->name('digitalMarketing');
-Route::get('/service/content-marketing', [ServiceController::class, 'contentMarketing'])->name('contentMarketing');
-Route::get('/service/performance-marketing', [ServiceController::class, 'sem'])->name('sem');
+Route::get('/service/seo-agency-dubai', [ServiceController::class, 'seo'])->name('seo');
+Route::get('/service/website-development-agency', [ServiceController::class, 'website'])->name('website');
+Route::get('/service/social-media-agency-dubai', [ServiceController::class, 'socialMedia'])->name('socialMedia');
+Route::get('/service/digital-marketing-agency-dubai', [ServiceController::class, 'digitalMarketing'])->name('digitalMarketing');
+Route::get('/service/content-marketing-agency-dubai', [ServiceController::class, 'contentMarketing'])->name('contentMarketing');
+Route::get('/service/performance-marketing-agency', [ServiceController::class, 'sem'])->name('sem');
 Route::get('/service/photography-videography', [ServiceController::class, 'photoVideography'])->name('photoVideography');
 
 Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');

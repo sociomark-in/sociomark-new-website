@@ -3,8 +3,10 @@
 <title>@yield('title', env('APP_NAME'))</title>
 <meta name="author" content="@yield('author', 'Default Author')">
 <meta name="description" content="@yield('description', 'Default Description')">
+<link rel="canonical" href="{{ url()->current() }}" />
 <meta name="keywords" content="@yield('keywords', 'default, keywords')">
 <meta name="robots" content="@yield('robots', 'INDEX,FOLLOW')">
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 

@@ -218,64 +218,16 @@
             </div>
         </div>
     </div>
-    <div class="space-extra2-bottom">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
-                    <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">1</span>B<span class="plus">+</span>
-                        </h3>
-                        <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Impressions</b></p>
-                        </div>
-                    </div>
-                    <div class="divider"></div>
-                </div>
-
-                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
-                    <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">10</span>M<span class="plus">+</span>
-                        </h3>
-                        <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Engagement</b></p>
-                        </div>
-                    </div>
-                    <div class="divider"></div>
-                </div>
-
-                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
-                    <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">1.4</span>B<span class="plus">+</span>
-                        </h3>
-                        <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Community</b></p>
-                        </div>
-                    </div>
-                    <div class="divider"></div>
-                </div>
-
-                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
-                    <div class="counter-card pb-2">
-                        <h3 class="box-number text-orange"><span class="counter-number">3</span>B<span class="plus">+</span></h3>
-                        <div class="media-body">
-                            <p class=" counter-text sec-para mb-n1"><b>Video Views</b></p>
-                        </div>
-                    </div>
-                    <div class="divider"></div>
-                </div>
-
-            </div>
-        </div>
-    </div>
+   
     <section class="overflow-hidden mb-md-5 md-2" id="about-sec">
         <div class="container">
             <div class="row align-items-end justify-content-center">
                 <div class="col-lg-10 col-12 d-flex justify-content-center align-items-center flex-column">
                     <div class="title-area mb-md-3 mb-2 mt-n1">
-                        <h2 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
+                        <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
                             Boost Your Brand’s Voice with Expert <span class="text-blue"> Social Media Marketing</span>
-                        </h2>
+                        </h1>
                     </div>
                 </div>
                 <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
@@ -553,6 +505,55 @@
         </div>
     </section>
 
+    <div class="space-extra2-bottom">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                    <div class="counter-card pb-2">
+                        <h3 class="box-number text-orange"><span class="counter-number">1</span>B<span class="plus">+</span>
+                        </h3>
+                        <div class="media-body">
+                            <p class=" counter-text sec-para mb-n1"><b>Impressions</b></p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                    <div class="counter-card pb-2">
+                        <h3 class="box-number text-orange"><span class="counter-number">10</span>M<span class="plus">+</span>
+                        </h3>
+                        <div class="media-body">
+                            <p class=" counter-text sec-para mb-n1"><b>Engagement</b></p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                    <div class="counter-card pb-2">
+                        <h3 class="box-number text-orange"><span class="counter-number">1.4</span>B<span class="plus">+</span>
+                        </h3>
+                        <div class="media-body">
+                            <p class=" counter-text sec-para mb-n1"><b>Community</b></p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                    <div class="counter-card pb-2">
+                        <h3 class="box-number text-orange"><span class="counter-number">3</span>B<span class="plus">+</span></h3>
+                        <div class="media-body">
+                            <p class=" counter-text sec-para mb-n1"><b>Video Views</b></p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
     {{-- Testimonials --}}
     @include('Frontend.partial.testimonial.layout-02')
 
