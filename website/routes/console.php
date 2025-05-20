@@ -8,5 +8,6 @@ Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->purpose('Display an inspiring quote');
 
-Schedule::command('events:remind-today')
-    ->dailyAt('08:00'); // or any time you'd like
+return function (Schedule $schedule) {
+    $schedule->command('events:send-reminders')->dailyAt('14:15');
+};

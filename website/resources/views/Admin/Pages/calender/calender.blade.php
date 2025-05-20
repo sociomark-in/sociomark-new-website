@@ -53,7 +53,7 @@
                 <div id="modalBody1" class="modal-body"></div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button class="btn btn-primary">Event Page</button>
+                    <button class="btn btn-primary">Delete Event</button>
                 </div>
             </div>
         </div>
@@ -103,19 +103,20 @@
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         var calendarEl = document.getElementById('fullcalendar');
+
         var calendar = new FullCalendar.Calendar(calendarEl, {
             initialView: 'dayGridMonth',
             selectable: true,
-            events: "{{ url('/admin/calendar/events') }}", // Load from DB
+            events: "{{ url('/admin/calendar/events') }}", // Load events from DB
 
+            // When a date is clicked
             dateClick: function(info) {
-                // Show the modal to add event
                 $('#createEventModal').modal('show');
                 $('#addEventForm').data('selected-date', info.dateStr);
             },
 
+            // When an event is clicked
             eventClick: function(info) {
-                // Show event details modal
                 info.jsEvent.preventDefault();
 
                 $('#modalTitle1').text(info.event.title);
@@ -124,6 +125,9 @@
                     <p><strong>Date:</strong> ${info.event.startStr}</p>
                 `);
 
+                // Store the event ID for deletion
+                $('#fullCalModal .btn-primary').data('event-id', info.event.id);
+
                 $('#fullCalModal').modal('show');
             }
         });
@@ -131,7 +135,7 @@
         calendar.render();
 
         // Add event to calendar via AJAX
-        $('.btn-primary:contains("Add")').on('click', function() {
+        $('#addEventBtn').on('click', function() {
             let date = $('#addEventForm').data('selected-date');
             let title = $('#Title').val();
             let description = $('#description').val();
@@ -147,7 +151,7 @@
                         start: date
                     },
                     success: function(event) {
-                        // Add new event to calendar
+                        // Add event to calendar
                         calendar.addEvent({
                             id: event.id,
                             title: event.title,
@@ -157,7 +161,7 @@
                             }
                         });
 
-                        // Clear modal and close
+                        // Clear modal and form
                         $('#createEventModal').modal('hide');
                         $('#Title').val('');
                         $('#description').val('');
@@ -165,7 +169,32 @@
                 });
             }
         });
+
+        // Delete event handler
+        $('#fullCalModal .btn-primary').on('click', function() {
+            let eventId = $(this).data('event-id');
+
+            $.ajax({
+                url: "{{ url('/admin/calendar/events') }}/" + eventId,
+                type: 'POST',
+                data: {
+                    _method: 'DELETE',
+                    _token: '{{ csrf_token() }}'
+                },
+                success: function(response) {
+                    let event = calendar.getEventById(eventId);
+                    if (event) {
+                        event.remove();
+                    }
+
+                    $('#fullCalModal').modal('hide');
+                    alert(response.message);
+                },
+                error: function() {
+                    alert('Error deleting event.');
+                }
+            });
+        });
+
     });
 </script>
-
-@endpush

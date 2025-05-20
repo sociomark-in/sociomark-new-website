@@ -3,15 +3,15 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
-use Illuminate\Support\Facades\Mail;
-use App\Mail\EventReminderMail;
 use App\Models\Event;
+use App\Mail\EventReminderMail;
+use Illuminate\Support\Facades\Mail;
 use Carbon\Carbon;
 
 class SendEventReminders extends Command
 {
-    protected $signature = 'events:remind-today';
-    protected $description = 'Send event reminder emails for today\'s events';
+    protected $signature = 'events:send-reminders';
+    protected $description = 'Send email reminders for today\'s events';
 
     public function handle()
     {
@@ -20,10 +20,9 @@ class SendEventReminders extends Command
         $events = Event::whereDate('start', $today)->get();
 
         foreach ($events as $event) {
-            $recipient = 'shruti.sociomark@gmail.com'; // Or dynamically: $event->user->email
-            Mail::to($recipient)->send(new EventReminderMail($event));
+            Mail::to('shruti.sociomark@gmail.com')->send(new EventReminderMail($event));
         }
 
-        $this->info("Reminder emails sent for today's events.");
+        $this->info("Sent " . $events->count() . " event reminder emails.");
     }
 }

@@ -21,6 +21,7 @@ use App\Http\Controllers\Website\ServiceController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactListController;
 
+
 Route::get('/welcome', function () {
     return view('welcome');
 });
@@ -156,4 +157,5 @@ Route::middleware(['admin:admin,hr,business,user'])->group(function () {
     Route::get('/admin/calender', [calenderController::class, 'calender'])->name('calender');
     Route::get('/admin/calendar/events', [CalenderController::class, 'index']); // for FullCalendar AJAX
     Route::post('/admin/calendar/events/store', [calenderController::class, 'store'])->name('eventsStore');
+    Route::delete('/admin/calendar/events/{id}', [CalenderController::class, 'destroy']);
 });

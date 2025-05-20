@@ -1,33 +1,38 @@
 <?php
 
 use App\Http\Middleware\AdminMiddleware;
+use App\Http\Middleware\LanguageMiddleware;
+use App\Http\Middleware\LogVisit;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
-use App\Http\Middleware\Language;
 
 return Application::configure(basePath: dirname(__DIR__))
 
-    // ✅ Register AuthServiceProvider here
+    // Register service providers
     ->withProviders([
         App\Providers\AuthServiceProvider::class,
     ])
 
+    // Routing configuration
     ->withRouting(
-        web: __DIR__.'/../routes/web.php',
-        // api: __DIR__.'/../routes/api.php', // Include API routes if needed
-        commands: __DIR__.'/../routes/console.php',
+        web: __DIR__ . '/../routes/web.php',
+        commands: __DIR__ . '/../routes/console.php',
         health: '/up',
     )
 
+    // Middleware aliases
     ->withMiddleware(function (Middleware $middleware) {
         $middleware->alias([
-            'admin' => \App\Http\Middleware\AdminMiddleware::class,
-            'web' => \App\Http\Middleware\LogVisit::class,
-            'language' => \App\Http\Middleware\LanguageMiddleware::class, // ✅ language middleware
+            'admin' => AdminMiddleware::class,
+            'web' => LogVisit::class,
+            'language' => LanguageMiddleware::class,
         ]);
     })
-    
+
+    // Exception handling (optional customization)
     ->withExceptions(function (Exceptions $exceptions) {
         //
-    })->create();
+    })
+
+    ->create();
