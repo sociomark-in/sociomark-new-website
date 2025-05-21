@@ -1,6 +1,6 @@
 @extends('frontend.layout.app')
 @section('content')
-    <section>
+    <section class="port-bann">
         <div class="container-fluid">
             <div class="row mt-60">
                 {{-- <h2 class="h2 page-title mb-20 text-center text-uppercase">The <span class="text-blue">Mighty
@@ -55,20 +55,8 @@
             </div>
         </div>
     </section>
-<style>
-    .porfolio-text b{
-        font-weight: 600;
-    }
-    .porfolio-text h2{
-        font-weight: 600;
-    }
-    .section-margin {
-    margin-top: 120px;
-    margin-bottom: 120px;
-}
 
-</style>
-    <section class="porfolio-text section-margin">
+    <section class="porfolio-text overflow-hidden space ">
         <div class="container">
             <div class="row">
                 <h2 class="text-blue">Ayushakti Ayurved</h2>
@@ -80,9 +68,7 @@
                     Management, Search Engine Optimization(SEO), Email Marketing, Influencer Activity, Blogger Outreach.</p>
                     {{-- <p><b>Page Link:</b></p> --}}
 
-                    <div class="header-button mt-3">
-                        <a href="#" class="th-btn th-icon">READ OUR CASE STUDY</a>
-                    </div>
+                   
             </div>
         </div>
     </section>

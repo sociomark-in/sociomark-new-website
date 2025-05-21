@@ -43,29 +43,8 @@
         </div>
     </div>
 </section>
-<style>
-    .porfolio-text b {
-        font-weight: 600;
-    }
 
-    .porfolio-text h2 {
-        font-weight: 600;
-    }
-
-    @media only screen and (min-width: 767px) {
-        .section-margin {
-            margin-top: 120px;
-            margin-bottom: 120px;
-        }
-    }
-
-    @media only screen and (max-width: 767px) {
-        .port-bann {
-            margin-top: 68px;
-        }
-    }
-</style>
-<section class="porfolio-text section-margin">
+<section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
             <h2 class="text-blue sec-title">Indian School of Media (ISM)</h2>
@@ -91,9 +70,9 @@
     </div>
 </section>
 
-<section class="port-bann section-margin d-none">
+<section class="port-bann overflow-hidden space  d-none bg-grey">
     <div class="container-fluid">
-        <div class="row mt-60">
+        <div class="row">
             <h2 class=" sec-title text-center">The Mighty <span class="text-blue">Creative</span></h2>
             </h2>
             <div class="swiper creativeSwiper">
@@ -166,7 +145,7 @@
     </div>
 </section>
 
-<section class="porfolio-text section-margin">
+<section class="porfolio-text overflow-hidden space bg-grey">
     <div class="container">
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>

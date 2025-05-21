@@ -340,8 +340,9 @@
                         <div class="col-md-3 col-6 col-xl-auto filter-item cat1 cat5 cat7 cat3">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
+                                    <a href="{{ route('') }}">
                                     <img src="{{ asset('frontend-assets/img/clients/ayuhealth.jpg') }}"
-                                        alt="project image">
+                                        alt="project image"></a>
                                 </div>
                             </a>
                         </div>
