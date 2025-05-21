@@ -59,7 +59,7 @@
                     <a href="https://twitter.com/ayushakti_ind" target="_blank"><i
                             class="fa-brands fa-x-twitter"></i></a>
             </div>
-            <div class="header-button mt-3">
+            <div class="header-button mt-3 d-none">
                 <a href="#" class="th-btn th-icon">READ OUR CASE STUDY</a>
             </div>
         </div>
