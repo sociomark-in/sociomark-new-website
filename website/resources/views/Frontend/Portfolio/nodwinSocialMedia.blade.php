@@ -2,7 +2,7 @@
 @section('content')
 <section class="port-bann">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row mt-60">
             {{-- <h2 class="h2 page-title mb-20 text-center text-uppercase">The <span class="text-blue">Mighty
                     Exposure</span> --}}
             </h2>
@@ -67,29 +67,8 @@
         </div>
     </div>
 </section>
-<style>
-    .porfolio-text b {
-        font-weight: 600;
-    }
 
-    .porfolio-text h2 {
-        font-weight: 600;
-    }
-
-    @media only screen and (min-width: 767px) {
-        .section-margin {
-            margin-top: 120px;
-            margin-bottom: 120px;
-        }
-    }
-
-    @media only screen and (max-width: 767px) {
-        .port-bann {
-            margin-top: 68px;
-        }
-    }
-</style>
-<section class="porfolio-text section-margin">
+<section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
             <h2 class="text-blue sec-title">NODWIN Gaming ( India, Africa)</h2>
@@ -124,9 +103,9 @@
         </div>
     </div>
 </section>
-<section class="port-bann section-margin">
+<section class="port-bann overflow-hidden space bg-grey">
     <div class="container-fluid">
-        <div class="row mt-60">
+        <div class="row">
             <h2 class=" sec-title text-center">The Mighty <span class="text-blue">Creative</span></h2>
             </h2>
             <div class="swiper creativeSwiper">
@@ -189,7 +168,7 @@
     </div>
 </section>
 
-<section class="porfolio-text section-margin">
+<section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>

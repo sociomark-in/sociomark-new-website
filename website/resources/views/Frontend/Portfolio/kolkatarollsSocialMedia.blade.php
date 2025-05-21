@@ -57,29 +57,8 @@
         </div>
     </div>
 </section>
-<style>
-    .porfolio-text b {
-        font-weight: 600;
-    }
 
-    .porfolio-text h2 {
-        font-weight: 600;
-    }
-
-    @media only screen and (min-width: 767px) {
-        .section-margin {
-            margin-top: 120px;
-            margin-bottom: 120px;
-        }
-    }
-
-    @media only screen and (max-width: 767px) {
-        .port-bann {
-            margin-top: 68px;
-        }
-    }
-</style>
-<section class="porfolio-text section-margin">
+<section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
             <h2 class="text-blue sec-title">Kolkata Rolls</h2>
