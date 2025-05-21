@@ -60,29 +60,8 @@
     </div>
     </div>
 </section>
-<style>
-    .porfolio-text b {
-        font-weight: 600;
-    }
 
-    .porfolio-text h2 {
-        font-weight: 600;
-    }
-
-    @media only screen and (min-width: 767px) {
-        .section-margin {
-            margin-top: 120px;
-            margin-bottom: 120px;
-        }
-    }
-
-    @media only screen and (max-width: 767px) {
-        .port-bann {
-            margin-top: 68px;
-        }
-    }
-</style>
-<section class="porfolio-text section-margin">
+<section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
             <h2 class="text-blue sec-title">Ayushakti Ayurved</h2>
@@ -113,9 +92,9 @@
     </div>
 </section>
 
-<section class="port-bann section-margin">
+<section class="port-bann overflow-hidden space bg-grey">
     <div class="container-fluid">
-        <div class="row mt-60">
+        <div class="row">
             <h2 class=" sec-title text-center">The Mighty <span class="text-blue">Creative</span></h2>
             </h2>
             <div class="swiper creativeSwiper">
@@ -141,7 +120,7 @@
                 <!--<div class="swiper-button-prev"></div>-->
                 {{-- <div class="swiper-pagination"></div> --}}
             </div>
-            <div class="header-button mt-3 justify-content-center">
+            <div class="header-button mt-5 justify-content-center">
                 <a href="{{ route('ayushakti') }}" class="th-btn th-icon">VIEW OUR CASE STUDY</a>
             </div>
             <script>
@@ -179,7 +158,7 @@
 </section>
 
 
-<section class="porfolio-text section-margin">
+<section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
@@ -196,7 +175,7 @@
                 <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
                 <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
             </div>
-            <div class="header-button mt-3">
+            <div class="header-button mt-5 d-flex justify-content-center">
                 <a href="{{ route('ayushakti') }}" class="th-btn th-icon">View Our Porfolio</a>
             </div>
         </div>
