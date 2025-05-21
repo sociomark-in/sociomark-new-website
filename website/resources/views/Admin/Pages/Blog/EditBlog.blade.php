@@ -48,7 +48,7 @@
                         <div class="mb-3">
                             <label class="form-label">Status</label>
                             <div>
-
+                               
                                 <div class="form-check form-check-inline">
 
                                     <input type="radio" class="form-check-input" name="status" id="active" value="active" {{ old('status', $blog->status) == 'active' ? 'checked' : '' }}>
@@ -132,23 +132,9 @@
 
                         <h6 class="card-title">Image</h6>
                         <div class="mb-3">
-                            <label class="form-label">Existing Images</label>
-                            <div class="existing-images">
-                                @if($blog->images)
-                                @foreach($blog->images as $image)
-                                <img src="{{ url('storage/app/public/' . $image) }}" alt="Blog Image" style="width: 100px; margin-right: 10px;">
-                                @endforeach
-                                @else
-                                <p>No images uploaded.</p>
-                                @endif
-                            </div>
-                        </div>
-
-                        <div class="mb-3">
-                            <label class="form-label">Upload New Images</label>
+                            <label class="form-label">Images</label>
                             <input type="file" name="images[]" multiple class="form-control">
                         </div>
-
 
                     </div>
                 </div>
