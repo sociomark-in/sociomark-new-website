@@ -80,7 +80,7 @@
                     Management, Search Engine Optimization(SEO), Email Marketing, Influencer Activity, Blogger Outreach.</p>
                     {{-- <p><b>Page Link:</b></p> --}}
 
-                    <div class="header-button mt-3">
+                    <div class="header-button mt-3 d-none">
                         <a href="#" class="th-btn th-icon">READ OUR CASE STUDY</a>
                     </div>
             </div>

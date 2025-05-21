@@ -84,7 +84,7 @@
                     <a href="#" target="_blank"><i
                             class="fa-brands fa-x-twitter"></i></a>
             </div>
-            <div class="header-button mt-3">
+            <div class="header-button mt-3 d-none">
                 <a href="#" class="th-btn th-icon">READ OUR CASE STUDY</a>
             </div>
         </div>
@@ -119,7 +119,7 @@
                 <!--<div class="swiper-button-prev"></div>-->
                 {{-- <div class="swiper-pagination"></div> --}}
             </div>
-           
+
             <script>
                 var swiper = new Swiper(".creativeSwiper", {
                     spaceBetween: 30,
@@ -177,7 +177,7 @@
                 <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
                 </a>
             </div>
-           
+
         </div>
     </div>
 </section>

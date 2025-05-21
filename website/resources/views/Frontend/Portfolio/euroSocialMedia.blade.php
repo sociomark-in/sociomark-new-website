@@ -14,9 +14,9 @@
                                     srcset="" class="w-100">
                             </div>
                         </div>
-                       
+
                     </div>
-                   
+
                 </div>
                 <!-- Link Swiper's CSS -->
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -71,8 +71,11 @@
         <div class="container">
             <div class="row">
                 <h2 class="text-blue">Euro</h2>
-                <p><b>About the Brand:</b> </p>
-                <p><b>Services Offered:</b> </p>
+                <p><b>About the Brand:</b></p>
+                <p>
+                    EURO, a premium innerwear and athleisure brand by Rupa, blends comfort with cutting-edge style for the modern man. Designed for those who demand both performance and aesthetics, EURO stands out with its bold attitude, trend-forward collections, and superior fabric technology. From everyday essentials to statement pieces, EURO delivers confidence you can wear effortlessly.
+                </p>
+                <p><b>Services Offered:</b> Social Media Management</p>
                 <div class="th-social">
                     <p><b>Page Link:</b>
                         <a href="https://www.facebook.com/Ayushakti" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -80,7 +83,7 @@
                         <a href="https://twitter.com/ayushakti_ind" target="_blank"><i
                                 class="fa-brands fa-x-twitter"></i></a>
                 </div>
-                <div class="header-button mt-3">
+                <div class="header-button mt-3 d-none">
                     <a href="#" class="th-btn th-icon">READ OUR CASE STUDY</a>
                 </div>
             </div>
@@ -119,7 +122,7 @@
                 <!--<div class="swiper-button-prev"></div>-->
                 {{-- <div class="swiper-pagination"></div> --}}
             </div>
-           
+
             <script>
                 var swiper = new Swiper(".creativeSwiper", {
                     spaceBetween: 30,
@@ -177,7 +180,7 @@
                 <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
                 </a>
             </div>
-           
+
         </div>
     </div>
 </section>
