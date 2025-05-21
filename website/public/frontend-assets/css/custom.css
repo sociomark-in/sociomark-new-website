@@ -479,9 +479,11 @@ main#home {
     background-color: #000000;
     color: white;
 }
-.sec-title .big-font{
+
+.sec-title .big-font {
     font-size: calc(max(3.5rem, 6vw));
 }
+
 .sec-title {
     text-transform: capitalize;
     font-size: calc(max(3vmax, 2.5rem));
@@ -491,7 +493,8 @@ main#home {
     font-weight: 700 !important;
     position: relative;
 }
-.sec-title::after{
+
+.sec-title::after {
     content: '';
     display: none;
     background: url("../img/icon/stroke.svg");
@@ -682,8 +685,9 @@ main#home {
     background: none;
     position: relative;
 }
+
 .testimonial::before,
-.testimonial::after{
+.testimonial::after {
     opacity: 0.2;
     content: '';
     width: calc(max(15%, 3rem));
@@ -694,11 +698,13 @@ main#home {
     position: absolute;
     top: 0;
 }
-.testimonial::before{
+
+.testimonial::before {
     left: -10%;
     transform: scale(-1);
 }
-.testimonial::after{
+
+.testimonial::after {
     right: -10%;
     top: unset;
     bottom: 0;
@@ -722,7 +728,7 @@ main#home {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.testi-grid .box-text{
+.testi-grid .box-text {
     font-size: calc(max(2vmin, 16px));
 }
 
@@ -895,10 +901,12 @@ main#home {
 
 
 /* PORTFOLIO AREA */
-.portfolio-area{}
-.portfolio-area .project-item:before{
+.portfolio-area {}
+
+.portfolio-area .project-item:before {
     background: rgba(0, 0, 0, 0.15);
 }
+
 /* PORTFOLIO AREA */
 
 /* blog */
@@ -1481,6 +1489,7 @@ main#home {
     transition: background 0.3s ease;
     border-radius: 10px !important;
 }
+
 /* Hover animation */
 .portfolio-item:hover img {
     transform: scale(1.05);
@@ -1513,3 +1522,5 @@ main#home {
     filter: saturate(1.5);
     /* little more colorful on hover */
 }
+
+/* portfolio */
