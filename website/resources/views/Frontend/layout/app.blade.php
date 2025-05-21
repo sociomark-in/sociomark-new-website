@@ -30,7 +30,7 @@
      Preloader
   ==============================-->
     <div class="preloader p-3">
-        {{-- <button class="th-btn style1 preloaderCls">Cancel Preloader </button> --}}
+        <button class="th-btn style1 preloaderCls"><i class="fa-solid fa-close ms-2"></i></button>
         <div class="preloader-inner">
             <img src="{{ asset('frontend-assets/img/preloader.gif') }}" alt="Sociomark" height="200">
 
@@ -44,7 +44,7 @@
             <button type="submit"><i class="fal fa-search"></i></button>
         </form>
     </div>
-  
+
     @include('Frontend/partial/Header')
     <style>
         #cursor {

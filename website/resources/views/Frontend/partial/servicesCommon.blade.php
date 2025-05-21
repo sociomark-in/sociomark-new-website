@@ -172,26 +172,26 @@
                 var swiper = new Swiper(".projectSwiper", {
                     spaceBetween: 30,
                     // centeredSlides: true,
-                    slidesPerView: 4,
+                    slidesPerView: 1,
                     loop: true,
                     autoplay: {
                         delay: 2500,
                         disableOnInteraction: false,
                     },
-                    // breakpoints: {
-                    //     375: {
-                    //         slidesPerView: 1,
-                    //         spaceBetween: 20,
-                    //     },
-                    //     768: {
-                    //         slidesPerView: 2,
-                    //         spaceBetween: 40,
-                    //     },
-                    //     1024: {
-                    //         slidesPerView: 4,
-                    //         spaceBetween: 50,
-                    //     },
-                    // },
+                    breakpoints: {
+                        375: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 3,
+                            spaceBetween: 40,
+                        },
+                        1024: {
+                            slidesPerView: 4,
+                            spaceBetween: 50,
+                        },
+                    },
                     pagination: {
                         el: ".projectSwiper .swiper-pagination",
                         clickable: true,

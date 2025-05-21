@@ -346,7 +346,7 @@
                     >
                     <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
 
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat1 cat6">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat1 cat6">
                             <a href="javascript:void(0)" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/bumchums.jpg') }}"
@@ -355,7 +355,7 @@
                             </a>
                         </div>
 
-                        <div class="col-md-3 col-xl-auto filter-item cat1 cat6">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat1 cat6">
                             <a href="javascript:void(0)" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/euro.jpg') }}" alt="project image">
@@ -363,7 +363,7 @@
                             </a>
                         </div>
 
-                        <div class="col-md-3 col-xl-auto filter-item cat5 cat1">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat5 cat1">
                             <a href="{{ route('shahenaz') }}" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/shahenaz.jpg') }}"
@@ -372,7 +372,7 @@
                             </a>
                         </div>
 
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
                             <a href="javascript:void(0)" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/watch.jpg') }}" alt="project image">
@@ -380,7 +380,7 @@
                             </a>
                         </div>
 
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
                             <a href="javascript:void(0)" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/desiavatar.jpg') }}"
@@ -389,7 +389,7 @@
                             </a>
                         </div>
 
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
                             <a href="javascript:void(0)" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/outofoffice.jpg') }}"
@@ -398,7 +398,7 @@
                             </a>
                         </div>
 
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
                             <a href="javascript:void(0)" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/vedco.jpg') }}"
@@ -407,7 +407,7 @@
                             </a>
                         </div>
 
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
                             <a href="javascript:void(0)" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/stickerly.jpg') }}"

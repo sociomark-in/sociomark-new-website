@@ -337,7 +337,7 @@
                 </div>
                 <div class="portfolio-area" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1200">
                     <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4 justify-content-center">
-                        <div class="col-md-3 col-xl-auto filter-item cat1 cat5 cat7 cat3">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat1 cat5 cat7 cat3">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/ayuhealth.jpg') }}"
@@ -345,7 +345,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat5 cat5 cat8 cat1">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat5 cat5 cat8 cat1">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/ayushakti.jpg') }}"
@@ -353,14 +353,14 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/stemrx.jpg') }}" alt="project image">
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
                             <a href="javascript:void(0)" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/stemrxbio.jpg') }}"
