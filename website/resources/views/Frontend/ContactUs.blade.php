@@ -29,7 +29,7 @@
             border-radius: 10px;
             padding: 45px 23px;
             /* box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-                                    border: 2px solid transparent; */
+                                        border: 2px solid transparent; */
             box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
             -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
             -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
@@ -125,7 +125,7 @@
             "https://www.linkedin.com/company/sociomark/",
             "https://in.pinterest.com/Sociomarkin/",
             "https://www.sociomark.ae/"
-          ] 
+          ]
         }
         </script>
 @endsection
@@ -186,7 +186,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-4">
                         <!-- <div class="title-area text-center">
-                                                        </div> -->
+                                                            </div> -->
                         <div class="row gy-4 flex-column">
                             <div class="col-xl-12 col-md-12">
                                 <div class="contact-media">
@@ -209,16 +209,13 @@
                                         <h4 class="sub-sec-title">Contact Number</h4>
                                         <h6 class="business-contact">For Business</h6>
                                         <p class="sec-para">
-                                            <a href="tel:+919819988640">Mobile: +91 981 998 8640</a><br>
-                                            <a href="mailto:
-                                        business@sociomark.in">Email:
-                                                business@sociomark.in</a>
+                                            Mobile: <a href="tel:+971504266118">+971 50 426 6118</a><br>
+                                            Email: <a href="mailto:business@sociomark.in">business@sociomark.in</a>
                                         </p>
                                         <h6 class="careers-contact">For Careers</h6>
                                         <p class="sec-para">
-                                            <a href="tel:+13217322978">Mobile: +13217322978</a><br>
-                                            <a href="mailto:hr@sociomark.in">Email:
-                                                hr@sociomark.in</a>
+                                            Mobile: <a href="tel:+971504266118">+971 50 426 6118</a><br>
+                                            Email: <a href="mailto:hr@sociomark.in">hr@sociomark.in</a>
                                         </p>
                                     </div>
                                 </div>
@@ -230,7 +227,8 @@
                                     </div>
                                     <div class="media-body">
                                         <h4 class="sub-sec-title">Opening Hour</h4>
-                                        <p class="sec-para">Monday - Saturday: 9:00 - 18:00 Sunday: Closed</p>
+                                        <p class="sec-para">Monday - Saturday: 9:00 - 18:00</p>
+                                        <p class="sec-para">Sunday: Closed</p>
                                     </div>
                                 </div>
                             </div>

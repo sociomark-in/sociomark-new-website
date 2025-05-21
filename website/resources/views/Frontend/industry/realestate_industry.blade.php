@@ -339,7 +339,7 @@
                 </div>
                 <div class="portfolio-area" data-aos="zoom-in" data-aos-delay="200">
                     <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
-                        <div class="col-md-3 col-xl-auto filter-item cat1 cat5 cat7 cat3">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat1 cat5 cat7 cat3">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/ayuhealth.jpg') }}"
@@ -347,7 +347,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat5 cat5 cat8 cat1">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat5 cat5 cat8 cat1">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/ayushakti.jpg') }}"
@@ -355,7 +355,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat5 cat3 cat2">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat5 cat3 cat2">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/buildtrack (1).png') }}"
@@ -363,7 +363,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat1 cat6">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat1 cat6">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/bumchums.jpg') }}"
@@ -371,7 +371,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/eduauraa.jpg') }}"
@@ -379,21 +379,21 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat1 cat6">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat1 cat6">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/euro.jpg') }}" alt="project image">
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat2">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat2">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/jivana.jpg') }}" alt="project image">
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat3 cat2">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat3 cat2">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/network18.jpg') }}"
@@ -401,7 +401,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat3 cat4">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat3 cat4">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/nhs_logo.png') }}"
@@ -409,14 +409,14 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat5 cat1">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat5 cat1">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/nodwin.jpg') }}" alt="project image">
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/okinawa.jpg') }}"
@@ -424,14 +424,14 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat1 cat3">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat1 cat3">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/pare.png') }}" alt="project image">
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat5 cat1">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat5 cat1">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/shahenaz.jpg') }}"
@@ -439,14 +439,14 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/stemrx.jpg') }}" alt="project image">
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat1 cat3">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat1 cat3">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/tataplay.png') }}"
@@ -454,14 +454,14 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat1 cat3">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat1 cat3">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/times.jpg') }}" alt="project image">
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat5 cat1">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat5 cat1">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/totalfood.png') }}"
@@ -469,7 +469,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 col-xl-auto filter-item cat4 cat6">
+                        <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/watch.jpg') }}" alt="project image">

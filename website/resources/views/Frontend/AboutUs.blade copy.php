@@ -606,7 +606,7 @@
                 height: 320px;
             }
         </style>
-        <section class="mb-md-5 mt-md-5 mt-5 mb-2 py-1 py-md-4 overflow-hidden position-relative space" id="about-flip">
+        <section class="overflow-hidden position-relative space space-bottom" id="about-flip">
             <div class="container">
                 <div class="row text-center d-flex justify-content-center justify-content-md-end mt-4">
 
