@@ -15,12 +15,30 @@ class calenderController extends Controller
         return view('admin/Pages/calender/calender');
     }
 
-    public function index()
+    // public function index()
+    // {
+    //     // Return only the necessary fields
+    //     return response()->json(
+    //         Event::select('id', 'title', 'description', 'start')->get()
+    //     );
+    // }
+    public function index(Request $request)
     {
-        // Return only the necessary fields
-        return response()->json(
-            Event::select('id', 'title', 'description', 'start')->get()
-        );
+        $events = Event::all();
+
+        $formattedEvents = $events->map(function ($event) {
+            return [
+                'id' => $event->id,
+                'title' => $event->title,
+                'start' => $event->start->toDateString(), // Use 'start' column for FullCalendar's 'start'
+                'extendedProps' => [
+                    'description' => $event->description,
+                    // 'notified' status is no longer included
+                ]
+            ];
+        });
+
+        return response()->json($formattedEvents);
     }
     // public function store(Request $request)
     // {
@@ -40,19 +58,43 @@ class calenderController extends Controller
     // }
 
 
+    // public function store(Request $request)
+    // {
+    //     $request->validate([
+    //         'title' => 'required|string',
+    //         'description' => 'nullable|string',
+    //         'start' => 'required|date',
+    //     ]);
+
+    //     $event = Event::create($request->only(['title', 'description', 'start']));
+
+    //     return response()->json(['message' => 'Event created successfully', 'event' => $event]);
+    // }
     public function store(Request $request)
     {
         $request->validate([
-            'title' => 'required|string',
+            'title' => 'required|string|max:255',
             'description' => 'nullable|string',
-            'start' => 'required|date',
+            'start' => 'required|date', // This 'start' field from FullCalendar will be our event's 'start' date
         ]);
 
-        $event = Event::create($request->only(['title', 'description', 'start']));
+        $event = Event::create([
+            'title' => $request->title,
+            'description' => $request->description,
+            'start' => $request->start, // Map FullCalendar's 'start' to our 'start' column
+            // 'notified' is no longer set
+        ]);
 
-        return response()->json(['message' => 'Event created successfully', 'event' => $event]);
+        return response()->json([
+            'id' => $event->id,
+            'title' => $event->title,
+            'start' => $event->start->toDateString(),
+            'extendedProps' => [
+                'description' => $event->description,
+                // 'notified' is no longer included
+            ]
+        ]);
     }
-
     public function destroy($id)
     {
         $event = Event::find($id);
