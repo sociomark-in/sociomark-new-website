@@ -326,7 +326,7 @@
                         Clients We've <span class="text-blue"> Worked With</span>
                     </h2>
                 </div>
-                <div class="filter-menu filter-menu-active mt-md-5 mb-md-4">
+                <div class="filter-menu d-none filter-menu-active mt-md-5 mb-md-4">
                     <button data-filter="*" class="tab-btn active" type="button">All</button>
                     <button data-filter=".cat1" class="tab-btn" type="button">Digital Marketing</button>
                     <button data-filter=".cat2" class="tab-btn" type="button">Search Engine Optimization</button>

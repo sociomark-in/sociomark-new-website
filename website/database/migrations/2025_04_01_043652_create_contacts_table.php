@@ -20,12 +20,6 @@ return new class extends Migration
             $table->string('budget');
             $table->string('aboutUs');
             $table->text('messageforus');
-            $table->string('utm_source')->nullable();
-            $table->string('utm_medium')->nullable();
-            $table->string('utm_campaign')->nullable();
-            $table->string('utm_term')->nullable();
-            $table->string('utm_content')->nullable();
-            $table->enum('status', ['New', 'Hot', 'Warm', 'Cold', 'Lost','Converted'])->default('New');
             $table->timestamps();
         });
     }

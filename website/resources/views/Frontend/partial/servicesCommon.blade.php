@@ -114,7 +114,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="{{ route('social_media', ['client' => 'nodwin']) }}" class="portfolio-item">
+                            <a href="{{ route('social_media', ['client' => 'nodwin-gaming']) }}" class="portfolio-item">
                                 <img src="{{ asset('frontend-assets/img/project/nodwin-600.jpg') }}" alt=""
                                     srcset="" class="w-100">
                                 <div class="portfolio-title d-flex justify-content-center align-items-center">
