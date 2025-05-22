@@ -292,7 +292,7 @@
                 <div class="row gy-5 align-items-center">
                     <div class="col-xl-6">
                         <div class="title-area mb-35">
-                            <h2 class="sec-title " data-aos="fade-right" data-aos-delay="200">90-Days <span
+                            <h2 class="sec-title " data-aos="fade-right" data-aos-delay="200">90-Day <span
                                     class="text-blue">Gameplan</span></h2>
                             <p class="mb-30 sec-para" data-aos="fade-right" data-aos-delay="200"><b>"A Growth Success
                                     cycle formula created by Team Sociomark to give the

@@ -1,4 +1,4 @@
-@extends('Frontend.layout.app')
+@extends('Frontend.layout.blogapp')
 @section('title', $blog->meta_title ?? 'Default Title')
 <!-- @section('author', 'Your Company Name') -->
 @section('description', $blog->meta_description)
@@ -128,7 +128,7 @@
                                 <a href="#"><i class="fa-light fa-calendar"></i> {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}</a>
                                 <a href="#"><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->category_names) ?: 'No Category' }}</a>
                             </div>
-                            <h2 class=" blog-title blog-title-text"><a href="" class="sec-title">{{ $blog->blog_name }}</a></h2>
+                            <h1 class=" blog-title blog-title-text"><a href="" class="sec-title">{{ $blog->blog_name }}</a></h1>
 
                         </div>
                         <div class="box-blog th-blog blog-single has-post-thumbnail">
