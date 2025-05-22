@@ -40,14 +40,14 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 col-xl-auto filter-item cat1">
+                {{-- <div class="col-md-3 col-xl-auto filter-item cat1">
                     <a href="{{ route('social_media', ['client'=>'ayu-health']) }}" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/ayuhealth01.jpg') }}"
                                 alt="project image">
                         </div>
                     </a>
-                </div>
+                </div> --}}
                 <div class="col-md-3 col-xl-auto filter-item cat1">
                     <a href="{{ route('social_media', ['client'=>'ayushakti']) }}" class="project-item d-block">
                         <div class="box-img global-img">
