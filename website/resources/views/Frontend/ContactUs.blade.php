@@ -258,7 +258,7 @@
                                         <label class="form-label" for="phone">Phone</label>
                                         <input type="text" class="form-control @error('phone') is-invalid @enderror"
                                             name="phone" id="phone" placeholder="Enter your Phone"
-                                            value="{{ old('phone') }}" min="10" max="10">
+                                            value="{{ old('phone') }}" maxlength="10" pattern="\d{10}">
                                         @error('phone')
                                             <span class="text-danger">{{ $message }}</span>
                                         @enderror
