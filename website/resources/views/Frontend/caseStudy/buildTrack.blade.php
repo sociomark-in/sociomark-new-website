@@ -183,17 +183,17 @@
         <div class="row">
             <div class="col-md-4 col-6 mt-3">
                 <a href="https://www.instagram.com/reel/DATFu9WOkmR/">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/vit_c.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/cgi1.png') }}" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-6 mt-3">
                 <a href="https://www.instagram.com/reel/DC_321QSZqU/ ">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/pqq.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/cgi2.png') }}" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-6 mt-3">
                 <a href="https://www.instagram.com/reel/DEQXOGbyWId/">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/Phospha.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/cgi3.png') }}" alt="">
                 </a>
             </div>
 
@@ -202,17 +202,17 @@
         <div class="row">
             <div class="col-md-4 col-6 mt-3">
                 <a href="https://www.instagram.com/reel/DAdrGhGszqh/">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/summer.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/meme1.png') }}" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-6 mt-3">
                 <a href="https://www.instagram.com/reel/DAtNwW8ovO9/">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/upset_stomach.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/meme2.png') }}" alt="">
                 </a>
             </div>
             <div class="col-md-4 col-6 mt-3">
                 <a href="https://www.instagram.com/reel/DC9JCPfoIph/">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/fisten.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/meme4.png') }}" alt="">
                 </a>
             </div>
 
@@ -223,15 +223,15 @@
         <div class="row">
             <div class="col-md-4 col-6 mt-3">
                 <a href="https://www.instagram.com/reel/DBGlpgRt0zs/">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/vita_c.png') }}" alt=""></a>
+                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/ai1.png') }}" alt=""></a>
             </div>
             <div class="col-md-4 col-6 mt-3">
                 <a href="https://www.instagram.com/reel/DEKmv2gS1Av/">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/avocado.png') }}" alt=""></a>
+                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/ai2.png') }}" alt=""></a>
             </div>
             <div class="col-md-4 col-6 mt-3">
                 <a href="https://www.instagram.com/reel/DG-zrWfSz38/">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/avocado.png') }}" alt=""></a>
+                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/ai3.png') }}" alt=""></a>
             </div>
         </div>
         <h2 class="mt-4 sub-sec-title text-blue">Topical Days Posts</h2>
