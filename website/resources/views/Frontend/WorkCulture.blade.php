@@ -222,7 +222,8 @@
                 <picture>
                     <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/work.jpg') }}"
                         class="w-100" loading="lazy">
-                    <img src="{{ asset('frontend-assets/img/banners/work.jpg') }}" alt="" class="w-100" loading="lazy">
+                    <img src="{{ asset('frontend-assets/img/banners/work.jpg') }}" alt="" class="w-100"
+                        loading="lazy">
                 </picture>
             </div>
         </section>
@@ -248,7 +249,8 @@
                     <div class="col-lg-6 mb-30 mb-xl-0">
                         <div class="imgBox img-box2 me-xl-4 mt-lg-60" data-aos="fade-right" data-aos-delay="100">
                             <div class="img1 th-anim mb-35">
-                                <img src="{{ asset('frontend-assets/img/team/home.jpg') }}" class="w-100" alt="About" loading="lazy">
+                                <img src="{{ asset('frontend-assets/img/team/home.jpg') }}" class="w-100" alt="About"
+                                    loading="lazy">
                             </div>
                         </div>
                     </div>
@@ -256,8 +258,9 @@
                         <div class="">
                             <div class="title-area mb-35">
                                 <!-- <span class="sub-title sub-title4 style1 mb-4 mb-md-5">Why Choose Sociomark</span> -->
-                                <h1 class="sec-title ">More than just a  <span class="text-orange">Workplace</span> </h1>
-                                <p class="mb-30 sec-para">At Sociomark, work feels less like a duty and more like a shared passion.
+                                <h1 class="sec-title ">More than just a <span class="text-orange">Workplace</span> </h1>
+                                <p class="mb-30 sec-para">At Sociomark, work feels less like a duty and more like a shared
+                                    passion.
                                     Our culture is built on creativity, collaboration, and a healthy dose of everyday fun.
                                     We believe that the best ideas are born when people feel valued, inspired, and empowered
                                     to bring their whole selves to work. From brainstorming sessions that spark innovation
@@ -304,7 +307,8 @@
                                     <div class="card-top-left"></div>
                                     <div class="card-bottom-right"></div>
                                     <div class="position-absolute-img">
-                                        <img src="{{ asset('frontend-assets/img/ourCulture/1.png') }}" alt="" loading="lazy">
+                                        <img src="{{ asset('frontend-assets/img/ourCulture/1.png') }}" alt=""
+                                            loading="lazy">
                                     </div>
                                     <div class="position-absolute-text">
                                         <h5 class="card-title">24/7 Support</h5>
@@ -389,7 +393,7 @@
                         <div class="title-area text-center">
                             <div class="shadow-title">Journey</div>
                             {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
-                            <h2 class="sec-title  ">Our  <span class="text-orange">reMARKable Journey</span></h2>
+                            <h2 class="sec-title  ">Our <span class="text-orange">reMARKable Journey</span></h2>
                         </div>
                     </div>
                 </div>
@@ -638,6 +642,20 @@
                                         delay: 2500,
                                         disableOnInteraction: false,
                                     },
+                                    breakpoints: {
+                                        375: {
+                                            slidesPerView: 1,
+                                            spaceBetween: 20,
+                                        },
+                                        768: {
+                                            slidesPerView: 2,
+                                            spaceBetween: 40,
+                                        },
+                                        1024: {
+                                            slidesPerView: 3,
+                                            spaceBetween: 50,
+                                        },
+                                    },
                                 })
                             </script>
                         @endpush
@@ -718,12 +736,18 @@
                         })
                     </script>
                 @endpush
-                <div class="row g-3">
+                {{-- <div class="row g-3">
                     <div class="col-12">
                         <video loop muted autoplay class="w-100">
                             <source src="{{ asset('frontend-assets/team-video.mp4') }}">
                         </video>
                     </div>
+                </div> --}}
+                <div class="video-wrapper lazy-loading">
+                    <video loop muted autoplay class="w-100" poster="{{asset('frontend-assets/img/posters/team_video_poster.jpg')}}">
+                        <source data-src="{{ asset('frontend-assets/team-video.mp4') }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
         </section>
@@ -786,7 +810,7 @@
                         @endfor
                     </div>
                     <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
-                                                                </div> -->
+                                                                    </div> -->
                 </div>
             </div>
             @push('scripts')

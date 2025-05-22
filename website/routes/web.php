@@ -93,7 +93,7 @@ Route::get('/case-study/smarter-india', [CaseStudyController::class, 'smarterInd
 Route::get('/case-study/real-estate-awards', [CaseStudyController::class, 'realestateawards'])->name('realestateawards');
 Route::get('/case-study/nhs', [CaseStudyController::class, 'nhs'])->name('nhs');
 Route::get('/case-study/off-the-hook', [CaseStudyController::class, 'getTheHook'])->name('getTheHook');
-Route::get('/case-study/ayushakti-new', [CaseStudyController::class, 'ayushaktiNew'])->name('getTheHook');
+Route::get('/case-study/ayushakti-new', [CaseStudyController::class, 'ayushaktiNew'])->name('ayushaktiNew');
 Route::get('/case-study/cyber-power', [CaseStudyController::class, 'cyberPower'])->name('cyberPower');
 
 Route::get('/work-culture', [WorkCultureController::class, 'index'])->name('workculture');
