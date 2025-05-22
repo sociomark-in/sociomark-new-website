@@ -8,24 +8,24 @@
 <!-- Plugin: TypewriterJS -->
 <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Sociomark Digital Marketing Agency",
-      "alternateName": "Sociomarkin",
-      "url": "https://www.sociomark.ae/",
-      "logo": "https://www.sociomark.ae/public/frontend-assets/img/logo/sociomark-new-logo.png",
-      "sameAs": [
-        "https://www.facebook.com/Sociomarkin",
-        "https://www.instagram.com/sociomarkin/",
-        "https://www.youtube.com/@sociomarkdigitalmarketing",
-        "https://www.linkedin.com/company/sociomark/",
-        "https://in.pinterest.com/Sociomarkin/",
-        "https://www.sociomark.ae/",
-        "https://x.com/sociomarkin"
-      ]
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Sociomark Digital Marketing Agency",
+        "alternateName": "Sociomarkin",
+        "url": "https://www.sociomark.ae/",
+        "logo": "https://www.sociomark.ae/public/frontend-assets/img/logo/sociomark-new-logo.png",
+        "sameAs": [
+            "https://www.facebook.com/Sociomarkin",
+            "https://www.instagram.com/sociomarkin/",
+            "https://www.youtube.com/@sociomarkdigitalmarketing",
+            "https://www.linkedin.com/company/sociomark/",
+            "https://in.pinterest.com/Sociomarkin/",
+            "https://www.sociomark.ae/",
+            "https://x.com/sociomarkin"
+        ]
     }
-    </script>
-    
+</script>
+
 @push('styles')
 <style>
     #home .about-area2 .sec-title {
@@ -322,51 +322,51 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12">
-                    <div class="counter-box-wrap">
-                        <div class="row g-3 gx-5 justify-content-between text-center">
-                            <div class="col-xl-auto col-lg-6 col-6">
-                                <div class="counter-box">
+                <div class="col-12 ">
+                    <div class="counter-box counter-card-wrap">
+                        <div class="row g-3 gx-5 justify-content-between text-center mt-4 mt-md-0">
+                            <div class="col-xl-auto col-lg-6 col-6 my-4 my-md-0">
+                                <div class="counter-box counter-card">
                                     <h3 class="box-number text-orange"><span class="counter-number">8</span>+</h3>
                                     <div class="media-body">
                                         <p class="text-white counter-text mb-n1">Years</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-auto col-lg-6 col-6">
-                                <div class="counter-box">
+                            <div class="col-xl-auto col-lg-6 col-6 my-4 my-md-0">
+                                <div class="counter-box counter-card">
                                     <h3 class="box-number text-orange"><span class="counter-number">50</span>+</h3>
                                     <div class="media-body">
                                         <p class="text-white counter-text mb-n1">Employees</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-auto col-lg-6 col-6">
-                                <div class="counter-box">
+                            <div class="col-xl-auto col-lg-6 col-6 my-4 my-md-0">
+                                <div class="counter-box counter-card">
                                     <h3 class="box-number text-orange"><span class="counter-number">70</span>+</h3>
                                     <div class="media-body">
                                         <p class="text-white counter-text mb-n1">Brands</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-auto col-lg-6 col-6">
-                                <div class="counter-box">
+                            <div class="col-xl-auto col-lg-6 col-6 my-4 my-md-0">
+                                <div class="counter-box counter-card">
                                     <h3 class="box-number text-orange"><span class="counter-number">200</span>+</h3>
                                     <div class="media-body">
                                         <p class="text-white counter-text mb-n1">Campaigns</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-auto col-lg-6 col-6">
-                                <div class="counter-box">
+                            <div class="col-xl-auto col-lg-6 col-6 my-4 my-md-0">
+                                <div class="counter-box counter-card">
                                     <h3 class="box-number text-orange"><span class="counter-number">10</span>+</h3>
                                     <div class="media-body">
                                         <p class="text-white counter-text mb-n1">Global Clients</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xl-auto col-lg-6 col-6">
-                                <div class="counter-box">
+                            <div class="col-xl-auto col-lg-6 col-6 my-4 my-md-0">
+                                <div class="counter-box counter-card">
                                     <h3 class="box-number text-orange"><span class="counter-number">3</span></h3>
                                     <div class="media-body">
                                         <p class="text-white counter-text mb-n1">Awards</p>
@@ -379,6 +379,71 @@
             </div>
         </div>
     </section>
+
+    <div class="space-extra2-bottom d-none">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                    <div class="counter-card pb-2">
+                        <h3 class="box-number text-orange"><span class="counter-number">8</span>+</h3>
+                        <div class="media-body">
+                            <p class=" counter-text sec-para mb-n1"><b>Years</b></p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                    <div class="counter-card pb-2">
+                        <h3 class="box-number text-orange"><span class="counter-number">50</span>+</h3>
+                        <div class="media-body">
+                            <p class=" counter-text sec-para mb-n1"><b>Employees</b></p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                    <div class="counter-card pb-2">
+                        <h3 class="box-number text-orange"><span class="counter-number">70</span>+</h3>
+                        <div class="media-body">
+                            <p class=" counter-text sec-para mb-n1"><b>Brands</b></p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                    <div class="counter-card pb-2">
+                        <h3 class="box-number text-orange"><span class="counter-number">200</span>+</h3>
+                        <div class="media-body">
+                            <p class=" counter-text sec-para mb-n1"><b>Campiagn</b></p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                    <div class="counter-card pb-2">
+                        <h3 class="box-number text-orange"><span class="counter-number">10</span>+</h3>
+                        <div class="media-body">
+                            <p class=" counter-text sec-para mb-n1"><b>Global Clients</b></p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-6">
+                    <div class="counter-card pb-2">
+                        <h3 class="box-number text-orange"><span class="counter-number">3</span></h3>
+                        <div class="media-body">
+                            <p class=" counter-text sec-para mb-n1"><b>Awards</b></p>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     {{-- <section class="overflow-hidden height-full mb-md-3">
             <div class="container h-100">
@@ -1674,7 +1739,7 @@
                 <div class="swiper-wrapper">
 
                     @foreach ($blogs as $blog)
-                    @if (($blog->display_on_home == 1) &&  $blog->status == 'active')
+                    @if (($blog->display_on_home == 1) && $blog->status == 'active')
                     <div class="swiper-slide">
                         <div class="box-blog th-blog blog-single has-post-thumbnail">
                             <div class="blog-img box-blog w-100">
@@ -1743,117 +1808,31 @@
     @endpush
     @include('Frontend.partial.contactUs')
 
-        <style>
-            label {
-                font-weight: 600;
-            }
-        </style>
-        <div class="modal fade d-none" id="homeContactModal" tabindex="-1" aria-labelledby="homeContactModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3 class="modal-title fs-5" id="homeContactModalLabel">Modal title</h3>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body contact-form style2">
-                        <form action="{{ route('contact.store') }}" method="POST" class="">
-                            @csrf
-                            <div class="row g-2">
-                                <div class="form-group col-md-6">
-                                    <label for="name">Your Name</label>
-                                    <input type="text" class="form-control @error('name') is-invalid @enderror"
-                                        name="name" id="name" placeholder="Enter your Name"
-                                        value="{{ old('name') }}">
-                                    @error('name')
-                                        <span class="text-danger">{{ $message }}</span>
-                                    @enderror
-                                </div>
-                                <div class="form-group col-md-6">
-                                    {{-- <i class="fas fa-envelope"></i> --}}
-                                    <label for="email">Email</label>
-                                    <input type="text" class="form-control @error('email') is-invalid @enderror"
-                                        name="email" id="email" placeholder="Enter your Email"
-                                        value="{{ old('email') }}">
-                                    @error('email')
-                                        <span class="text-danger">{{ $message }}</span>
-                                    @enderror
-                                </div>
-                                <div class="form-group col-md-6">
-                                    {{-- <i class="fal fa-phone"></i> --}}
-                                    <label for="phone">Phone</label>
-                                    <input type="text" class="form-control @error('phone') is-invalid @enderror"
-                                        name="phone" id="phone" placeholder="Enter your Phone"
-                                        value="{{ old('phone') }}">
-                                    @error('phone')
-                                        <span class="text-danger">{{ $message }}</span>
-                                    @enderror
-                                </div>
-                                <div class="form-group col-md-6">
-
-                                    <label for="service">Service you want?</label>
-                                    <select class="form-select @error('service') is-invalid @enderror" id="service"
-                                        name="service">
-                                        <option selected disabled>Choose an option</option>
-                                        <option value="Search Engine Optimization">Search Engine Optimization</option>
-                                        <option value="Website Development">Website Development</option>
-                                        <option value="Social Media">Social Media</option>
-                                        <option value="Digital Marketing">Digital Marketing</option>
-                                        <option value="Conetnt Marketing">Conetnt Marketing</option>
-                                        <option value="SEM">Performance Marketing</option>
-                                        <option value="Photography & Video Production">Photography & Video Production
-                                        </option>
-                                    </select>
-
-                                    @error('service')
-                                        <span class="text-danger">{{ $message }}</span>
-                                    @enderror
-                                </div>
-                                <div class="form-group col-md-6">
-
-                                    <label for="budget">Marketing Budget</label>
-                                    <select class="form-select @error('budget') is-invalid @enderror" id="budget"
-                                        name="budget">
-                                        <option selected disabled>Choose an option</option>
-                                        <option value="Under ₹ 50000">Under ₹ 50,000</option>
-                                        <option value="₹ 50,000 - ₹ 1,00,000">₹ 50,000 - ₹ 1,00,000</option>
-                                        <option value="Above ₹ 1,00,000">Above ₹ 1,00,000</option>
-                                        <option value="Have not Estimated Yet">Have not Estimated Yet</option>
-                                    </select>
-                                    @error('budget')
-                                        <span class="text-danger">{{ $message }}</span>
-                                    @enderror
-                                </div>
-                                <div class="form-group col-md-6">
-
-                                    <label for="aboutUs">How did you hear about Us?</label>
-                                    <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs"
-                                        name="aboutUs">
-                                        <option selected disabled>Choose an option</option>
-                                        <option value="Through Search Engines(Google, Bing etc.)">Through Search
-                                            Engines(Google, Bing etc.)</option>
-                                        <option value="Social Media(Facebook, Instagram etc.)">Social Media(Facebook,
-                                            Instagram etc.)</option>
-                                        <option value="Word of Mouth/ Referral">Word of Mouth/ Referral</option>
-                                        <option value="Other">Other</option>
-                                    </select>
-                                    @error('aboutUs')
-                                        <span class="text-danger">{{ $message }}</span>
-                                    @enderror
-                                </div>
-                                <div class="form-group col-12">
-
-                                    <label for="messageforus">Your Message</label>
-                                    <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus"
-                                        placeholder="Enter your message" rows="4" name="messageforus"></textarea>
-                                    {{-- <i class="fal fa-pencil"></i> --}}
-                                    @error('messageforus')
-                                        <span class="text-danger">{{ $message }}</span>
-                                    @enderror
-                                </div>
-                                <div class="col-12 form-group mb-0 text-center">
-                                    <button class="th-btn th-radius">Submit Message</button>
-                                </div>
+    <style>
+        label {
+            font-weight: 600;
+        }
+    </style>
+    <div class="modal fade d-none" id="homeContactModal" tabindex="-1" aria-labelledby="homeContactModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title fs-5" id="homeContactModalLabel">Modal title</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body contact-form style2">
+                    <form action="{{ route('contact.store') }}" method="POST" class="">
+                        @csrf
+                        <div class="row g-2">
+                            <div class="form-group col-md-6">
+                                <label for="name">Your Name</label>
+                                <input type="text" class="form-control @error('name') is-invalid @enderror"
+                                    name="name" id="name" placeholder="Enter your Name"
+                                    value="{{ old('name') }}">
+                                @error('name')
+                                <span class="text-danger">{{ $message }}</span>
+                                @enderror
                             </div>
                             <div class="form-group col-md-6">
                                 {{-- <i class="fas fa-envelope"></i> --}}
@@ -1901,8 +1880,8 @@
                                 <select class="form-select @error('budget') is-invalid @enderror" id="budget"
                                     name="budget">
                                     <option selected disabled>Choose an option</option>
-                                    <option value="Under ₹ 25000">Under ₹ 25000</option>
-                                    <option value="₹ 25,000 - ₹ 1,00,000">₹ 25,000 - ₹ 1,00,000</option>
+                                    <option value="Under ₹ 50000">Under ₹ 50,000</option>
+                                    <option value="₹ 50,000 - ₹ 1,00,000">₹ 50,000 - ₹ 1,00,000</option>
                                     <option value="Above ₹ 1,00,000">Above ₹ 1,00,000</option>
                                     <option value="Have not Estimated Yet">Have not Estimated Yet</option>
                                 </select>
@@ -1941,11 +1920,97 @@
                                 <button class="th-btn th-radius">Submit Message</button>
                             </div>
                         </div>
+                        <div class="form-group col-md-6">
+                            {{-- <i class="fas fa-envelope"></i> --}}
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control @error('email') is-invalid @enderror"
+                                name="email" id="email" placeholder="Enter your Email"
+                                value="{{ old('email') }}">
+                            @error('email')
+                            <span class="text-danger">{{ $message }}</span>
+                            @enderror
+                        </div>
+                        <div class="form-group col-md-6">
+                            {{-- <i class="fal fa-phone"></i> --}}
+                            <label for="phone">Phone</label>
+                            <input type="text" class="form-control @error('phone') is-invalid @enderror"
+                                name="phone" id="phone" placeholder="Enter your Phone"
+                                value="{{ old('phone') }}">
+                            @error('phone')
+                            <span class="text-danger">{{ $message }}</span>
+                            @enderror
+                        </div>
+                        <div class="form-group col-md-6">
 
-                    </form>
+                            <label for="service">Service you want?</label>
+                            <select class="form-select @error('service') is-invalid @enderror" id="service"
+                                name="service">
+                                <option selected disabled>Choose an option</option>
+                                <option value="Search Engine Optimization">Search Engine Optimization</option>
+                                <option value="Website Development">Website Development</option>
+                                <option value="Social Media">Social Media</option>
+                                <option value="Digital Marketing">Digital Marketing</option>
+                                <option value="Conetnt Marketing">Conetnt Marketing</option>
+                                <option value="SEM">Performance Marketing</option>
+                                <option value="Photography & Video Production">Photography & Video Production
+                                </option>
+                            </select>
+
+                            @error('service')
+                            <span class="text-danger">{{ $message }}</span>
+                            @enderror
+                        </div>
+                        <div class="form-group col-md-6">
+
+                            <label for="budget">Marketing Budget</label>
+                            <select class="form-select @error('budget') is-invalid @enderror" id="budget"
+                                name="budget">
+                                <option selected disabled>Choose an option</option>
+                                <option value="Under ₹ 25000">Under ₹ 25000</option>
+                                <option value="₹ 25,000 - ₹ 1,00,000">₹ 25,000 - ₹ 1,00,000</option>
+                                <option value="Above ₹ 1,00,000">Above ₹ 1,00,000</option>
+                                <option value="Have not Estimated Yet">Have not Estimated Yet</option>
+                            </select>
+                            @error('budget')
+                            <span class="text-danger">{{ $message }}</span>
+                            @enderror
+                        </div>
+                        <div class="form-group col-md-6">
+
+                            <label for="aboutUs">How did you hear about Us?</label>
+                            <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs"
+                                name="aboutUs">
+                                <option selected disabled>Choose an option</option>
+                                <option value="Through Search Engines(Google, Bing etc.)">Through Search
+                                    Engines(Google, Bing etc.)</option>
+                                <option value="Social Media(Facebook, Instagram etc.)">Social Media(Facebook,
+                                    Instagram etc.)</option>
+                                <option value="Word of Mouth/ Referral">Word of Mouth/ Referral</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            @error('aboutUs')
+                            <span class="text-danger">{{ $message }}</span>
+                            @enderror
+                        </div>
+                        <div class="form-group col-12">
+
+                            <label for="messageforus">Your Message</label>
+                            <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus"
+                                placeholder="Enter your message" rows="4" name="messageforus"></textarea>
+                            {{-- <i class="fal fa-pencil"></i> --}}
+                            @error('messageforus')
+                            <span class="text-danger">{{ $message }}</span>
+                            @enderror
+                        </div>
+                        <div class="col-12 form-group mb-0 text-center">
+                            <button class="th-btn th-radius">Submit Message</button>
+                        </div>
                 </div>
+
+                </form>
             </div>
         </div>
+    </div>
     </div>
 </main>
 @endsection

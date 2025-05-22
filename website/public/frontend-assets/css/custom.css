@@ -251,10 +251,6 @@ select {
     margin-top: 2rem;
 }
 
-.counter-box .box-number {
-    font-size: 4rem;
-}
-
 .choose-feature .box-icon {
     background-color: var(--color-white);
 }
@@ -1279,6 +1275,10 @@ main#home {
 @media (max-width: 1200px) {
     #about-us #about-process .process-step::after {
         display: none;
+    }
+
+    .counter-box .box-number {
+        font-size: 4rem;
     }
 }
 
