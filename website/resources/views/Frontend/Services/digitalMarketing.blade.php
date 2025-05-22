@@ -3,209 +3,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-@section('custome-style')
-    <style>
-        #seo-service #features .sub-sec-title {
-            font-weight: 700 !important;
-        }
-
-        @media (max-width: 576px) {
-
-            #seo-service #about-sec2,
-            #seo-service #services-tab {
-                padding: 3rem 0 3rem 0 !important;
-            }
-
-            .according-list-area {
-                margin-bottom: 290px;
-            }
-
-            #seo-service #services-tab .side-padding-mbl {
-                padding: 0px 1.5rem;
-            }
-
-            #seo-service #services-tab .sec-para {
-                text-align: left;
-            }
-
-            #seo-service #contact {
-                padding: 40px 2px !important;
-            }
-        }
-
-        /* section3 */
-        .according-img {
-            opacity: 0;
-            transform: scale(0.8);
-            /* Start smaller */
-            transition: all 0.6s ease;
-            pointer-events: none;
-            height: 0;
-            overflow: hidden;
-        }
-
-        #seo-service #about-sec3 .according-list.item-active .according-img {
-            transform: scale(1);
-            height: fit-content;
-        }
-
-        /* Zoom in on hover */
-        .hover-item:hover .according-img {
-            opacity: 1;
-            transform: scale(1);
-            /* Zoom to normal size */
-            pointer-events: auto;
-            height: auto;
-            overflow: visible;
-        }
-
-
-
-        #seo-service #about-sec3 .box-title {
-            line-height: 32px;
-            font-size: 25px;
-            letter-spacing: .10px;
-            font-weight: 500;
-            padding-left: 0px;
-        }
-
-        #seo-service #about-sec3 .according-list .according-img {
-            max-width: 700px;
-        }
-
-        #seo-service #about-sec3 .accordion-item2 {
-            padding-bottom: 15px;
-            max-width: 510px;
-        }
-
-        #seo-service #about-sec3 .accordion-item2 .box-title:before {
-            width: 0px;
-
-        }
-
-        #seo-service #about-sec3 .according-list.hover-item.item-active .accordion-item2 {
-            border-bottom-color: #106c97;
-        }
-
-        /* section3 end */
-
-        /* services tab */
-        /* Slide-in animations */
-        @keyframes slideInRight {
-            from {
-                opacity: 0;
-                transform: translateX(50px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-
-        @keyframes slideInLeft {
-            from {
-                opacity: 0;
-                transform: translateX(-100px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateX(0);
-            }
-        }
-
-        /* Zoom-in animation */
-        @keyframes zoomIn {
-            from {
-                opacity: 0;
-                transform: scale(0.85);
-            }
-
-            to {
-                opacity: 1;
-                transform: scale(1);
-            }
-        }
-
-        /* Apply animations */
-        .animate-slide-in-right {
-            animation: slideInRight 0.6s ease forwards;
-        }
-
-        .animate-slide-in-left {
-            animation: slideInLeft 0.6s ease forwards;
-        }
-
-        .animate-zoom-in {
-            animation: zoomIn 0.6s ease forwards;
-        }
-
-        .animate-slide-in-right,
-        .animate-slide-in-left,
-        .animate-zoom-in {
-            animation-duration: 0.8s;
-            animation-delay: 0.1s;
-            animation-fill-mode: both;
-        }
-
-        #seo-service #services-tab .nav-pills .nav-link {
-            border-radius: 0.25rem;
-            background-color: #106c97;
-            color: white;
-            border: none;
-            border-radius: 0px;
-            text-align: left;
-            padding-left: 35px !important;
-        }
-
-        #seo-service #services-tab .nav-pills .nav-link.active,
-        .nav-pills .show>.nav-link {
-            background-color: white !important;
-            color: #106c97 !important;
-        }
-
-        #seo-service #services-tab #v-pills-tab {
-            padding: 20px 20px 20px 0px;
-            background-color: #106c97;
-        }
-
-        #seo-service #services-tab .sec-para-list,
-        #seo-service #about-sec6 .sec-para-faq {
-            font-size: 17px;
-            color: #797E88;
-            line-height: 28px;
-            letter-spacing: .10px;
-        }
-
-        @media (max-width: 1300px) {
-            #seo-service #about-sec3 .according-list .according-img {
-                max-width: 50%;
-            }
-
-            #seo-service #about-sec3 .accordion-item2 {
-                max-width: 45%;
-            }
-        }
-
-        @media (max-width: 950px) {
-            #seo-service #about-sec3 .according-list .according-img {
-                max-width: 100%;
-            }
-
-            #seo-service #about-sec3 .accordion-item2 {
-                max-width: 100%;
-            }
-        }
-
-        #Features .icon-img {
-            width: 80px !important;
-            height: 80px !important;
-        }
-
-        /* services tab end */
-    </style>
-@endsection
 
 @section('content')
     <main id="seo-service">
@@ -221,7 +18,7 @@
         </div>
 
 
-        <section class="overflow-hidden mb-md-5 md-2" id="about-sec">
+        <section class="overflow-hidden space mb-md-5 md-2 pt-5" id="about-sec">
             <div class="container">
                 <div class="row align-items-end justify-content-center">
                     <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
@@ -308,7 +105,7 @@
                         </div>
                     </div>
                     <!-- Right Side -->
-                    <div class="col-md-6">
+                    <div class="col-md-6 mt-4 mt-md-0">
                         <div id="benefits">
                             <div class="benefit-block border-start border-4">
                                 <h4 class="sub-sec-title">Start with Goals</h4>
@@ -358,7 +155,7 @@
                 <div class="according-list-area">
                     <div class="according-list hover-item item-active">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Understand the Brand Inside Out</h3>
+                            <h3 class="box-title text-center text-md-start">Understand the Brand Inside Out</h3>
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Services/Understand the Brand Inside Out.png') }}"
@@ -371,7 +168,7 @@
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Study Competitors and Gaps</h3>
+                            <h3 class="box-title text-center text-md-start">Study Competitors and Gaps</h3>
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Services/Study Competitors and Gaps.png') }}"
@@ -384,7 +181,7 @@
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Plan with Precision</h3>
+                            <h3 class="box-title text-center text-md-start">Plan with Precision</h3>
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Services/Plan with Precision.png') }}"
@@ -397,7 +194,7 @@
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Create with Intent</h3>
+                            <h3 class="box-title text-center text-md-start">Create with Intent</h3>
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Services/Create with Intent.png') }}"
@@ -410,7 +207,7 @@
                     </div>
                     <div class="according-list hover-item">
                         <div class="accordion-item2">
-                            <h3 class="box-title">Execute and Optimise</h3>
+                            <h3 class="box-title text-center text-md-start">Execute and Optimise</h3>
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Services/Execute and Optimise.png') }}"
@@ -440,8 +237,8 @@
                     <div class="col-xl-8" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
                         data-aos-easing="ease-in-out">
                         <div class="title-area mb-20">
-                            <h2 class="sec-title mb-md-3 mb-2">
-                                The Roots of Our <span class="text-blue">Trusted Reputation</span>
+                            <h2 class="fw-bold mb-5 sec-title">
+                                The Roots of Our <span class="text-blue text-center">Trusted Reputation</span>
                             </h2>
                         </div>
                         <p class="sec-para d-none ">Our SEO strategies are designed to improve your website’s ranking on
@@ -554,8 +351,6 @@
                 </div>
             </div>
         </div>
-        {{-- Testimonials --}}
-        @include('Frontend.partial.testimonial.layout-02')
 
         <section class="overflow-hidden space bg-grey" id="Features">
             <div class="container">
@@ -818,6 +613,9 @@
                                     </section> -->
 
         @include('Frontend.partial.clientList')
+
+             {{-- Testimonials --}}
+        @include('Frontend.partial.testimonial.layout-02')
 
         <div class="overflow-hidden space" id="about-sec6">
             <div class="container">
