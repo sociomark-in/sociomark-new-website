@@ -78,4 +78,78 @@
         </div>
     </div>
 </section>
+
+<section class="port-bann overflow-hidden space bg-grey">
+    <div class="container-fluid">
+        <div class="row">
+            <h2 class=" sec-title text-center">The Mighty <span class="text-blue">Creative</span></h2>
+            </h2>
+            <div class="swiper creativeSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="{{ asset('frontend-assets/img/portfolio/lime/lime1.jpg') }}" alt=""
+                            srcset="" class="w-100">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('frontend-assets/img/portfolio/lime/lime2.png') }}" alt=""
+                            srcset="" class="w-100">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('frontend-assets/img/portfolio/lime/lime3.jpg') }}" alt=""
+                            srcset="" class="w-100">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('frontend-assets/img/portfolio/lime/lime4.jpg') }}" alt=""
+                            srcset="" class="w-100">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('frontend-assets/img/portfolio/lime/lime4.png') }}" alt=""
+                            srcset="" class="w-100">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="{{ asset('frontend-assets/img/portfolio/lime/lime5.png') }}" alt=""
+                            srcset="" class="w-100">
+                    </div>
+                </div>
+                <!--<div class="swiper-button-next"></div>-->
+                <!--<div class="swiper-button-prev"></div>-->
+                {{-- <div class="swiper-pagination"></div> --}}
+            </div>
+            <div class="header-button mt-3 justify-content-center">
+                <a href="{{ route('lime') }}" class="th-btn th-icon">VIEW OUR CASE STUDY</a>
+            </div>
+            <script>
+                var swiper = new Swiper(".creativeSwiper", {
+                    spaceBetween: 30,
+                    centeredSlides: true,
+                    slidesPerView: 1,
+                    loop: true,
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    breakpoints: {
+                        375: {
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 40,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 50,
+                        },
+                    },
+                    pagination: {
+                        el: ".creativeSwiper .swiper-pagination",
+                        clickable: true,
+                    },
+                });
+            </script>
+        </div>
+    </div>
+</section>
+
 @endsection
