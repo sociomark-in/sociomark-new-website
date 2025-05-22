@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="en-ae">
 
 <head>
     <title>{{ $meta['title'] ?? 'Sociomark' }}</title>
