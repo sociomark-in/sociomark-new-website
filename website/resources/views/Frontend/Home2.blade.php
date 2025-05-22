@@ -323,10 +323,10 @@
                     </div>
                 </div>
                 <div class="col-12 ">
-                    <div class="counter-box counter-card-wrap">
+                    <div class="counter-box -wrap">
                         <div class="row g-3 gx-5 justify-content-between text-center mt-4 mt-md-0">
                             <div class="col-xl-auto col-lg-6 col-6 my-4 my-md-0">
-                                <div class="counter-box counter-card">
+                                <div class="counter-box ">
                                     <h3 class="box-number text-orange"><span class="counter-number">8</span>+</h3>
                                     <div class="media-body">
                                         <p class="text-white counter-text mb-n1">Years</p>
@@ -334,7 +334,7 @@
                                 </div>
                             </div>
                             <div class="col-xl-auto col-lg-6 col-6 my-4 my-md-0">
-                                <div class="counter-box counter-card">
+                                <div class="counter-box ">
                                     <h3 class="box-number text-orange"><span class="counter-number">50</span>+</h3>
                                     <div class="media-body">
                                         <p class="text-white counter-text mb-n1">Employees</p>
@@ -342,7 +342,7 @@
                                 </div>
                             </div>
                             <div class="col-xl-auto col-lg-6 col-6 my-4 my-md-0">
-                                <div class="counter-box counter-card">
+                                <div class="counter-box ">
                                     <h3 class="box-number text-orange"><span class="counter-number">70</span>+</h3>
                                     <div class="media-body">
                                         <p class="text-white counter-text mb-n1">Brands</p>
@@ -350,7 +350,7 @@
                                 </div>
                             </div>
                             <div class="col-xl-auto col-lg-6 col-6 my-4 my-md-0">
-                                <div class="counter-box counter-card">
+                                <div class="counter-box ">
                                     <h3 class="box-number text-orange"><span class="counter-number">200</span>+</h3>
                                     <div class="media-body">
                                         <p class="text-white counter-text mb-n1">Campaigns</p>
@@ -358,7 +358,7 @@
                                 </div>
                             </div>
                             <div class="col-xl-auto col-lg-6 col-6 my-4 my-md-0">
-                                <div class="counter-box counter-card">
+                                <div class="counter-box ">
                                     <h3 class="box-number text-orange"><span class="counter-number">10</span>+</h3>
                                     <div class="media-body">
                                         <p class="text-white counter-text mb-n1">Global Clients</p>
@@ -366,7 +366,7 @@
                                 </div>
                             </div>
                             <div class="col-xl-auto col-lg-6 col-6 my-4 my-md-0">
-                                <div class="counter-box counter-card">
+                                <div class="counter-box ">
                                     <h3 class="box-number text-orange"><span class="counter-number">3</span></h3>
                                     <div class="media-body">
                                         <p class="text-white counter-text mb-n1">Awards</p>
