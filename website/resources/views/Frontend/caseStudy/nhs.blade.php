@@ -30,7 +30,7 @@
 
 @section('content')
 <main>
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/case-study/stembio.png') }}">
+    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/case-study/nhss/nhss.png') }}">
         <div class="container">
             <div class="breadcumb-content">
 

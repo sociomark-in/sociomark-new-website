@@ -35,7 +35,7 @@
 @section('content')
 <main>
 
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/case-study/ace tatto.png') }}">
+    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/case-study/cyberpower/cyberpower.png') }}">
         <div class="container">
             <div class="breadcumb-content">
 

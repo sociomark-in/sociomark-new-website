@@ -501,7 +501,8 @@
                             From a shared mezzanine-floor office with two passionate dreamers to a vibrant team of 50+
                             overlooking the beautiful Palm Beach—this journey has been nothing short of magic. What began in
                             college as a spark between creativity and hustle has grown into a full-blown digital force.
-                            Together, <b>Mr. Vivek Baandal and Mrs. Heta Desai Baandal</b> have shaped Sociomark into a
+                            Together, <b><a
+                                href="https://www.linkedin.com/in/vivek-baandal-7b478243/">Mr. Vivek Baandal</a> & <a href="https://www.linkedin.com/in/hetadesai/">Mrs. Heta Desai Baandal</a></b> have shaped Sociomark into a
                             space where late-night brainstorms, potluck lunches, team townhalls and campaign features all
                             live in harmony. It's massy. It's classy. It’s us.
                         </p>

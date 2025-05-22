@@ -736,21 +736,24 @@
                         })
                     </script>
                 @endpush
-                <!-- <div class="row g-3">
-                    <div class="col-12">
-                        <video loop muted autoplay class="w-100">
-                            <source src="{{ asset('frontend-assets/team-video.mp4') }}">
-                        </video>
-                    </div>
-                </div>  -->
-                <div class="video-wrapper lazy-loading">
-                    <video loop muted autoplay class="w-100" poster="{{asset('frontend-assets/img/posters/team_video_poster.jpg')}}">
+                <div class="row g-3">
+                        <div class="col-12">
+                            <video loop muted autoplay class="w-100">
+                                <source src="{{ asset('frontend-assets/team-video.mp4') }}">
+                            </video>
+                        </div>
+                    </div>  
+                {{-- <div class="video-wrapper lazy-loading">
+                    <video loop muted autoplay class="w-100"
+                        poster="{{ asset('frontend-assets/img/posters/team_video_poster.jpg') }}">
                         <source data-src="{{ asset('frontend-assets/team-video.mp4') }}" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                </div>
+                </div> --}}
             </div>
         </section>
+
+      
 
         <section class="position-relative space garally bg-grey" id="portfolio-sec">
             <div class="container">
@@ -810,7 +813,7 @@
                         @endfor
                     </div>
                     <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
-                                                                    </div> -->
+                                                                        </div> -->
                 </div>
             </div>
             @push('scripts')
