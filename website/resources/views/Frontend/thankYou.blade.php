@@ -71,7 +71,7 @@
     <div class="container">
         <div class="row d-flex justify-content-cenetr align-items-center flex-column flex-sm-row">
             <div class="col-12 col-md-7">
-                <h1 class="sec-title big me-md-5">Lorem ipsum, dolor sit amet consit. Blanditiis, illum. <span
+                <h1 class="sec-title big me-md-5">Thanks for stopping by. Let’s build something impactful together! <span
                         class="text-blue">remarkable team</span> </h1>
             </div>
             <div class="col-sm-5 col-12">
@@ -79,8 +79,11 @@
                     <i class="fa-solid fa-circle-check"></i>
                     <h2 class="sec-title">Thank You</h2>
                     <p class="sec-para text-center">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, sequi et architecto provident
-                        pariatur alias minima error ipsum dolores aliquid?
+                        You're on our radar!
+                    </p>
+                    <p class="sec-para text-center">
+                        Appreciate you reaching out. Our team of experts will be in touch with you soon to take things
+                        forward. Until then, explore more or download our deck below.
                     </p>
                     <div class="row">
                         <div class="col-12 text-end">

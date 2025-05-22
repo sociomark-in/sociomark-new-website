@@ -160,6 +160,46 @@
                             <a href="{{ route('stemrxbio') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
+                    <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="w-100">
+                            <img src="{{ asset('frontend-assets/img/case-study/thumbs/cyberpower.png') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </div>
+                        <div class="card__data">
+                            <h4 class="sub-sec-title">Cyber Power</h4>
+                            <a href="{{ route('cyberPower') }}" class="card__button text-blue">Read More</a>
+                        </div>
+                    </article>
+                    <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="w-100">
+                            <img src="{{ asset('frontend-assets/img/case-study/thumbs/nhhs.png') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </div>
+                        <div class="card__data">
+                            <h4 class="sub-sec-title">New Horizon School</h4>
+                            <a href="{{ route('nhs') }}" class="card__button text-blue">Read More</a>
+                        </div>
+                    </article>
+                    {{-- <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="w-100">
+                            <img src="{{ asset('frontend-assets/img/case-study/thumbs/m4u.png') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </div>
+                        <div class="card__data">
+                            <h4 class="sub-sec-title">Markets4you</h4>
+                            <a href="{{ route('nhs') }}" class="card__button text-blue">Read More</a>
+                        </div>
+                    </article> --}}
+                    <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="w-100">
+                            <img src="{{ asset('frontend-assets/img/case-study/thumbs/offthehook.png') }}" alt="image"
+                                class="card__img img-fluid w-100" loading="lazy">
+                        </div>
+                        <div class="card__data">
+                            <h4 class="sub-sec-title">Offthohook</h4>
+                            <a href="{{ route('getTheHook') }}" class="card__button text-blue">Read More</a>
+                        </div>
+                    </article>
                     <article class="card__article filter-item cat2 cat1 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
                             <img src="{{ asset('frontend-assets/img/case-study/thumbs/expert4travel.jpg') }}"
@@ -213,7 +253,7 @@
                         </div>
                         <div class="card__data">
                             <h4 class="sub-sec-title">Ayushakti Ayurved</h4>
-                            <a href="{{ route('ayushakti') }}" class="card__button text-blue">Read More</a>
+                            <a href="{{ route('ayushaktiNew') }}" class="card__button text-blue">Read More</a>
                         </div>
                     </article>
 

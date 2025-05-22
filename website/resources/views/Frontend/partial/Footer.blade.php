@@ -10,7 +10,7 @@
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
                             <div class="about-logo">
-                                <a class="icon-masking" href="index.html">
+                                <a class="icon-masking" href="{{ route('home') }}">
                                     {{-- <img src="{{ asset('frontend-assets/img/logo/sc-white-horizontal.png') }}" alt="sociomark"> --}}
                                     <img src="{{ asset('frontend-assets/img/logo/sociomark-new-logo.png') }}"
                                         height="200" alt="sociomark">
@@ -93,7 +93,7 @@
                                     {{-- <img src="assets/img/icon/call.svg" alt=""> --}}
                                 </div>
                                 <div class="box-text">
-                                    <a href="tel:+919819988640" class="box-link">+91 981 998 8640</a>
+                                    <a href="tel:+971504266118" class="box-link">+971 50 426 6118</a>
                                 </div>
                             </div>
                             <div class="info-box">
