@@ -265,7 +265,6 @@ select {
     aspect-ratio: 0.75;
     border-radius: 1rem;
     border: 2px solid #ff900b;
-    overflow: hidden;
 }
 
 .showreel-fixed .wrapper {
@@ -277,6 +276,15 @@ select {
     border-radius: 0.75rem;
     overflow: hidden;
     position: relative;
+}
+.showreel-fixed .showreel-close{
+    padding: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-items: center;
+    top: -1rem;
+    right: -1rem;
 }
 
 .showreel-fixed .wrapper::after {
