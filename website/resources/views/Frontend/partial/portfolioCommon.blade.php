@@ -23,151 +23,88 @@
         <div class="row">
             <div class="swiper caseStudySwiper">
                 <div class="swiper-wrapper">
-                    <!-- <div class="swiper-slide">
-                        <a href="{{ route('social_media', ['client'=>'ayu-health']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/work/ayu health/ayu health.jpg') }}" alt="" class="w-100">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
-                                <h4 class="sub-sec-title text-white">Ayu Shakti</h4>
-                            </div>
-                        </a>
-                    </div>
+
+                
                     <div class="swiper-slide">
-                        <a href="{{ route('social_media', ['client'=>'bem']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/work/bem/BEM.png') }}" alt="Brand Logo"
-                                class="img-fluid">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
-                                <h4 class="sub-sec-title text-white">BEM</h4>
-                            </div>
-                        </a>
-                    </div> -->
-                    <!-- <div class="swiper-slide">
                         <a href="{{ route('social_media', ['client'=>'cyber-power']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="Brand Logo"
-                                class="img-fluid">
+                            <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/2.png') }}" alt="" class="w-100">
                             <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
                                 <h4 class="sub-sec-title text-white">Cyber Power</h4>
                             </div>
                         </a>
                     </div>
-
-                    <div class="swiper-slide">
-                        <a href="{{ route('social_media', ['client'=>'jivana']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="Brand Logo"
+                    <div class="swiper-slide d-none">
+                        <a href="{{ route('social_media', ['client'=>'bulid-track']) }}" class="portfolio-item">
+                            <img src="{{ asset('frontend-assets/img/portfolio/Build Track/2.jpg') }}" alt="Brand Logo"
                                 class="img-fluid">
                             <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
-                                <h4 class="sub-sec-title text-white">Jivana</h4>
-                            </div>
-                        </a>
-                    </div> -->
-
-                    <!-- <div class="swiper-slide">
-                        <a href="{{ route('social_media', ['client'=>'m4u']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/work/banner/market4you.jpg') }}" alt="Brand Logo"
-                                class="img-fluid">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
-                                <h4 class="sub-sec-title text-white">Market 4 You</h4>
+                                <h4 class="sub-sec-title text-white">Build Track</h4>
                             </div>
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="{{ route('social_media', ['client'=>'nhss']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/work/banner/NHS.jpg') }}" alt="Brand Logo"
+                        <a href="{{ route('social_media', ['client'=>'the-professional-couriers']) }}" class="portfolio-item">
+                            <img src="{{ asset('frontend-assets/img/portfolio/tpc/1.png') }}" alt="Brand Logo"
                                 class="img-fluid">
                             <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
-                                <h4 class="sub-sec-title text-white">NHS</h4>
-                            </div>
-                        </a>
-                    </div> -->
-
-                    <!-- <div class="swiper-slide">
-                        <a href="{{ route('social_media', ['client'=>'shahenaz']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/work/banner/Shahenaz.jpg') }}" alt="Brand Logo"
-                                class="img-fluid">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
-                                <h4 class="sub-sec-title text-white">Shahenaz</h4>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="{{ route('social_media', ['client'=>'nodwin']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/work/nodwin/1.jpg') }}" alt="Brand Logo"
-                                class="img-fluid">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
-                                <h4 class="sub-sec-title text-white">Nodwin</h4>
-                            </div>
-                        </a>
-                    </div> -->
-                    <!-- <div class="swiper-slide">
-                        <a href="{{ route('social_media', ['client'=>'grill-box']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/work/grill-box/1.jpg') }}" alt="Brand Logo"
-                                class="img-fluid">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
-                                <h4 class="sub-sec-title text-white">Grill Box</h4>
-                            </div>
-                        </a>
-                    </div> -->
-
-                    <div class="swiper-slide">
-                        <a href="{{ route('social_media', ['client'=>'road-to-safety']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/project/rts-600.jpg') }}" alt="" class="w-100">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
-                                <h4 class="sub-sec-title text-white">Road to Safety</h4>
+                                <h4 class="sub-sec-title text-white">The Professional Couriers</h4>
                             </div>
                         </a>
                     </div>
 
+                    <div class="swiper-slide">
+                        <a href="{{ route('social_media', ['client'=>'ayu-health']) }}" class="portfolio-item">
+                            <img src="{{ asset('frontend-assets/img/portfolio/ayuhealth/1.png') }}" alt="Brand Logo"
+                                class="img-fluid">
+                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
+                                <h4 class="sub-sec-title text-white">Ayu Health</h4>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide d-none">
+                        <a href="{{ route('social_media', ['client'=>'nmmc']) }}" class="portfolio-item">
+                            <img src="{{ asset('frontend-assets/img/portfolio/nmmc/1.jpg') }}" alt="Brand Logo"
+                                class="img-fluid">
+                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
+                                <h4 class="sub-sec-title text-white">NMMC</h4>
+                            </div>
+                        </a>
+                    </div>
                     <div class="swiper-slide">
                         <a href="{{ route('social_media', ['client'=>'euro']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/project/Euro_600x600.jpg') }}" alt=""
-                                srcset="" class="w-100">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center">
+                            <img src="{{ asset('frontend-assets/img/portfolio/EURO/Basketball_2.jpg') }}" alt="Brand Logo"
+                                class="img-fluid">
+                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
                                 <h4 class="sub-sec-title text-white">Euro</h4>
                             </div>
                         </a>
                     </div>
 
                     <div class="swiper-slide">
-                        <a href="{{ route('social_media', ['client'=>'nodwin-gaming']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/project/nodwin-600.jpg') }}" alt=""
-                                srcset="" class="w-100">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center">
+                        <a href="{{ route('social_media', ['client'=>'jop']) }}" class="portfolio-item">
+                            <img src="{{ asset('frontend-assets/img/portfolio/jop/2.png') }}" alt="Brand Logo"
+                                class="img-fluid">
+                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
+                                <h4 class="sub-sec-title text-white">JOP</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="{{ route('social_media', ['client'=>'nodwin']) }}" class="portfolio-item">
+                            <img src="{{ asset('frontend-assets/img/portfolio/nodwin/1.png') }}" alt="Brand Logo"
+                                class="img-fluid">
+                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
                                 <h4 class="sub-sec-title text-white">Nodwin</h4>
                             </div>
                         </a>
                     </div>
-                    <div class="swiper-slide">
-                        <a href="{{ route('social_media', ['client'=>'lime']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/project/lime-600.jpg') }}" alt=""
-                                srcset="" class="w-100">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center">
-                                <h4 class="sub-sec-title text-white">Lime</h4>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="{{ route('social_media', ['client'=>'real-estate-awards']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/project/real-estate-awards.jpg') }}" alt=""
-                                srcset="" class="w-100">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center">
-                                <h4 class="sub-sec-title text-white">Real Estate Awards</h4>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="{{ route('social_media', ['client'=>'the-professional-couriers']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/project/tpc.jpeg') }}" alt=""
-                                srcset="" class="w-100">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center">
-                                <h4 class="sub-sec-title text-white">TPC</h4>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="{{ route('social_media', ['client'=>'button-dabao-desh-banao']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/project/Button-Dabo-Desh-Bano.jpg') }}" alt=""
-                                srcset="" class="w-100">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center">
-                                <h4 class="sub-sec-title text-white">Button Dabao Desh Banao</h4>
+                    <div class="swiper-slide d-none">
+                        <a href="{{ route('social_media', ['client'=>'bem']) }}" class="portfolio-item">
+                            <img src="{{ asset('frontend-assets/img/portfolio/bem') }}" alt="Brand Logo"
+                                class="img-fluid">
+                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
+                                <h4 class="sub-sec-title text-white">BEM</h4>
                             </div>
                         </a>
                     </div>
