@@ -6,13 +6,13 @@
                 <img src="{{ asset('frontend-assets/img/industry/Healthcare.png') }}" alt="" srcset="" class="w-100" loading="lazy">
             </div>
         </section>
-        <section class="overflow-hidden space" id="about-sec">
+        <section class="py-md-5 py-4" id="about-sec">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="breadcumb-content breadcrumb-light">
-                            <h1 class="breadcumb-title">Healthcare Industry</h1>
-                            <ul class="breadcumb-menu">
+                        <div class="breadcumb-content breadcrumb-light ">
+                            <h1 class="breadcumb-title text-center text-md-start">Healthcare Industry</h1>
+                            <ul class="breadcumb-menu d-none">
                                 <li><a href="{{ route('home') }}">Home</a></li>
                                 {{-- <li><a href="{{ route('ind')}}">Services</a></li> --}}
                                 <li>Healthcare Industry</li>
@@ -24,7 +24,7 @@
         </section>
 
         {{-- About --}}
-        <section class="about-area2 overflow-hidden space" id="about-sec">
+        <section class="about-area2 overflow-hidden space pt-5" id="about-sec">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4 mb-30 mb-xl-0">
@@ -340,7 +340,7 @@
                         <div class="col-md-3 col-6 col-xl-auto filter-item cat1 cat5 cat7 cat3">
                             <a href="" class="project-item d-block">
                                 <div class="box-img global-img">
-                                    <a href="{{ route('') }}">
+                                    <a href="">
                                     <img src="{{ asset('frontend-assets/img/clients/ayuhealth.jpg') }}"
                                         alt="project image"></a>
                                 </div>

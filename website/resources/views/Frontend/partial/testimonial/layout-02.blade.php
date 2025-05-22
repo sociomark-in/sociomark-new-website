@@ -1,8 +1,8 @@
-<section class="space-bottom overflow-hidden arrow-wrap space">
+<section class="space-bottom overflow-hidden arrow-wrap space bg-grey">
     <div class="container">
         <div class="title-area text-center">
-            <div class="shadow-title">Testimonials</div>
-            <span class="sub-title sub-title4 mb-4 mb-md-5">Testimonials<span></span></span>
+            <!-- <div class="shadow-title">Testimonials</div> -->
+            <!-- <span class="sub-title sub-title4 mb-4 mb-md-5">Testimonials<span></span></span> -->
             <h2 class="sec-title  ">What <span class="text-blue">Our Clients Say</span> About Us?</h2>
         </div>
         <div class="slider-area testi-box-area">
