@@ -234,9 +234,7 @@
                     <img src="{{ asset('frontend-assets/img/case-study/buildtrack/ai3.png') }}" alt=""></a>
             </div>
         </div>
-        <h2 class="mt-4 sub-sec-title text-blue">Topical Days Posts</h2>
-
-
+      
     </div>
     <div class="header-button mb-5 d-flex align-items-center justify-content-center">
         <a href="{{ route('social_media', ['client'=>'bulid-track']) }}" class="th-btn th-icon">View Portfolio</a>
