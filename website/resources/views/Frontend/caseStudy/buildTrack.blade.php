@@ -23,12 +23,14 @@
     .orange {
         color: #ff900b;
     }
+
     .breadcumb-wrapper {
         margin-top: 4.3rem;
         background-color: #e2e2e2;
         background-size: contain;
     }
-    #portfolioCommon{
+
+    #portfolioCommon {
         background-color: white !important;
     }
 </style>
@@ -145,107 +147,99 @@
 
 
         <h2 class="mt-4 sub-sec-title text-blue">What numbers did we achieve overall:</h2>
-         <div class="row mt-5">
-           
-            
-           
-                <div class="col-3 percentage">
-                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">10M+</div>
-                    <h3 class="text-center fs-6 text-blue mt-3">Impressions</h3>
-                </div>
-                <div class="col-3 percentage">
-                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">6.5M+</div>
-                    <h3 class="text-center fs-6 text-blue mt-3">Reach</h3>
-                </div>
-                <div class="col-3 percentage">
-                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">2M+</div>
-                    <h3 class="text-center fs-6 text-blue mt-3">Engagement</h3>
-                </div>
-                <div class="col-3 percentage">
-                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">13K+</div>
-                    <h3 class="text-center fs-6 text-blue mt-3">Community Growth</h3>
-                </div>
-            
+        <div class="row mt-5">
+
+
+
+            <div class="col-3 percentage">
+                <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">10M+</div>
+                <h3 class="text-center fs-6 text-blue mt-3">Impressions</h3>
+            </div>
+            <div class="col-3 percentage">
+                <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">6.5M+</div>
+                <h3 class="text-center fs-6 text-blue mt-3">Reach</h3>
+            </div>
+            <div class="col-3 percentage">
+                <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">2M+</div>
+                <h3 class="text-center fs-6 text-blue mt-3">Engagement</h3>
+            </div>
+            <div class="col-3 percentage">
+                <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">13K+</div>
+                <h3 class="text-center fs-6 text-blue mt-3">Community Growth</h3>
+            </div>
+
         </div>
 
 
-       
+
         <h2 class="mt-4 sub-sec-title text-blue">Conclusion</h2>
 
-        <p class="sec-para">hrough a blend of premium aesthetics, smart video storytelling, interactive campaigns, and real-time event coverage, Sociomark successfully transformed BuildTrack’s social media into a high-impact, high-conversion digital experience—setting a new benchmark in the smart automation industry.</p>
-
-       
+        <p class="sec-para">Through a blend of premium aesthetics, smart video storytelling, interactive campaigns, and real-time event coverage, Sociomark successfully transformed BuildTrack’s social media into a high-impact, high-conversion digital experience—setting a new benchmark in the smart automation industry.</p>
 
 
-        <h2 class="mt-4 sub-sec-title text-blue">9Days9Benefits- Campaign For Navratri</h2>
+
+
+        <h2 class="mt-4 sub-sec-title text-blue">CGI Videos</h2>
         <div class="row">
-            <div class="col-md-3 col-6 mt-3">
-                <img src="{{ asset('frontend-assets/img/case-study/stemrx/vit_c.png') }}" alt="">
+            <div class="col-md-4 col-6 mt-3">
+                <a href="https://www.instagram.com/reel/DATFu9WOkmR/">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/vit_c.png') }}" alt="">
+                </a>
             </div>
-            <div class="col-md-3 col-6 mt-3">
-                <img src="{{ asset('frontend-assets/img/case-study/stemrx/pqq.png') }}" alt="">
+            <div class="col-md-4 col-6 mt-3">
+                <a href="https://www.instagram.com/reel/DC_321QSZqU/ ">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/pqq.png') }}" alt="">
+                </a>
             </div>
-            <div class="col-md-3 col-6 mt-3">
-                <img src="{{ asset('frontend-assets/img/case-study/stemrx/Phospha.png') }}" alt="">
+            <div class="col-md-4 col-6 mt-3">
+                <a href="https://www.instagram.com/reel/DEQXOGbyWId/">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/Phospha.png') }}" alt="">
+                </a>
             </div>
-            <div class="col-md-3 col-6 mt-3">
-                <img src="{{ asset('frontend-assets/img/case-study/stemrx/coenzy (1).png') }}" alt="">
-            </div>
-            <div class="col-md-3 col-6 mt-3">
-                <img src="{{ asset('frontend-assets/img/case-study/stemrx/heart_armour (1).png') }}" alt="">
-            </div>
-            <div class="col-md-3 col-6 mt-3">
-                <img src="{{ asset('frontend-assets/img/case-study/stemrx/berberine (1).png') }}" alt="">
-            </div>
-            <div class="col-md-3 col-6 mt-3">
-                <img src="{{ asset('frontend-assets/img/case-study/stemrx/sabuck.png') }}" alt="">
-            </div>
-            <div class="col-md-3 col-6 mt-3">
-                <img src="{{ asset('frontend-assets/img/case-study/stemrx/joint_armour.png') }}" alt="">
-            </div>
+
         </div>
-        <h2 class="mt-4 sub-sec-title text-blue">Created A Unique Organ-Led Post To Promote The Efficacy Of The Product.</h2>
+        <h2 class="mt-4 sub-sec-title text-blue">Meme/Moment Marketing Videos</h2>
         <div class="row">
-            <div class="col-md-6 col-6 mt-3">
-                <img src="{{ asset('frontend-assets/img/case-study/stemrx/summer.png') }}" alt="">
+            <div class="col-md-4 col-6 mt-3">
+                <a href="https://www.instagram.com/reel/DAdrGhGszqh/">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/summer.png') }}" alt="">
+                </a>
             </div>
-            <div class="col-md-6 col-6 mt-3">
-                <img src="{{ asset('frontend-assets/img/case-study/stemrx/upset_stomach.png') }}" alt="">
+            <div class="col-md-4 col-6 mt-3">
+                <a href="https://www.instagram.com/reel/DAtNwW8ovO9/">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/upset_stomach.png') }}" alt="">
+                </a>
             </div>
-            <div class="col-md-6 col-6 mt-3">
-                <img src="{{ asset('frontend-assets/img/case-study/stemrx/fisten.png') }}" alt="">
+            <div class="col-md-4 col-6 mt-3">
+                <a href="https://www.instagram.com/reel/DC9JCPfoIph/">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/fisten.png') }}" alt="">
+                </a>
             </div>
-            <div class="col-md-6 col-6 mt-3">
-                <img src="{{ asset('frontend-assets/img/case-study/stemrx/mitochondrial.png') }}" alt="">
-            </div>
+
         </div>
 
-        <h2 class="mt-4 sub-sec-title text-blue">We Used The Ingredient Of The Product To Showcase Our Benefits</h2>
+        <h2 class="mt-4 sub-sec-title text-blue">AI Based Videos</h2>
 
         <div class="row">
-            <div class="col-md-6 col-6 mt-3">
-                <img src="{{ asset('frontend-assets/img/case-study/stemrx/vita_c.png') }}" alt="">
+            <div class="col-md-4 col-6 mt-3">
+                <a href="https://www.instagram.com/reel/DBGlpgRt0zs/">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/vita_c.png') }}" alt=""></a>
             </div>
-            <div class="col-md-6 col-6 mt-3">
-                <img src="{{ asset('frontend-assets/img/case-study/stemrx/avocado.png') }}" alt="">
+            <div class="col-md-4 col-6 mt-3">
+                <a href="https://www.instagram.com/reel/DEKmv2gS1Av/">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/avocado.png') }}" alt=""></a>
+            </div>
+            <div class="col-md-4 col-6 mt-3">
+                <a href="https://www.instagram.com/reel/DG-zrWfSz38/">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/avocado.png') }}" alt=""></a>
             </div>
         </div>
         <h2 class="mt-4 sub-sec-title text-blue">Topical Days Posts</h2>
 
-        <div class="row">
-            <div class="col-md-6 col-6 mt-3">
-                <img src="{{ asset('frontend-assets/img/case-study/stemrx/mental.png') }}" alt="">
-            </div>
-            <div class="col-md-6 col-6 mt-3">
-                <img src="{{ asset('frontend-assets/img/case-study/stemrx/republic.png') }}" alt="">
-            </div>
-        </div>
-        <h2 class="mt-4 sub-sec-title text-blue"> We Also Worked On Human-Based Reels As The Page Was Missing Any Human-Based Content.</h2>
-        <p class="sec-para">Which resulted in a growth in views from two digits to six digits, boosting the sales of the website.</p>
-        <img src="{{ asset('frontend-assets/img/case-study/stemrx/stem1.png') }}" alt="">
+
     </div>
     <div class="header-button mb-5 d-flex align-items-center justify-content-center">
-        <a href="{{ route('social_media', ['client'=>'stemrx-bioscience']) }}" class="th-btn th-icon">View Portfolio</a>
+        <a href="{{ route('social_media', ['client'=>'bulid-track']) }}" class="th-btn th-icon">View Portfolio</a>
     </div>
     @include('Frontend/partial/commonCaseStudy')
 
