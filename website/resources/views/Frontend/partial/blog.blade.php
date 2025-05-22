@@ -27,11 +27,11 @@
                             </div>
                             <h3 class="blog-title blog-title-text">
                                 <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                    {{ Str::limit($blog->blog_name, 20) }}
+                                    {{ Str::limit($blog->blog_name, 50) }}
                                 </a>
                             </h3>
 
-                            <p class="blog-text">{{ Str::limit(strip_tags($blog->content), 80) }}</p>
+                            <p class="blog-text d-none">{{ Str::limit(strip_tags($blog->content), 80) }}</p>
                             <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}"
                                 class="th-btn black-border th-icon th-radius">
                                 Read More <i class="fa-solid fa-arrow-right ms-2"></i>

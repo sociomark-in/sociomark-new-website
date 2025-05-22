@@ -87,4 +87,8 @@ class CaseStudyController extends Controller
     {
         return view('Frontend/caseStudy/cyberPower');
     }
+    public function buildTrack()
+    {
+        return view('Frontend/caseStudy/buildTrack');
+    }
 }

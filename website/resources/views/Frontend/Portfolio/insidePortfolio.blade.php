@@ -93,13 +93,13 @@
             </picture>
         </div>
     </section>
-    <section class="overflow-hidden space" id="about-sec">
+    <section class="py-md-5 py-4 d-none" id="about-sec">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="breadcumb-content breadcrumb-light">
                         <h1 class="breadcumb-title">Portfolios</h1>
-                        <ul class="breadcumb-menu">
+                        <ul class="breadcumb-menu d-none">
                             <li><a href="{{ route('home') }}">Home</a></li>
                             <li>Portfolios</li>
                         </ul>
