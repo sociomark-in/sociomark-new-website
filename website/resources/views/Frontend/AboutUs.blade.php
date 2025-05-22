@@ -2,14 +2,14 @@
 
 @section('custome-style')
     <style>
-        #about-us #about-process,
-        #about-us #contact {
-            /* background: radial-gradient(ellipse at top, #fff, transparent), radial-gradient(40% 40% at 50% 25%, #75b4d1, transparent), radial-gradient(ellipse at bottom, #fff, transparent); */
-        }
-
         #our-founder,
         #about-flip {
             background-color: #f5f5f5
+        }
+        @media (max-width: 950px) {
+            #aboutUs-KEyPoints .gallery-img {
+                width: 100% !important;
+            }
         }
     </style>
 @endsection

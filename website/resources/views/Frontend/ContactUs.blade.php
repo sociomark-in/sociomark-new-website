@@ -139,21 +139,7 @@
                 </picture>
             </div>
         </section>
-        <section class="overflow-hidden space" id="about-sec">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="breadcumb-content breadcrumb-light">
-                            <h1 class="breadcumb-title">Contact Us</h1>
-                            <ul class="breadcumb-menu">
-                                <li><a href="{{ route('home') }}">Home</a></li>
-                                <li>Contact Us</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+       
         <div class="overflow-hidden space contact-head">
             <div class="container">
                 <div class="row">
@@ -212,11 +198,11 @@
                                             Mobile: <a href="tel:+971504266118">+971 50 426 6118</a><br>
                                             Email: <a href="mailto:business@sociomark.in">business@sociomark.in</a>
                                         </p>
-                                        <h6 class="careers-contact">For Careers</h6>
+                                        <!-- <h6 class="careers-contact">For Careers</h6>
                                         <p class="sec-para">
                                             Mobile: <a href="tel:+971504266118">+971 50 426 6118</a><br>
                                             Email: <a href="mailto:hr@sociomark.in">hr@sociomark.in</a>
-                                        </p>
+                                        </p> -->
                                     </div>
                                 </div>
                             </div>
@@ -227,8 +213,8 @@
                                     </div>
                                     <div class="media-body">
                                         <h4 class="sub-sec-title">Opening Hour</h4>
-                                        <p class="sec-para">Monday - Saturday: 9:00 - 18:00</p>
-                                        <p class="sec-para">Sunday: Closed</p>
+                                        <p class="sec-para">Monday - Friday: 10:00 - 19:00</p>
+                                        <p class="sec-para">Saturday - Sunday: Closed</p>
                                     </div>
                                 </div>
                             </div>
@@ -272,7 +258,7 @@
                                         <label class="form-label" for="phone">Phone</label>
                                         <input type="text" class="form-control @error('phone') is-invalid @enderror"
                                             name="phone" id="phone" placeholder="Enter your Phone"
-                                            value="{{ old('phone') }}">
+                                            value="{{ old('phone') }}" min="10" max="10">
                                         @error('phone')
                                             <span class="text-danger">{{ $message }}</span>
                                         @enderror
