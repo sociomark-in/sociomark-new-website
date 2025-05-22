@@ -22,7 +22,8 @@
         }
     </script>
 
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
 </head>
 
 <body>
@@ -69,10 +70,16 @@
     </script>
     <div id="cursor" class="d-none d-md-block"></div>
     <aside class="showreel-fixed d-none d-md-block">
+        <button class="th-btn style1 showreel-close position-absolute"><i class="fa-solid fa-close"></i></button>
         <a class="wrapper" href="https://www.instagram.com/reel/C53hrnWSGXQ/" target="_blank">
             <img src="{{ asset('frontend-assets/img/showreel.gif') }}" alt="Showreel">
         </a>
     </aside>
+    <script>
+        $(".showreel-close").on("click", () => {
+            $("aside.showreel-fixed").addClass('d-md-none');
+        });
+    </script>
     <main class="overflow-hidden">
         @yield('content')
     </main>
