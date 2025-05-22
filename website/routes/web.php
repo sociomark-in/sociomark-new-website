@@ -95,6 +95,7 @@ Route::get('/case-study/nhs', [CaseStudyController::class, 'nhs'])->name('nhs');
 Route::get('/case-study/off-the-hook', [CaseStudyController::class, 'getTheHook'])->name('getTheHook');
 Route::get('/case-study/ayushakti-new', [CaseStudyController::class, 'ayushaktiNew'])->name('ayushaktiNew');
 Route::get('/case-study/cyber-power', [CaseStudyController::class, 'cyberPower'])->name('cyberPower');
+Route::get('/case-study/build-track', [CaseStudyController::class, 'buildTrack'])->name('buildTrack');
 
 Route::get('/work-culture', [WorkCultureController::class, 'index'])->name('workculture');
 Route::get('/careers', [HomeController::class, 'careers'])->name('careers');
