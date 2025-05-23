@@ -277,7 +277,8 @@ select {
     overflow: hidden;
     position: relative;
 }
-.showreel-fixed .showreel-close{
+
+.showreel-fixed .showreel-close {
     padding: 0;
     width: 2.5rem;
     height: 2.5rem;
@@ -1277,6 +1278,7 @@ main#home {
 @media (max-width: 950px) {
     #about-us #about-process .process-step::after {
         display: none;
+        font-size: 18px !important;
     }
 }
 
@@ -1287,6 +1289,12 @@ main#home {
 
     .counter-box .box-number {
         font-size: 4rem;
+    }
+}
+
+@media (min-width: 951px) and (max-width: 1299px) {
+    #about-us .sec-para {
+        font-size: 18px !important;
     }
 }
 
