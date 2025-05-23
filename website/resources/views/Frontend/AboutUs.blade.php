@@ -18,7 +18,7 @@
 @endsection
 @section('content')
 <main id="about-us">
-    <div class="breadcumb-wrapper p-0">
+    <div class="breadcumb-wrapper p-0" style="margin-top: 66px;">
         <div class="">
             <div class="w-100" style="height: 70vh;">
                 <video playsinline src="{{ asset('frontend-assets/about.mp4') }}" loop autoplay muted class="w-100 h-100"
