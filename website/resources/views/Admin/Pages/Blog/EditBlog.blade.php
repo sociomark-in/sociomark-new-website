@@ -25,6 +25,12 @@
                         <h6 class="card-title">Add Blog</h6>
 
                         <div class="mb-3">
+                            <label>Blog Card Name</label>
+                            <input type="text" name="card_title" class="form-control" required value="{{ old('blog_name', $blog->blog_name) }}">
+                        </div>
+
+
+                        <div class="mb-3">
                             <label>Blog Name</label>
                             <input type="text" name="blog_name" class="form-control" required value="{{ old('blog_name', $blog->blog_name) }}">
                         </div>
@@ -48,7 +54,7 @@
                         <div class="mb-3">
                             <label class="form-label">Status</label>
                             <div>
-                               
+
                                 <div class="form-check form-check-inline">
 
                                     <input type="radio" class="form-check-input" name="status" id="active" value="active" {{ old('status', $blog->status) == 'active' ? 'checked' : '' }}>

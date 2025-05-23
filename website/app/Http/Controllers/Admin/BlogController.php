@@ -40,6 +40,7 @@ class BlogController extends Controller
     public function store(Request $request)
     {
         $request->validate([
+            'card_title'=> 'required|string|max:40|min:30',
             'blog_name' => 'required|string|max:255',
             'content' => 'required',
             'meta_title' => 'nullable|string|max:255',
@@ -63,6 +64,7 @@ class BlogController extends Controller
 
         // Create blog
         Blog::create([
+            'card_title'=> $request->card_title,
             'blog_name' => $request->blog_name,
             'content' => $request->content,
             'meta_title' => $request->meta_title,
@@ -102,6 +104,7 @@ class BlogController extends Controller
         $blog = Blog::findOrFail($id);
     
         $request->validate([
+            'card_title'=> 'required|string|max:40|min:30',
             'blog_name' => 'required|string|max:255',
             'content' => 'required',
             'status' => 'required|in:draft,active,inactive',
@@ -134,6 +137,7 @@ class BlogController extends Controller
         }
     
         $blog->update([
+            'card_title'=> $request->card_title,
             'blog_name' => $request->blog_name,
             'content' => $request->content,
             'meta_title' => $request->meta_title,

@@ -21,6 +21,7 @@
                             <thead>
                                 <tr>
                                     <th>ID</th>
+                                    <th>Blog Card Title</th>
                                     <th>Blog Title</th>
                                     <th>Display On Home</th>
                                     <th>Status</th>
@@ -34,6 +35,7 @@
                                 @foreach ($blogs as $blog)
                                 <tr>
                                     <td>{{ $blog->id }}</td>
+                                    <td>{{ $blog->card_title }}</td>
                                     <td>{{ $blog->blog_name }}</td>
                                     <td>
                                         @if ($blog->display_on_home == 1)
@@ -49,9 +51,9 @@
                                         <i data-feather="zap-off" style="color: grey;"></i>
                                         @endif
                                     </td>
-                                    
-                                    
-                                   <td>{{ implode(', ', $blog->category_names) ?: 'No Category' }}</td>
+
+
+                                    <td>{{ implode(', ', $blog->category_names) ?: 'No Category' }}</td>
                                     <td>
                                         @php
                                         $images = is_array($blog->images) ? $blog->images : json_decode($blog->images, true);
