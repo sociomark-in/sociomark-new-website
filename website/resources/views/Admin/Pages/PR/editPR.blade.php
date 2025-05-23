@@ -61,12 +61,20 @@
 
                         <div class="mb-3">
                             <label class="form-label">Image</label>
-                            <input type="file" name="img" multiple class="form-control">
+                            <input type="file" name="img" class="form-control">
+
+                            @if (!empty($pr->img))
+                            <div class="mt-2">
+                                <p>Current Image:</p>
+                                <img src="{{ asset('storage/' . $pr->img) }}" width="100" height="100" style="object-fit: cover;" alt="PR Image">
+                            </div>
+                            @endif
                         </div>
+
 
                         <div class="mb-3">
                             <label for="post_date" class="form-label">Date</label>
-                            <input name="post_date" type="date" value="{{ old('date', $pr->date) }}">
+                            <input name="post_date" type="date" value="{{ old('date', $pr->post_date) }}">
                         </div>
                         <!-- <div class="mb-3">
                             <label class="form-label">Display On Home</label>

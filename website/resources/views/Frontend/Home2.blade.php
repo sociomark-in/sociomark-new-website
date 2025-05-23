@@ -1192,136 +1192,152 @@
             <div class="portfolio-area">
                 <div class="row g-3 g-md-4 justify-content-center">
                     <div class="col-6 col-md-4 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
-                                    <img loading="lazy"
-                                        src="{{ asset('frontend-assets/img/portfolio/Mastercard.jpg') }}"
-                                        class="w-100" alt="Team Cashless India" />
-                                </div>
-                                <div class="flip-box-back">
-                                    <h4 class="sub-sec-title">Team Cashless India </h4>
-                                    <p class="sec-para text-center">Crafted in perfect sync with Mastercard’s signature
-                                        circles—where every post was a swipe of seamless design.</p>
+                        <a href="{{ route('social_media', ['client' => 'team-cashless-india']) }}">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img loading="lazy"
+                                            src="{{ asset('frontend-assets/img/portfolio/Mastercard.jpg') }}"
+                                            class="w-100" alt="Team Cashless India" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h4 class="sub-sec-title">Team Cashless India </h4>
+                                        <p class="sec-para text-center">Crafted in perfect sync with Mastercard’s signature
+                                            circles—where every post was a swipe of seamless design.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6 col-md-4 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
-                                    <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Nodwin.jpg') }}"
-                                        class="w-100" alt="NODWIN Gaming" class="w-100" />
-                                </div>
-                                <div class="flip-box-back">
-                                    <h4 class="sub-sec-title">NODWIN Gaming</h4>
-                                    <p class="sec-para text-center">From nostalgic 90s vibes to viral memes, our
-                                        designs merged
-                                        gaming culture with creative flair, making every campaign/series a high-score
-                                        hit.</p>
+                        <a href="{{ route('social_media', ['client' => 'nodwin-gaming']) }}">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Nodwin.jpg') }}"
+                                            class="w-100" alt="NODWIN Gaming" class="w-100" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h4 class="sub-sec-title">NODWIN Gaming</h4>
+                                        <p class="sec-para text-center">From nostalgic 90s vibes to viral memes, our
+                                            designs merged
+                                            gaming culture with creative flair, making every campaign/series a high-score
+                                            hit.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6 col-md-4 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
-                                    <img loading="lazy"
-                                        src="{{ asset('frontend-assets/img/portfolio/Shahenaz.jpg') }}"
-                                        class="w-100" alt="Shahenaz" />
-                                </div>
-                                <div class="flip-box-back">
-                                    <h4 class="sub-sec-title">Shahenaz</h4>
-                                    <p class="sec-para text-center">A grid as graceful as the brand—designed to drape
-                                        your feed in
-                                        elegance.</p>
+                        <a href="{{ route('social_media', ['client' => 'shahenaz']) }}">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img loading="lazy"
+                                            src="{{ asset('frontend-assets/img/portfolio/Shahenaz.jpg') }}"
+                                            class="w-100" alt="Shahenaz" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h4 class="sub-sec-title">Shahenaz</h4>
+                                        <p class="sec-para text-center">A grid as graceful as the brand—designed to drape
+                                            your feed in
+                                            elegance.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6 col-md-4 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
-                                    <img loading="lazy"
-                                        src="{{ asset('frontend-assets/img/portfolio/Ayushakti.jpg') }}"
-                                        class="w-100" alt="Ayushakti" />
-                                </div>
-                                <div class="flip-box-back">
-                                    <h4 class="sub-sec-title">Ayushakti</h4>
-                                    <p class="sec-para text-center">Healing through design—our creatives spoke the
-                                        language of
-                                        trust, care and Ayurveda.</p>
+                        <a href="{{ route('social_media', ['client' => 'ayushakti']) }}">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img loading="lazy"
+                                            src="{{ asset('frontend-assets/img/portfolio/Ayushakti.jpg') }}"
+                                            class="w-100" alt="Ayushakti" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h4 class="sub-sec-title">Ayushakti</h4>
+                                        <p class="sec-para text-center">Healing through design—our creatives spoke the
+                                            language of
+                                            trust, care and Ayurveda.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6 col-md-4 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
-                                    <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Jivana.jpg') }}"
-                                        class="w-100" alt="Jivana" />
-                                </div>
-                                <div class="flip-box-back">
-                                    <h4 class="sub-sec-title">Jivana</h4>
-                                    <p class="sec-para text-center">Captured the essence of authenticity, turning
-                                        everyday
-                                        ingredients into visual delights.</p>
+                        <a href="{{ route('social_media', ['client' => 'jivana']) }}">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Jivana.jpg') }}"
+                                            class="w-100" alt="Jivana" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h4 class="sub-sec-title">Jivana</h4>
+                                        <p class="sec-para text-center">Captured the essence of authenticity, turning
+                                            everyday
+                                            ingredients into visual delights.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6 col-md-4 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
-                                    <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/TPC.jpg') }}"
-                                        class="w-100" alt="The Professional Couriers" />
-                                </div>
-                                <div class="flip-box-back">
-                                    <h4 class="sub-sec-title">The Professional Couriers</h4>
-                                    <p class="sec-para text-center">We kept it clean, clear and customer-first—just
-                                        like their
-                                        deliveries.</p>
+                        <a href="{{ route('social_media', ['client' => 'the-professional-couriers']) }}">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/TPC.jpg') }}"
+                                            class="w-100" alt="The Professional Couriers" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h4 class="sub-sec-title">The Professional Couriers</h4>
+                                        <p class="sec-para text-center">We kept it clean, clear and customer-first—just
+                                            like their
+                                            deliveries.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6 col-md-4 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
-                                    <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Euro.jpg') }}"
-                                        class="w-100" alt="EURO" />
-                                </div>
-                                <div class="flip-box-back">
-                                    <h4 class="sub-sec-title">EURO</h4>
-                                    <p class="sec-para text-center">Styled comfort with star power—our creatives echoed
-                                        Kartik
-                                        Aaryan's charisma.</p>
+                        <a href="{{ route('social_media', ['client' => 'euro']) }}">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Euro.jpg') }}"
+                                            class="w-100" alt="EURO" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h4 class="sub-sec-title">EURO</h4>
+                                        <p class="sec-para text-center">Styled comfort with star power—our creatives echoed
+                                            Kartik
+                                            Aaryan's charisma.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-6 col-md-4 col-xl-3" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="flip-box">
-                            <div class="flip-box-inner">
-                                <div class="flip-box-front">
-                                    <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Jop.jpg') }}"
-                                        class="w-100" alt="JOP Group" />
-                                </div>
-                                <div class="flip-box-back">
-                                    <h4 class="sub-sec-title">JOP Group</h4>
-                                    <p class="sec-para text-center">Visualized spaces that speak—our designs mirrored
-                                        JOP's
-                                        architectural elegance. Crafted visuals that captured the essence of modern
-                                        living and timeless design.</p>
+                        <a href="{{ route('social_media', ['client' => 'jop']) }}">
+                            <div class="flip-box">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <img loading="lazy" src="{{ asset('frontend-assets/img/portfolio/Jop.jpg') }}"
+                                            class="w-100" alt="JOP Group" />
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <h4 class="sub-sec-title">JOP Group</h4>
+                                        <p class="sec-para text-center">Visualized spaces that speak—our designs mirrored
+                                            JOP's
+                                            architectural elegance. Crafted visuals that captured the essence of modern
+                                            living and timeless design.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-12">
                         <div class="text-center">
@@ -1640,7 +1656,8 @@
                             <div class="blog-content content-padding">
                                 <div class="blog-meta">
                                     <p class="sec-para fs-6">Posted on <i class="fa-light fa-calendar"></i>
-                                        {{ $pr->post_date }}</p>
+                                        {{ $pr->post_date }}
+                                    </p>
                                 </div>
                                 <h3 class="blog-title blog-title-text">
                                     <a href="{{url($pr->link)  }}">
