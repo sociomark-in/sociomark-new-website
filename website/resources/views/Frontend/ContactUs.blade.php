@@ -1,10 +1,4 @@
 @extends('Frontend.layout.app')
-@section('title', 'Contact Us')
-@section('author', 'Your Company Name')
-@section('description', 'This is a dynamic description for the home page.')
-@section('keywords', 'seo, marketing, agency, web design')
-@section('robots', 'INDEX,FOLLOW')
-
 @section('custome-style')
     <style>
         #contact .contact-head {
@@ -29,7 +23,7 @@
             border-radius: 10px;
             padding: 45px 23px;
             /* box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-                                        border: 2px solid transparent; */
+                                                                    border: 2px solid transparent; */
             box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
             -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
             -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
@@ -139,7 +133,7 @@
                 </picture>
             </div>
         </section>
-       
+
         <div class="overflow-hidden space contact-head">
             <div class="container">
                 <div class="row">
@@ -172,7 +166,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-4">
                         <!-- <div class="title-area text-center">
-                                                            </div> -->
+                                                                                        </div> -->
                         <div class="row gy-4 flex-column">
                             <div class="col-xl-12 col-md-12">
                                 <div class="contact-media">
@@ -199,10 +193,10 @@
                                             Email: <a href="mailto:business@sociomark.in">business@sociomark.in</a>
                                         </p>
                                         <!-- <h6 class="careers-contact">For Careers</h6>
-                                        <p class="sec-para">
-                                            Mobile: <a href="tel:+971504266118">+971 50 426 6118</a><br>
-                                            Email: <a href="mailto:hr@sociomark.in">hr@sociomark.in</a>
-                                        </p> -->
+                                                                    <p class="sec-para">
+                                                                        Mobile: <a href="tel:+971504266118">+971 50 426 6118</a><br>
+                                                                        Email: <a href="mailto:hr@sociomark.in">hr@sociomark.in</a>
+                                                                    </p> -->
                                     </div>
                                 </div>
                             </div>
@@ -233,8 +227,31 @@
                             <form action="{{ route('contact.store') }}" method="POST" class="contact-form style2"
                                 id="contactform">
                                 @csrf
+                                <input type="hidden" name="utm_source" value="{{ request()->get('utm_source') }}">
+                                <input type="hidden" name="utm_medium" value="{{ request()->get('utm_medium') }}">
+                                <input type="hidden" name="utm_campaign" value="{{ request()->get('utm_campaign') }}">
+                                <input type="hidden" name="utm_term" value="{{ request()->get('utm_term') }}">
+                                <input type="hidden" name="utm_content" value="{{ request()->get('utm_content') }}">
                                 <div class="row">
                                     <div class="form-group col-md-6">
+                                        <label for="contactNumber" class="sec-para">Your Name</label>
+                                        <input type="text" class="form-control @error('name') is-invalid @enderror"
+                                            name="name" id="name" placeholder="Enter your Name"
+                                            value="{{ old('name') }}">
+                                        @error('name')
+                                            <span class="text-danger">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label class="sec-para" for="email">Email</label>
+                                        <input type="text" class="form-control @error('email') is-invalid @enderror"
+                                            name="email" id="email" placeholder="Enter your Official Mail Id"
+                                            value="{{ old('email') }}">
+                                        @error('email')
+                                            <span class="text-danger">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+                                    {{-- <div class="form-group col-md-6">
                                         <label class="form-label" for="name">Your Name</label>
                                         <input type="text" class="form-control @error('name') is-invalid @enderror"
                                             name="name" id="name" placeholder="Enter your Name"
@@ -244,7 +261,6 @@
                                         @enderror
                                     </div>
                                     <div class="form-group col-md-6">
-                                        {{-- <i class="fas fa-envelope"></i> --}}
                                         <label class="form-label" for="email">Email</label>
                                         <input type="text" class="form-control @error('email') is-invalid @enderror"
                                             name="email" id="email" placeholder="Enter your Email"
@@ -252,9 +268,8 @@
                                         @error('email')
                                             <span class="text-danger">{{ $message }}</span>
                                         @enderror
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        {{-- <i class="fal fa-phone"></i> --}}
+                                    </div> --}}
+                                    {{-- <div class="form-group col-md-6">
                                         <label class="form-label" for="phone">Phone</label>
                                         <input type="text" class="form-control @error('phone') is-invalid @enderror"
                                             name="phone" id="phone" placeholder="Enter your Phone"
@@ -264,9 +279,78 @@
                                         @enderror
                                     </div>
 
+                                 
+
+                                    <div class="form-group col-md-6">
+                                        <label class="form-label" for="budget">Marketing Budget</label>
+                                        <select class="form-select @error('budget') is-invalid @enderror" id="budget"
+                                            name="budget">
+                                            <option selected disabled>Choose an option</option>
+                                            <option value="Under ₹ 50,000">Under ₹ 50,000</option>
+                                            <option value="₹ 50,000 - ₹ 1,00,000">₹ 50,000 - ₹ 1,00,000</option>
+                                            <option value="Above ₹ 1,00,000">Above ₹ 1,00,000</option>
+                                            <option value="Have not Estimated Yet">Have not Estimated Yet</option>
+                                        </select>
+                                        @error('budget')
+                                            <span class="text-danger">{{ $message }}</span>
+                                        @enderror
+                                    </div> --}}
+
+
+                                    <div class="row mb-3">
+                                        <div class="col-md-3">
+                                            <label for="countryCode" class="sec-para">Country Code</label>
+                                            <select class="form-select" id="countryCode" name="countryCode">
+                                                <option value="" selected disabled>Select Code</option>
+                                                <option value="+91" data-currency="INR">India (+91)</option>
+                                                <option value="+1" data-currency="USD">USA (+1)</option>
+                                                <option value="+44" data-currency="GBP">UK (+44)</option>
+                                                <option value="+971" data-currency="AED">UAE (+971)</option>
+                                                <option value="+49" data-currency="EUR">Germany (+49)</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <label for="contactNumber" class="sec-para">Contact Number</label>
+                                            {{-- <input type="tel" class="form-control" 
+                                                placeholder="Enter Your Number"> --}}
+                                            <input type="tel"
+                                                class="form-control @error('phone') is-invalid @enderror" name="phone"
+                                                id="contactNumber" placeholder="Enter your Phone"
+                                                value="{{ old('phone') }}" maxlength="10" pattern="\d{10}">
+                                            @error('phone')
+                                                <span class="text-danger">{{ $message }}</span>
+                                            @enderror
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="budgetOption" class="sec-para">Your Budget In (<span
+                                                id="currencySymbol"></span>)</label>
+                                        <select class="form-select @error('budget') is-invalid @enderror"
+                                            id="budgetOption" name="budget">
+                                            <option value="" selected disabled>Select a budget range</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group col-md-6">
+                                        <label class="sec-para" for="aboutUs">How did you hear about Us?</label>
+                                        <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs"
+                                            name="aboutUs">
+                                            <option selected disabled>Choose an option</option>
+                                            <option value="Through Search Engines(Google, Bing etc.)">Through Search
+                                                Engines(Google, Bing etc.)</option>
+                                            <option value="Social Media(Facebook, Instagram etc.)">Social Media(Facebook,
+                                                Instagram etc.)</option>
+                                            <option value="Word of Mouth/ Referral">Word of Mouth/ Referral</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                        @error('aboutUs')
+                                            <span class="text-danger">{{ $message }}</span>
+                                        @enderror
+                                    </div>
                                     <div class="form-group col-md-6">
 
-                                        <label class="form-label" for="service">Service you want?</label>
+                                        <label class="sec-para" for="service">Service you want?</label>
                                         <select class="form-select @error('service') is-invalid @enderror" id="service"
                                             name="service">
                                             <option selected disabled>Choose an option</option>
@@ -284,45 +368,11 @@
                                             <span class="text-danger">{{ $message }}</span>
                                         @enderror
                                     </div>
-
-                                    <div class="form-group col-md-6">
-
-                                        <label class="form-label" for="budget">Marketing Budget</label>
-                                        <select class="form-select @error('budget') is-invalid @enderror" id="budget"
-                                            name="budget">
-                                            <option selected disabled>Choose an option</option>
-                                            <option value="Under ₹ 50,000">Under ₹ 50,000</option>
-                                            <option value="₹ 50,000 - ₹ 1,00,000">₹ 50,000 - ₹ 1,00,000</option>
-                                            <option value="Above ₹ 1,00,000">Above ₹ 1,00,000</option>
-                                            <option value="Have not Estimated Yet">Have not Estimated Yet</option>
-                                        </select>
-                                        @error('budget')
-                                            <span class="text-danger">{{ $message }}</span>
-                                        @enderror
-                                    </div>
-
-                                    <div class="form-group col-md-6">
-
-                                        <label class="form-label" for="aboutUs">How did you hear about Us?</label>
-                                        <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs"
-                                            name="aboutUs">
-                                            <option selected disabled>Choose an option</option>
-                                            <option value="Through Search Engines(Google, Bing etc.)">Through Search
-                                                Engines(Google, Bing etc.)</option>
-                                            <option value="Social Media(Facebook, Instagram etc.)">Social Media(Facebook,
-                                                Instagram etc.)</option>
-                                            <option value="Word of Mouth/ Referral">Word of Mouth/ Referral</option>
-                                            <option value="Other">Other</option>
-                                        </select>
-                                        @error('aboutUs')
-                                            <span class="text-danger">{{ $message }}</span>
-                                        @enderror
-                                    </div>
                                     <div class="form-group col-12">
 
-                                        <label class="form-label" for="messageforus">Your Message</label>
+                                        <label class="sec-para" for="messageforus">Your Message</label>
                                         <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus"
-                                            placeholder="Enter your message" rows="4" name="messageforus"></textarea>
+                                            placeholder="Enter your message" rows="3" name="messageforus"></textarea>
                                         {{-- <i class="fal fa-pencil"></i> --}}
                                         @error('messageforus')
                                             <span class="text-danger">{{ $message }}</span>
@@ -334,6 +384,134 @@
                                 </div>
 
                             </form>
+                            <script>
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    const countryCodeSelect = document.getElementById('countryCode');
+                                    const budgetOptionSelect = document.getElementById('budgetOption');
+                                    const currencySymbolSpan = document.getElementById('currencySymbol');
+
+                                    // Define budget ranges based on currency
+                                    // You could fetch this from a Laravel API endpoint for a dynamic and maintainable solution
+                                    const budgetData = {
+                                        'INR': [{
+                                                value: '0-50000',
+                                                text: '₹ 0 - ₹ 50,000'
+                                            },
+                                            {
+                                                value: '50001-100000',
+                                                text: '₹ 50,001 - ₹ 1,00,000'
+                                            },
+                                            {
+                                                value: '100001-500000',
+                                                text: '₹ 1,00,001 - ₹ 5,00,000'
+                                            },
+                                            {
+                                                value: '500001-1000000',
+                                                text: '₹ 5,00,001 - ₹ 10,00,000'
+                                            },
+                                            {
+                                                value: '1000001-above',
+                                                text: '₹ 10,00,001+'
+                                            }
+                                        ],
+                                        'USD': [{
+                                                value: '0-1000',
+                                                text: '$ 0 - $ 1,000'
+                                            },
+                                            {
+                                                value: '1001-5000',
+                                                text: '$ 1,001 - $ 5,000'
+                                            },
+                                            {
+                                                value: '5001-10000',
+                                                text: '$ 5,001 - $ 10,000'
+                                            },
+                                            {
+                                                value: '10001-above',
+                                                text: '$ 10,001+'
+                                            }
+                                        ],
+                                        'GBP': [{
+                                                value: '0-500',
+                                                text: '£ 0 - £ 500'
+                                            },
+                                            {
+                                                value: '501-2000',
+                                                text: '£ 501 - £ 2,000'
+                                            },
+                                            {
+                                                value: '2001-5000',
+                                                text: '£ 2,001 - £ 5,000'
+                                            },
+                                            {
+                                                value: '5001-above',
+                                                text: '£ 5,001+'
+                                            }
+                                        ],
+                                        'AED': [{
+                                                value: '0-1000',
+                                                text: 'AED 0 - AED 1,000'
+                                            },
+                                            {
+                                                value: '1001-5000',
+                                                text: 'AED 1,001 - AED 5,000'
+                                            },
+                                            {
+                                                value: '5001-10000',
+                                                text: 'AED 5,001 - AED 10,000'
+                                            },
+                                            {
+                                                value: '10001-above',
+                                                text: 'AED 10,001+'
+                                            }
+                                        ],
+                                        'EUR': [{
+                                                value: '0-1000',
+                                                text: '€ 0 - € 1,000'
+                                            },
+                                            {
+                                                value: '1001-5000',
+                                                text: '€ 1,001 - € 5,000'
+                                            },
+                                            {
+                                                value: '5001-10000',
+                                                text: '€ 5,001 - € 10,000'
+                                            },
+                                            {
+                                                value: '10001-above',
+                                                text: '€ 10,001+'
+                                            }
+                                        ]
+                                    };
+
+                                    function updateBudgetOptions() {
+                                        const selectedOption = countryCodeSelect.options[countryCodeSelect.selectedIndex];
+                                        const selectedCurrency = selectedOption ? selectedOption.dataset.currency : null;
+
+                                        // Clear existing options
+                                        budgetOptionSelect.innerHTML = '<option value="" selected disabled>Select a budget range</option>';
+
+                                        if (selectedCurrency && budgetData[selectedCurrency]) {
+                                            currencySymbolSpan.textContent = selectedCurrency; // Update currency symbol
+                                            budgetData[selectedCurrency].forEach(budget => {
+                                                const option = document.createElement('option');
+                                                option.value = budget.value;
+                                                option.textContent = budget.text;
+                                                budgetOptionSelect.appendChild(option);
+                                            });
+                                        } else {
+                                            currencySymbolSpan.textContent = ''; // Clear currency symbol if no country selected
+                                        }
+                                    }
+
+                                    // Attach event listener to country code select
+                                    countryCodeSelect.addEventListener('change', updateBudgetOptions);
+
+                                    // Initial call to set up budget options if a country is pre-selected (e.g., on edit form)
+                                    // or to just initialize the currency symbol placeholder
+                                    updateBudgetOptions();
+                                });
+                            </script>
                             <script type="text/javascript">
                                 $.validator.addMethod("emailregex", function(value, element) {
                                     return this.optional(element) || /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i.test(value);

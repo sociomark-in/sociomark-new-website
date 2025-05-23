@@ -121,7 +121,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xl-auto filter-item cat_">
-                    <a href="" class="project-item d-block">
+                    <a href="https://www.electrocareindia.in/" target="_blank" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/electrocare.jpg') }}"
                                 alt="project image">
@@ -145,7 +145,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xl-auto filter-item cat2">
-                    <a href="" class="project-item d-block">
+                    <a href="https://kinnaltoys.com/"  target="_blank" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/kinnal.jpg') }}"
                                 alt="project image">
@@ -209,7 +209,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xl-auto filter-item cat2">
-                    <a href="" class="project-item d-block">
+                    <a href="https://offthehookgrabandgo.com/" target="_blank" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/othgrabngo.jpg') }}"
                                 alt="project image">
@@ -225,7 +225,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xl-auto filter-item cat_">
-                    <a href="" class="project-item d-block">
+                    <a href="https://shopoutofoffice.in/" target="_blank" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/outofoffice.jpg') }}"
                                 alt="project image">
@@ -337,7 +337,7 @@
                     </a>
                 </div> --}}
                 <div class="col-md-3 col-xl-auto filter-item cat_">
-                    <a href="" class="project-item d-block">
+                    <a href="{{ route('social_media', ['client' => 'the-professional-couriers']) }}" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/tpc01.jpg') }}"
                                 alt="project image">
@@ -345,7 +345,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xl-auto filter-item cat2">
-                    <a href="" class="project-item d-block">
+                    <a href="https://trollersfishandchips.com/trollers-on-land/" target="_blank" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/trollers.jpg') }}"
                                 alt="project image">
@@ -353,7 +353,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 col-xl-auto filter-item cat2">
-                    <a href="" class="project-item d-block">
+                    <a href="https://trollersfishandchips.com/" target="_blank" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/trollersfishnchips.jpg') }}"
                                 alt="project image">

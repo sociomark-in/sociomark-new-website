@@ -22,10 +22,12 @@ class ContactController extends Controller
 
     public function store(Request $request)
     {
-        $request->validate([
+       
+        $data = $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|email',
             'phone' => ['required', 'regex:/^\+?[0-9\s\-]{7,20}$/'],
+            'countryCode' => ['required'],
             'service' => 'required',
             'budget' => 'required',
             'aboutUs' => 'required',
@@ -36,8 +38,10 @@ class ContactController extends Controller
             'utm_term' => 'nullable|string|max:255',
             'utm_content' => 'nullable|string|max:255',
         ]);
+        $data['phone'] = $data['countryCode'] .' '. $data['phone'];
 
-        $lead = Contact::create($request->all());
+        $lead = Contact::create($data);
+        // $lead = Contact::create($request->all());
 
         // Send email to business analyst
         Mail::to('shruti.sociomark@gmail.com')->send(new NewLeadNotification($lead));

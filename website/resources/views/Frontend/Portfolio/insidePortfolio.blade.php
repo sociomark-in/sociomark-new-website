@@ -11,10 +11,6 @@
         padding: 3rem 0rem 3rem 0rem;
     }
 
-    #brand .head-text {
-        font-size: 35px;
-        line-height: 42px;
-    }
 
     #brand .head-text-div {
         margin: 0px;
@@ -36,11 +32,7 @@
             margin-bottom: 13px;
         }
 
-        #brand .head-mbl-text,
-        #brand .space-bottom .head-mbl-text {
-            font-size: 30px;
-            line-height: 31px;
-        }
+
 
         #brand #about-sec2 .th-btn {
             padding: 12px;

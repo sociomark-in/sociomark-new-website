@@ -14,7 +14,7 @@
     </style>
 @endsection
 @section('content')
-    <main id="about-us">
+    <main id="about-us" style="margin-top:68px;">
         <div class="breadcumb-wrapper p-0">
             <div class="">
                 <div class="w-100" style="height: 70vh;">
