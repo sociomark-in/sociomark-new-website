@@ -1231,7 +1231,7 @@ main#home {
     justify-content: center;
     margin: 0 auto;
     font-size: 24px;
-    color: #6f42c1;
+    color: #ff900b;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     z-index: 1;
     position: relative;
@@ -1269,10 +1269,14 @@ main#home {
     content: none;
 }
 
+.icon {
+    display: inline-block;
+    transition: all 0.3s ease; /* Smooth animation */
+}
+
 .icon:hover {
     transform: scale(1.1);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-    background-color: rgb(255, 215, 235);
+    box-shadow: 0 8px 20px rgba(255, 144, 11, 0.6); /* More visible with transparency */
 }
 
 @media (max-width: 950px) {

@@ -228,7 +228,7 @@
 
                     <div class="img">
                         <div class="shadow-title">01</div>
-                        <div class=" icon " style="background-color: rgb(255 235 245);">
+                        <div class=" icon ">
                             <img src="{{ asset('frontend-assets/img/icon/about/Pick.png') }}" alt="">
                         </div>
                     </div>
@@ -260,7 +260,7 @@
                 <div class="col-md-3 col-sm-6 col-12 process-step zig-down" data-aos="fade-up" data-aos-delay="500">
                     <div class="img ">
                         <div class="shadow-title">03</div>
-                        <div class="icon" style="background-color: rgb(238 251 229);">
+                        <div class="icon">
                             <img src="{{ asset('frontend-assets/img/icon/about/Talk.png') }}" alt="">
                         </div>
                     </div>
@@ -279,7 +279,7 @@
                     </div>
                     <div class="img mt-0 mt-md-3">
                         <div class="shadow-title">04</div>
-                        <div class="icon position-absolute-img" style="background-color: rgb(252 243 233);">
+                        <div class="icon position-absolute-img">
                             <img src="{{ asset('frontend-assets/img/icon/about/Alive.png') }}" alt="">
                         </div>
                     </div>
