@@ -1615,6 +1615,56 @@
         </div>
     </section>
 
+    {{-- PR --}}
+    <section class="th-blog-wrapper space-top space-extra-bottom" id="about-sec5">
+        <div class="container">
+            <div class="title-area text-center mb-25">
+                <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
+                    <span class="text-orange">PR Sociopedia</span><br>A library to go beyond the brief
+                </h2>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    @foreach ($prs as $pr)
+
+                    <div class="swiper-slide">
+                        <div class="box-blog th-blog blog-single has-post-thumbnail">
+                            <div class="blog-img box-blog w-100">
+                                <a href="{{url($pr->link)  }}">
+                                    <img loading="lazy"
+                                        src="{{ url('storage/app/public/' . ($pr->img?? 'default.jpg')) }}"
+                                        alt="pr Image" class="w-100 h-100 object-fit-cover">
+                                </a>
+                            </div>
+                            <div class="blog-content content-padding">
+                                <div class="blog-meta">
+                                    <p class="sec-para fs-6">Posted on <i class="fa-light fa-calendar"></i>
+                                        {{ $pr->post_date }}</p>
+                                </div>
+                                <h3 class="blog-title blog-title-text">
+                                    <a href="{{url($pr->link)  }}">
+                                        {{ $pr->card_title}}
+                                    </a>
+                                </h3>
+
+                                <p class="blog-text d-none">{{ Str::limit(strip_tags($pr->description), 50) }}</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    @endforeach
+
+
+                </div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section>
+
     {{-- PR Agents --}}
     <section class="space-extra-top space-bottom">
         <div class="container">

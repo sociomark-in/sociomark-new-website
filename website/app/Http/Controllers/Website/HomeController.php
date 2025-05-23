@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Website; // Correct namespace
 
 use App\Http\Controllers\Controller; // Make sure you extend the base Controller
 use App\Models\Tag;
+use App\Models\PR;
 use App\Models\Category;
 use App\Models\Blog;
 use Illuminate\Http\Request;
@@ -23,12 +24,13 @@ class HomeController extends Controller
         ];
         $categories = Category::all();
         $tags = Tag::all();
+        $prs = PR::latest()->get();
         $blogs = Blog::all(); // Paginate all blogs
         $firstBlog = Blog::latest()->first(); // Get latest blog
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Home2", compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags', 'meta'));
+        return view("Frontend/Home2", compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags', 'meta', 'prs'));
     }
     public function HomeNew()
     {
