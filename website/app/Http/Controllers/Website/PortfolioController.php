@@ -24,9 +24,13 @@ class PortfolioController extends Controller
     public function social_media($client)
     {
         switch ($client) {
-            /* A */
+        /* A */
             case 'ai-awards':
                 return view('Frontend/Portfolio/aiawards');
+                # code...
+                break;
+            case 'adi-arogyam':
+                return view("Frontend/Portfolio/adiArogyamSocial");
                 # code...
                 break;
             case 'ayu-health':
@@ -37,7 +41,7 @@ class PortfolioController extends Controller
                 return view('Frontend/Portfolio/ayushaktiSocialMedia');
                 # code...
                 break;
-            /* B */
+        /* B */
             case 'bulid-track':
                 return view("Frontend/Portfolio/bulidTrackSocial");
                 # code...
@@ -54,7 +58,7 @@ class PortfolioController extends Controller
                 return view("Frontend/Portfolio/bemSocial");
                 # code...
                 break;
-            /* C */
+        /* C */
             case 'castrol':
                 return view('Frontend/Portfolio/castrolSocialMedia');
                 # code...
@@ -67,12 +71,16 @@ class PortfolioController extends Controller
                 return view("Frontend/Portfolio/cyberPowerSocial");
                 # code...
                 break;
-            /* D */
+        /* D */
+            case 'desi-avtar':
+                return view("Frontend/Portfolio/desiAvtar");
+                # code...
+                break;
             case 'dy-patil':
                 return view("Frontend/Portfolio/dyPatilSocial");
                 # code...
                 break;
-            /* E */
+        /* E */
             case 'euro':
                 return view('Frontend/Portfolio/euroSocialMedia');
                 # code...
@@ -81,20 +89,20 @@ class PortfolioController extends Controller
                 return view("Frontend/Portfolio/expert4travelSocial");
                 # code...
                 break;
-            /* F */
+        /* F */
             case 'foresight-opticals':
                 return view('Frontend/Portfolio/foresightopticalsSocialMedia');
                 break;
-            /* G */
+        /* G */
             case 'grill-box':
                 return view('Frontend/Portfolio/grillboxSocialMedia');
                 # code...
                 break;
-            /* H */
+        /* H */
             case 'hollywood-opticians':
                 return view('Frontend/Portfolio/hollywoodopticiansSocialMedia');
                 break;
-            /* I */
+        /* I */
             case 'inifd-vashi':
                 return view('Frontend/Portfolio/inifdvashiSocialMedia');
                 break;
@@ -102,22 +110,26 @@ class PortfolioController extends Controller
                 return view("Frontend/Portfolio/ismSocial");
                 # code...
                 break;
-            /* J */
+        /* J */
             case 'jivana':
                 return view('Frontend/Portfolio/jivanaSocialMedia');
                 # code...
                 break;
-            /* K */
+            case 'jop':
+                return view("Frontend/Portfolio/jopSocial");
+                # code...
+                break;
+        /* K */
             case 'kolkata-rolls':
                 return view('Frontend/Portfolio/kolkatarollsSocialMedia');
                 # code...
                 break;
-            /* L */
+        /* L */
             case 'lime':
                 return view('Frontend/Portfolio/limeSocialMedia');
                 # code...
                 break;
-            /* M */
+        /* M */
             case 'mahindra-first-choice-services':
                 return view('Frontend/Portfolio/mahidraFirstChoiceSocialMedia');
                 # code...
@@ -130,7 +142,7 @@ class PortfolioController extends Controller
                 return view('Frontend/Portfolio/missionInsureIndiaSocialMedia');
                 # code...
                 break;
-            /* N */
+        /* N */
             case 'network18':
                 return view("Frontend/Portfolio/network18Social");
                 # code...
@@ -148,12 +160,12 @@ class PortfolioController extends Controller
                 return view("Frontend/Portfolio/nodwinSocialMedia");
                 # code...
                 break;
-            /* O */
+        /* O */
             case 'okinawa':
                 return view("Frontend/Portfolio/okinawaSocial");
                 # code...
                 break;
-            /* P */
+        /* P */
             case 'pare':
                 return view("Frontend/Portfolio/pareSocial");
                 break;
@@ -161,12 +173,12 @@ class PortfolioController extends Controller
                 return view("Frontend/Portfolio/patankarFarmSocial");
                 # code...
                 break;
-            /* Q */
+        /* Q */
             case 'qubero':
                 return view("Frontend/Portfolio/quberoSocial");
                 # code...
                 break;
-            /* R */
+        /* R */
             case 'real-estate-awards':
                 return view('Frontend/Portfolio/realEstateAwardSocialMedia');
                 # code...
@@ -179,7 +191,7 @@ class PortfolioController extends Controller
                 return view('Frontend/Portfolio/roadToSafetySocialMedia');
                 # code...
                 break;
-            /* S */
+        /* S */
             case 'shahenaz':
                 return view("Frontend/Portfolio/shahenazSocial");
                 # code...
@@ -196,11 +208,12 @@ class PortfolioController extends Controller
                 return view('Frontend/Portfolio/sportzConsultSocialMedia');
                 # code...
                 break;
+            case 'stemrxbio':
             case 'stemrx-bioscience':
                 return view("Frontend/Portfolio/stemRXBioScience");
                 # code...
                 break;
-            /* T */
+        /* T */
             case 'tata-play':
                 return view("Frontend/Portfolio/tataplaySocial");
                 # code...
@@ -221,25 +234,13 @@ class PortfolioController extends Controller
                 return view("Frontend/Portfolio/tpcSocial");
                 # code...
                 break;
-            case 'jop':
-                return view("Frontend/Portfolio/jopSocial");
-                # code...
-                break;
-            case 'adi-arogyam':
-                return view("Frontend/Portfolio/adiArogyamSocial");
-                # code...
-                break;
+        /* U */
+        /* V */
             case 'vedco':
                 return view("Frontend/Portfolio/vedcoSocial");
                 # code...
                 break;
-            case 'desi-avtar':
-                return view("Frontend/Portfolio/desiAvtar");
-                # code...
-                break;
-            /* U */
-            /* V */
-            /* W */
+        /* W */
             case 'watch':
                 return view("Frontend/Portfolio/watchSocial");
                 # code...

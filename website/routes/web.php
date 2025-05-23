@@ -15,6 +15,7 @@ use App\Http\Controllers\Website\WorkCultureController;
 use App\Http\Controllers\Admin\AdminWorkCultureController;
 use App\Http\Controllers\Admin\calenderController;
 use App\Http\Controllers\Admin\outboundLeadController;
+use App\Http\Controllers\Admin\PRController;
 use App\Http\Controllers\Website\CaseStudyController;
 use App\Http\Controllers\Website\PortfolioController;
 use App\Http\Controllers\Website\ServiceController;
@@ -136,6 +137,7 @@ Route::middleware(['admin:admin,hr,business,user'])->group(function () {
     Route::resource('/admin/categories', CategoryController::class);
     Route::resource('/admin/tags', TagController::class);
     Route::resource('/admin/blogs', BlogController::class);
+    Route::resource('prs', PRController::class);
     Route::get('admin/outbound-lead', [outboundLeadController::class, 'addLead'])->name('addlead');
     Route::post('admin/outbound-lead', [outboundLeadController::class, 'StoreLead'])->name('storeLead');
     Route::get('admin/outbound-lead-list', [outboundLeadController::class, 'listLead'])->name('listLead');

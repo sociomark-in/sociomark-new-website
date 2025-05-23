@@ -346,7 +346,7 @@
             <div class="portfolio-area" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1200">
                 <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
                     <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
-                        <a href="{{ route('social_media', ['client' => 'vedco']) }}" class="project-item d-block">
+                        <a target="_blank" href="javascript:void(0);" class="project-item d-block">
                             <div class="box-img global-img">
                                 <img src="{{ asset('frontend-assets/img/clients/eduauraa.jpg') }}"
                                     alt="project image">
@@ -354,7 +354,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-6 col-xl-auto filter-item cat3 cat4">
-                        <a href="javascript:void(0)" class="project-item d-block">
+                        <a target="_blank" href="{{ route('social_media', ['client' => 'nhss']) }}" class="project-item d-block">
                             <div class="box-img global-img">
                                 <img src="{{ asset('frontend-assets/img/clients/nhs_logo.png') }}"
                                     alt="project image">
@@ -362,7 +362,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-6 col-xl-auto filter-item cat3 cat4">
-                        <a href="javascript:void(0)" class="project-item d-block">
+                        <a target="_blank" href="{{ route('social_media', ['client' => 'nhss']) }}" class="project-item d-block">
                             <div class="box-img global-img">
                                 <img src="{{ asset('frontend-assets/img/clients/nhspsa.jpg') }}"
                                     alt="project image">
@@ -370,7 +370,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-6 col-xl-auto filter-item cat3 cat4">
-                        <a href="javascript:void(0)" class="project-item d-block">
+                        <a target="_blank" href="{{ route('social_media', ['client' => 'nhss']) }}" class="project-item d-block">
                             <div class="box-img global-img">
                                 <img src="{{ asset('frontend-assets/img/clients/nhsinternational.jpg') }}"
                                     alt="project image">
@@ -378,7 +378,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
-                        <a href="javascript:void(0)" class="project-item d-block">
+                        <a target="_blank" href="javascript:void(0)" class="project-item d-block">
                             <div class="box-img global-img">
                                 <img src="{{ asset('frontend-assets/img/clients/tilak.jpg') }}"
                                     alt="project image w-100">
@@ -386,7 +386,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
-                        <a href="javascript:void(0)" class="project-item d-block">
+                        <a target="_blank" href="javascript:void(0);" class="project-item d-block">
                             <div class="box-img global-img">
                                 <img src="{{ asset('frontend-assets/img/clients/dyp01.jpg') }}"
                                     alt="project image w-100">
@@ -394,7 +394,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
-                        <a href="javascript:void(0)" class="project-item d-block">
+                        <a target="_blank" href="javascript:void(0);" class="project-item d-block">
                             <div class="box-img global-img">
                                 <img src="{{ asset('frontend-assets/img/clients/dyp_ambi.jpg') }}"
                                     alt="project image w-100">
@@ -402,7 +402,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
-                        <a href="javascript:void(0)" class="project-item d-block">
+                        <a target="_blank" href="javascript:void(0);" class="project-item d-block">
                             <div class="box-img global-img">
                                 <img src="{{ asset('frontend-assets/img/clients/dpu.jpg') }}"
                                     alt="project image w-100">
@@ -410,7 +410,7 @@
                         </a>
                     </div>
                     <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
-                        <a href="javascript:void(0)" class="project-item d-block">
+                        <a target="_blank" href="javascript:void(0);" class="project-item d-block">
                             <div class="box-img global-img">
                                 <img src="{{ asset('frontend-assets/img/clients/worldgrad.jpg') }}"
                                     alt="project image w-100">
@@ -418,7 +418,7 @@
                         </a>
                     </div>
                 </div>
-                <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
+                <!-- <div class="project-btn mt-60"><a target="_blank" href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
                                                             </div> -->
             </div>
         </div>
