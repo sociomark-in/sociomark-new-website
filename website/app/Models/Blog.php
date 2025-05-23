@@ -10,6 +10,7 @@ class Blog extends Model
     use HasFactory;
 
     protected $fillable = [
+        'card_title',
         'blog_name',
         'content',
         'meta_title',

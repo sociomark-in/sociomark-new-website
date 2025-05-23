@@ -11,6 +11,9 @@
         #about-flip {
             background-color: #f5f5f5
         }
+        @media screen {
+            
+        }
     </style>
 @endsection
 @section('content')

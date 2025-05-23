@@ -9,6 +9,7 @@ return new class extends Migration {
     {
         Schema::create('blogs', function (Blueprint $table) {
             $table->id();
+            $table->string('card_title');
             $table->string('blog_name');
             $table->text('content');
             $table->string('meta_title')->nullable();

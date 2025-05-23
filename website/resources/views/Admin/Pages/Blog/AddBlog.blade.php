@@ -4,7 +4,23 @@
 <div class="page-content">
 
     <!-- <h6 class="card-title">Add Blog</h6> -->
+    {{-- Success Message --}}
+    @if (session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+    @endif
 
+    {{-- Validation Errors --}}
+    @if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+            <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+    @endif
     <form action="{{ route('blogs.store') }}" method="POST" enctype="multipart/form-data">
         @csrf
 
@@ -14,6 +30,11 @@
                     <div class="card-body">
 
                         <h6 class="card-title">Add Blog</h6>
+
+                        <div class="mb-3">
+                            <label>Blog Card Name</label>
+                            <input type="text" name="card_title" class="form-control" required>
+                        </div>
 
                         <div class="mb-3">
                             <label>Blog Name</label>
