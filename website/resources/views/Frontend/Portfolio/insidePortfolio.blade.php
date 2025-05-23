@@ -111,13 +111,13 @@
     <div class="overflow-hidden space contact-head" id="about-sec1">
         <div class="container">
             <div class="row">
-                <div class="title-area text-center text-xl-start col-md-4 head-text-div">
-                    <h2 class="sec-title head-text head-mbl-text" data-aos="fade-right" data-aos-delay="100"
+                <div class="title-area text-center col-md-12 head-text-div">
+                    <h1 class="sec-title head-text head-mbl-text" data-aos="fade-right" data-aos-delay="100"
                         data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        Don’t hesitate to <span class="text-blue"> contact us</span> for any information.
-                    </h2>
+                        The <span class="text-blue">Brand Stories</span>   We’ve Shaped
+                    </h1>
                 </div>
-                <div class="text-center text-xl-start col-md-8">
+                {{-- <div class="text-center text-xl-start col-md-8">
                     <p class="sec-para" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000"
                         data-aos-easing="ease-in-out">We identify the most relevant and high-traffic keywords for your
                         business. Our
@@ -126,16 +126,16 @@
                         data-aos-easing="ease-in-out">We identify the most relevant and high-traffic keywords for your
                         business. Our
                         team conducts thorough research to understand yourer.</p>
-                </div>
+                </div> --}}
             </div>
         </div>
 
     </div>
 
-    <div class="brand-sec bg-smoke2 overflow-hidden space shape-mockup-wrap" id="brand-list">
+    <div class="brand-sec bg-smoke2 overflow-hidden shape-mockup-wrap" id="brand-list">
         <div class="container">
             <div class="row">
-                <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
+                <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box d-none" data-aos="zoom-in"
                     data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
                     <a href="{{ route('social_media', ['client' => 'adi-arogyam']) }}">
                         <img src="{{ asset('frontend-assets/img/work/banner/adi_arogyam.png') }}" alt="Adi Arogyam Logo"
@@ -156,7 +156,7 @@
                             class="img-fluid">
                     </a>
                 </div>
-                <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box" data-aos="zoom-in"
+                <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box d-none" data-aos="zoom-in"
                     data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
                     <a href="{{ route('social_media', ['client' => 'vedco']) }}">
                         <img src="{{ asset('frontend-assets/img/work/banner/vedco.png') }}" alt="Vedco Logo"
@@ -185,7 +185,7 @@
                     </a>
                 </div>
 
-                <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box"
+                <div class="col-6 col-md-4 mb-4 d-flex justify-content-center align-items-center box d-none"
                     data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000" data-aos-easing="ease-in-out">
                     <a href="{{ route('social_media', ['client' => 'pare']) }}">
                         <img src="{{ asset('frontend-assets/img/portfolio/pare/banner.jpg') }}" alt="Brand Logo"
