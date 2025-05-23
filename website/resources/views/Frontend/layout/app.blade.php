@@ -77,7 +77,12 @@
     </aside>
     <script>
         $(".showreel-close").on("click", () => {
-            $("aside.showreel-fixed").addClass('d-md-none');
+            $("aside.showreel-fixed").toggleClass('collapsed');
+            if($("aside.showreel-fixed").hasClass('collapsed')){
+                $(".showreel-close").html('<i class="fa-solid fa-expand"></i>');
+            } else {
+                $(".showreel-close").html('<i class="fa-solid fa-close"></i>');
+            }
         });
     </script>
     <main class="overflow-hidden">

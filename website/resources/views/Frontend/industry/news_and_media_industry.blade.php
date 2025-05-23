@@ -3,7 +3,8 @@
     <main id="industries">
         <section class="p-0" style="margin-top: 66px;">
             <div class="full-width">
-                <img src="{{ asset('frontend-assets/img/industry/News_Media.png') }}" alt="" srcset="" class="w-100" loading="lazy">
+                <img src="{{ asset('frontend-assets/img/industry/News_Media.png') }}" alt="" srcset=""
+                    class="w-100" loading="lazy">
             </div>
         </section>
         <section class="py-md-5 py-4" id="about-sec">
@@ -14,7 +15,7 @@
                             <h1 class="breadcumb-title  text-center text-md-start">News & Media Industry</h1>
                             <ul class="breadcumb-menu d-none">
                                 <li><a href="{{ route('home') }}">Home</a></li>
-                                <li><a href="{{ route('industry_home')}}">Industries</a></li>
+                                <li><a href="{{ route('industry_home') }}">Industries</a></li>
                                 <li>News & Media Industry</li>
                             </ul>
                         </div>
@@ -30,20 +31,21 @@
                     <div class="col-lg-4 mb-30 mb-xl-0">
                         <div class="imgBox img-box2 me-xl-4 mt-lg-60">
                             <div class="img1 mb-35">
-                                <img src="{{ asset('frontend-assets/img/industry/images/News Media.jpg') }}" class="w-100" alt="About">
+                                <img src="{{ asset('frontend-assets/img/industry/images/News Media.jpg') }}" class="w-100"
+                                    alt="About">
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-8">
                         <div class="title-area mb-25 mt-n1">
-                            <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100"
-                                >
+                            <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100">
                                 Fueling <span class="text-blue">Digital Narratives</span> for News & Media Brands
                             </h2>
                         </div>
-                        <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100"
-                            >
-                            In an age of constant content, we help your stories lead the scroll. From performance campaigns to social storytelling, we craft strategies that spark conversations, build trust, and keep your audience coming back for more.
+                        <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
+                            In an age of constant content, we help your stories lead the scroll. From performance campaigns
+                            to social storytelling, we craft strategies that spark conversations, build trust, and keep your
+                            audience coming back for more.
 
                         </p>
                         <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
@@ -70,7 +72,8 @@
                     <div class="row justify-content-around">
                         <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
                             <div class="counter-box">
-                                <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt=""></div>
+                                <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}"
+                                        width="60" alt=""></div>
                                 <h3 class="box-number"><span class="counter-number">200</span><sup>+</sup></h3>
                                 <div class="media-body">
                                     <p class=" counter-text mb-n1">Successfull Campaigns</p>
@@ -79,7 +82,8 @@
                         </div>
                         <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
                             <div class="counter-box">
-                                <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt=""></div>
+                                <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}"
+                                        width="60" alt=""></div>
                                 <h3 class="box-number"><span class="counter-number">15</span><sup>+</sup></h3>
                                 <div class="media-body">
                                     <p class=" counter-text mb-n1">Awards</p>
@@ -88,7 +92,8 @@
                         </div>
                         <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
                             <div class="counter-box">
-                                <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt=""></div>
+                                <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}"
+                                        width="60" alt=""></div>
                                 <h3 class="box-number"><span class="counter-number">150</span>K<sup>+</sup></h3>
                                 <div class="media-body">
                                     <p class=" counter-text mb-n1">Creatives Designed</p>
@@ -164,7 +169,9 @@
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="counter-box">
-                                        <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt=""></div>
+                                        <div class="box-icon"><img
+                                                src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"
+                                                alt=""></div>
                                         <h3 class="box-number"><span class="counter-number">200</span><sup>+</sup></h3>
                                         <div class="media-body">
                                             <p class=" counter-text mb-n1">Experienced Team</p>
@@ -173,7 +180,9 @@
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="counter-box">
-                                        <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt=""></div>
+                                        <div class="box-icon"><img
+                                                src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"
+                                                alt=""></div>
                                         <h3 class="box-number"><span class="counter-number">200</span><sup>+</sup></h3>
                                         <div class="media-body">
                                             <p class=" counter-text mb-n1">Experienced Team</p>
@@ -185,7 +194,9 @@
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="counter-box">
-                                        <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt=""></div>
+                                        <div class="box-icon"><img
+                                                src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"
+                                                alt=""></div>
                                         <h3 class="box-number"><span class="counter-number">200</span><sup>+</sup></h3>
                                         <div class="media-body">
                                             <p class=" counter-text mb-n1">Experienced Team</p>
@@ -194,7 +205,9 @@
                                 </div>
                                 <div class="col-xl-6">
                                     <div class="counter-box">
-                                        <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"  alt=""></div>
+                                        <div class="box-icon"><img
+                                                src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"
+                                                alt=""></div>
                                         <h3 class="box-number"><span class="counter-number">200</span><sup>+</sup></h3>
                                         <div class="media-body">
                                             <p class=" counter-text mb-n1">Experienced Team</p>
@@ -302,8 +315,7 @@
         <section class="overflow-hidden space garally" id="portfolio-sec">
             <div class="container">
                 <div class="title-area text-center mb-25">
-                    <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100"
-                        >
+                    <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
                         Clients We've <span class="text-blue"> Worked With</span>
                     </h2>
                 </div>
@@ -318,11 +330,11 @@
                     <button data-filter=".cat6" class="tab-btn" type="button">Production & Photography</button>
 
                 </div>
-                <div class="portfolio-area" data-aos="zoom-in" data-aos-delay="200"
-                    >
+                <div class="portfolio-area" data-aos="zoom-in" data-aos-delay="200">
                     <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
                         <div class="col-md-3 col-6 col-xl-auto filter-item cat1 cat3">
-                            <a href="javascript:void(0)" class="project-item d-block">
+                            <a href="{{ route('social_media', ['client' => 'tata-play']) }}"
+                                class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/tataplay.png') }}"
                                         alt="project image">
@@ -337,8 +349,6 @@
                             </a>
                         </div>
                     </div>
-                    <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
-                                                        </div> -->
                 </div>
             </div>
         </section>

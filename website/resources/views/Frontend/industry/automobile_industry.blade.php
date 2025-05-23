@@ -44,7 +44,7 @@
                         <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100">
                             Whether it's performance-driven ads or sleek visuals that showcase your newest launch, we rev up engagement and turn traffic into test drives. With us, your brand doesn't just move—it accelerates.
                         </p>
-                        <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
+                        <a target="_blank" href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
                             A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
@@ -337,7 +337,7 @@
                 <div class="portfolio-area" data-aos="zoom-in" data-aos-delay="200">
                     <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
                         <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
-                            <a href="{{ route('okinawascooters') }}" class="project-item d-block">
+                            <a target="_blank" href="{{ route('social_media', ['client' => 'okinawa']) }}" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/okinawa.jpg') }}"
                                         alt="project image w-100">
@@ -345,7 +345,7 @@
                             </a>
                         </div>
                         <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
-                            <a href="javascript:void(0)" class="project-item d-block">
+                            <a target="_blank" href="{{ route('social_media', ['client' => 'bem                                                                                                                                                                                                    ']) }}" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/bem.jpg') }}"
                                         alt="project image w-100">

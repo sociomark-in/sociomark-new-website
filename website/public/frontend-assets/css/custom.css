@@ -277,8 +277,27 @@ select {
     overflow: hidden;
     position: relative;
 }
-
-.showreel-fixed .showreel-close {
+.showreel-fixed.collapsed{
+    width: 50px;
+    aspect-ratio: 0.75;
+    border-radius: 0.5rem;
+}
+.showreel-fixed.collapsed .showreel-close {
+    top: -3rem;
+    left: 50%;
+    right: unset;
+    transform: translateX(-50%);
+}
+.showreel-fixed.collapsed .wrapper{
+    border-radius: 0.25rem;
+    margin: 0.1rem;
+    width: calc(100% - 0.2rem);
+    height: calc(100% - 0.2rem);
+}
+.showreel-fixed.collapsed .wrapper::after{
+    display: none;
+}
+.showreel-fixed .showreel-close{
     padding: 0;
     width: 2.5rem;
     height: 2.5rem;
