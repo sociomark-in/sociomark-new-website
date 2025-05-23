@@ -349,7 +349,7 @@
                     <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
 
                         <div class="col-md-3 col-6 col-xl-auto filter-item cat5 cat3 cat2">
-                            <a href="javascript:void(0)" class="project-item d-block">
+                            <a target="_blank" href="{{ route('social_media', ['client' => 'bulid-track']) }}" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/buildtrack (1).png') }}"
                                         alt="project image">
@@ -357,14 +357,14 @@
                             </a>
                         </div>
                         <div class="col-md-3 col-6 col-xl-auto filter-item cat1 cat3">
-                            <a href="javascript:void(0)" class="project-item d-block">
+                            <a target="_blank" href="{{ route('social_media', ['client' => 'pare']) }}" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/pare.png') }}" alt="project image">
                                 </div>
                             </a>
                         </div>
                         <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
-                            <a href="javascript:void(0)" class="project-item d-block">
+                            <a target="_blank" href="{{ route('social_media', ['client' => 'qubero']) }}" class="project-item d-block">
                                 <div class="box-img global-img">
                                     <img src="{{ asset('frontend-assets/img/clients/quebero.jpg') }}"
                                         alt="project image w-100">

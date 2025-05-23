@@ -16,6 +16,7 @@ Mobile Menu
             <ul>
                 <li class=""><a href="{{ route('home') }}">Home</a></li>
                 <li><a href="{{ route('about') }}">About Us</a></li>
+                <li><a href="{{ route('portfolio') }}">Work Portfolio</a></li>
                 <li class="menu-item-has-children">
                     <a href="{{ route('services') }}">Services</a>
                     <ul class="sub-menu">
@@ -37,20 +38,17 @@ Mobile Menu
                         <li><a href="{{ route('industry_single', ['segment' => 'news-media']) }}">News & Media</a></li>
                         <li><a href="{{ route('industry_single', ['segment' => 'real-estate']) }}">Real Estate</a></li>
                         {{-- <li><a href="{{ route('industry_single', ['segment' => 'logistics']) }}">Logistics</a></li> --}}
-                        <li><a href="{{ route('industry_single', ['segment' => 'fashion']) }}">Fashion & Lifestyle</a>
-                        </li>
+                        <li><a href="{{ route('industry_single', ['segment' => 'fashion']) }}">Fashion & Lifestyle</a></li>
                         <li><a href="{{ route('industry_single', ['segment' => 'gaming']) }}">Gaming</a></li>
-                        <li><a href="{{ route('industry_single', ['segment' => 'home-interior']) }}">Home &
-                                Interior</a></li>
+                        <li><a href="{{ route('industry_single', ['segment' => 'home-interior']) }}">Home & Interior</a></li>
                         <li><a href="{{ route('industry_single', ['segment' => 'automobile']) }}">Automobile</a></li>
-                        {{-- <li><a href="{{ route('industry_single', ['segment' => "b2b"]) }}">B2B</a>
+                        {{-- <li><a href="{{ route('industry_single', ['segment' => "b2b"]) }}">B2B</a></li> --}}
+                        {{-- <li><a href="{{ route('industry_single', ['segment' => "travel"]) }}">Travel</a></li> --}}
+                        <li><a href="{{ route('industry_single', ['segment' => 'public-sector']) }}">Government
+                                Bodies</a>
+                        </li>
+                    </ul>
                 </li>
-                <li><a href="{{ route('industry_single', ['segment' => "travel"]) }}">Travel</a></li> --}}
-                <li><a href="{{ route('industry_single', ['segment' => 'public-sector']) }}">Government Bodies</a>
-                </li>
-            </ul>
-            </li>
-            <li><a href="{{ route('contact') }}">Contact Us</a></li>
             </ul>
         </div>
     </div>
@@ -78,10 +76,10 @@ Header Area
                     </div>
                     <div class="col-auto">
                         <nav class="main-menu style2 d-none d-lg-inline-block">
-
                             <ul>
                                 <li class=""><a href="{{ route('home') }}">Home</a></li>
                                 <li><a href="{{ route('about') }}">About Us</a></li>
+                                <li><a href="{{ route('portfolio') }}">Work Portfolio</a></li>
                                 <li class="menu-item-has-children">
                                     <a href="{{ route('services') }}">Services</a>
                                     <ul class="sub-menu">
@@ -91,45 +89,29 @@ Header Area
                                         <li><a href="{{ route('website') }}">Website Development</a></li>
                                         <li><a href="{{ route('contentMarketing') }}">Content Marketing</a></li>
                                         <li><a href="{{ route('sem') }}">Performance Marketing</a></li>
-                                        <li><a href="{{ route('photoVideography') }}">Photography & Video
-                                                Production</a></li>
+                                        <li><a href="{{ route('photoVideography') }}">Photography & Video Production</a></li>
                                     </ul>
                                 </li>
                                 <li class="menu-item-has-children">
                                     <a href="#">Industries</a>
                                     <ul class="sub-menu">
-                                        <li><a
-                                                href="{{ route('industry_single', ['segment' => 'education']) }}">Education</a>
+                                        <li><a href="{{ route('industry_single', ['segment' => 'education']) }}">Education</a></li>
+                                        <li><a href="{{ route('industry_single', ['segment' => 'healthcare']) }}">Healthcare</a></li>
+                                        <li><a href="{{ route('industry_single', ['segment' => 'fmcg']) }}">FMCG</a></li>
+                                        <li><a href="{{ route('industry_single', ['segment' => 'news-media']) }}">News & Media</a></li>
+                                        <li><a href="{{ route('industry_single', ['segment' => 'real-estate']) }}">Real Estate</a></li>
+                                        {{-- <li><a href="{{ route('industry_single', ['segment' => 'logistics']) }}">Logistics</a></li> --}}
+                                        <li><a href="{{ route('industry_single', ['segment' => 'fashion']) }}">Fashion & Lifestyle</a></li>
+                                        <li><a href="{{ route('industry_single', ['segment' => 'gaming']) }}">Gaming</a></li>
+                                        <li><a href="{{ route('industry_single', ['segment' => 'home-interior']) }}">Home & Interior</a></li>
+                                        <li><a href="{{ route('industry_single', ['segment' => 'automobile']) }}">Automobile</a></li>
+                                        {{-- <li><a href="{{ route('industry_single', ['segment' => "b2b"]) }}">B2B</a></li> --}}
+                                        {{-- <li><a href="{{ route('industry_single', ['segment' => "travel"]) }}">Travel</a></li> --}}
+                                        <li><a href="{{ route('industry_single', ['segment' => 'public-sector']) }}">Government
+                                                Bodies</a>
                                         </li>
-                                        <li><a
-                                                href="{{ route('industry_single', ['segment' => 'healthcare']) }}">Healthcare</a>
-                                        </li>
-                                        <li><a href="{{ route('industry_single', ['segment' => 'fmcg']) }}">FMCG</a>
-                                        </li>
-                                        <li><a href="{{ route('industry_single', ['segment' => 'news-media']) }}">News
-                                                & Media</a></li>
-                                        <li><a href="{{ route('industry_single', ['segment' => 'real-estate']) }}">Real
-                                                Estate</a></li>
-                                        {{-- <li><a
-                                                href="{{ route('industry_single', ['segment' => 'logistics']) }}">Logistics</a>
-                                        </li> --}}
-                                        <li><a href="{{ route('industry_single', ['segment' => 'fashion']) }}">Fashion
-                                                & Lifestyle</a></li>
-                                        <li><a
-                                                href="{{ route('industry_single', ['segment' => 'gaming']) }}">Gaming</a>
-                                        </li>
-                                        <li><a href="{{ route('industry_single', ['segment' => 'home-interior']) }}">Home
-                                                & Interior</a></li>
-                                        <li><a
-                                                href="{{ route('industry_single', ['segment' => 'automobile']) }}">Automobile</a>
-                                        </li>
-                                        {{-- <li><a href="{{ route('industry_single', ['segment' => "b2b"]) }}">B2B</a>
+                                    </ul>
                                 </li>
-                                <li><a href="{{ route('industry_single', ['segment' => "travel"]) }}">Travel</a></li> --}}
-                                <li><a href="{{ route('industry_single', ['segment' => 'public-sector']) }}">Government Bodies</a></li>
-                            </ul>
-                            </li>
-                            <li><a href="{{ route('contact') }}">Contact Us</a></li>
                             </ul>
                         </nav>
                         <div class="header-button">
@@ -166,9 +148,9 @@ Header Area
             <div class="modal-body">
                 <div class="">
                     @if (session('success'))
-                    <div class="alert alert-success">
-                        {{ session('success') }}
-                    </div>
+                        <div class="alert alert-success">
+                            {{ session('success') }}
+                        </div>
                     @endif
 
                     <!-- Contact Popup Form -->
@@ -181,7 +163,7 @@ Header Area
                                     name="name" id="popName" placeholder="Enter your Name"
                                     value="{{ old('name') }}">
                                 @error('name')
-                                <span class="text-danger">{{ $message }}</span>
+                                    <span class="text-danger">{{ $message }}</span>
                                 @enderror
                             </div>
 
@@ -191,7 +173,7 @@ Header Area
                                     name="email" id="popEmail" placeholder="Enter your Email"
                                     value="{{ old('email') }}">
                                 @error('email')
-                                <span class="text-danger">{{ $message }}</span>
+                                    <span class="text-danger">{{ $message }}</span>
                                 @enderror
                             </div>
 
@@ -201,7 +183,7 @@ Header Area
                                     name="phone" id="popPhone" placeholder="Enter your Phone"
                                     value="{{ old('phone') }}" maxlength="10" pattern="\d{10}">
                                 @error('phone')
-                                <span class="text-danger">{{ $message }}</span>
+                                    <span class="text-danger">{{ $message }}</span>
                                 @enderror
                             </div>
 
@@ -275,18 +257,18 @@ Header Area
 <!-- popup modal  end-->
 
 @section('custome-style')
-<style>
-    .modal {
-        position: fixed;
-        z-index: 99;
-    }
-</style>
-<!-- form 2 start Plugin: JQuery Validator  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
-    integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/additional-methods.min.js"
-    integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!-- Plugin: JQuery Validator  -->
+    <style>
+        .modal {
+            position: fixed;
+            z-index: 99;
+        }
+    </style>
+    <!-- form 2 start Plugin: JQuery Validator  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
+        integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/additional-methods.min.js"
+        integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Plugin: JQuery Validator  -->
 @endsection
