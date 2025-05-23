@@ -58,6 +58,23 @@
                     <span class="link-title">Add Tags</span>
                 </a>
             </li>
+             <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="collapse" href="#uiComponents" role="button" aria-expanded="false" aria-controls="uiComponents">
+                    <i class="link-icon" data-feather="mail"></i>
+                    <span class="link-title">PR</span>
+                    <i class="link-arrow" data-feather="chevron-down"></i>
+                </a>
+                <div class="collapse" data-bs-parent="#sidebarNav" id="uiComponents">
+                    <ul class="nav sub-menu">
+                        <li class="nav-item">
+                            <a href="{{ route('prs.index') }}" class="nav-link">PR</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('prs.create') }}" class="nav-link">Add PR</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
             @endcan
 
             @can('hr-access')
