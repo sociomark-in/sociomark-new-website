@@ -393,7 +393,7 @@
     @include('Frontend.partial.clientList')
 
     {{-- Testimonials --}}
-    @include('Frontend.partial.testimonial.layout-02')
+   
 
     <div class="overflow-hidden space" id="about-sec6">
         <div class="container">

@@ -105,8 +105,86 @@
             </div>
         </section>
 
-        {{-- Testimonials --}}
-        @include('Frontend.partial.testimonial.layout-02')
+        <section class="space-bottom overflow-hidden arrow-wrap space bg-grey">
+            <div class="container">
+                <div class="title-area text-center">
+                    <!-- <div class="shadow-title">Testimonials</div> -->
+                    <!-- <span class="sub-title sub-title4 mb-4 mb-md-5">Testimonials<span></span></span> -->
+                    <h2 class="sec-title  ">What <span class="text-blue">Our Clients Say</span> About Us?</h2>
+                </div>
+                <div class="slider-area testi-box-area">
+                    <div class="swiper testimonialSlider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testi-grid">
+                                    <div class="box-content">
+                                        <div class="testi-logo">
+                                            <img src="{{ asset('frontend-assets/img/clients/times.jpg') }}" alt="project image"
+                                                style="height: 80px">
+                                        </div>
+                                        {{-- <h3 class="box-title2">"Seamless Call for Entries Thanks to Sociomark!"</h3> --}}
+                                        <p class="box-text">
+                                            Sociomark, particularly Heta, Vivek, and Hemant, is highly appreciated for their
+                                            excellent work in developing and managing the Leaders of Tomorrow website. Their
+                                            efforts ensured a smooth and efficient awards process, especially in managing the
+                                            Call for Entries, which was previously problematic. Hemant is specifically
+                                            acknowledged for his problem-solving skills and timely execution. Heta and Vivek are
+                                            thanked for their leadership and support. Overall, the collaboration was a success,
+                                            and there's anticipation for future partnerships.
+                                        </p>
+                                        <p class="box-text">
+                                            Thank you once again for your outstanding contributions! We look forward to working
+                                            with you again in the future.
+                                        </p>
+                                        <h3 class="box-title">Shubhankar Jadhav</h3>
+                                        <span class="box-desig">Manager, Times Network</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testi-grid">
+                                    <div class="box-content">
+                                        <div class="testi-logo">
+                                            <img src="{{ asset('frontend-assets/img/clients/network18.jpg') }}"
+                                                alt="project image" style="height: 80px">
+                                        </div>
+                                        {{-- <h3 class="box-title2">"A Rewarding 3-Year Journey with the Team at SocioMark"</h3> --}}
+                                        <p class="box-text">
+                                            Working with SocioMark for about 3 years now. Lovely people to
+                                            work with. They have hardly ever missed any deadlines.The best part about them
+                                            is that they no longer feel like an external agency but someone who
+                                            is a part of Network18 group.We know whenever we are in trouble or
+                                            that late night call for an urgent creative SocioMark will always be
+                                            there.They have set benchmarks for others by their creative work
+                                            done for the Road to safety campaign.
+                                        </p>
+                                        <h3 class="box-title">Apurva Shah</h3>
+                                        <span class="box-desig">AGM, Marketing, Network18</span>
+                                    </div>
+                                </div>
+                            </div>
+                     
+                        </div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                    <button data-slider-prev=".testimonialSlider" class="slider-arrow style3 slider-prev"><i
+                            class="fas fa-arrow-left"></i></button>
+                    <button data-slider-next=".testimonialSlider" class="slider-arrow style3 slider-next"><i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+                @push('scripts')
+                    <script>
+                        new Swiper('.testi-box-area .testimonialSlider', {
+                            loop: true,
+                            navigation: {
+                                nextEl: ".testi-box-area .slider-next",
+                                prevEl: ".testi-box-area .slider-prev",
+                            },
+                        })
+                    </script>
+                @endpush
+            </div>
+        </section>
 
         <section class="overflow-hidden bg-smoke2 space d-none">
             <div class="container">

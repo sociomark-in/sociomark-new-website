@@ -118,8 +118,65 @@
             </div>
         </section>
 
-        {{-- Testimonials --}}
-        @include('Frontend.partial.testimonial.layout-02')
+        <section class="space-bottom overflow-hidden arrow-wrap space bg-grey">
+            <div class="container">
+                <div class="title-area text-center">
+                    <!-- <div class="shadow-title">Testimonials</div> -->
+                    <!-- <span class="sub-title sub-title4 mb-4 mb-md-5">Testimonials<span></span></span> -->
+                    <h2 class="sec-title  ">What <span class="text-blue">Our Clients Say</span> About Us?</h2>
+                </div>
+                <div class="slider-area testi-box-area">
+                    <div class="swiper testimonialSlider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testi-grid">
+                                    <div class="box-content">
+                                        <div class="testi-logo">
+                                            <img src="{{ asset('frontend-assets/img/clients/ayushakti.jpg') }}"
+                                                style="height: 80px" alt="project image">
+                                        </div>
+                                        {{-- <h3 class="box-title2">"Sociomark is literally our partner in Digital Marketing"</h3> --}}
+                                        <p class="box-text">
+                                            Ever since we started working with Sociomark, <strong>our return on
+                                                investment on marketing have significantly improved, almost
+                                                doubled</strong>.
+                                        </p>
+                                        <div class="d-none d-md-block">
+                                            <p class="box-text">
+                                                They help us in creating a robust marketing strategy. They also
+                                                create those creatives which raise people's eyeballs when they watch
+                                                it on social media and the likes are only increasing month and month
+                                                because of that. Sociomark is so committed that they always deliver
+                                                what they promise each month. I am extremely happy working with
+                                                them. <strong> Best of luck Sociomark! </strong>
+                                            </p>
+                                        </div>
+                                        <h3 class="box-title">Dr. Smita Naram</h3>
+                                        <span class="box-desig">Founder, Ayushakti Ayurveda</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    </div>
+                    <button data-slider-prev=".testimonialSlider" class="slider-arrow style3 slider-prev"><i
+                            class="fas fa-arrow-left"></i></button>
+                    <button data-slider-next=".testimonialSlider" class="slider-arrow style3 slider-next"><i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+                @push('scripts')
+                    <script>
+                        new Swiper('.testi-box-area .testimonialSlider', {
+                            loop: true,
+                            navigation: {
+                                nextEl: ".testi-box-area .slider-next",
+                                prevEl: ".testi-box-area .slider-prev",
+                            },
+                        })
+                    </script>
+                @endpush
+            </div>
+        </section>
 
         <section class="overflow-hidden bg-smoke2 space d-none">
             <div class="container">

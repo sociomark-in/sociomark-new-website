@@ -117,7 +117,7 @@
         </section>
 
         {{-- Testimonials --}}
-        @include('Frontend.partial.testimonial.layout-02')
+       
 
         <section class="overflow-hidden bg-smoke2 space d-none">
             <div class="container">

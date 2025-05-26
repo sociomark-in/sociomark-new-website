@@ -373,7 +373,7 @@
                             <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Icons/Social Media marketing.png') }}"
                                 alt="Traffic Performance" class="feature-icon">
                         </div>
-                        <div class="sub-sec-title">Social Media marketing</div>
+                        <div class="sub-sec-title">Social Media Marketing</div>
 
                     </div>
                     <div class="col-12 col-md-4 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
@@ -381,7 +381,7 @@
                             <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Icons/Website development.png') }}"
                                 alt="CRM Module" class="feature-icon">
                         </div>
-                        <div class="sub-sec-title">Website development </div>
+                        <div class="sub-sec-title">Website Development </div>
 
                     </div>
                     <div class="col-12 col-md-4 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
@@ -389,7 +389,7 @@
                             <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Icons/Performance marketing.png') }}"
                                 alt="Traffic Performance" class="feature-icon">
                         </div>
-                        <div class="sub-sec-title">Performance marketing</div>
+                        <div class="sub-sec-title">Performance Marketing</div>
 
                     </div>
                     <div class="col-12 col-md-4 feature d-flex align-items-center justify-content-start mt-3 mt-md-0">
@@ -397,7 +397,7 @@
                             <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Icons/photography & video production.png') }}"
                                 alt="CRM Module" class="feature-icon">
                         </div>
-                        <div class="sub-sec-title">photography & video production
+                        <div class="sub-sec-title">Photography & Video Production
                         </div>
 
                     </div>

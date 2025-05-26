@@ -56,14 +56,14 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-md-3 col-xl-auto filter-item cat9">
+                {{-- <div class="col-md-3 col-xl-auto filter-item cat9">
                     <a href="{{ route('social_media', ['client'=>'bem']) }}" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/bem.jpg') }}"
                                 alt="project image">
                         </div>
                     </a>
-                </div>
+                </div> --}}
                 <div class="col-md-3 col-xl-auto filter-item cat8">
                     <a href="{{ route('social_media', ['client'=>'bulid-track']) }}" class="project-item d-block">
                         <div class="box-img global-img">

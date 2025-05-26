@@ -127,7 +127,60 @@
     </section>
 
     {{-- Testimonials --}}
-    @include('Frontend.partial.testimonial.layout-02')
+    <section class="space-bottom overflow-hidden arrow-wrap space bg-grey">
+        <div class="container">
+            <div class="title-area text-center">
+                <!-- <div class="shadow-title">Testimonials</div> -->
+                <!-- <span class="sub-title sub-title4 mb-4 mb-md-5">Testimonials<span></span></span> -->
+                <h2 class="sec-title  ">What <span class="text-blue">Our Clients Say</span> About Us?</h2>
+            </div>
+            <div class="slider-area testi-box-area">
+                <div class="swiper testimonialSlider">
+                    <div class="swiper-wrapper">
+                     
+                        <div class="swiper-slide">
+                            <div class="testi-grid">
+                                <div class="box-content">
+                                    <div class="testi-logo">
+                                        <img src="{{ asset('frontend-assets/img/clients/worldgrad.jpg') }}"
+                                            alt="project image" style="height: 80px">
+                                    </div>
+                                    {{-- <h3 class="box-title2">"Sociomark's Exceptional Ability to Capture and Visualize Brand
+                                        Voice"</h3> --}}
+                                    <p class="box-text">Working with Sociomark has been an absolute pleasure. They have
+                                        consistently exceeded my expectations in handling The WorldGrad's social media
+                                        creative needs, from stunning static images to engaging reels and videos. Their
+                                        creativity and attention to detail have truly brought our brand's vision to life
+                                        across all platforms.</p>
+                                    <p class="box-text">We highly recommend Sociomark to anyone in need of top-notch
+                                        creative services!</p>
+                                    <h3 class="box-title">Suyash Birje</h3>
+                                    <span class="box-desig">The WorldGrad</span>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                </div>
+                <button data-slider-prev=".testimonialSlider" class="slider-arrow style3 slider-prev"><i
+                        class="fas fa-arrow-left"></i></button>
+                <button data-slider-next=".testimonialSlider" class="slider-arrow style3 slider-next"><i
+                        class="fas fa-arrow-right"></i></button>
+            </div>
+            @push('scripts')
+                <script>
+                    new Swiper('.testi-box-area .testimonialSlider', {
+                        loop: true,
+                        navigation: {
+                            nextEl: ".testi-box-area .slider-next",
+                            prevEl: ".testi-box-area .slider-prev",
+                        },
+                    })
+                </script>
+            @endpush
+        </div>
+    </section>
 
     <section class="overflow-hidden bg-smoke2 space d-none">
         <div class="container">
