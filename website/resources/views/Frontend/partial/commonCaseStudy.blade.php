@@ -105,7 +105,7 @@
                             <div class="team-img">
                                 <img src="{{ asset('frontend-assets/img/case-study/thumbs/okinawa.jpg') }}" alt="case-study">
                                 <div class="th-social">
-                                    <a href="{{ route('okinawascooters') }}" ><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                    <a href="{{ route('okinawascooters') }}"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                                 </div>
                             </div>
                             <h3 class="sub-sec-title text-center text-lg-start"><a href="{{ route('okinawascooters') }}">Okinawa</a></h3>
@@ -130,7 +130,9 @@
             </div>
 
         </div>
-
+        <div class="mt-4 d-flex align-items-center justify-content-center">
+            <a href="{{ route('case-study') }}" class="th-btn th-icon">View All Casestudy</a>
+        </div>
     </div>
 </section>
 

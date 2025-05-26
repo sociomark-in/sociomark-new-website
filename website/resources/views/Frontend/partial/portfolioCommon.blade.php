@@ -146,7 +146,7 @@
             </script>
         </div>
 
-        <div class="header-button mt-5 d-flex align-items-center justify-content-center">
+        <div class="mt-5 d-flex align-items-center justify-content-center">
             <a href="{{ route('portfolio') }}" class="th-btn th-icon">View all Portfolio</a>
         </div>
     </div>

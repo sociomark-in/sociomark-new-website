@@ -64,12 +64,12 @@
         <div class="clearfix"></div>
         <h2 class="mt-4 sub-sec-title text-blue">1. Topical Posts:</h2>
         <p class="sec-para">Topical posts are posts that are trending and make use of moment marketing to promote the brand.</p>
-        <div class="row">
-            <div class="col-md-6 col-12">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftheprofessionalcouriers%2Fposts%2F2696579910377121&amp;width=500&amp;show_text=true&amp;appId=977254235797172&amp;height=672" width="100%" height="630" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <div class="row justify-content-center">
+            <div class="col-md-3 col-12">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/tropical1.jpg') }}" alt="">
             </div>
-            <div class="col-md-6 col-12">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftheprofessionalcouriers%2Fposts%2F2629340560434390&amp;width=500&amp;show_text=true&amp;appId=977254235797172&amp;height=634" width="100%" height="630" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <div class="col-md-3 col-12">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/tropical2.jpg') }}" alt="">
             </div>
         </div>
         <div class="clearfix"></div>
@@ -77,69 +77,118 @@
         <h2 class="mt-4 sub-sec-title text-blue">2. Metaphoric Posts:</h2>
         <p class="sec-para">Posts that used symbolism so the audience could relate the service to speedy and timely delivery.</p>
 
-        <div class="row">
-            <div class="col-md-6 col-12">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftheprofessionalcouriers%2Fposts%2F3269608173074289&amp;width=500&amp;show_text=true&amp;appId=977254235797172&amp;height=634" width="100%" height="640" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <div class="row justify-content-center">
+            <div class="col-md-3 col-12">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/metaphoic1.jpg') }}" alt="">
             </div>
-            <div class="col-md-6 col-12">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftheprofessionalcouriers%2Fposts%2F1948902825144837&amp;width=500&amp;show_text=true&amp;appId=977254235797172&amp;height=716" width="100%" height="640" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            </div>
-        </div>
-        <div class="clearfix"></div>
-
-        <h2 class="mt-4 sub-sec-title text-blue">3. Calebratory Posts:</h2>
-        <p class="sec-para">Celebratory posts are posts that revolve around holidays and festival wishing.</p>
-        <div class="row">
-            <div class="col-md-6 col-12">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftheprofessionalcouriers%2Fposts%2F3209644789070628&amp;width=500&amp;show_text=true&amp;appId=977254235797172&amp;height=653" width="100%" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            </div>
-            <div class="col-md-6 col-12">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftheprofessionalcouriers%2Fposts%2F3175453372489770&amp;width=500&amp;show_text=true&amp;appId=977254235797172&amp;height=653" width="100%" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <div class="col-md-3 col-12">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/metaphoric2.jpg') }}" alt="">
             </div>
         </div>
         <div class="clearfix"></div>
 
-        <h2 class="mt-4 sub-sec-title text-blue">4. Service-centric Posts:</h2>
-        <p class="sec-para">Promotion of their services through social media creatives.</p>
-        <div class="row">
-            <div class="col-md-6 col-12">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftheprofessionalcouriers%2Fposts%2F2286222328079550&amp;width=500&amp;show_text=true&amp;appId=977254235797172&amp;height=697" width="100%" height="610" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <h2 class="mt-4 sub-sec-title text-blue">3. Raksha Bandhan Campaign:</h2>
+        <!-- <p class="sec-para">Celebratory posts are posts that revolve around holidays and festival wishing.</p> -->
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-12">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/rakshabandhan1.jpg') }}" alt="">
             </div>
-            <div class="col-md-6 col-12">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Ftheprofessionalcouriers%2Fposts%2F3173325142702593&amp;width=500&amp;show_text=true&amp;appId=977254235797172&amp;height=634" width="100%" height="610" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <div class="col-md-4 col-12">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/rakshabandhan2.jpg') }}" alt="">
+            </div>
+             <div class="col-md-4 col-12">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/rakshabandhan3.jpg') }}" alt="">
             </div>
         </div>
-
-
-
-        <p class="sec-para">To ensure maximum brand awareness, we also boosted service-centric posts to reach out to more people and bring in business for the brand. We carried out different ad campaigns for the brand on platforms such as YouTube &amp; Facebook, that yielded favourable results.</p>
-        <p class="sec-para">We started with the social media campaign to ensure maximum amount of brand awareness, by promoting the services provided, some topical posts, metaphoric creatives, celebratory dates and much more</p>
-
-
-
-        <h2 class="mt-4 sub-sec-title text-blue">Online Reputation Management:</h2>
-        <p class="sec-para">Every brand needs an ORM strategy to maintain their image online. So, we established an ORM strategy for our client to keep track of their customers’ queries and aid whenever needed.</p>
-        <p class="sec-para">We recorded the highest number of complaints from Facebook &amp; Twitter and co-ordinated with the HO in resolving over 26% of the total customers’ queries.</p>
-
-
-        <h2 class="mt-4 sub-sec-title text-blue">Results/Conclusion:</h2>
-        <p class="sec-para">Monitoring the social media campaigns, we were successful in achieving steady community growth and increased impressions &amp; engagements.</p>
-
-
-        <h2 class="mt-4 sub-sec-title text-blue">Achivement in Numbers:</h2>
+         <div class="row justify-content-center">
+            <div class="col-md-4 col-12">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/rakshabandhan4.jpg') }}" alt="">
+            </div>
+            <div class="col-md-4 col-12">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/rakshabandhan5.jpg') }}" alt="">
+            </div>
+             <div class="col-md-4 col-12">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/rakshabandhan6.jpg') }}" alt="">
+            </div>
+        </div>
+        
+        <h2 class="mt-4 sub-sec-title text-blue">4. Christmus Campaign:</h2>
+        <!-- <p class="sec-para">Promotion of their services through social media creatives.</p> -->
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-12">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/christmus1.jpg') }}" alt="">
+            </div>
+            <div class="col-md-4 col-12">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/christmus2.jpg') }}" alt="">
+            </div>
+            <div class="col-md-4 col-12">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/christmus3.jpg') }}" alt="">
+            </div>
+        </div>
+        <h2 class="mt-4 sub-sec-title text-blue">Valentines Day Campaign:</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-12">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/Valentines1.jpg') }}" alt="">
+            </div>
+            <div class="col-md-4 col-12">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/Valentines2.jpg') }}" alt="">
+            </div>
+             <div class="col-md-4 col-12">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/Valentines3.jpg') }}" alt="">
+            </div>
+        </div>
+         <div class="row justify-content-center">
+            <div class="col-md-4 col-12">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/Valentines4.jpg') }}" alt="">
+            </div>
+            <div class="col-md-4 col-12">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/Valentines5.jpg') }}" alt="">
+            </div>
+             <div class="col-md-4 col-12">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/Valentines6.jpg') }}" alt="">
+            </div>
+        </div>
+        <h2 class="mt-4 sub-sec-title text-blue">Mothers Day Campaign:</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-12">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/Mothers1.jpg') }}" alt="">
+            </div>
+            <div class="col-md-4 col-12">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/Mothers2.jpg') }}" alt="">
+            </div>
+             <div class="col-md-4 col-12">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/Mothers3.jpg') }}" alt="">
+            </div>
+        </div>
+         <div class="row justify-content-center">
+            <div class="col-md-4 col-12">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/Mothers4.jpg') }}" alt="">
+            </div>
+            <div class="col-md-4 col-12">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/Mothers5.jpg') }}" alt="">
+            </div>
+             <div class="col-md-4 col-12">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/Mothers6.jpg') }}" alt="">
+            </div>
+        </div>
+        <h2 class="mt-4 sub-sec-title text-blue">What numbers did we achieve overall:</h2>
         <div class="row" style="text-align: center">
-            <div class="col-sm-4 col-4">
-                <h2 class="mt-4 sub-sec-title text-blue">10.6K</h2>
-                <p class="sec-para">Community Growth</p>
+            <div class="col-sm-3 col-6">
+                <h2 class="mt-4 sub-sec-title text-blue">25K+</h2>
+                <p class="sec-para">Instagram Reach</p>
 
             </div>
-            <div class="col-sm-4 col-4">
-                <h2 class="mt-4 sub-sec-title text-blue">31.3M</h2>
-                <p class="sec-para">Impressions</p>
+            <div class="col-sm-3 col-6">
+                <h2 class="mt-4 sub-sec-title text-blue">80k+</h2>
+                <p class="sec-para">Social Media Overall Community Reach</p>
             </div>
-            <div class="col-sm-4 col-4">
-                <h2 class="mt-4 sub-sec-title text-blue">60K</h2>
-                <p class="sec-para">Engagement</p>
+            <div class="col-sm-3 col-6">
+                <h2 class="mt-4 sub-sec-title text-blue">37k+</h2>
+                <p class="sec-para">Social Media Impressions</p>
+            </div>
+              <div class="col-sm-3 col-6">
+                <h2 class="mt-4 sub-sec-title text-blue">10k+</h2>
+                <p class="sec-para">Social Media Views</p>
             </div>
 
         </div>
