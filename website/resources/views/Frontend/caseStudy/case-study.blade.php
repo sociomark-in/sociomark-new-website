@@ -164,6 +164,18 @@
                     </article>
                     <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="w-100">
+                            <a href="{{ route('buildTrack') }}">
+                                <img src="{{ asset('frontend-assets/img/case-study/thumbs/buildtrack.jpg') }}" alt="image"
+                                    class="card__img img-fluid w-100" loading="lazy">
+                            </a>
+                        </div>
+                        <div class="card__data">
+                            <h4 class="sub-sec-title">Build Track</h4>
+                            <a href="{{ route('buildTrack') }}" class="card__button text-blue">Read More</a>
+                        </div>
+                    </article>
+                    <article class="card__article filter-item cat1 cat3 col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="w-100">
                             <a href="{{ route('cyberPower') }}">
                                 <img src="{{ asset('frontend-assets/img/case-study/thumbs/cyberpower.png') }}" alt="image"
                                     class="card__img img-fluid w-100" loading="lazy">
