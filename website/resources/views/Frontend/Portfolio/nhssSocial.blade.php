@@ -151,6 +151,12 @@
                 <p class="sec-para text-center text-blue mt-2"><b>ISM</b></p>
                 </a>
             </div>
+             <div class="col lg-4 col-md-4 col-12">
+                <a href="{{ route('social_media', ['client'=>'inifd-vashi']) }}">
+                <img src="{{ asset('frontend-assets/img/work/inifd-vashi/1.jpg') }}" alt="" srcset="" class="w-100">
+                <p class="sec-para text-center text-blue mt-2"><b>INIFD</b></p>
+                </a>
+            </div>
            
         </div>
     </div>
