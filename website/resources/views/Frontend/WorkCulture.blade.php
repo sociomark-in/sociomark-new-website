@@ -631,13 +631,19 @@
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
+                            <div class="swiper-pagination"></div>
                         </div>
                         @push('scripts')
                             <script>
                                 new Swiper('.journeySwiper', {
                                     spaceBetween: 30,
                                     slidesPerView: 3,
+                                    pagination: {
+                                        el: ".swiper-pagination",
+                                        type: "progressbar",
+                                    },
                                     autoplay: {
                                         delay: 2500,
                                         disableOnInteraction: false,
@@ -663,6 +669,19 @@
                 </div>
             </div>
         </section>
+
+        <style>
+            .swiper-horizontal>.swiper-pagination-progressbar,
+            .swiper-pagination-progressbar.swiper-pagination-horizontal,
+            .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite,
+            .swiper-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+                width: 100%;
+                height: var(--swiper-pagination-progressbar-size, 4px);
+                left: 0;
+                bottom: 0;
+            }
+        </style>
+
 
         <section class="overflow-hidden arrow-wrap" id="team-sec">
             <div class="container">
@@ -736,24 +755,24 @@
                         })
                     </script>
                 @endpush
-                <div class="row g-3">
-                        <div class="col-12">
-                            <video loop muted autoplay class="w-100">
-                                <source src="{{ asset('frontend-assets/team-video.mp4') }}">
-                            </video>
-                        </div>
-                    </div>  
-                {{-- <div class="video-wrapper lazy-loading">
+                {{-- <div class="row g-3">
+                    <div class="col-12">
+                        <video loop muted autoplay class="w-100">
+                            <source src="{{ asset('frontend-assets/team-video.mp4') }}">
+                        </video>
+                    </div>
+                </div> --}}
+                <div class="video-wrapper lazy-loading">
                     <video loop muted autoplay class="w-100"
                         poster="{{ asset('frontend-assets/img/posters/team_video_poster.jpg') }}">
                         <source data-src="{{ asset('frontend-assets/team-video.mp4') }}" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
-                </div> --}}
+                </div>
             </div>
         </section>
 
-      
+
 
         <section class="position-relative space garally bg-grey" id="portfolio-sec">
             <div class="container">
@@ -813,7 +832,7 @@
                         @endfor
                     </div>
                     <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
-                                                                        </div> -->
+                                                                                </div> -->
                 </div>
             </div>
             @push('scripts')
