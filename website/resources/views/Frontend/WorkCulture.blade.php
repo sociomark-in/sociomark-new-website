@@ -397,269 +397,255 @@
                         </div>
                     </div>
                 </div>
-                <div class="step-wrap">
-                    <div class="process-mobile d-none">
-                        <div class="row gy-3 gy-md-5">
-                            @for ($i = 2025; $i > 2017; $i--)
-                                <div class="col-xl-6">
-                                    <div class="process-card">
-                                        <div class="box-wrapp justify-content-start gap-2">
-                                            <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
-                                                    alt="icon">
-                                            </div>
-                                            <div class="box-shape"><img
-                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                    alt=""></div>
-                                            <div class="box-number">
-                                                {{ $i }} </div>
-                                        </div>
-                                        <div class="box-content">
-                                            <h2 class="box-title">Lorem ipsum dolor sit amet.</h2>
-                                            <p class="box-text">
-                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident, esse
-                                                veniam unde tempora, quaerat ex modi quidem delectus quas velit, autem eum
-                                                cumque eos dolore. Possimus ullam unde cum quod.
-                                            </p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            @endfor
-                        </div>
-                    </div>
+                <div class="process-cards-deck">
                     <div class="process-mobile">
                         <div class="swiper journeySwiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <div class="process-card">
-                                        <div class="box-wrapp justify-content-start gap-2">
-                                            <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
-                                                    alt="icon">
+                                    <div class="process-card style-01">
+                                        <div class="box-wrap">
+                                            <div class="box-badge">
+                                                <div class="badge-content">2017</div>
                                             </div>
-                                            {{-- <div class="box-shape"><img
-                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                    alt=""></div> --}}
-                                            <div class="box-number text-blue">2017 </div>
-                                        </div>
-                                        <div class="box-content">
-                                            {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                            <div class="box-text">
-                                                <p>Along with 2 employees, started in a co-working space</p>
-                                                <p>Shifted to a mezzanine floor office in the same year</p>
+                                            <div class="box-content">
+                                                {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                                <div class="process-text">
+                                                    <div class="text-content">
+                                                        <ul>
+                                                            <li>Along with 2 employees, started in a co-working space</li>
+                                                            <li>Shifted to a mezzanine floor office in the same year</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="process-card">
-                                        <div class="box-wrapp justify-content-start gap-2">
-                                            <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
-                                                    alt="icon">
+                                    <div class="process-card style-01">
+                                        <div class="box-wrap">
+                                            <div class="box-badge">
+                                                <div class="badge-content">2018</div>
                                             </div>
-                                            {{-- <div class="box-shape"><img
-                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                    alt=""></div> --}}
-                                            <div class="box-number text-blue">2018 </div>
-                                        </div>
-                                        <div class="box-content">
-                                            {{-- <h2 class="box-title">2018</h2> --}}
-                                            <p class="box-text">Moved into our new office with 8 employees</p>
+                                            <div class="box-content">
+                                                {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                                <div class="process-text">
+                                                    <div class="text-content">
+                                                        <ul>
+                                                            <li>Moved into our new office with 8 employees</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="process-card">
-                                        <div class="box-wrapp justify-content-start gap-2">
-                                            <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
-                                                    alt="icon">
+                                    <div class="process-card style-01">
+                                        <div class="box-wrap">
+                                            <div class="box-badge">
+                                                <div class="badge-content">2019</div>
                                             </div>
-                                            {{-- <div class="box-shape"><img
-                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                    alt=""></div> --}}
-                                            <div class="box-number text-blue">2019 </div>
-                                        </div>
-                                        <div class="box-content">
-                                            {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                            <p class="box-text">Diageo Road to Safety</p>
-                                            <p class="box-text">TAVF Awards 2019</p>
-                                            <p class="box-text">Best Digital Marketing Campaign</p>
-                                            <p class="box-text">Best Use of Social Network</p>
-                                            <p class="box-text">Button Dabao Desh Banao</p>
-                                            <p class="box-text">DigiPub Awards 2019</p>
-                                            <p class="box-text">Best Use of Social Media</p>
-                                            <p class="box-text">Social Samosa shoutout for our Diageo X Network18 campaign
-                                                'Road to Safety'</p>
-
+                                            <div class="box-content">
+                                                {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                                <div class="process-text">
+                                                    <div class="text-content">
+                                                        <ul>
+                                                            <li><a href="">Diageo Road to Safety</a></li>
+                                                            <li>TAVF Awards 2019</li>
+                                                            <li>Best Digital Marketing Campaign</li>
+                                                            <li>Best Use of Social Network</li>
+                                                            <li>Button Dabao Desh Banao</li>
+                                                            <li>DigiPub Awards 2019</li>
+                                                            <li>Best Use of Social Media</li>
+                                                            <li>Social Samosa shoutout for our <a href="">Diageo X
+                                                                    Network18</a> campaign <a href="">Road to
+                                                                    Safety</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="process-card">
-                                        <div class="box-wrapp justify-content-start gap-2">
-                                            <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
-                                                    alt="icon">
+                                    <div class="process-card style-01">
+                                        <div class="box-wrap">
+                                            <div class="box-badge">
+                                                <div class="badge-content">2020</div>
                                             </div>
-                                            {{-- <div class="box-shape"><img
-                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                    alt=""></div> --}}
-                                            <div class="box-number text-blue">2020 </div>
-                                        </div>
-                                        <div class="box-content">
-                                            {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                            <p class="box-text">Maintained social distancing through WFH in the COVID
-                                                period</p>
-                                            <p class="box-text">Social Samosa shoutout for our NODWIN Gaming X
-                                                Cosplaygenie's Halloween Campaign</p>
-
+                                            <div class="box-content">
+                                                {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                                <div class="process-text">
+                                                    <div class="text-content">
+                                                        <ul>
+                                                            <li>Maintained social distancing through WFH in the COVID period
+                                                            </li>
+                                                            <li>Social Samosa shoutout for our <a href="">NODWIN
+                                                                    Gaming X
+                                                                    Cosplaygenie</a>'s
+                                                                Halloween Campaign</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="process-card">
-                                        <div class="box-wrapp justify-content-start gap-2">
-                                            <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
-                                                    alt="icon">
+                                    <div class="process-card style-01">
+                                        <div class="box-wrap">
+                                            <div class="box-badge">
+                                                <div class="badge-content">2021</div>
                                             </div>
-                                            {{-- <div class="box-shape"><img
-                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                    alt=""></div> --}}
-                                            <div class="box-number text-blue">2021 </div>
-                                        </div>
-                                        <div class="box-content">
-                                            {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                            <p class="box-text">Shifted to a 2000 sq. ft. area office, overseeing Navi
-                                                Mumbai's beautiful Palm Beach</p>
-
+                                            <div class="box-content">
+                                                {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                                <div class="process-text">
+                                                    <div class="text-content">
+                                                        <ul>
+                                                            <li>Shifted to a 2000 sq. ft. area office, overseeing Navi
+                                                                Mumbai's
+                                                                beautiful Palm Beach</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="process-card">
-                                        <div class="box-wrapp justify-content-start gap-2">
-                                            <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
-                                                    alt="icon">
+                                    <div class="process-card style-01">
+                                        <div class="box-wrap">
+                                            <div class="box-badge">
+                                                <div class="badge-content">2022</div>
                                             </div>
-                                            {{-- <div class="box-shape"><img
-                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                    alt=""></div> --}}
-                                            <div class="box-number text-blue">2022 </div>
-                                        </div>
-                                        <div class="box-content">
-                                            {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                            <p class="box-text">Our reMARKable pool grew to 30+ employees</p>
-                                            <p class="box-text">Our illustrations for NODWIN Gaming's BGMS were
-                                                collaborated with Star Sports India</p>
-
+                                            <div class="box-content">
+                                                {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                                <div class="process-text">
+                                                    <div class="text-content">
+                                                        <ul>
+                                                            <li>Our reMARKable pool grew to 30+ employees</li>
+                                                            <li>Our illustrations for <a href="">NODWIN Gaming</a>'s
+                                                                BGMS were collaborated
+                                                                with
+                                                                Star Sports India</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="process-card">
-                                        <div class="box-wrapp justify-content-start gap-2">
-                                            <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
-                                                    alt="icon">
+                                    <div class="process-card style-01">
+                                        <div class="box-wrap">
+                                            <div class="box-badge">
+                                                <div class="badge-content">2023</div>
                                             </div>
-                                            {{-- <div class="box-shape"><img
-                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                    alt=""></div> --}}
-                                            <div class="box-number text-blue">2023 </div>
-                                        </div>
-                                        <div class="box-content">
-                                            {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                            <p class="box-text">Heta Baandal, our founder, was named one of the 21 Rising
-                                                Business Leaders of India 2023 by Startup Reporter</p>
-                                            <p class="box-text">Multiple PR features on platforms like AdGully, Afaqs &
-                                                Brand Equity</p>
-                                            <p class="box-text">Our illustrations for NODWIN Gaming's VCSA were
-                                                collaborated with Hyundai India</p>
-                                            <p class="box-text">Started our own in-house photography & videography section
-                                            </p>
+                                            <div class="box-content">
+                                                {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                                <div class="process-text">
+                                                    <div class="text-content">
+                                                        <ul>
+                                                            <li>Heta Baandal, our founder, was named one of the 21 Rising
+                                                                Business
+                                                                Leaders of India 2023 by Startup Reporter</li>
+                                                            <li>Multiple PR features on platforms like AdGully, Afaqs &
+                                                                Brand
+                                                                Equity
+                                                            </li>
+                                                            <li>Our illustrations for <a href="">NODWIN Gaming</a>'s
+                                                                VCSA were collaborated
+                                                                with
+                                                                Hyundai India</li>
+                                                            <li>Started our own in-house photography & videography section
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="process-card">
-                                        <div class="box-wrapp justify-content-start gap-2">
-                                            <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
-                                                    alt="icon">
+                                    <div class="process-card style-01">
+                                        <div class="box-wrap">
+                                            <div class="box-badge">
+                                                <div class="badge-content">2024</div>
                                             </div>
-                                            {{-- <div class="box-shape"><img
-                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                    alt=""></div> --}}
-                                            <div class="box-number text-blue">2024 </div>
-                                        </div>
-                                        <div class="box-content">
-                                            {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                            <p class="box-text">Bagged our 1st international client</p>
-                                            <p class="box-text">Agency Head of the Year - Women Disruptors 2024</p>
-                                            <p class="box-text">Our Boss Lady Heta Baandal was recognized by AdGully</p>
-                                            <p class="box-text">Our first Infinity Canvas video for Navi Mumbai Municipal
-                                                Corporation was played in a Swachh Survekshan LIVE event </p>
-
+                                            <div class="box-content">
+                                                {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                                <div class="process-text">
+                                                    <div class="text-content">
+                                                        <ul>
+                                                            <li>Bagged our 1st international client</li>
+                                                            <li>Agency Head of the Year - Women Disruptors 2024</li>
+                                                            <li>Our Boss Lady Heta Baandal was recognized by AdGully</li>
+                                                            <li>Our first Infinity Canvas video for Navi Mumbai Municipal
+                                                                Corporation
+                                                                was played in a Swachh Survekshan LIVE event </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
-                                    <div class="process-card">
-                                        <div class="box-wrapp justify-content-start gap-2">
-                                            <div class="box-icon">
-                                                <img src="{{ asset('frontend-assets/img/icon/process_1_1.svg') }}"
-                                                    alt="icon">
+                                    <div class="process-card style-01">
+                                        <div class="box-wrap">
+                                            <div class="box-badge">
+                                                <div class="badge-content">2025</div>
                                             </div>
-                                            {{-- <div class="box-shape"><img
-                                                    src="{{ asset('frontend-assets/img/icon/arrow.png') }}"
-                                                    alt=""></div> --}}
-                                            <div class="box-number text-blue">
-                                                2025 </div>
-                                        </div>
-                                        <div class="box-content">
-                                            {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                            <p class="box-text">We are now a team of 50+ Employees</p>
-                                            <p class="box-text"> Multiple Social Media Dissect features for our clients -
-                                                Markets4you & CyberPowerPC</p>
-                                            <p class="box-text">International Expansion</p>
-                                            <p class="box-text">Opened an office in Dubai</p>
+                                            <div class="box-content">
+                                                {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                                <div class="process-text">
+                                                    <div class="text-content">
+                                                        <ul>
+                                                            <li>We are now a team of 50+ Employees</li>
+                                                            <li> Multiple Social Media Dissect features for our clients -
+                                                                <a href="">Markets4you</a> & <a
+                                                                    href="">CyberPowerPC</a>
+                                                            </li>
+                                                            <li>International Expansion</li>
+                                                            <li>Opened an office in Dubai</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
-                            <div class="swiper-pagination"></div>
+                            <div class="swiper-pagination">
+                            </div>
+                            {{-- <span class="swiper-progress-percentage">0%</span> --}}
                         </div>
                         @push('scripts')
                             <script>
                                 new Swiper('.journeySwiper', {
-                                    spaceBetween: 30,
-                                    slidesPerView: 3,
+                                    spaceBetween: 10,
+                                    slidesPerView: 1,
                                     pagination: {
                                         el: ".swiper-pagination",
                                         type: "progressbar",
                                     },
-                                    autoplay: {
-                                        delay: 2500,
-                                        disableOnInteraction: false,
-                                    },
+                                    // autoplay: {
+                                    //     delay: 2500,
+                                    //     disableOnInteraction: false,
+                                    // },
                                     breakpoints: {
                                         375: {
-                                            slidesPerView: 1,
-                                            spaceBetween: 20,
+                                            slidesPerView: 2,
+                                            spaceBetween: 10,
                                         },
                                         768: {
                                             slidesPerView: 2,
-                                            spaceBetween: 40,
+                                            spaceBetween: 20,
                                         },
                                         1024: {
                                             slidesPerView: 3,
-                                            spaceBetween: 50,
+                                            spaceBetween: 30,
                                         },
                                     },
                                 })
@@ -669,18 +655,6 @@
                 </div>
             </div>
         </section>
-
-        <style>
-            .swiper-horizontal>.swiper-pagination-progressbar,
-            .swiper-pagination-progressbar.swiper-pagination-horizontal,
-            .swiper-pagination-progressbar.swiper-pagination-vertical.swiper-pagination-progressbar-opposite,
-            .swiper-vertical>.swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
-                width: 100%;
-                height: var(--swiper-pagination-progressbar-size, 4px);
-                left: 0;
-                bottom: 0;
-            }
-        </style>
 
 
         <section class="overflow-hidden arrow-wrap" id="team-sec">
@@ -765,7 +739,7 @@
                 <div class="video-wrapper lazy-loading">
                     <video loop muted autoplay class="w-100"
                         poster="{{ asset('frontend-assets/img/posters/team_video_poster.jpg') }}">
-                        <source data-src="{{ asset('frontend-assets/team-video.mp4') }}" type="video/mp4">
+                        <source src="{{ asset('frontend-assets/team-video.mp4') }}" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
@@ -832,7 +806,7 @@
                         @endfor
                     </div>
                     <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
-                                                                                </div> -->
+                                                                                                                                            </div> -->
                 </div>
             </div>
             @push('scripts')
