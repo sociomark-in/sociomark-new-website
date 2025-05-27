@@ -145,7 +145,7 @@
     </div>
 </section>
 
-<section class="porfolio-text overflow-hidden space ">
+<section class="porfolio-text overflow-hidden space d-none">
     <div class="container">
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>

@@ -72,7 +72,27 @@
                     <a href="https://www.instagram.com/inifdvashi/" target="_blank"><i class="fab fa-instagram"></i></a>
 
             </div>
-          
+
+        </div>
+    </div>
+</section>
+<section class="porfolio-text overflow-hidden space bg-grey">
+    <div class="container">
+        <div class="row">
+            <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
+
+            <div class="col lg-4 col-md-4 col-12">
+                <a href="{{ route('social_media', ['client'=>'nhss']) }}">
+                    <img src="{{ asset('frontend-assets/img/work/banner/NHS.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>New Horizon School</b></p>
+                </a>
+            </div>
+            <div class="col lg-4 col-md-4 col-12">
+                <a href="{{ route('social_media', ['client'=>'ism']) }}">
+                    <img src="{{ asset('frontend-assets/img/work/banner/ism.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>ISM</b></p>
+                </a>
+            </div>
         </div>
     </div>
 </section>

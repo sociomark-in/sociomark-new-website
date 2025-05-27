@@ -50,7 +50,7 @@
             <h2 class="text-blue sec-title">Indian School of Media (ISM)</h2>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p class="sec-para">
-            Indian School of Media (ISM) is a leading institution in <strong>Media education, </strong> nurturing the next generation of media and event management professionals. Its curriculum combines industry-led lectures, hands-on training, and expert mentorship to ensure students are career-ready from day one. With deep ties to the <strong>Media and entertainment industry,</strong> ISM has empowered over 5000 graduates in the past decade, many of whom are shaping the future of this fast-evolving sector.
+                Indian School of Media (ISM) is a leading institution in <strong>Media education, </strong> nurturing the next generation of media and event management professionals. Its curriculum combines industry-led lectures, hands-on training, and expert mentorship to ensure students are career-ready from day one. With deep ties to the <strong>Media and entertainment industry,</strong> ISM has empowered over 5000 graduates in the past decade, many of whom are shaping the future of this fast-evolving sector.
             </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
             <ul>
@@ -152,8 +152,14 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'nhss']) }}">
-                <img src="{{ asset('frontend-assets/img/work/banner/NHS.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>New Horizon School</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/banner/NHS.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>New Horizon School</b></p>
+                </a>
+            </div>
+            <div class="col lg-4 col-md-4 col-12">
+                <a href="{{ route('social_media', ['client'=>'inifd-vashi']) }}">
+                    <img src="{{ asset('frontend-assets/img/work/inifd-vashi/1.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>INIFD</b></p>
                 </a>
             </div>
         </div>
