@@ -1470,7 +1470,7 @@
                                                 </div>
                                                 <div class="box-info">
                                                     <h3 class="box-title text-black">Suyash Birje</h3>
-                                                    <span class="box-desig text-black">The WorldGrad</span>
+                                                    <span class="box-desig text-black">Ex Marketing Manager, The WorldGrad</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -1636,7 +1636,7 @@
         <div class="container">
             <div class="title-area text-center mb-25">
                 <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
-                    <span class="text-orange">PR Sociopedia</span><br>A library to go beyond the brief
+                    <span class="text-orange">PR Sociopedia</span><br>A library that goes beyond the brief
                 </h2>
             </div>
             <div class="swiper mySwiper">
@@ -1699,60 +1699,60 @@
                             <div class="swiper-slide">
                                 <a href="">
                                     <img src="{{ asset('frontend-assets/img/logo/pr/socialsamosa.jpg') }}"
-                                        alt="Logo" class="w-100">
+                                        alt="social samosa" class="w-100">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
                                     <img src="{{ asset('frontend-assets/img/logo/pr/storyboard.jpg') }}"
-                                        alt="Logo" class="w-100">
+                                        alt="story board" class="w-100">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/adgully.jpg') }}" alt="Logo"
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/adgully.jpg') }}" alt="adgully"
                                         class="w-100">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/yf.jpg') }}" alt="Logo"
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/yf.jpg') }}" alt="yf"
                                         class="w-100">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/etbeq.jpg') }}" alt="Logo"
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/etbeq.jpg') }}" alt="ET"
                                         class="w-100">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/4p.jpg') }}" alt="Logo"
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/4p.jpg') }}" alt="PR"
                                         class="w-100">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/bmi.jpg') }}" alt="Logo"
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/bmi.jpg') }}" alt="BMI"
                                         class="w-100">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/mb.jpg') }}" alt="Logo"
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/mb.jpg') }}" alt="MB"
                                         class="w-100">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/prsync.jpg') }}" alt="Logo"
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/prsync.jpg') }}" alt="PRSYNC"
                                         class="w-100">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/zada.jpg') }}" alt="Logo"
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/zada.jpg') }}" alt="ZADA"
                                         class="w-100">
                                 </a>
                             </div>
@@ -1799,7 +1799,7 @@
         <div class="container">
             <div class="title-area text-center mb-25">
                 <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
-                    <span class="text-orange">Sociopedia</span><br>A library to go beyond the brief
+                    <span class="text-orange">Sociopedia</span><br>A library that goes beyond the brief
                 </h2>
             </div>
             <div class="swiper mySwiper">

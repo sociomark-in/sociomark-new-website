@@ -131,7 +131,7 @@
 
         </div>
         <div class="mt-4 d-flex align-items-center justify-content-center">
-            <a href="{{ route('case-study') }}" class="th-btn th-icon">View All Casestudy</a>
+            <a href="{{ route('case-study') }}" class="th-btn th-icon">View All Case Study</a>
         </div>
     </div>
 </section>

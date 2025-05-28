@@ -67,6 +67,9 @@
                     <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
+            <div class="header-button mt-3">
+                <a href="{{ route('the-professional-couriers') }}" class="th-btn th-icon">READ OUR CASE STUDY</a>
+            </div>
 
         </div>
     </div>
@@ -142,7 +145,7 @@
     </div>
 </section>
 
-<section class="porfolio-text overflow-hidden space ">
+<section class="porfolio-text overflow-hidden space d-none">
     <div class="container">
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>

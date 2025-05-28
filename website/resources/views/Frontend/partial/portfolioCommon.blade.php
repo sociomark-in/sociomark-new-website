@@ -23,30 +23,28 @@
         <div class="row">
             <div class="swiper caseStudySwiper">
                 <div class="swiper-wrapper">
-
-                
                     <div class="swiper-slide">
                         <a href="{{ route('social_media', ['client'=>'cyber-power']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/2.png') }}" alt="" class="w-100">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
+                            <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/2.png') }}" alt="Cyber Power" class="w-100">
+                            <div class="portfolio-title d-flex justify-content-center align-items-center">
                                 <h4 class="sub-sec-title text-white">Cyber Power</h4>
                             </div>
                         </a>
                     </div>
                     <div class="swiper-slide d-none">
                         <a href="{{ route('social_media', ['client'=>'bulid-track']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/portfolio/Build Track/2.jpg') }}" alt="Brand Logo"
+                            <img src="{{ asset('frontend-assets/img/portfolio/Build Track/2.jpg') }}" alt="Build Track"
                                 class="img-fluid">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
+                            <div class="portfolio-title d-flex justify-content-center align-items-center">
                                 <h4 class="sub-sec-title text-white">Build Track</h4>
                             </div>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a href="{{ route('social_media', ['client'=>'the-professional-couriers']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/portfolio/tpc/1.png') }}" alt="Brand Logo"
+                            <img src="{{ asset('frontend-assets/img/portfolio/tpc/1.png') }}" alt="TPC"
                                 class="img-fluid">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
+                            <div class="portfolio-title d-flex justify-content-center align-items-center">
                                 <h4 class="sub-sec-title text-white">The Professional Couriers</h4>
                             </div>
                         </a>
@@ -54,9 +52,9 @@
 
                     <div class="swiper-slide">
                         <a href="{{ route('social_media', ['client'=>'ayu-health']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/portfolio/ayuhealth/1.png') }}" alt="Brand Logo"
+                            <img src="{{ asset('frontend-assets/img/portfolio/ayuhealth/1.png') }}" alt="AYUHEALTH"
                                 class="img-fluid">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
+                            <div class="portfolio-title d-flex justify-content-center align-items-center">
                                 <h4 class="sub-sec-title text-white">Ayu Health</h4>
                             </div>
                         </a>
@@ -64,18 +62,18 @@
 
                     <div class="swiper-slide d-none">
                         <a href="{{ route('social_media', ['client'=>'nmmc']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/portfolio/nmmc/1.jpg') }}" alt="Brand Logo"
+                            <img src="{{ asset('frontend-assets/img/portfolio/nmmc/1.jpg') }}" alt="NMMC"
                                 class="img-fluid">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
+                            <div class="portfolio-title d-flex justify-content-center align-items-center">
                                 <h4 class="sub-sec-title text-white">NMMC</h4>
                             </div>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a href="{{ route('social_media', ['client'=>'euro']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/portfolio/EURO/Basketball_2.jpg') }}" alt="Brand Logo"
+                            <img src="{{ asset('frontend-assets/img/portfolio/EURO/Basketball_2.jpg') }}" alt="EURO"
                                 class="img-fluid">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
+                            <div class="portfolio-title d-flex justify-content-center align-items-center">
                                 <h4 class="sub-sec-title text-white">Euro</h4>
                             </div>
                         </a>
@@ -83,27 +81,27 @@
 
                     <div class="swiper-slide">
                         <a href="{{ route('social_media', ['client'=>'jop']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/portfolio/jop/2.png') }}" alt="Brand Logo"
+                            <img src="{{ asset('frontend-assets/img/portfolio/jop/2.png') }}" alt="JOP"
                                 class="img-fluid">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
+                            <div class="portfolio-title d-flex justify-content-center align-items-center">
                                 <h4 class="sub-sec-title text-white">JOP</h4>
                             </div>
                         </a>
                     </div>
                     <div class="swiper-slide">
                         <a href="{{ route('social_media', ['client'=>'nodwin']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/portfolio/nodwin/1.png') }}" alt="Brand Logo"
+                            <img src="{{ asset('frontend-assets/img/portfolio/nodwin/1.png') }}" alt="Nodwin"
                                 class="img-fluid">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
+                            <div class="portfolio-title d-flex justify-content-center align-items-center">
                                 <h4 class="sub-sec-title text-white">Nodwin</h4>
                             </div>
                         </a>
                     </div>
                     <div class="swiper-slide d-none">
                         <a href="{{ route('social_media', ['client'=>'bem']) }}" class="portfolio-item">
-                            <img src="{{ asset('frontend-assets/img/portfolio/bem') }}" alt="Brand Logo"
+                            <img src="{{ asset('frontend-assets/img/portfolio/bem/1.jpeg') }}" alt="BEM"
                                 class="img-fluid">
-                            <div class="portfolio-title d-flex justify-content-center align-items-center d-flex justify-content-center align-items-center">
+                            <div class="portfolio-title d-flex justify-content-center align-items-center">
                                 <h4 class="sub-sec-title text-white">BEM</h4>
                             </div>
                         </a>

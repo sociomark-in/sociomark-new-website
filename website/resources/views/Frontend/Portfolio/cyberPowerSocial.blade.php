@@ -59,6 +59,9 @@
                     <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
+            <div class="header-button mt-3">
+                <a href="{{ route('cyberPower') }}" class="th-btn th-icon">READ OUR CASE STUDY</a>
+            </div>
 
         </div>
     </div>
@@ -143,23 +146,11 @@
     <div class="container">
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
-
-            <div class="col lg-4 col-md-4 col-12">
-                <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
-                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Ayushakti</b></p>
-                </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
-                <a href="{{ route('social_media', ['client'=>'jivana']) }}">
-                <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
-                </a>
-            </div>
-            <div class="col lg-4 col-md-4 col-12">
-                <a href="{{ route('social_media', ['client'=>'cyber-power']) }}">
-                <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
+                <a href="{{ route('social_media', ['client'=>'nodwin-gaming']) }}">
+                <img src="{{ asset('frontend-assets/img/work/nodwin/1.jpg') }}" alt="" srcset="" class="w-100">
+                <p class="sec-para text-center text-blue mt-2"><b>Nodwin Gaming</b></p>
                 </a>
             </div>
            

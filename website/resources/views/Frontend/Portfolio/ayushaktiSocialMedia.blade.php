@@ -179,26 +179,28 @@
 </section>
 
 
-<section class="porfolio-text section-margin">
+
+<section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
 
             <div class="col lg-4 col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
+                <a href="{{ route('social_media', ['client'=>'ayu-health']) }}">
+                <img src="{{ asset('frontend-assets/img/work/ayu health/ayu health.jpg') }}" alt="" srcset="" class="w-100">
                 <p class="sec-para text-center text-blue mt-2"><b>Ayuhealth</b></p>
+                </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Shehanaz</b></p>
-            </div>
-            <div class="col lg-4 col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
+                <a href="{{ route('social_media', ['client'=>'stemrx-bioscience']) }}">
+                <img src="{{ asset('frontend-assets/img/work/banner/stemrx.jpg') }}" alt="" srcset="" class="w-100">
+                <p class="sec-para text-center text-blue mt-2"><b>StemRx</b></p>
+                </a>
             </div>
             <div class="header-button mt-3">
                 <a href="{{ route('ayushakti') }}" class="th-btn th-icon">View Our Porfolio</a>
             </div>
+           
         </div>
     </div>
 </section>
