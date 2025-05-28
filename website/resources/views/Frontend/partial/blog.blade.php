@@ -27,7 +27,7 @@
                             </div>
                             <h3 class="blog-title blog-title-text">
                                 <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                    {{ Str::limit($blog->blog_name, 50) }}
+                                    {{ Str::limit($blog->card_title, 50) }}
                                 </a>
                             </h3>
 
