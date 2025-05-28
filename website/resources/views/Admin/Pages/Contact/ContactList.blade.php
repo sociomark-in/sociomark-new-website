@@ -339,24 +339,40 @@
             new ApexCharts(document.querySelector("#apexArea"), options).render();
         });
         // pie service
-        const serviceCounts = @json($serviceCounts);
-        const serviceLabels = Object.keys(serviceCounts);
-        const serviceData = Object.values(serviceCounts);
+        const rawServiceStrings = @json($services); // e.g., ["SEO, Web Dev", "SEO", "Social Media, SEO"]
 
-        document.addEventListener("DOMContentLoaded", function() {
-            var pieOptions = {
-                chart: {
-                    type: 'pie',
-                    height: 350
-                },
-                labels: serviceLabels,
-                series: serviceData,
-                colors: ['#ff4c51', '#00c292', '#ff9800', '#03a9f4', '#9c27b0', '#607d8b', '#ffc107']
-            };
-
-            new ApexCharts(document.querySelector("#apexPie"), pieOptions).render();
+    // Step 1: Flatten the service selections
+    const allServices = [];
+    rawServiceStrings.forEach(entry => {
+        const services = entry.split(',');
+        services.forEach(service => {
+            const cleaned = service.trim();
+            if (cleaned) allServices.push(cleaned);
         });
+    });
 
+    // Step 2: Count occurrences
+    const serviceCounts = {};
+    allServices.forEach(service => {
+        serviceCounts[service] = (serviceCounts[service] || 0) + 1;
+    });
+
+    const serviceLabels = Object.keys(serviceCounts);
+    const serviceData = Object.values(serviceCounts);
+
+    document.addEventListener("DOMContentLoaded", function () {
+        var pieOptions = {
+            chart: {
+                type: 'pie',
+                height: 350
+            },
+            labels: serviceLabels,
+            series: serviceData,
+            colors: ['#ff4c51', '#00c292', '#ff9800', '#03a9f4', '#9c27b0', '#607d8b', '#ffc107']
+        };
+
+        new ApexCharts(document.querySelector("#apexPie"), pieOptions).render();
+    });
         // chart status
         var options = {
             chart: {
