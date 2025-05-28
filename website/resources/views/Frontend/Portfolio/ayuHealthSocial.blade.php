@@ -171,7 +171,7 @@
                 <p class="sec-para text-center text-blue mt-2"><b>StemRx</b></p>
                 </a>
             </div>
-            <div class="header-button mt-3">
+            <div class="mt-3">
                 <a href="{{ route('ayushakti') }}" class="th-btn th-icon">View Our Porfolio</a>
             </div>
            
