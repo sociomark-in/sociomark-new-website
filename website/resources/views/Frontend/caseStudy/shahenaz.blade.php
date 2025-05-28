@@ -98,7 +98,7 @@
                         <th>Our Mission</th>
                     </tr>
                     <tr>
-                        <td>To increase sales and enhance brand awareness of Shahenaz by showcasing the premium quality and cultural richness of our ethnic wear.</td>
+                        <td class="sec-para">To increase sales and enhance brand awareness of Shahenaz by showcasing the premium quality and cultural richness of our ethnic wear.</td>
                     </tr>
                 </table>
             </div>
@@ -108,7 +108,7 @@
                         <th>Our Vision</th>
                     </tr>
                     <tr>
-                        <td>To become a leading premium ethnic wear brand that celebrates India's heritage through contemporary designs, known for its elegance and superior craftsmanship.</td>
+                        <td class="sec-para">To become a leading premium ethnic wear brand that celebrates India's heritage through contemporary designs, known for its elegance and superior craftsmanship.</td>
                     </tr>
                 </table>
             </div>
@@ -118,7 +118,7 @@
                         <th>Our Goals</th>
                     </tr>
                     <tr>
-                        <td>To achieve a significant growth in sales and establish a strong brand presence in the market, resonating with customers who appreciate high-quality ethnic fashion.</td>
+                        <td class="sec-para">To achieve a significant growth in sales and establish a strong brand presence in the market, resonating with customers who appreciate high-quality ethnic fashion.</td>
                     </tr>
                 </table>
             </div>
@@ -180,15 +180,15 @@
             </div>
             <div class="col-6 col-md-4">
                 <div class="percentage">
-                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">1,19,086</div>
+                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">120k+</div>
                     <h3 class="text-center fs-6 text-blue mt-3">Impressions</h3>
                 </div>
                 <div class="percentage">
-                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">63,186</div>
+                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">63k+</div>
                     <h3 class="text-center fs-6 text-blue mt-3">Reach</h3>
                 </div>
                 <div class="percentage">
-                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">68,437</div>
+                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">68k+</div>
                     <h3 class="text-center fs-6 text-blue mt-3">Video Views</h3>
                 </div>
             </div>
@@ -233,15 +233,15 @@
             </div>
             <div class="col-6 col-md-4">
                 <div class="percentage">
-                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">49,300</div>
+                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">50k+</div>
                     <h3 class="text-center fs-6 text-blue mt-3">Impressions</h3>
                 </div>
                 <div class="percentage">
-                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">23,010</div>
+                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">24k+</div>
                     <h3 class="text-center fs-6 text-blue mt-3">Reach</h3>
                 </div>
                 <div class="percentage">
-                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">19,790</div>
+                    <div class="strategy text-center" style="border-radius: 100%;padding: 30px;width: fit-content;margin: 0 auto;">20k+</div>
                     <h3 class="text-center fs-6 text-blue mt-3">Video Views</h3>
                 </div>
             </div>
