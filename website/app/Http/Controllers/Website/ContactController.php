@@ -28,7 +28,7 @@ class ContactController extends Controller
             'email' => 'required|email',
             'phone' => ['required', 'regex:/^\+?[0-9\s\-]{7,20}$/'],
             'countryCode' => ['required'],
-            'service' => 'required',
+            'service' => 'required|array',
             'budget' => 'required',
             'aboutUs' => 'required',
             'messageforus' => 'nullable',
@@ -39,6 +39,7 @@ class ContactController extends Controller
             'utm_content' => 'nullable|string|max:255',
         ]);
         $data['phone'] = $data['countryCode'] .' '. $data['phone'];
+        $data['service'] = implode(', ', $data['service']);
 
         $lead = Contact::create($data);
         // $lead = Contact::create($request->all());
