@@ -118,9 +118,11 @@ Route::get('/terms-and-condition', [HomeController::class, 'termsAndcondition'])
 Route::get('/thank-you', [HomeController::class, 'thankYou'])->name('thankYou');
 
 // admin
+Route::middleware(['auth', 'admin:admin'])->group(function () {
+    Route::get('/admin/register', [AuthController::class, 'showRegisterForm'])->name('register');
+    Route::post('/admin/register', [AuthController::class, 'register'])->name('storeregister');
+});
 
-Route::get('/admin/register', [AuthController::class, 'showRegisterForm'])->name('register');
-Route::post('/admin/register', [AuthController::class, 'register'])->name('storeregister');
 Route::get('/admin/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('/admin/login', [AuthController::class, 'login']);
 Route::post('/admin/logout', [AuthController::class, 'logout'])->name('logout');
