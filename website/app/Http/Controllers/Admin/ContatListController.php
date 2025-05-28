@@ -49,11 +49,12 @@ class ContatListController extends Controller
             ->count();
 
         // Pie chart data: service-wise leads
-        $serviceCounts = Contact::selectRaw('service, COUNT(*) as count')
-            ->whereBetween('created_at', [$startOfMonth, $endOfMonth])
-            ->whereNotNull('service')
-            ->groupBy('service')
-            ->pluck('count', 'service');
+        $services = Contact::pluck('service');
+        // $serviceCounts = Contact::selectRaw('service, COUNT(*) as count')
+        //     ->whereBetween('created_at', [$startOfMonth, $endOfMonth])
+        //     ->whereNotNull('service')
+        //     ->groupBy('service')
+        //     ->pluck('count', 'service');
 
         // Status-wise leads chart
         $knownStatuses = ['New', 'Hot', 'Warm', 'Cold', 'Lost', 'Converted'];
@@ -110,9 +111,9 @@ class ContatListController extends Controller
             'totalOrganicLeadsThisMonth',
             'totalAdLeads',
             'totalAdLeadsThisMonth',
-            'serviceCounts',
             'statusWiseLeads',
-            'chartDates'
+            'chartDates',
+            'services'
         ));
     }
 
