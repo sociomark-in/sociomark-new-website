@@ -23,7 +23,7 @@
             border-radius: 10px;
             padding: 45px 23px;
             /* box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-                                                                    border: 2px solid transparent; */
+                                                                        border: 2px solid transparent; */
             box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
             -webkit-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
             -moz-box-shadow: 0px 3px 11px -4px rgba(0, 0, 0, 0.59);
@@ -166,7 +166,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-4">
                         <!-- <div class="title-area text-center">
-                                                                                        </div> -->
+                                                                                            </div> -->
                         <div class="row gy-4 flex-column">
                             <div class="col-xl-12 col-md-12">
                                 <div class="contact-media">
@@ -193,10 +193,10 @@
                                             Email: <a href="mailto:business@sociomark.in">business@sociomark.in</a>
                                         </p>
                                         <!-- <h6 class="careers-contact">For Careers</h6>
-                                                                    <p class="sec-para">
-                                                                        Mobile: <a href="tel:+971504266118">+971 50 426 6118</a><br>
-                                                                        Email: <a href="mailto:hr@sociomark.in">hr@sociomark.in</a>
-                                                                    </p> -->
+                                                                        <p class="sec-para">
+                                                                            Mobile: <a href="tel:+971504266118">+971 50 426 6118</a><br>
+                                                                            Email: <a href="mailto:hr@sociomark.in">hr@sociomark.in</a>
+                                                                        </p> -->
                                     </div>
                                 </div>
                             </div>
@@ -348,24 +348,75 @@
                                             <span class="text-danger">{{ $message }}</span>
                                         @enderror
                                     </div>
-                                    <div class="form-group col-md-6">
-
-                                        <label class="sec-para" for="service">Service you want?</label>
-                                        <select class="form-select @error('service') is-invalid @enderror" id="service"
-                                            name="service">
-                                            <option selected disabled>Choose an option</option>
-                                            <option value="Search Engine Optimization">Search Engine Optimization</option>
-                                            <option value="Website Development">Website Development</option>
-                                            <option value="Social Media">Social Media</option>
-                                            <option value="Digital Marketing">Digital Marketing</option>
-                                            <option value="Conetnt Marketing">Conetnt Marketing</option>
-                                            <option value="SEM">Performance Marketing</option>
-                                            <option value="Photography & Video Production">Photography & Video Production
-                                            </option>
-                                        </select>
-
+                          
+                                    <div class="form-group col-md-12">
+                                        <label class="sec-para">Service you want?</label> {{-- Label now applies to the group --}}
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="form-check @error('service') is-invalid @enderror">
+                                                    {{-- Container for checkboxes --}}
+                                                    {{-- Individual checkboxes --}}
+                                                    <input class="form-check-input" type="checkbox" name="service[]"
+                                                        id="seo" value="Search Engine Optimization"
+                                                        @if (is_array(old('service')) && in_array('Search Engine Optimization', old('service'))) checked @endif>
+                                                    <label class="form-check-label" for="seo">SEO</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-check @error('service') is-invalid @enderror">
+                                                    <input class="form-check-input" type="checkbox" name="service[]"
+                                                        id="webdev" value="Website Development"
+                                                        @if (is_array(old('service')) && in_array('Website Development', old('service'))) checked @endif>
+                                                    <label class="form-check-label" for="webdev">Website
+                                                        Development</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-check @error('service') is-invalid @enderror">
+                                                    <input class="form-check-input" type="checkbox" name="service[]" id="socialmedia" value="Social Media"
+                                                           @if(is_array(old('service')) && in_array('Social Media', old('service'))) checked @endif>
+                                                    <label class="form-check-label" for="socialmedia">Social Media</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-check @error('service') is-invalid @enderror">
+                                                    <input class="form-check-input" type="checkbox" name="service[]"
+                                                        id="digitalmarketing" value="Digital Marketing"
+                                                        @if (is_array(old('service')) && in_array('Digital Marketing', old('service'))) checked @endif>
+                                                    <label class="form-check-label" for="digitalmarketing">Digital
+                                                        Marketing</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-check @error('service') is-invalid @enderror">
+                                                    <input class="form-check-input" type="checkbox" name="service[]"
+                                                        id="contentmarketing" value="Content Marketing"
+                                                        @if (is_array(old('service')) && in_array('Content Marketing', old('service'))) checked @endif>
+                                                    <label class="form-check-label" for="contentmarketing">Content
+                                                        Marketing</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-check @error('service') is-invalid @enderror">
+                                                    <input class="form-check-input" type="checkbox" name="service[]"
+                                                        id="sem" value="SEM"
+                                                        @if (is_array(old('service')) && in_array('SEM', old('service'))) checked @endif>
+                                                    <label class="form-check-label" for="sem">Performance Marketing</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-check @error('service') is-invalid @enderror">
+                                                    <input class="form-check-input" type="checkbox" name="service[]"
+                                                        id="photovideo" value="Photography & Video Production"
+                                                        @if (is_array(old('service')) && in_array('Photography & Video Production', old('service'))) checked @endif>
+                                                    <label class="form-check-label" for="photovideo">Photography & Video
+                                                        Production</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {{-- Error message for the group of checkboxes --}}
                                         @error('service')
-                                            <span class="text-danger">{{ $message }}</span>
+                                            <span class="text-danger mt-1">{{ $message }}</span>
                                         @enderror
                                     </div>
                                     <div class="form-group col-12">
@@ -587,7 +638,4 @@
             </div>
         </div>
     </main>
-
-
-
 @endsection
