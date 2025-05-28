@@ -1,8 +1,6 @@
  <!--==============================
     All Js File
 ============================== -->
- <!-- Jquery -->
- <script src="{{ asset('frontend-assets/js/vendor/jquery-3.7.1.min.js') }}"></script>
  <!-- Swiper Slider -->
  <script src="{{ asset('frontend-assets/js/swiper-bundle.min.js') }}"></script>
  <!-- Bootstrap -->

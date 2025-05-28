@@ -39,7 +39,10 @@
     pointer-events: none;
     z-index: 10000;
 }
-
+#contactform .sec-para {
+    font-size: 18px;
+    font-weight: 500;
+}
 p {
     font-weight: 500;
     color: var(--color-black);

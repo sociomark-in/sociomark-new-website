@@ -1699,60 +1699,60 @@
                             <div class="swiper-slide">
                                 <a href="">
                                     <img src="{{ asset('frontend-assets/img/logo/pr/socialsamosa.jpg') }}"
-                                        alt="Logo" class="w-100">
+                                        alt="social samosa" class="w-100">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
                                     <img src="{{ asset('frontend-assets/img/logo/pr/storyboard.jpg') }}"
-                                        alt="Logo" class="w-100">
+                                        alt="story board" class="w-100">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/adgully.jpg') }}" alt="Logo"
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/adgully.jpg') }}" alt="adgully"
                                         class="w-100">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/yf.jpg') }}" alt="Logo"
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/yf.jpg') }}" alt="yf"
                                         class="w-100">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/etbeq.jpg') }}" alt="Logo"
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/etbeq.jpg') }}" alt="ET"
                                         class="w-100">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/4p.jpg') }}" alt="Logo"
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/4p.jpg') }}" alt="PR"
                                         class="w-100">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/bmi.jpg') }}" alt="Logo"
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/bmi.jpg') }}" alt="BMI"
                                         class="w-100">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/mb.jpg') }}" alt="Logo"
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/mb.jpg') }}" alt="MB"
                                         class="w-100">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/prsync.jpg') }}" alt="Logo"
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/prsync.jpg') }}" alt="PRSYNC"
                                         class="w-100">
                                 </a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="">
-                                    <img src="{{ asset('frontend-assets/img/logo/pr/zada.jpg') }}" alt="Logo"
+                                    <img src="{{ asset('frontend-assets/img/logo/pr/zada.jpg') }}" alt="ZADA"
                                         class="w-100">
                                 </a>
                             </div>
