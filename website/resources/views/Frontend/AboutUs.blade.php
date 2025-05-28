@@ -21,8 +21,12 @@
         <div class="breadcumb-wrapper p-0">
             <div class="">
                 <div class="w-100" style="height: 70vh;">
-                    <video playsinline src="{{ asset('frontend-assets/about.mp4') }}" loop autoplay muted class="w-100 h-100"
-                        style="object-fit: cover;"></video>
+                 
+                        <video playsinline loop muted autoplay class="w-100"
+                        poster="{{ asset('frontend-assets/img/posters/about_video_poster.jpg') }}">
+                        <source src="{{ asset('frontend-assets/about.mp4') }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
         </div>
@@ -39,7 +43,7 @@
                     </div>
                     <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">
                         <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100">
-                            At Sociomark, we don’t believe in one-size-fits-all. For over 8 years, we’ve partnered with
+                            At Sociomark, we don’t believe in one-size-fits-all. Since 2017, we’ve partnered with
                             brands across India and beyond—crafting tailored digital strategies that are as unique as their
                             stories. Be it SEO, social media, performance marketing, or full-stack development, our approach
                             is rooted in listening first, executing second, and always delivering what truly works.
@@ -435,53 +439,7 @@
         </div>
     </section>
 
-    <section class="about-area overflow-hidden position-relative p-0 d-none" id="about-banner"
-        style="background-color: black;">
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-12 p-0 position-relative">
 
-                    <!-- Static Background Text Centered -->
-                    <div class="static-text position-absolute top-50 start-50 translate-middle text-center w-100"
-                        style="z-index: 0; pointer-events: none;">
-                        <h1 style="font-size: 100px; color: white; font-weight: 900; white-space: nowrap;">
-                            SINCE 2017
-                        </h1>
-                    </div>
-
-                    <!-- Video Layer -->
-                    <div class="img player-video" id="videoScaleDown" style="position: relative; z-index: 1;">
-                        <video class="w-100" playsinline autoplay muted loop>
-                            <source src="{{ asset('frontend-assets/test_video.mp4') }}">
-                        </video>
-                    </div>
-
-                    @push('scripts')
-                    <script>
-                        gsap.set("#videoScaleDown", {
-                            xPercent: 0,
-                            yPercent: 0,
-                            scale: 1.4,
-                        });
-
-                        gsap.to("#videoScaleDown", {
-                            scale: 0.7,
-                            transformOrigin: "center",
-                            scrollTrigger: {
-                                trigger: "#videoScaleDown",
-                                // start: "40% 50%",
-                                // end: "+=1000",
-                                markers: false,
-                                pin: true,
-                                scrub: true
-                            }
-                        });
-                    </script>
-                    @endpush
-                </div>
-            </div>
-        </div>
-    </section>
 
     <section class="mb-2 founder space" id="our-founder">
         <div class="container">
@@ -598,9 +556,11 @@
         </div>
         <div class="row g-3">
             <div class="col-12">
-                <video loop muted playsinline autoplay class="w-100">
-                    <source src="{{ asset('frontend-assets/core-team.mp4') }}">
-                </video>
+                        <video playsinline loop muted autoplay class="w-100"
+                        poster="{{ asset('frontend-assets/img/posters/core_team_video_poster.jpg') }}">
+                        <source src="{{ asset('frontend-assets/core-team.mp4') }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
             </div>
         </div>
         </div>
@@ -625,7 +585,7 @@
                         strategy, and speed to the table.
                     </p>
                     <p class="sec-para" data-aos="fade-up" data-aos-delay="200">
-                        Over the past 8 years, we’ve partnered with brands across India and beyond—crafting digital
+                        Since 2017, we’ve partnered with brands across India and beyond—crafting digital
                         journeys that are anything but ordinary. Whether it’s content, campaigns, or conversions—we keep
                         it fresh, we keep it focused, and we keep it fast.
                     </p>
