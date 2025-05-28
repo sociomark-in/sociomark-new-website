@@ -67,7 +67,7 @@
                         <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="100">
                             We're not just a team—we're a collective of curious minds, passionate storytellers, strategic
                             thinkers, and design junkies. Our power lies in how we mix insight with imagination and strategy
-                            with soul. From 8 years of building brands across industries, we’ve learned that meaningful
+                            with soul. Since 2017 of building brands across industries, we’ve learned that meaningful
                             marketing comes from meaningful intent.
                         </p>
                     </div>

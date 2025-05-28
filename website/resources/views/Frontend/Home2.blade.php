@@ -1470,7 +1470,7 @@
                                                 </div>
                                                 <div class="box-info">
                                                     <h3 class="box-title text-black">Suyash Birje</h3>
-                                                    <span class="box-desig text-black">The WorldGrad</span>
+                                                    <span class="box-desig text-black">Ex Marketing Manager, The WorldGrad</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -1636,7 +1636,7 @@
         <div class="container">
             <div class="title-area text-center mb-25">
                 <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
-                    <span class="text-orange">PR Sociopedia</span><br>A library to go beyond the brief
+                    <span class="text-orange">PR Sociopedia</span><br>A library that goes beyond the brief
                 </h2>
             </div>
             <div class="swiper mySwiper">
@@ -1799,7 +1799,7 @@
         <div class="container">
             <div class="title-area text-center mb-25">
                 <h2 class="fw-bold sec-title my-3" data-aos="fade-up" data-aos-delay="100">
-                    <span class="text-orange">Sociopedia</span><br>A library to go beyond the brief
+                    <span class="text-orange">Sociopedia</span><br>A library that goes beyond the brief
                 </h2>
             </div>
             <div class="swiper mySwiper">
