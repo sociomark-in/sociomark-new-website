@@ -59,10 +59,10 @@
                 });
             }
         }, 3000);
-    }); 
+    });
 
 
-    // $('select').niceSelect(); 
+    // $('select').niceSelect();
     if ($('.nice-select').length) {
         $('.nice-select').niceSelect();
     }
@@ -603,7 +603,7 @@
 
     if($('.th-anim').length){
         gsap.registerPlugin(ScrollTrigger);
-        let revealContainers = document.querySelectorAll(".th-anim"); 
+        let revealContainers = document.querySelectorAll(".th-anim");
         revealContainers.forEach((container) => {
           let image = container.querySelector("img");
           let tl = gsap.timeline({
@@ -624,9 +624,9 @@
             ease: Power2.out
           });
         });
-    }    
+    }
 
- 
+
   //========== PRELOADER AREA ============= //
 
      /************lettering js***********/
@@ -635,11 +635,11 @@
         if (a.length) {
             $(a).each(function(i, item) {
                 inject += '<span class="'+klass+(i+1)+'">'+item+'</span>'+after;
-            });	
+            });
             t.empty().append(inject);
         }
     }
-    
+
     var methods = {
         init : function() {
 
@@ -656,14 +656,14 @@
             });
 
         },
-        
+
         lines : function() {
 
             return this.each(function() {
                 var r = "eefec303079ad17405c889e092e105b0";
                 // Because it's hard to split a <br/> tag consistently across browsers,
-                // (*ahem* IE *ahem*), we replaces all <br/> instances with an md5 hash 
-                // (of the word "split").  If you're trying to use this plugin on that 
+                // (*ahem* IE *ahem*), we replaces all <br/> instances with an md5 hash
+                // (of the word "split").  If you're trying to use this plugin on that
                 // md5 hash string, it will fail because you're being ridiculous.
                 injector($(this).children("br").replaceWith(r).end(), r, 'line', '');
             });
@@ -682,7 +682,7 @@
         return this;
     };
 
-    $(".discount-anime").lettering();     
+    $(".discount-anime").lettering();
 
 
     /*---------- 13. Section Position ----------*/
@@ -734,18 +734,18 @@
         var activeIndex = $(event.target).closest('.accordion-item').index();
         $('.th-accordion_images img').removeClass('active');
         $('.th-accordion_images img').eq(activeIndex).addClass('active');
-    }); 
+    });
 
-    
+
      /*----------- serviceAccordion home2 ----------*/
      $(document).on('mouseover', '.hover-item', function () {
         $(this).addClass('item-active');
         $('.hover-item').removeClass('item-active');
         $(this).addClass('item-active');
     });
-    
 
-     /*----------- 15. Filter ----------*/  
+
+     /*----------- 15. Filter ----------*/
      $(".filter-active").imagesLoaded(function () {
         var $filter = ".filter-active",
             $filterItem = ".filter-item",
@@ -937,16 +937,16 @@
     animateElements();
     $(window).scroll(animateElements);
 
-    function radial_animate() { 
-        $('.radial-progress').each(function( index, value ) { 
+    function radial_animate() {
+        $('.radial-progress').each(function( index, value ) {
 
-            $(this).find($('circle.bar--animated')).removeAttr( 'style' );    
+            $(this).find($('circle.bar--animated')).removeAttr( 'style' );
             // Get element in Veiw port
             var elementTop = $(this).offset().top;
             var elementBottom = elementTop + $(this).outerHeight();
             var viewportTop = $(window).scrollTop();
             var viewportBottom = viewportTop + $(window).height();
-            
+
             if(elementBottom > viewportTop && elementTop < viewportBottom) {
                 var percent = $(value).data('countervalue');
                 var radius = $(this).find($('circle.bar--animated')).attr('r');
@@ -956,9 +956,9 @@
             }
         });
     }
-// To check If it is in Viewport 
+// To check If it is in Viewport
     var $window = $(window);
-    function check_if_in_view() {    
+    function check_if_in_view() {
         $('.countervalue').each(function(){
             if ($(this).hasClass('start')){
                 var elementTop = $(this).offset().top;
@@ -978,7 +978,7 @@
                                   duration: 2800,
                                   easing: 'swing',
                                   step: function(now) {
-                                      $(this).text(Math.ceil(now)  + '%');                                
+                                      $(this).text(Math.ceil(now)  + '%');
                                   }
                               });
                           } else {
@@ -987,8 +987,8 @@
                               }, {
                                   duration: 2800,
                                   easing: 'swing',
-                                  step: function(now) {                                
-                                      $(this).text(now.toFixed(2)  + '$'); 
+                                  step: function(now) {
+                                      $(this).text(now.toFixed(2)  + '$');
                                   }
                               });
                           }
@@ -1211,13 +1211,13 @@
 
     // /*----------- 00. Right Click Disable ----------*/
     //   window.addEventListener('contextmenu', function (e) {
-    //     // do something here... 
-    //     e.preventDefault();  
-    //   }, false); 
+    //     // do something here...
+    //     e.preventDefault();
+    //   }, false);
 
     // /*----------- 00. Inspect Element Disable ----------*/
     //   document.onkeydown = function (e) {
-    //     if (event.keyCode == 123) { 
+    //     if (event.keyCode == 123) {
     //       return false;
     //     }
     //     if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
@@ -1229,9 +1229,9 @@
     //     if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
     //       return false;
     //     }
-    //     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) { 
+    //     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
     //       return false;
     //     }
-    //   }       
+    //   }
 
 })(jQuery);

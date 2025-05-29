@@ -37,7 +37,7 @@
 
 @section('content')
 <main>
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/case-study/OfftheHook/offthehook.png') }}">
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('frontend-assets/img/case-study/trollers.png') }}">
         <div class="container">
             <div class="breadcumb-content">
 
@@ -64,7 +64,7 @@
                         <th>Our Mission</th>
                     </tr>
                     <tr>
-                        <td>To increase sales and elevate brand awareness for Off The Hook by highlighting the premium quality, fresh ingredients, and West Coast culinary experience that define our seafood offerings.
+                        <td class="sec-para">To increase sales and elevate brand awareness for Off The Hook by highlighting the premium quality, fresh ingredients, and West Coast culinary experience that define our seafood offerings.
                         </td>
                     </tr>
                 </table>
@@ -75,7 +75,7 @@
                         <th>Our Vision</th>
                     </tr>
                     <tr>
-                        <td>To increase sales and elevate brand awareness for Off The Hook by highlighting the premium quality, fresh ingredients, and West Coast culinary experience that define our seafood offerings.
+                        <td class="sec-para">To increase sales and elevate brand awareness for Off The Hook by highlighting the premium quality, fresh ingredients, and West Coast culinary experience that define our seafood offerings.
                         </td>
                     </tr>
                 </table>
@@ -86,7 +86,7 @@
                         <th>Our Goals</th>
                     </tr>
                     <tr>
-                        <td>To increase sales and elevate brand awareness for Off The Hook by highlighting the premium quality, fresh ingredients, and West Coast culinary experience that define our seafood offerings.
+                        <td class="sec-para">To increase sales and elevate brand awareness for Off The Hook by highlighting the premium quality, fresh ingredients, and West Coast culinary experience that define our seafood offerings.
                         </td>
                     </tr>
                 </table>

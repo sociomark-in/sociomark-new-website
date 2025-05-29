@@ -36,15 +36,13 @@
                     </div>
                     <div class="col-lg-8">
                         <div class="title-area mb-25 mt-n1">
-                            <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100"
-                                >
-                                Fueling <span class="text-blue">Digital Narratives</span> for News & Media Brands
+                            <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100">
+                                Empowering   <span class="text-blue">Governance</span> Through Digital Media
                             </h2>
                         </div>
                         <p class="mt-n2 mb-25 sec-para" data-aos="fade-down" data-aos-delay="100"
                             >
-                            In an age of constant content, we help your stories lead the scroll. From performance campaigns to social storytelling, we craft strategies that spark conversations, build trust, and keep your audience coming back for more.
-
+                            We collaborate with government bodies to enhance public communication and engagement through strategic digital solutions. From managing official social media handles to covering key events, we ensure timely and impactful messaging across platforms. Our team offers complete content creation support, including videography, photography, and graphic design—to document initiatives, showcase achievements, and build public trust. Whether it’s a campaign launch or a grassroots event, we help make every effort visible, clear, and citizen-focused.
                         </p>
                         <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get
                             A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
