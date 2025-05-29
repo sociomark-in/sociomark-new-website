@@ -90,6 +90,7 @@
     </main>
     @include('Frontend/partial/Footer')
     @include('Frontend/partial/jsLinks')
+    
     {{-- This will render all scripts pushed with @push('scripts') --}}
     @stack('scripts')
     <!-- Before </body> -->

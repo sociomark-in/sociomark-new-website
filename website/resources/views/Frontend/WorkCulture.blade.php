@@ -387,6 +387,264 @@
         </section>
 
         <section class="space bg-grey">
+            <div class="container-fluid">
+                <div class="section-vertical">
+                    <div class="">
+                        <div class="title-area text-center">
+                            <div class="shadow-title">Journey</div>
+                            {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
+                            <h2 class="sec-title">Our <span class="text-orange">reMARKable Journey</span></h2>
+                        </div>
+                        <div class="row justify-content-center mb-4">
+                            <div class="col-xxl-8 col-xl-9 col-lg-10 col-12">
+                                <p data-aos="fade-left">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus ad sapiente aliquid,
+                                    molestias quae suscipit sed facilis quidem atque dolorem, distinctio, nihil porro!
+                                    Delectus,
+                                    incidunt vitae quidem iusto quam error?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="horizontal-scroll-wrapper">
+                    <svg class="background-svg" viewBox="0 0 1000 100">
+                        <path id="svgPath" d="M0 50 C250 0, 750 100, 1000 50"></path>
+                    </svg>
+                    <div class="horizontal-container">
+                        <div class="horizontal-section">
+                            <div class="container">
+                                <div class="title-area">
+                                    <div class="shadow-title">2017</div>
+                                    {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
+                                    <h2 class="sec-title">Specific <span class="text-blue">reMARKable
+                                            Headline</span></h2>
+                                </div>
+                                <ul>
+                                    <li>Along with 2 employees, started in a co-working space</li>
+                                    <li>Shifted to a mezzanine floor office in the same year</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="horizontal-section">
+                            <div class="container">
+                                <div class="title-area">
+                                    <div class="shadow-title">2018</div>
+                                    {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
+                                    <h2 class="sec-title">Specific <span class="text-blue">reMARKable
+                                            Headline</span></h2>
+                                </div>
+                                <ul>
+                                    <li>Moved into our new office with 8 employees</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="horizontal-section">
+                            <div class="container">
+                                <div class="title-area">
+                                    <div class="shadow-title">2019</div>
+                                    {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
+                                    <h2 class="sec-title">Specific <span class="text-blue">reMARKable
+                                            Headline</span></h2>
+                                </div>
+                                <ul>
+                                    <li><a href="">Diageo Road to Safety</a></li>
+                                    <li>TAVF Awards 2019</li>
+                                    <li>Best Digital Marketing Campaign</li>
+                                    <li>Best Use of Social Network</li>
+                                    <li>Button Dabao Desh Banao</li>
+                                    <li>DigiPub Awards 2019</li>
+                                    <li>Best Use of Social Media</li>
+                                    <li>Social Samosa shoutout for our <a href="">Diageo X
+                                            Network18</a> campaign <a href="">Road to
+                                            Safety</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="horizontal-section">
+                            <div class="container">
+                                <div class="title-area">
+                                    <div class="shadow-title">2020</div>
+                                    {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
+                                    <h2 class="sec-title">Specific <span class="text-blue">reMARKable
+                                            Headline</span></h2>
+                                </div>
+                                <ul>
+                                    <li>Maintained social distancing through WFH in the COVID period
+                                    </li>
+                                    <li>Social Samosa shoutout for our <a href="">NODWIN
+                                            Gaming X
+                                            Cosplaygenie</a>'s
+                                        Halloween Campaign</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="horizontal-section">
+                            <div class="container">
+                                <div class="title-area">
+                                    <div class="shadow-title">2021</div>
+                                    {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
+                                    <h2 class="sec-title">Specific <span class="text-blue">reMARKable
+                                            Headline</span></h2>
+                                </div>
+                                <ul>
+                                    <li>Shifted to a 2000 sq. ft. area office, overseeing Navi
+                                        Mumbai's
+                                        beautiful Palm Beach</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="horizontal-section">
+                            <div class="container">
+                                <div class="title-area">
+                                    <div class="shadow-title">2022</div>
+                                    {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
+                                    <h2 class="sec-title">Specific <span class="text-blue">reMARKable
+                                            Headline</span></h2>
+                                </div>
+                                <ul>
+                                    <li>Our reMARKable pool grew to 30+ employees</li>
+                                    <li>Our illustrations for <a href="">NODWIN Gaming</a>'s
+                                        BGMS were collaborated
+                                        with
+                                        Star Sports India</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="horizontal-section">
+                            <div class="container">
+                                <div class="title-area">
+                                    <div class="shadow-title">2023</div>
+                                    {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
+                                    <h2 class="sec-title">Specific <span class="text-blue">reMARKable
+                                            Headline</span></h2>
+                                </div>
+                                <ul>
+                                    <li>Heta Baandal, our founder, was named one of the 21 Rising
+                                        Business
+                                        Leaders of India 2023 by Startup Reporter</li>
+                                    <li>Multiple PR features on platforms like AdGully, Afaqs &
+                                        Brand
+                                        Equity
+                                    </li>
+                                    <li>Our illustrations for <a href="">NODWIN Gaming</a>'s
+                                        VCSA were collaborated
+                                        with
+                                        Hyundai India</li>
+                                    <li>Started our own in-house photography & videography section
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="horizontal-section">
+                            <div class="container">
+                                <div class="title-area">
+                                    <div class="shadow-title">2024</div>
+                                    {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
+                                    <h2 class="sec-title">Specific <span class="text-blue">reMARKable
+                                            Headline</span></h2>
+                                </div>
+                                <ul>
+                                    <li>Bagged our 1st international client</li>
+                                    <li>Agency Head of the Year - Women Disruptors 2024</li>
+                                    <li>Our Boss Lady Heta Baandal was recognized by AdGully</li>
+                                    <li>Our first Infinity Canvas video for <a href="">Navi Mumbai Municipal
+                                            Corporation</a>
+                                        was played in a Swachh Survekshan LIVE event </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="horizontal-section">
+                            <div class="container">
+                                <div class="title-area">
+                                    <div class="shadow-title">2025</div>
+                                    {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
+                                    <h2 class="sec-title">Specific <span class="text-blue">reMARKable
+                                            Headline</span></h2>
+                                </div>
+                                <ul>
+                                    <li>We are now a team of 50+ Employees</li>
+                                    <li> Multiple Social Media Dissect features for our clients -
+                                        <a href="">Markets4you</a> & <a href="">CyberPowerPC</a>
+                                    </li>
+                                    <li>International Expansion</li>
+                                    <li>Opened an office in Dubai</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @push('scripts')
+                    <script>
+                        // Register the ScrollTrigger plugin with GSAP
+                        gsap.registerPlugin(ScrollTrigger);
+
+                        // Select the main elements
+                        const horizontalScrollWrapper = document.querySelector(".horizontal-scroll-wrapper");
+                        const horizontalContainer = document.querySelector(".horizontal-container");
+                        const sections = gsap.utils.toArray(".horizontal-section");
+                        const svgPath = document.getElementById("svgPath");
+
+                        // Get the total length of the SVG path for stroke animation
+                        const pathLength = svgPath.getTotalLength();
+
+                        // Set initial stroke properties for the SVG path to hide it
+                        // stroke-dasharray creates dashes along the path. Setting it to pathLength makes one long dash.
+                        // stroke-dashoffset shifts the start of the dash. Setting it to pathLength hides the dash completely.
+                        gsap.set(svgPath, {
+                            strokeDasharray: pathLength,
+                            strokeDashoffset: pathLength
+                        });
+
+                        // Calculate the total width of all horizontal sections combined
+                        // This is crucial for determining the exact horizontal scroll distance.
+                        let totalSectionsWidth = 0;
+                        sections.forEach(section => {
+                            totalSectionsWidth += section.offsetWidth;
+                        });
+
+                        // The actual horizontal distance the container needs to move.
+                        // It's the total width of all sections minus one viewport width,
+                        // because the first section is already visible at the start.
+                        const horizontalMovementDistance = totalSectionsWidth - window.innerWidth;
+
+                        // Create a master GSAP timeline to synchronize all animations
+                        const masterTimeline = gsap.timeline();
+
+                        // Add the horizontal movement animation to the master timeline
+                        // We use 'x' for pixel-based translation.
+                        masterTimeline.to(horizontalContainer, {
+                            x: -horizontalMovementDistance, // Move left by the calculated distance
+                            ease: "none", // Linear ease for smooth scrubbing with scroll
+                            duration: 1 // Relative duration within this timeline
+                        });
+
+                        // Add the SVG stroke animation to the master timeline
+                        // Animating strokeDashoffset from its full length (hidden) to 0 (fully drawn).
+                        // The '0' as the third parameter ensures this animation starts at the very beginning of the masterTimeline,
+                        // synchronizing it with the horizontal movement.
+                        masterTimeline.to(svgPath, {
+                            strokeDashoffset: 0, // Draw the stroke completely
+                            ease: "power1.inOut", // A nice ease for drawing effect
+                            duration: 1 // Same relative duration as horizontal movement for perfect sync
+                        }, 0); // Start at the beginning of the masterTimeline
+
+                        // Attach ScrollTrigger to the master timeline
+                        ScrollTrigger.create({
+                            trigger: horizontalScrollWrapper, // The element that defines the scroll area for pinning
+                            pin: true, // Pin the wrapper to the viewport while the animation plays
+                            scrub: 1, // Link animation to scroll (1 second delay to catch up)
+                            snap: 1 / (sections.length - 1), // Snap to each section for a smooth landing
+                            animation: masterTimeline, // Link this ScrollTrigger to our master timeline
+                            // The 'end' defines how much vertical scroll is needed to complete the animation.
+                            // We set it to the exact horizontal movement distance to avoid extra whitespace.
+                            end: () => `+=${horizontalMovementDistance}`
+                        });
+                    </script>
+                @endpush
+            </div>
+        </section>
+        <section class="space bg-grey">
             <div class="container">
                 <div class="row justify-content-center mb-4">
                     <div class="col-lg-8">
@@ -802,7 +1060,7 @@
                         @endfor
                     </div>
                     <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
-                                                                                                                                            </div> -->
+                                                                                                                                                                                                        </div> -->
                 </div>
             </div>
             @push('scripts')
