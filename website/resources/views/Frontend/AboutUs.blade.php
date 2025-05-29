@@ -20,7 +20,7 @@
     <main id="about-us" style="margin-top:68px;">
         <div class="breadcumb-wrapper p-0">
             <div class="">
-                <div class="w-100" style="height: 70vh;">
+                <div class="w-100">
                  
                         <video playsinline loop muted autoplay class="w-100"
                         poster="{{ asset('frontend-assets/img/posters/about_video_poster.jpg') }}">

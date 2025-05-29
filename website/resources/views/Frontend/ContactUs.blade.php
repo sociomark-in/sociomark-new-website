@@ -297,8 +297,8 @@
                         <span class="text-danger">{{ $message }}</span>
                         @enderror
                     </div> --}}
-                    <div class="row form-group col-md-12">
-                        <div class="col-md-3">
+                    <div class="row col-md-12">
+                        <div class="col-md-3 form-group">
                             <label for="countryCode" class="sec-para">Country Code</label>
                             <select class="form-select" id="countryCode" name="countryCode">
                                 <option value="" selected disabled>Select Code</option>
@@ -309,7 +309,7 @@
                                 <option value="+49" data-currency="EUR">Germany (+49)</option>
                             </select>
                         </div>
-                        <div class="col-md-9">
+                        <div class="col-md-9 form-group">
                             <label for="contactNumber" class="sec-para">Contact Number</label>
                             {{-- <input type="tel" class="form-control" 
                                                 placeholder="Enter Your Number"> --}}
