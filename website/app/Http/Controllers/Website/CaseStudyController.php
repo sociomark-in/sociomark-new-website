@@ -135,6 +135,7 @@ class CaseStudyController extends Controller
         ];
         return view('Frontend/caseStudy/nhs', compact('meta'));
     }
+
     public function getTheHook()
     {
         $meta = [
@@ -146,8 +147,8 @@ class CaseStudyController extends Controller
     public function ayushaktiNew()
     {
         $meta = [
-            'title' => 'Case Studies | Sociomark Digital Marketing in UAE​​',
-            'description' => "See how Sociomark, a digital marketing agency in UAE, helped brands grow with smart online strategies like SEO, ads, and social media marketing."
+            'title' => 'Ayushakti Case Study | Sociomark Dubai ​​',
+            'description' => "See how our digital marketing efforts helped Ayushakti expand its reach, strengthen brand presence, through strategic content, SEO, and social media."
         ];
         return view('Frontend/caseStudy/ayushaktiNew', compact('meta'));
     }
