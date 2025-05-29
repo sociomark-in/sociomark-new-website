@@ -1,10 +1,5 @@
 @extends('Frontend.layout.app')
-@section('title', 'Blog')
-@section('author', 'Your Company Name')
-@section('description', 'This is a dynamic description for the home page.')
-@section('keywords', 'blog, marketing, agency, web design')
-@section('robots', 'INDEX,FOLLOW')
-@section('custome-style')
+
 <style>
     #Blog_Section .box {
         padding: 28px 20px;
@@ -168,7 +163,7 @@
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
                                 @foreach ($blogs->take(3) as $blog)
-                                 @if ($blog->status == 'active')
+                                @if ($blog->status == 'active')
                                 <div class="recent-post">
                                     <div class="media-img recent_blog_img">
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
@@ -211,7 +206,7 @@
 </main>
 
 @endsection
-
+@push('script')
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const categoryLinks = document.querySelectorAll(".category-filter");
@@ -258,3 +253,4 @@
         }
     });
 </script>
+@endpush

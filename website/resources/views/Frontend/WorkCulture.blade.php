@@ -1,4 +1,6 @@
 @extends('Frontend.layout.app')
+@section('custome-style')
+<!-- Plugin: LightGallery -->
 <!-- Plugin: LightGallery -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery-bundle.min.css"
     integrity="sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag=="
@@ -15,8 +17,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/zoom/lg-zoom.umd.min.js"
     integrity="sha512-OUF2jbRheQR5yXPCvXN71udWa5cvwPf+shcXM+5GrW1vtNurTn7az8LCP3hS50gm17ULXdh3cdkhiPa0Qqyczw=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!-- Plugin: LightGallery -->
-
 <style>
     #work-culture #about-sec {
         padding: 8px;
@@ -215,714 +215,716 @@
 
     /* gallary end */
 </style>
+@endsection
+
 @section('content')
-    <main id="work-culture">
-        <section class="p-0" style="margin-top: 66px;">
-            <div class="full-width">
-                <picture>
-                    <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/work.jpg') }}"
-                        class="w-100" loading="lazy">
-                    <img src="{{ asset('frontend-assets/img/banners/work.jpg') }}" alt="" class="w-100"
-                        loading="lazy">
-                </picture>
+<main id="work-culture">
+    <section class="p-0" style="margin-top: 66px;">
+        <div class="full-width">
+            <picture>
+                <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/work.jpg') }}"
+                    class="w-100" loading="lazy">
+                <img src="{{ asset('frontend-assets/img/banners/work.jpg') }}" alt="" class="w-100"
+                    loading="lazy">
+            </picture>
+        </div>
+    </section>
+    <section class="overflow-hidden space">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcumb-content breadcrumb-light">
+                        <h1 class="breadcumb-title">Work Culture</h1>
+                        <ul class="breadcumb-menu">
+                            <li><a href="{{ route('home') }}">Home</a></li>
+                            <li><a href="{{ route('about') }}">About Us</a></li>
+                            <li>Work Culture</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </section>
-        <section class="overflow-hidden space">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="breadcumb-content breadcrumb-light">
-                            <h1 class="breadcumb-title">Work Culture</h1>
-                            <ul class="breadcumb-menu">
-                                <li><a href="{{ route('home') }}">Home</a></li>
-                                <li><a href="{{ route('about') }}">About Us</a></li>
-                                <li>Work Culture</li>
-                            </ul>
+        </div>
+    </section>
+    <section class="about-area2 overflow-hidden pb-md-5 pb-3 pt-2" id="about-sec">
+        <div class="container">
+            <div class="row flex-row-reverse align-items-start">
+                <div class="col-lg-6 mb-30 mb-xl-0">
+                    <div class="imgBox img-box2 me-xl-4 mt-lg-60" data-aos="fade-right" data-aos-delay="100">
+                        <div class="img1 th-anim mb-35">
+                            <img src="{{ asset('frontend-assets/img/team/home.jpg') }}" class="w-100" alt="About"
+                                loading="lazy">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="">
+                        <div class="title-area mb-35">
+                            <!-- <span class="sub-title sub-title4 style1 mb-4 mb-md-5">Why Choose Sociomark</span> -->
+                            <h1 class="sec-title ">More than just a <span class="text-orange">Workplace</span> </h1>
+                            <p class="mb-30 sec-para">At Sociomark, work feels less like a duty and more like a shared
+                                passion.
+                                Our culture is built on creativity, collaboration, and a healthy dose of everyday fun.
+                                We believe that the best ideas are born when people feel valued, inspired, and empowered
+                                to bring their whole selves to work. From brainstorming sessions that spark innovation
+                                to team lunches, festive celebrations, and spontaneous laugh sessions, every day here is
+                                a blend of hustle and heart. Together, we’re not just growing brands; we’re building a
+                                workplace where growth, ownership, and good vibes are non-negotiable.</p>
+
+                            <a href="{{ route('about') }}" class="th-btn th-icon">About Us<i
+                                    class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="about-area2 overflow-hidden pb-md-5 pb-3 pt-2" id="about-sec">
-            <div class="container">
-                <div class="row flex-row-reverse align-items-start">
-                    <div class="col-lg-6 mb-30 mb-xl-0">
-                        <div class="imgBox img-box2 me-xl-4 mt-lg-60" data-aos="fade-right" data-aos-delay="100">
-                            <div class="img1 th-anim mb-35">
-                                <img src="{{ asset('frontend-assets/img/team/home.jpg') }}" class="w-100" alt="About"
-                                    loading="lazy">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
+        </div>
+
+    </section>
+
+    <section class="key-point-about-us mb-md-5 mb-3 d-none" id="key-point-about-us">
+        <div class="container">
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-md-4 pe-md-5">
+                    <div class="row gy-4 flex-column">
                         <div class="">
-                            <div class="title-area mb-35">
-                                <!-- <span class="sub-title sub-title4 style1 mb-4 mb-md-5">Why Choose Sociomark</span> -->
-                                <h1 class="sec-title ">More than just a <span class="text-orange">Workplace</span> </h1>
-                                <p class="mb-30 sec-para">At Sociomark, work feels less like a duty and more like a shared
-                                    passion.
-                                    Our culture is built on creativity, collaboration, and a healthy dose of everyday fun.
-                                    We believe that the best ideas are born when people feel valued, inspired, and empowered
-                                    to bring their whole selves to work. From brainstorming sessions that spark innovation
-                                    to team lunches, festive celebrations, and spontaneous laugh sessions, every day here is
-                                    a blend of hustle and heart. Together, we’re not just growing brands; we’re building a
-                                    workplace where growth, ownership, and good vibes are non-negotiable.</p>
-
-                                <a href="{{ route('about') }}" class="th-btn th-icon">About Us<i
-                                        class="fa-solid fa-arrow-right ms-2"></i></a>
+                            <div class="media-body">
+                                <h2 class="box-title" data-aos="fade-down" data-aos-delay="100">
+                                    <span class="text-themeRed text-xl md:text-3xl font-medium">What Make</span><br>
+                                    <span
+                                        class="text-themeBlue text-xl md:text-5xl font-semibold sec-title text-blue">Us
+                                        Special?</span>
+                                </h2>
+                                <p class="sec-para" data-aos="fade-down" data-aos-delay="100">Experience, Expertise, and
+                                    an Excellent team fuel our growth and make us unique. Our passion for building
+                                    long-lasting partnerships with our clients makes us a forerunner in digital
+                                    marketing.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-        </section>
-
-        <section class="key-point-about-us mb-md-5 mb-3 d-none" id="key-point-about-us">
-            <div class="container">
-                <div class="row d-flex justify-content-between align-items-center">
-                    <div class="col-md-4 pe-md-5">
-                        <div class="row gy-4 flex-column">
-                            <div class="">
-                                <div class="media-body">
-                                    <h2 class="box-title" data-aos="fade-down" data-aos-delay="100">
-                                        <span class="text-themeRed text-xl md:text-3xl font-medium">What Make</span><br>
-                                        <span
-                                            class="text-themeBlue text-xl md:text-5xl font-semibold sec-title text-blue">Us
-                                            Special?</span>
-                                    </h2>
-                                    <p class="sec-para" data-aos="fade-down" data-aos-delay="100">Experience, Expertise, and
-                                        an Excellent team fuel our growth and make us unique. Our passion for building
-                                        long-lasting partnerships with our clients makes us a forerunner in digital
-                                        marketing.</p>
+                <div class="col-md-8 mt-5 mt-md-0">
+                    <div class="row justify-content-center gx-4 gy-5 ">
+                        <!-- Card 1 -->
+                        <div class="col-md-4 col-6">
+                            <div class="card text-center" data-aos="zoom-in" data-aos-delay="300">
+                                <div class="card-top-left"></div>
+                                <div class="card-bottom-right"></div>
+                                <div class="position-absolute-img">
+                                    <img src="{{ asset('frontend-assets/img/ourCulture/1.png') }}" alt=""
+                                        loading="lazy">
+                                </div>
+                                <div class="position-absolute-text">
+                                    <h5 class="card-title">24/7 Support</h5>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-8 mt-5 mt-md-0">
-                        <div class="row justify-content-center gx-4 gy-5 ">
-                            <!-- Card 1 -->
-                            <div class="col-md-4 col-6">
-                                <div class="card text-center" data-aos="zoom-in" data-aos-delay="300">
-                                    <div class="card-top-left"></div>
-                                    <div class="card-bottom-right"></div>
-                                    <div class="position-absolute-img">
-                                        <img src="{{ asset('frontend-assets/img/ourCulture/1.png') }}" alt=""
-                                            loading="lazy">
-                                    </div>
-                                    <div class="position-absolute-text">
-                                        <h5 class="card-title">24/7 Support</h5>
-                                    </div>
+                        <!-- Card 2 -->
+                        <div class="col-md-4 col-6">
+                            <div class="card text-center" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="card-top-left"></div>
+                                <div class="card-bottom-right"></div>
+                                <div class="position-absolute-img" style="background-color: rgb(255 235 245);">
+                                    <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
+                                </div>
+                                <div class="position-absolute-text">
+                                    <h5 class="card-title">Top Guide</h5>
                                 </div>
                             </div>
-                            <!-- Card 2 -->
-                            <div class="col-md-4 col-6">
-                                <div class="card text-center" data-aos="zoom-in" data-aos-delay="400">
-                                    <div class="card-top-left"></div>
-                                    <div class="card-bottom-right"></div>
-                                    <div class="position-absolute-img" style="background-color: rgb(255 235 245);">
-                                        <img src="{{ asset('frontend-assets/img/ourCulture/2.png') }}" alt="">
-                                    </div>
-                                    <div class="position-absolute-text">
-                                        <h5 class="card-title">Top Guide</h5>
-                                    </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="col-md-4 col-6">
+                            <div class="card text-center" data-aos="zoom-in" data-aos-delay="500">
+                                <div class="card-top-left"></div>
+                                <div class="card-bottom-right"></div>
+                                <div class="position-absolute-img" style="background-color: rgb(252 243 233);">
+                                    <img src="{{ asset('frontend-assets/img/ourCulture/3.png') }}" alt="">
+                                </div>
+                                <div class="position-absolute-text">
+                                    <h5 class="card-title">Best Course</h5>
                                 </div>
                             </div>
-                            <!-- Card 3 -->
-                            <div class="col-md-4 col-6">
-                                <div class="card text-center" data-aos="zoom-in" data-aos-delay="500">
-                                    <div class="card-top-left"></div>
-                                    <div class="card-bottom-right"></div>
-                                    <div class="position-absolute-img" style="background-color: rgb(252 243 233);">
-                                        <img src="{{ asset('frontend-assets/img/ourCulture/3.png') }}" alt="">
-                                    </div>
-                                    <div class="position-absolute-text">
-                                        <h5 class="card-title">Best Course</h5>
-                                    </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="col-md-4 col-6">
+                            <div class="card text-center" data-aos="zoom-in" data-aos-delay="600">
+                                <div class="card-top-left"></div>
+                                <div class="card-bottom-right"></div>
+                                <div class="position-absolute-img" style="background-color: rgb(238 251 229);">
+                                    <img src="{{ asset('frontend-assets/img/ourCulture/4.png') }}" alt="">
+                                </div>
+                                <div class="position-absolute-text">
+                                    <h5 class="card-title">24/7 Support</h5>
                                 </div>
                             </div>
-                            <!-- Card 4 -->
-                            <div class="col-md-4 col-6">
-                                <div class="card text-center" data-aos="zoom-in" data-aos-delay="600">
-                                    <div class="card-top-left"></div>
-                                    <div class="card-bottom-right"></div>
-                                    <div class="position-absolute-img" style="background-color: rgb(238 251 229);">
-                                        <img src="{{ asset('frontend-assets/img/ourCulture/4.png') }}" alt="">
-                                    </div>
-                                    <div class="position-absolute-text">
-                                        <h5 class="card-title">24/7 Support</h5>
-                                    </div>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="col-md-4 col-6">
+                            <div class="card text-center" data-aos="zoom-in" data-aos-delay="700">
+                                <div class="card-top-left"></div>
+                                <div class="card-bottom-right"></div>
+                                <div class="position-absolute-img" style="background-color: rgb(252 243 233);">
+                                    <img src="{{ asset('frontend-assets/img/ourCulture/5.png') }}" alt="">
+                                </div>
+                                <div class="position-absolute-text">
+                                    <h5 class="card-title">Top Guide</h5>
                                 </div>
                             </div>
-                            <!-- Card 5 -->
-                            <div class="col-md-4 col-6">
-                                <div class="card text-center" data-aos="zoom-in" data-aos-delay="700">
-                                    <div class="card-top-left"></div>
-                                    <div class="card-bottom-right"></div>
-                                    <div class="position-absolute-img" style="background-color: rgb(252 243 233);">
-                                        <img src="{{ asset('frontend-assets/img/ourCulture/5.png') }}" alt="">
-                                    </div>
-                                    <div class="position-absolute-text">
-                                        <h5 class="card-title">Top Guide</h5>
-                                    </div>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="col-md-4 col-6">
+                            <div class="card text-center" data-aos="zoom-in" data-aos-delay="800">
+                                <div class="card-top-left"></div>
+                                <div class="card-bottom-right"></div>
+                                <div class="position-absolute-img">
+                                    <img src="{{ asset('frontend-assets/img/ourCulture/6.png') }}" alt="">
                                 </div>
-                            </div>
-                            <!-- Card 6 -->
-                            <div class="col-md-4 col-6">
-                                <div class="card text-center" data-aos="zoom-in" data-aos-delay="800">
-                                    <div class="card-top-left"></div>
-                                    <div class="card-bottom-right"></div>
-                                    <div class="position-absolute-img">
-                                        <img src="{{ asset('frontend-assets/img/ourCulture/6.png') }}" alt="">
-                                    </div>
-                                    <div class="position-absolute-text">
-                                        <h5 class="card-title">Best Course</h5>
-                                    </div>
+                                <div class="position-absolute-text">
+                                    <h5 class="card-title">Best Course</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="space bg-grey">
-            <div class="container">
-                <div class="row justify-content-center mb-4">
-                    <div class="col-lg-8">
-                        <div class="title-area text-center">
-                            <div class="shadow-title">Journey</div>
-                            {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
-                            <h2 class="sec-title  ">Our <span class="text-orange">reMARKable Journey</span></h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="process-cards-deck">
-                    <div class="process-mobile">
-                        <div class="swiper journeySwiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="process-card style-01">
-                                        <div class="box-wrap">
-                                            <div class="box-badge">
-                                                <div class="badge-content">2017</div>
-                                            </div>
-                                            <div class="box-content">
-                                                {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                                <div class="process-text">
-                                                    <div class="text-content">
-                                                        <ul>
-                                                            <li>Along with 2 employees, started in a co-working space</li>
-                                                            <li>Shifted to a mezzanine floor office in the same year</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="process-card style-01">
-                                        <div class="box-wrap">
-                                            <div class="box-badge">
-                                                <div class="badge-content">2018</div>
-                                            </div>
-                                            <div class="box-content">
-                                                {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                                <div class="process-text">
-                                                    <div class="text-content">
-                                                        <ul>
-                                                            <li>Moved into our new office with 8 employees</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="process-card style-01">
-                                        <div class="box-wrap">
-                                            <div class="box-badge">
-                                                <div class="badge-content">2019</div>
-                                            </div>
-                                            <div class="box-content">
-                                                {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                                <div class="process-text">
-                                                    <div class="text-content">
-                                                        <ul>
-                                                            <li><a href="">Diageo Road to Safety</a></li>
-                                                            <li>TAVF Awards 2019</li>
-                                                            <li>Best Digital Marketing Campaign</li>
-                                                            <li>Best Use of Social Network</li>
-                                                            <li>Button Dabao Desh Banao</li>
-                                                            <li>DigiPub Awards 2019</li>
-                                                            <li>Best Use of Social Media</li>
-                                                            <li>Social Samosa shoutout for our <a href="">Diageo X
-                                                                    Network18</a> campaign <a href="">Road to
-                                                                    Safety</a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="process-card style-01">
-                                        <div class="box-wrap">
-                                            <div class="box-badge">
-                                                <div class="badge-content">2020</div>
-                                            </div>
-                                            <div class="box-content">
-                                                {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                                <div class="process-text">
-                                                    <div class="text-content">
-                                                        <ul>
-                                                            <li>Maintained social distancing through WFH in the COVID period
-                                                            </li>
-                                                            <li>Social Samosa shoutout for our <a href="">NODWIN
-                                                                    Gaming X
-                                                                    Cosplaygenie</a>'s
-                                                                Halloween Campaign</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="process-card style-01">
-                                        <div class="box-wrap">
-                                            <div class="box-badge">
-                                                <div class="badge-content">2021</div>
-                                            </div>
-                                            <div class="box-content">
-                                                {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                                <div class="process-text">
-                                                    <div class="text-content">
-                                                        <ul>
-                                                            <li>Shifted to a 2000 sq. ft. area office, overseeing Navi
-                                                                Mumbai's
-                                                                beautiful Palm Beach</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="process-card style-01">
-                                        <div class="box-wrap">
-                                            <div class="box-badge">
-                                                <div class="badge-content">2022</div>
-                                            </div>
-                                            <div class="box-content">
-                                                {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                                <div class="process-text">
-                                                    <div class="text-content">
-                                                        <ul>
-                                                            <li>Our reMARKable pool grew to 30+ employees</li>
-                                                            <li>Our illustrations for <a href="">NODWIN Gaming</a>'s
-                                                                BGMS were collaborated
-                                                                with
-                                                                Star Sports India</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="process-card style-01">
-                                        <div class="box-wrap">
-                                            <div class="box-badge">
-                                                <div class="badge-content">2023</div>
-                                            </div>
-                                            <div class="box-content">
-                                                {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                                <div class="process-text">
-                                                    <div class="text-content">
-                                                        <ul>
-                                                            <li>Heta Baandal, our founder, was named one of the 21 Rising
-                                                                Business
-                                                                Leaders of India 2023 by Startup Reporter</li>
-                                                            <li>Multiple PR features on platforms like AdGully, Afaqs &
-                                                                Brand
-                                                                Equity
-                                                            </li>
-                                                            <li>Our illustrations for <a href="">NODWIN Gaming</a>'s
-                                                                VCSA were collaborated
-                                                                with
-                                                                Hyundai India</li>
-                                                            <li>Started our own in-house photography & videography section
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="process-card style-01">
-                                        <div class="box-wrap">
-                                            <div class="box-badge">
-                                                <div class="badge-content">2024</div>
-                                            </div>
-                                            <div class="box-content">
-                                                {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                                <div class="process-text">
-                                                    <div class="text-content">
-                                                        <ul>
-                                                            <li>Bagged our 1st international client</li>
-                                                            <li>Agency Head of the Year - Women Disruptors 2024</li>
-                                                            <li>Our Boss Lady Heta Baandal was recognized by AdGully</li>
-                                                            <li>Our first Infinity Canvas video for Navi Mumbai Municipal
-                                                                Corporation
-                                                                was played in a Swachh Survekshan LIVE event </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="process-card style-01">
-                                        <div class="box-wrap">
-                                            <div class="box-badge">
-                                                <div class="badge-content">2025</div>
-                                            </div>
-                                            <div class="box-content">
-                                                {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
-                                                <div class="process-text">
-                                                    <div class="text-content">
-                                                        <ul>
-                                                            <li>We are now a team of 50+ Employees</li>
-                                                            <li> Multiple Social Media Dissect features for our clients -
-                                                                <a href="">Markets4you</a> & <a
-                                                                    href="">CyberPowerPC</a>
-                                                            </li>
-                                                            <li>International Expansion</li>
-                                                            <li>Opened an office in Dubai</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-pagination">
-                            </div>
-                            {{-- <span class="swiper-progress-percentage">0%</span> --}}
-                        </div>
-                        @push('scripts')
-                            <script>
-                                new Swiper('.journeySwiper', {
-                                    spaceBetween: 10,
-                                    slidesPerView: 1,
-                                    pagination: {
-                                        el: ".swiper-pagination",
-                                        type: "progressbar",
-                                    },
-                                    // autoplay: {
-                                    //     delay: 2500,
-                                    //     disableOnInteraction: false,
-                                    // },
-                                    breakpoints: {
-                                        768: {
-                                            slidesPerView: 2,
-                                            spaceBetween: 20,
-                                        },
-                                        1024: {
-                                            slidesPerView: 3,
-                                            spaceBetween: 30,
-                                        },
-                                    },
-                                })
-                            </script>
-                        @endpush
+    <section class="space bg-grey">
+        <div class="container">
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-8">
+                    <div class="title-area text-center">
+                        <div class="shadow-title">Journey</div>
+                        {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
+                        <h2 class="sec-title  ">Our <span class="text-orange">reMARKable Journey</span></h2>
                     </div>
                 </div>
             </div>
-        </section>
-
-
-        <section class="overflow-hidden arrow-wrap" id="team-sec">
-            <div class="container">
-                <div class="row justify-content-lg-between justify-content-center align-items-end d-none">
-                    <div class="col-lg-7">
-                        <div class="title-area text-center text-lg-start pe-xl-5">
-                            <div class="shadow-title style3">Team</div>
-                            <span class="sub-title sub-title4 style1 mb-4 mb-md-5">Expert Team Members</span>
-                            <h2 class="sec-title ">Building Our Future</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <p class="ps-xl-5 text-center text-lg-start">We start with a comprehensive analysis of your
-                            business, industry, target audience, and current
-                            digital presence. Through this process, we identify opportunities.</p>
-                        <div class="sec-btn text-end">
-                            <div class="icon-box">
-                                <button data-slider-prev="#teamSwiper" class="slider-arrow prev style4 default"><i
-                                        class="fas fa-arrow-left"></i></button>
-                                <button data-slider-next="#teamSwiper" class="slider-arrow next style4 default"><i
-                                        class="fa-solid fa-arrow-right"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- / Title row -->
-
-                <div class="swiper teamSwiper d-none">
-                    <div class="swiper-wrapper">
-                        @for ($i = 0; $i < 10; $i++)
+            <div class="process-cards-deck">
+                <div class="process-mobile">
+                    <div class="swiper journeySwiper">
+                        <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="th-team team-card style1 mb-3">
-                                    <div class="box-img">
-                                        <img src="https://placehold.co/300x400" alt="Team">
-                                    </div>
-                                    <div class="box-content">
-                                        <div>
-                                            <h3 class="box-title"><a href="team-details.html">Lorem, ipsum.</a>
-                                            </h3>
-                                            <span class="team-desig">Web Developer</span>
+                                <div class="process-card style-01">
+                                    <div class="box-wrap">
+                                        <div class="box-badge">
+                                            <div class="badge-content">2017</div>
                                         </div>
-                                        <div class="team-social">
-                                            <div class="icon-btn"><i class="fa-light fa-plus"></i></div>
-                                            <div class="th-social">
-                                                <a target="_blank" href="https://facebook.com/"><i
-                                                        class="fab fa-facebook-f"></i></a>
-                                                <a target="_blank" href="https://twitter.com/"><i
-                                                        class="fab fa-twitter"></i></a>
-                                                <a target="_blank" href="https://instagram.com/"><i
-                                                        class="fab fa-instagram"></i></a>
-                                                <a target="_blank" href="https://linkedin.com/"><i
-                                                        class="fab fa-linkedin-in"></i></a>
+                                        <div class="box-content">
+                                            {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                            <div class="process-text">
+                                                <div class="text-content">
+                                                    <ul>
+                                                        <li>Along with 2 employees, started in a co-working space</li>
+                                                        <li>Shifted to a mezzanine floor office in the same year</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
-                        @endfor
+                            <div class="swiper-slide">
+                                <div class="process-card style-01">
+                                    <div class="box-wrap">
+                                        <div class="box-badge">
+                                            <div class="badge-content">2018</div>
+                                        </div>
+                                        <div class="box-content">
+                                            {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                            <div class="process-text">
+                                                <div class="text-content">
+                                                    <ul>
+                                                        <li>Moved into our new office with 8 employees</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="process-card style-01">
+                                    <div class="box-wrap">
+                                        <div class="box-badge">
+                                            <div class="badge-content">2019</div>
+                                        </div>
+                                        <div class="box-content">
+                                            {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                            <div class="process-text">
+                                                <div class="text-content">
+                                                    <ul>
+                                                        <li><a href="">Diageo Road to Safety</a></li>
+                                                        <li>TAVF Awards 2019</li>
+                                                        <li>Best Digital Marketing Campaign</li>
+                                                        <li>Best Use of Social Network</li>
+                                                        <li>Button Dabao Desh Banao</li>
+                                                        <li>DigiPub Awards 2019</li>
+                                                        <li>Best Use of Social Media</li>
+                                                        <li>Social Samosa shoutout for our <a href="">Diageo X
+                                                                Network18</a> campaign <a href="">Road to
+                                                                Safety</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="process-card style-01">
+                                    <div class="box-wrap">
+                                        <div class="box-badge">
+                                            <div class="badge-content">2020</div>
+                                        </div>
+                                        <div class="box-content">
+                                            {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                            <div class="process-text">
+                                                <div class="text-content">
+                                                    <ul>
+                                                        <li>Maintained social distancing through WFH in the COVID period
+                                                        </li>
+                                                        <li>Social Samosa shoutout for our <a href="">NODWIN
+                                                                Gaming X
+                                                                Cosplaygenie</a>'s
+                                                            Halloween Campaign</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="process-card style-01">
+                                    <div class="box-wrap">
+                                        <div class="box-badge">
+                                            <div class="badge-content">2021</div>
+                                        </div>
+                                        <div class="box-content">
+                                            {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                            <div class="process-text">
+                                                <div class="text-content">
+                                                    <ul>
+                                                        <li>Shifted to a 2000 sq. ft. area office, overseeing Navi
+                                                            Mumbai's
+                                                            beautiful Palm Beach</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="process-card style-01">
+                                    <div class="box-wrap">
+                                        <div class="box-badge">
+                                            <div class="badge-content">2022</div>
+                                        </div>
+                                        <div class="box-content">
+                                            {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                            <div class="process-text">
+                                                <div class="text-content">
+                                                    <ul>
+                                                        <li>Our reMARKable pool grew to 30+ employees</li>
+                                                        <li>Our illustrations for <a href="">NODWIN Gaming</a>'s
+                                                            BGMS were collaborated
+                                                            with
+                                                            Star Sports India</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="process-card style-01">
+                                    <div class="box-wrap">
+                                        <div class="box-badge">
+                                            <div class="badge-content">2023</div>
+                                        </div>
+                                        <div class="box-content">
+                                            {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                            <div class="process-text">
+                                                <div class="text-content">
+                                                    <ul>
+                                                        <li>Heta Baandal, our founder, was named one of the 21 Rising
+                                                            Business
+                                                            Leaders of India 2023 by Startup Reporter</li>
+                                                        <li>Multiple PR features on platforms like AdGully, Afaqs &
+                                                            Brand
+                                                            Equity
+                                                        </li>
+                                                        <li>Our illustrations for <a href="">NODWIN Gaming</a>'s
+                                                            VCSA were collaborated
+                                                            with
+                                                            Hyundai India</li>
+                                                        <li>Started our own in-house photography & videography section
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="process-card style-01">
+                                    <div class="box-wrap">
+                                        <div class="box-badge">
+                                            <div class="badge-content">2024</div>
+                                        </div>
+                                        <div class="box-content">
+                                            {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                            <div class="process-text">
+                                                <div class="text-content">
+                                                    <ul>
+                                                        <li>Bagged our 1st international client</li>
+                                                        <li>Agency Head of the Year - Women Disruptors 2024</li>
+                                                        <li>Our Boss Lady Heta Baandal was recognized by AdGully</li>
+                                                        <li>Our first Infinity Canvas video for Navi Mumbai Municipal
+                                                            Corporation
+                                                            was played in a Swachh Survekshan LIVE event </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="process-card style-01">
+                                    <div class="box-wrap">
+                                        <div class="box-badge">
+                                            <div class="badge-content">2025</div>
+                                        </div>
+                                        <div class="box-content">
+                                            {{-- <h2 class="box-title">Lorem ipsum dolor sit amet.</h2> --}}
+                                            <div class="process-text">
+                                                <div class="text-content">
+                                                    <ul>
+                                                        <li>We are now a team of 50+ Employees</li>
+                                                        <li> Multiple Social Media Dissect features for our clients -
+                                                            <a href="">Markets4you</a> & <a
+                                                                href="">CyberPowerPC</a>
+                                                        </li>
+                                                        <li>International Expansion</li>
+                                                        <li>Opened an office in Dubai</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination">
+                        </div>
+                        {{-- <span class="swiper-progress-percentage">0%</span> --}}
                     </div>
-                </div>
-                @push('scripts')
+                    @push('scripts')
                     <script>
-                        new Swiper(".teamSwiper", {
-                            spaceBetween: 30,
-                            slidesPerView: 4,
-                            loop: true,
-                            navigation: {
-                                nextEl: ".slider-arrow.next",
-                                prevEl: ".slider-arrow.prev",
+                        new Swiper('.journeySwiper', {
+                            spaceBetween: 10,
+                            slidesPerView: 1,
+                            pagination: {
+                                el: ".swiper-pagination",
+                                type: "progressbar",
+                            },
+                            // autoplay: {
+                            //     delay: 2500,
+                            //     disableOnInteraction: false,
+                            // },
+                            breakpoints: {
+                                768: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 20,
+                                },
+                                1024: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 30,
+                                },
                             },
                         })
                     </script>
-                @endpush
-                {{-- <div class="row g-3">
+                    @endpush
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="overflow-hidden arrow-wrap" id="team-sec">
+        <div class="container">
+            <div class="row justify-content-lg-between justify-content-center align-items-end d-none">
+                <div class="col-lg-7">
+                    <div class="title-area text-center text-lg-start pe-xl-5">
+                        <div class="shadow-title style3">Team</div>
+                        <span class="sub-title sub-title4 style1 mb-4 mb-md-5">Expert Team Members</span>
+                        <h2 class="sec-title ">Building Our Future</h2>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <p class="ps-xl-5 text-center text-lg-start">We start with a comprehensive analysis of your
+                        business, industry, target audience, and current
+                        digital presence. Through this process, we identify opportunities.</p>
+                    <div class="sec-btn text-end">
+                        <div class="icon-box">
+                            <button data-slider-prev="#teamSwiper" class="slider-arrow prev style4 default"><i
+                                    class="fas fa-arrow-left"></i></button>
+                            <button data-slider-next="#teamSwiper" class="slider-arrow next style4 default"><i
+                                    class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- / Title row -->
+
+            <div class="swiper teamSwiper d-none">
+                <div class="swiper-wrapper">
+                    @for ($i = 0; $i < 10; $i++)
+                        <div class="swiper-slide">
+                        <div class="th-team team-card style1 mb-3">
+                            <div class="box-img">
+                                <img src="https://placehold.co/300x400" alt="Team">
+                            </div>
+                            <div class="box-content">
+                                <div>
+                                    <h3 class="box-title"><a href="team-details.html">Lorem, ipsum.</a>
+                                    </h3>
+                                    <span class="team-desig">Web Developer</span>
+                                </div>
+                                <div class="team-social">
+                                    <div class="icon-btn"><i class="fa-light fa-plus"></i></div>
+                                    <div class="th-social">
+                                        <a target="_blank" href="https://facebook.com/"><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a target="_blank" href="https://twitter.com/"><i
+                                                class="fab fa-twitter"></i></a>
+                                        <a target="_blank" href="https://instagram.com/"><i
+                                                class="fab fa-instagram"></i></a>
+                                        <a target="_blank" href="https://linkedin.com/"><i
+                                                class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                </div>
+                @endfor
+            </div>
+        </div>
+        @push('scripts')
+        <script>
+            new Swiper(".teamSwiper", {
+                spaceBetween: 30,
+                slidesPerView: 4,
+                loop: true,
+                navigation: {
+                    nextEl: ".slider-arrow.next",
+                    prevEl: ".slider-arrow.prev",
+                },
+            })
+        </script>
+        @endpush
+        {{-- <div class="row g-3">
                     <div class="col-12">
                         <video loop muted autoplay class="w-100">
                             <source src="{{ asset('frontend-assets/team-video.mp4') }}">
-                        </video>
+        </video>
+        </div>
+        </div> --}}
+        <div class="video-wrapper lazy-loading">
+            <video loop muted autoplay class="w-100"
+                poster="{{ asset('frontend-assets/img/posters/team_video_poster.jpg') }}">
+                <source src="{{ asset('frontend-assets/team-video.mp4') }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        </div>
+    </section>
+
+
+
+    <section class="position-relative space garally bg-grey" id="portfolio-sec">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center">
+                        <!-- <div class="shadow-title">Culture</div> -->
+                        <!-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Culture<span></span></span> -->
+                        <h2 class="sec-title mb-2">Work <span class="text-orange">Culture</span></h2>
                     </div>
-                </div> --}}
-                <div class="video-wrapper lazy-loading">
-                    <video loop muted autoplay class="w-100"
-                        poster="{{ asset('frontend-assets/img/posters/team_video_poster.jpg') }}">
-                        <source src="{{ asset('frontend-assets/team-video.mp4') }}" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
                 </div>
             </div>
-        </section>
-
-
-
-        <section class="position-relative space garally bg-grey" id="portfolio-sec">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-8">
-                        <div class="text-center">
-                            <!-- <div class="shadow-title">Culture</div> -->
-                            <!-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Culture<span></span></span> -->
-                            <h2 class="sec-title mb-2">Work <span class="text-orange">Culture</span></h2>
-                        </div>
-                    </div>
+            <div class="portfolio-area">
+                <div class="filter-menu filter-menu-active mt-5 mb-5">
+                    <button data-filter="*" class="tab-btn active" type="button">All Moments</button>
+                    <button data-filter=".cat-2025" class="tab-btn" type="button">2025</button>
+                    <button data-filter=".cat-2024" class="tab-btn" type="button">2024</button>
+                    <button data-filter=".cat-2022, .cat-2023" class="tab-btn" type="button">2023 - 2022</button>
+                    <button data-filter=".cat-2020" class="tab-btn" type="button">2022 - 2018</button>
+                    <button data-filter=".cat-old" class="tab-btn" type="button">2017</button>
                 </div>
-                <div class="portfolio-area">
-                    <div class="filter-menu filter-menu-active mt-5 mb-5">
-                        <button data-filter="*" class="tab-btn active" type="button">All Moments</button>
-                        <button data-filter=".cat-2025" class="tab-btn" type="button">2025</button>
-                        <button data-filter=".cat-2024" class="tab-btn" type="button">2024</button>
-                        <button data-filter=".cat-2022, .cat-2023" class="tab-btn" type="button">2023 - 2022</button>
-                        <button data-filter=".cat-2020" class="tab-btn" type="button">2022 - 2018</button>
-                        <button data-filter=".cat-old" class="tab-btn" type="button">2017</button>
-                    </div>
-                    <div class="masonary-gallery-active" id="masonary-gallery">
-                        @for ($i = 1; $i <= 25; $i++)
-                            <a href="{{ asset('frontend-assets/img/gallery/workplace/2020 (' . $i . ').jpg') }}"
-                                class="filter-item mb-3 cat-2020 project-item box-img">
-                                <img src="{{ asset('frontend-assets/img/gallery/workplace/2020 (' . $i . ').jpg') }}"
-                                    class="w-100" alt="" loading="lazy">
-                            </a>
+                <div class="masonary-gallery-active" id="masonary-gallery">
+                    @for ($i = 1; $i <= 25; $i++)
+                        <a href="{{ asset('frontend-assets/img/gallery/workplace/2020 (' . $i . ').jpg') }}"
+                        class="filter-item mb-3 cat-2020 project-item box-img">
+                        <img src="{{ asset('frontend-assets/img/gallery/workplace/2020 (' . $i . ').jpg') }}"
+                            class="w-100" alt="" loading="lazy">
+                        </a>
                         @endfor
                         @for ($i = 1; $i <= 6; $i++)
                             <a href="{{ asset('frontend-assets/img/gallery/workplace/2022 (' . $i . ').jpg') }}"
-                                class="filter-item mb-3 cat-2022 project-item box-img">
-                                <img src="{{ asset('frontend-assets/img/gallery/workplace/2022 (' . $i . ').jpg') }}"
-                                    class="w-100" alt="" loading="lazy">
+                            class="filter-item mb-3 cat-2022 project-item box-img">
+                            <img src="{{ asset('frontend-assets/img/gallery/workplace/2022 (' . $i . ').jpg') }}"
+                                class="w-100" alt="" loading="lazy">
                             </a>
-                        @endfor
-                        @for ($i = 1; $i <= 3; $i++)
-                            <a href="{{ asset('frontend-assets/img/gallery/workplace/2023 (' . $i . ').jpg') }}"
+                            @endfor
+                            @for ($i = 1; $i <= 3; $i++)
+                                <a href="{{ asset('frontend-assets/img/gallery/workplace/2023 (' . $i . ').jpg') }}"
                                 class="filter-item mb-3 cat-2023 project-item box-img">
                                 <img src="{{ asset('frontend-assets/img/gallery/workplace/2023 (' . $i . ').jpg') }}"
                                     class="w-100" alt="" loading="lazy">
-                            </a>
-                        @endfor
-                        @for ($i = 1; $i <= 15; $i++)
-                            <a href="{{ asset('frontend-assets/img/gallery/workplace/2024 (' . $i . ').jpg') }}"
-                                class="filter-item mb-3 cat-2024 project-item box-img">
-                                <img src="{{ asset('frontend-assets/img/gallery/workplace/2024 (' . $i . ').jpg') }}"
-                                    class="w-100" alt="" loading="lazy">
-                            </a>
-                        @endfor
-                        @for ($i = 1; $i <= 5; $i++)
-                            <a href="{{ asset('frontend-assets/img/gallery/workplace/2025 (' . $i . ').jpg') }}"
-                                class="filter-item mb-3 cat-2025 project-item box-img">
-                                <img src="{{ asset('frontend-assets/img/gallery/workplace/2025 (' . $i . ').jpg') }}"
-                                    class="w-100" alt="" loading="lazy">
-                            </a>
-                        @endfor
-                    </div>
-                    <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
+                                </a>
+                                @endfor
+                                @for ($i = 1; $i <= 15; $i++)
+                                    <a href="{{ asset('frontend-assets/img/gallery/workplace/2024 (' . $i . ').jpg') }}"
+                                    class="filter-item mb-3 cat-2024 project-item box-img">
+                                    <img src="{{ asset('frontend-assets/img/gallery/workplace/2024 (' . $i . ').jpg') }}"
+                                        class="w-100" alt="" loading="lazy">
+                                    </a>
+                                    @endfor
+                                    @for ($i = 1; $i <= 5; $i++)
+                                        <a href="{{ asset('frontend-assets/img/gallery/workplace/2025 (' . $i . ').jpg') }}"
+                                        class="filter-item mb-3 cat-2025 project-item box-img">
+                                        <img src="{{ asset('frontend-assets/img/gallery/workplace/2025 (' . $i . ').jpg') }}"
+                                            class="w-100" alt="" loading="lazy">
+                                        </a>
+                                        @endfor
+                </div>
+                <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
                                                                                                                                             </div> -->
-                </div>
             </div>
-            @push('scripts')
-                <script>
-                    $(".masonary-gallery-active").imagesLoaded(function() {
-                        var $filter = ".masonary-gallery-active",
-                            $filterItem = ".filter-item",
-                            $filterMenu = ".filter-menu-active";
+        </div>
+        @push('scripts')
+        <script>
+            $(".masonary-gallery-active").imagesLoaded(function() {
+                var $filter = ".masonary-gallery-active",
+                    $filterItem = ".filter-item",
+                    $filterMenu = ".filter-menu-active";
 
-                        if ($($filter).length > 0) {
-                            var $grid = $($filter).isotope({
-                                itemSelector: $filterItem,
-                                filter: "*",
-                                masonry: {
-                                    // use outer width of grid-sizer for columnWidth
+                if ($($filter).length > 0) {
+                    var $grid = $($filter).isotope({
+                        itemSelector: $filterItem,
+                        filter: "*",
+                        masonry: {
+                            // use outer width of grid-sizer for columnWidth
 
-                                    gutter: 24,
-                                    columnWidth: 4,
-                                    fitWidth: true
-                                    // horizontalOrder: true
-                                },
-                            });
-
-                            // filter items on button click
-                            $($filterMenu).on("click", "button", function() {
-                                var filterValue = $(this).attr("data-filter");
-                                $grid.isotope({
-                                    filter: filterValue,
-                                });
-                            });
-
-                            // Menu Active Class
-                            $($filterMenu).on("click", "button", function(event) {
-                                event.preventDefault();
-                                $(this).addClass("active");
-                                $(this).siblings(".active").removeClass("active");
-                            });
-                        }
-
-                    }).progress(function() {
-
+                            gutter: 24,
+                            columnWidth: 4,
+                            fitWidth: true
+                            // horizontalOrder: true
+                        },
                     });
-                    var gallery = lightGallery(document.getElementById('masonary-gallery'), {
-                        plugins: [lgZoom, lgThumbnail],
-                        speed: 500,
-                    });
-                </script>
-            @endpush
-        </section>
 
-        <section class="position-relative space overflow-hidden d-none">
-            <div class="container">
-                <div class="row justify-content-center mb-4">
-                    <div class="col-lg-8">
-                        <div class="title-area text-center">
-                            <div class="shadow-title">Culture</div>
-                            <span class="sub-title sub-title4 mb-4 mb-md-5">Our Culture<span></span></span>
-                            <h2 class="sec-title">Work Culture</h2>
-                        </div>
-                    </div>
-                </div>
-                <ul class="nav nav-pills gap-3 justify-content-center" id="galleryTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link tab-btn active" id="tab-2524" data-bs-toggle="tab"
-                            data-bs-target="#tab-2524-pane" type="button" role="tab" aria-controls="tab-2524-pane"
-                            aria-selected="true">2025 - 2024</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link tab-btn" id="tab-2422" data-bs-toggle="tab"
-                            data-bs-target="#tab-2422-pane" type="button" role="tab" aria-controls="tab-2422-pane"
-                            aria-selected="false">2024 - 2022</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link tab-btn" id="tab-2217" data-bs-toggle="tab"
-                            data-bs-target="#tab-2217-pane" type="button" role="tab" aria-controls="tab-2217-pane"
-                            aria-selected="false">2022 - 2017</button>
-                    </li>
-                </ul>
-                <div class="tab-content position-relative" id="galleryTabContent">
-                    <div class="tab-pane fade show active" id="tab-2524-pane" role="tabpanel" aria-labelledby="tab-2524"
-                        tabindex="0">
-                        <div class="row gy-4 filter-active">
-                            <div class="col-md-6 col-xl-3">
-                                <div class="project-item">
-                                    <div class="box-img global-img">
-                                        <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                            alt="project image">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="tab-2422-pane" role="tabpanel" aria-labelledby="tab-2422"
-                        tabindex="0">
-                        <div class="row gy-4 filter-active">
-                            <div class="col-md-6 col-xl-3">
-                                <div class="project-item">
-                                    <div class="box-img global-img">
-                                        <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                            alt="project image">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="tab-2217-pane" role="tabpanel" aria-labelledby="tab-2217"
-                        tabindex="0">
-                        <div class="row gy-4 filter-active">
-                            <div class="col-md-6 col-xl-3">
-                                <div class="project-item">
-                                    <div class="box-img global-img">
-                                        <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
-                                            alt="project image">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    // filter items on button click
+                    $($filterMenu).on("click", "button", function() {
+                        var filterValue = $(this).attr("data-filter");
+                        $grid.isotope({
+                            filter: filterValue,
+                        });
+                    });
+
+                    // Menu Active Class
+                    $($filterMenu).on("click", "button", function(event) {
+                        event.preventDefault();
+                        $(this).addClass("active");
+                        $(this).siblings(".active").removeClass("active");
+                    });
+                }
+
+            }).progress(function() {
+
+            });
+            var gallery = lightGallery(document.getElementById('masonary-gallery'), {
+                plugins: [lgZoom, lgThumbnail],
+                speed: 500,
+            });
+        </script>
+        @endpush
+    </section>
+
+    <section class="position-relative space overflow-hidden d-none">
+        <div class="container">
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-8">
+                    <div class="title-area text-center">
+                        <div class="shadow-title">Culture</div>
+                        <span class="sub-title sub-title4 mb-4 mb-md-5">Our Culture<span></span></span>
+                        <h2 class="sec-title">Work Culture</h2>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+            <ul class="nav nav-pills gap-3 justify-content-center" id="galleryTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link tab-btn active" id="tab-2524" data-bs-toggle="tab"
+                        data-bs-target="#tab-2524-pane" type="button" role="tab" aria-controls="tab-2524-pane"
+                        aria-selected="true">2025 - 2024</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link tab-btn" id="tab-2422" data-bs-toggle="tab"
+                        data-bs-target="#tab-2422-pane" type="button" role="tab" aria-controls="tab-2422-pane"
+                        aria-selected="false">2024 - 2022</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link tab-btn" id="tab-2217" data-bs-toggle="tab"
+                        data-bs-target="#tab-2217-pane" type="button" role="tab" aria-controls="tab-2217-pane"
+                        aria-selected="false">2022 - 2017</button>
+                </li>
+            </ul>
+            <div class="tab-content position-relative" id="galleryTabContent">
+                <div class="tab-pane fade show active" id="tab-2524-pane" role="tabpanel" aria-labelledby="tab-2524"
+                    tabindex="0">
+                    <div class="row gy-4 filter-active">
+                        <div class="col-md-6 col-xl-3">
+                            <div class="project-item">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
+                                        alt="project image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tab-2422-pane" role="tabpanel" aria-labelledby="tab-2422"
+                    tabindex="0">
+                    <div class="row gy-4 filter-active">
+                        <div class="col-md-6 col-xl-3">
+                            <div class="project-item">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
+                                        alt="project image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tab-2217-pane" role="tabpanel" aria-labelledby="tab-2217"
+                    tabindex="0">
+                    <div class="row gy-4 filter-active">
+                        <div class="col-md-6 col-xl-3">
+                            <div class="project-item">
+                                <div class="box-img global-img">
+                                    <img src="{{ asset('https://placehold.co/400x200') }}" class="w-100"
+                                        alt="project image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
 @endsection

@@ -78,7 +78,7 @@ class ServiceController extends Controller
     {
         $meta = [
             'title' => 'SEO Agency in UAE | Boost Your Rankings with Sociomark',
-            'description' => 'Looking for the best SEO company in Dubai? Our SEO experts help your business grow online with proven strategies. Get top rankings and more traffic today!',
+            'description' => "Boost your online presence with Dubai's leading SEO Company. Our SEO Services help improve rankings, increase traffic, and grow your business effectively.",
             'keywords' => 'SEO Agency in UAE, SEO company in Dubai'
         ];
         $categories = Category::all();
@@ -109,13 +109,13 @@ class ServiceController extends Controller
                 ]
             ]
         ];
-        return view("Frontend/Services/Website", compact('blogs','meta'));
+        return view("Frontend/Services/Website", compact('blogs', 'meta'));
     }
     public function socialMedia()
     {
         $meta = [
-            'title' => 'Social Media Marketing Agency in UAE | Grow Your Brand',
-            'description' => 'Partner with the top Social Media Marketing Company in Dubai. We create impactful campaigns that drive engagement, reach, and growth for your business.',
+            'title' => 'Social Media Marketing Agency in UAE | Sociomark',
+            'description' => 'Boost your brand with expert social media agency services in Dubai. Customized strategies to grow your online presence and engage your audience effectively.',
             'keywords' => 'Social Media Marketing Agency in UAE, Social Media Marketing Company in Dubai'
         ];
         $categories = Category::all();
@@ -125,13 +125,13 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/SocialMedia", compact('blogs' ,'meta'));
+        return view("Frontend/Services/SocialMedia", compact('blogs', 'meta'));
     }
     public function digitalMarketing()
     {
         $meta = [
-            'title' => 'Leading Digital Marketing Agency in UAE | Grow with Experts',
-            'description' => 'Top Digital Marketing Company in Dubai offering SEO, social media, PPC & more. Drive leads, boost sales & grow your brand with proven strategies.',
+            'title' => 'Leading Digital Marketing Company in UAE | Grow with Experts',
+            'description' => 'Get top Digital Marketing Agency Services in Dubai with Sociomark. Drive traffic, boost your online presence, and grow your business with expert digital solutions.',
             'keywords' => 'digital marketing in Dubai, Digital Marketing in UAE '
         ];
         $categories = Category::all();
@@ -146,8 +146,8 @@ class ServiceController extends Controller
     public function contentMarketing()
     {
         $meta = [
-            'title' => 'Top Content Marketing Agency in UAE | Expert Services',
-            'description' => 'Looking for content marketing services in Dubai? Our agency offers tailored content strategies to boost your brand’s visibility and engagement across all platforms.',
+            'title' => 'Top Content Marketing Agency in UAE | Sociomark',
+            'description' => 'Get more engagement and grow your business with professional Content Marketing Services from Sociomark, a trusted agency in Dubai delivering impactful results.',
             'keywords' => 'Content Marketing Agency in UAE, content marketing services in Dubai'
         ];
 
@@ -163,8 +163,8 @@ class ServiceController extends Controller
     public function sem()
     {
         $meta = [
-            'title' => 'Performance Marketing Agency in UAE | Get Quality Leads',
-            'description' => 'Boost your ROI with the best performance marketing company in Dubai. We deliver data driven strategies to maximize growth and drive measurable success.',
+            'title' => 'Performance Marketing Agency in UAE | Sociomark',
+            'description' => 'Sociomark, a digital marketing agency in UAE, offers Performance Marketing Services that help your business grow online. We build effective campaigns to increase sales and reach.',
             'keywords' => 'Performance Marketing Agency in UAE, performance marketing company in Dubai'
         ];
         $categories = Category::all();
@@ -179,8 +179,8 @@ class ServiceController extends Controller
     public function photoVideography()
     {
         $meta = [
-            'title' => 'Top Photography and Videography Services in UAE | Creative',
-            'description' => 'Capture stunning moments with top photography and videography services in Dubai. We create impactful visuals that elevate your brand’s story and engagement.',
+            'title' => 'Top Photography and Videography Services in UAE | Sociomark',
+            'description' => 'Get quality Photography and Videography Services in Dubai with Sociomark. We help you capture special moments in a simple and professional way.',
             'keywords' => 'Photography and Videography Company in UAE, photography and videography services in Dubai'
         ];
         $categories = Category::all();
@@ -190,6 +190,6 @@ class ServiceController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/photoVideography", compact('blogs','meta'));
+        return view("Frontend/Services/photoVideography", compact('blogs', 'meta'));
     }
 }

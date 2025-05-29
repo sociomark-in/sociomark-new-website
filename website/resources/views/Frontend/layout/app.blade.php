@@ -2,8 +2,9 @@
 <html class="no-js" lang="en-ae">
 
 <head>
-    <title>{{ $meta['title'] ?? 'Sociomark' }}</title>
-    <meta name="description" content="{{ $meta['description'] ?? 'Sociomark' }}">
+ 
+    <title>{!! $meta['title'] ?? 'Sociomark' !!}</title>
+    <meta name="description" content="{!!  $meta['description'] ?? 'Sociomark' !!}">
     <meta name="keywords" content="{{ $meta['keywords'] ?? 'Sociomark' }}">
     @include('Frontend/partial/styleLinks')
     @yield('custome-style')
