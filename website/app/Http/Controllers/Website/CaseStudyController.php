@@ -42,8 +42,8 @@ class CaseStudyController extends Controller
     public function eduauraa()
     {
         $meta = [
-            'title' => 'Case Studies | Sociomark Digital Marketing in UAE​​',
-            'description' => "See how Sociomark, a digital marketing agency in UAE, helped brands grow with smart online strategies like SEO, ads, and social media marketing."
+            'title' => 'Eduauraa Case Study | Sociomark Digital Agency UAE​​',
+            'description' => "Discover how Sociomark, a digital marketing agency in UAE, helped Eduauraa boost its online presence through smart strategies and impactful digital campaigns."
         ];
         return view('Frontend/caseStudy/eduauraa', compact('meta'));
     }

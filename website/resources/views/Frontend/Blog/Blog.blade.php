@@ -1,10 +1,5 @@
 @extends('Frontend.layout.app')
-@section('title', 'Blog')
-@section('author', 'Your Company Name')
-@section('description', 'This is a dynamic description for the home page.')
-@section('keywords', 'blog, marketing, agency, web design')
-@section('robots', 'INDEX,FOLLOW')
-@section('custome-style')
+
 <style>
     #Blog_Section .box {
         padding: 28px 20px;
