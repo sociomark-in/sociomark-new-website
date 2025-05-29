@@ -18,8 +18,8 @@ class HomeController extends Controller
     public function Home()
     {
         $meta = [
-            'title' => 'Digital Marketing Agency in UAE | Boost Your Business​',
-            'description' => "We are an award-winning digital marketing company in Dubai, specializing in creative, purpose-driven strategies that highlight your brand's unique personality.",
+            'title' => 'Leading Digital Marketing Agency in UAE | Sociomark​',
+            'description' => "Sociomark is a top-rated digital marketing agency in Dubai, offering SEO, social media, and branding solutions to grow your business online effectively.",
             'keywords' => 'Digital Marketing Agency in UAE, digital marketing company in Dubai'
         ];
         $categories = Category::all();
@@ -58,14 +58,18 @@ class HomeController extends Controller
     public function About()
     {
         $meta = [
-            'title' => 'About Us - Digital Marketing Company in Dubai​​',
-            'description' => "Learn about the story behind SocioMark, a leading digital marketing company in Dubai. Learn about our mission, values, and the team driving your brand's success."
+            'title' => 'Creative Marketing Agency in Dubai | Sociomark​​',
+            'description' => "Learn about Sociomark, a trusted digital marketing company in UAE, offering innovative strategies to grow your online presence and drive real results."
         ];
         return view("Frontend/AboutUs", compact('meta'));
     }
     public function Services()
     {
-        return view("Frontend/Services");
+        $meta = [
+            'title' => 'Digital Marketing Services Dubai | SEO, PPC, SMM | Sociomark​​',
+            'description' => "Explore Digital Marketing Services in Dubai with Sociomark. We offer SEO, Social Media, PPC & more to grow your brand online."
+        ];
+        return view("Frontend/Services", compact('meta'));
     }
     public function careers()
     {

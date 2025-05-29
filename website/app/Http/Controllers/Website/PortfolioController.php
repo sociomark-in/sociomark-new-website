@@ -90,7 +90,7 @@ class PortfolioController extends Controller
                 # code...
                 break;
         /* F */
-            case 'sight-optiforecals':
+            case 'foresight-opticals':
                 return view('Frontend/Portfolio/foresightopticalsSocialMedia');
                 break;
         /* G */
