@@ -7,62 +7,117 @@ use Illuminate\Http\Request;
 
 class IndustryController extends Controller
 {
-    public function home() {
+    public function home()
+    {
         return view("Frontend/industry/home");
     }
-    public function single($segment) {
+    public function single($segment)
+    {
         switch ($segment) {
             case 'education':
-                return view("Frontend/industry/education_industry");
+
+                $meta = [
+                    'title' => 'Education marketing agency in Dubai | Sociomark',
+                    'description' => 'Sociomark, a digital marketing agency in UAE, helps education brands grow online with SEO, content strategies, and social media marketing solutions.'
+                ];
+                return view("Frontend/industry/education_industry", compact('meta'));
                 # code...
                 break;
             case 'healthcare':
-                return view("Frontend/industry/healthcare_industry");
+                $meta = [
+                    'title' => 'Healthcare marekting agency in UAE| Sociomark',
+                    'description' => 'Sociomark, a digital marketing agency in UAE, offers healthcare marketing solutions using SEO, content, and social media to connect providers with patients online.'
+                ];
+                return view("Frontend/industry/healthcare_industry", compact('meta'));
                 # code...
                 break;
             case 'fmcg':
-                return view("Frontend/industry/fmcg_industry");
+                $meta = [
+                    'title' => 'FMCG Digital Marketing Services in UAE | Sociomark',
+                    'description' => 'Learn how Sociomark, a digital marketing agency in UAE, helps FMCG brands grow with online strategies like SEO, social media, and targeted advertising.'
+                ];
+                return view("Frontend/industry/fmcg_industry", compact('meta'));
                 # code...
                 break;
             case 'news-media':
-                return view("Frontend/industry/news_and_media_industry");
+                $meta = [
+                    'title' => 'News & Media Marketing Services in UAE | Sociomark ',
+                    'description' => 'Sociomark, a digital marketing agency in UAE, helps news & media brands grow online with SEO, content strategies, and social media marketing solutions.'
+                ];
+                return view("Frontend/industry/news_and_media_industry", compact('meta'));
                 # code...
                 break;
             case 'real-estate':
-                return view("Frontend/industry/realestate_industry");
+                $meta = [
+                    'title' => 'Real Estate Marketing Services in UAE | Sociomark',
+                    'description' => 'Sociomark is a digital marketing agency in UAE that helps real estate companies get more leads with online ads, SEO, and social media marketing.'
+                ];
+                return view("Frontend/industry/realestate_industry", compact('meta'));
                 # code...
                 break;
             case 'logistics':
-                return view("Frontend/industry/logistics_industry");
+                $meta = [
+                    'title' => 'Healthcare marekting agency in UAE| Sociomark',
+                    'description' => 'Sociomark, a digital marketing agency in UAE, offers healthcare marketing solutions using SEO, content, and social media to connect providers with patients online.'
+                ];
+                return view("Frontend/industry/logistics_industry", compact('meta'));
                 # code...
                 break;
             case 'fashion':
-                return view("Frontend/industry/fashion_and_lifestyle_industry");
+                $meta = [
+                    'title' => 'Fashion Marketing Services in UAE | Sociomark',
+                    'description' => 'Sociomark, a digital marketing agency in UAE, helps fashion brands grow online with smart SEO, ads, and social media to boost sales and brand awareness.'
+                ];
+                return view("Frontend/industry/fashion_and_lifestyle_industry", compact('meta'));
                 # code...
                 break;
             case 'gaming':
-                return view("Frontend/industry/gaming_industry");
+                $meta = [
+                    'title' => 'Gaming Marketing Services in UAE | Sociomark',
+                    'description' => 'Sociomark is a digital marketing agency in UAE helping gaming brands grow with SEO, ads, and social media strategies to boost players and online reach.'
+                ];
+                return view("Frontend/industry/gaming_industry", compact('meta'));
                 # code...
                 break;
             case 'home-interior':
-                return view("Frontend/industry/interior_industry");
+                $meta = [
+                    'title' => 'Home Interior Marketing Services in UAE | Sociomark',
+                    'description' => 'Sociomark, a digital marketing agency in UAE, helps home interior brands grow with SEO, social media, and online ads to reach the right audience effectively.'
+                ];
+                return view("Frontend/industry/interior_industry", compact('meta'));
                 # code...
                 break;
             case 'automobile':
-                return view("Frontend/industry/automobile_industry");
+                $meta = [
+                    'title' => 'Automobile Marketing Services in UAE | Sociomark',
+                    'description' => 'Sociomark is a digital marketing agency in UAE that helps automobile brands grow online with SEO, paid ads, and social media to drive leads and visibility.'
+                ];
+                return view("Frontend/industry/automobile_industry", compact('meta'));
                 # code...
                 break;
             case 'travel':
-                return view("Frontend/industry/travel_industry");
+                $meta = [
+                    'title' => 'Healthcare marekting agency in UAE| Sociomark',
+                    'description' => 'Sociomark, a digital marketing agency in UAE, offers healthcare marketing solutions using SEO, content, and social media to connect providers with patients online.'
+                ];
+                return view("Frontend/industry/travel_industry", compact('meta'));
                 # code...
                 break;
             case 'b2b':
-                return view("Frontend/industry/b2b_industry");
+                $meta = [
+                    'title' => 'Healthcare marekting agency in UAE| Sociomark',
+                    'description' => 'Sociomark, a digital marketing agency in UAE, offers healthcare marketing solutions using SEO, content, and social media to connect providers with patients online.'
+                ];
+                return view("Frontend/industry/b2b_industry", compact('meta'));
                 # code...
                 break;
             case 'public':
             case 'public-sector':
-                return view("Frontend/industry/public_sector");
+                $meta = [
+                    'title' => 'Public Sector Digital Marketing in UAE | Sociomark',
+                    'description' => 'Sociomark, a digital marketing agency in UAE, supports public sector organizations with online strategies like SEO, social media, and outreach campaigns.'
+                ];
+                return view("Frontend/industry/public_sector", compact('meta'));
                 # code...
                 break;
 
