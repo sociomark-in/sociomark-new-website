@@ -14,7 +14,7 @@ class PortfolioController extends Controller
             'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
         ];
         return view('Frontend/Portfolio/insidePortfolio', compact('meta'));
-        // return view('Frontend/Portfolio/ListPortfolioCat');
+        // return view('Frontend/Portfolio/ListPortfolioCat' , compact('meta'));
     }
     public function portfolioInside()
     {
@@ -24,229 +24,437 @@ class PortfolioController extends Controller
     public function social_media($client)
     {
         switch ($client) {
-        /* A */
+            /* A */
             case 'ai-awards':
-                return view('Frontend/Portfolio/aiawards');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/aiawards', compact('meta'));
                 # code...
                 break;
             case 'adi-arogyam':
-                return view("Frontend/Portfolio/adiArogyamSocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/adiArogyamSocial", compact('meta'));
                 # code...
                 break;
             case 'ayu-health':
-                return view("Frontend/Portfolio/ayuHealthSocial");
+                $meta = [
+                    'title' => 'Ayu Health Social Media | Campaign by Sociomark​',
+                    'description' => "Sociomark, a digital marketing agency in UAE, crafted Ayu Health’s social media presence with engaging content, improving reach and brand visibility online."
+                ];
+                return view("Frontend/Portfolio/ayuHealthSocial", compact('meta'));
                 # code...
                 break;
             case 'ayushakti':
-                return view('Frontend/Portfolio/ayushaktiSocialMedia');
+                $meta = [
+                    'title' => 'Ayushakti Social Media Work | Sociomark​',
+                    'description' => "Sociomark, a digital marketing agency in UAE, boosted Ayushakti’s online presence with creative social media campaigns and targeted audience engagement."
+                ];
+                return view('Frontend/Portfolio/ayushaktiSocialMedia', compact('meta'));
                 # code...
                 break;
-        /* B */
+            /* B */
             case 'bulid-track':
-                return view("Frontend/Portfolio/bulidTrackSocial");
+                $meta = [
+                    'title' => 'Build Track Social Media Work | Sociomark​',
+                    'description' => "Discover how Sociomark, Digital marketing agency in uae, boosted Build Track’s social media with engaging content, targeted ads, and strategic campaigns."
+                ];
+                return view("Frontend/Portfolio/bulidTrackSocial", compact('meta'));
                 # code...
                 break;
             case 'button-dabao-desh-banao':
-                return view('Frontend/Portfolio/buttonbabaoDeshBanaoSocialMedia');
+                $meta = [
+                    'title' => 'Button Dabao Campaign | Social Media by Sociomark​',
+                    'description' => "Sociomark, a digital marketing agency in UAE, led the Button Dabao Desh Banao campaign with creative social media strategies to drive awareness and impact."
+                ];
+                return view('Frontend/Portfolio/buttonbabaoDeshBanaoSocialMedia', compact('meta'));
                 # code...
                 break;
             case 'bumchumps':
-                return view('Frontend/Portfolio/bumchumpsSocialMedia');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/bumchumpsSocialMedia', compact('meta'));
                 # code...
                 break;
             case 'bem':
-                return view("Frontend/Portfolio/bemSocial");
+                $meta = [
+                    'title' => 'BEM Social Media Campaign | Sociomark ​',
+                    'description' => "Sociomark, a digital marketing agency in UAE, created impactful social media strategies for BEM to enhance brand awareness and connect with the right audience."
+                ];
+                return view("Frontend/Portfolio/bemSocial", compact('meta'));
                 # code...
                 break;
-        /* C */
+            /* C */
             case 'castrol':
-                return view('Frontend/Portfolio/castrolSocialMedia');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/castrolSocialMedia', compact('meta'));
                 # code...
                 break;
             case 'cosplay-genie':
-                return view('Frontend/Portfolio/cosplayGenieSocialMedia');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/cosplayGenieSocialMedia', compact('meta'));
                 # code...
                 break;
             case 'cyber-power':
-                return view("Frontend/Portfolio/cyberPowerSocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/cyberPowerSocial", compact('meta'));
                 # code...
                 break;
-        /* D */
+            /* D */
             case 'desi-avtar':
-                return view("Frontend/Portfolio/desiAvtar");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/desiAvtar", compact('meta'));
                 # code...
                 break;
             case 'dy-patil':
-                return view("Frontend/Portfolio/dyPatilSocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/dyPatilSocial", compact('meta'));
                 # code...
                 break;
-        /* E */
+            /* E */
             case 'euro':
-                return view('Frontend/Portfolio/euroSocialMedia');
+                $meta = [
+                    'title' => 'EURO Social Media Campaign | Sociomark UAE​',
+                    'description' => "See how Sociomark, a Digital marketing agency in uae, boosted EURO’s social media engagement with creative content, ads, and strategies for brand growth."
+                ];
+                return view('Frontend/Portfolio/euroSocialMedia', compact('meta'));
                 # code...
                 break;
             case 'expert-4-travel':
-                return view("Frontend/Portfolio/expert4travelSocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/expert4travelSocial", compact('meta'));
                 # code...
                 break;
-        /* F */
+            /* F */
             case 'foresight-opticals':
-                return view('Frontend/Portfolio/foresightopticalsSocialMedia');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/foresightopticalsSocialMedia', compact('meta'));
                 break;
-        /* G */
+            /* G */
             case 'grill-box':
-                return view('Frontend/Portfolio/grillboxSocialMedia');
+                $meta = [
+                    'title' => 'Grill Box Social Media Work | Sociomark UAE​',
+                    'description' => "Sociomark, a digital marketing agency in UAE, created engaging social media campaigns for Grill Box to boost brand awareness and connect with food lovers online."
+                ];
+                return view('Frontend/Portfolio/grillboxSocialMedia', compact('meta'));
                 # code...
                 break;
-        /* H */
+            /* H */
             case 'hollywood-opticians':
-                return view('Frontend/Portfolio/hollywoodopticiansSocialMedia');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/hollywoodopticiansSocialMedia', compact('meta'));
                 break;
-        /* I */
+            /* I */
             case 'inifd-vashi':
-                return view('Frontend/Portfolio/inifdvashiSocialMedia');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/inifdvashiSocialMedia', compact('meta'));
                 break;
             case 'ism':
-                return view("Frontend/Portfolio/ismSocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/ismSocial", compact('meta'));
                 # code...
                 break;
-        /* J */
+            /* J */
             case 'jivana':
-                return view('Frontend/Portfolio/jivanaSocialMedia');
+                $meta = [
+                    'title' => 'Jivana Social Media Campaign | Sociomark UAE​',
+                    'description' => "Sociomark, a Digital marketing agency in uae, helped Jivana grow online with creative social posts, targeted campaigns, and higher audience engagement."
+                ];
+                return view('Frontend/Portfolio/jivanaSocialMedia', compact('meta'));
                 # code...
                 break;
             case 'jop':
-                return view("Frontend/Portfolio/jopSocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/jopSocial", compact('meta'));
                 # code...
                 break;
-        /* K */
+            /* K */
             case 'kolkata-rolls':
-                return view('Frontend/Portfolio/kolkatarollsSocialMedia');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/kolkatarollsSocialMedia', compact('meta'));
                 # code...
                 break;
-        /* L */
+            /* L */
             case 'lime':
-                return view('Frontend/Portfolio/limeSocialMedia');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/limeSocialMedia', compact('meta'));
                 # code...
                 break;
-        /* M */
+            /* M */
             case 'mahindra-first-choice-services':
-                return view('Frontend/Portfolio/mahidraFirstChoiceSocialMedia');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/mahidraFirstChoiceSocialMedia', compact('meta'));
                 # code...
                 break;
             case 'm4u':
-                return view("Frontend/Portfolio/m4uSocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/m4uSocial", compact('meta'));
                 # code...
                 break;
             case 'mission-insure-india':
-                return view('Frontend/Portfolio/missionInsureIndiaSocialMedia');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/missionInsureIndiaSocialMedia', compact('meta'));
                 # code...
                 break;
-        /* N */
+            /* N */
             case 'network18':
-                return view("Frontend/Portfolio/network18Social");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/network18Social", compact('meta'));
                 # code...
                 break;
             case 'nhss':
-                return view("Frontend/Portfolio/nhssSocial");
+                $meta = [
+                    'title' => 'NHSS Social Media Campaign | Sociomark UAE​',
+                    'description' => "Sociomark, a digital marketing agency in UAE, enhanced NHSS’s social media with strategic content and campaigns to increase brand reach and audience engagement."
+                ];
+                return view("Frontend/Portfolio/nhssSocial", compact('meta'));
                 # code...
                 break;
             case 'nmmc':
-                return view("Frontend/Portfolio/nmmcSocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/nmmcSocial", compact('meta'));
                 # code...
                 break;
             case 'nodwin-gaming':
-                // return view("Frontend/Portfolio/nodwinSocial");
-                return view("Frontend/Portfolio/nodwinSocialMedia");
+                $meta = [
+                    'title' => 'NODWIN Social Media Campaign | Sociomark UAE​',
+                    'description' => "Sociomark, a digital marketing agency in uae, helped NODWIN boost social media engagement with strategic posts, targeted ads, and audience growth."
+                ];
+                // return view("Frontend/Portfolio/nodwinSocial" , compact('meta'));
+                return view("Frontend/Portfolio/nodwinSocialMedia", compact('meta'));
                 # code...
                 break;
-        /* O */
+            /* O */
             case 'okinawa':
-                return view("Frontend/Portfolio/okinawaSocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/okinawaSocial", compact('meta'));
                 # code...
                 break;
-        /* P */
+            /* P */
             case 'pare':
-                return view("Frontend/Portfolio/pareSocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/pareSocial", compact('meta'));
                 break;
             case 'patankar-farm':
-                return view("Frontend/Portfolio/patankarFarmSocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/patankarFarmSocial", compact('meta'));
                 # code...
                 break;
-        /* Q */
+            /* Q */
             case 'qubero':
-                return view("Frontend/Portfolio/quberoSocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/quberoSocial", compact('meta'));
                 # code...
                 break;
-        /* R */
+            /* R */
             case 'real-estate-awards':
-                return view('Frontend/Portfolio/realEstateAwardSocialMedia');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/realEstateAwardSocialMedia', compact('meta'));
                 # code...
                 break;
             case 'repute':
-                return view("Frontend/Portfolio/reputeSocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/reputeSocial", compact('meta'));
                 # code...
                 break;
             case 'road-to-safety':
-                return view('Frontend/Portfolio/roadToSafetySocialMedia');
+                $meta = [
+                    'title' => 'Road to Safety Social Media Campaign | Sociomark​',
+                    'description' => "Explore our Road to Safety social media project by Sociomark, Digital marketing agency in uae, showcasing creative content, engagement growth, and community impact."
+                ];
+                return view('Frontend/Portfolio/roadToSafetySocialMedia', compact('meta'));
                 # code...
                 break;
-        /* S */
+            /* S */
             case 'shahenaz':
-                return view("Frontend/Portfolio/shahenazSocial");
+                $meta = [
+                    'title' => 'Shahenaz Social Media Campaign | Sociomark UAE​',
+                    'description' => "Sociomark, a digital marketing agency in UAE, delivered creative social media strategies for Shahenaz to increase brand visibility and engage their target audience."
+                ];
+                return view("Frontend/Portfolio/shahenazSocial", compact('meta'));
                 # code...
                 break;
             case 'smart-cities-of-india':
-                return view('Frontend/Portfolio/smartCityOfIndiaSocialMedia');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/smartCityOfIndiaSocialMedia', compact('meta'));
                 # code...
                 break;
             case 'smarter-india':
-                return view('Frontend/Portfolio/smarterindiaSocialMedia');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/smarterindiaSocialMedia', compact('meta'));
                 # code...
                 break;
             case 'sportz-consult':
-                return view('Frontend/Portfolio/sportzConsultSocialMedia');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/sportzConsultSocialMedia', compact('meta'));
                 # code...
                 break;
             case 'stemrxbio':
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
             case 'stemrx-bioscience':
-                return view("Frontend/Portfolio/stemRXBioScience");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/stemRXBioScience", compact('meta'));
                 # code...
                 break;
-        /* T */
+            /* T */
             case 'tata-play':
-                return view("Frontend/Portfolio/tataplaySocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/tataplaySocial", compact('meta'));
                 # code...
                 break;
             case 'team-cashless-india':
-                return view('Frontend/Portfolio/teamCashlessIndiaSocialMedia');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/teamCashlessIndiaSocialMedia', compact('meta'));
                 # code...
                 break;
             case 'the-professional-couriers':
-                return view('Frontend/Portfolio/theProffessionalCouriersSocialMedia');
+                $meta = [
+                    'title' => 'The Professional Couriers | Social Media by Sociomark​',
+                    'description' => "Sociomark, a digital marketing agency in UAE, helped The Professional Couriers grow online with smart social media content, branding, and audience reach."
+                ];
+                return view('Frontend/Portfolio/theProffessionalCouriersSocialMedia', compact('meta'));
                 # code...
                 break;
             case 'tmc':
-                return view("Frontend/Portfolio/tmcSocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/tmcSocial", compact('meta'));
                 # code...
                 break;
             case 'tpc':
-                return view("Frontend/Portfolio/tpcSocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/tpcSocial", compact('meta'));
                 # code...
                 break;
-        /* U */
-        /* V */
+            /* U */
+            /* V */
             case 'vedco':
-                return view("Frontend/Portfolio/vedcoSocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/vedcoSocial", compact('meta'));
                 # code...
                 break;
-        /* W */
+            /* W */
             case 'watch':
-                return view("Frontend/Portfolio/watchSocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/watchSocial", compact('meta'));
                 # code...
                 break;
             case 'world-grad':
-                return view("Frontend/Portfolio/worldGradSocial");
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view("Frontend/Portfolio/worldGradSocial", compact('meta'));
                 break;
 
             default:
@@ -259,13 +467,25 @@ class PortfolioController extends Controller
     {
         switch ($client) {
             case 'profinet':
-                return view('Frontend/Portfolio/profinetbranding');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/profinetbranding', compact('meta'));
                 break;
             case 'hollywood-opticians':
-                return view('Frontend/Portfolio/hollywoodOpticiansBranding');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/hollywoodOpticiansBranding', compact('meta'));
                 break;
             case 'foresight-opticals':
-                return view('Frontend/Portfolio/foresightOpticalsBranding');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/foresightOpticalsBranding', compact('meta'));
                 break;
 
             default:
@@ -278,46 +498,102 @@ class PortfolioController extends Controller
     {
         switch ($client) {
             case 'ayushakti':
-                return view('Frontend/Portfolio/ayushaktiweb');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/ayushaktiweb', compact('meta'));
                 break;
             case 'electrocare':
-                return view('Frontend/Portfolio/electrocareweb');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/electrocareweb', compact('meta'));
                 break;
             case 'offthehookgrabandgo':
-                return view('Frontend/Portfolio/offthehookgrabandgoweb');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/offthehookgrabandgoweb', compact('meta'));
                 break;
             case 'offthehooknanaimo':
-                return view('Frontend/Portfolio/offthehooknanaimoweb');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/offthehooknanaimoweb', compact('meta'));
                 break;
             case 'barebonesfishhouse':
-                return view('Frontend/Portfolio/barebonesfishhouseweb');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/barebonesfishhouseweb', compact('meta'));
                 break;
             case 'kinnaltoys':
-                return view('Frontend/Portfolio/kinnaltoysweb');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/kinnaltoysweb', compact('meta'));
                 break;
             case 'trollerfishandchips':
-                return view('Frontend/Portfolio/trollerfishandchipsweb');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/trollerfishandchipsweb', compact('meta'));
                 break;
             case 'lime':
-                return view('Frontend/Portfolio/limeweb');
+                $meta = [
+                    'title' => 'Lime Social Media Campaign | Sociomark UAE​',
+                    'description' => "Check out how Sociomark, a digital marketing agency in UAE, helped Lime grow online with creative posts, better reach, and strong social media strategy."
+                ];
+                return view('Frontend/Portfolio/limeweb', compact('meta'));
                 break;
             case 'ayushakti-usa':
-                return view('Frontend/Portfolio/ayushaktiusaweb');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/ayushaktiusaweb', compact('meta'));
                 break;
             case 'dr-smita-naram':
-                return view('Frontend/Portfolio/drsmitanaramweb');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/drsmitanaramweb', compact('meta'));
                 break;
             case 'real-estate-awards':
-                return view('Frontend/Portfolio/realEAweb');
+                $meta = [
+                    'title' => 'Real Estate Awards Social Media | Sociomark UAE​',
+                    'description' => "Sociomark, a digital marketing agency in UAE, managed the Real Estate Awards’ social media with creative campaigns and strong online audience engagement."
+                ];
+                return view('Frontend/Portfolio/realEAweb', compact('meta'));
                 break;
             case 'portraiture-by-pari':
-                return view('Frontend/Portfolio/portraitureByPariWeb');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/portraitureByPariWeb', compact('meta'));
                 break;
             case 'profinet':
-                return view('Frontend/Portfolio/profinetWeb');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/profinetWeb', compact('meta'));
                 break;
             case 'aainos':
-                return view('Frontend/Portfolio/aainosWeb');
+                $meta = [
+                    'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+                    'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+                ];
+                return view('Frontend/Portfolio/aainosWeb', compact('meta'));
                 break;
 
             default:
