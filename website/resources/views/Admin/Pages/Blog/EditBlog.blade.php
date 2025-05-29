@@ -135,13 +135,25 @@
             <div class="col-md-4 grid-margin stretch-card">
                 <div class="card">
                     <div class="card-body">
-
                         <h6 class="card-title">Image</h6>
                         <div class="mb-3">
                             <label class="form-label">Images</label>
                             <input type="file" name="images[]" multiple class="form-control">
                         </div>
 
+                        {{-- Add this block below --}}
+                        @if (!empty($blog->images))
+                        <div class="mt-3">
+                            <label>Existing Images</label>
+                            <div class="row">
+                                @foreach ($blog->images as $image)
+                                <div class="col-md-6 mb-2">
+                                    <img src="{{ asset('storage/' . $image) }}" alt="Blog Image" class="img-fluid rounded" style="max-height: 150px;">
+                                </div>
+                                @endforeach
+                            </div>
+                        </div>
+                        @endif
                     </div>
                 </div>
             </div>
