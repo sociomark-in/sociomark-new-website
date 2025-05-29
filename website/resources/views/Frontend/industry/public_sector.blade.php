@@ -36,8 +36,7 @@
                     </div>
                     <div class="col-lg-8">
                         <div class="title-area mb-25 mt-n1">
-                            <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100"
-                                >
+                            <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100">
                                 Empowering   <span class="text-blue">Governance</span> Through Digital Media
                             </h2>
                         </div>
