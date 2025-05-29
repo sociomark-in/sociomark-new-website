@@ -168,7 +168,7 @@
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
                                 @foreach ($blogs->take(3) as $blog)
-                                 @if ($blog->status == 'active')
+                                @if ($blog->status == 'active')
                                 <div class="recent-post">
                                     <div class="media-img recent_blog_img">
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
@@ -211,7 +211,7 @@
 </main>
 
 @endsection
-
+@push('script')
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const categoryLinks = document.querySelectorAll(".category-filter");
@@ -258,3 +258,4 @@
         }
     });
 </script>
+@endpush

@@ -21,6 +21,7 @@ use App\Http\Controllers\Website\PortfolioController;
 use App\Http\Controllers\Website\ServiceController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactListController;
+use App\Http\Controllers\Website\PRWebController;
 
 Route::get('/welcome', function () {
     return view('welcome');
@@ -105,6 +106,8 @@ Route::get('/blog', [BlogWebController::class, 'index'])->name('blog');
 Route::get('/blog/{slug}', [BlogWebController::class, 'innerBlog'])->name('blog-inner');
 Route::get('/categoryBlog/{slug}', [BlogWebController::class, 'categoryBlog'])->name('categoryBlog');
 Route::get('/tagBlog/{slug}', [BlogWebController::class, 'tagBlog'])->name('tagBlog');
+
+Route::get('/pr', [PRWebController::class, 'index'])->name('pr');
 
 Route::get('/industries', [IndustryController::class, 'home'])->name('industry_home');
 Route::get('/industry/{segment}', [IndustryController::class, 'single'])->name('industry_single');
