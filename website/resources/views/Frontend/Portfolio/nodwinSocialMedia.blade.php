@@ -97,7 +97,7 @@
             </div>
             </p>
 
-            <div class="header-button mt-3">
+            <div class="mt-3">
                 <a href="{{ route('nodwinGaming') }}" class="th-btn th-icon">READ OUR CASE STUDY</a>
             </div>
         </div>

@@ -57,7 +57,7 @@
                     <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
-            <div class="header-button mt-3">
+            <div class="mt-3">
                 <a href="{{ route('stemrxbio') }}" class="th-btn th-icon">READ OUR CASE STUDY</a>
             </div>
 
@@ -157,7 +157,7 @@
                 <p class="sec-para text-center text-blue mt-2"><b>Ayushkati</b></p>
                 </a>
             </div>
-            <div class="header-button mt-3">
+            <div class="mt-3">
                 <a href="{{ route('ayushakti') }}" class="th-btn th-icon">View Our Porfolio</a>
             </div>
            

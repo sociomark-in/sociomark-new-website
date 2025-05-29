@@ -1,11 +1,4 @@
 @extends('Frontend.layout.app')
-@section('title', 'Services')
-@section('author', 'Sociomark')
-@section('description', 'This is a dynamic description for the home page.')
-@section('keywords', 'seo, marketing, agency, web design')
-@section('robots', 'INDEX,FOLLOW')
-
-
 
 @section('content')
 <main id="contact">

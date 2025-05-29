@@ -68,7 +68,7 @@
                     <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
                     <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
-            <div class="header-button mt-3">
+            <div class="mt-3">
                 <a href="{{ route('buildTrack') }}" class="th-btn th-icon">READ OUR CASE STUDY</a>
             </div>
 
