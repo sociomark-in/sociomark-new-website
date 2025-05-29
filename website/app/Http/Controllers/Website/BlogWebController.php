@@ -19,8 +19,12 @@ class BlogWebController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
+        $meta = [
+            'title' => 'Sociomark Blog | Digital Marketing Insights in UAE',
+            'description' => 'Read expert tips, trends, and ideas from Sociomark, a digital marketing agency in UAE, to grow your brand online using SEO, social media, and more.'
+        ];
 
-        return view('Frontend/Blog/Blog', compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags'));
+        return view('Frontend/Blog/Blog', compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags', 'meta'));
     }
     public function innerBlog($slug)
     {

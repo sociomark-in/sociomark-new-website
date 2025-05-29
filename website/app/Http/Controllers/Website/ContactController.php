@@ -14,7 +14,8 @@ class ContactController extends Controller
     public function index()
     {
         $meta = [
-            'description' => "Reach out to Sociomark, a leading digital marketing agency in Dubai, for expert solutions in branding, SEO, social media, and web development. Let's connect today!"
+            'title' => 'Contact Sociomark UAE | Digital Marketing Agency in Dubai',
+            'description' => "Get in touch with Sociomark, a leading digital marketing agency in Dubai. Reach out via our contact form or call us at +971 50 426 6118 for expert marketing solutions."
         ];
         return view("Frontend/ContactUs", compact('meta'));
     }

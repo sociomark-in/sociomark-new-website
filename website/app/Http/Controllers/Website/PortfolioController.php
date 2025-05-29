@@ -10,8 +10,8 @@ class PortfolioController extends Controller
     public function index()
     {
         $meta = [
-            'title' => 'Creative Journey: Explore the Work That Speaks for Itself​',
-            'description' => "Explore Sociomark's portfolio showcasing innovative digital marketing, branding, and web development projects that deliver impactful results for clients."
+            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
         ];
         return view('Frontend/Portfolio/insidePortfolio', compact('meta'));
         // return view('Frontend/Portfolio/ListPortfolioCat');

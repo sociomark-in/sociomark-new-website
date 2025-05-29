@@ -10,8 +10,8 @@ class CaseStudyController extends Controller
     public function index()
     {
         $meta = [
-            'title' => 'Digital Marketing Case Studies | Proven Results by Sociomark​​',
-            'description' => "Our case studies showcase the innovative ideas and strategies that have transformed brands into highly successful and profitable campaigns."
+            'title' => 'Case Studies | Sociomark Digital Marketing in UAE​​',
+            'description' => "See how Sociomark, a digital marketing agency in UAE, helped brands grow with smart online strategies like SEO, ads, and social media marketing."
         ];
         return view('Frontend/caseStudy/case-study', compact('meta'));
     }

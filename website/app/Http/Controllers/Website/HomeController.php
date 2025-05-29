@@ -77,11 +77,19 @@ class HomeController extends Controller
     }
     public function privacyAndPolicy()
     {
-        return view("Frontend/privacyAndPolicy");
+        $meta = [
+            'title' => 'Privacy Policy | Sociomark Digital Marketing UAE',
+            'description' => "View the privacy policy of Sociomark, a digital marketing agency in UAE, to understand how we protect your data and ensure transparency in our services."
+        ];
+        return view("Frontend/privacyAndPolicy", compact('meta'));
     }
     public function termsAndcondition()
     {
-        return view("Frontend/termsAndcondition");
+        $meta = [
+            'title' => 'Terms & Conditions | Sociomark Digital Agency UAE',
+            'description' => "Read the terms and conditions of Sociomark, a digital marketing agency in UAE, to understand the rules for using our website and services."
+        ];
+        return view("Frontend/termsAndcondition", compact('meta'));
     }
     public function thankYou()
     {
