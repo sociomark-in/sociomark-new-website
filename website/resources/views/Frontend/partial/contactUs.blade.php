@@ -12,7 +12,7 @@
                 </p>
 
             </div>
-            <div class="col-xl-8 p-3">
+            <div class="offset-xl-1 col-xl-7 p-3">
                     <div class="">
                         {{-- <h3 class="text-center mb-15 form-head head-mbl-text">Please Fill In The Form Below</h3> --}}
                         @if (session('success'))
@@ -64,7 +64,7 @@
                                     </div>
                                     <div class="col-md-9 form-group">
                                         <label for="contactNumber" class="sec-para">Contact Number</label>
-                                        {{-- <input type="tel" class="form-control" 
+                                        {{-- <input type="tel" class="form-control"
                                                 placeholder="Enter Your Number"> --}}
                                         <input type="tel" class="form-control @error('phone') is-invalid @enderror"
                                             name="phone" id="contactNumber" placeholder="Enter your Phone"
@@ -104,7 +104,7 @@
                                 <div class="form-group col-md-12">
                                     <label class="sec-para">Service you want?</label> {{-- Label now applies to the group --}}
                                     <div class="row">
-                                        <div class="col-md-4">
+                                        <div class="col-xl-6 col-md-4">
                                             <div class="@error('service') is-invalid @enderror">
                                                 {{-- Container for checkboxes --}}
                                                 {{-- Individual checkboxes --}}
@@ -113,7 +113,7 @@
                                                 <label class="form-check-label" for="seo">SEO</label>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-xl-6 col-md-4">
                                             <div class="@error('service') is-invalid @enderror">
                                                 <input class="form-check-input" type="checkbox" name="service[]"
                                                     id="webdev" value="Website Development">
@@ -121,14 +121,14 @@
                                                     Development</label>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-xl-6 col-md-4">
                                             <div class="@error('service') is-invalid @enderror">
                                                 <input class="form-check-input" type="checkbox" name="service[]"
                                                     id="socialmedia" value="Social Media">
                                                 <label class="form-check-label" for="socialmedia">Social Media</label>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-xl-6 col-md-4">
                                             <div class="@error('service') is-invalid @enderror">
                                                 <input class="form-check-input" type="checkbox" name="service[]"
                                                     id="digitalmarketing" value="Digital Marketing">
@@ -136,7 +136,7 @@
                                                     Marketing</label>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-xl-6 col-md-4">
                                             <div class="@error('service') is-invalid @enderror">
                                                 <input class="form-check-input" type="checkbox" name="service[]"
                                                     id="contentmarketing" value="Content Marketing">
@@ -144,7 +144,7 @@
                                                     Marketing</label>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-xl-6 col-md-4">
                                             <div class="@error('service') is-invalid @enderror">
                                                 <input class="form-check-input" type="checkbox" name="service[]"
                                                     id="sem" value="SEM">
@@ -152,7 +152,7 @@
                                                     Marketing</label>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-xl-6 col-md-4">
                                             <div class="@error('service') is-invalid @enderror">
                                                 <input class="form-check-input" type="checkbox" name="service[]"
                                                     id="photovideo" value="Photography & Video Production">

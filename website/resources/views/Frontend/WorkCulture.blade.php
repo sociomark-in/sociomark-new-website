@@ -417,27 +417,14 @@
                         <div class="horizontal-section">
                             <div class="container">
                                 <div class="title-area">
-                                    <div class="shadow-title">2017</div>
+                                    <div class="shadow-title">2017-18</div>
                                     {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
-                                    <h2 class="sec-title">Specific <span class="text-blue">reMARKable
-                                            Headline</span></h2>
+                                    <h2 class="sec-title">From Co-working to Our Own Space</h2>
                                 </div>
                                 <ul>
                                     <li>Along with 2 employees, started in a co-working space</li>
                                     <li>Shifted to a mezzanine floor office in the same year</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="horizontal-section">
-                            <div class="container">
-                                <div class="title-area">
-                                    <div class="shadow-title">2018</div>
-                                    {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
-                                    <h2 class="sec-title">Specific <span class="text-blue">reMARKable
-                                            Headline</span></h2>
-                                </div>
-                                <ul>
-                                    <li>Moved into our new office with 8 employees</li>
+                                    <li>Moved into our new office with 8 employees in 2018</li>
                                 </ul>
                             </div>
                         </div>
@@ -446,15 +433,14 @@
                                 <div class="title-area">
                                     <div class="shadow-title">2019</div>
                                     {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
-                                    <h2 class="sec-title">Specific <span class="text-blue">reMARKable
-                                            Headline</span></h2>
+                                    <h2 class="sec-title">Awards & Impactful Campaigns</h2>
                                 </div>
                                 <ul>
                                     <li><a href="">Diageo Road to Safety</a></li>
                                     <li>TAVF Awards 2019</li>
                                     <li>Best Digital Marketing Campaign</li>
                                     <li>Best Use of Social Network</li>
-                                    <li>Button Dabao Desh Banao</li>
+                                    <li><a href="">Button Dabao Desh Banao</a></li>
                                     <li>DigiPub Awards 2019</li>
                                     <li>Best Use of Social Media</li>
                                     <li>Social Samosa shoutout for our <a href="">Diageo X
@@ -518,8 +504,7 @@
                                 <div class="title-area">
                                     <div class="shadow-title">2023</div>
                                     {{-- <span class="sub-title sub-title4 mb-4 mb-md-5">Our Journey<span></span></span> --}}
-                                    <h2 class="sec-title">Specific <span class="text-blue">reMARKable
-                                            Headline</span></h2>
+                                    <h2 class="sec-title">Recognized Leadership, Key Collaborations, In-House Media</h2>
                                 </div>
                                 <ul>
                                     <li>Heta Baandal, our founder, was named one of the 21 Rising
@@ -915,7 +900,6 @@
             </div>
         </section>
 
-
         <section class="overflow-hidden arrow-wrap" id="team-sec">
             <div class="container">
                 <div class="row justify-content-lg-between justify-content-center align-items-end d-none">
@@ -997,8 +981,6 @@
                 </div>
             </div>
         </section>
-
-
 
         <section class="position-relative space garally bg-grey" id="portfolio-sec">
             <div class="container">

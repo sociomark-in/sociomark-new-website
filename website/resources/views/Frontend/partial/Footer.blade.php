@@ -9,21 +9,21 @@
                 <div class="col-md-6 col-xxl-3 col-xl-4">
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
-                            <div class="about-logo">
+                            <div class="about-logo text-center">
                                 <a class="icon-masking" href="{{ route('home') }}">
                                     {{-- <img src="{{ asset('frontend-assets/img/logo/sc-white-horizontal.png') }}" alt="sociomark"> --}}
                                     <img src="{{ asset('frontend-assets/img/logo/sociomark-new-logo.png') }}"
-                                        height="200" alt="sociomark">
+                                        height="160" alt="sociomark">
                                 </a>
                             </div>
                             {{-- <p class="about-text">Saor, meaning "free" in Gaelic, embodies our dedication to liberating your brand's potential in the digital realm. Founded in 1995, we boast a rich history.</p> --}}
-                            <div class="th-social">
+                            <div class="th-social text-center">
                                 <a href="https://www.facebook.com/Sociomarkin" target="_blank"><i
                                         class="fab fa-facebook-f"></i></a>
                                 <a href="https://www.instagram.com/sociomarkin/" target="_blank"><i
                                         class="fab fa-instagram"></i></a>
                                 <a href="https://in.pinterest.com/Sociomarkin/" target="_blank"><i
-                                        class="fab fa-pinterest"></i></a>
+                                        class="fab fa-pinterest"></i></a><br>
                                 <a href="https://www.youtube.com/@sociomarkdigitalmarketing" target="_blank"><i
                                         class="fab fa-youtube"></i></a>
                                 <a href="https://twitter.com/sociomarkin" target="_blank"><i
