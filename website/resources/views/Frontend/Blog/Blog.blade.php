@@ -72,7 +72,7 @@
         object-fit: contain !important;
     }
 </style>
-@endsection
+
 @section('content')
 <main>
 

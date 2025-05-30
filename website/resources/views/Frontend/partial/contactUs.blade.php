@@ -192,24 +192,16 @@
                                 // You could fetch this from a Laravel API endpoint for a dynamic and maintainable solution
                                 const budgetData = {
                                     'INR': [{
-                                            value: '0-50000',
-                                            text: '₹ 0 - ₹ 50,000'
+                                            value: '60000-100000',
+                                            text: '₹ 60,000 - ₹ 1,00,000'
                                         },
                                         {
-                                            value: '50001-100000',
+                                            value: '100000-200000',
                                             text: '₹ 50,001 - ₹ 1,00,000'
                                         },
                                         {
-                                            value: '100001-500000',
-                                            text: '₹ 1,00,001 - ₹ 5,00,000'
-                                        },
-                                        {
-                                            value: '500001-1000000',
-                                            text: '₹ 5,00,001 - ₹ 10,00,000'
-                                        },
-                                        {
-                                            value: '1000001-above',
-                                            text: '₹ 10,00,001+'
+                                            value: '200000-above',
+                                            text: '₹ 2,00,000+'
                                         }
                                     ],
                                     'USD': [{

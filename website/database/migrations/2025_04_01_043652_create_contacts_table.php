@@ -19,6 +19,9 @@ return new class extends Migration
             $table->string('service');
             $table->string('budget');
             $table->string('aboutUs');
+            $table->string('companyname');
+            $table->string('timeline');
+            $table->string('url');
             $table->text('messageforus');
             $table->timestamps();
         });

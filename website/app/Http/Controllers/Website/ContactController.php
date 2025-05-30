@@ -31,13 +31,16 @@ class ContactController extends Controller
             'countryCode' => ['required'],
             'service' => 'required|array',
             'budget' => 'required',
+            'companyname' => 'required',
+            'timeline' => 'required',
+            'url' => 'required',
             'aboutUs' => 'required',
             'messageforus' => 'nullable',
-            'utm_source' => 'nullable|string|max:255',
-            'utm_medium' => 'nullable|string|max:255',
-            'utm_campaign' => 'nullable|string|max:255',
-            'utm_term' => 'nullable|string|max:255',
-            'utm_content' => 'nullable|string|max:255',
+            // 'utm_source' => 'nullable|string|max:255',
+            // 'utm_medium' => 'nullable|string|max:255',
+            // 'utm_campaign' => 'nullable|string|max:255',
+            // 'utm_term' => 'nullable|string|max:255',
+            // 'utm_content' => 'nullable|string|max:255',
         ]);
         $data['phone'] = $data['countryCode'] .' '. $data['phone'];
         $data['service'] = implode(', ', $data['service']);
