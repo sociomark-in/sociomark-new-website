@@ -125,8 +125,6 @@ class BlogController extends Controller
             'meta_title'       => $request->input('meta_title'),
             'meta_description' => $request->input('meta_description'),
             'meta_keywords'    => $request->input('meta_keywords'),
-            // If you want the slug to always track blog_name, use this;
-            // otherwise you can rely on $request->slug instead.
             'slug'             => Str::slug($request->input('blog_name')),
             'tags'             => $request->input('tags', []),
             'categories'       => $request->input('categories', []),
