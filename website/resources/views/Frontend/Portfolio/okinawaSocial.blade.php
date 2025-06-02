@@ -1,4 +1,4 @@
 @extends('Frontend.layout.app')
 @section('content')
-<h1>heelo</h1>
+<h1>hello</h1>
 @endsection

@@ -25,15 +25,23 @@ class PortfolioController extends Controller
 {
     $clients = config('clients');
 
-    if (!isset($clients[$client])) {
+    if (!array_key_exists($client, $clients)) {
         abort(404);
     }
 
-    $meta = $clients[$client]['meta'];
-    $view = $clients[$client]['view'];
+    $data = $clients[$client];
+    $meta = $data['meta'];
+    $view = $data['view'];
+    $industry = $data['industry'];
 
-    return view($view, compact('meta'));
+    // Filter other clients from the same industry
+    $relatedClients = collect($clients)
+        ->filter(fn($c, $key) => $key !== $client && $c['industry'] === $industry)
+        ->take(3); // Optional: limit number
+
+    return view($view, compact('meta', 'relatedClients'));
 }
+
 
     // public function social_media($client)
     // {
