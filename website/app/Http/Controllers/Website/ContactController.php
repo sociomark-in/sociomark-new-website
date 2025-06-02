@@ -34,7 +34,7 @@ class ContactController extends Controller
             'companyname' => 'nullable',
             'timeline' => 'nullable',
             'url' => 'nullable',
-            'aboutUs' => 'required',
+            'aboutUs' => 'nullable',
             'messageforus' => 'nullable',
             // 'utm_source' => 'nullable|string|max:255',
             // 'utm_medium' => 'nullable|string|max:255',

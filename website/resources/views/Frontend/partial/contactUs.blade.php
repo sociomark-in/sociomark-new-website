@@ -33,7 +33,7 @@
                         <input type="hidden" name="utm_content" value="{{ request()->get('utm_content') }}">
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <label for="contactNumber" class="sec-para">Full Name</label>
+                                <label for="contactNumber" class="sec-para">Full Name<span class="text-danger">*</span></label>
                                 <input type="text" class="form-control @error('name') is-invalid @enderror"
                                     name="name" id="name" placeholder="Enter your Name"
                                     value="{{ old('name') }}">
@@ -42,7 +42,7 @@
                                 @enderror
                             </div>
                             <div class="form-group col-md-6">
-                                <label class="sec-para" for="email">Email Address</label>
+                                <label class="sec-para" for="email">Email Address<span class="text-danger">*</span></label>
                                 <input type="text" class="form-control @error('email') is-invalid @enderror"
                                     name="email" id="email" placeholder="Enter your Official Mail Id"
                                     value="{{ old('email') }}">
@@ -112,7 +112,7 @@
                 </div> --}}
                 <div class="row col-md-12">
                     <div class="col-md-3 form-group">
-                        <label for="countryCode" class="sec-para">Country Code</label>
+                        <label for="countryCode" class="sec-para">Country Code<span class="text-danger">*</span></label>
                         <select class="form-select" id="countryCode" name="countryCode">
                             <option value="" selected disabled>Select Code</option>
                             <option value="+91" data-maxlength="10" data-currency="INR">India
@@ -126,7 +126,7 @@
                         </select>
                     </div>
                     <div class="col-md-9 form-group">
-                        <label for="contactNumber" class="sec-para">Contact Number</label>
+                        <label for="contactNumber" class="sec-para">Contact Number<span class="text-danger">*</span></label>
                         {{-- <input type="tel" class="form-control" 
                                                 placeholder="Enter Your Number"> --}}
                         <input type="tel"
@@ -141,7 +141,7 @@
 
                 <div class="form-group col-md-6">
                     <label for="budgetOption" class="sec-para">Your Budget In (<span
-                            id="currencySymbol"></span>)</label>
+                            id="currencySymbol"></span>)<span class="text-danger">*</span></label>
                     <select class="form-select @error('budget') is-invalid @enderror"
                         id="budgetOption" name="budget">
                         <option value="" selected disabled>Select a budget range</option>
@@ -153,10 +153,10 @@
                     <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs"
                         name="aboutUs">
                         <option selected disabled>Choose an option</option>
-                        <option value="Through Search Engines(Google, Bing etc.)">Google</option>
-                        <option value="Social Media(Facebook, Instagram etc.)">Social Media(Facebook,
-                            Instagram etc.)</option>
-                        <option value="Word of Mouth/ Referral">Word of Mouth/ Referral</option>
+                        <option value="google">Google</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="LinkedIn">LinkedIn</option>
+                        <option value="Referral">Referral</option>
                         <option value="Other">Other</option>
                     </select>
                     @error('aboutUs')
@@ -165,7 +165,7 @@
                 </div>
 
                 <div class="form-group col-md-12">
-                    <label class="sec-para">Service you want?</label> {{-- Label now applies to the group --}}
+                    <label class="sec-para">Service you want?<span class="text-danger">*</span> </label> {{-- Label now applies to the group --}}
                     <div class="row">
                         <div class="col-md-4">
                             <div class="form-check @error('service') is-invalid @enderror">
@@ -228,9 +228,11 @@
                     @error('service')
                     <span class="text-danger mt-1">{{ $message }}</span>
                     @enderror
+                    <span id="service-error" class="text-danger mt-1 d-block"></span>
+
                 </div>
 
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-12">
                     <label class="sec-para" for="timeline">Timeline to Start the Project</label>
                     <select class="form-select @error('timeline') is-invalid @enderror"
                         id="timeline" name="timeline">
@@ -246,7 +248,7 @@
                 </div>
                 <div class="form-group col-12">
 
-                    <label class="sec-para" for="messageforus">Tell Us About Your Business or
+                    <label class="sec-para" for="messageforus">Tell us About Your Business or
                         Goals</label>
                     <textarea class="form-control @error('messageforus') is-invalid @enderror" id="messageforus"
                         placeholder="Enter your message" rows="3" name="messageforus"></textarea>
@@ -382,15 +384,18 @@
                 });
             </script>
             <script type="text/javascript">
+                // Custom validators
                 $.validator.addMethod("emailregex", function(value, element) {
                     return this.optional(element) || /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i.test(value);
-                })
+                });
                 $.validator.addMethod("letters", function(value, element) {
                     return this.optional(element) || /^[a-zA-Z \s']*$/i.test(value);
                 });
                 $.validator.addMethod("numbers", function(value, element) {
                     return this.optional(element) || /^[0-9]{10}$/.test(value);
                 });
+
+                // jQuery Validation
                 $('#contactform').validate({
                     rules: {
                         name: {
@@ -411,6 +416,13 @@
                         },
                         message: {
                             required: true,
+                        },
+                        budget: {
+                            required: true,
+                        },
+                        'service[]': {
+                            required: true,
+                            minlength: 1
                         }
                     },
                     messages: {
@@ -418,23 +430,39 @@
                             required: 'This Name field is required',
                             letters: 'Only Letters & Spaces are Allowed.'
                         },
+                        lastname: 'This Last Name field is required',
+                        organisation: 'This Organisation field is required',
+                        email: 'Please enter a Valid Email Id',
                         phone: {
                             required: 'This Phone field is required',
                             numbers: 'Please enter exactly 10 digits',
                             minlength: 'Phone number must be 10 digits',
                             maxlength: 'Phone number must be 10 digits',
                         },
-                        lastname: 'This Last Name field is required',
-                        organisation: 'This Organisation field is required',
-                        email: 'Please enter a Valid Email Id',
                         message: 'This message field is required',
+                        budget: 'Please select a budget range',
+                        'service[]': 'Please select at least one service'
+                    },
+                    errorPlacement: function(error, element) {
+                        if (element.attr("name") == "service[]") {
+                            $("#service-error").html(error); // place error in our span
+                        } else {
+                            error.insertAfter(element);
+                        }
                     },
                     submitHandler: function(form) {
                         form.submit();
                     }
                 });
+
+                // Clear error when any service checkbox is selected
+                $('input[name="service[]"]').on('change', function() {
+                    if ($('input[name="service[]"]:checked').length > 0) {
+                        $("#service-error").html('');
+                    }
+                });
             </script>
+
         </div>
 
     </div>
-</div>
