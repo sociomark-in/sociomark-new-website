@@ -73,6 +73,8 @@ Route::get('/portfolio/portraiture-by-pari/website-work', [PortfolioController::
 Route::get('/portfolio/profinet/website-work', [PortfolioController::class, 'profinetWeb'])->name('profinetWeb');
 Route::get('/portfolio/aainos/website-work', [PortfolioController::class, 'aainosWeb'])->name('aainosWeb');
 
+// Route::get('/portfolio/{client}', [YourController::class, 'social_media'])->name('client.social_media');
+
 
 Route::get('/portfolio/{client}/social-media-work', [PortfolioController::class, 'social_media'])->name('social_media');
 Route::get('/portfolio/{client}/branding-work', [PortfolioController::class, 'branding_work'])->name('branding_work');
