@@ -239,7 +239,7 @@
                             <input type="hidden" name="utm_content" value="{{ request()->get('utm_content') }}">
                             <div class="row">
                                 <div class="form-group col-md-6">
-                                    <label for="contactNumber" class="sec-para">Full Name</label>
+                                    <label for="contactNumber" class="sec-para">Full Name<span class="text-danger">*</span></label>
                                     <input type="text" class="form-control @error('name') is-invalid @enderror"
                                         name="name" id="name" placeholder="Enter your Name"
                                         value="{{ old('name') }}">
@@ -248,7 +248,7 @@
                                     @enderror
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label class="sec-para" for="email">Email Address</label>
+                                    <label class="sec-para" for="email">Email Address<span class="text-danger">*</span></label>
                                     <input type="text" class="form-control @error('email') is-invalid @enderror"
                                         name="email" id="email" placeholder="Enter your Official Mail Id"
                                         value="{{ old('email') }}">
@@ -318,21 +318,22 @@
                     </div> --}}
                     <div class="row col-md-12">
                         <div class="col-md-3 form-group">
-                            <label for="countryCode" class="sec-para">Country Code</label>
+                            <label for="countryCode" class="sec-para">Country Code<span class="text-danger">*</span></label>
                             <select class="form-select" id="countryCode" name="countryCode">
-                                <option value="" selected disabled>Select Code</option>
-                                <option value="+91" data-maxlength="10" data-currency="INR">India
-                                    (+91)</option>
-                                <option value="+1" data-maxlength="8" data-currency="USD">USA (+1)
-                                </option>
-                                <option value="+44" data-currency="GBP">UK (+44)</option>
-                                <option value="+971" data-currency="AED">UAE (+971)</option>
-                                <option value="+49" data-currency="EUR">Germany (+49)</option>
-                                {{-- <option value="other" data-currency="">Other</option> --}}
+                                <option value="" disabled {{ old('countryCode') == '' ? 'selected' : '' }}>Select Code</option>
+                                <option value="+91" data-maxlength="10" data-currency="INR" {{ old('countryCode') == '+91' ? 'selected' : '' }}>India (+91)</option>
+                                <option value="+971" data-currency="AED" {{ old('countryCode') == '+971' ? 'selected' : '' }}>UAE (+971)</option>
+                                <option value="+61" data-maxlength="8" data-currency="AUD" {{ old('countryCode') == '+61' ? 'selected' : '' }}>Australia (+61)</option>
+
+                                {{-- Uncomment and add more countries if needed --}}
+                                {{-- <option value="+1" data-maxlength="8" data-currency="USD" {{ old('countryCode') == '+1' ? 'selected' : '' }}>USA (+1)</option> --}}
+                                {{-- <option value="+44" data-currency="GBP" {{ old('countryCode') == '+44' ? 'selected' : '' }}>UK (+44)</option> --}}
+                                {{-- <option value="+49" data-currency="EUR" {{ old('countryCode') == '+49' ? 'selected' : '' }}>Germany (+49)</option> --}}
                             </select>
+
                         </div>
                         <div class="col-md-9 form-group">
-                            <label for="contactNumber" class="sec-para">Contact Number</label>
+                            <label for="contactNumber" class="sec-para">Contact Number<span class="text-danger">*</span></label>
                             {{-- <input type="tel" class="form-control" 
                                                 placeholder="Enter Your Number"> --}}
                             <input type="tel"
@@ -345,25 +346,27 @@
                         </div>
                     </div>
 
-                    <div class="form-group col-md-6">
-                        <label for="budgetOption" class="sec-para">Your Budget In (<span
-                                id="currencySymbol"></span>)</label>
-                        <select class="form-select @error('budget') is-invalid @enderror"
-                            id="budgetOption" name="budget">
-                            <option value="" selected disabled>Select a budget range</option>
-                        </select>
-                    </div>
+                    <!-- Hidden field to capture old budget -->
+                    <input type="hidden" id="oldBudget" value="{{ old('budget') }}">
 
                     <div class="form-group col-md-6">
+                        <label for="budgetOption" class="sec-para">Your Budget In (<span id="currencySymbol"></span>)<span class="text-danger">*</span></label>
+                        <select class="form-select @error('budget') is-invalid @enderror" id="budgetOption" name="budget">
+                            <option value="" selected disabled>Select a budget range</option>
+                        </select>
+                        @error('budget')
+                        <span class="text-danger">{{ $message }}</span>
+                        @enderror
+                    </div>
+                    <div class="form-group col-md-6">
                         <label class="sec-para" for="aboutUs">How Did You Hear About Us? </label>
-                        <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs"
-                            name="aboutUs">
-                            <option selected disabled>Choose an option</option>
-                            <option value="google">Google</option>
-                            <option value="Instagram">Instagram</option>
-                            <option value="LinkedIn">LinkedIn</option>
-                            <option value="Referral">Referral</option>
-                            <option value="Other">Other</option>
+                        <select class="form-select @error('aboutUs') is-invalid @enderror" id="aboutUs" name="aboutUs">
+                            <option disabled {{ old('aboutUs') ? '' : 'selected' }}>Choose an option</option>
+                            <option value="google" {{ old('aboutUs') == 'google' ? 'selected' : '' }}>Google</option>
+                            <option value="Instagram" {{ old('aboutUs') == 'Instagram' ? 'selected' : '' }}>Instagram</option>
+                            <option value="LinkedIn" {{ old('aboutUs') == 'LinkedIn' ? 'selected' : '' }}>LinkedIn</option>
+                            <option value="Referral" {{ old('aboutUs') == 'Referral' ? 'selected' : '' }}>Referral</option>
+                            <option value="Other" {{ old('aboutUs') == 'Other' ? 'selected' : '' }}>Other</option>
                         </select>
                         @error('aboutUs')
                         <span class="text-danger">{{ $message }}</span>
@@ -371,60 +374,63 @@
                     </div>
 
                     <div class="form-group col-md-12">
-                        <label class="sec-para">Service you want?</label> {{-- Label now applies to the group --}}
+                        <label class="sec-para">Service you want?<span class="text-danger">*</span> </label> {{-- Label now applies to the group --}}
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-check @error('service') is-invalid @enderror">
                                     {{-- Container for checkboxes --}}
                                     {{-- Individual checkboxes --}}
-                                    <input class="form-check-input" type="checkbox" name="service[]"
-                                        id="seo" value="Search Engine Optimization">
+                                    <input class="form-check-input" type="checkbox" name="service[]" id="seo" value="Search Engine Optimization"
+                                        {{ is_array(old('service')) && in_array('Search Engine Optimization', old('service')) ? 'checked' : '' }}>
                                     <label class="form-check-label" for="seo">SEO</label>
+
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-check @error('service') is-invalid @enderror">
-                                    <input class="form-check-input" type="checkbox" name="service[]"
-                                        id="webdev" value="Website Development">
-                                    <label class="form-check-label" for="webdev">Website
-                                        Development</label>
+                                    <input class="form-check-input" type="checkbox" name="service[]" id="webdev" value="Website Development"
+                                        {{ is_array(old('service')) && in_array('Website Development', old('service')) ? 'checked' : '' }}>
+                                    <label class="form-check-label" for="webdev">Website Development</label>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-check @error('service') is-invalid @enderror">
-                                    <input class="form-check-input" type="checkbox" name="service[]"
-                                        id="socialmedia" value="Social Media">
+                                    <input class="form-check-input" type="checkbox" name="service[]" id="socialmedia" value="Social Media"
+                                        {{ is_array(old('service')) && in_array('Social Media', old('service')) ? 'checked' : '' }}>
                                     <label class="form-check-label" for="socialmedia">Social Media</label>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-check @error('service') is-invalid @enderror">
-                                    <input class="form-check-input" type="checkbox" name="service[]"
-                                        id="digitalmarketing" value="Digital Marketing">
+                                    <input class="form-check-input" type="checkbox" name="service[]" id="digitalmarketing" value="Digital Marketing"
+                                        {{ is_array(old('service')) && in_array('Digital Marketing', old('service')) ? 'checked' : '' }}>
                                     <label class="form-check-label" for="digitalmarketing">Digital
                                         Marketing</label>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-check @error('service') is-invalid @enderror">
-                                    <input class="form-check-input" type="checkbox" name="service[]"
-                                        id="contentmarketing" value="Content Marketing">
-                                    <label class="form-check-label" for="contentmarketing">Content
-                                        Marketing</label>
+                                    <input class="form-check-input" type="checkbox" name="service[]" id="contentmarketing" value="Content Marketing"
+                                        {{ is_array(old('service')) && in_array('Content Marketing', old('service')) ? 'checked' : '' }}>
+                                    <label class="form-check-label" for="contentmarketing">Content Marketing</label>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-check @error('service') is-invalid @enderror">
-                                    <input class="form-check-input" type="checkbox" name="service[]"
-                                        id="sem" value="SEM">
+                                    <input class="form-check-input" type="checkbox" name="service[]" id="sem" value="SEM"
+                                        {{ is_array(old('service')) && in_array('SEM', old('service')) ? 'checked' : '' }}>
                                     <label class="form-check-label" for="sem">Performance
                                         Marketing</label>
+
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-check @error('service') is-invalid @enderror">
-                                    <input class="form-check-input" type="checkbox" name="service[]"
-                                        id="photovideo" value="Photography & Video Production">
+
+                                    <input class="form-check-input" type="checkbox" name="service[]" id="photovideo" value="Photography & Video
+                                    Production"
+                                        {{ is_array(old('service')) && in_array('Photography & Video
+                                    Production', old('service')) ? 'checked' : '' }}>
                                     <label class="form-check-label" for="photovideo">Photography & Video
                                         Production</label>
                                 </div>
@@ -434,22 +440,26 @@
                         @error('service')
                         <span class="text-danger mt-1">{{ $message }}</span>
                         @enderror
+                        <span id="service-error" class="text-danger mt-1 d-block"></span>
+
                     </div>
 
                     <div class="form-group col-md-12">
                         <label class="sec-para" for="timeline">Timeline to Start the Project</label>
-                        <select class="form-select @error('timeline') is-invalid @enderror"
-                            id="timeline" name="timeline">
-                            <option selected disabled>Choose an option</option>
-                            <option value="Immediately">Immediately</option>
-                            <option value="In 1–2 weeks">In 1–2 weeks</option>
-                            <option value="In a month">In a month</option>
-                            <option value="Just exploring options">Just exploring options</option>
+                        <select class="form-select @error('timeline') is-invalid @enderror" id="timeline" name="timeline">
+                            <option disabled {{ old('timeline') ? '' : 'selected' }}>Choose an option</option>
+                            <option value="Immediately" {{ old('timeline') == 'Immediately' ? 'selected' : '' }}>Immediately</option>
+                            <option value="In 1–2 weeks" {{ old('timeline') == 'In 1–2 weeks' ? 'selected' : '' }}>In 1–2 weeks</option>
+                            <option value="In a month" {{ old('timeline') == 'In a month' ? 'selected' : '' }}>In a month</option>
+                            <option value="Just exploring options" {{ old('timeline') == 'Just exploring options' ? 'selected' : '' }}>
+                                Just exploring options
+                            </option>
                         </select>
                         @error('timeline')
                         <span class="text-danger">{{ $message }}</span>
                         @enderror
                     </div>
+
                     <div class="form-group col-12">
 
                         <label class="sec-para" for="messageforus">Tell us About Your Business or
@@ -461,9 +471,20 @@
                         <span class="text-danger">{{ $message }}</span>
                         @enderror
                     </div>
-                    <div class="col-12 form-group mb-0 text-center">
-                        <button type="submit" class="th-btn th-radius">Submit Message</button>
+
+                    <div class="form-group mt-3">
+                        <div class="form-check p-0">
+                            <input class="form-check-input" type="checkbox" id="consent" name="consent" value="1" {{ old('consent') ? 'checked' : '' }}>
+                            <label class="form-check-label" for="consent">
+                                I agree to receive communication from Sociomark.
+                            </label>
+                        </div>
+                        <span id="consent-error" class="text-danger mt-1 d-block"></span>
                     </div>
+                    <div class="col-12 form-group mb-0 text-center">
+                        <button type="submit" class="th-btn th-radius">Book Free Strategy Call</button>
+                    </div>
+
                 </div>
 
                 </form>
@@ -472,9 +493,8 @@
                         const countryCodeSelect = document.getElementById('countryCode');
                         const budgetOptionSelect = document.getElementById('budgetOption');
                         const currencySymbolSpan = document.getElementById('currencySymbol');
+                        const oldBudget = document.getElementById('oldBudget')?.value;
 
-                        // Define budget ranges based on currency
-                        // You could fetch this from a Laravel API endpoint for a dynamic and maintainable solution
                         const budgetData = {
                             'INR': [{
                                     value: '60000-100000',
@@ -482,7 +502,7 @@
                                 },
                                 {
                                     value: '100000-200000',
-                                    text: '₹ 50,001 - ₹ 1,00,000'
+                                    text: '₹ 1,00,000 - ₹ 2,00,000'
                                 },
                                 {
                                     value: '200000-above',
@@ -524,20 +544,16 @@
                                 }
                             ],
                             'AED': [{
-                                    value: '0-1000',
-                                    text: 'AED 0 - AED 1,000'
+                                    value: '2,500-5,000',
+                                    text: 'AED 2,500 - AED 5,000'
                                 },
                                 {
-                                    value: '1001-5000',
-                                    text: 'AED 1,001 - AED 5,000'
+                                    value: '5,000-10,000',
+                                    text: 'AED 5,000 - AED 10,000'
                                 },
                                 {
-                                    value: '5001-10000',
-                                    text: 'AED 5,001 - AED 10,000'
-                                },
-                                {
-                                    value: '10001-above',
-                                    text: 'AED 10,001+'
+                                    value: '10,000+',
+                                    text: 'AED 10,000+'
                                 }
                             ],
                             'EUR': [{
@@ -556,6 +572,19 @@
                                     value: '10001-above',
                                     text: '€ 10,001+'
                                 }
+                            ],
+                            'AUD': [{
+                                    value: '1,500-3,000',
+                                    text: '$ 1,500 - $ 3,000'
+                                },
+                                {
+                                    value: '3,000-5,000',
+                                    text: '$ 3,000 - $ 5,000'
+                                },
+                                {
+                                    value: '5,000+',
+                                    text: '$ 5,000+'
+                                }
                             ]
                         };
 
@@ -563,102 +592,129 @@
                             const selectedOption = countryCodeSelect.options[countryCodeSelect.selectedIndex];
                             const selectedCurrency = selectedOption ? selectedOption.dataset.currency : null;
 
-                            // Clear existing options
                             budgetOptionSelect.innerHTML = '<option value="" selected disabled>Select a budget range</option>';
 
                             if (selectedCurrency && budgetData[selectedCurrency]) {
-                                currencySymbolSpan.textContent = selectedCurrency; // Update currency symbol
+                                currencySymbolSpan.textContent = selectedCurrency;
+
                                 budgetData[selectedCurrency].forEach(budget => {
                                     const option = document.createElement('option');
                                     option.value = budget.value;
                                     option.textContent = budget.text;
+
+                                    if (oldBudget && oldBudget === budget.value) {
+                                        option.selected = true;
+                                    }
+
                                     budgetOptionSelect.appendChild(option);
                                 });
                             } else {
-                                currencySymbolSpan.textContent = ''; // Clear currency symbol if no country selected
+                                currencySymbolSpan.textContent = '';
                             }
                         }
 
-                        // Attach event listener to country code select
-                        countryCodeSelect.addEventListener('change', updateBudgetOptions);
-
-                        // Initial call to set up budget options if a country is pre-selected (e.g., on edit form)
-                        // or to just initialize the currency symbol placeholder
+                        // Trigger on load (for old values)
                         updateBudgetOptions();
+
+                        // Recalculate when country changes
+                        countryCodeSelect.addEventListener('change', () => {
+                            // Clear oldBudget so a new selection doesn't auto-select old
+                            document.getElementById('oldBudget').value = '';
+                            updateBudgetOptions();
+                        });
                     });
                 </script>
                 <script type="text/javascript">
-                    // Custom validators
-                    $.validator.addMethod("emailregex", function(value, element) {
-                        return this.optional(element) || /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i.test(value);
-                    });
-                    $.validator.addMethod("letters", function(value, element) {
-                        return this.optional(element) || /^[a-zA-Z \s']*$/i.test(value);
-                    });
-                    $.validator.addMethod("numbers", function(value, element) {
-                        return this.optional(element) || /^[0-9]{10}$/.test(value);
-                    });
+                    $(document).ready(function() {
+                        // Add custom validation methods
+                        $.validator.addMethod("emailregex", function(value, element) {
+                            return this.optional(element) || /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i.test(value);
+                        });
+                        $.validator.addMethod("letters", function(value, element) {
+                            return this.optional(element) || /^[a-zA-Z \s']*$/i.test(value);
+                        });
+                        $.validator.addMethod("numbers", function(value, element) {
+                            return this.optional(element) || /^[0-9]{10}$/.test(value);
+                        });
 
-                    // Validate the form
-                    $('#contactform').validate({
-                        rules: {
-                            name: {
-                                required: true,
-                                letters: true,
+                        // jQuery Validation
+                        $('#contactform').validate({
+                            ignore: [], // Ensure validation on unchecked checkboxes as well
+                            rules: {
+                                name: {
+                                    required: true,
+                                    letters: true,
+                                },
+                                lastname: 'required',
+                                organisation: 'required',
+                                email: {
+                                    required: true,
+                                    emailregex: true,
+                                },
+                                phone: {
+                                    required: true,
+                                    numbers: true,
+                                    minlength: 10,
+                                    maxlength: 10,
+                                },
+                                message: {
+                                    required: true,
+                                },
+                                budget: {
+                                    required: true,
+                                },
+                                'service[]': {
+                                    required: true,
+                                    minlength: 1
+                                },
+                                consent: {
+                                    required: true // Make sure consent checkbox is validated
+                                }
                             },
-                            lastname: 'required',
-                            organisation: 'required',
-                            email: {
-                                required: true,
-                                emailregex: true,
+                            messages: {
+                                name: {
+                                    required: 'This Name field is required',
+                                    letters: 'Only Letters & Spaces are Allowed.'
+                                },
+                                lastname: 'This Last Name field is required',
+                                organisation: 'This Organisation field is required',
+                                email: 'Please enter a Valid Email Id',
+                                phone: {
+                                    required: 'This Phone field is required',
+                                    numbers: 'Please enter exactly 10 digits',
+                                    minlength: 'Phone number must be 10 digits',
+                                    maxlength: 'Phone number must be 10 digits',
+                                },
+                                message: 'This message field is required',
+                                budget: 'Please select a budget range',
+                                'service[]': 'Please select at least one service',
+                                consent: 'You must agree before submitting' // Consent checkbox error message
                             },
-                            phone: {
-                                required: true,
-                                numbers: true,
-                                minlength: 10,
-                                maxlength: 10,
+                            errorPlacement: function(error, element) {
+                                if (element.attr("name") === "service[]") {
+                                    $("#service-error").html(error);
+                                } else if (element.attr("name") === "consent") {
+                                    $("#consent-error").html(error);
+                                } else {
+                                    error.insertAfter(element);
+                                }
                             },
-                            message: {
-                                required: true,
-                            },
-                            budget: {
-                                required: true,
-                            },
-                            'service[]': {
-                                required: true,
-                                minlength: 1
+                            submitHandler: function(form) {
+                                form.submit(); // Only submit if validation passes
                             }
-                        },
-                        messages: {
-                            name: {
-                                required: 'This Name field is required',
-                                letters: 'Only Letters & Spaces are Allowed.'
-                            },
-                            lastname: 'This Last Name field is required',
-                            organisation: 'This Organisation field is required',
-                            email: 'Please enter a Valid Email Id',
-                            phone: {
-                                required: 'This Phone field is required',
-                                numbers: 'Please enter exactly 10 digits',
-                                minlength: 'Phone number must be 10 digits',
-                                maxlength: 'Phone number must be 10 digits',
-                            },
-                            message: 'This message field is required',
-                            budget: 'Please select a budget range',
-                            'service[]': 'Please select at least one service'
-                        },
-                        errorPlacement: function(error, element) {
-                            if (element.attr("name") == "service[]") {
-                                error.insertAfter(element.closest('.row')); // group error below checkboxes
-                            } else {
-                                error.insertAfter(element);
+                        });
+
+                        // Remove error on checkbox change
+                        $('#consent').on('change', function() {
+                            if ($(this).is(':checked')) {
+                                $("#consent-error").html('');
                             }
-                        },
-                        submitHandler: function(form) {
-                            form.submit();
-                        }
+                        });
                     });
                 </script>
+
+
+
             </div>
         </div>
     </div>

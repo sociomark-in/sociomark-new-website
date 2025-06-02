@@ -23,7 +23,7 @@ class ContactController extends Controller
 
     public function store(Request $request)
     {
-       
+
         $data = $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|email',
@@ -36,13 +36,14 @@ class ContactController extends Controller
             'url' => 'nullable',
             'aboutUs' => 'nullable',
             'messageforus' => 'nullable',
-            // 'utm_source' => 'nullable|string|max:255',
-            // 'utm_medium' => 'nullable|string|max:255',
-            // 'utm_campaign' => 'nullable|string|max:255',
-            // 'utm_term' => 'nullable|string|max:255',
-            // 'utm_content' => 'nullable|string|max:255',
+            'consent' => 'required|accepted', // This ensures the checkbox is checked
+            'utm_source' => 'nullable|string|max:255',
+            'utm_medium' => 'nullable|string|max:255',
+            'utm_campaign' => 'nullable|string|max:255',
+            'utm_term' => 'nullable|string|max:255',
+            'utm_content' => 'nullable|string|max:255',
         ]);
-        $data['phone'] = $data['countryCode'] .' '. $data['phone'];
+        $data['phone'] = $data['countryCode'] . ' ' . $data['phone'];
         $data['service'] = implode(', ', $data['service']);
 
         $lead = Contact::create($data);
