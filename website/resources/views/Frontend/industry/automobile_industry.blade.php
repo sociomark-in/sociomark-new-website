@@ -338,7 +338,6 @@
                     @foreach ($clients as $slug => $client)
                     <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
                         <a href="{{ route('social_media', $slug) }}" class="project-item d-block">
-                            {{ ucfirst(str_replace('-', ' ', $slug)) }}
                             <img src="{{ asset($client['image']) }}" alt="{{ $slug }} project image" class="w-100">
                         </a>
                     </div>
