@@ -26,37 +26,37 @@ return [
         'view' => 'Frontend/Portfolio/ayuHealthSocial',
         'meta' => [
             'title' => 'Ayu Health Social Media | Campaign by Sociomark​',
-            'description' => 'Sociomark crafted Ayu Health’s social media presence with engaging content.'
+            'description' => "Sociomark, a digital marketing agency in UAE, crafted Ayu Health’s social media presence with engaging content, improving reach and brand visibility online."
         ],
-        'image' => 'frontend-assets/img/work/ayu health/ayu health.jpg'
+        'image' => 'frontend-assets/img/clients/ayuhealth.jpg'
     ],
     'ayushakti' => [
         'industry' => 'healthcare',
         'name' => 'Ayushakti',
         'view' => 'Frontend/Portfolio/ayushaktiSocialMedia',
         'meta' => [
-            'title' => 'Ayushakti Social Media Campaign | Sociomark',
-            'description' => 'We helped Ayushakti grow online through healthcare-specific strategies.'
+            'title' => 'Ayushakti Social Media Work | Sociomark​',
+            'description' => "Sociomark, a digital marketing agency in UAE, boosted Ayushakti’s online presence with creative social media campaigns and targeted audience engagement."
         ],
-        'image' => 'frontend-assets/img/work/ayushakti/ayushakti1.jpg'
+        'image' => 'frontend-assets/img/clients/ayushakti.jpg'
     ],
     'stemrx-bioscience' => [
         'industry' => 'healthcare',
         'name' => 'StemRx',
         'view' => 'Frontend/Portfolio/stemRXBioScience',
         'meta' => [
-            'title' => 'StemRx Digital Strategy | Sociomark',
-            'description' => 'Advanced social media work for StemRx in the healthcare sector.'
+            'title' => 'StemRx Bioscience Social Media | Sociomark Portfolio​',
+            'description' => "Explore how our digital marketing agency in Dubai helped StemRx Bioscience grow online with smart social media strategies and engaging content."
         ],
-        'image' => 'frontend-assets/img/work/banner/stemrx.jpg'
+        'image' => 'frontend-assets/img/clients/stemrx.jpg'
     ],
     'nhss' => [
         'industry' => 'education',
         'name' => 'NHS',
         'view' => 'Frontend/Portfolio/nhssSocial',
         'meta' => [
-            'title' => 'StemRx Digital Strategy | Sociomark',
-            'description' => 'Advanced social media work for StemRx in the healthcare sector.'
+            'title' => 'NHSS Social Media Campaign | Sociomark UAE​',
+            'description' => "Sociomark, a digital marketing agency in UAE, enhanced NHSS’s social media with strategic content and campaigns to increase brand reach and audience engagement."
         ],
         'image' => 'frontend-assets/img/clients/nhs_logo.png'
     ],
@@ -65,8 +65,8 @@ return [
         'name' => 'NHS',
         'view' => 'Frontend/Portfolio/nhssSocial',
         'meta' => [
-            'title' => 'StemRx Digital Strategy | Sociomark',
-            'description' => 'Advanced social media work for StemRx in the healthcare sector.'
+            'title' => 'NHSS Social Media Campaign | Sociomark UAE​',
+            'description' => "Sociomark, a digital marketing agency in UAE, enhanced NHSS’s social media with strategic content and campaigns to increase brand reach and audience engagement."
         ],
         'image' => 'frontend-assets/img/clients/nhspsa.jpg'
     ],
@@ -75,8 +75,8 @@ return [
         'name' => 'NHS',
         'view' => 'Frontend/Portfolio/nhssSocial',
         'meta' => [
-            'title' => 'StemRx Digital Strategy | Sociomark',
-            'description' => 'Advanced social media work for StemRx in the healthcare sector.'
+            'title' => 'NHSS Social Media Campaign | Sociomark UAE​',
+            'description' => "Sociomark, a digital marketing agency in UAE, enhanced NHSS’s social media with strategic content and campaigns to increase brand reach and audience engagement."
         ],
         'image' => 'frontend-assets/img/clients/nhsinternational.jpg'
     ],
@@ -109,7 +109,7 @@ return [
     'world-grad' => [
         'industry' => 'education',
         'name' => 'World Grad',
-     
+
         'image' => 'frontend-assets/img/clients/worldgrad.jpg'
     ],
 ];

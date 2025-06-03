@@ -29,14 +29,24 @@ class PortfolioController extends Controller
             abort(404);
         }
 
-        $meta = $data['meta'] ?? ['title' => 'Default Title', 'description' => 'Default description.'];
-        $view = $data['view'] ?? 'errors.404';
-        $industry = $data['industry'] ?? null;
+        $data = $clients[$client];
 
-        // Filter other clients from the same industry
+        // Ensure all required keys are present
+        if (
+            !isset($data['meta']['title'], $data['meta']['description'], $data['view'], $data['industry']) ||
+            !view()->exists($data['view']) // Optional: ensure view exists
+        ) {
+            abort(404);
+        }
+
+        $meta = $data['meta'];
+        $view = $data['view'];
+        $industry = $data['industry'];
+
+        // Get related clients
         $relatedClients = collect($clients)
-            ->filter(fn($c, $key) => $key !== $client && $c['industry'] === $industry)
-            ->take(3); // Optional: limit number
+            ->filter(fn($c, $key) => $key !== $client && ($c['industry'] ?? null) === $industry)
+            ->take(3);
 
         return view($view, compact('meta', 'relatedClients'));
     }
