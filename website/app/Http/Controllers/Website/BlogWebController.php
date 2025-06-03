@@ -7,25 +7,60 @@ use App\Models\Category;
 use App\Models\Tag;
 use App\Models\Blog;
 use Illuminate\Http\Request;
+use Illuminate\Pagination\Paginator;
 
 class BlogWebController extends Controller
 {
-    public function index()
+    // public function index(Request $request)
+    // {
+    //     $categories = Category::all();
+    //     $tags = Tag::all();
+    //     $blogs = Blog::all(); // Paginate all blogs
+    //     $firstBlog = Blog::latest()->first(); // Get latest blog
+
+    //     // ✅ Paginate other blogs instead of using `take()`
+    //     $otherBlogs = Blog::paginate(4);
+    //     $meta = [
+    //         'title' => 'Sociomark Blog | Digital Marketing Insights in UAE',
+    //         'description' => 'Read expert tips, trends, and ideas from Sociomark, a digital marketing agency in UAE, to grow your brand online using SEO, social media, and more.'
+    //     ];
+    //     if (isset($request->input('page'))) {
+    //         $page = $request->input('page');
+    //         $meta['title'] = 'Sociomark Blog | Digital Marketing Insights in UAE - Page ' . $page;
+    //     }
+
+    //     return view('Frontend/Blog/Blog', compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags', 'meta'));
+    // }
+    public function index(Request $request, $page = 1)
     {
         $categories = Category::all();
         $tags = Tag::all();
-        $blogs = Blog::latest()->paginate(4); // Paginate all blogs
-        $firstBlog = Blog::latest()->first(); // Get latest blog
+        $blogs = Blog::all();
+        $firstBlog = Blog::latest()->first();
 
-        // ✅ Paginate other blogs instead of using `take()`
+        // Set the current page manually
+        Paginator::currentPageResolver(function () use ($page) {
+            return $page;
+        });
+
         $otherBlogs = Blog::paginate(4);
+
+        // 🔽 Tell Laravel to generate pretty pagination URLs like /blog/page2
+        $otherBlogs->withPath(url('/blog/page'));
+
         $meta = [
             'title' => 'Sociomark Blog | Digital Marketing Insights in UAE',
             'description' => 'Read expert tips, trends, and ideas from Sociomark, a digital marketing agency in UAE, to grow your brand online using SEO, social media, and more.'
         ];
 
+        if ($page > 1) {
+            $meta['title'] .= ' - Page ' . $page;
+        }
+
         return view('Frontend/Blog/Blog', compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags', 'meta'));
     }
+
+
     public function innerBlog($slug)
     {
         $categories = Category::all();

@@ -21,14 +21,15 @@ return [
         'image' => 'frontend-assets/img/clients/bem.jpg'
     ],
     'ayu-health' => [
-        'industry' => 'healthcare', 
-        'name' => 'Ayuhealth',
+        'industry' => 'healthcare',
+        'name' => 'Ayuhealth new',
         'view' => 'Frontend/Portfolio/ayuHealthSocial',
         'meta' => [
             'title' => 'Ayu Health Social Media | Campaign by Sociomark​',
             'description' => "Sociomark, a digital marketing agency in UAE, crafted Ayu Health’s social media presence with engaging content, improving reach and brand visibility online."
         ],
         'image' => 'frontend-assets/img/clients/ayuhealth.jpg'
+        // 'portfolio-image' => 'frontend-assets/img/work/ayu health/ayu health.jpg'
     ],
     'ayushakti' => [
         'industry' => 'healthcare',
@@ -39,6 +40,7 @@ return [
             'description' => "Sociomark, a digital marketing agency in UAE, boosted Ayushakti’s online presence with creative social media campaigns and targeted audience engagement."
         ],
         'image' => 'frontend-assets/img/clients/ayushakti.jpg'
+        //  'portfolio-image' => 'frontend-assets/img/work/ayu health/ayu health.jpg'
     ],
     'stemrx-bioscience' => [
         'industry' => 'healthcare',
@@ -49,9 +51,10 @@ return [
             'description' => "Explore how our digital marketing agency in Dubai helped StemRx Bioscience grow online with smart social media strategies and engaging content."
         ],
         'image' => 'frontend-assets/img/clients/stemrx.jpg'
+        //  'portfolio-image' => 'frontend-assets/img/work/ayu health/ayu health.jpg'
     ],
     'nhss' => [
-        'industry' => 'education',
+        'industry' => 'healthcare',
         'name' => 'NHS',
         'view' => 'Frontend/Portfolio/nhssSocial',
         'meta' => [
@@ -59,6 +62,7 @@ return [
             'description' => "Sociomark, a digital marketing agency in UAE, enhanced NHSS’s social media with strategic content and campaigns to increase brand reach and audience engagement."
         ],
         'image' => 'frontend-assets/img/clients/nhs_logo.png'
+        //  'portfolio-image' => 'frontend-assets/img/work/ayu health/ayu health.jpg'
     ],
     'nhspsa' => [
         'industry' => 'education',
@@ -81,7 +85,7 @@ return [
         'image' => 'frontend-assets/img/clients/nhsinternational.jpg'
     ],
     'eduauraa' => [
-        'industry' => 'education', 
+        'industry' => 'education',
         'name' => 'Eduaura',
         'image' => 'frontend-assets/img/clients/eduauraa.jpg'
     ],
@@ -168,74 +172,84 @@ return [
 
         'image' => 'frontend-assets/img/clients/times.jpg'
     ],
-     'bulid-track' => [
+    'bulid-track' => [
         'industry' => 'home-interior',
         'name' => 'Build Track',
         'view' => 'Frontend/Portfolio/bulidTrackSocial',
         'meta' => [
-             'title' => 'Build Track Social Media Work | Sociomark​',
-                    'description' => "Discover how Sociomark, Digital marketing agency in uae, boosted Build Track’s social media with engaging content, targeted ads, and strategic campaigns."
+            'title' => 'Build Track Social Media Work | Sociomark​',
+            'description' => "Discover how Sociomark, Digital marketing agency in uae, boosted Build Track’s social media with engaging content, targeted ads, and strategic campaigns."
         ],
         'image' => 'frontend-assets/img/clients/buildtrack (1).png'
     ],
-     'bumchums' => [
+    'bumchums' => [
         'industry' => 'fashion',
         'name' => 'bumchums',
-        
+
         'image' => 'frontend-assets/img/clients/bumchums.jpg'
     ],
-      'euro' => [
+    'euro' => [
         'industry' => 'fashion',
         'name' => 'Euro',
         'view' => 'Frontend/Portfolio/euroSocialMedia',
         'meta' => [
             'title' => 'EURO Social Media Campaign | Sociomark UAE​',
-                    'description' => "See how Sociomark, a Digital marketing agency in uae, boosted EURO’s social media engagement with creative content, ads, and strategies for brand growth."
+            'description' => "See how Sociomark, a Digital marketing agency in uae, boosted EURO’s social media engagement with creative content, ads, and strategies for brand growth."
         ],
         'image' => 'frontend-assets/img/clients/euro.jpg'
     ],
-      'shahenaz' => [
+    'shahenaz' => [
         'industry' => 'fashion',
         'name' => 'Shahenaz',
         'view' => 'Frontend/Portfolio/shahenazSocial',
         'meta' => [
-           'title' => 'Shahenaz Social Media Campaign | Sociomark UAE​',
-                    'description' => "Sociomark, a digital marketing agency in UAE, delivered creative social media strategies for Shahenaz to increase brand visibility and engage their target audience."
+            'title' => 'Shahenaz Social Media Campaign | Sociomark UAE​',
+            'description' => "Sociomark, a digital marketing agency in UAE, delivered creative social media strategies for Shahenaz to increase brand visibility and engage their target audience."
         ],
         'image' => 'frontend-assets/img/clients/shahenaz.jpg'
     ],
-     'watch' => [
+    'watch' => [
         'industry' => 'fashion',
         'name' => 'Watch',
-        
+
         'image' => 'frontend-assets/img/clients/watch.jpg'
     ],
-     'desiavatar' => [
+    'desiavatar' => [
         'industry' => 'fashion',
         'name' => 'Desi Avatar',
-        
+
         'image' => 'frontend-assets/img/clients/desiavatar.jpg'
     ],
-     'out-of-office' => [
+    'out-of-office' => [
         'industry' => 'fashion',
         'name' => 'Out Of Office',
-        
+
         'image' => 'frontend-assets/img/clients/outofoffice.jpg'
     ],
-     'vedco' => [
+    'vedco' => [
         'industry' => 'fashion',
         'name' => 'Vedco',
-        
+        'view' => 'Frontend/Portfolio/vedcoSocial',
+        'meta' => [
+            'title' => 'Vedco Social Media Campaign | Sociomark Portfolio​',
+            'description' => "Discover how our digital marketing agency in Dubai elevated Vedco's online presence through targeted social media campaigns and creative strategy."
+        ],
         'image' => 'frontend-assets/img/clients/vedco.jpg'
     ],
-     'stickerly' => [
+    'stickerly' => [
         'industry' => 'fashion',
         'name' => 'Stickerly',
-        
+
         'image' => 'frontend-assets/img/clients/stickerly.jpg'
     ],
+    'jop' => [
+        'industry' => 'real-estate',
+        'name' => 'JOP',
+        'view' => 'Frontend/Portfolio/jopSocial',
+        'meta' => [
+            'title' => 'JOP Social Media Campaign | Sociomark Dubai​',
+            'description' => "Discover how our digital marketing agency in Dubai helped JOP boost social media engagement and brand visibility with creative and targeted strategies."
+        ],
+        'image' => 'frontend-assets/img/clients/jop_palm.jpg'
+    ],
 ];
-                
-                  
-                  
-                  

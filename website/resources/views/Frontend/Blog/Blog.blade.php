@@ -145,6 +145,45 @@
                             @endif
                         </ul>
                     </div>
+                    <div class="th-pagination d-none">
+                        <ul>
+                            {{-- Previous Page Link --}}
+                            @if ($otherBlogs->onFirstPage())
+                            <li class="disabled"><span>«</span></li>
+                            @else
+                            @php
+                            $prevPage = $otherBlogs->currentPage() - 1;
+                            $prevUrl = $prevPage == 1 ? route('blog') : route('blog.page', ['page' => $prevPage]);
+                            @endphp
+                            <li><a href="{{ $prevUrl }}" rel="prev">«</a></li>
+                            @endif
+
+                            {{-- Pagination Elements --}}
+                            @for ($page = 1; $page <= $otherBlogs->lastPage(); $page++)
+                                @if ($page == $otherBlogs->currentPage())
+                                <li class="active"><span>{{ $page }}</span></li>
+                                @else
+                                <li>
+                                    <a href="{{ $page == 1 ? route('blog') : route('blog.page', ['page' => $page]) }}">
+                                        {{ $page }}
+                                    </a>
+                                </li>
+                                @endif
+                                @endfor
+
+                                {{-- Next Page Link --}}
+                                @if ($otherBlogs->hasMorePages())
+                                @php
+                                $nextPage = $otherBlogs->currentPage() + 1;
+                                $nextUrl = route('blog.page', ['page' => $nextPage]);
+                                @endphp
+                                <li><a href="{{ $nextUrl }}" rel="next">»</a></li>
+                                @else
+                                <li class="disabled"><span>»</span></li>
+                                @endif
+                        </ul>
+                    </div>
+
 
                 </div>
                 <div class="col-xxl-4 col-lg-4">

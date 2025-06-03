@@ -50,7 +50,7 @@
             <h2 class="text-blue sec-title">StemRx Bioscience</h2>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
-            
+
             <div class="th-social">
                 <p class="sec-para"><b>Page Link:</b>
                     <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -140,28 +140,51 @@
     </div>
 </section>
 
-<section class="porfolio-text overflow-hidden space ">
+<section class="porfolio-text overflow-hidden space d-none">
     <div class="container">
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'ayu-health']) }}">
-                <img src="{{ asset('frontend-assets/img/work/ayu health/ayu health.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Ayuhealth</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/ayu health/ayu health.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Ayuhealth</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
-                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayushakti1.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Ayushkati</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayushakti1.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Ayushkati</b></p>
                 </a>
             </div>
             <div class="mt-3">
                 <a href="{{ route('ayushakti') }}" class="th-btn th-icon">View Our Porfolio</a>
             </div>
-           
+
         </div>
     </div>
 </section>
+<section class="porfolio-text overflow-hidden space">
+    <div class="container">
+        <div class="row">
+            <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span></h2>
+
+            @forelse($relatedClients as $slug => $client)
+            <div class="col-lg-4 col-md-4 col-12 mb-4">
+                <a href="{{ route('social_media', ['client' => $slug]) }}">
+                    <img src="{{ asset($client['portfolio-image']) }}" alt="{{ $client['name'] }}" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>{{ $client['name'] }}</b></p>
+                </a>
+            </div>
+            @empty
+            <p class="text-center text-muted">No other clients in this industry yet.</p>
+            @endforelse
+
+            <div class="mt-3">
+                <a href="{{ route('portfolio') }}" class="th-btn th-icon">View Our Portfolio</a>
+            </div>
+        </div>
+    </div>
+</section>
+
 @endsection
