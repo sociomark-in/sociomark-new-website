@@ -40,7 +40,7 @@ class BlogController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'card_title'=> 'required|string|max:40|min:30',
+            'card_title' => 'required|string|max:255',
             'blog_name' => 'required|string|max:255',
             'content' => 'required',
             'meta_title' => 'nullable|string|max:255',
@@ -64,7 +64,7 @@ class BlogController extends Controller
 
         // Create blog
         Blog::create([
-            'card_title'=> $request->card_title,
+            'card_title' => $request->card_title,
             'blog_name' => $request->blog_name,
             'content' => $request->content,
             'meta_title' => $request->meta_title,
@@ -98,62 +98,64 @@ class BlogController extends Controller
         return view('admin/Pages/Blog/EditBlog', compact('blog', 'categories', 'tags'));
     }
 
-    
+
     public function update(Request $request, $id)
     {
         $blog = Blog::findOrFail($id);
-    
+
         $request->validate([
-            'card_title'=> 'required|string|max:40|min:30',
-            'blog_name' => 'required|string|max:255',
-            'content' => 'required',
-            'status' => 'required|in:draft,active,inactive',
-            'tags' => 'nullable|array', // Ensure it's a string
-            'categories' => 'nullable|array', // Categories should remain an array
-            'meta_title' => 'nullable|string|max:255',
+            'card_title'      => 'required|string|max:255',
+            'blog_name'       => 'required|string|max:255',
+            'content'         => 'required',
+            'status'          => 'required|in:draft,active,inactive',
+            'tags'            => 'nullable|array',
+            'categories'      => 'nullable|array',
+            'meta_title'      => 'nullable|string|max:255',
             'meta_description' => 'nullable|string|max:500',
-            'meta_keywords' => 'nullable|string|max:500',
-            'slug' => 'nullable|string|max:255|unique:blogs,slug,' . $id,
-            'images.*' => 'image|mimes:jpeg,png,jpg,gif|max:2048',
+            'meta_keywords'   => 'nullable|string|max:500',
+            'slug'            => 'nullable|string|max:255|unique:blogs,slug,' . $id,
+            'images.*'        => 'image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
-    
-        // Delete old images if new images are uploaded
+
+        // Start building the $data array with all the "always-present" fields:
+        $data = [
+            'card_title'       => $request->input('card_title'),
+            'blog_name'        => $request->input('blog_name'),
+            'content'          => $request->input('content'),
+            'meta_title'       => $request->input('meta_title'),
+            'meta_description' => $request->input('meta_description'),
+            'meta_keywords'    => $request->input('meta_keywords'),
+            'slug'             => Str::slug($request->input('blog_name')),
+            'tags'             => $request->input('tags', []),
+            'categories'       => $request->input('categories', []),
+            'status'           => $request->input('status'),
+            'display_on_home'  => (bool) $request->input('display_on_home', false),
+        ];
+
+        // Only if the user has uploaded new images do we delete old ones and store new
         if ($request->hasFile('images')) {
-            if (!empty($blog->images)) {
-                foreach ($blog->images as $oldImage) {
-                    Storage::disk('public')->delete($oldImage); // Delete old images
+            // 1) Delete old images from disk (if any)
+            if (!empty($blog->images) && is_array($blog->images)) {
+                foreach ($blog->images as $oldPath) {
+                    Storage::disk('public')->delete($oldPath);
                 }
             }
-        }
-    
-        $imagePaths = [];
-    
-        // Store new images
-        if ($request->hasFile('images')) {
+
+            // 2) Store new ones and overwrite $data['images']
+            $newImagePaths = [];
             foreach ($request->file('images') as $image) {
-                $path = $image->store('blog_images', 'public');
-                $imagePaths[] = $path;
+                $newImagePaths[] = $image->store('blog_images', 'public');
             }
+            $data['images'] = $newImagePaths;
         }
-    
-        $blog->update([
-            'card_title'=> $request->card_title,
-            'blog_name' => $request->blog_name,
-            'content' => $request->content,
-            'meta_title' => $request->meta_title,
-            'meta_description' => $request->meta_description,
-            'meta_keywords' => $request->meta_keywords,
-            'slug' => Str::slug($request->blog_name),
-            'tags' => $request->tags, // Convert string to array
-            'categories' => $request->categories,
-            'images' => $imagePaths, // Only store new images
-            'status' => $request->status,
-            'display_on_home' => $request->display_on_home ?? false,
-        ]);
-    
+
+        // Now update all fields at once
+        $blog->update($data);
+
         return redirect()->route('blogs.index')->with('success', 'Blog updated successfully.');
     }
-    
+
+
 
 
     // Delete blog

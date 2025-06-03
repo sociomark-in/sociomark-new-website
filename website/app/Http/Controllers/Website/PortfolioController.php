@@ -21,6 +21,28 @@ class PortfolioController extends Controller
         return view('Frontend/Portfolio/insidePortfolio');
     }
 
+    //     public function social_media($client)
+    // {
+    //     $clients = config('clients');
+
+    //     if (!array_key_exists($client, $clients)) {
+    //         abort(404);
+    //     }
+
+    //     $data = $clients[$client];
+    //     $meta = $data['meta'];
+    //     $view = $data['view'];
+    //     $industry = $data['industry'];
+
+    //     // Filter other clients from the same industry
+    //     $relatedClients = collect($clients)
+    //         ->filter(fn($c, $key) => $key !== $client && $c['industry'] === $industry)
+    //         ->take(3); // Optional: limit number
+
+    //     return view($view, compact('meta', 'relatedClients'));
+    // }
+
+
     public function social_media($client)
     {
         switch ($client) {

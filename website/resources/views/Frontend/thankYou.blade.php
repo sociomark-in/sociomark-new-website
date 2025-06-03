@@ -90,9 +90,9 @@
                             <a href="{{ route('home') }}" class="th-btn white-border th-icon th-radius">
                                 Back To Home
                             </a>
-                            <a href="" class="th-btn white-border th-icon th-radius">
+                            {{-- <a href="" class="th-btn white-border th-icon th-radius">
                                 Download
-                            </a>
+                            </a> --}}
                         </div>
                     </div>
                 </div>

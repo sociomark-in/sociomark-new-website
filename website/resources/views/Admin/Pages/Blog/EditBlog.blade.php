@@ -26,7 +26,7 @@
 
                         <div class="mb-3">
                             <label>Blog Card Name</label>
-                            <input type="text" name="card_title" class="form-control" required value="{{ old('blog_name', $blog->blog_name) }}">
+                            <input type="text" name="card_title" class="form-control" required value="{{ old('card_title', $blog->card_title) }}">
                         </div>
 
 
