@@ -112,4 +112,60 @@ return [
 
         'image' => 'frontend-assets/img/clients/worldgrad.jpg'
     ],
+    'jivana' => [
+        'industry' => 'fmcg',
+        'name' => 'Jivana',
+        'view' => 'Frontend/Portfolio/jivanaSocialMedia',
+        'meta' => [
+            'title' => 'Jivana Social Media Campaign | Sociomark UAE​',
+            'description' => "Sociomark, a Digital marketing agency in uae, helped Jivana grow online with creative social posts, targeted campaigns, and higher audience engagement."
+        ],
+        'image' => 'frontend-assets/img/clients/jivana.jpg'
+    ],
+    'total' => [
+        'industry' => 'fmcg',
+        'name' => 'Total',
+
+        'image' => 'frontend-assets/img/clients/total.jpg'
+    ],
+    'othnanaimo' => [
+        'industry' => 'fmcg',
+        'name' => 'Othnanaimo',
+
+        'image' => 'frontend-assets/img/clients/othnanaimo.jpg'
+    ],
+    'Troller' => [
+        'industry' => 'fmcg',
+        'name' => 'Trollers',
+
+        'image' => 'frontend-assets/img/clients/trollers.jpg'
+    ],
+    'kinnal' => [
+        'industry' => 'fmcg',
+        'name' => 'Kinnal',
+
+        'image' => 'frontend-assets/img/clients/kinnal.jpg'
+    ],
+    'trollersfishnchips' => [
+        'industry' => 'fmcg',
+        'name' => 'Trollersfishnchips',
+
+        'image' => 'frontend-assets/img/clients/trollersfishnchips.jpg'
+    ],
+    'tata-play' => [
+        'industry' => 'news-media',
+        'name' => 'Tata Play',
+        'view' => 'Frontend/Portfolio/tataplaySocial',
+        'meta' => [
+            'title' => 'Tata Play Social Media | Sociomark Portfolio Dubai​',
+            'description' => "Discover how our digital marketing agency in Dubai helped Tata Play enhance engagement through creative and effective social media campaigns."
+        ],
+        'image' => 'frontend-assets/img/clients/tataplay.png'
+    ],
+    'times' => [
+        'industry' => 'news-media',
+        'name' => 'times',
+
+        'image' => 'frontend-assets/img/clients/times.jpg'
+    ],
 ];
