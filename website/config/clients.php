@@ -204,8 +204,38 @@ return [
         ],
         'image' => 'frontend-assets/img/clients/shahenaz.jpg'
     ],
+     'watch' => [
+        'industry' => 'fashion',
+        'name' => 'Watch',
+        
+        'image' => 'frontend-assets/img/clients/watch.jpg'
+    ],
+     'desiavatar' => [
+        'industry' => 'fashion',
+        'name' => 'Desi Avatar',
+        
+        'image' => 'frontend-assets/img/clients/desiavatar.jpg'
+    ],
+     'out-of-office' => [
+        'industry' => 'fashion',
+        'name' => 'Out Of Office',
+        
+        'image' => 'frontend-assets/img/clients/outofoffice.jpg'
+    ],
+     'vedco' => [
+        'industry' => 'fashion',
+        'name' => 'Vedco',
+        
+        'image' => 'frontend-assets/img/clients/vedco.jpg'
+    ],
+     'stickerly' => [
+        'industry' => 'fashion',
+        'name' => 'Stickerly',
+        
+        'image' => 'frontend-assets/img/clients/stickerly.jpg'
+    ],
 ];
-
-                            
-
-                 
+                
+                  
+                  
+                  

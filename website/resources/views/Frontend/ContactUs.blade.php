@@ -141,24 +141,19 @@
 
     <div class="overflow-hidden space contact-head">
         <div class="container">
-            <div class="row">
-                <div class="title-area text-center text-xl-start col-md-4 head-text-div">
-                    <!-- <h2 class="sec-title head-text head-mbl-text">Don’t hesitate to contact us for any information.</h2> -->
-
-                    <h2 class="sec-title head-text head-mbl-text" data-aos="fade-right" data-aos-delay="100"
+            <div class="row justify-content-between">
+                <div class="title-area text-center text-xl-start col-md-4 head-text-div mt-1">
+                    <h2 class="sec-title head-text head-mbl-text " data-aos="fade-right" data-aos-delay="100"
                         data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        Don’t hesitate to <span class="text-blue"> contact us</span> for any information.
+                        Have a plan? We are all ears!<span class="text-blue"> contact us</span> to get things rolling!
+
                     </h2>
                 </div>
-                <div class="text-center text-xl-start col-md-8">
+                <div class="text-center text-xl-start col-md-8 pl-40">
                     <p class="sec-para" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000"
-                        data-aos-easing="ease-in-out">We identify the most relevant and high-traffic keywords for your
-                        business. Our
-                        team conducts thorough research to understand.</p>
-                    <p class="sec-para" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000"
-                        data-aos-easing="ease-in-out">We identify the most relevant and high-traffic keywords for your
-                        business. Our
-                        team conducts thorough research to understand yourer.</p>
+                        data-aos-easing="ease-in-out">Got an idea or need more details? Don’t hesitate to reach out. We’re eager to hear what’s on your mind and explore how we can help. Whether you’re starting a new project or need some advice, we’re here to offer the support you need. Get in touch, and let’s see how we can work together to achieve your goals.
+                    </p>
+
                 </div>
             </div>
         </div>
