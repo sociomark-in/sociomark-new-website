@@ -385,7 +385,7 @@
                     Clients We've <span class="text-blue"> Worked With</span>
                 </h2>
             </div>
-            <div class="portfolio-area" data-aos="zoom-in" data-aos-delay="200">
+            <div class="portfolio-area d-none" data-aos="zoom-in" data-aos-delay="200">
                 <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
                     @foreach ($clients as $slug => $client)
                     <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
