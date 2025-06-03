@@ -388,7 +388,7 @@
             </div>
         </section>
 
-        <section class="space bg-grey">
+        <section class="space bg-grey d-none">
             <div class="container-fluid">
                 <div class="section-vertical">
                     <div class="">

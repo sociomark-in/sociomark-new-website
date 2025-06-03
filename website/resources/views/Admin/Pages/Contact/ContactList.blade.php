@@ -34,9 +34,6 @@
                                     <th>Phone Number</th>
                                     <th>Service</th>
                                     <th>Budget</th>
-                                    <th>Company Name</th>
-                                    <th>Url</th>
-                                    <th>Timeline</th>
                                     <th>About Us</th>
                                     <th>Message</th>
                                     <th>UTM Source</th>
@@ -71,9 +68,6 @@
                                     <td>{{ $contactList->phone }}</td>
                                     <td>{{ $contactList->service }}</td>
                                     <td>{{ $contactList->budget }}</td>
-                                    <td>{{ $contactList->companyname }}</td>
-                                    <td>{{ $contactList->url }}</td>
-                                    <td>{{ $contactList->timeline }}</td>
                                     <td>{{ $contactList->aboutUs }}</td>
                                     <td>{{ $contactList->messageforus }}</td>
                                     <td>{{ $contactList->utm_source }}</td>
@@ -347,38 +341,38 @@
         // pie service
         const rawServiceStrings = @json($services); // e.g., ["SEO, Web Dev", "SEO", "Social Media, SEO"]
 
-        // Step 1: Flatten the service selections
-        const allServices = [];
-        rawServiceStrings.forEach(entry => {
-            const services = entry.split(',');
-            services.forEach(service => {
-                const cleaned = service.trim();
-                if (cleaned) allServices.push(cleaned);
-            });
+    // Step 1: Flatten the service selections
+    const allServices = [];
+    rawServiceStrings.forEach(entry => {
+        const services = entry.split(',');
+        services.forEach(service => {
+            const cleaned = service.trim();
+            if (cleaned) allServices.push(cleaned);
         });
+    });
 
-        // Step 2: Count occurrences
-        const serviceCounts = {};
-        allServices.forEach(service => {
-            serviceCounts[service] = (serviceCounts[service] || 0) + 1;
-        });
+    // Step 2: Count occurrences
+    const serviceCounts = {};
+    allServices.forEach(service => {
+        serviceCounts[service] = (serviceCounts[service] || 0) + 1;
+    });
 
-        const serviceLabels = Object.keys(serviceCounts);
-        const serviceData = Object.values(serviceCounts);
+    const serviceLabels = Object.keys(serviceCounts);
+    const serviceData = Object.values(serviceCounts);
 
-        document.addEventListener("DOMContentLoaded", function() {
-            var pieOptions = {
-                chart: {
-                    type: 'pie',
-                    height: 350
-                },
-                labels: serviceLabels,
-                series: serviceData,
-                colors: ['#ff4c51', '#00c292', '#ff9800', '#03a9f4', '#9c27b0', '#607d8b', '#ffc107']
-            };
+    document.addEventListener("DOMContentLoaded", function () {
+        var pieOptions = {
+            chart: {
+                type: 'pie',
+                height: 350
+            },
+            labels: serviceLabels,
+            series: serviceData,
+            colors: ['#ff4c51', '#00c292', '#ff9800', '#03a9f4', '#9c27b0', '#607d8b', '#ffc107']
+        };
 
-            new ApexCharts(document.querySelector("#apexPie"), pieOptions).render();
-        });
+        new ApexCharts(document.querySelector("#apexPie"), pieOptions).render();
+    });
         // chart status
         var options = {
             chart: {
@@ -389,7 +383,7 @@
             xaxis: {
                 categories: @json($chartDates) // Dynamic x-axis labels (e.g. ['2025-05-01', '2025-05-02'])
             },
-            colors: ['#ffc107', '#dc3545', '#fd7e14', '#0d6efd', '#9e9e9e', '#00c292'], // Custom line colors per series
+            colors: ['#ffc107', '#dc3545', '#fd7e14', '#0d6efd', '#9e9e9e','#00c292'], // Custom line colors per series
             stroke: {
                 width: 2 // Line width
             },

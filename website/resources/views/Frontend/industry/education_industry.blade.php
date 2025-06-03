@@ -137,7 +137,7 @@
             <div class="slider-area testi-box-area">
                 <div class="swiper testimonialSlider">
                     <div class="swiper-wrapper">
-
+                     
                         <div class="swiper-slide">
                             <div class="testi-grid">
                                 <div class="box-content">
@@ -159,7 +159,7 @@
                                 </div>
                             </div>
                         </div>
-
+                       
                     </div>
                     <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
                 </div>
@@ -169,15 +169,15 @@
                         class="fas fa-arrow-right"></i></button>
             </div>
             @push('scripts')
-            <script>
-                new Swiper('.testi-box-area .testimonialSlider', {
-                    loop: true,
-                    navigation: {
-                        nextEl: ".testi-box-area .slider-next",
-                        prevEl: ".testi-box-area .slider-prev",
-                    },
-                })
-            </script>
+                <script>
+                    new Swiper('.testi-box-area .testimonialSlider', {
+                        loop: true,
+                        navigation: {
+                            nextEl: ".testi-box-area .slider-next",
+                            prevEl: ".testi-box-area .slider-prev",
+                        },
+                    })
+                </script>
             @endpush
         </div>
     </section>
@@ -385,17 +385,6 @@
                     Clients We've <span class="text-blue"> Worked With</span>
                 </h2>
             </div>
-            <div class="portfolio-area" data-aos="zoom-in" data-aos-delay="200">
-                <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
-                    @foreach ($clients as $slug => $client)
-                    <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
-                        <a href="{{ route('social_media', $slug) }}" target="_blank" class="project-item d-block">
-                            <img src="{{ asset($client['image']) }}" alt="{{ $slug }} project image" class="w-100">
-                        </a>
-                    </div>
-                    @endforeach
-                </div>
-            </div>
             <div class="filter-menu d-none filter-menu-active mt-md-5 mb-md-4">
                 <button data-filter="*" class="tab-btn active" type="button">All</button>
                 <button data-filter=".cat1" class="tab-btn" type="button">Digital Marketing</button>
@@ -407,7 +396,7 @@
                 <button data-filter=".cat6" class="tab-btn" type="button">Production & Photography</button>
 
             </div>
-            <div class="portfolio-area d-none" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1200">
+            <div class="portfolio-area" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1200">
                 <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
                     <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
                         <a target="_blank" href="javascript:void(0);" class="project-item d-block">
