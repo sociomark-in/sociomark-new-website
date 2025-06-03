@@ -17,7 +17,7 @@ class IndustryController extends Controller
         $industryMeta = config('industries');
 
         if (!isset($industryMeta[$segment])) {
-            abort(404);
+            abort(404); // This correctly handles missing industry segments
         }
 
         $meta = [
@@ -31,6 +31,7 @@ class IndustryController extends Controller
 
         return view($view, compact('meta', 'clients'));
     }
+
     // public function single($segment)
     // {
     //     switch ($segment) {

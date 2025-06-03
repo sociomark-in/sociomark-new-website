@@ -50,4 +50,66 @@ return [
         ],
         'image' => 'frontend-assets/img/work/banner/stemrx.jpg'
     ],
+    'nhss' => [
+        'industry' => 'education',
+        'name' => 'NHS',
+        'view' => 'Frontend/Portfolio/nhssSocial',
+        'meta' => [
+            'title' => 'StemRx Digital Strategy | Sociomark',
+            'description' => 'Advanced social media work for StemRx in the healthcare sector.'
+        ],
+        'image' => 'frontend-assets/img/clients/nhs_logo.png'
+    ],
+    'nhspsa' => [
+        'industry' => 'education',
+        'name' => 'NHS',
+        'view' => 'Frontend/Portfolio/nhssSocial',
+        'meta' => [
+            'title' => 'StemRx Digital Strategy | Sociomark',
+            'description' => 'Advanced social media work for StemRx in the healthcare sector.'
+        ],
+        'image' => 'frontend-assets/img/clients/nhspsa.jpg'
+    ],
+    'nhs-international' => [
+        'industry' => 'education',
+        'name' => 'NHS',
+        'view' => 'Frontend/Portfolio/nhssSocial',
+        'meta' => [
+            'title' => 'StemRx Digital Strategy | Sociomark',
+            'description' => 'Advanced social media work for StemRx in the healthcare sector.'
+        ],
+        'image' => 'frontend-assets/img/clients/nhsinternational.jpg'
+    ],
+    'eduauraa' => [
+        'industry' => 'education',
+        'name' => 'Eduaura',
+        'image' => 'frontend-assets/img/clients/eduauraa.jpg'
+    ],
+    'tilak' => [
+        'industry' => 'education',
+        'name' => 'Tilak',
+
+        'image' => 'frontend-assets/img/clients/tilak.jpg'
+    ],
+    'dypatil' => [
+        'industry' => 'education',
+        'name' => 'Dy Patil',
+        'image' => 'frontend-assets/img/clients/dyp01.jpg'
+    ],
+    'dy-patil-ambi' => [
+        'industry' => 'education',
+        'name' => 'Dy Patil',
+        'image' => 'frontend-assets/img/clients/dyp_ambi.jpg'
+    ],
+    'dy-patil' => [
+        'industry' => 'education',
+        'name' => 'Dy Patil',
+        'image' => 'frontend-assets/img/clients/dpu.jpg'
+    ],
+    'world-grad' => [
+        'industry' => 'education',
+        'name' => 'World Grad',
+     
+        'image' => 'frontend-assets/img/clients/worldgrad.jpg'
+    ],
 ];
