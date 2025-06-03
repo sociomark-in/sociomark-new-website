@@ -37,7 +37,7 @@
                     <div class="col-lg-8">
                         <div class="title-area mb-25 mt-n1">
                             <h2 class="fw-bold sec-title" data-aos="zoom-in" data-aos-delay="100">
-                                Digital Healthcare Marketing that <span class="text-blue">Builds Trust & Drives
+                             Digital Healthcare Marketing that <span class="text-blue">Builds Trust & Drives
                                     Growth</span>
                             </h2>
                         </div>

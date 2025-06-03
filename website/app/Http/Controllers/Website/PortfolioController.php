@@ -55,26 +55,6 @@ class PortfolioController extends Controller
 
         return view($view, compact('meta', 'relatedClients'));
     }
-    public function single($segment)
-    {
-        $industryMeta = config('industries');
-
-        if (!isset($industryMeta[$segment])) {
-            abort(404); // This correctly handles missing industry segments
-        }
-
-        $meta = [
-            'title' => $industryMeta[$segment]['title'],
-            'description' => $industryMeta[$segment]['description']
-        ];
-        $view = $industryMeta[$segment]['view'];
-
-        // Get all clients from this industry
-        $clients = collect(config('clients'))->filter(fn($client) => $client['industry'] === $segment);
-
-        return view($view, compact('meta', 'clients'));
-    }
-
 
     // public function social_media($client)
     // {

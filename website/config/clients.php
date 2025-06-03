@@ -21,7 +21,7 @@ return [
         'image' => 'frontend-assets/img/clients/bem.jpg'
     ],
     'ayu-health' => [
-        'industry' => ['healthcare', 'real-estate'],
+        'industry' => 'healthcare', 
         'name' => 'Ayuhealth',
         'view' => 'Frontend/Portfolio/ayuHealthSocial',
         'meta' => [
@@ -81,7 +81,7 @@ return [
         'image' => 'frontend-assets/img/clients/nhsinternational.jpg'
     ],
     'eduauraa' => [
-        'industry' => 'education',
+        'industry' => 'education', 
         'name' => 'Eduaura',
         'image' => 'frontend-assets/img/clients/eduauraa.jpg'
     ],
@@ -168,5 +168,44 @@ return [
 
         'image' => 'frontend-assets/img/clients/times.jpg'
     ],
+     'bulid-track' => [
+        'industry' => 'home-interior',
+        'name' => 'Build Track',
+        'view' => 'Frontend/Portfolio/bulidTrackSocial',
+        'meta' => [
+             'title' => 'Build Track Social Media Work | Sociomark​',
+                    'description' => "Discover how Sociomark, Digital marketing agency in uae, boosted Build Track’s social media with engaging content, targeted ads, and strategic campaigns."
+        ],
+        'image' => 'frontend-assets/img/clients/buildtrack (1).png'
+    ],
+     'bumchums' => [
+        'industry' => 'fashion',
+        'name' => 'bumchums',
+        
+        'image' => 'frontend-assets/img/clients/bumchums.jpg'
+    ],
+      'euro' => [
+        'industry' => 'fashion',
+        'name' => 'Euro',
+        'view' => 'Frontend/Portfolio/euroSocialMedia',
+        'meta' => [
+            'title' => 'EURO Social Media Campaign | Sociomark UAE​',
+                    'description' => "See how Sociomark, a Digital marketing agency in uae, boosted EURO’s social media engagement with creative content, ads, and strategies for brand growth."
+        ],
+        'image' => 'frontend-assets/img/clients/euro.jpg'
+    ],
+      'shahenaz' => [
+        'industry' => 'fashion',
+        'name' => 'Shahenaz',
+        'view' => 'Frontend/Portfolio/shahenazSocial',
+        'meta' => [
+           'title' => 'Shahenaz Social Media Campaign | Sociomark UAE​',
+                    'description' => "Sociomark, a digital marketing agency in UAE, delivered creative social media strategies for Shahenaz to increase brand visibility and engage their target audience."
+        ],
+        'image' => 'frontend-assets/img/clients/shahenaz.jpg'
+    ],
 ];
 
+                            
+
+                 
