@@ -21,7 +21,7 @@ return [
         'image' => 'frontend-assets/img/clients/bem.jpg'
     ],
     'ayu-health' => [
-        'industry' => 'healthcare',
+        'industry' => ['healthcare', 'real-estate'],
         'name' => 'Ayuhealth',
         'view' => 'Frontend/Portfolio/ayuHealthSocial',
         'meta' => [
@@ -169,3 +169,4 @@ return [
         'image' => 'frontend-assets/img/clients/times.jpg'
     ],
 ];
+
