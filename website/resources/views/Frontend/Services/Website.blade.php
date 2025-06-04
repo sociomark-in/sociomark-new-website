@@ -563,15 +563,13 @@
                         <div class="accordion-card ">
                             <div class="accordion-header" id="collapse-item-3">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">How
-                                    much does it cost to develop a website?
+                                    data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3"> What are 3 types of web development?
                                 </button>
                             </div>
                             <div id="collapse-3" class="accordion-collapse collapse "
                                 aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
                                 <div class="accordion-body">
-                                    <p class="sec-para-faq">Costs vary based on complexity, features, and design,
-                                        ranging from a few hundred to several thousand dollars.
+                                    <p class="sec-para-faq">The three types of web development are front-end (visual design), back-end (server and data), and full-stack (both front-end and back-end).
                                     </p>
                                 </div>
                             </div>
