@@ -1,5 +1,55 @@
 @extends('Frontend.layout.app')
+@section('custome-style')
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Services",
+            "item": "https://www.sociomark.ae/services"
+        }, {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Digital marketing",
+            "item": "https://www.sociomark.ae/service/digital-marketing-agency-dubai"
+        }, {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "SEO agency",
+            "item": "https://www.sociomark.ae/service/seo-agency-dubai"
+        }, {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Social media agency",
+            "item": "https://www.sociomark.ae/service/social-media-agency-dubai"
+        }, {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Website development agency",
+            "item": "https://www.sociomark.ae/service/website-development-agency"
+        }, {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Content Marketing agency",
+            "item": "https://www.sociomark.ae/service/content-marketing-agency-dubai"
+        }, {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Performance marketing agency",
+            "item": "https://www.sociomark.ae/service/performance-marketing-agency"
+        }, {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "Photography and Video Production",
+            "item": "https://www.sociomark.ae/service/photography-videography"
+        }]
+    }
+</script>
 
+
+@endsection
 @section('content')
 <main id="contact">
     <div class="breadcumb-wrapper p-0">

@@ -1,5 +1,5 @@
 @extends('Frontend.layout.blogapp')
-
+@section('custome-style')
 <style>
     #Blog_Section .box {
         padding: 28px 20px;
@@ -72,6 +72,8 @@
         object-fit: contain !important;
     }
 </style>
+@endsection
+
 
 @section('content')
 <main>

@@ -25,6 +25,38 @@
         ]
     }
 </script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Homepage",
+            "item": "https://www.sociomark.ae/"
+        }, {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Services",
+            "item": "https://www.sociomark.ae/services"
+        }, {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Portfolio",
+            "item": "https://www.sociomark.ae/portfolio"
+        }, {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Work Culture",
+            "item": "https://www.sociomark.ae/work-culture"
+        }, {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Case study",
+            "item": "https://www.sociomark.ae/case-study"
+        }]
+    }
+</script>
 
 @push('styles')
 <style>
