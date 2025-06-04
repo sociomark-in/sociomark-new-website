@@ -9,12 +9,14 @@
         background-color: #106c97;
         color: white;
     }
+
     .breadcumb-wrapper {
         margin-top: 4.3rem;
         background-color: #e2e2e2;
         background-size: contain;
     }
-    #portfolioCommon{
+
+    #portfolioCommon {
         background-color: white !important;
     }
 </style>
@@ -31,7 +33,7 @@
         </div>
     </div>
     <div class="container space">
-
+        <h1 class="sec-title text-blue">Nodwin Gaming </h1>
         <h2 class="mt-4 sub-sec-title text-blue">Brand Introduction :</h2>
         <p class="sec-para">NODWIN Gaming, South Asia's leading esports company, is an independent subsidiary of the mobile gaming company Nazara Technologies. Formed in 2014, the India-based company has since produced over 10,000 hours of gaming content, has been watched by over 100 million+ viewers, and organized 100+ gaming and esports events.</p>
         <p class="sec-para">Through its strategic partnerships with global publishers and partners including ESL, Valve, Blizzard, and Tencent, NODWIN Gaming has introduced Indians to some of the best global experiences such as Dreamhack &amp; the ESL India Premiership. NODWIN Gaming builds and manages its own esports IPs and currently operates in India, the Middle East, and Africa. </p>
@@ -127,23 +129,23 @@
                 <!--									</div>-->
                 <div class="row">
                     <div class="col-sm-4 col-md-4 col-12 nos">
-                          <h3 class="fs-3 text-blue">35K+ </h3>
+                        <h3 class="fs-3 text-blue">35K+ </h3>
                         <p class="sec-para">Community Growth </p>
                     </div>
                     <div class="col-sm-4 col-md-4 col-12 nos">
-                          <h3 class="fs-3 text-blue">20K to 50K </h3>
+                        <h3 class="fs-3 text-blue">20K to 50K </h3>
                         <p class="sec-para">Instagram Level up </p>
                     </div>
                     <div class="col-sm-4 col-md-4 col-12 nos">
-                          <h3 class="fs-3 text-blue">800M+</h3>
+                        <h3 class="fs-3 text-blue">800M+</h3>
                         <p class="sec-para">Impressions </p>
                     </div>
                     <div class="col-sm-4 col-md-4 col-12 nos">
-                          <h3 class="fs-3 text-blue">6M+</h3>
+                        <h3 class="fs-3 text-blue">6M+</h3>
                         <p class="sec-para">Video Views </p>
                     </div>
                     <div class="col-sm-4 col-md-4 col-12 nos">
-                          <h3 class="fs-3 text-blue">1.78M+</h3>
+                        <h3 class="fs-3 text-blue">1.78M+</h3>
                         <p class="sec-para">Engagement </p>
                     </div>
                 </div>

@@ -15,7 +15,8 @@
         background-color: #e2e2e2;
         background-size: contain;
     }
-    #portfolioCommon{
+
+    #portfolioCommon {
         background-color: white !important;
     }
 </style>
@@ -33,8 +34,8 @@
         </div>
     </div>
     <div class="container space">
-
-        <h2 class="mt-4 sub-sec-title text-blue">Brief:</h2>
+        <h1 class="sec-title text-blue">Ace Tattooz </h1>
+        <h2 class="mt-4 sub-sec-title text-blue">About the Brand:</h2>
         <p class="sec-para">Ace Tattooz is an award winning Tattoo Studio based in Mumbai having its presence across two locations,Colaba and Ghatkopar. This leading Tattoo Studio has been appreciated by various Bollywood celebrities and have won many awards for their intricate designs, however they were facing issues when it came to creating awareness to people around their location and wanted to increase their footfalls.Their main objective was to:
         <ul>
             <li class="sec-para">Increase Website Traffic.</li>
@@ -103,6 +104,6 @@
 
     @include('Frontend/partial/commonCaseStudy')
     @include('Frontend/partial/portfolioCommon')
-   
+
 </main>
 @endsection

@@ -9,12 +9,14 @@
         background-color: #106c97;
         color: white;
     }
+
     .breadcumb-wrapper {
         margin-top: 4.3rem;
         background-color: #e2e2e2;
         background-size: contain;
     }
-    #portfolioCommon{
+
+    #portfolioCommon {
         background-color: white !important;
     }
 </style>
@@ -26,12 +28,12 @@
     <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/case-study/OKINAWA.png') }}">
         <div class="container">
             <div class="breadcumb-content">
-               
+
             </div>
         </div>
     </div>
     <div class="container space">
-
+        <h1 class="sec-title text-blue">Okinawa </h1>
         <h2 class="mt-4 sub-sec-title text-blue">About Okinawa Scooters:</h2>
         <p class="sec-para">Okinawa Autotech Pvt. Ltd. is a 100% Indian electric two wheeler manufacturing company that was established in 2015 with a mission to create two wheelers that can drive our present towards a sustainable future.<br></p>
         <h2 class="mt-4 sub-sec-title text-blue">The Problem</h2>
@@ -95,17 +97,17 @@
 
         <h2 class="mt-4 sub-sec-title text-blue">Growth Snapshots</h2>
         <div class="row">
-        <div class="col-6">
-            <img src="{{ asset('frontend-assets/img/case-study/domain1.png') }}" alt="Social Media Agency in Mumbai">
-        </div>
+            <div class="col-6">
+                <img src="{{ asset('frontend-assets/img/case-study/domain1.png') }}" alt="Social Media Agency in Mumbai">
+            </div>
 
-        <div class="col-6">
-            <img src="{{ asset('frontend-assets/img/case-study/domain2.png') }}" alt="Social Media Services">
-        </div>
+            <div class="col-6">
+                <img src="{{ asset('frontend-assets/img/case-study/domain2.png') }}" alt="Social Media Services">
+            </div>
         </div>
     </div>
     @include('Frontend/partial/commonCaseStudy')
     @include('Frontend/partial/portfolioCommon')
-  
+
 </main>
 @endsection
