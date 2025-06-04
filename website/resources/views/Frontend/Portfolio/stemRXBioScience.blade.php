@@ -48,8 +48,14 @@
     <div class="container">
         <div class="row">
             <h1 class="text-blue sec-title mb-20">StemRx Bioscience</h1>
-            <p class="sec-para"><b>About the Brand:</b> </p>
+            <p class="sec-para"><b>About the Brand:</b> StemRx Bioscience is a pioneering healthcare brand focused on advanced, research-driven treatments. With a strong foundation in <strong>regenerative medicine,</strong> it offers innovative solutions that go beyond conventional care. Backed by science and clinical expertise, StemRx provides personalized therapies to support long-term healing. Its work in <strong>cell therapy</strong> is helping redefine recovery across various medical conditions, offering new hope to patients in India and beyond.
+            </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
+            <ul>
+                <li class="sec-para">Search Engine Optimization
+                </li>
+                <li class="sec-para">Social Media Marketing</li>
+            </ul>
 
             <div class="th-social">
                 <p class="sec-para"><b>Page Link:</b>

@@ -48,14 +48,18 @@
     <div class="container">
         <div class="row">
             <h1 class="text-blue sec-title mb-20">TATA PLAY</h1>
-            <p class="sec-para"><b>About the Brand:</b> </p>
+            <p class="sec-para"><b>About the Brand:</b> Tata Play is one of the top names in the world of home entertainment. It brings seamless access to content to Indian households. With its advanced entertainment features, it has made a huge transformation in the way we experience television. It is very well known for its <strong>DTH services;</strong> Tata Play offers a wide range of channels and streaming options. The brand continues to innovate, blending traditional television with modern tech. It's a trusted choice for families seeking quality <strong>digital entertainment</strong> every day.
+            </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
-            
+
             <div class="th-social">
                 <p class="sec-para"><b>Page Link:</b>
-                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <ul>
+                    <li class="sec-para">Graphic Designing.</li>
+                </ul>
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
 
         </div>
@@ -144,23 +148,23 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
-                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Ayushakti</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Ayushakti</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'jivana']) }}">
-                <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'cyber-power']) }}">
-                <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
                 </a>
             </div>
-           
+
         </div>
     </div>
 </section>

@@ -48,8 +48,15 @@
     <div class="container">
         <div class="row">
             <h1 class="text-blue sec-title mb-20">VEDCO</h1>
-            <p class="sec-para"><b>About the Brand:</b> </p>
+            <p class="sec-para"><b>About the Brand:</b> Vedco is an Indian brand dedicated to crafting eco-conscious <strong>wooden products </strong> that blend utility with aesthetics. Specializing in <strong>brushes and combs</strong> made from natural materials, Vedco promotes sustainable living through everyday essentials. Each product is designed to offer a tactile, durable alternative to plastic, supporting a cleaner planet. With a focus on natural grooming, Vedco delivers tools that are gentle on both you and the environment.
+            </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
+            <ul>
+                <li class="sec-para">Social Media Marketing
+                </li>
+                <li class="sec-para">Content Creation</li>
+                <li class="sec-para">Search Engine Optimization (SEO)</li>
+            </ul>
 
         </div>
     </div>
