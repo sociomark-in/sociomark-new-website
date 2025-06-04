@@ -3,7 +3,58 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+@section('custome-style')
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{
+            "@type": "Question",
+            "name": "What is SEO?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "SEO involves optimizing a website to rank higher in search engine results, enhancing visibility and attracting organic traffic."
+            }
+        }, {
+            "@type": "Question",
+            "name": "Why is SEO important?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Higher search rankings lead to increased visibility, credibility, and potential customer engagement."
+            }
+        }, {
+            "@type": "Question",
+            "name": "How does SEO work?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It works by improving website elements like content quality, keyword relevance, site speed, and backlinks to align with search engine algorithms."
+            }
+        }, {
+            "@type": "Question",
+            "name": "What are keywords in SEO?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Keywords are specific words or phrases users enter into search engines, which SEO strategies target to improve relevance and rankings."
+            }
+        }, {
+            "@type": "Question",
+            "name": "7. What is a backlink?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A backlink is a link from another website to yours, signaling credibility and authority to search engines."
+            }
+        }, {
+            "@type": "Question",
+            "name": "What is local SEO?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Local SEO focuses on optimizing a business's online presence to attract more customers from relevant local searches."
+            }
+        }]
+    }
+</script>
 
+@endsection
 @section('content')
 <main id="seo-service">
     <div class="breadcumb-wrapper p-0" style="margin-top: 66px;">

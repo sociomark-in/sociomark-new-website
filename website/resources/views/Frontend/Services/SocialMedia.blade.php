@@ -3,7 +3,65 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+@section('custome-style')
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{
+            "@type": "Question",
+            "name": "What is social media marketing?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "SEO involves optimizing a website to rank higher in search engine results, enhancing visibility and attracting organic traffic."
+            }
+        }, {
+            "@type": "Question",
+            "name": "Which social media platforms should my business use?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Platform choice depends on your target audience; for instance, LinkedIn for B2B, Instagram for visual content, and Facebook for broad reach."
+            }
+        }, {
+            "@type": "Question",
+            "name": "How often should I post on social media?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Consistency is key; posting frequency varies by platform and audience engagement levels."
+            }
+        }, {
+            "@type": "Question",
+            "name": "What type of content performs best on social media?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Engaging content like videos, infographics, and interactive posts often yield higher engagement rates."
+            }
+        }, {
+            "@type": "Question",
+            "name": "How do I measure social media marketing success?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Metrics include engagement rates, follower growth, website traffic from social channels, and conversion rates."
+            }
+        }, {
+            "@type": "Question",
+            "name": "Should I use paid advertising on social media?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Paid ads can enhance reach and targeting capabilities, especially for specific campaigns or promotions."
+            }
+        }, {
+            "@type": "Question",
+            "name": "What is a social media strategy?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It's a plan outlining goals, target audience, content types, posting schedules, and metrics for success on social platforms"
+            }
+        }]
+    }
+</script>
 
+@endsection
 @section('content')
 <main id="seo-service">
     <div class="breadcumb-wrapper p-0" style="margin-top: 66px;">
@@ -15,7 +73,7 @@
             </div>
         </div>
     </div>
-   
+
     <section class="overflow-hidden mb-md-5 md-2 pt-5" id="about-sec">
         <div class="container">
             <div class="row align-items-end justify-content-center">
@@ -714,13 +772,13 @@
                                     </div>
                                     {{-- <h3 class="box-title2">"The Sociomark team is professional, flexible, and committed to their work"</h3> --}}
                                     <p class="box-text">
-                                            Sociomark team is absolutely very professional in their work yet
-                                            bring in high flexibility in terms of ownership in delivery.
-                                            <br>
-                                            All the tasks and works are delivered with utmost commitment and
-                                            dedication and on time. they never said no and always valued and
-                                            worked on our feedbacks we have had a long term engagement with them
-                                            and they are an absolute pleasure to work with!
+                                        Sociomark team is absolutely very professional in their work yet
+                                        bring in high flexibility in terms of ownership in delivery.
+                                        <br>
+                                        All the tasks and works are delivered with utmost commitment and
+                                        dedication and on time. they never said no and always valued and
+                                        worked on our feedbacks we have had a long term engagement with them
+                                        and they are an absolute pleasure to work with!
                                     </p>
                                     <h3 class="box-title">Siju Thomas</h3>
                                     <span class="box-desig">CEO, The Professional Couriers</span>
@@ -757,15 +815,15 @@
                         class="fas fa-arrow-right"></i></button>
             </div>
             @push('scripts')
-                <script>
-                    new Swiper('.testi-box-area .testimonialSlider', {
-                        loop: true,
-                        navigation: {
-                            nextEl: ".testi-box-area .slider-next",
-                            prevEl: ".testi-box-area .slider-prev",
-                        },
-                    })
-                </script>
+            <script>
+                new Swiper('.testi-box-area .testimonialSlider', {
+                    loop: true,
+                    navigation: {
+                        nextEl: ".testi-box-area .slider-next",
+                        prevEl: ".testi-box-area .slider-prev",
+                    },
+                })
+            </script>
             @endpush
         </div>
     </section>
