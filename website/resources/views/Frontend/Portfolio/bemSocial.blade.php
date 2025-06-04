@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/BEM.png') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/banner/BEM.png') }}" alt="bem - peaceful rides, powerfil impact"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -79,19 +79,19 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/bem/1.jpeg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/bem/1.jpeg') }}" alt="bem creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/bem/2.jpeg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/bem/2.jpeg') }}" alt="bem creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/bem/3.jpeg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/bem/3.jpeg') }}" alt="bem creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/bem/4.jpeg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/bem/4.jpeg') }}" alt="bem creative"
                             srcset="" class="w-100">
                     </div>
                 </div>

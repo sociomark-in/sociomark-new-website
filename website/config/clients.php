@@ -28,8 +28,8 @@ return [
             'title' => 'Ayu Health Social Media | Campaign by Sociomark​',
             'description' => "Sociomark, a digital marketing agency in UAE, crafted Ayu Health’s social media presence with engaging content, improving reach and brand visibility online."
         ],
-        'image' => 'frontend-assets/img/clients/ayuhealth.jpg'
-        // 'portfolio-image' => 'frontend-assets/img/work/ayu health/ayu health.jpg'
+        'image' => 'frontend-assets/img/clients/ayuhealth.jpg',
+        'portfolio-image' => 'frontend-assets/img/work/ayu health/ayu health.jpg'
     ],
     'ayushakti' => [
         'industry' => 'healthcare',
@@ -39,8 +39,8 @@ return [
             'title' => 'Ayushakti Social Media Work | Sociomark​',
             'description' => "Sociomark, a digital marketing agency in UAE, boosted Ayushakti’s online presence with creative social media campaigns and targeted audience engagement."
         ],
-        'image' => 'frontend-assets/img/clients/ayushakti.jpg'
-        //  'portfolio-image' => 'frontend-assets/img/work/ayu health/ayu health.jpg'
+        'image' => 'frontend-assets/img/clients/ayushakti.jpg',
+         'portfolio-image' => 'frontend-assets/img/work/ayu health/ayu health.jpg'
     ],
     'stemrx-bioscience' => [
         'industry' => 'healthcare',
@@ -50,8 +50,8 @@ return [
             'title' => 'StemRx Bioscience Social Media | Sociomark Portfolio​',
             'description' => "Explore how our digital marketing agency in Dubai helped StemRx Bioscience grow online with smart social media strategies and engaging content."
         ],
-        'image' => 'frontend-assets/img/clients/stemrx.jpg'
-        //  'portfolio-image' => 'frontend-assets/img/work/ayu health/ayu health.jpg'
+        'image' => 'frontend-assets/img/clients/stemrx.jpg',
+         'portfolio-image' => 'frontend-assets/img/work/ayu health/ayu health.jpg'
     ],
     'nhss' => [
         'industry' => 'healthcare',
@@ -61,8 +61,8 @@ return [
             'title' => 'NHSS Social Media Campaign | Sociomark UAE​',
             'description' => "Sociomark, a digital marketing agency in UAE, enhanced NHSS’s social media with strategic content and campaigns to increase brand reach and audience engagement."
         ],
-        'image' => 'frontend-assets/img/clients/nhs_logo.png'
-        //  'portfolio-image' => 'frontend-assets/img/work/ayu health/ayu health.jpg'
+        'image' => 'frontend-assets/img/clients/nhs_logo.png',
+         'portfolio-image' => 'frontend-assets/img/work/ayu health/ayu health.jpg'
     ],
     'nhspsa' => [
         'industry' => 'education',

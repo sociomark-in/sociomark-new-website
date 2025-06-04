@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/ism.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/banner/ism.jpg') }}" alt="ism"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -78,31 +78,31 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/1.png') }}" alt="ism Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/2.png') }}" alt="ism Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/3.png') }}" alt="ism Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/4.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/4.png') }}" alt="ism Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/5.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/5.png') }}" alt="ism Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/6.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/6.jpg') }}" alt="ism Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/7.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/7.jpg') }}" alt="ism Creative"
                             srcset="" class="w-100">
                     </div>
                 </div>
@@ -152,13 +152,13 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'nhss']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/banner/NHS.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/banner/NHS.jpg') }}" alt="nhs" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>New Horizon School</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'inifd-vashi']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/inifd-vashi/1.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/inifd-vashi/1.jpg') }}" alt="inifd vashi" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>INIFD</b></p>
                 </a>
             </div>

@@ -10,22 +10,22 @@
                 <div class="swiper-wrapper">
                     {{-- <div class="swiper-slide">
                             <div class="col-12">
-                                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayushakti.jpg') }}" alt=""
+                                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayushakti.jpg') }}" alt="ayushakti"
                     srcset="" class="w-100">
                 </div>
             </div> --}}
             <div class="swiper-slide">
                 <div class="col-12">
-                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="ayushakti"
                         srcset="" class="w-100">
                 </div>
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu2.jpeg') }}" alt=""
+                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu2.jpeg') }}" alt="ayushakti"
                     srcset="" class="w-100">
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu3.jpeg') }}" alt=""
+                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu3.jpeg') }}" alt="ayushakti"
                     srcset="" class="w-100">
             </div>
         </div>
@@ -121,19 +121,19 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/ayushkati/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/ayushkati/1.png') }}" alt="ayushakti Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/ayushkati/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/ayushkati/2.png') }}" alt="ayushakti Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/ayushkati/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/ayushkati/3.png') }}" alt="ayushakti Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/ayushkati/4.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/ayushkati/4.png') }}" alt="ayushakti Creative"
                             srcset="" class="w-100">
                     </div>
                 </div>
@@ -187,13 +187,13 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'ayu-health']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/ayu health/ayu health.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/ayu health/ayu health.jpg') }}" alt="ayuhealth" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Ayuhealth</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'stemrx-bioscience']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/banner/stemrx.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/banner/stemrx.jpg') }}" alt="stemx bioscience" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>StemRx</b></p>
                 </a>
             </div>

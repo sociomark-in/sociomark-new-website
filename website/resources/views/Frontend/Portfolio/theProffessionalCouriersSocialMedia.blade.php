@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/the prfessional courier/The Professional Couriers.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/the prfessional courier/The Professional Couriers.jpg') }}" alt="the Professional couriers"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -83,27 +83,27 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/tpc/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tpc/1.png') }}" alt="the Professional couriers Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/tpc/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tpc/2.png') }}" alt="the Professional couriers Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/tpc/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tpc/3.png') }}" alt="the Professional couriers Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/tpc/4.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tpc/4.png') }}" alt="the Professional couriers Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/tpc/5.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tpc/5.png') }}" alt="the Professional couriers Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/tpc/6.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tpc/6.png') }}" alt="the Professional couriers Creative"
                             srcset="" class="w-100">
                     </div>
 
@@ -152,19 +152,19 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="ayushakti" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Ayushakti</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'jivana']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="jivana" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'cyber-power']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="cyber power" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
                 </a>
             </div>

@@ -9,30 +9,30 @@
             <div class="swiper caseStudySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/nodwin/1.jpg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/work/nodwin/1.jpg') }}" alt="nodwin gaming" srcset=""
                             class="w-100">
                     </div>
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/nodwin/N2.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/nodwin/N2.jpg') }}" alt="nodwin gaming Creative"
                                 srcset="" class="w-100">
                         </div>
                     </div>
 
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/nodwin/N3.jpg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/work/nodwin/N3.jpg') }}" alt="nodwin gaming Creative" srcset=""
                             class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/nodwin/N4.jpeg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/work/nodwin/N4.jpeg') }}" alt="nodwin gaming Creative" srcset=""
                             class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/nodwin/N5.jpeg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/work/nodwin/N5.jpeg') }}" alt="nodwin gaming Creative" srcset=""
                             class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/nodwin/N7.jpg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/work/nodwin/N7.jpg') }}" alt="nodwin gaming Creative" srcset=""
                             class="w-100">
                     </div>
                 </div>
@@ -111,19 +111,19 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/nodwin/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/nodwin/1.png') }}" alt="nodwin gaming Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/nodwin/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/nodwin/2.png') }}" alt="nodwin gaming Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/nodwin/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/nodwin/3.png') }}" alt="nodwin gaming Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/nodwin/4.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/nodwin/4.png') }}" alt="nodwin gaming Creative"
                             srcset="" class="w-100">
                     </div>
                 </div>
@@ -174,7 +174,7 @@
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'cyber-power']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="cyber power" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
                 </a>
             </div>

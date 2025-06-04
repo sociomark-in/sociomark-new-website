@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/qubero.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/banner/qubero.jpg') }}" alt="qubero"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -82,19 +82,19 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/1.png') }}" alt="qubero Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/3.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/3.jpg') }}" alt="qubero Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/3.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/3.jpg') }}" alt="qubero Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/4.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/4.jpg') }}" alt="qubero Creative"
                             srcset="" class="w-100">
                     </div>
                    
@@ -145,7 +145,7 @@
 
              <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'bulid-track']) }}">
-                <img src="{{ asset('frontend-assets/img/work/build track/Buildtrack.jpg') }}" alt="" srcset="" class="w-100">
+                <img src="{{ asset('frontend-assets/img/work/build track/Buildtrack.jpg') }}" alt="build track" srcset="" class="w-100">
                 <p class="sec-para text-center text-blue mt-2"><b>BuildTrack</b></p>
                 </a>
             </div>

@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/Shahenaz.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/banner/Shahenaz.jpg') }}" alt="shahenaz -meher"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -80,23 +80,23 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/shehnaz/3.png') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/shehnaz/3.png') }}" alt="shahenaz Creative" srcset=""
                             class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/shehnaz/4.png') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/shehnaz/4.png') }}" alt="shahenaz Creative" srcset=""
                             class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/shehnaz/2.png') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/shehnaz/2.png') }}" alt="shahenaz Creative" srcset=""
                             class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/shehnaz/5.jpeg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/shehnaz/5.jpeg') }}" alt="shahenaz Creative" srcset=""
                             class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/shehnaz/1.PNG') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/shehnaz/1.PNG') }}" alt="shahenaz Creative" srcset=""
                             class="w-100">
                     </div>
 
@@ -147,13 +147,13 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'euro']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/euro/Euro.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/euro/Euro.jpg') }}" alt="euro" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Euro</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'sight-optiforecals']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/foresight-opticals/1.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/foresight-opticals/1.jpg') }}" alt="firesight Opticals" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Foresight Opticals</b></p>
                 </a>
             </div>

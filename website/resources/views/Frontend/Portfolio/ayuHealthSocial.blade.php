@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/ayu health/ayu health.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/ayu health/ayu health.jpg') }}" alt="ayuhealth"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -99,19 +99,19 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/ayuhealth/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/ayuhealth/1.png') }}" alt="ayuhealth Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/ayuhealth/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/ayuhealth/2.png') }}" alt="ayuhealth Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/ayuhealth/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/ayuhealth/3.png') }}" alt="ayuhealth Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/ayuhealth/4.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/ayuhealth/4.png') }}" alt="ayuhealth Creative"
                             srcset="" class="w-100">
                     </div>
                 </div>
@@ -161,13 +161,13 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayushakti1.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayushakti1.jpg') }}" alt="ayushakti" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Ayushkati</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'stemrx-bioscience']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/banner/stemrx.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/banner/stemrx.jpg') }}" alt="stemrx bioscience" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>StemRx</b></p>
                 </a>
             </div>

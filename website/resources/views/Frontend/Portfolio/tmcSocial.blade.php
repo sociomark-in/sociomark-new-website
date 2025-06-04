@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/tmc.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/banner/tmc.jpg') }}" alt="tmc"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -71,19 +71,19 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/tmc/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tmc/1.png') }}" alt="tmc creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/tmc/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tmc/2.png') }}" alt="tmc creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/tmc/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tmc/3.png') }}" alt="tmc creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/tmc/4.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tmc/4.png') }}" alt="tmc creative"
                             srcset="" class="w-100">
                     </div>
                    
@@ -134,7 +134,7 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'nmmc']) }}">
-                    <img src="{{ asset('frontend-assets/img/portfolio/nmmc/banner.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/portfolio/nmmc/banner.jpg') }}" alt="nmmc" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>NMMC</b></p>
                 </a>
             </div>

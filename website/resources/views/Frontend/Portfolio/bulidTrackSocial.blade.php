@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/build track/Buildtrack.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/build track/Buildtrack.jpg') }}" alt="build track - the aura of glass"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                 <div class="swiper-wrapper">
                     @for ($i = 1; $i <= 9; $i++)
                         <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/Build Track/' . $i . '.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/Build Track/' . $i . '.jpg') }}" alt="build track creatives"
                             srcset="" class="w-100">
                 </div>
                 @endfor
@@ -139,7 +139,7 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client' => 'qubero']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/banner/qubero.jpg') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/work/banner/qubero.jpg') }}" alt="qubero"
                         srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Qubero</b></p>
                 </a>

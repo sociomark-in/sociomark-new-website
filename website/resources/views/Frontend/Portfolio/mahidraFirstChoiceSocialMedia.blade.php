@@ -11,16 +11,16 @@
                     <div class="swiper-slide">
 
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/mahindra-first-choice-services/1.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/mahindra-first-choice-services/1.jpg') }}" alt="mahindra first choice Services"
                                 srcset="" class="w-100">
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/mahindra-first-choice-services/2.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/mahindra-first-choice-services/2.jpg') }}" alt="mahindra first choice Services"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/mahindra-first-choice-services/3.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/mahindra-first-choice-services/3.jpg') }}" alt="mahindra first choice Services"
                             srcset="" class="w-100">
                     </div>
 

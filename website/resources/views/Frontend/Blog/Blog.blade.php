@@ -80,7 +80,7 @@
         <div class="full-width">
             <picture>
                 <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/blog/Blogs.png')}}" loading="lazy">
-                <img src="{{ asset('frontend-assets/img/blog/Blogs.png')}}" alt="" loading="lazy">
+                <img src="{{ asset('frontend-assets/img/blog/Blogs.png')}}" alt="blogs" loading="lazy">
             </picture>
         </div>
     </section>

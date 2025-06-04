@@ -11,24 +11,24 @@
                     <div class="swiper-slide">
 
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/team-cashless-india/1.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/team-cashless-india/1.jpg') }}" alt="team cashless india"
                                 srcset="" class="w-100">
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/team-cashless-india/2.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/team-cashless-india/2.jpg') }}" alt="team cashless india"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/team-cashless-india/3.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/team-cashless-india/3.jpg') }}" alt="team cashless india"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/team-cashless-india/4.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/team-cashless-india/4.jpg') }}" alt="team cashless india"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/team-cashless-india/5.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/team-cashless-india/5.jpg') }}" alt="team cashless india"
                             srcset="" class="w-100">
                     </div>
                 </div>

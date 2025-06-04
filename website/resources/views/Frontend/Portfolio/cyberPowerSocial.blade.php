@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/Cyberpower.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/banner/Cyberpower.jpg') }}" alt="cyber power - pick your pc and pay"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -75,31 +75,31 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/1.png') }}" alt="cyber power creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/2.png') }}" alt="cyber power creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/3.png') }}" alt="cyber power creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/4.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/4.png') }}" alt="cyber power creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/5.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/5.png') }}" alt="cyber power creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/6.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/6.jpg') }}" alt="cyber power creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/7.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/7.jpg') }}" alt="cyber power creative"
                             srcset="" class="w-100">
                     </div>
                 </div>
@@ -149,7 +149,7 @@
         </div>
         <div class="col lg-4 col-md-4 col-12">
             <a href="{{ route('social_media', ['client'=>'nodwin-gaming']) }}">
-                <img src="{{ asset('frontend-assets/img/work/nodwin/1.jpg') }}" alt="" srcset="" class="w-100">
+                <img src="{{ asset('frontend-assets/img/work/nodwin/1.jpg') }}" alt="nodwin gaming" srcset="" class="w-100">
                 <p class="sec-para text-center text-blue mt-2"><b>Nodwin Gaming</b></p>
             </a>
         </div>
