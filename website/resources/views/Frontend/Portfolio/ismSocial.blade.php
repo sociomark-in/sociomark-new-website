@@ -47,7 +47,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Indian School of Media (ISM)</h2>
+            <h1 class="text-blue sec-title mb-20">Indian School of Media (ISM)</h1>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p class="sec-para">
                 Indian School of Media (ISM) is a leading institution in <strong>Media education, </strong> nurturing the next generation of media and event management professionals. Its curriculum combines industry-led lectures, hands-on training, and expert mentorship to ensure students are career-ready from day one. With deep ties to the <strong>Media and entertainment industry,</strong> ISM has empowered over 5000 graduates in the past decade, many of whom are shaping the future of this fast-evolving sector.

@@ -59,7 +59,7 @@
     <section class="porfolio-text overflow-hidden space ">
         <div class="container">
             <div class="row">
-                <h2 class="text-blue">Ayushakti Ayurved</h2>
+                <h1 class="text-blue sec-title mb-20">Ayushakti Ayurved</h1>
                 <p><b>About the Brand:</b> Ayushakti is a global leader in providing ayurvedic healthcare services
                     and holistic wellness solutions. Its authentic powerful herbal treatments have successfully helped lakhs
                     of people, around 108 countries for the past 32 years.</p>

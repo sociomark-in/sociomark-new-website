@@ -85,7 +85,7 @@
 <section class="porfolio-text section-margin">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Ayushakti Ayurved</h2>
+            <h1 class="text-blue sec-title mb-20">Ayushakti Ayurved</h1>
             <p class="sec-para"><b>About the Brand:</b>
                 Ayushakti is a global leader in providing ayurvedic healthcareservices
                 and holistic wellness solutions. Its authentic powerful herbal treatments have successfully helped lakhs
@@ -187,20 +187,20 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'ayu-health']) }}">
-                <img src="{{ asset('frontend-assets/img/work/ayu health/ayu health.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Ayuhealth</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/ayu health/ayu health.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Ayuhealth</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'stemrx-bioscience']) }}">
-                <img src="{{ asset('frontend-assets/img/work/banner/stemrx.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>StemRx</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/banner/stemrx.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>StemRx</b></p>
                 </a>
             </div>
             <div class="header-button mt-3">
                 <a href="{{ route('ayushakti') }}" class="th-btn th-icon">View Our Porfolio</a>
             </div>
-           
+
         </div>
     </div>
 </section>

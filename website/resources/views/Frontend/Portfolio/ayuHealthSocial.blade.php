@@ -68,9 +68,9 @@
 <section class="porfolio-text section-margin">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Ayu health</h2>
+            <h1 class="text-blue sec-title mb-20">Ayu health</h1>
             <p class="sec-para"><b>About the Brand:</b> </p>
-            <p class="sec-para">Ayu Health operates at the intersection of technology and the <strong>healthcare industry,</strong>  offering smart solutions that simplify insurance processes for hospitals. By streamlining claims and boosting operational efficiency, Ayu Health helps  <strong>hospitals</strong> improve patient satisfaction while enhancing their financial performance.</p>
+            <p class="sec-para">Ayu Health operates at the intersection of technology and the <strong>healthcare industry,</strong> offering smart solutions that simplify insurance processes for hospitals. By streamlining claims and boosting operational efficiency, Ayu Health helps <strong>hospitals</strong> improve patient satisfaction while enhancing their financial performance.</p>
             <p class="sec-para"><b>Services Offered:</b> </p>
             <ul>
                 <li class="sec-para">Social Media Management</li>
@@ -161,20 +161,20 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
-                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayushakti1.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Ayushkati</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayushakti1.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Ayushkati</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'stemrx-bioscience']) }}">
-                <img src="{{ asset('frontend-assets/img/work/banner/stemrx.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>StemRx</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/banner/stemrx.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>StemRx</b></p>
                 </a>
             </div>
             <div class="mt-3">
                 <a href="{{ route('ayushakti') }}" class="th-btn th-icon">View Our Porfolio</a>
             </div>
-           
+
         </div>
     </div>
 </section>

@@ -41,6 +41,7 @@ class PortfolioController extends Controller
 
         $meta = $data['meta'];
         $view = $data['view'];
+        $name = $data['name'];
         $industries = (array) $data['industry']; // renamed to avoid confusion
 
         // Get related clients based on shared industries

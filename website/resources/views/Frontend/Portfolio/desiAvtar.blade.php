@@ -50,16 +50,16 @@
 <section class="porfolio-text overflow-hidden space bg-grey">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Desi Avatar</h2>
+            <h1 class="text-blue sec-title mb-20">Desi Avatar</h1>
             <p class="sec-para"><b>About the Brand:</b> Desi Avatar is a clothing brand that combines traditional Indian designs with modern styles. The brand offers fusion wear that blends <strong>ethnic wear</strong> with contemporary fashion. It creates collections for Gen Z and Millennials, with a focus on <strong>traditional craftsmanship.</strong> Desi Avatar makes clothing that reflects both culture and modern trends, bringing them together in a simple, stylish way.
             </p>
             <p class="sec-para"><b>Services Offered:</b>
-               
-                <ul>
-                    <li class="sec-para"> Social Media Management</li>
-                    <li class="sec-para">Videography (in-house & outdoor shoots for humanized reels) </li>
-                    <li class="sec-para"> SEO (Search Engine Optimization)</li>
-                </ul>
+
+            <ul>
+                <li class="sec-para"> Social Media Management</li>
+                <li class="sec-para">Videography (in-house & outdoor shoots for humanized reels) </li>
+                <li class="sec-para"> SEO (Search Engine Optimization)</li>
+            </ul>
             </p>
 
 

@@ -47,7 +47,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Navi Mumbai Municipal Corporation</h2>
+            <h1 class="text-blue sec-title mb-20">Navi Mumbai Municipal Corporation </h1>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p class="sec-para">
                 The Navi Mumbai Municipal Corporation (NMMC) is a <strong>government organisation</strong> and civic body responsible for the planning, development, and administration of Navi Mumbai. Known for its focus on sustainability, infrastructure, and public welfare, NMMC plays a crucial role in shaping the city’s growth. From smart city and <strong>public administration</strong> initiatives to efficient urban services, the corporation is committed to enhancing the quality of life for its citizens through forward-thinking governance and community-centric solutions.

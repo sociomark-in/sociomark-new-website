@@ -43,7 +43,7 @@ class BlogWebController extends Controller
             return $page;
         });
 
-        $otherBlogs = Blog::paginate(4);
+        $otherBlogs = Blog::where('status', 'active')->paginate(4);
 
         // 🔽 Tell Laravel to generate pretty pagination URLs like /blog/page2
         $otherBlogs->withPath(url('/blog/page'));
@@ -53,14 +53,12 @@ class BlogWebController extends Controller
             'description' => 'Read expert tips, trends, and ideas from Sociomark, a digital marketing agency in UAE, to grow your brand online using SEO, social media, and more.'
         ];
 
-        if ($page > 1) {
-            $meta['title'] .= ' - Page ' . $page;
-        }
+        // if ($page > 1) {
+        //     $meta['title'] .= ' - Page ' . $page;
+        // }
 
         return view('Frontend/Blog/Blog', compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags', 'meta'));
     }
-
-
     public function innerBlog($slug)
     {
         $categories = Category::all();
@@ -114,7 +112,7 @@ class BlogWebController extends Controller
         $categories = Category::all();
         $tags = Tag::all();
         // Fetch blogs that contain the category name in the JSON field
-        $blogs = Blog::whereJsonContains('tags', (string) $tag->id)->paginate(10);
+        $blogs = Blog::whereJsonContains('tags', (string) $tag->id)->paginate(2);
         $meta = [
             'title' => 'SEO Strategies & Tips | Sociopedia Blog',
             'description' => 'Master the art of SEO with Sociopedia. Get expert advice, latest trends, and actionable tips to improve your website’s ranking and drive organic traffic.'

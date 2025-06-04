@@ -61,7 +61,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">ICICI Prudential Life Insurance and CNBC-TV18 presents Mission Insure India</h2>
+            <h1 class="text-blue sec-title mb-20">ICICI Prudential Life Insurance and CNBC-TV18 presents Mission Insure India</h1>
             <p class="sec-para"><b>About the Brand:</b> Mission Insure India is a joint initiative between ICICI Prudential Life Insurance and CNBC TV18 powered by Moneycontrol to help you understand the importance of life insurance and the role it plays in financially safeguarding you and your family.</p>
             <p class="sec-para"><b>Services Offered:</b> Marketing Strategy, Social Media Management, ORM, Content Writing, Social media Ads, Youtube Ads, Blog writing.</p>
             <div class="th-social">

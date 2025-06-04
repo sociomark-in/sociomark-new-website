@@ -23,7 +23,7 @@
                         <img src="{{ asset('frontend-assets/img/work/mahindra-first-choice-services/3.jpg') }}" alt=""
                             srcset="" class="w-100">
                     </div>
-                    
+
                 </div>
             </div>
             <!-- Link Swiper's CSS -->
@@ -54,7 +54,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Mahindra First Choice Services</h2>
+            <h1 class="text-blue sec-title mb-20">Mahindra First Choice Services</h1>
             <p class="sec-para"><b>About the Brand:</b> Mahindra First Choice Is India's Certified Used Car Company. It's Quality Services Offers You A Gear-Shifting Experience Through Our High Quality And Hassle-Free Used Car Buying And Selling Services.</p>
             <p class="sec-para"><b>Services Offered:</b> Social media Management, Content Writing, Script Writing, Graphic Designs with 2D Animated Videos, ORM.</p>
             <div class="th-social">
@@ -65,7 +65,7 @@
                     <a href="https://www.youtube.com/channel/UCBL1mW_P_YJKPX2l_ZQ0c7Q" target="_blank"><i class="fab fa-youtube"></i></a>
 
             </div>
-           
+
         </div>
     </div>
 </section>

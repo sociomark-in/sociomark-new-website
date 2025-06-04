@@ -47,7 +47,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Shahenaz</h2>
+            <h1 class="text-blue sec-title mb-20">Shahenaz</h1>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p class="sec-para">
                 With over 60 years of legacy, Shahenaz is a distinguished clothing brand rooted in timeless elegance and Indian artistry. Known for blending heritage with modern design, Shahenaz curates collections that highlight the beauty of handcrafted textiles and meticulous detailing. From luxurious ethnic wear to curated home décor, every piece reflects a deep respect for craftsmanship and a flair for contemporary sophistication. Designed for those who value authenticity and quiet luxury, Shahenaz continues to redefine tradition for the modern lifestyle.

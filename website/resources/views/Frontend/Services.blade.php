@@ -40,9 +40,9 @@
                 </div>
                 <div class="col-xxl-8 col-lg-8">
                     <div class="page-content">
-                        <h2 class="h2 sec-title mb-20" data-aos="fade-left" data-aos-duration="3000">Why
+                        <h1 class="h2 sec-title mb-20" data-aos="fade-left" data-aos-duration="3000">Why
                             <span class="text-blue">Make A Mark</span> With Us?
-                        </h2>
+                        </h1>
                         <p class="sec-para" data-aos="fade-left" data-aos-duration="3000"><b>Sociomark’s team adds great value to each project by
                                 bringing in a cumulative experience of 30 years.</b>
 

@@ -61,7 +61,7 @@
     <section class="porfolio-text overflow-hidden space ">
         <div class="container">
             <div class="row">
-                <h2 class="text-blue sec-title">GrillBox Restaurant</h2>
+                <h1 class="text-blue sec-title mb-20">GrillBox Restaurant</h1>
                 <p class="sec-para"><b>About the Brand:</b> </p>
                 <p class="sec-para">
                     GrillBox is a standout name in the Restaurant sector, offering an elevated take on Experiential dining.

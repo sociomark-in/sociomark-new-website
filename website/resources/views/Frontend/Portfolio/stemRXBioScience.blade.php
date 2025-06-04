@@ -47,7 +47,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">StemRx Bioscience</h2>
+            <h1 class="text-blue sec-title mb-20">StemRx Bioscience</h1>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
 

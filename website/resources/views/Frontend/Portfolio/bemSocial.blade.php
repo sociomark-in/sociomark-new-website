@@ -47,7 +47,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Blue energy Motors </h2>
+            <h1 class="text-blue sec-title mb-20">Blue energy Motors </h1>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p class="sec-para">Blue Energy Motors is a clean <strong>Truck Manufacturing</strong> company that designs and manufactures zero-emission trucks. Focused on reducing the carbon footprint of the <strong>transportation sector,</strong> the brand offers eco-friendly vehicles that also make strong economic sense for businesses.
                 By combining innovation with sustainability, Blue Energy Motors provides an immediate solution to cut down emissions from freight transport, which is one of the biggest contributors to air pollution. The company’s goal is to support the shift towards greener mobility while improving operational efficiency for its customers.

@@ -49,7 +49,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue">Euro</h2>
+            <h1 class="text-blue sec-title mb-20">Euro</h1>
             <p><b>About the Brand:</b> </p>
             <p><b>Services Offered:</b> </p>
             <div class="th-social">

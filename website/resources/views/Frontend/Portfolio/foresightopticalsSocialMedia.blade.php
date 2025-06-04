@@ -61,7 +61,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Foresight Opticals</h2>
+            <h1 class="text-blue sec-title mb-20">Foresight Opticals </h1>
             <p class="sec-para"><b>About the Brand:</b> They are the first ISO certified optical company with over 15 outlets. They guarantee latest elite fashion with over 100+ international brands of luxury eye wear, lenses and frames.</p>
             <p class="sec-para"><b>Services Offered:</b> Social media Management, Content Writing, Social media Ads, Script Writing, Graphic Designs with 2D Animated Videos, ORM, Offline branding – Print Ads, Standee, In store branding includes - Flyers, Danglers, Brochure, Product sheet etc.</p>
 

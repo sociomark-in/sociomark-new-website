@@ -47,7 +47,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">TMC             </h2>
+            <h1 class="text-blue sec-title mb-20">TMC</h1>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p class="sec-para">
             TMC is a <strong>Government Institution </strong>and <strong>Public Sector</strong> Organization dedicated to driving grassroots change through civic awareness and environmental responsibility. Their initiatives span a wide range of sustainable practices, including waste segregation, e-waste management, home composting, tree plantation, and the promotion of triple dustbins. With creative campaigns, storytelling, and community engagement, TMC focuses on fostering sustainable habits—encouraging the use of cotton bags, rejecting single-use plastics, and maintaining cleaner public spaces.

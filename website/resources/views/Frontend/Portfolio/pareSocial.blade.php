@@ -47,7 +47,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Pare</h2>
+            <h1 class="text-blue sec-title mb-20">Pare</h1>
             <p class="sec-para"><b>About the Brand:</b> PARÉ Innovations is a standout name in the <strong>building materials</strong> industry, offering premium solutions tailored for modern architecture. Specializing in advanced <strong>wall and ceiling panels</strong> and facade systems, PARÉ is known for bringing pathbreaking surface technologies to India. With a strong emphasis on design and performance, the brand continues to redefine what’s possible in surface innovation.
             </p>
             <p class="sec-para"><b>Services Offered:</b> Search Engine Optimization (SEO)

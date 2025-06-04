@@ -47,7 +47,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">NODWIN Gaming</h2>
+            <h1 class="text-blue sec-title mb-20">NODWIN Gaming</h1>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p>
                 NODWIN Gaming is a powerhouse in the Esports industry, shaping the future of digital entertainment across emerging markets. At the forefront of Competitive gaming, the brand brings together the worlds of esports, music, anime, comics, and comedy to create immersive experiences for youth audiences. With operations spanning 20+ global locations and a dynamic portfolio of 15+ companies, NODWIN Gaming continues to redefine how the next generation connects with entertainment.
@@ -145,11 +145,11 @@
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'cyber-power']) }}">
-                <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
                 </a>
             </div>
-           
+
         </div>
     </div>
 </section>

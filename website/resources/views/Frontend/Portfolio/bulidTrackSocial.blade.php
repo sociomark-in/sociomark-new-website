@@ -46,33 +46,32 @@
 
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
-        <div class="row">
-            <h2 class="text-blue sec-title">BuildTrack </h2>
-            <p class="sec-para"><b>About the Brand:</b> </p>
-            <p class="sec-para">
-                BuildTrack is at the forefront of innovation in the <strong>Home automation industry, </strong>
-                delivering advanced solutions that transform how India lives and works. Catering to residential,
-                commercial, hospitality, and healthcare spaces, BuildTrack offers a range of smart technologies — from
-                intelligent touch switches to comprehensive home management systems. Focused on enhancing comfort,
-                efficiency, and security, the brand brings <strong>Modern living solutions</strong> to life with a
-                strong emphasis on quality, design, and customer satisfaction.
-            </p>
-            <p class="sec-para"><b>Services Offered:</b> </p>
-            <p class="sec-para">
-                Social Media Management Including <strong>content</strong> like reels and Influencer marketing
-                Videography(in-house shoots for humanized reels)
-            </p>
-            <div class="th-social">
-                <p class="sec-para"><b>Page Link:</b>
-                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-            </div>
-            <div class="mt-3">
-                <a href="{{ route('buildTrack') }}" class="th-btn th-icon">READ OUR CASE STUDY</a>
-            </div>
-
+        <h1 class="text-blue sec-title mb-20">BuildTrack</h1>
+        <p class="sec-para"><b>About the Brand:</b> </p>
+        <p class="sec-para">
+            BuildTrack is at the forefront of innovation in the <strong>Home automation industry, </strong>
+            delivering advanced solutions that transform how India lives and works. Catering to residential,
+            commercial, hospitality, and healthcare spaces, BuildTrack offers a range of smart technologies — from
+            intelligent touch switches to comprehensive home management systems. Focused on enhancing comfort,
+            efficiency, and security, the brand brings <strong>Modern living solutions</strong> to life with a
+            strong emphasis on quality, design, and customer satisfaction.
+        </p>
+        <p class="sec-para"><b>Services Offered:</b> </p>
+        <p class="sec-para">
+            Social Media Management Including <strong>content</strong> like reels and Influencer marketing
+            Videography(in-house shoots for humanized reels)
+        </p>
+        <div class="th-social">
+            <p class="sec-para"><b>Page Link:</b>
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
+        <div class="mt-3">
+            <a href="{{ route('buildTrack') }}" class="th-btn th-icon">READ OUR CASE STUDY</a>
+        </div>
+
+    </div>
     </div>
 </section>
 

@@ -47,7 +47,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Qubero by Nirali BG</h2>
+            <h1 class="text-blue sec-title mb-20">Qubero by Nirali BG</h1>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p class="sec-para">
                 From the house of Nirali BG — a trusted name in the Indian kitchen sink space — Qubero brings over 30 years of expertise into the heart of modern homes. Backed by a legacy of precision, innovation, and craftsmanship, Qubero offers premium-quality, designer solutions crafted to simplify everyday kitchen tasks. With a diverse range of finishes and styles, the brand caters to the evolving needs of the modular furniture segment and seamlessly blends into the aesthetics of the Interior design industry. Thoughtfully designed and built to last, Qubero products are where function meets form.

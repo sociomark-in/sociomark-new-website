@@ -47,10 +47,10 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Cyber Power</h2>
+            <h1 class="text-blue sec-title mb-20">Cyber Power</h1>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p class="sec-para">
-                CyberPowerPC India is more than a gaming PC brand — it’s a creator of immersive gaming experiences. Known for its high-performance machines built with authentic components, expert craftsmanship, and meticulous testing, CyberPowerPC delivers systems that people from the Esports Industry can truly rely on. Each PC is assembled on-site, comes pre-installed with genuine Microsoft Windows, and is supported by full warranties and free on-site service. From casual gamers to competitive pros, CyberPowerPC India ensures every player is always Play Ready—redefining what it means to game with the best. 
+                CyberPowerPC India is more than a gaming PC brand — it’s a creator of immersive gaming experiences. Known for its high-performance machines built with authentic components, expert craftsmanship, and meticulous testing, CyberPowerPC delivers systems that people from the Esports Industry can truly rely on. Each PC is assembled on-site, comes pre-installed with genuine Microsoft Windows, and is supported by full warranties and free on-site service. From casual gamers to competitive pros, CyberPowerPC India ensures every player is always Play Ready—redefining what it means to game with the best.
             </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
             <div class="th-social">
@@ -146,15 +146,15 @@
     <div class="container">
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
-            </div>
-            <div class="col lg-4 col-md-4 col-12">
-                <a href="{{ route('social_media', ['client'=>'nodwin-gaming']) }}">
+        </div>
+        <div class="col lg-4 col-md-4 col-12">
+            <a href="{{ route('social_media', ['client'=>'nodwin-gaming']) }}">
                 <img src="{{ asset('frontend-assets/img/work/nodwin/1.jpg') }}" alt="" srcset="" class="w-100">
                 <p class="sec-para text-center text-blue mt-2"><b>Nodwin Gaming</b></p>
-                </a>
-            </div>
-           
+            </a>
         </div>
+
+    </div>
     </div>
 </section>
 @endsection

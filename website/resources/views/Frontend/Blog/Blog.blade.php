@@ -1,4 +1,4 @@
-@extends('Frontend.layout.app')
+@extends('Frontend.layout.blogapp')
 
 <style>
     #Blog_Section .box {
@@ -89,23 +89,18 @@
             <div class="row">
                 <div class="col-xxl-8 col-lg-8">
                     <div class="row">
-                        <!-- Group blogs in pairs -->
-                        @foreach($blogs as $blog)
-                        @if ($blog->status == 'active')
-                        <div class="col-md-6" data-category="{{ implode(', ', $blog->category_names) ?: 'No Category' }}">
+                        @foreach($otherBlogs as $blog)
+                        <div class="col-md-6 blog-item" data-category="{{ implode(',', array_map('strtolower', $blog->category_names)) }}">
 
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
                                 <div class="blog-img box-blog">
                                     <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-
                                         <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image" class="w-100 h-100 object-fit-cover">
-
                                     </a>
                                 </div>
                                 <div class="blog-content content-padding">
                                     <div class="blog-meta">
                                         <a href="#"><i class="fa-light fa-calendar"></i> {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}</a>
-                                        <!-- <a href="#"><i class="fa-regular fa-clock"></i> 08 min read</a> -->
                                         <a href="#"><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->category_names) ?: 'No Category' }}</a>
                                     </div>
                                     <h3 class="blog-title blog-title-text"><a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">{{ $blog->blog_name }}</a></h3>
@@ -113,39 +108,11 @@
                                     <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}" class="th-btn black-border th-icon th-radius">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
                             </div>
-
                         </div>
-                        @endif
-
                         @endforeach
                     </div>
-                    <div class="th-pagination">
-                        <ul>
-                            {{-- Previous Page Link --}}
-                            @if ($otherBlogs->onFirstPage())
-                            <li class="disabled"><span>«</span></li>
-                            @else
-                            <li><a href="{{ $otherBlogs->previousPageUrl() }}" rel="prev">«</a></li>
-                            @endif
 
-                            {{-- Pagination Elements --}}
-                            @foreach ($otherBlogs->getUrlRange(1, $otherBlogs->lastPage()) as $page => $url)
-                            @if ($page == $otherBlogs->currentPage())
-                            <li class="active"><span>{{ $page }}</span></li>
-                            @else
-                            <li><a href="{{ $url }}">{{ $page }}</a></li>
-                            @endif
-                            @endforeach
-
-                            {{-- Next Page Link --}}
-                            @if ($otherBlogs->hasMorePages())
-                            <li><a href="{{ $otherBlogs->nextPageUrl() }}" rel="next">»</a></li>
-                            @else
-                            <li class="disabled"><span>»</span></li>
-                            @endif
-                        </ul>
-                    </div>
-                    <div class="th-pagination d-none">
+                    <div class="th-pagination ">
                         <ul>
                             {{-- Previous Page Link --}}
                             @if ($otherBlogs->onFirstPage())
@@ -183,17 +150,20 @@
                                 @endif
                         </ul>
                     </div>
-
-
                 </div>
                 <div class="col-xxl-4 col-lg-4">
                     <aside class="sidebar-area">
+
                         <div class="box widget widget_categories">
                             <h3 class="widget_title">Categories</h3>
                             <ul>
-                                <li><a href="javascript:void(0);" class="category-filter" data-category="all">All Categories</a></li>
+                                <li><a href="#" class="category-filter active" data-category="all">All Categories</a></li>
                                 @foreach ($categories as $category)
-                                <li><a href="javascript:void(0);" class="category-filter" data-category="{{ $category->category_name }}">{{ $category->category_name }}</a></li>
+                                <li>
+                                    <a href="#" class="category-filter" data-category="{{ strtolower($category->category_name) }}">
+                                        {{ $category->category_name }}
+                                    </a>
+                                </li>
                                 @endforeach
                             </ul>
                         </div>
@@ -248,48 +218,42 @@
 @push('script')
 <script>
     document.addEventListener("DOMContentLoaded", function() {
+        console.log("Script loaded!");
         const categoryLinks = document.querySelectorAll(".category-filter");
-        const blogItems = document.querySelectorAll("[data-category]");
+        const blogItems = document.querySelectorAll(".blog-item");
 
-        // Ensure all category links are visible
         categoryLinks.forEach(link => {
-            link.style.display = "inline-block"; // Ensure visibility
-        });
+            link.addEventListener("click", function(e) {
+                e.preventDefault();
 
-        // Category filtering logic
-        categoryLinks.forEach(link => {
-            link.addEventListener("click", function() {
-                const selectedCategory = this.getAttribute("data-category");
+                const selectedCategory = this.getAttribute("data-category").toLowerCase();
 
                 blogItems.forEach(blog => {
-                    const categories = blog.getAttribute("data-category").split(",");
+                    const categories = blog.getAttribute("data-category").toLowerCase().split(',').map(cat => cat.trim());
 
                     if (selectedCategory === "all" || categories.includes(selectedCategory)) {
-                        blog.style.display = ""; // Show matching posts
+                        blog.style.display = "block";
                     } else {
-                        blog.style.display = "none"; // Hide non-matching posts
+                        blog.style.display = "none";
                     }
                 });
 
-                // Remove active class from all category links
                 categoryLinks.forEach(cat => cat.classList.remove("active"));
-
-                // Add active class to the clicked category
                 this.classList.add("active");
             });
         });
 
-        // Make sure the category list is always visible
-        const categoryWidget = document.querySelector(".widget_categories");
-        if (categoryWidget) {
-            categoryWidget.style.display = "block"; // Ensure visibility
-        }
-
-        // Trigger "All Categories" by default
         const defaultCategory = document.querySelector('.category-filter[data-category="all"]');
         if (defaultCategory) {
             defaultCategory.click();
         }
     });
 </script>
+
+<style>
+    .category-filter.active {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+</style>
 @endpush

@@ -61,7 +61,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">HUL & CNBC-TV18 presents L.I.M.E.</h2>
+            <h1 class="text-blue sec-title mb-20">HUL & CNBC-TV18 presents L.I.M.E.</h1>
             <p class="sec-para"><b>About the Brand:</b> L.I.M.E. (Lessons in Marketing Excellence) is the country’s biggest and most keenly contested B-school challenge which is televised on CNBC-TV18 in association with HUL. Every year, top B-schools in India take part in a marketing case-study competition for management students. It gives students a platform to work on real-life & live business challenges, as well as gives companies the opportunity to interact with India’s brightest MBAs, and to share their unique experience.</p>
             <p class="sec-para"><b>Services Offered:</b> Complete Marketing Strategy (Online + Offline), Social Media Management,ORM, Content Writing, Search Engine Optimization(SEO), Social media Ads, Googles Ads,Influencer Activity, Twitter Trending, OOH& Print Design, Website Management.</p>
             <div class="th-social">

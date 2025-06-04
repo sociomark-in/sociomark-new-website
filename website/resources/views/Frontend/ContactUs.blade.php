@@ -143,11 +143,11 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="title-area text-center text-xl-start col-md-4 head-text-div mt-1">
-                    <h2 class="sec-title head-text head-mbl-text " data-aos="fade-right" data-aos-delay="100"
+                    <h1 class="sec-title head-text head-mbl-text " data-aos="fade-right" data-aos-delay="100"
                         data-aos-duration="1000" data-aos-easing="ease-in-out">
                         Have a plan? We are all ears!<span class="text-blue"> contact us</span> to get things rolling!
 
-                    </h2>
+                    </h1>
                 </div>
                 <div class="text-center text-xl-start col-md-8 pl-40">
                     <p class="sec-para" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000"

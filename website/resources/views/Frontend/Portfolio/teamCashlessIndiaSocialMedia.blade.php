@@ -61,11 +61,11 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">MasterCard & Network18 presents Team Cashless India</h2>
+            <h1 class="text-blue sec-title mb-20">MasterCard & Network18 presents Team Cashless India</h1>
             <p class="sec-para"><b>About the Brand:</b> Network 18 and MasterCard’s endeavour to provide impetus the digital economy in sync with the governments initiatives.The campaign aims to help merchants across India go cashless. Citizens get involved by nominating their neighbourhood mom and pop stores to get digitized under the campaign, the nominated merchants will be helped by Mastercard and their bank partners go cashless. Both the citizens and merchants stand a chance to be gratified throughout the campaign and ultimately meet Mahendra Singh Dhoni and play a friendly match with him.</p>
             <p class="sec-para"><b>Services Offered:</b> Social media creatives and Content Writing.</p>
-           
-           
+
+
         </div>
     </div>
 </section>

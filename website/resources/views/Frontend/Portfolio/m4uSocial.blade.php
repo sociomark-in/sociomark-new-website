@@ -47,7 +47,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Markets4you</h2>
+            <h1 class="text-blue sec-title mb-20">Markets4you</h1>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p class="sec-para">
                 Markets4you is a <strong>trading platform</strong> that helps people invest in things like currencies, gold, oil, and company shares. It has been around since 2007 and is trusted by millions of users around the world. The platform is designed to be easy to use, whether you're just starting or have some experience. With simple tools and helpful support, Markets4you makes <strong>online trading </strong>more accessible for everyone.

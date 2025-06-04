@@ -105,11 +105,11 @@ Route::get('/work-culture', [WorkCultureController::class, 'index'])->name('work
 Route::get('/careers', [HomeController::class, 'careers'])->name('careers');
 
 Route::get('/blog', [BlogWebController::class, 'index'])->name('blog');
-Route::get('/blog/page{page?}', [BlogWebController::class, 'index'])->name('blog.page');
+Route::get('/blog/page/{page?}', [BlogWebController::class, 'index'])->name('blog.page');
 
 Route::get('/blog/{slug}', [BlogWebController::class, 'innerBlog'])->name('blog-inner');
-Route::get('/categoryBlog/{slug}', [BlogWebController::class, 'categoryBlog'])->name('categoryBlog');
-Route::get('/tagBlog/{slug}', [BlogWebController::class, 'tagBlog'])->name('tagBlog');
+Route::get('/blog/category/{slug}', [BlogWebController::class, 'categoryBlog'])->name('categoryBlog');
+Route::get('/blog/tag/{slug}', [BlogWebController::class, 'tagBlog'])->name('tagBlog');
 
 Route::get('/pr', [PRWebController::class, 'index'])->name('pr');
 
