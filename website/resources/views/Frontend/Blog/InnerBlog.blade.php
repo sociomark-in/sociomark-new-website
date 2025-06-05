@@ -1,9 +1,4 @@
 @extends('Frontend.layout.blogapp')
-@section('title', $blog->meta_title ?? 'Default Title')
-<!-- @section('author', 'Your Company Name') -->
-@section('description', $blog->meta_description)
-@section('keywords', $blog->meta_keywords)
-@section('robots', 'INDEX,FOLLOW')
 
 @section('custome-style')
 <style>

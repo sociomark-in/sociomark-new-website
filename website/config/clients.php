@@ -186,8 +186,8 @@ return [
         'image' => 'frontend-assets/img/clients/trollersfishnchips.jpg'
     ],
     'tata-play' => [
-        'industry' => ['news-media', 'public-sector'],
-        'name' => 'Tata Play',
+        'industry' => 'news-media',
+        'name' => 'Tata Play new',
         'view' => 'Frontend/Portfolio/tataplaySocial',
         'meta' => [
             'title' => 'Tata Play Social Media | Sociomark Portfolio Dubai​',
@@ -197,7 +197,7 @@ return [
         'portfolio-image' => 'frontend-assets/img/work/banner/tata_play.png'
     ],
     'times' => [
-        'industry' => ['news-media', 'public-sector'],
+        'industry' => 'news-media',
         'name' => 'times',
 
         'image' => 'frontend-assets/img/clients/times.jpg'
@@ -609,14 +609,14 @@ return [
         // 'portfolio-image' => 'frontend-assets/img/work/mission-insure-india/1.jpg'
     ],
     'nmmc' => [
-        // 'industry' => 'gaming',
+        'industry' => 'public-sector',
         'name' => 'NMMC',
         'view' => 'Frontend/Portfolio/nmmcSocial',
         'meta' => [
             'title' => 'NMMC Social Media Work | Sociomark Portfolio​',
             'description' => "Explore how Sociomark, a digital marketing agency, helped NMMC boost engagement and public awareness through creative social media strategies."
         ],
-        // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
+        'image' => 'frontend-assets/img/clients/nmmc.jpg',
         'portfolio-image' => 'frontend-assets/img/portfolio/nmmc/banner.jpg',
         'social' => [
             'facebook' => 'https://www.facebook.com/NMMConline/',
@@ -738,14 +738,14 @@ return [
         ],
     ],
     'tmc' => [
-        // 'industry' => 'gaming',
+        'industry' => 'public-sector',
         'name' => 'TMC',
         'view' => 'Frontend/Portfolio/tmcSocial',
         'meta' => [
             'title' => 'Social Media Management for TMC | Sociomark UAE​',
             'description' => "Handled TMC’s social media to boost engagement, grow followers, and create consistent, impactful content across platforms."
         ],
-        // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
+        'image' => 'frontend-assets/img/clients/tmc.jpg',
         'portfolio-image' => 'frontend-assets/img/work/banner/tmc.jpg',
         'social' => [
             'facebook' => 'https://www.facebook.com/ThaneSmartCityLtd/',

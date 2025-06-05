@@ -66,7 +66,13 @@ class BlogWebController extends Controller
         $blog = Blog::where('slug', $slug)->firstOrFail();
         $blogs = Blog::get();
         $tags = Tag::all();
-        return view('Frontend/Blog/InnerBlog', compact('categories', 'blogs', 'blog', 'tags'));
+        // Extract meta data from the blog
+        $meta = [
+            'meta_title' => $blog->meta_title ?? $blog->blog_name ?? 'Sociomark',
+            'meta_desciption' => $blog->meta_description ?? 'Read the latest blog on Sociomark',
+        ];
+        $canonical = $blog->canonicals ?: url()->current();
+        return view('Frontend/Blog/InnerBlog', compact('categories', 'blogs', 'blog', 'tags', 'meta', 'canonical'));
     }
     public function categoryBlog($slug)
     {

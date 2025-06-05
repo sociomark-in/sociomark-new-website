@@ -129,6 +129,10 @@
                             <label>Slug</label>
                             <input type="text" name="slug" id="slug" class="form-control" value="{{ old('slug', $blog->slug) }}">
                         </div>
+                        <div class="mb-3">
+                            <label>canonicals</label>
+                            <input type="url" name="canonicals" id="canonicals" class="form-control" value="{{ old('canonicals', $blog->canonicals) }}">
+                        </div>
                     </div>
                 </div>
             </div>

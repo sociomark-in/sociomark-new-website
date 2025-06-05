@@ -51,6 +51,7 @@ class BlogController extends Controller
             'images.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048', // Validate each image
             'status' => 'required|in:active,draft,inactive',
             'display_on_home' => 'boolean',
+            'canonicals' => 'url || nullable',
         ]);
 
         // Store images
@@ -76,6 +77,7 @@ class BlogController extends Controller
             'images' => $imagePaths,
             'status' => $request->status,
             'display_on_home' => $request->display_on_home ?? false,
+            'canonicals' => $request->canonicals,
         ]);
 
         return redirect()->route('blogs.index')->with('success', 'Blog created successfully.');
@@ -115,6 +117,7 @@ class BlogController extends Controller
             'meta_keywords'   => 'nullable|string|max:500',
             'slug'            => 'nullable|string|max:255|unique:blogs,slug,' . $id,
             'images.*'        => 'image|mimes:jpeg,png,jpg,gif|max:2048',
+            'canonicals'      => 'url || nullable',
         ]);
 
         // Start building the $data array with all the "always-present" fields:
@@ -130,6 +133,7 @@ class BlogController extends Controller
             'categories'       => $request->input('categories', []),
             'status'           => $request->input('status'),
             'display_on_home'  => (bool) $request->input('display_on_home', false),
+            'canonicals'       => $request->input('canonicals'),
         ];
 
         // Only if the user has uploaded new images do we delete old ones and store new

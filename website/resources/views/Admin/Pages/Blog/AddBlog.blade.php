@@ -134,6 +134,11 @@
                             <label>Slug</label>
                             <input type="text" name="slug" id="slug" class="form-control">
                         </div>
+                        <div class="mb-3">
+                            <label>canonicals</label>
+                            <input type="url" name="canonicals" id="canonicals" class="form-control">
+                        </div>
+
                     </div>
                 </div>
             </div>
