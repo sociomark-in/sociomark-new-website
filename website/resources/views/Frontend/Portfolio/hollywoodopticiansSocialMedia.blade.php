@@ -68,4 +68,5 @@
         </div>
     </div>
 </section>
+@include('Frontend.partial.portfolio.similarIndustry')
 @endsection

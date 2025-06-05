@@ -163,7 +163,8 @@
         </div>
     </div>
 </section>
-
+@include('Frontend.partial.portfolio.similarIndustry')
+<!-- 
 <section class="porfolio-text section-margin">
     <div class="container">
         <div class="row">
@@ -184,5 +185,5 @@
 
         </div>
     </div>
-</section>
+</section> -->
 @endsection

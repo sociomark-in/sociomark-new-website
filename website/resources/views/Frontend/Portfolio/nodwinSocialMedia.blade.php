@@ -77,15 +77,6 @@
             <p class="sec-para"><b>Services Offered: </b>Social Media Management <br>
                 Videography(in-house shoots for humanized reels)
             </p>
-
-            <div class="th-social">
-                <p class="sec-para"><b>Nodwin India Page Link:</b>
-                    <a href="https://www.facebook.com/NODWINGaming" target="_blank"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a href="https://twitter.com/NodwinGaming" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.instagram.com/nodwingaming/" target="_blank"><i
-                            class="fa-brands fa-x-twitter"></i></a>
-            </div>
             @include('Frontend.partial.socialMediaLinkInPortfolio')
             </p>
 
@@ -159,8 +150,8 @@
         </div>
     </div>
 </section>
-
-<section class="porfolio-text overflow-hidden space ">
+@include('Frontend.partial.portfolio.similarIndustry')
+<!-- <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
@@ -172,5 +163,5 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 @endsection

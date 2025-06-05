@@ -72,7 +72,7 @@
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
 
-             @include('Frontend.partial.socialMediaLinkInPortfolio')
+            @include('Frontend.partial.socialMediaLinkInPortfolio')
         </div>
     </div>
 </section>
@@ -151,8 +151,8 @@
         </div>
     </div>
 </section>
-
-<section class="porfolio-text section-margin">
+@include('Frontend.partial.portfolio.similarIndustry')
+<!-- <section class="porfolio-text section-margin">
     <div class="container">
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
@@ -178,5 +178,5 @@
 
         </div>
     </div>
-</section>
+</section> -->
 @endsection

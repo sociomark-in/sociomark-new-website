@@ -71,7 +71,8 @@
         </div>
     </div>
 </section>
-<section class="porfolio-text overflow-hidden space bg-grey">
+@include('Frontend.partial.portfolio.similarIndustry')
+<!-- <section class="porfolio-text overflow-hidden space bg-grey">
     <div class="container">
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
@@ -97,5 +98,5 @@
            
         </div>
     </div>
-</section>
+</section> -->
 @endsection
