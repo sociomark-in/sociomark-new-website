@@ -90,7 +90,7 @@
                 <li class="sec-para">Website Development</li>
                 <li class="sec-para">Social Media Management</li>
             </ul>
-
+            @include('Frontend.partial.socialMediaLinkInPortfolio')
 
         </div>
     </div>
@@ -158,8 +158,8 @@
         </div>
     </div>
 </section>
-
-<section class="porfolio-text section-margin">
+@include('Frontend.partial.portfolio.similarIndustry')
+<!-- <section class="porfolio-text section-margin">
     <div class="container">
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
@@ -185,5 +185,5 @@
 
         </div>
     </div>
-</section>
+</section> -->
 @endsection

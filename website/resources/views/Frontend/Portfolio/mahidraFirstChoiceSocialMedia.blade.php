@@ -57,16 +57,10 @@
             <h1 class="text-blue sec-title mb-20">Mahindra First Choice Services</h1>
             <p class="sec-para"><b>About the Brand:</b> Mahindra First Choice Is India's Certified Used Car Company. It's Quality Services Offers You A Gear-Shifting Experience Through Our High Quality And Hassle-Free Used Car Buying And Selling Services.</p>
             <p class="sec-para"><b>Services Offered:</b> Social media Management, Content Writing, Script Writing, Graphic Designs with 2D Animated Videos, ORM.</p>
-            <div class="th-social">
-                <p class="sec-para"><b>Page Link: </b>
-                    <a href="https://www.facebook.com/MahindraFirstChoiceServices" target="_blank"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/mfcservices/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.youtube.com/channel/UCBL1mW_P_YJKPX2l_ZQ0c7Q" target="_blank"><i class="fab fa-youtube"></i></a>
-
-            </div>
+            @include('Frontend.partial.socialMediaLinkInPortfolio')
 
         </div>
     </div>
 </section>
+@include('Frontend.partial.portfolio.similarIndustry')
 @endsection

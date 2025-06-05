@@ -56,8 +56,9 @@
             <h1 class="text-blue sec-title mb-20">Castrol Activ & Network18 presents Protect India’s Engine</h1>
             <p class="sec-para"><b>About the Brand:</b> The concept is to recognize the role of our neighborhood mechanics and create awareness around their plight through the pandemic. The end objective of the campaign is to have viewers pledge their support and nominate their local mechanic to benefit from the campaign. This initiative was executed with an idea of #ProtectIndiasEngine.</p>
             <p class="sec-para"><b>Services Offered:</b> Social media creatives and Content Writing ( Static, gif and Animated Videos),Email Design, Logo Adaptation, Tv Astons, GDN Banner Designs.</p>
-
+            @include('Frontend.partial.socialMediaLinkInPortfolio')
         </div>
     </div>
 </section>
+@include('Frontend.partial.portfolio.similarIndustry')
 @endsection

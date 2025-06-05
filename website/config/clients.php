@@ -6,8 +6,8 @@ return [
         'name' => 'Okinawa',
         // 'view' => 'Frontend/Portfolio/okinawaSocial',
         'meta' =>   [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'title' => 'Digital marketing services for Okinawa| Sociomark Portoflio ​',
+            'description' => "Explore how we boosted Okinawa's online visibility through targeted digital marketing, SEO to drive engagement and lead generation."
         ],
         'image' => 'frontend-assets/img/clients/okinawa.jpg'
     ],
@@ -20,7 +20,13 @@ return [
             'description' => "Sociomark, a digital marketing agency in UAE, created impactful social media strategies for BEM to enhance brand awareness and connect with the right audience."
         ],
         'image' => 'frontend-assets/img/clients/bem.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/banner/BEM.png'
+        'portfolio-image' => 'frontend-assets/img/work/banner/BEM.png',
+        'social' => [
+            'facebook' => '',
+            'instagram' => '',
+            'twitter' => '',
+            'linkdin' => 'https://in.linkedin.com/company/blueenergymotor',
+        ],
     ],
     'ayu-health' => [
         'industry' => 'healthcare',
@@ -42,7 +48,13 @@ return [
             'description' => "Sociomark, a digital marketing agency in UAE, boosted Ayushakti’s online presence with creative social media campaigns and targeted audience engagement."
         ],
         'image' => 'frontend-assets/img/clients/ayushakti.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/ayushakti/ayu1.jpeg'
+        'portfolio-image' => 'frontend-assets/img/work/ayushakti/ayu1.jpeg',
+        'social' => [
+            'facebook' => 'https://www.facebook.com/Ayushakti/',
+            'instagram' => 'https://www.instagram.com/ayushakti/p/DKTfnpwSNAG/?hl=en',
+            'twitter' => '',
+            'linkdin' => '',
+        ],
     ],
     'stemrx-bioscience' => [
         'industry' => 'healthcare',
@@ -53,7 +65,13 @@ return [
             'description' => "Explore how our digital marketing agency in Dubai helped StemRx Bioscience grow online with smart social media strategies and engaging content."
         ],
         'image' => 'frontend-assets/img/clients/stemrx.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/banner/stemrx.jpg'
+        'portfolio-image' => 'frontend-assets/img/work/banner/stemrx.jpg',
+
+        'social' => [
+            'facebook' => 'https://www.facebook.com/Stemmeticsindia/',
+            'instagram' => 'https://www.instagram.com/p/CzaocQFNEpW/?igsh=MXJqM3I5aGNla3Uxbw%3D%3D',
+            'linkdin' => 'https://in.linkedin.com/company/stemrx-biosciences',
+        ],
     ],
     'nhss' => [
         'industry' => 'education',
@@ -64,7 +82,13 @@ return [
             'description' => "Sociomark, a digital marketing agency in UAE, enhanced NHSS’s social media with strategic content and campaigns to increase brand reach and audience engagement."
         ],
         'image' => 'frontend-assets/img/clients/nhs_logo.png',
-        'portfolio-image' => 'frontend-assets/img/work/banner/NHS.jpg'
+        'portfolio-image' => 'frontend-assets/img/work/banner/NHS.jpg',
+        'social' => [
+            'facebook' => 'https://www.facebook.com/newhorizonairoli/',
+            'instagram' => '',
+            'twitter' => '',
+            'linkdin' => '',
+        ],
     ],
     'nhspsa' => [
         'industry' => 'education',
@@ -122,7 +146,14 @@ return [
             'description' => "Sociomark, a Digital marketing agency in uae, helped Jivana grow online with creative social posts, targeted campaigns, and higher audience engagement."
         ],
         'image' => 'frontend-assets/img/clients/jivana.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/jivana/Jivana.jpg'
+        'portfolio-image' => 'frontend-assets/img/work/jivana/Jivana.jpg',
+        'social' => [
+            'facebook' => 'https://www.facebook.com/JivanaSomaiya/',
+            'instagram' => 'https://www.instagram.com/p/DKL28NJK1ke/?hl=en',
+            'linkdin' => '',
+            'x' => '',
+        ],
+
     ],
     'total' => [
         'industry' => 'fmcg',
@@ -155,8 +186,8 @@ return [
         'image' => 'frontend-assets/img/clients/trollersfishnchips.jpg'
     ],
     'tata-play' => [
-        'industry' => ['news-media', 'public-sector'],
-        'name' => 'Tata Play',
+        'industry' => 'news-media',
+        'name' => 'Tata Play new',
         'view' => 'Frontend/Portfolio/tataplaySocial',
         'meta' => [
             'title' => 'Tata Play Social Media | Sociomark Portfolio Dubai​',
@@ -166,7 +197,7 @@ return [
         'portfolio-image' => 'frontend-assets/img/work/banner/tata_play.png'
     ],
     'times' => [
-        'industry' => ['news-media', 'public-sector'],
+        'industry' => 'news-media',
         'name' => 'times',
 
         'image' => 'frontend-assets/img/clients/times.jpg'
@@ -180,7 +211,14 @@ return [
             'description' => "Discover how Sociomark, Digital marketing agency in uae, boosted Build Track’s social media with engaging content, targeted ads, and strategic campaigns."
         ],
         'image' => 'frontend-assets/img/clients/buildtrack (1).png',
-        'portfolio-image' => 'frontend-assets/img/work/build track/Buildtrack.jpg'
+        'portfolio-image' => 'frontend-assets/img/work/build track/Buildtrack.jpg',
+        'social' => [
+            'facebook' => 'https://www.facebook.com/BuildTrack/',
+            'instagram' => 'https://www.instagram.com/buildtrack/reel/DKPKxaLSVu3/?hl=en',
+            'twitter' => 'https://x.com/buildtrack?lang=en',
+            'linkdin' => 'https://in.linkedin.com/showcase/buildtrack---smart-automation-solutions/',
+        ],
+
     ],
     'pare' => [
         'industry' => 'home-interior',
@@ -202,12 +240,21 @@ return [
             'description' => "Exlpore how Sociomark managed social media, created content, produced videos, designed graphics, ran campaigns, and handled community and marketing for Qubero."
         ],
         'image' => 'frontend-assets/img/clients/quebero.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/banner/qubero.jpg'
+        'portfolio-image' => 'frontend-assets/img/work/banner/qubero.jpg',
+        'social' => [
+            'facebook' => 'https://www.facebook.com/people/Qubero-by-Nirali-BG/61557072792605/?mibextid=ZbWKwL',
+            'instagram' => 'https://www.instagram.com/qubero_by_nirali_bg/p/DKW7Thtt2nl/?hl=en',
+            'twitter' => '',
+            'linkdin' => 'https://www.linkedin.com/posts/qubero-by-nirali-bg_qubero-quberobyniralibg-customizedkitchens-activity-7193580372490641408-nj6v',
+        ],
     ],
     'bumchums' => [
         'industry' => 'fashion',
         'name' => 'bumchums',
-
+        'meta' => [
+            'title' => 'Creative Campaigns Designed for Bumchums | Sociomark',
+            'description' => "Designed engaging and youth-centric creatives for Bumchums to boost brand appeal, connect with their audience, and enhance social media presence."
+        ],
         'image' => 'frontend-assets/img/clients/bumchums.jpg'
     ],
     'euro' => [
@@ -219,7 +266,13 @@ return [
             'description' => "See how Sociomark, a Digital marketing agency in uae, boosted EURO’s social media engagement with creative content, ads, and strategies for brand growth."
         ],
         'image' => 'frontend-assets/img/clients/euro.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/euro/Euro.jpg'
+        'portfolio-image' => 'frontend-assets/img/work/euro/Euro.jpg',
+        'social' => [
+            'facebook' => 'https://www.facebook.com/EuroFashions/',
+            'instagram' => '',
+            'twitter' => '',
+            'linkdin' => '',
+        ],
     ],
     'shahenaz' => [
         'industry' => 'fashion',
@@ -230,7 +283,13 @@ return [
             'description' => "Sociomark, a digital marketing agency in UAE, delivered creative social media strategies for Shahenaz to increase brand visibility and engage their target audience."
         ],
         'image' => 'frontend-assets/img/clients/shahenaz.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/banner/Shahenaz.jpg'
+        'portfolio-image' => 'frontend-assets/img/work/banner/Shahenaz.jpg',
+        'social' => [
+            'facebook' => '',
+            'instagram' => 'https://www.instagram.com/shahenazindia/p/DJgGvf-oEpm/?hl=en',
+            'twitter' => '',
+            'linkdin' => 'https://in.linkedin.com/company/shahenaz',
+        ],
     ],
     'watch' => [
         'industry' => 'fashion',
@@ -241,6 +300,10 @@ return [
     'desiavatar' => [
         'industry' => 'fashion',
         'name' => 'Desi Avatar',
+        'meta' => [
+            'title' => 'Digital marketing services for Desi- Avatar| Sociomark​',
+            'description' => "Managed SEO, social media, and creative design for Desi Avatar to enhance brand visibility, drive engagement, and build a strong digital presence."
+        ],
 
         'image' => 'frontend-assets/img/clients/desiavatar.jpg'
     ],
@@ -276,7 +339,13 @@ return [
             'description' => "Discover how our digital marketing agency in Dubai helped JOP boost social media engagement and brand visibility with creative and targeted strategies."
         ],
         'image' => 'frontend-assets/img/clients/jop_palm.jpg',
-        'portfolio-image' => 'frontend-assets/img/portfolio/jop/JOP.png'
+        'portfolio-image' => 'frontend-assets/img/portfolio/jop/JOP.png',
+        'social' => [
+            'facebook' => 'https://www.facebook.com/JopPalmsRtk/?locale=ga_IE',
+            'instagram' => 'https://www.instagram.com/jop.group/reel/DKSCqZhv8Ki/?hl=en',
+            'twitter' => '',
+            'linkdin' => '',
+        ],
     ],
     'nodwin-gaming' => [
         'industry' => 'gaming',
@@ -287,7 +356,13 @@ return [
             'description' => "Sociomark, a digital marketing agency in uae, helped NODWIN boost social media engagement with strategic posts, targeted ads, and audience growth."
         ],
         'image' => 'frontend-assets/img/clients/nodwin.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/nodwin/N2.jpg'
+        'portfolio-image' => 'frontend-assets/img/work/nodwin/N2.jpg',
+        'social' => [
+            'facebook' => 'https://www.facebook.com/NODWINGaming/',
+            'instagram' => 'https://www.instagram.com/nodwingaming/p/DKW0hRFMoFr/?hl=en',
+            'twitter' => 'https://x.com/NodwinGaming?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
+            'linkdin' => 'https://in.linkedin.com/company/nodwin_gaming',
+        ],
     ],
     'ai-awards' => [
         // 'industry' => 'gaming',
@@ -382,8 +457,8 @@ return [
         'name' => 'Expert 4 Travel',
         'view' => 'Frontend/Portfolio/expert4travelSocial',
         'meta' => [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'title' => 'Digital Marketing for Expert4 Travel | Sociomark​',
+            'description' => "Handled SEO, social media, and creatives for Expert4 Travel to increase online visibility, attract travelers, and grow engagement across platforms."
         ]
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         // 'portfolio-image' => 'frontend-assets/img/work/cyberpwer/Cyberpower.jpg'
@@ -393,8 +468,8 @@ return [
         'name' => 'Foresight Opticals',
         'view' => 'Frontend/Portfolio/foresightopticalsSocialMedia',
         'meta' => [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'title' => 'Digital Marketing for Foresight Opticals| Sociomark UAE​',
+            'description' => "Sociomark, a digital marketing company, provided social media, content, ads, 2D videos, ORM, print ads, and in-store branding for Foresight Opticals."
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/foresight-opticals/1.jpg'
@@ -408,15 +483,21 @@ return [
             'description' => "Sociomark, a digital marketing agency in UAE, created engaging social media campaigns for Grill Box to boost brand awareness and connect with food lovers online."
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/grill-box/grill1.jpeg'
+        'portfolio-image' => 'frontend-assets/img/work/grill-box/grill1.jpeg',
+        'social' => [
+            'facebook' => '',
+            'instagram' => 'https://www.instagram.com/grillbox_chennai/?hl=en',
+            'twitter' => '',
+            'linkdin' => '',
+        ],
     ],
     'hollywood-opticians' => [
         // 'industry' => 'gaming',
         'name' => 'Hollywood Opticians',
         'view' => 'Frontend/Portfolio/hollywoodopticiansSocialMedia',
         'meta' => [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'title' => 'Digital Marketing for Hollywood Opticians| Sociomark UAE​',
+            'description' => "Sociomark, a digital marketing agency, delivered social media, content, ads, 2D videos, ORM, print ads, and in-store branding for Hollywood Opticians."
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/hollywood-opticians/1.jpg'
@@ -430,7 +511,13 @@ return [
             'description' => "Explore how SEO, Google Ads, social media, content, 2D videos, and ORM boosted INIFD Vashi’s online presence."
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/inifd-vashi/1.jpg'
+        'portfolio-image' => 'frontend-assets/img/work/inifd-vashi/1.jpg',
+        'social' => [
+            'facebook' => 'https://www.facebook.com/inifdvashifd/',
+            'instagram' => '',
+            'twitter' => '',
+            'linkdin' => 'https://in.linkedin.com/company/inifd-vashi',
+        ],
     ],
     'ism' => [
         // 'industry' => 'gaming',
@@ -441,7 +528,13 @@ return [
             'description' => "Find out how ISM grew its digital presence with smart social media management, SEO, and high-impact Google and Meta ad campaigns."
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/banner/ism.jpg'
+        'portfolio-image' => 'frontend-assets/img/work/banner/ism.jpg',
+        'social' => [
+            'facebook' => '',
+            'instagram' => 'https://www.instagram.com/p/DKR8SZJRw3s/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
+            'twitter' => '',
+            'linkdin' => '',
+        ],
     ],
     'kolkata-rolls' => [
         // 'industry' => 'gaming',
@@ -459,8 +552,8 @@ return [
         'name' => 'Lime',
         'view' => 'Frontend/Portfolio/limeSocialMedia',
         'meta' => [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'title' => 'Lime Social Media Campaign | Sociomark UAE​',
+            'description' => "Check out how Sociomark, a digital marketing agency in UAE, helped Lime grow online with creative posts, better reach, and strong social media strategy."
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/case-study/lime_logo.png'
@@ -485,7 +578,13 @@ return [
             'description' => "Provided digital marketing services for Markets4You, including social media management and influencer marketing, to boost engagement."
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/banner/market4you.jpg'
+        'portfolio-image' => 'frontend-assets/img/work/banner/market4you.jpg',
+        'social' => [
+            'facebook' => '',
+            'instagram' => 'https://www.instagram.com/markets4you_india/reel/DEHDJUKM1j-/?hl=en',
+            'twitter' => '',
+            'linkdin' => 'https://vg.linkedin.com/company/markets4you',
+        ],
     ],
     'mission-insure-india' => [
         // 'industry' => 'gaming',
@@ -503,30 +602,36 @@ return [
         'name' => 'Network18',
         'view' => 'Frontend/Portfolio/network18Social',
         'meta' => [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'title' => 'Campaign Execution for Network18| Sociomark',
+            'description' => "Executed a high-impact digital campaign for Network18, focusing on creative strategy, audience engagement, and brand amplification across platforms."
         ]
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         // 'portfolio-image' => 'frontend-assets/img/work/mission-insure-india/1.jpg'
     ],
     'nmmc' => [
-        // 'industry' => 'gaming',
+        'industry' => 'public-sector',
         'name' => 'NMMC',
         'view' => 'Frontend/Portfolio/nmmcSocial',
         'meta' => [
             'title' => 'NMMC Social Media Work | Sociomark Portfolio​',
             'description' => "Explore how Sociomark, a digital marketing agency, helped NMMC boost engagement and public awareness through creative social media strategies."
         ],
-        // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
-        'portfolio-image' => 'frontend-assets/img/portfolio/nmmc/banner.jpg'
+        'image' => 'frontend-assets/img/clients/nmmc.jpg',
+        'portfolio-image' => 'frontend-assets/img/portfolio/nmmc/banner.jpg',
+        'social' => [
+            'facebook' => 'https://www.facebook.com/NMMConline/',
+            'instagram' => 'https://www.instagram.com/p/DKeUgPzNY0g/?hl=en&img_index=1',
+            'twitter' => 'https://x.com/nmmconline?lang=en',
+            'linkdin' => 'https://in.linkedin.com/company/nmmconline',
+        ],
     ],
     'patankar-farm' => [
         // 'industry' => 'gaming',
         'name' => 'Patankar Farm',
         'view' => 'Frontend/Portfolio/patankarFarmSocial',
         'meta' => [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'title' => 'Digital Marketing for Patankar Farm| Sociomark​',
+            'description' => "Managed Patankar Farm’s digital marketing, including SEO, social media, and creatives, to boost online reach and connect with health-conscious customers."
         ]
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         // 'portfolio-image' => 'frontend-assets/img/portfolio/nmmc/banner.jpg'
@@ -536,8 +641,8 @@ return [
         'name' => 'Real Estate Awards',
         'view' => 'Frontend/Portfolio/realEstateAwardSocialMedia',
         'meta' => [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'title' => 'Real Estate Awards | Social Media by Sociomark UAE​',
+            'description' => "Explore how Sociomark, a leading digital marketing company, boosted Real Estate Awards' visibility through impactful and engaging social media campaigns."
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/case-study/rea.png'
@@ -551,7 +656,14 @@ return [
             'description' => "Enhanced Repute’s online engagement and visibility through strategic social media management and tailored content creation."
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/banner/repute.jpg'
+        'portfolio-image' => 'frontend-assets/img/work/banner/repute.jpg',
+        'social' => [
+            'facebook' => 'https://www.facebook.com/repute.mart/',
+            'instagram' => 'https://www.instagram.com/reputemart.in/p/DBteR8_IkTq/?hl=en',
+            'twitter' => '',
+            'linkdin' => '',
+        ],
+
     ],
     'road-to-safety' => [
         // 'industry' => 'gaming',
@@ -617,26 +729,38 @@ return [
             'description' => "Sociomark, a digital marketing agency in UAE, helped The Professional Couriers grow online with smart social media content, branding, and audience reach."
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/the prfessional courier/The Professional Couriers.jpg'
+        'portfolio-image' => 'frontend-assets/img/work/the prfessional courier/The Professional Couriers.jpg',
+        'social' => [
+            'facebook' => 'https://www.facebook.com/theprofessionalcouriers/',
+            'instagram' => '',
+            'twitter' => 'https://x.com/TPCGlobeCares?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
+            'linkdin' => 'https://in.linkedin.com/company/the-professional-courier',
+        ],
     ],
     'tmc' => [
-        // 'industry' => 'gaming',
+        'industry' => 'public-sector',
         'name' => 'TMC',
         'view' => 'Frontend/Portfolio/tmcSocial',
         'meta' => [
             'title' => 'Social Media Management for TMC | Sociomark UAE​',
             'description' => "Handled TMC’s social media to boost engagement, grow followers, and create consistent, impactful content across platforms."
         ],
-        // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/banner/tmc.jpg'
+        'image' => 'frontend-assets/img/clients/tmc.jpg',
+        'portfolio-image' => 'frontend-assets/img/work/banner/tmc.jpg',
+        'social' => [
+            'facebook' => 'https://www.facebook.com/ThaneSmartCityLtd/',
+            'instagram' => 'https://www.instagram.com/smartcity_thane/p/DKTvKpszV37/',
+            'twitter' => 'https://x.com/city_thane',
+            'linkdin' => 'https://in.linkedin.com/in/thane-smart-city-limited-516733253',
+        ],
     ],
     'tpc' => [
         // 'industry' => 'gaming',
         'name' => 'TPC',
         'view' => 'Frontend/Portfolio/tpcSocial',
         'meta' => [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'title' => 'Social Media & Creative Design for TPC | Sociomark​',
+            'description' => "Handled social media and crafted digital creatives for TPC to strengthen brand presence, drive engagement, and maintain a consistent visual identity."
         ]
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         // 'portfolio-image' => 'frontend-assets/img/work/banner/tmc.jpg'

@@ -1,10 +1,9 @@
 @extends('Frontend.layout.blogapp')
-@section('title', $blog->meta_title ?? 'Default Title')
-<!-- @section('author', 'Your Company Name') -->
-@section('description', $blog->meta_description)
-@section('keywords', $blog->meta_keywords)
-@section('robots', 'INDEX,FOLLOW')
-
+@section('schema')
+<script type="application/ld+json">
+ {!! $blog->blog_schema !!}
+</script>
+@endsection
 @section('custome-style')
 <style>
     #Blog_Section .box {

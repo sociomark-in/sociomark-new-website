@@ -58,12 +58,7 @@
                 <li class="sec-para">Content Marketing</li>
                 <li class="sec-para">Search Engine Optimization (SEO)</li>
             </ul>
-            <div class="th-social">
-                <p class="sec-para"><b>Page Link:</b>
-                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-            </div>
+            @include('Frontend.partial.socialMediaLinkInPortfolio')
             {{-- <div class="header-button mt-3">
                     <a href="#" class="th-btn th-icon">READ OUR CASE STUDY</a>
                 </div> --}}
@@ -135,4 +130,5 @@
     </div>
     </div>
 </section>
+@include('Frontend.partial.portfolio.similarIndustry')
 @endsection

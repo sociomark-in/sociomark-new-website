@@ -83,7 +83,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="breadcumb-content breadcrumb-light">
-                        <h1 class="breadcumb-title">Portfolios</h1>
+                        <h2 class="breadcumb-title">Portfolios</h2>
                         <ul class="breadcumb-menu d-none">
                             <li><a href="{{ route('home') }}">Home</a></li>
                             <li>Portfolios</li>
@@ -98,10 +98,10 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="title-area text-center text-xl-start col-md-4 head-text-div mt-1">
-                    <h2 class="sec-title head-text head-mbl-text" data-aos="fade-right" data-aos-delay="100"
+                    <h1 class="sec-title head-text head-mbl-text" data-aos="fade-right" data-aos-delay="100"
                         data-aos-duration="1000" data-aos-easing="ease-in-out">
                         Our Work <span class="text-blue">Speaks Louder</span> Than Words
-                    </h2>
+                    </h1>
                 </div>
                 <div class="text-center text-xl-start col-md-8 pl-40">
                     <p class="sec-para" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000"

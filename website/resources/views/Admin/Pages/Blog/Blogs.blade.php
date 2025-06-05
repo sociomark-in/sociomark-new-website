@@ -26,6 +26,7 @@
                                     <th>Display On Home</th>
                                     <th>Status</th>
                                     <th>Category Id</th>
+                                    <th>canonicals</th>
                                     <th>image</th>
                                     <th>Date</th>
                                     <th>Action</th>
@@ -54,6 +55,7 @@
 
 
                                     <td>{{ implode(', ', $blog->category_names) ?: 'No Category' }}</td>
+                                    <td>{{ $blog->canonicals }}</td>
                                     <td>
                                         @php
                                         $images = is_array($blog->images) ? $blog->images : json_decode($blog->images, true);

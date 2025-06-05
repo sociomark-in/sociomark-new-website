@@ -104,9 +104,9 @@
                 <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
                     <div class="title-area mb-md-3 mb-2 mt-n1">
                         <!-- <h2 class="sec-title text-center "> Our Comprehensive International SEO Solutions</h2> -->
-                        <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100">
+                        <h2 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100">
                             What <span class="text-blue">Drives Us</span>
-                        </h1>
+                        </h2>
                     </div>
                 </div>
                 <div class="col-lg-12 d-flex justify-content-center align-items-center flex-column">

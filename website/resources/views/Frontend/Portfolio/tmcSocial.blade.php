@@ -50,15 +50,15 @@
             <h1 class="text-blue sec-title mb-20">TMC</h1>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p class="sec-para">
-            TMC is a <strong>Government Institution </strong>and <strong>Public Sector</strong> Organization dedicated to driving grassroots change through civic awareness and environmental responsibility. Their initiatives span a wide range of sustainable practices, including waste segregation, e-waste management, home composting, tree plantation, and the promotion of triple dustbins. With creative campaigns, storytelling, and community engagement, TMC focuses on fostering sustainable habits—encouraging the use of cotton bags, rejecting single-use plastics, and maintaining cleaner public spaces.
+                TMC is a <strong>Government Institution </strong>and <strong>Public Sector</strong> Organization dedicated to driving grassroots change through civic awareness and environmental responsibility. Their initiatives span a wide range of sustainable practices, including waste segregation, e-waste management, home composting, tree plantation, and the promotion of triple dustbins. With creative campaigns, storytelling, and community engagement, TMC focuses on fostering sustainable habits—encouraging the use of cotton bags, rejecting single-use plastics, and maintaining cleaner public spaces.
 
             </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
             <p class="sec-para">
-            Social Media Management
+                Social Media Management
             </p>
-          
 
+            @include('Frontend.partial.socialMediaLinkInPortfolio')
         </div>
     </div>
 </section>
@@ -86,7 +86,7 @@
                         <img src="{{ asset('frontend-assets/img/portfolio/tmc/4.png') }}" alt="tmc creative"
                             srcset="" class="w-100">
                     </div>
-                   
+
                 </div>
                 <!--<div class="swiper-button-next"></div>-->
                 <!--<div class="swiper-button-prev"></div>-->
@@ -126,8 +126,8 @@
         </div>
     </div>
 </section>
-
-<section class="porfolio-text overflow-hidden space ">
+@include('Frontend.partial.portfolio.similarIndustry')
+<!-- <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
@@ -140,5 +140,5 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 @endsection

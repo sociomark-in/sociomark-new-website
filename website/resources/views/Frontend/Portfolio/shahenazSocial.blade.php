@@ -58,12 +58,7 @@
                 <li class="sec-para">Videography(in-house & outdoor shoots for humanized reels)</li>
                 <li class="sec-para">SEO (Search Engine Optimization)</li>
             </ul>
-            <div class="th-social">
-                <p class="sec-para"><b>Page Link:</b>
-                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-            </div>
+             @include('Frontend.partial.socialMediaLinkInPortfolio')
             <div class="mt-3">
                 <a href="{{ route('shahenaz') }}" class="th-btn th-icon">READ OUR CASE STUDY</a>
             </div>
@@ -139,8 +134,8 @@
         </div>
     </div>
 </section>
-
-<section class="porfolio-text overflow-hidden space ">
+@include('Frontend.partial.portfolio.similarIndustry')
+<!-- <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
@@ -159,5 +154,5 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 @endsection
