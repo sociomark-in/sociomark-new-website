@@ -2,6 +2,12 @@
 <html class="no-js" lang="zxx">
 
 <head>
+    <title>{{ $meta['meta_title'] ?? 'Sociomark' }}</title>
+    <meta name="description" content="{{ $meta['meta_desciption'] ?? 'Sociomark blog page' }}">
+
+    <link rel="canonical" href="{{ $canonical }}" />
+    @yield('schema')
+
     @include('Frontend/partial/styleLinks')
     @yield('custome-style')
     @stack('styles')

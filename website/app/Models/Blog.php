@@ -22,6 +22,8 @@ class Blog extends Model
         'images',
         'status',
         'display_on_home',
+        'canonicals',
+        'blog_schema',
     ];
 
     protected $casts = [

@@ -1,4 +1,6 @@
 @extends('Frontend.layout.app')
+
+@section('custome-style')
 <!-- Swiper CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 <!-- Swiper JS -->
@@ -57,7 +59,7 @@
         }]
     }
 </script>
-
+@endsection
 @push('styles')
 <style>
     #home .about-area2 .sec-title {
