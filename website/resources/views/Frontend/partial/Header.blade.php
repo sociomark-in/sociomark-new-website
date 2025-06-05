@@ -122,9 +122,8 @@ Header Area
                     <div class="col-auto d-none d-lg-block">
                         <div class="header-button">
                             <!-- <button type="button" class="icon-btn searchBoxToggler"><i class="fal fa-search"></i></button> -->
-                            <a href="#" class="th-btn th-icon" data-bs-toggle="modal"
-                                data-bs-target="#getAQuoteModal">Get A Quote <i
-                                    class="fa-solid fa-arrow-right ms-2"></i></a>
+                            {{-- <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a> --}}
+                            <a href="{{ route('contact') }}" class="th-btn th-icon">Get A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                     {{-- <div class="col-auto d-none d-lg-block">
