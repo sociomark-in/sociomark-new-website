@@ -200,7 +200,7 @@
                         </div>
                     </a>
                 </div>
-                
+
                 <div class="col-md-3 col-xl-auto filter-item cat9">
                     <a href="" class="project-item d-block">
                         <div class="box-img global-img">
@@ -397,6 +397,22 @@
                     <a href="" class="project-item d-block">
                         <div class="box-img global-img">
                             <img src="{{ asset('frontend-assets/img/clients/worldgrad.jpg') }}"
+                                alt="project image">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-xl-auto filter-item cat10">
+                    <a href="" class="project-item d-block">
+                        <div class="box-img global-img">
+                            <img src="{{ asset('frontend-assets/img/clients/nmmc.jpg') }}"
+                                alt="project image">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3 col-xl-auto filter-item cat10">
+                    <a href="" class="project-item d-block">
+                        <div class="box-img global-img">
+                            <img src="{{ asset('frontend-assets/img/clients/tmc.jpg') }}"
                                 alt="project image">
                         </div>
                     </a>
