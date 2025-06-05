@@ -23,6 +23,7 @@ class Blog extends Model
         'status',
         'display_on_home',
         'canonicals',
+        'blog_schema',
     ];
 
     protected $casts = [

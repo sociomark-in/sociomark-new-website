@@ -133,6 +133,10 @@
                             <label>canonicals</label>
                             <input type="url" name="canonicals" id="canonicals" class="form-control" value="{{ old('canonicals', $blog->canonicals) }}">
                         </div>
+                        <div class="mb-3">
+                            <label>Schema</label>
+                            <input type="text" name="blog_schema" id="blog_schema" class="form-control" value="{{ old('blog_schema', $blog->blog_schema) }}">
+                        </div>
                     </div>
                 </div>
             </div>

@@ -72,7 +72,8 @@ class BlogWebController extends Controller
             'meta_desciption' => $blog->meta_description ?? 'Read the latest blog on Sociomark',
         ];
         $canonical = $blog->canonicals ?: url()->current();
-        return view('Frontend/Blog/InnerBlog', compact('categories', 'blogs', 'blog', 'tags', 'meta', 'canonical'));
+        $blog_schema = $blog->blog_schema;
+        return view('Frontend/Blog/InnerBlog', compact('categories', 'blogs', 'blog', 'tags', 'meta', 'canonical', 'blog_schema'));
     }
     public function categoryBlog($slug)
     {
