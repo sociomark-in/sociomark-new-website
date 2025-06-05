@@ -393,8 +393,8 @@ return [
         'name' => 'Foresight Opticals',
         'view' => 'Frontend/Portfolio/foresightopticalsSocialMedia',
         'meta' => [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'title' => 'Digital Marketing for Foresight Opticals| Sociomark UAE​',
+            'description' => "Sociomark, a digital marketing company, provided social media, content, ads, 2D videos, ORM, print ads, and in-store branding for Foresight Opticals."
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/foresight-opticals/1.jpg'
@@ -415,8 +415,8 @@ return [
         'name' => 'Hollywood Opticians',
         'view' => 'Frontend/Portfolio/hollywoodopticiansSocialMedia',
         'meta' => [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'title' => 'Digital Marketing for Hollywood Opticians| Sociomark UAE​',
+            'description' => "Sociomark, a digital marketing agency, delivered social media, content, ads, 2D videos, ORM, print ads, and in-store branding for Hollywood Opticians."
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/hollywood-opticians/1.jpg'
@@ -459,8 +459,8 @@ return [
         'name' => 'Lime',
         'view' => 'Frontend/Portfolio/limeSocialMedia',
         'meta' => [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'title' => 'Lime Social Media Campaign | Sociomark UAE​',
+            'description' => "Check out how Sociomark, a digital marketing agency in UAE, helped Lime grow online with creative posts, better reach, and strong social media strategy."
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/case-study/lime_logo.png'
@@ -536,8 +536,8 @@ return [
         'name' => 'Real Estate Awards',
         'view' => 'Frontend/Portfolio/realEstateAwardSocialMedia',
         'meta' => [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'title' => 'Real Estate Awards Social Media | Sociomark UAE​',
+            'description' => "Sociomark, a digital marketing agency in UAE, managed the Real Estate Awards’ social media with creative campaigns and strong online audience engagement."
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/case-study/rea.png'

@@ -74,8 +74,9 @@ class CaseStudyController extends Controller
     public function lime()
     {
         $meta = [
-            'title' => 'Case Studies | Sociomark Digital Marketing in UAE​​',
-            'description' => "See how Sociomark, a digital marketing agency in UAE, helped brands grow with smart online strategies like SEO, ads, and social media marketing."
+            'title' => 'Lessons in Marketing Excellence (LIME)- Sociomark Case Study​​',
+            'description' => "Sociomark in collabration with other content creators worked on 
+LIME Season XII by promoting the hastags for this year which was #marketingisbusiness."
         ];
         return view('Frontend/caseStudy/lime', compact('meta'));
     }
@@ -122,8 +123,10 @@ class CaseStudyController extends Controller
     public function realestateawards()
     {
         $meta = [
-            'title' => 'Case Studies | Sociomark Digital Marketing in UAE​​',
-            'description' => "See how Sociomark, a digital marketing agency in UAE, helped brands grow with smart online strategies like SEO, ads, and social media marketing."
+            'title' => 'RR Kabel Case Study | Boosting Brand Awareness in Electricals​​',
+            'description' => "Explore how RR Kabel strengthened its digital presence and
+ drove customer engagement through effective marketing strategies
+ by Sociomark ."
         ];
         return view('Frontend/caseStudy/realestateawards', compact('meta'));
     }

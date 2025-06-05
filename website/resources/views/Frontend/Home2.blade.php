@@ -258,12 +258,12 @@
                 <div class="row h-100 justify-content-center align-items-center">
                     <div class="col-xxl-9 col-xl-9 col-md-9 col-12">
                         <div class="big-title text-center">
-                            <h1 data-aos="fade-right" data-aos-duration="2000">
+                            <p data-aos="fade-right" data-aos-duration="2000">
                                 <span>No Noise</span>
-                            </h1>
-                            <h1 data-aos="fade-right " data-aos-delay="2500" data-aos-duration="1000">
+                            </p>
+                            <p data-aos="fade-right " data-aos-delay="2500" data-aos-duration="1000">
                                 <span class="result">#JustResults</span>
-                            </h1>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -350,7 +350,7 @@
                 <div class="col-xl-6" data-aos="fade-left">
                     <div class="choose-image">
                         <div class="rounded-overflow" data-tilt data-tilt-max="10">
-                            <img loading="lazy" src="{{ asset('frontend-assets/img/team/home.jpg') }}" alt="The Team">
+                            <img loading="lazy" src="{{ asset('frontend-assets/img/team/home.jpg') }}" alt="Team of Digital Marketing Experts">
                         </div>
                     </div>
                 </div>
@@ -489,15 +489,15 @@
                     </div>
                     <div class="col-xl-6 col-12">
                         <div class="big-title">
-                            <h1 data-aos="fade-right" data-aos-duration="2000">
+                            <h2 data-aos="fade-right" data-aos-duration="2000">
                                 <span>No Noise</span>
-                            </h1>
-                            <h1 data-aos="fade-right" data-aos-delay="2500" data-aos-duration="1000">
+                            </h2>
+                            <h2 data-aos="fade-right" data-aos-delay="2500" data-aos-duration="1000">
                                 <span class="text-white">Just</span>
-                            </h1>
-                            <h1 data-aos="fade-right" data-aos-delay="3000" data-aos-duration="1000">
+                            </h2>
+                            <h2 data-aos="fade-right" data-aos-delay="3000" data-aos-duration="1000">
                                 <span class="text-white">Results</span>
-                            </h1>
+                            </h2>
                         </div>
                     </div>
 
@@ -809,7 +809,7 @@
                                     <div class="col-12">
                                         <div class="service-image rounded-overflow"
                                             style="--background-image: url('{{ asset('frontend-assets/img/service/DM_bg.jpg') }}')">
-                                            <h2 class="text-center text-orange">Digital Marketing</h2>
+                                            <h3 class="text-center text-orange">Digital Marketing</h3>
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -830,7 +830,7 @@
                                     <div class="col-12">
                                         <div class="service-image rounded-overflow"
                                             style="--background-image: url('{{ asset('frontend-assets/img/service/SM_bg.jpg') }}')">
-                                            <h2 class="text-center text-orange">Social Media Marketing</h2>
+                                            <h3 class="text-center text-orange">Social Media Marketing</h3>
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -850,7 +850,7 @@
                                     <div class="col-12">
                                         <div class="service-image rounded-overflow"
                                             style="--background-image: url('{{ asset('frontend-assets/img/service/SEO_bg.jpg') }}')">
-                                            <h2 class="text-center text-orange">Search Engine Optimization</h2>
+                                            <h3 class="text-center text-orange">Search Engine Optimization</h3>
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -870,7 +870,7 @@
                                     <div class="col-12">
                                         <div class="service-image rounded-overflow"
                                             style="--background-image: url('{{ asset('frontend-assets/img/service/WD_bg.jpg') }}')">
-                                            <h2 class="text-center text-orange">Web Development</h2>
+                                            <h3 class="text-center text-orange">Web Development</h3>
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -891,7 +891,7 @@
                                     <div class="col-12">
                                         <div class="service-image rounded-overflow"
                                             style="--background-image: url('{{ asset('frontend-assets/img/service/PM_bg.jpg') }}')">
-                                            <h2 class="text-center text-orange">Performance Marketing</h2>
+                                            <h3 class="text-center text-orange">Performance Marketing</h3>
                                         </div>
                                     </div>
                                     <div class="col-">
@@ -912,7 +912,7 @@
                                     <div class="col-12">
                                         <div class="service-image rounded-overflow"
                                             style="--background-image: url('{{ asset('frontend-assets/img/service/CM_bg.jpg') }}')">
-                                            <h2 class="text-center text-orange">Content Marketing</h2>
+                                            <h3 class="text-center text-orange">Content Marketing</h3>
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -934,7 +934,7 @@
                                     <div class="col-12">
                                         <div class="service-image rounded-overflow"
                                             style="--background-image: url('{{ asset('frontend-assets/img/service/VP_bg.jpg') }}')">
-                                            <h2 class="text-center text-orange">Photography & Video Production</h2>
+                                            <h3 class="text-center text-orange">Photography & Video Production</h3>
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -969,7 +969,7 @@
                                         <div class="col-md-6 col-120">
                                             <div class="service-image rounded-overflow"
                                                 style="--background-image: url('{{ asset('frontend-assets/img/service/DM_bg.jpg') }}')">
-                                                <h2 class="text-center text-orange">Digital Marketing</h2>
+                                                <h3 class="text-center text-orange">Digital Marketing</h3>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-12">
@@ -1001,7 +1001,7 @@
                                         <div class="col-12">
                                             <div class="service-image rounded-overflow"
                                                 style="--background-image: url('{{ asset('frontend-assets/img/service/SM_bg.jpg') }}')">
-                                                <h2 class="text-center text-orange">Social Media Marketing</h2>
+                                                <h3 class="text-center text-orange">Social Media Marketing</h3>
                                             </div>
                                         </div>
                                         <div class="col-12">
@@ -1032,7 +1032,7 @@
                                             <div class="col-12">
                                                 <div class="service-image rounded-overflow"
                                                     style="--background-image: url('{{ asset('frontend-assets/img/service/SEO_bg.jpg') }}')">
-                                                    <h2 class="text-center text-orange">Search Engine Optimization</h2>
+                                                    <h3 class="text-center text-orange">Search Engine Optimization</h3>
                                                 </div>
                                             </div>
                                             <div class="col-12">
@@ -1064,7 +1064,7 @@
                                             <div class="col-12">
                                                 <div class="service-image rounded-overflow"
                                                     style="--background-image: url('{{ asset('frontend-assets/img/service/WD_bg.jpg') }}')">
-                                                    <h2 class="text-center text-orange">Web Development</h2>
+                                                    <h3 class="text-center text-orange">Web Development</h3>
                                                 </div>
                                             </div>
                                             <div class="col-12">
@@ -1098,7 +1098,7 @@
                                             <div class="col-12">
                                                 <div class="service-image rounded-overflow"
                                                     style="--background-image: url('{{ asset('frontend-assets/img/service/PM_bg.jpg') }}')">
-                                                    <h2 class="text-center text-orange">Performance Marketing</h2>
+                                                    <h3 class="text-center text-orange">Performance Marketing</h3>
                                                 </div>
                                             </div>
                                             <div class="col-">
@@ -1132,7 +1132,7 @@
                                             <div class="col-12">
                                                 <div class="service-image rounded-overflow"
                                                     style="--background-image: url('{{ asset('frontend-assets/img/service/CM_bg.jpg') }}')">
-                                                    <h2 class="text-center text-orange">Content Marketing</h2>
+                                                    <h3 class="text-center text-orange">Content Marketing</h3>
                                                 </div>
                                             </div>
                                             <div class="col-12">
@@ -1163,8 +1163,8 @@
                                             <div class="col-12">
                                                 <div class="service-image rounded-overflow"
                                                     style="--background-image: url('{{ asset('frontend-assets/img/service/VP_bg.jpg') }}')">
-                                                    <h2 class="text-center text-orange">Photography & Video Production
-                                                    </h2>
+                                                    <h3 class="text-center text-orange">Photography & Video Production
+                                                    </h3>
                                                 </div>
                                             </div>
                                             <div class="col-12">
@@ -1550,8 +1550,7 @@
                                         <div class="sec-para">
                                             <div class="testimonial-message mb-3 mb-md-4">
                                                 <p class="">
-                                                    Working with SocioMark for about 3 years now. <strong> Lovely people
-                                                        to work with.</strong>.
+                                                    Working with SocioMark for about 3 years now. <strong> Lovely people to work with.</strong>.
                                                 </p>
                                                 <div class="d-none d-md-block">
                                                     They have hardly ever missed any deadlines.The best part about them
@@ -1561,7 +1560,6 @@
                                                     there.They have set benchmarks for others by their creative work
                                                     done for the Road to safety campaign.</strong>
                                                 </div>
-                                                <p></p>
                                             </div>
                                         </div>
                                         <div class="box-wrapp">
@@ -1592,7 +1590,6 @@
                                                     contents. They were easy to work with and were flexible with meeting
                                                     our needs.
                                                 </div>
-                                                <p></p>
                                             </div>
                                         </div>
                                         <div class="box-wrapp">
@@ -1624,7 +1621,7 @@
                                                     worked on our feedbacks we have had a long term engagement with them
                                                     and they are an absolute pleasure to work with!
                                                 </div>
-                                                <p></p>
+
                                             </div>
                                         </div>
                                         <div class="box-wrapp">

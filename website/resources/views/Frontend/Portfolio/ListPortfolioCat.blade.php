@@ -163,7 +163,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="breadcumb-content breadcrumb-light">
-                        <h1 class="breadcumb-title">Portfolios</h1>
+                        <h2 class="breadcumb-title">Portfolios</h2>
                         <ul class="breadcumb-menu">
                             <li><a href="{{ route('home') }}">Home</a></li>
                             <li>Portfolios</li>
@@ -177,13 +177,13 @@
         <div class="container">
             <div class="row">
                 <div class="title-area text-center text-xl-start col-md-4 head-text-div">
-                    <h2 class="sec-title head-text head-mbl-text"
+                    <h1 class="sec-title head-text head-mbl-text"
                         data-aos="fade-right"
                         data-aos-delay="100"
                         data-aos-duration="1000"
                         data-aos-easing="ease-in-out">
                         Don’t hesitate to <span class="text-blue"> contact us</span> for any information.
-                    </h2>
+                    </h1>
                 </div>
                 <div class="text-center text-xl-start col-md-8">
                     <p class="sec-para" data-aos="fade-left"
