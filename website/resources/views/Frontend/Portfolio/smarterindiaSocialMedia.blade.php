@@ -64,14 +64,7 @@
             <h1 class="text-blue sec-title mb-20">Mahindra World City and CNBC-Awaaz presents Smart Cities of India: Jaipur</h1>
             <p class="sec-para"><b>About the Brand:</b> Smart Cities Mission of the Government is a bold, new initiative. It is meant to set examples that can be replicated both within and outside the Smart City, catalyzing the creation of similar Smart Cities in various regions and parts of the country.</p>
             <p class="sec-para"><b>Services Offered:</b> social media creatives, content writing, e-invite, logo design, print design.</p>
-            <div class="th-social">
-                <p class="sec-para"><b>Page Link: </b>
-                    <a href="https://www.facebook.com/CNBCAWAAZREA" target="_blank"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a href="https://twitter.com/CNBCAWAAZREA" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/company/cnbc-awaaz-real-estate-awards/" target="_blank"><i class="fab fa-linkedin"></i></a>
-
-            </div>
+            @include('Frontend.partial.socialMediaLinkInPortfolio')
             <div class="header-button mt-3">
                 <a href="{{ route('smarterIndia') }}" class="th-btn th-icon">READ OUR CASE STUDY</a>
             </div>

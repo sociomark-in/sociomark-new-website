@@ -64,14 +64,7 @@
             <h1 class="text-blue sec-title mb-20">INIFD Vashi</h1>
             <p class="sec-para"><b>About the Brand:</b> An exclusive digitized design institution catering to guiding you through all the aspects of fashion and interior designing.</p>
             <p class="sec-para"><b>Services Offered:</b> Social media Management, Content Writing, Graphic Designs with 2D Animated Videos, ORM, Google Ads, Search Engine Optimization(SEO).</p>
-            <div class="th-social">
-                <p class="sec-para"><b>Page Link: </b>
-                    <a href="https://www.facebook.com/inifdvashifd" target="_blank"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/inifdvashi/" target="_blank"><i class="fab fa-instagram"></i></a>
-
-            </div>
-
+            @include('Frontend.partial.socialMediaLinkInPortfolio')
         </div>
     </div>
 </section>

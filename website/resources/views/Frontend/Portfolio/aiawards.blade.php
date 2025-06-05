@@ -90,7 +90,7 @@
                 <li class="sec-para">Website Development</li>
                 <li class="sec-para">Social Media Management</li>
             </ul>
-
+            @include('Frontend.partial.socialMediaLinkInPortfolio')
 
         </div>
     </div>

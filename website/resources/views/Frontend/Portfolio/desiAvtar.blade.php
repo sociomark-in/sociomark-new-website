@@ -62,7 +62,7 @@
             </ul>
             </p>
 
-
+            @include('Frontend.partial.socialMediaLinkInPortfolio')
         </div>
     </div>
 </section>

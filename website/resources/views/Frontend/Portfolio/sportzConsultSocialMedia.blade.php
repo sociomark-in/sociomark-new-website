@@ -64,14 +64,7 @@
             <h1 class="text-blue sec-title mb-20">Sportz Consult</h1>
             <p class="sec-para"><b>About the Brand:</b> Sportz Consult Is India’s Premier Sports Management Company Based Out Of Mumbai, India. With 100% Focused On Sports, Sportz Consult Are Proud To Have Served India’s Most Popular Brands, Companies, Leagues, Franchises, Federations & Associations.</p>
             <p class="sec-para"><b>Services Offered:</b> Social media creatives, Offline creatives include: Event creatives, Brochure, boards etc. Social media Strategy, Email Design and Management.</p>
-            <div class="th-social">
-                <p class="sec-para"><b>Page Link: </b>
-                    <a href="https://www.facebook.com/sportzvillagexp" target="_blank"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a href="https://twitter.com/sportzvillagexp" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.instagram.com/sportzvillagexp/" target="_blank"><i class="fab fa-instagram"></i></a>
-
-            </div>
+            @include('Frontend.partial.socialMediaLinkInPortfolio')
 
         </div>
     </div>

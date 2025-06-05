@@ -54,7 +54,7 @@ class PortfolioController extends Controller
             })
             ->take(3);
 
-        return view($view, compact('meta', 'relatedClients'));
+        return view($view, compact('meta', 'relatedClients', 'data'));
     }
 
     // public function social_media($client)

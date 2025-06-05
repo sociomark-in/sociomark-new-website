@@ -64,15 +64,7 @@
             <h1 class="text-blue sec-title mb-20">Diageo & Network 18 Presents’ Road to Safety</h1>
             <p class="sec-para"><b>About the Brand:</b> Diageo is a multinational beverage company that comes up with the unique collections of brands across spirit and beer. Diageo in association with Network18 initiates a road to safety campaign that educates the crowd to safe driving. This initiative hopes to inculcate the importance of Road to Safety practices and to contribute in saving lives by educating the citizens.</p>
             <p class="sec-para"><b>Services Offered:</b> Complete Marketing Strategy (Online + Offline), Social Media Management, ORM, Content Writing, Search Engine Optimization(SEO),Social media Ads, Googles Ads, Influencer Activity, Twitter Trending, OOH& Print Design, Website Management.</p>
-            <div class="th-social">
-                <p class="sec-para"><b>Page Link:</b>
-                    <a href="https://www.facebook.com/DiageoRTS18" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/diageorts18/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://twitter.com/DiageoRTS18" target="_blank"><i
-                            class="fa-brands fa-x-twitter"></i></a>
-                    <a href="https://www.linkedin.com/company/road-to-safety-initiative/" target="_blank"><i class="fab fa-linkedin"></i></a>
-
-            </div>
+             @include('Frontend.partial.socialMediaLinkInPortfolio')
             <div class="header-button mt-3">
                 <a href="{{ route('roadtosafetyinitiative') }}" class="th-btn th-icon">READ OUR CASE STUDY</a>
             </div>

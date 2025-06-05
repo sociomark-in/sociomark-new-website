@@ -99,13 +99,7 @@
                 <li class="sec-para">Shoots</li>
                 <li class="sec-para">Content Curation</li>
             </ul>
-            <div class="th-social">
-                <p class="sec-para"><b>Page Link:</b>
-                    <a href="https://www.facebook.com/Ayushakti" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/ayushakti/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://twitter.com/ayushakti_ind" target="_blank"><i
-                            class="fa-brands fa-x-twitter"></i></a>
-            </div>
+            @include('Frontend.partial.socialMediaLinkInPortfolio')
             <div class="mt-3">
                 <a href="{{ route('ayushakti') }}" class="th-btn th-icon">READ OUR CASE STUDY</a>
             </div>

@@ -64,14 +64,7 @@
             <h1 class="text-blue sec-title mb-20">RR Kabel & CNBC-Awaaz Presents’ Real Estate Awards</h1>
             <p class="sec-para"><b>About the Brand:</b> To boost the real estate enthusiasm in India, and reward it’s excellent performances, CNBC-AWAAZ, presents the 13th Real Estate Awards 2018-19 presented by RR Kabel. These awards identify and honor professionals who have envisioned and created marvels in the real estate industry.</p>
             <p class="sec-para"><b>Services Offered:</b> Complete Marketing Strategy (Online + Offline), Social Media Management, Print Design, ORM, Content Writing, Social media Ads, Googles Ads, Website Development & Management, Search Engine Optimization(SEO), Twitter Trending.</p>
-            <div class="th-social">
-                <p class="sec-para"><b>Page Link: </b>
-                    <a href="https://www.facebook.com/CNBCAWAAZREA" target="_blank"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a href="https://twitter.com/CNBCAWAAZREA" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/company/cnbc-awaaz-real-estate-awards/" target="_blank"><i class="fab fa-linkedin"></i></a>
-
-            </div>
+            @include('Frontend.partial.socialMediaLinkInPortfolio')
             <div class="header-button mt-3">
                 <a href="{{ route('realestateawards') }}" class="th-btn th-icon">READ OUR CASE STUDY</a>
             </div>

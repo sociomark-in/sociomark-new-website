@@ -86,15 +86,7 @@
                     <a href="https://www.instagram.com/nodwingaming/" target="_blank"><i
                             class="fa-brands fa-x-twitter"></i></a>
             </div>
-            <div class="th-social">
-                <p class="sec-para"><b>Nodwin Africa Page Link:</b>
-                    <a href="https://www.facebook.com/NODWINGaming" target="_blank"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a href="https://twitter.com/NODWINGamingAF" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.instagram.com/nodwingamingafrica/" target="_blank"><i
-                            class="fa-brands fa-x-twitter"></i></a>
-
-            </div>
+            @include('Frontend.partial.socialMediaLinkInPortfolio')
             </p>
 
             <div class="mt-3">

@@ -53,7 +53,13 @@ return [
             'description' => "Explore how our digital marketing agency in Dubai helped StemRx Bioscience grow online with smart social media strategies and engaging content."
         ],
         'image' => 'frontend-assets/img/clients/stemrx.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/banner/stemrx.jpg'
+        'portfolio-image' => 'frontend-assets/img/work/banner/stemrx.jpg',
+        
+        'social' => [
+            'facebook' => 'https://www.facebook.com/Stemmeticsindia/',
+            'instagram' => 'https://www.instagram.com/p/CzaocQFNEpW/?igsh=MXJqM3I5aGNla3Uxbw%3D%3D',
+            'linkdin' => 'https://in.linkedin.com/company/stemrx-biosciences',
+        ],
     ],
     'nhss' => [
         'industry' => 'education',

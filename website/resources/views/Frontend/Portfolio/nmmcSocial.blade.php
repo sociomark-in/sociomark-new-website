@@ -57,6 +57,7 @@
                 <li class="sec-para">Social Media Management</li>
                 <li class="sec-para">Videography and Events Shoot</li>
             </ul>
+            @include('Frontend.partial.socialMediaLinkInPortfolio')
         </div>
     </div>
 </section>

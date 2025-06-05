@@ -64,13 +64,7 @@
             <h1 class="text-blue sec-title mb-20">Kolkata Rolls</h1>
             <p class="sec-para"><b>About the Brand:</b> Kolkata Rolls is an established brand with its Mouth Watering Rolls and Momo’s. Having Pan India presence of 28 outlets covering 6 states & 9 cities.</p>
             <p class="sec-para"><b>Services Offered:</b> Complete Marketing Strategy (Online + Offline), Social Media Management, ORM, Content Writing, In store branding includes - Flyers, Danglers, Packaging and Website Development</p>
-            <div class="th-social">
-                <p class="sec-para"><b>Page Link: </b>
-                    <a href="https://www.facebook.com/kolkatarolls" target="_blank"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/kolkatarolls/" target="_blank"><i class="fab fa-instagram"></i></a>
-
-            </div>
+            @include('Frontend.partial.socialMediaLinkInPortfolio')
 
         </div>
     </div>

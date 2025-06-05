@@ -67,6 +67,7 @@
             <div class="header-button mt-3">
                 <a href="{{ route('buttondabaodeshbanao') }}" class="th-btn th-icon">READ OUR CASE STUDY</a>
             </div>
+             @include('Frontend.partial.socialMediaLinkInPortfolio')
         </div>
     </div>
 </section>

@@ -59,13 +59,7 @@
                 <li class="sec-para">SEO </li>
                 <li class="sec-para">Performance Marketing (Google Ads & Meta Ads)</li>
             </ul>
-            <div class="th-social">
-                <p class="sec-para"><b>Page Link:</b>
-                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-            </div>
-
+            @include('Frontend.partial.socialMediaLinkInPortfolio')
         </div>
     </div>
 </section>

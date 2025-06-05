@@ -57,7 +57,7 @@
                 <li class="sec-para">Content Creation</li>
                 <li class="sec-para">Search Engine Optimization (SEO)</li>
             </ul>
-
+            @include('Frontend.partial.socialMediaLinkInPortfolio')
         </div>
     </div>
 </section>
