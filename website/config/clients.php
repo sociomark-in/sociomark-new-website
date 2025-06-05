@@ -6,8 +6,8 @@ return [
         'name' => 'Okinawa',
         // 'view' => 'Frontend/Portfolio/okinawaSocial',
         'meta' =>   [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'title' => 'Digital marketing services for Okinawa| Sociomark Portoflio ​',
+            'description' => "Explore how we boosted Okinawa's online visibility through targeted digital marketing, SEO to drive engagement and lead generation."
         ],
         'image' => 'frontend-assets/img/clients/okinawa.jpg'
     ],
@@ -251,7 +251,10 @@ return [
     'bumchums' => [
         'industry' => 'fashion',
         'name' => 'bumchums',
-
+        'meta' => [
+            'title' => 'Creative Campaigns Designed for Bumchums | Sociomark',
+            'description' => "Designed engaging and youth-centric creatives for Bumchums to boost brand appeal, connect with their audience, and enhance social media presence."
+        ],
         'image' => 'frontend-assets/img/clients/bumchums.jpg'
     ],
     'euro' => [
@@ -297,6 +300,10 @@ return [
     'desiavatar' => [
         'industry' => 'fashion',
         'name' => 'Desi Avatar',
+        'meta' => [
+            'title' => 'Digital marketing services for Desi- Avatar| Sociomark​',
+            'description' => "Managed SEO, social media, and creative design for Desi Avatar to enhance brand visibility, drive engagement, and build a strong digital presence."
+        ],
 
         'image' => 'frontend-assets/img/clients/desiavatar.jpg'
     ],
@@ -450,8 +457,8 @@ return [
         'name' => 'Expert 4 Travel',
         'view' => 'Frontend/Portfolio/expert4travelSocial',
         'meta' => [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'title' => 'Digital Marketing for Expert4 Travel | Sociomark​',
+            'description' => "Handled SEO, social media, and creatives for Expert4 Travel to increase online visibility, attract travelers, and grow engagement across platforms."
         ]
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         // 'portfolio-image' => 'frontend-assets/img/work/cyberpwer/Cyberpower.jpg'
@@ -595,8 +602,8 @@ return [
         'name' => 'Network18',
         'view' => 'Frontend/Portfolio/network18Social',
         'meta' => [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'title' => 'Campaign Execution for Network18| Sociomark',
+            'description' => "Executed a high-impact digital campaign for Network18, focusing on creative strategy, audience engagement, and brand amplification across platforms."
         ]
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         // 'portfolio-image' => 'frontend-assets/img/work/mission-insure-india/1.jpg'
@@ -623,8 +630,8 @@ return [
         'name' => 'Patankar Farm',
         'view' => 'Frontend/Portfolio/patankarFarmSocial',
         'meta' => [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'title' => 'Digital Marketing for Patankar Farm| Sociomark​',
+            'description' => "Managed Patankar Farm’s digital marketing, including SEO, social media, and creatives, to boost online reach and connect with health-conscious customers."
         ]
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         // 'portfolio-image' => 'frontend-assets/img/portfolio/nmmc/banner.jpg'
@@ -634,8 +641,8 @@ return [
         'name' => 'Real Estate Awards',
         'view' => 'Frontend/Portfolio/realEstateAwardSocialMedia',
         'meta' => [
-            'title' => 'Real Estate Awards Social Media | Sociomark UAE​',
-            'description' => "Sociomark, a digital marketing agency in UAE, managed the Real Estate Awards’ social media with creative campaigns and strong online audience engagement."
+            'title' => 'Real Estate Awards | Social Media by Sociomark UAE​',
+            'description' => "Explore how Sociomark, a leading digital marketing company, boosted Real Estate Awards' visibility through impactful and engaging social media campaigns."
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/case-study/rea.png'
@@ -752,8 +759,8 @@ return [
         'name' => 'TPC',
         'view' => 'Frontend/Portfolio/tpcSocial',
         'meta' => [
-            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'title' => 'Social Media & Creative Design for TPC | Sociomark​',
+            'description' => "Handled social media and crafted digital creatives for TPC to strengthen brand presence, drive engagement, and maintain a consistent visual identity."
         ]
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         // 'portfolio-image' => 'frontend-assets/img/work/banner/tmc.jpg'
