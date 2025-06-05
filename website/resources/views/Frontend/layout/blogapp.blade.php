@@ -76,7 +76,7 @@
     @include('Frontend/partial/Footer')
     @include('Frontend/partial/jsLinks')
     {{-- This will render all scripts pushed with @push('scripts') --}}
-    @stack('scripts')
+
     <!-- Before </body> -->
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
@@ -129,7 +129,8 @@
         };
     </script>
 
-
+    @stack('script')
+    @yield('custome-script')
 </body>
 
 </html>

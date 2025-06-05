@@ -82,7 +82,7 @@
 <section class="porfolio-text section-margin">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">AI Awards</h2>
+            <h1 class="text-blue sec-title mb-20">AI Awards</h1>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p class="sec-para">The Artificial Intelligence Awards, hosted by Microsoft and Forbes India, recognize remarkable contributions in the <strong>AI industry.</strong> These <strong>awards</strong> celebrate organizations that are driving innovation and creating real-world business impact through the power of AI. It’s a platform that highlights forward-thinking initiatives shaping the future of technology.</p>
             <p class="sec-para"><b>Services Offered:</b> </p>

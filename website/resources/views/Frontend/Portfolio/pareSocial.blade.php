@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/portfolio/pare/banner.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/portfolio/pare/banner.jpg') }}" alt="pare"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -47,7 +47,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Pare</h2>
+            <h1 class="text-blue sec-title mb-20">Pare</h1>
             <p class="sec-para"><b>About the Brand:</b> PARÉ Innovations is a standout name in the <strong>building materials</strong> industry, offering premium solutions tailored for modern architecture. Specializing in advanced <strong>wall and ceiling panels</strong> and facade systems, PARÉ is known for bringing pathbreaking surface technologies to India. With a strong emphasis on design and performance, the brand continues to redefine what’s possible in surface innovation.
             </p>
             <p class="sec-para"><b>Services Offered:</b> Search Engine Optimization (SEO)
@@ -71,19 +71,19 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="ayuhealth" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Ayushakti</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'jivana']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="jivana" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'cyber-power']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="cyber power" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
                 </a>
             </div>

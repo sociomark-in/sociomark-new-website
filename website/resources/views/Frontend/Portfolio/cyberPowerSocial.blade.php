@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/Cyberpower.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/banner/Cyberpower.jpg') }}" alt="cyber power - pick your pc and pay"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -47,12 +47,18 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Cyber Power</h2>
+            <h1 class="text-blue sec-title mb-20">Cyber Power</h1>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p class="sec-para">
-                CyberPowerPC India is more than a gaming PC brand — it’s a creator of immersive gaming experiences. Known for its high-performance machines built with authentic components, expert craftsmanship, and meticulous testing, CyberPowerPC delivers systems that people from the Esports Industry can truly rely on. Each PC is assembled on-site, comes pre-installed with genuine Microsoft Windows, and is supported by full warranties and free on-site service. From casual gamers to competitive pros, CyberPowerPC India ensures every player is always Play Ready—redefining what it means to game with the best. 
+                CyberPowerPC India is more than a <strong>gaming PC</strong> brand — it’s a creator of immersive gaming experiences. Known for its high-performance machines built with authentic components, expert craftsmanship, and meticulous testing, CyberPowerPC delivers <strong>computer systems</strong> that people from the esports industry can truly rely on. Each PC is assembled on-site, comes pre-installed with genuine Microsoft Windows, and is supported by full warranties and free on-site service. From casual gamers to competitive pros, CyberPowerPC India ensures every player is always Play Ready—redefining what it means to game with the best.
             </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
+            <ul>
+                <li class="sec-para">Social media marketing
+                </li>
+                <li class="sec-para">videography and shoots</li>
+                <li class="sec-para">content creation.</li>
+            </ul>
             <div class="th-social">
                 <p class="sec-para"><b>Page Link:</b>
                     <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -75,31 +81,31 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/1.png') }}" alt="cyber power creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/2.png') }}" alt="cyber power creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/3.png') }}" alt="cyber power creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/4.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/4.png') }}" alt="cyber power creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/5.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/5.png') }}" alt="cyber power creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/6.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/6.jpg') }}" alt="cyber power creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/7.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/7.jpg') }}" alt="cyber power creative"
                             srcset="" class="w-100">
                     </div>
                 </div>
@@ -146,15 +152,15 @@
     <div class="container">
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
-            </div>
-            <div class="col lg-4 col-md-4 col-12">
-                <a href="{{ route('social_media', ['client'=>'nodwin-gaming']) }}">
-                <img src="{{ asset('frontend-assets/img/work/nodwin/1.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Nodwin Gaming</b></p>
-                </a>
-            </div>
-           
         </div>
+        <div class="col lg-4 col-md-4 col-12">
+            <a href="{{ route('social_media', ['client'=>'nodwin-gaming']) }}">
+                <img src="{{ asset('frontend-assets/img/work/nodwin/1.jpg') }}" alt="nodwin gaming" srcset="" class="w-100">
+                <p class="sec-para text-center text-blue mt-2"><b>Nodwin Gaming</b></p>
+            </a>
+        </div>
+
+    </div>
     </div>
 </section>
 @endsection

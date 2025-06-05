@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/portfolio/jop/JOP.png') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/portfolio/jop/JOP.png') }}" alt="jop"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -47,17 +47,17 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">JOP</h2>
+            <h1 class="text-blue sec-title mb-20">JOP</h1>
             <p class="sec-para"><b>About the Brand:</b><strong>JOP Palms </strong>is a premium <strong>real estate development</strong> in Rohtak, designed to offer modern comforts amidst peaceful surroundings. Blending contemporary infrastructure with thoughtful planning, JOP Palms aims to redefine <strong>urban living</strong> in the region. With well-laid plots, green landscapes, and future-ready amenities, the project caters to those seeking both investment potential and quality lifestyles. Backed by trusted development standards, JOP Palms is set to become one of Rohtak’s most desirable addresses. </p>
-            <p class="sec-para"><b>Services Offered:</b> 
-                <ul>
-                    <li class="sec-para"> Social Media Management</li>
-                    <li class="sec-para">Performance Marketing </li>
-                  
-                </ul>
+            <p class="sec-para"><b>Services Offered:</b>
+            <ul>
+                <li class="sec-para"> Social Media Management</li>
+                <li class="sec-para">Performance Marketing </li>
+
+            </ul>
             </p>
 
-           
+
         </div>
     </div>
 </section>
@@ -70,23 +70,23 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/jop/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/jop/1.png') }}" alt="jop stella"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/jop/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/jop/2.png') }}" alt="jop the sport city"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/jop/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/jop/3.png') }}" alt="jop palm the sport city - ncr"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/jop/4.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/jop/4.png') }}" alt="jop palm"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/jop/5.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/jop/5.png') }}" alt="jop stella highstreeet"
                             srcset="" class="w-100">
                     </div>
                 </div>
@@ -136,19 +136,19 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="ayushakti" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Ayushakti</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'jivana']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="jivana" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'cyber-power']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="cyber power" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
                 </a>
             </div>

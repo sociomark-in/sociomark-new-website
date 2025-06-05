@@ -477,6 +477,32 @@
                                     </div>
                                 </div>
                             </div>
+                             <div class="accordion-card ">
+                                <div class="accordion-header" id="collapse-item-4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse-4" aria-expanded="false" aria-controls="collapse-4">What are the 5 C's of content marketing?
+                                    </button>
+                                </div>
+                                <div id="collapse-4" class="accordion-collapse collapse "
+                                    aria-labelledby="collapse-item-4" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p class="sec-para-faq">The 5 C’s of content marketing are Clarity, Consistency, Creativity, Customer focus, and Conversion.</p>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="accordion-card ">
+                                <div class="accordion-header" id="collapse-item-5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5"> How to start content marketing?
+                                    </button>
+                                </div>
+                                <div id="collapse-5" class="accordion-collapse collapse "
+                                    aria-labelledby="collapse-item-5" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        <p class="sec-para-faq">Start content marketing by defining your target audience, setting clear goals, and creating valuable content that addresses their needs.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

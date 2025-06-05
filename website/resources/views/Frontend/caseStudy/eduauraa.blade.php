@@ -9,12 +9,14 @@
         background-color: #106c97;
         color: white;
     }
+
     .breadcumb-wrapper {
         margin-top: 4.3rem;
         background-color: #e2e2e2;
         background-size: contain;
     }
-    #portfolioCommon{
+
+    #portfolioCommon {
         background-color: white !important;
     }
 </style>
@@ -26,14 +28,12 @@
     <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/case-study/EDUAURAA.png') }}">
         <div class="container">
             <div class="breadcumb-content">
-               
+
             </div>
         </div>
     </div>
     <div class="container space">
-
-        <!-- <h1 class="sec-title text-blue text-center">StemRx Bioscience: Transforming Market Presence with a 90-Day Game Plan for Success</h1> -->
-
+        <h1 class="sec-title text-blue">Eduauraa </h1>
         <h2 class="mt-4 sub-sec-title text-blue">The Problem:</h2>
         <p class="sec-para">When Eduauraa came to Sociomark, they had two problems:</p>
         <ul>
@@ -91,7 +91,7 @@
                 </td>
             </tr>
         </table>
-        
+
         <h2 class="mt-4 sub-sec-title text-blue">Growth Snapshots:</h2>
         <div class="row">
             <div class="col-6"><img src="{{ asset('frontend-assets/img/case-study/organic1.png') }}" alt=""></div>

@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/stemrx.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/banner/stemrx.jpg') }}" alt="stemrx Bioscience"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -47,10 +47,16 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">StemRx Bioscience</h2>
-            <p class="sec-para"><b>About the Brand:</b> </p>
+            <h1 class="text-blue sec-title mb-20">StemRx Bioscience</h1>
+            <p class="sec-para"><b>About the Brand:</b> StemRx Bioscience is a pioneering healthcare brand focused on advanced, research-driven treatments. With a strong foundation in <strong>regenerative medicine,</strong> it offers innovative solutions that go beyond conventional care. Backed by science and clinical expertise, StemRx provides personalized therapies to support long-term healing. Its work in <strong>cell therapy</strong> is helping redefine recovery across various medical conditions, offering new hope to patients in India and beyond.
+            </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
-            
+            <ul>
+                <li class="sec-para">Search Engine Optimization
+                </li>
+                <li class="sec-para">Social Media Marketing</li>
+            </ul>
+
             <div class="th-social">
                 <p class="sec-para"><b>Page Link:</b>
                     <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -73,31 +79,31 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/stemrx/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/stemrx/1.png') }}" alt="stemrx Bioscience creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/stemrx/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/stemrx/2.png') }}" alt="stemrx Bioscience creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/stemrx/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/stemrx/3.png') }}" alt="stemrx Bioscience creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/stemrx/4.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/stemrx/4.png') }}" alt="stemrx Bioscience creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/stemrx/5.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/stemrx/5.png') }}" alt="stemrx Bioscience creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/stemrx/6.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/stemrx/6.jpg') }}" alt="stemrx Bioscience creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/stemrx/7.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/stemrx/7.jpg') }}" alt="stemrx Bioscience creative"
                             srcset="" class="w-100">
                     </div>
                 </div>
@@ -140,28 +146,51 @@
     </div>
 </section>
 
-<section class="porfolio-text overflow-hidden space ">
+<section class="porfolio-text overflow-hidden space d-none">
     <div class="container">
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'ayu-health']) }}">
-                <img src="{{ asset('frontend-assets/img/work/ayu health/ayu health.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Ayuhealth</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/ayu health/ayu health.jpg') }}" alt="ayu shakti" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Ayuhealth</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
-                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayushakti1.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Ayushkati</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayushakti1.jpg') }}" alt="ayushakti" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Ayushkati</b></p>
                 </a>
             </div>
             <div class="mt-3">
                 <a href="{{ route('ayushakti') }}" class="th-btn th-icon">View Our Porfolio</a>
             </div>
-           
+
         </div>
     </div>
 </section>
+<section class="porfolio-text overflow-hidden space">
+    <div class="container">
+        <div class="row">
+            <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span></h2>
+
+            @forelse($relatedClients as $slug => $client)
+            <div class="col-lg-4 col-md-4 col-12 mb-4">
+                <a href="{{ route('social_media', ['client' => $slug]) }}">
+                    <img src="{{ asset($client['portfolio-image']) }}" alt="{{ $client['name'] }}" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>{{ $client['name'] }}</b></p>
+                </a>
+            </div>
+            @empty
+            <p class="text-center text-muted">No other clients in this industry yet.</p>
+            @endforelse
+
+            <div class="mt-3">
+                <a href="{{ route('portfolio') }}" class="th-btn th-icon">View Our Portfolio</a>
+            </div>
+        </div>
+    </div>
+</section>
+
 @endsection

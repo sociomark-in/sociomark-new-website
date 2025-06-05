@@ -61,8 +61,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-
-            <h2 class="text-blue sec-title">INIFD Vashi</h2>
+            <h1 class="text-blue sec-title mb-20">INIFD Vashi</h1>
             <p class="sec-para"><b>About the Brand:</b> An exclusive digitized design institution catering to guiding you through all the aspects of fashion and interior designing.</p>
             <p class="sec-para"><b>Services Offered:</b> Social media Management, Content Writing, Graphic Designs with 2D Animated Videos, ORM, Google Ads, Search Engine Optimization(SEO).</p>
             <div class="th-social">

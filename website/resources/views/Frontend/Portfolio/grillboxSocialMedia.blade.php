@@ -11,24 +11,24 @@
                         <div class="swiper-slide">
 
                             <div class="col-12">
-                                <img src="{{ asset('frontend-assets/img/work/grill-box/grill1.jpeg') }}" alt=""
+                                <img src="{{ asset('frontend-assets/img/work/grill-box/grill1.jpeg') }}" alt="grill box"
                                     srcset="" class="w-100">
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <img src="{{ asset('frontend-assets/img/work/grill-box/grill2.jpeg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/grill-box/grill2.jpeg') }}" alt="grill box"
                                 srcset="" class="w-100">
                         </div>
                         <div class="swiper-slide">
-                            <img src="{{ asset('frontend-assets/img/work/grill-box/grill3.jpeg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/grill-box/grill3.jpeg') }}" alt="grill box"
                                 srcset="" class="w-100">
                         </div>
                         <div class="swiper-slide">
-                            <img src="{{ asset('frontend-assets/img/work/grill-box/4.jpg') }}" alt="" srcset=""
+                            <img src="{{ asset('frontend-assets/img/work/grill-box/4.jpg') }}" alt="grill box" srcset=""
                                 class="w-100">
                         </div>
                         <div class="swiper-slide">
-                            <img src="{{ asset('frontend-assets/img/work/grill-box/grill5.jpeg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/grill-box/grill5.jpeg') }}" alt="grill box"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -61,7 +61,7 @@
     <section class="porfolio-text overflow-hidden space ">
         <div class="container">
             <div class="row">
-                <h2 class="text-blue sec-title">GrillBox Restaurant</h2>
+                <h1 class="text-blue sec-title mb-20">GrillBox Restaurant</h1>
                 <p class="sec-para"><b>About the Brand:</b> </p>
                 <p class="sec-para">
                     GrillBox is a standout name in the Restaurant sector, offering an elevated take on Experiential dining.
@@ -94,15 +94,15 @@
                 <div class="swiper creativeSwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="{{ asset('frontend-assets/img/portfolio/grillbox/1.png') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/portfolio/grillbox/1.png') }}" alt="grill box Creative"
                                 srcset="" class="w-100">
                         </div>
                         <div class="swiper-slide">
-                            <img src="{{ asset('frontend-assets/img/portfolio/grillbox/2.png') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/portfolio/grillbox/2.png') }}" alt="grill box Creative"
                                 srcset="" class="w-100">
                         </div>
                         <div class="swiper-slide">
-                            <img src="{{ asset('frontend-assets/img/portfolio/grillbox/3.png') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/portfolio/grillbox/3.png') }}" alt="grill box Creative"
                                 srcset="" class="w-100">
                         </div>
 
@@ -153,14 +153,14 @@
 
                 <div class="col lg-4 col-md-4 col-12">
                     <a href="{{ route('social_media', ['client' => 'repute']) }}">
-                        <img src="{{ asset('frontend-assets/img/work/banner/repute.jpg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/work/banner/repute.jpg') }}" alt="repute" srcset=""
                             class="w-100">
                         <p class="sec-para text-center text-blue mt-2"><b>Repute</b></p>
                     </a>
                 </div>
                 <div class="col lg-4 col-md-4 col-12">
                     <a href="{{ route('social_media', ['client' => 'jivana']) }}">
-                        <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="jivana" srcset=""
                             class="w-100">
                         <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
                     </a>

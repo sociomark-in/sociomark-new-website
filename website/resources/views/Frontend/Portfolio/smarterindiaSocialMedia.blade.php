@@ -61,7 +61,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Mahindra World City and CNBC-Awaaz presents Smart Cities of India: Jaipur</h2>
+            <h1 class="text-blue sec-title mb-20">Mahindra World City and CNBC-Awaaz presents Smart Cities of India: Jaipur</h1>
             <p class="sec-para"><b>About the Brand:</b> Smart Cities Mission of the Government is a bold, new initiative. It is meant to set examples that can be replicated both within and outside the Smart City, catalyzing the creation of similar Smart Cities in various regions and parts of the country.</p>
             <p class="sec-para"><b>Services Offered:</b> social media creatives, content writing, e-invite, logo design, print design.</p>
             <div class="th-social">

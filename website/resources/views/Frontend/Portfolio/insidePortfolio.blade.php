@@ -16,13 +16,6 @@
         margin: 0px;
     }
 
-    #brand .sec-para {
-        line-height: 28px !important;
-        font-size: 20px !important;
-        letter-spacing: .10px !important;
-        color: #797E88 !important;
-    }
-
     @media only screen and (max-width: 600px) {
         #brand .contact-head {
             padding: 2rem 0.5rem;
@@ -100,30 +93,26 @@
             </div>
         </div>
     </section>
-    <div class="overflow-hidden space contact-head" id="about-sec1">
+
+    <div class="overflow-hidden space contact-head">
         <div class="container">
-            <div class="row">
-                <div class="title-area text-center col-md-12 head-text-div">
-                    <h1 class="sec-title head-text head-mbl-text" data-aos="fade-right" data-aos-delay="100"
+            <div class="row justify-content-between">
+                <div class="title-area text-center text-xl-start col-md-4 head-text-div mt-1">
+                    <h2 class="sec-title head-text head-mbl-text" data-aos="fade-right" data-aos-delay="100"
                         data-aos-duration="1000" data-aos-easing="ease-in-out">
-                        The <span class="text-blue">Brand Stories</span>   We’ve Shaped
-                    </h1>
+                        Our Work <span class="text-blue">Speaks Louder</span> Than Words
+                    </h2>
                 </div>
-                {{-- <div class="text-center text-xl-start col-md-8">
+                <div class="text-center text-xl-start col-md-8 pl-40">
                     <p class="sec-para" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000"
-                        data-aos-easing="ease-in-out">We identify the most relevant and high-traffic keywords for your
-                        business. Our
-                        team conducts thorough research to understand.</p>
-                    <p class="sec-para" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000"
-                        data-aos-easing="ease-in-out">We identify the most relevant and high-traffic keywords for your
-                        business. Our
-                        team conducts thorough research to understand yourer.</p>
-                </div> --}}
+                        data-aos-easing="ease-in-out">We love what we do, and it shows in our work. Every project is a chance to create something special. Check out the projects we’ve worked on and see how we help brands grow. Our portfolio reflects our passion for creativity and results. Each project tells a unique story of collaboration and success. We’re proud of what we’ve built and excited for what’s next!
+                    </p>
+
+                </div>
             </div>
         </div>
 
     </div>
-
     <div class="brand-sec bg-smoke2 overflow-hidden shape-mockup-wrap" id="brand-list">
         <div class="container">
             <div class="row">

@@ -23,7 +23,7 @@
                         <img src="{{ asset('frontend-assets/img/work/cosplay-genie/3.jpg') }}" alt=""
                             srcset="" class="w-100">
                     </div>
-                    
+
                 </div>
             </div>
             <!-- Link Swiper's CSS -->
@@ -54,7 +54,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Cosplay Genie</h2>
+            <h1 class="text-blue sec-title mb-20">Cosplay Genie</h1>
             <p class="sec-para"><b>About the Brand:</b> CosplayGenie is your one-stop-site to the magical realm of Cosplay. It’s a unique art form about the characters, the craft and your favorite cosplayers!</p>
             <p class="sec-para"><b>Services Offered:</b> Social media Management Content Writing, Script Writing, Graphic Designs with 2D Animated Videos, ORM.</p>
             <div class="th-social">
@@ -63,7 +63,7 @@
                             class="fab fa-facebook-f"></i></a>
                     <a href="https://www.instagram.com/officialcosplaygenie/" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
-            
+
         </div>
     </div>
 </section>

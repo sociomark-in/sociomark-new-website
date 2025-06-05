@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/portfolio/nmmc/banner.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/portfolio/nmmc/banner.jpg') }}" alt="nmmc - swachhata aaj se"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -47,7 +47,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Navi Mumbai Municipal Corporation</h2>
+            <h1 class="text-blue sec-title mb-20">Navi Mumbai Municipal Corporation </h1>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p class="sec-para">
                 The Navi Mumbai Municipal Corporation (NMMC) is a <strong>government organisation</strong> and civic body responsible for the planning, development, and administration of Navi Mumbai. Known for its focus on sustainability, infrastructure, and public welfare, NMMC plays a crucial role in shaping the city’s growth. From smart city and <strong>public administration</strong> initiatives to efficient urban services, the corporation is committed to enhancing the quality of life for its citizens through forward-thinking governance and community-centric solutions.
@@ -69,19 +69,19 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/nmmc/1.jpg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/nmmc/1.jpg') }}" alt="nmmc creative" srcset=""
                             class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/nmmc/2.jpg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/nmmc/2.jpg') }}" alt="nmmc creative" srcset=""
                             class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/nmmc/3.jpg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/nmmc/3.jpg') }}" alt="nmmc creative" srcset=""
                             class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/nmmc/4.jpg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/nmmc/4.jpg') }}" alt="nmmc creative" srcset=""
                             class="w-100">
                     </div>
 
@@ -133,7 +133,7 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'tmc']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/banner/tmc.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/banner/tmc.jpg') }}" alt="tmc" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>TMC</b></p>
                 </a>
             </div>

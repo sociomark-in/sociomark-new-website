@@ -508,26 +508,6 @@
                                 </div>
                             </div>
 
-
-                            <div class="accordion-card ">
-                                <div class="accordion-header" id="collapse-item-5">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-5" aria-expanded="false" aria-controls="collapse-5">Is
-                                        photography part of advertising?
-                                    </button>
-                                </div>
-                                <div id="collapse-5" class="accordion-collapse collapse "
-                                    aria-labelledby="collapse-item-5" data-bs-parent="#faqAccordion">
-                                    <div class="accordion-body">
-                                        <p class="sec-para-faq">Yes, photography is a key part of advertising as it
-                                            visually showcases products, services, or ideas to attract and persuade
-                                            customers. It helps create strong, memorable brand messages.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-
                             <div class="accordion-card ">
                                 <div class="accordion-header" id="collapse-item-6">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"

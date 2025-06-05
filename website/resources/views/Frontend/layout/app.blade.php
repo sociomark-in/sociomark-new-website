@@ -2,10 +2,19 @@
 <html class="no-js" lang="en-ae">
 
 <head>
- 
+
     <title>{!! $meta['title'] ?? 'Sociomark' !!}</title>
     <meta name="description" content="{!!  $meta['description'] ?? 'Sociomark' !!}">
     <meta name="keywords" content="{{ $meta['keywords'] ?? 'Sociomark' }}">
+    @php
+    $canonicalList = config('canonical');
+    $currentPath = request()->getPathInfo(); // returns e.g., /blog
+    @endphp
+
+    @if (array_key_exists($currentPath, $canonicalList))
+    <link rel="canonical" href="{{ $canonicalList[$currentPath] }}" />
+    @endif
+
     @include('Frontend/partial/styleLinks')
     @yield('custome-style')
     @stack('styles')
@@ -79,7 +88,7 @@
     <script>
         $(".showreel-close").on("click", () => {
             $("aside.showreel-fixed").toggleClass('collapsed');
-            if($("aside.showreel-fixed").hasClass('collapsed')){
+            if ($("aside.showreel-fixed").hasClass('collapsed')) {
                 $(".showreel-close").html('<i class="fa-solid fa-expand"></i>');
             } else {
                 $(".showreel-close").html('<i class="fa-solid fa-close"></i>');
@@ -91,7 +100,7 @@
     </main>
     @include('Frontend/partial/Footer')
     @include('Frontend/partial/jsLinks')
-    
+
     {{-- This will render all scripts pushed with @push('scripts') --}}
     @stack('scripts')
     <!-- Before </body> -->

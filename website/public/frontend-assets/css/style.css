@@ -20312,14 +20312,6 @@ span.select2-selection.select2-selection--single:focus {
   background: var(--theme-color);
 }
 
-.blog-item:hover .blog-meta a {
-  color: var(--white-color);
-}
-
-.blog-item:hover .blog-meta i {
-  color: var(--white-color);
-}
-
 .blog-item:hover .box-title {
   color: var(--white-color);
 }

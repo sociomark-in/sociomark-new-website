@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/qubero.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/banner/qubero.jpg') }}" alt="qubero"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -47,7 +47,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Qubero by Nirali BG</h2>
+            <h1 class="text-blue sec-title mb-20">Qubero by Nirali BG</h1>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p class="sec-para">
                 From the house of Nirali BG — a trusted name in the Indian kitchen sink space — Qubero brings over 30 years of expertise into the heart of modern homes. Backed by a legacy of precision, innovation, and craftsmanship, Qubero offers premium-quality, designer solutions crafted to simplify everyday kitchen tasks. With a diverse range of finishes and styles, the brand caters to the evolving needs of the modular furniture segment and seamlessly blends into the aesthetics of the Interior design industry. Thoughtfully designed and built to last, Qubero products are where function meets form.
@@ -82,19 +82,19 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/1.png') }}" alt="qubero Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/3.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/3.jpg') }}" alt="qubero Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/3.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/3.jpg') }}" alt="qubero Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/4.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/qubero/4.jpg') }}" alt="qubero Creative"
                             srcset="" class="w-100">
                     </div>
                    
@@ -145,7 +145,7 @@
 
              <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'bulid-track']) }}">
-                <img src="{{ asset('frontend-assets/img/work/build track/Buildtrack.jpg') }}" alt="" srcset="" class="w-100">
+                <img src="{{ asset('frontend-assets/img/work/build track/Buildtrack.jpg') }}" alt="build track" srcset="" class="w-100">
                 <p class="sec-para text-center text-blue mt-2"><b>BuildTrack</b></p>
                 </a>
             </div>

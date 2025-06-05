@@ -61,7 +61,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">RR Kabel & CNBC-Awaaz Presents’ Real Estate Awards</h2>
+            <h1 class="text-blue sec-title mb-20">RR Kabel & CNBC-Awaaz Presents’ Real Estate Awards</h1>
             <p class="sec-para"><b>About the Brand:</b> To boost the real estate enthusiasm in India, and reward it’s excellent performances, CNBC-AWAAZ, presents the 13th Real Estate Awards 2018-19 presented by RR Kabel. These awards identify and honor professionals who have envisioned and created marvels in the real estate industry.</p>
             <p class="sec-para"><b>Services Offered:</b> Complete Marketing Strategy (Online + Offline), Social Media Management, Print Design, ORM, Content Writing, Social media Ads, Googles Ads, Website Development & Management, Search Engine Optimization(SEO), Twitter Trending.</p>
             <div class="th-social">

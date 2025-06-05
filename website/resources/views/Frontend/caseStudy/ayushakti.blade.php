@@ -15,7 +15,8 @@
         background-color: #e2e2e2;
         background-size: contain;
     }
-    #portfolioCommon{
+
+    #portfolioCommon {
         background-color: white !important;
     }
 </style>
@@ -32,8 +33,8 @@
         </div>
     </div>
     <div class="container space">
-
-        <h2 class="mt-4 sub-sec-title text-blue">Brief:</h2>
+        <h1 class="sec-title text-blue">Ayushaki </h1>
+        <h2 class="mt-4 sub-sec-title text-blue">About the Brand:</h2>
         <p class="sec-para">Ayushakti is an Ayurvedic brand healing chronic diseases naturally since 1987, with the vision and mission to treat people globally with ancient proven solutions.
             The brief given to us was to focus On
         <ul>

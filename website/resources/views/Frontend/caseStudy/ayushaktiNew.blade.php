@@ -33,11 +33,9 @@
         </div>
     </div>
     <div class="container space">
-
-        <h2 class="mt-4 sub-sec-title text-blue">Brief:</h2>
+        <h1 class="sec-title text-blue">Ayushakti </h1>
+        <h2 class="mt-4 sub-sec-title text-blue">About the Brand:</h2>
         <p class="sec-para">With a legacy that dates back to 1987, Ayushakti has emerged as a globally trusted name in the <strong>Ayurvedic wellness</strong> space. Founded by Dr. Smita Pankaj Naram, the brand has built a strong international presence across the USA, Europe, Asia, and beyond. Operating within the broader <strong>healthcare sector,</strong> Ayushakti offers a range of traditional Ayurvedic services including Pulse Reading, Panchakarma detox, Marma therapy, herbal formulations, and personalized lifestyle consultations — all rooted in time-tested healing practices.
-
-
 
         </p>
         <h2 class="mt-4 sub-sec-title text-blue">The Problem</h2>

@@ -47,14 +47,14 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Repute</h2>
+            <h1 class="text-blue sec-title mb-20">Repute</h1>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p class="sec-para">
-                Repute is a trusted name in the <strong>Consumer goods</strong> space, delivering premium-quality offerings designed to elevate daily living. With a focus on <strong>Everyday use products,</strong>  the brand combines thoughtfully sourced ingredients with meticulous craftsmanship to create items that reflect authenticity, reliability, and value. Built on a foundation of integrity and innovation, Repute is committed to enhancing lifestyles through products that are pure, purposeful, and consistently customer-focused.
+                Repute is a trusted name in the <strong>Consumer goods</strong> space, delivering premium-quality offerings designed to elevate daily living. With a focus on <strong>Everyday use products,</strong> the brand combines thoughtfully sourced ingredients with meticulous craftsmanship to create items that reflect authenticity, reliability, and value. Built on a foundation of integrity and innovation, Repute is committed to enhancing lifestyles through products that are pure, purposeful, and consistently customer-focused.
             </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
             <p class="sec-para">
-            Social Media Management
+                Social Media Management
 
             </p>
             <div class="th-social">
@@ -136,20 +136,20 @@
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
 
-            
+
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'jivana']) }}">
-                <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'grill-box']) }}">
-                <img src="{{ asset('frontend-assets/img/work/grill-box/grill3.jpeg') }}" alt="" srcset="" class="w-100">
-                <p class="sec-para text-center text-blue mt-2"><b>Grill Box</b></p>
+                    <img src="{{ asset('frontend-assets/img/work/grill-box/grill3.jpeg') }}" alt="" srcset="" class="w-100">
+                    <p class="sec-para text-center text-blue mt-2"><b>Grill Box</b></p>
                 </a>
             </div>
-           
+
         </div>
     </div>
 </section>

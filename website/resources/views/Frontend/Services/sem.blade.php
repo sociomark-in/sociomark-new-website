@@ -3,6 +3,51 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+@section('custome-style')
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{
+            "@type": "Question",
+            "name": "What is performance marketing?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It involves building and maintaining websites, encompassing aspects like web design, content creation, and coding."
+            }
+        }, {
+            "@type": "Question",
+            "name": "How does performance marketing differ from traditional marketing?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Performance marketing is results-driven and measurable, focusing on ROI, unlike traditional marketing's broader brand awareness goals."
+            }
+        }, {
+            "@type": "Question",
+            "name": "What channels are used in performance marketing?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Common channels include affiliate marketing, search engine marketing (SEM), and social media advertising."
+            }
+        }, {
+            "@type": "Question",
+            "name": "How do I measure performance marketing success?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Success is measured through metrics like cost per acquisition (CPA), return on ad spend (ROAS), and conversion rates."
+            }
+        }, {
+            "@type": "Question",
+            "name": "What is affiliate marketing?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It's a performance-based strategy where affiliates earn commissions by promoting a company's products or services."
+            }
+        }]
+    }
+</script>
+
+@endsection
 @section('content')
 <main id="seo-service">
     <div class="breadcumb-wrapper p-0" style="margin-top: 66px;">
@@ -14,7 +59,7 @@
             </div>
         </div>
     </div>
-    
+
 
     <section class="overflow-hidden mb-md-5 md-2 pt-5" id="about-sec">
         <div class="container">
@@ -393,7 +438,7 @@
     @include('Frontend.partial.clientList')
 
     {{-- Testimonials --}}
-   
+
 
     <div class="overflow-hidden space" id="about-sec6">
         <div class="container">

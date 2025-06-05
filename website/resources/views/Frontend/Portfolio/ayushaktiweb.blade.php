@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/Cyberpower.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/banner/Cyberpower.jpg') }}" alt="ayushakti"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -68,7 +68,7 @@
 <section class="porfolio-text section-margin">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Ayushakti Ayurved</h2>
+            <h1 class="text-blue sec-title mb-20">Ayushakti Ayurved</h1>
             <p class="sec-para"><b>About the Brand:</b> </p>
             <p>
                 With a legacy that dates back to 1987, Ayushakti has emerged as a globally trusted name in the Ayurvedic wellness space. Founded by Dr. Smita Pankaj Naram, the brand has built a strong international presence across the USA, Europe, Asia, and beyond. Operating within the broader healthcare sector, Ayushakti offers a range of traditional Ayurvedic services including Pulse Reading, Panchakarma detox, Marma therapy, herbal formulations, and personalized lifestyle consultations — all rooted in time-tested healing practices.
@@ -102,31 +102,31 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/1.png') }}" alt="ayushakti Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/2.png') }}" alt="ayushakti Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/3.png') }}" alt="ayushakti Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/4.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/4.png') }}" alt="ayushakti Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/5.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/5.png') }}" alt="ayushakti Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/6.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/6.jpg') }}" alt="ayushakti Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/7.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/cyberpower/7.jpg') }}" alt="ayushakti Creative"
                             srcset="" class="w-100">
                     </div>
                 </div>
@@ -175,15 +175,15 @@
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
 
             <div class="col lg-4 col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
+                <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="ayuhealth" srcset="" class="w-100">
                 <p class="sec-para text-center text-blue mt-2"><b>Ayuhealth</b></p>
             </div>
             <div class="col lg-4 col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
+                <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="jivana" srcset="" class="w-100">
                 <p class="sec-para text-center text-blue mt-2"><b>Shehanaz</b></p>
             </div>
             <div class="col lg-4 col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
+                <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="cyber power" srcset="" class="w-100">
                 <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
             </div>
 

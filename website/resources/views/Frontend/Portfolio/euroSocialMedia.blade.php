@@ -10,7 +10,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/euro/Euro.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/euro/Euro.jpg') }}" alt="euro"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -49,15 +49,20 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue">Euro</h2>
-            <p><b>About the Brand:</b> </p>
+            <h1 class="text-blue sec-title mb-20">Euro</h1>
+            <p><b>About the Brand:</b> Euro is a premium brand from the house of Rupa. It is quite a famous brand in India, know to redefine style and functionality in the <strong>innerwear segment.</strong> It is very well known for its designs and fabric. Euro offers products that blend fashion with everyday ease. From vests to trunks, each of the pieces is tailored for modern lifestyles. With a strong focus on <strong>comfort wear,</strong> the brand brings a fresh, confident attitude to daily essentials.
+            </p>
             <p><b>Services Offered:</b> </p>
+            <ul>
+                <li class="sec-para">Social media marketing</li>
+                <li class="sec-para">Instagram Reels</li>
+                <li class="sec-para">product shoots</li>
+            </ul>
             <div class="th-social">
                 <p><b>Page Link:</b>
-                    <a href="https://www.facebook.com/Ayushakti" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/ayushakti/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://twitter.com/ayushakti_ind" target="_blank"><i
-                            class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
             <div class="mt-3 d-none">
                 <a href="#" class="th-btn th-icon">READ OUR CASE STUDY</a>
@@ -74,23 +79,23 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/EURO/Basketball_2.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/EURO/Basketball_2.jpg') }}" alt="euro creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/EURO/Chumbak_1.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/EURO/Chumbak_1.jpg') }}" alt="euro creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/EURO/Comfort redefine.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/EURO/Comfort redefine.jpg') }}" alt="euro creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/EURO/Kartik_2.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/EURO/Kartik_2.jpg') }}" alt="euro creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/EURO/Light effect_Kartik.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/EURO/Light effect_Kartik.jpg') }}" alt="euro creative"
                             srcset="" class="w-100">
                     </div>
                 </div>
@@ -138,15 +143,15 @@
         <div class="row">
             <h2 class="sec-title">Similar Industry,<br><span class="text-blue">We Worked On</span> </h2>
 
-             <div class="col lg-4 col-md-4 col-12">
+            <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'shahenaz']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/banner/Shahenaz.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/banner/Shahenaz.jpg') }}" alt="shahenaz" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Shahenaz</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'sight-optiforecals']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/foresight-opticals/1.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/foresight-opticals/1.jpg') }}" alt="foresight opticals" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Foreesight Opticals</b></p>
                 </a>
             </div>

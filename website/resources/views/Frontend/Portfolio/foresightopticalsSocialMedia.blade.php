@@ -11,24 +11,24 @@
                     <div class="swiper-slide">
 
                     <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/foresight-opticals/1.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/foresight-opticals/1.jpg') }}" alt="Foresight Opticals"
                                 srcset="" class="w-100">
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/foresight-opticals/2.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/foresight-opticals/2.jpg') }}" alt="Foresight Opticals creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/foresight-opticals/3.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/foresight-opticals/3.jpg') }}" alt="Foresight Opticals creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/foresight-opticals/4.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/foresight-opticals/4.jpg') }}" alt="Foresight Opticals creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/foresight-opticals/5.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/foresight-opticals/5.jpg') }}" alt="Foresight Opticals creative"
                             srcset="" class="w-100">
                     </div>
                 </div>
@@ -61,7 +61,7 @@
 <section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
-            <h2 class="text-blue sec-title">Foresight Opticals</h2>
+            <h1 class="text-blue sec-title mb-20">Foresight Opticals </h1>
             <p class="sec-para"><b>About the Brand:</b> They are the first ISO certified optical company with over 15 outlets. They guarantee latest elite fashion with over 100+ international brands of luxury eye wear, lenses and frames.</p>
             <p class="sec-para"><b>Services Offered:</b> Social media Management, Content Writing, Social media Ads, Script Writing, Graphic Designs with 2D Animated Videos, ORM, Offline branding – Print Ads, Standee, In store branding includes - Flyers, Danglers, Brochure, Product sheet etc.</p>
 
@@ -75,13 +75,13 @@
 
              <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'shahenaz']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/banner/Shahenaz.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/banner/Shahenaz.jpg') }}" alt="shahenaz" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Shahenaz</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'euro']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/euro/Euro.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/euro/Euro.jpg') }}" alt="euro" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Euro</b></p>
                 </a>
             </div>

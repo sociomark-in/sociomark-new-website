@@ -43,8 +43,8 @@
         </div>
     </div>
     <div class="container space">
-
-        <h2 class="mt-4 sub-sec-title text-blue">CyberPowerPC - Power Your Play</h2>
+        <h1 class="sec-title text-blue">CyberPowerPC - Power Your Play </h1>
+        <h2 class="mt-4 sub-sec-title text-blue">About the Brand:</h2>
         <p class="sec-para">CyberPowerPC is one of the world’s leading custom gaming PC brands, known for building high-performance desktops that are designed for gamers, creators, and professionals. With a legacy of trust, innovation, and quality, we deliver pre-built and customizable systems powered by the latest hardware — all tested, optimized, and built with precision to ensure an unbeatable gaming experience from day one.
 
 
