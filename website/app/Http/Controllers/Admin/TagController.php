@@ -12,7 +12,7 @@ class TagController extends Controller
     public function index()
     {
         $tags = Tag::all();
-        return view('tags.index', compact('tags'));
+        return view('admin/Pages/Tags/listTag', compact('tags'));
     }
 
     public function create()
@@ -38,9 +38,10 @@ class TagController extends Controller
         return redirect()->route('tags.create')->with('success', 'Tag created successfully!');
     }
 
-    public function edit(Tag $tag)
+    public function edit($id)
     {
-        return view('tags.edit', compact('tag'));
+        $tag = Tag::findOrFail($id);
+        return view('admin/Pages/Tags/editTag', compact('tag'));
     }
 
     public function update(Request $request, Tag $tag)
