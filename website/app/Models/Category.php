@@ -8,9 +8,15 @@ use Illuminate\Support\Str;
 
 class Category extends Model
 {
-   
 
-    protected $fillable = ['category_name', 'description', 'slug'];
+
+    protected $fillable = [
+        'category_name',
+        'description',
+        'slug',
+        'canonicals',
+        'blog_schema',
+    ];
 
     // Automatically set slug on creating category
     protected static function boot()
@@ -21,7 +27,7 @@ class Category extends Model
         });
     }
     public function categories()
-{
-    return $this->belongsToMany(Category::class);
-}
+    {
+        return $this->belongsToMany(Category::class);
+    }
 }

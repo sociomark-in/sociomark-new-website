@@ -107,9 +107,11 @@ class BlogWebController extends Controller
                 'description' => 'Unlock the power of social media with Sociopedia. Explore proven strategies, tips, and trends to boost engagement and grow your brand’s online presence.'
             ];
         }
+        $canonical = $category->canonicals ?: url()->current();
+        $blog_schema = $category->blog_schema;
         // Fetch blogs that contain the category name in the JSON field
         $blogs = Blog::whereJsonContains('categories', (string) $category->id)->paginate(10);
-        return view('Frontend/Blog/CategoryBlog', compact('categories', 'blogs', 'category', 'tags', 'meta'));
+        return view('Frontend/Blog/CategoryBlog', compact('categories', 'blogs', 'category', 'tags', 'meta','canonical', 'blog_schema'));
     }
 
     public function tagBlog($slug)
@@ -124,6 +126,9 @@ class BlogWebController extends Controller
             'title' => 'SEO Strategies & Tips | Sociopedia Blog',
             'description' => 'Master the art of SEO with Sociopedia. Get expert advice, latest trends, and actionable tips to improve your website’s ranking and drive organic traffic.'
         ];
-        return view('Frontend/Blog/CategoryBlog', compact('categories', 'blogs', 'tag', 'tags', 'meta'));
+        $canonical = $tag->canonicals ?: url()->current();
+        $blog_schema = $tag->blog_schema;
+        
+        return view('Frontend/Blog/CategoryBlog', compact('categories', 'blogs', 'tag', 'tags', 'meta','canonical', 'blog_schema'));
     }
 }

@@ -24,11 +24,15 @@ class TagController extends Controller
     {
         $request->validate([
             'name' => 'required|unique:tags,name',
+            'canonicals' => 'url|nullable',
+            'blog_schema' => 'string|nullable',
         ]);
 
         Tag::create([
             'name' => $request->name,
             'slug' => Str::slug($request->name),
+            'canonicals' => $request->canonicals,
+            'blog_schema' => $request->blog_schema,
         ]);
 
         return redirect()->route('tags.create')->with('success', 'Tag created successfully!');
@@ -43,11 +47,15 @@ class TagController extends Controller
     {
         $request->validate([
             'name' => 'required|unique:tags,name,' . $tag->id,
+            'canonicals' => 'url|nullable',
+            'blog_schema' => 'string|nullable',
         ]);
 
         $tag->update([
             'name' => $request->name,
             'slug' => Str::slug($request->name),
+            'canonicals' => $request->canonicals,
+            'blog_schema' => $request->blog_schema,
         ]);
 
         return redirect()->route('tags.index')->with('success', 'Tag updated successfully!');

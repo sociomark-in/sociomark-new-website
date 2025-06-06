@@ -10,18 +10,18 @@
 
                     {{-- Success Message --}}
                     @if (session('success'))
-                        <div class="alert alert-success">{{ session('success') }}</div>
+                    <div class="alert alert-success">{{ session('success') }}</div>
                     @endif
 
                     {{-- Validation Errors --}}
                     @if ($errors->any())
-                        <div class="alert alert-danger">
-                            <ul>
-                                @foreach ($errors->all() as $error)
-                                    <li>{{ $error }}</li>
-                                @endforeach
-                            </ul>
-                        </div>
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
                     @endif
 
                     <!-- Tag Form -->
@@ -34,6 +34,14 @@
                         <div class="mb-3">
                             <label>Slug</label>
                             <input type="text" name="slug" id="slug" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label>canonical</label>
+                            <input type="url" name="canonicals" id="canonicals" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label>Schema</label>
+                            <input type="text" name="blog_schema" id="blog_schema" class="form-control">
                         </div>
 
                         <button type="submit" class="btn btn-success">Save</button>
