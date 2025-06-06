@@ -149,8 +149,7 @@
             </div>
 
             <div class="row">
-                <h2 class="mt-4 sub-sec-title text-blue">We Created A Store Front on Amazon
-                </h2>
+                <h2 class="mt-4 sub-sec-title text-blue">We Created A Store Front on Amazon</h2>
                 <ul>
                     <li class="sec-para">Creation of Amazon Store Front increased the online presence of business, customer
                         reach and sales growth.</li>
@@ -158,6 +157,14 @@
                 </ul>
                 <div class="col-12 text-center">
                     <img src="{{ asset('frontend-assets/img/case-study/stemrx/store_front_amaz.webp') }}" alt=""
+                        class="img-border">
+                </div>
+            </div>
+            <div class="row">
+                <h2 class="mt-4 sub-sec-title text-blue text-center">We Created A+ Listings on Amazon
+                </h2>
+                <div class="col-12 text-center">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/a_plus_amaz.webp') }}" alt=""
                         class="img-border">
                 </div>
             </div>
