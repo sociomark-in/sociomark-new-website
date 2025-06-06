@@ -1,17 +1,9 @@
 @extends('Frontend.layout.app')
 @section('content')
 <main id="industries">
-    {{-- <section>
-            <div class="full-width">
-                <picture>
-                    <source media="(min-width: 1400px)" srcset="https://placehold.co/1920x900">
-                    <img src="https://placehold.co/1080x1080" alt="">
-                </picture>
-            </div>
-        </section> --}}
     <section class="p-0" style="margin-top: 66px;">
         <div class="full-width">
-            <img src="{{ asset('frontend-assets/img/industry/Education.png') }}" alt="" srcset="" class="w-100" loading="lazy">
+            <img src="{{ asset('frontend-assets/img/industry/Education.png') }}" alt="education industry" srcset="" class="w-100" loading="lazy">
         </div>
     </section>
     <section class="py-md-5 py-4" id="about-sec">
@@ -63,14 +55,13 @@
     </section>
 
     {{-- Counters --}}
-    <section class="overflow-hidden space counters d-none">
+    <!-- <section class="overflow-hidden space counters d-none">
         <div class="container">
             <div class="row mb-4">
                 <div class="col-12">
                     <div class="title-area text-center">
                         <div class="shadow-title">Achievements</div>
                         <span class="sub-title sub-title4">Lorem, ipsum.<span></span></span>
-                        {{-- <h2 class="sec-title ">Lorem ipsum <span class="text-blue">dolor sit amet.</span></h2> --}}
                     </div>
                 </div>
             </div>
@@ -124,14 +115,12 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     {{-- Testimonials --}}
     <section class="space-bottom overflow-hidden arrow-wrap space bg-grey">
         <div class="container">
             <div class="title-area text-center">
-                <!-- <div class="shadow-title">Testimonials</div> -->
-                <!-- <span class="sub-title sub-title4 mb-4 mb-md-5">Testimonials<span></span></span> -->
                 <h2 class="sec-title  ">What <span class="text-blue">Our Clients Say</span> About Us?</h2>
             </div>
             <div class="slider-area testi-box-area">
@@ -182,13 +171,13 @@
         </div>
     </section>
 
-    <section class="overflow-hidden bg-smoke2 space d-none">
+    <!-- <section class="overflow-hidden bg-smoke2 space d-none">
         <div class="container">
             <div class="row gy-5 align-items-end">
                 <div class="col-xl-6">
                     <div class="">
                         <div class="title-area mb-35">
-                            {{-- <div class="shadow-title style3">Choose Us</div> --}}
+                        
                             <span class="sub-title sub-title4 style1 mb-4 mb-md-5">Why Choose Us</span>
                             <h2 class="sec-title ">Your Trusted Partner for <span class="text-blue">Global Digital
                                     Success</span></h2>
@@ -375,7 +364,7 @@
                     </div> --}}
             </div>
         </div>
-    </section>
+    </section> -->
 
     {{-- Clients Portfolio --}}
     <section class="overflow-hidden space garally" id="portfolio-sec">
@@ -407,7 +396,7 @@
                 <button data-filter=".cat6" class="tab-btn" type="button">Production & Photography</button>
 
             </div>
-            <div class="portfolio-area d-none" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1200">
+            <!-- <div class="portfolio-area d-none" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1200">
                 <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
                     <div class="col-md-3 col-6 col-xl-auto filter-item cat4 cat6">
                         <a target="_blank" href="javascript:void(0);" class="project-item d-block">
@@ -482,9 +471,7 @@
                         </a>
                     </div>
                 </div>
-                <!-- <div class="project-btn mt-60"><a target="_blank" href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
-                                                            </div> -->
-            </div>
+            </div> -->
         </div>
     </section>
 
