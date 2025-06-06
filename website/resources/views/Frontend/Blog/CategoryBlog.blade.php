@@ -1,5 +1,4 @@
-@extends('Frontend.layout.blogapp')
-
+@extends('Frontend.layout.app')
 @section('custome-style')
 <style>
     #Blog_Section .box {

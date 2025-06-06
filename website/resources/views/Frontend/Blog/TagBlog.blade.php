@@ -1,10 +1,4 @@
-@extends('Frontend.layout.blogapp')
-@section('schema')
-<script type="application/ld+json">
- {!! $tag->blog_schema !!}
-</script>
-@endsection
-
+@extends('Frontend.layout.app')
 @section('custome-style')
 <style>
     #Blog_Section .box {
