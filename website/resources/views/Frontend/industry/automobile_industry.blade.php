@@ -3,7 +3,7 @@
 <main id="industries">
     <section class="p-0" style="margin-top: 66px;">
         <div class="full-width">
-            <img src="{{ asset('frontend-assets/img/industry/Automobile.png') }}" alt="" srcset="" class="w-100" loading="lazy">
+            <img src="{{ asset('frontend-assets/img/industry/Automobile.png') }}" alt="automobile industry" srcset="" class="w-100" loading="lazy">
         </div>
     </section>
     <section class="py-md-5 py-4" id="about-sec">
@@ -67,7 +67,7 @@
                 <div class="row justify-content-around">
                     <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
                         <div class="counter-box">
-                            <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60" alt=""></div>
+                            <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60" alt="organic traffic"></div>
                             <h3 class="box-number"><span class="counter-number">70</span>K<sup>+</sup></h3>
                             <div class="media-body">
                                 <p class=" counter-text mb-n1">Organic Traffic</p>
@@ -76,7 +76,7 @@
                     </div>
                     <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
                         <div class="counter-box">
-                            <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60" alt=""></div>
+                            <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60" alt="organic Keywords"></div>
                             <h3 class="box-number"><span class="counter-number">20</span>K<sup>+</sup></h3>
                             <div class="media-body">
                                 <p class=" counter-text mb-n1">Organic Keywords</p>
@@ -85,7 +85,7 @@
                     </div>
                     <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
                         <div class="counter-box">
-                            <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60" alt=""></div>
+                            <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60" alt="organic reach"></div>
                             <h3 class="box-number"><span class="counter-number">35</span>K<sup>+</sup></h3>
                             <div class="media-body">
                                 <p class=" counter-text mb-n1">Organic Reach</p>
@@ -94,7 +94,7 @@
                     </div>
                     <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
                         <div class="counter-box">
-                            <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60" alt=""></div>
+                            <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60" alt="engagement"></div>
                             <h3 class="box-number"><span class="counter-number">20</span>K<sup>+</sup></h3>
                             <div class="media-body">
                                 <p class=" counter-text mb-n1">Engagement</p>
@@ -103,7 +103,7 @@
                     </div>
                     <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
                         <div class="counter-box">
-                            <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60" alt=""></div>
+                            <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60" alt="video views"></div>
                             <h3 class="box-number"><span class="counter-number">40</span>K<sup>+</sup></h3>
                             <div class="media-body">
                                 <p class=" counter-text mb-n1">Video Views</p>
@@ -118,13 +118,13 @@
     {{-- Testimonials --}}
 
 
-    <section class="overflow-hidden bg-smoke2 space d-none">
+    <!-- <section class="overflow-hidden bg-smoke2 space d-none">
         <div class="container">
             <div class="row gy-5 align-items-end">
                 <div class="col-xl-6">
                     <div class="">
                         <div class="title-area mb-35">
-                            {{-- <div class="shadow-title style3">Choose Us</div> --}}
+                          
                             <span class="sub-title sub-title4 style1 mb-4 mb-md-5">Why Choose Us</span>
                             <h2 class="sec-title ">Your Trusted Partner for <span class="text-blue">Global Digital
                                     Success</span></h2>
@@ -311,7 +311,7 @@
                     </div> --}}
             </div>
         </div>
-    </section>
+    </section> -->
 
     {{-- Clients Portfolio --}}
     <section class="overflow-hidden space garally" id="portfolio-sec">
