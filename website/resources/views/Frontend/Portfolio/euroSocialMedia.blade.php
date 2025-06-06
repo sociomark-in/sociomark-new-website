@@ -50,9 +50,9 @@
     <div class="container">
         <div class="row">
             <h1 class="text-blue sec-title mb-20">Euro</h1>
-            <p><b>About the Brand:</b> Euro is a premium brand from the house of Rupa. It is quite a famous brand in India, know to redefine style and functionality in the <strong>innerwear segment.</strong> It is very well known for its designs and fabric. Euro offers products that blend fashion with everyday ease. From vests to trunks, each of the pieces is tailored for modern lifestyles. With a strong focus on <strong>comfort wear,</strong> the brand brings a fresh, confident attitude to daily essentials.
+            <p class="sec-para"><b>About the Brand:</b> <br> Euro is a premium brand from the house of Rupa. It is quite a famous brand in India, know to redefine style and functionality in the <strong>innerwear segment.</strong> It is very well known for its designs and fabric. Euro offers products that blend fashion with everyday ease. From vests to trunks, each of the pieces is tailored for modern lifestyles. With a strong focus on <strong>comfort wear,</strong> the brand brings a fresh, confident attitude to daily essentials.
             </p>
-            <p><b>Services Offered:</b> </p>
+            <p class="sec-para"><b>Services Offered:</b> </p>
             <ul>
                 <li class="sec-para">Social media marketing</li>
                 <li class="sec-para">Instagram Reels</li>

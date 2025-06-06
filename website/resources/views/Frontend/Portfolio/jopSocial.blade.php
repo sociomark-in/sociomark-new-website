@@ -48,7 +48,7 @@
     <div class="container">
         <div class="row">
             <h1 class="text-blue sec-title mb-20">JOP</h1>
-            <p class="sec-para"><b>About the Brand:</b><strong>JOP Palms </strong>is a premium <strong>real estate development</strong> in Rohtak, designed to offer modern comforts amidst peaceful surroundings. Blending contemporary infrastructure with thoughtful planning, JOP Palms aims to redefine <strong>urban living</strong> in the region. With well-laid plots, green landscapes, and future-ready amenities, the project caters to those seeking both investment potential and quality lifestyles. Backed by trusted development standards, JOP Palms is set to become one of Rohtak’s most desirable addresses. </p>
+            <p class="sec-para"><b>About the Brand:</b> <br> <strong>JOP Palms </strong>is a premium <strong>real estate development</strong> in Rohtak, designed to offer modern comforts amidst peaceful surroundings. Blending contemporary infrastructure with thoughtful planning, JOP Palms aims to redefine <strong>urban living</strong> in the region. With well-laid plots, green landscapes, and future-ready amenities, the project caters to those seeking both investment potential and quality lifestyles. Backed by trusted development standards, JOP Palms is set to become one of Rohtak’s most desirable addresses. </p>
             <p class="sec-para"><b>Services Offered:</b>
             <ul>
                 <li class="sec-para"> Social Media Management</li>

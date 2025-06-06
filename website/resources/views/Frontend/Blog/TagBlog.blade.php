@@ -1,9 +1,7 @@
 @extends('Frontend.layout.blogapp')
 @section('schema')
 <script type="application/ld+json">
-    {
-        !!$tag - > blog_schema!!
-    }
+    {!!$tag -> blog_schema!!}
 </script>
 @endsection
 @section('custome-style')

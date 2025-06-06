@@ -688,7 +688,7 @@ return [
         'portfolio-image' => 'frontend-assets/img/case-study/smarter-logo.png'
     ],
     'sportz-consult' => [
-        // 'industry' => 'gaming',
+        'industry' => 'gaming',
         'name' => 'Sportz Consult',
         'view' => 'Frontend/Portfolio/sportzConsultSocialMedia',
         'meta' => [

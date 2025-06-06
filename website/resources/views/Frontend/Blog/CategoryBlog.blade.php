@@ -5,9 +5,7 @@
 
 @section('schema')
 <script type="application/ld+json">
-    {
-        !!$blog_schema!!
-    }
+    {!!$blog_schema!!}
 </script>
 @endsection
 
