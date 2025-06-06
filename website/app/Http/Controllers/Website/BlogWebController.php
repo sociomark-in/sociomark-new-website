@@ -79,21 +79,42 @@ class BlogWebController extends Controller
     {
         // Find the category by slug
         $category = Category::where('slug', $slug)->firstOrFail();
+
+        // Get all categories and tags
         $categories = Category::all();
         $tags = Tag::all();
-        $canonical = $category->canonicals ?: url()->current();
-        $blog_schema = $category->blog_schema;
-        // Fetch blogs that contain the category name in the JSON field
-        $blogs = Blog::whereJsonContains('categories', (string) $category->id)->paginate(10);
-        return view('Frontend/Blog/CategoryBlog', compact('categories', 'blogs', 'category', 'tags', 'canonical', 'blog_schema'));
-    }
+        $otherBlogs = Blog::where('status', 'active')->paginate(4);
 
+        // 🔽 Tell Laravel to generate pretty pagination URLs like /blog/page2
+        $otherBlogs->withPath(url('/blog/page'));
+        // Canonical and schema (from DB columns)
+        $canonical = $category->canonicals ?: url()->current(); // use fallback
+        $blog_schema = $category->blog_schema;
+
+        // Blogs under the selected category
+        $blogs = Blog::whereJsonContains('categories', (string) $category->id)->paginate(10);
+
+        // Pass everything to the view
+        return view('Frontend.Blog.CategoryBlog', compact(
+            'categories',
+            'blogs',
+            'otherBlogs',
+            'category',
+            'tags',
+            'canonical',
+            'blog_schema'
+        ));
+    }
     public function tagBlog($slug)
     {
         // Find the category by slug
         $tag = Tag::where('slug', $slug)->firstOrFail();
         $categories = Category::all();
         $tags = Tag::all();
+        $otherBlogs = Blog::where('status', 'active')->paginate(4);
+
+        // 🔽 Tell Laravel to generate pretty pagination URLs like /blog/page2
+        $otherBlogs->withPath(url('/blog/page'));
         // Fetch blogs that contain the category name in the JSON field
         $blogs = Blog::whereJsonContains('tags', (string) $tag->id)->paginate(2);
         $meta = [
@@ -102,6 +123,6 @@ class BlogWebController extends Controller
         ];
         $canonical = $tag->canonicals ?: url()->current();
         $blog_schema = $tag->blog_schema;
-        return view('Frontend/Blog/CategoryBlog', compact('categories', 'blogs', 'tag', 'tags', 'meta'));
+        return view('Frontend/Blog/TagBlog', compact('categories', 'blogs', 'tag', 'tags', 'meta', 'otherBlogs'));
     }
 }

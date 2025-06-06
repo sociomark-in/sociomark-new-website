@@ -6,10 +6,10 @@
     <nav class="page-breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Tables</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Category Table</li>
+            <li class="breadcrumb-item active" aria-current="page">Tag Table</li>
         </ol>
            <div>
-            <a href="{{ route('tags.create') }}" class="btn btn-success">Add Category</a>
+            <a href="{{ route('tags.create') }}" class="btn btn-success">Add Tag</a>
         </div>
     </nav>
 
@@ -17,13 +17,13 @@
         <div class="col-md-12 grid-margin stretch-card">
             <div class="card">
                 <div class="card-body">
-                    <h6 class="card-title">Category Table</h6>
+                    <h6 class="card-title">Tag Table</h6>
                     <!-- <p class="text-secondary mb-3">Read the <a href="https://datatables.net/" target="_blank"> Official DataTables Documentation </a>for a full list of instructions and other options.</p> -->
                     <div class="table-responsive">
                         <table id="dataTableExample" class="table">
                             <thead>
                                 <tr>
-                                    <th>Category Title</th>
+                                    <th>Tag Title</th>
                                     <th>canonicals</th>
                                     <th>Date</th>
                                     <th>Action</th>

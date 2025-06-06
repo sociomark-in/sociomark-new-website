@@ -1,7 +1,13 @@
 @extends('Frontend.layout.blogapp')
+@section('canonical')
+<link rel="canonical" href="{{ $canonical }}" />
+@endsection
+
 @section('schema')
 <script type="application/ld+json">
-{!! $blog_schema !!}
+    {
+        !!$blog_schema!!
+    }
 </script>
 @endsection
 
@@ -103,9 +109,9 @@
             <div class="row">
                 <div class="col-xxl-8 col-lg-8">
                     <div class="row">
-                       
+
                         @foreach($blogs as $blog)
-                         @if ($blog->status == 'active')
+                        @if ($blog->status == 'active')
                         <div class="col-md-6" data-category="{{ implode(', ', $blog->category_names) ?: 'No Category' }}">
 
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
@@ -129,35 +135,46 @@
                         </div>
                         @endif
                         @endforeach
-                      
+
                     </div>
-                    <div class="th-pagination">
+                    <div class="th-pagination ">
                         <ul>
                             {{-- Previous Page Link --}}
-                            @if ($blogs->onFirstPage())
+                            @if ($otherBlogs->onFirstPage())
                             <li class="disabled"><span>«</span></li>
                             @else
-                            <li><a href="{{ $blogs->previousPageUrl() }}" rel="prev">«</a></li>
+                            @php
+                            $prevPage = $otherBlogs->currentPage() - 1;
+                            $prevUrl = $prevPage == 1 ? route('blog') : route('blog.page', ['page' => $prevPage]);
+                            @endphp
+                            <li><a href="{{ $prevUrl }}" rel="prev">«</a></li>
                             @endif
 
                             {{-- Pagination Elements --}}
-                            @foreach ($blogs->getUrlRange(1, $blogs->lastPage()) as $page => $url)
-                            @if ($page == $blogs->currentPage())
-                            <li class="active"><span>{{ $page }}</span></li>
-                            @else
-                            <li><a href="{{ $url }}">{{ $page }}</a></li>
-                            @endif
-                            @endforeach
+                            @for ($page = 1; $page <= $otherBlogs->lastPage(); $page++)
+                                @if ($page == $otherBlogs->currentPage())
+                                <li class="active"><span>{{ $page }}</span></li>
+                                @else
+                                <li>
+                                    <a href="{{ $page == 1 ? route('blog') : route('blog.page', ['page' => $page]) }}">
+                                        {{ $page }}
+                                    </a>
+                                </li>
+                                @endif
+                                @endfor
 
-                            {{-- Next Page Link --}}
-                            @if ($blogs->hasMorePages())
-                            <li><a href="{{ $blogs->nextPageUrl() }}" rel="next">»</a></li>
-                            @else
-                            <li class="disabled"><span>»</span></li>
-                            @endif
+                                {{-- Next Page Link --}}
+                                @if ($otherBlogs->hasMorePages())
+                                @php
+                                $nextPage = $otherBlogs->currentPage() + 1;
+                                $nextUrl = route('blog.page', ['page' => $nextPage]);
+                                @endphp
+                                <li><a href="{{ $nextUrl }}" rel="next">»</a></li>
+                                @else
+                                <li class="disabled"><span>»</span></li>
+                                @endif
                         </ul>
                     </div>
-
                 </div>
                 <div class="col-xxl-4 col-lg-4">
                     <aside class="sidebar-area">
@@ -175,7 +192,7 @@
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
                                 @foreach ($blogs->take(3) as $blog)
-                                 @if ($blog->status == 'active')
+                                @if ($blog->status == 'active')
                                 <div class="recent-post">
                                     <div class="media-img recent_blog_img">
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">

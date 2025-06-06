@@ -5,7 +5,11 @@
     <title>{{ $meta['meta_title'] ?? 'Sociomark' }}</title>
     <meta name="description" content="{{ $meta['meta_desciption'] ?? 'Sociomark blog page' }}">
 
-    <link rel="canonical" href="{{ $canonical }}" />
+    @hasSection('canonical')
+    @yield('canonical')
+    @else
+    <link rel="canonical" href="{{ url()->current() }}">
+    @endif
     @yield('schema')
 
     @include('Frontend/partial/styleLinks')

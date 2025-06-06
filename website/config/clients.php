@@ -12,7 +12,7 @@ return [
         'image' => 'frontend-assets/img/clients/okinawa.jpg'
     ],
     'bem' => [
-        'industry' => 'automobile',
+        'industry' => 'logistics',
         'name' => 'bem',
         'view' => 'Frontend/Portfolio/bemSocial',
         'meta' =>   [
@@ -365,7 +365,7 @@ return [
         ],
     ],
     'ai-awards' => [
-        // 'industry' => 'gaming',
+        'industry' => 'real-estate',
         'name' => 'AI Awards',
         'view' => 'Frontend/Portfolio/aiawards',
         'meta' => [
@@ -376,7 +376,7 @@ return [
         'portfolio-image' => 'frontend-assets/img/work/ai-awards/1.jpg'
     ],
     'adi-arogyam' => [
-        // 'industry' => 'gaming',
+        'industry' => 'gaming', // no clue
         'name' => 'Adi Arogyam',
         'view' => 'Frontend/Portfolio/adiArogyamSocial',
         'meta' => [
@@ -387,7 +387,7 @@ return [
         'portfolio-image' => 'frontend-assets/img/work/banner/adi_arogyam.png'
     ],
     'button-dabao-desh-banao' => [
-        // 'industry' => 'gaming',
+        'industry' => 'news-media',
         'name' => 'Button Dabao Desh Banao',
         'view' => 'Frontend/Portfolio/buttonbabaoDeshBanaoSocialMedia',
         'meta' => [
@@ -409,7 +409,7 @@ return [
         // 'portfolio-image' => 'frontend-assets/img/case-study/bddb.png'
     ],
     'castrol' => [
-        // 'industry' => 'gaming',
+        'industry' => 'gaming',
         'name' => 'Castrol',
         'view' => 'Frontend/Portfolio/castrolSocialMedia',
         'meta' => [
@@ -420,7 +420,7 @@ return [
         'portfolio-image' => 'frontend-assets/img/work/castrol/1.jpg'
     ],
     'cosplay-genie' => [
-        // 'industry' => 'gaming',
+        'industry' => 'fashion',
         'name' => 'Casplay Genie',
         'view' => 'Frontend/Portfolio/cosplayGenieSocialMedia',
         'meta' => [
@@ -431,7 +431,7 @@ return [
         'portfolio-image' => 'frontend-assets/img/work/cosplay-genie/1.jpg'
     ],
     'cyber-power' => [
-        // 'industry' => 'gaming',
+        'industry' => 'gaming',
         'name' => 'Cyber power',
         'view' => 'Frontend/Portfolio/cyberPowerSocial',
         'meta' => [
@@ -442,7 +442,7 @@ return [
         'portfolio-image' => 'frontend-assets/img/work/cyberpwer/Cyberpower.jpg'
     ],
     'desi-avtar' => [
-        // 'industry' => 'gaming',
+        'industry' => 'gaming',
         'name' => 'Desi Avtar',
         'view' => 'Frontend/Portfolio/desiAvtar',
         'meta' => [
@@ -453,7 +453,7 @@ return [
         // 'portfolio-image' => 'frontend-assets/img/work/cyberpwer/Cyberpower.jpg'
     ],
     'expert-4-travel' => [
-        // 'industry' => 'gaming',
+        'industry' => 'gaming',
         'name' => 'Expert 4 Travel',
         'view' => 'Frontend/Portfolio/expert4travelSocial',
         'meta' => [
@@ -464,7 +464,7 @@ return [
         // 'portfolio-image' => 'frontend-assets/img/work/cyberpwer/Cyberpower.jpg'
     ],
     'foresight-opticals' => [
-        // 'industry' => 'gaming',
+        'industry' => 'gaming',
         'name' => 'Foresight Opticals',
         'view' => 'Frontend/Portfolio/foresightopticalsSocialMedia',
         'meta' => [
@@ -475,7 +475,7 @@ return [
         'portfolio-image' => 'frontend-assets/img/work/foresight-opticals/1.jpg'
     ],
     'grill-box' => [
-        // 'industry' => 'gaming',
+        'industry' => 'gaming',
         'name' => 'Grill Box',
         'view' => 'Frontend/Portfolio/grillboxSocialMedia',
         'meta' => [
@@ -492,7 +492,7 @@ return [
         ],
     ],
     'hollywood-opticians' => [
-        // 'industry' => 'gaming',
+        'industry' => 'gaming',
         'name' => 'Hollywood Opticians',
         'view' => 'Frontend/Portfolio/hollywoodopticiansSocialMedia',
         'meta' => [
@@ -503,7 +503,7 @@ return [
         'portfolio-image' => 'frontend-assets/img/work/hollywood-opticians/1.jpg'
     ],
     'inifd-vashi' => [
-        // 'industry' => 'gaming',
+        'industry' => 'gaming',
         'name' => 'Inifd vashi',
         'view' => 'Frontend/Portfolio/inifdvashiSocialMedia',
         'meta' => [
@@ -520,7 +520,7 @@ return [
         ],
     ],
     'ism' => [
-        // 'industry' => 'gaming',
+        'industry' => 'education',
         'name' => 'ISM',
         'view' => 'Frontend/Portfolio/ismSocial',
         'meta' => [
@@ -537,7 +537,7 @@ return [
         ],
     ],
     'kolkata-rolls' => [
-        // 'industry' => 'gaming',
+        'industry' => 'gaming',
         'name' => 'Kolkata Rolls',
         'view' => 'Frontend/Portfolio/kolkatarollsSocialMedia',
         'meta' => [
@@ -548,7 +548,7 @@ return [
         'portfolio-image' => 'frontend-assets/img/work/kolkata-rolls/1.jpg'
     ],
     'lime' => [
-        // 'industry' => 'gaming',
+        'industry' => 'gaming',
         'name' => 'Lime',
         'view' => 'Frontend/Portfolio/limeSocialMedia',
         'meta' => [
@@ -559,7 +559,7 @@ return [
         'portfolio-image' => 'frontend-assets/img/case-study/lime_logo.png'
     ],
     'mahindra-first-choice-services' => [
-        // 'industry' => 'gaming',
+        'industry' => 'gaming',
         'name' => 'mahindra-first-choice-services',
         'view' => 'Frontend/Portfolio/mahidraFirstChoiceSocialMedia',
         'meta' => [
@@ -570,7 +570,7 @@ return [
         'portfolio-image' => 'frontend-assets/img/work/mahindra-first-choice-services/1.jpg'
     ],
     'm4u' => [
-        // 'industry' => 'gaming',
+        'industry' => 'real-estate',
         'name' => 'm4u',
         'view' => 'Frontend/Portfolio/m4uSocial',
         'meta' => [
@@ -587,7 +587,7 @@ return [
         ],
     ],
     'mission-insure-india' => [
-        // 'industry' => 'gaming',
+        'industry' => 'gaming',
         'name' => 'Mission Insure India',
         'view' => 'Frontend/Portfolio/missionInsureIndiaSocialMedia',
         'meta' => [
@@ -637,7 +637,7 @@ return [
         // 'portfolio-image' => 'frontend-assets/img/portfolio/nmmc/banner.jpg'
     ],
     'real-estate-awards' => [
-        // 'industry' => 'gaming',
+        'industry' => 'news-media',
         'name' => 'Real Estate Awards',
         'view' => 'Frontend/Portfolio/realEstateAwardSocialMedia',
         'meta' => [
@@ -648,7 +648,7 @@ return [
         'portfolio-image' => 'frontend-assets/img/case-study/rea.png'
     ],
     'repute' => [
-        // 'industry' => 'gaming',
+        'industry' => 'fmcg',
         'name' => 'Repute',
         'view' => 'Frontend/Portfolio/reputeSocial',
         'meta' => [
@@ -666,7 +666,7 @@ return [
 
     ],
     'road-to-safety' => [
-        // 'industry' => 'gaming',
+        'industry' => 'news-media',
         'name' => 'Road To Safety',
         'view' => 'Frontend/Portfolio/roadToSafetySocialMedia',
         'meta' => [
@@ -677,7 +677,7 @@ return [
         'portfolio-image' => 'frontend-assets/img/work/rts/1.jpg'
     ],
     'smarter-india' => [
-        // 'industry' => 'gaming',
+        'industry' => 'gaming',
         'name' => 'Smarter India',
         'view' => 'Frontend/Portfolio/smarterindiaSocialMedia',
         'meta' => [
@@ -710,7 +710,7 @@ return [
         'portfolio-image' => 'frontend-assets/img/work/banner/stemrx.jpg'
     ],
     'team-cashless-india' => [
-        // 'industry' => 'gaming',
+        'industry' => 'gaming',
         'name' => 'Team Cashless India',
         'view' => 'Frontend/Portfolio/teamCashlessIndiaSocialMedia',
         'meta' => [
@@ -721,7 +721,7 @@ return [
         'portfolio-image' => 'frontend-assets/img/work/team-cashless-india/1.jpg'
     ],
     'the-professional-couriers' => [
-        // 'industry' => 'gaming',
+        'industry' => 'logistics',
         'name' => 'The Professional Couriers',
         'view' => 'Frontend/Portfolio/theProffessionalCouriersSocialMedia',
         'meta' => [
@@ -755,7 +755,7 @@ return [
         ],
     ],
     'tpc' => [
-        // 'industry' => 'gaming',
+        'industry' => 'logistics',
         'name' => 'TPC',
         'view' => 'Frontend/Portfolio/tpcSocial',
         'meta' => [

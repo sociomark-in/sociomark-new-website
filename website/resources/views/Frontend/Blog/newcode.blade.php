@@ -1,11 +1,13 @@
 @extends('Frontend.layout.blogapp')
 @section('schema')
 <script type="application/ld+json">
-    {
-        !!$tag - > blog_schema!!
-    }
+ {!! $tag->blog_schema !!}
 </script>
 @endsection
+
+
+
+@extends('Frontend.layout.app')
 @section('custome-style')
 <style>
     #Blog_Section .box {
@@ -31,8 +33,12 @@
         line-height: 18px;
     }
 
-    #Blog_Section .content-padding {
-        padding: 20px;
+    #Blog_Section .th-btn {
+        padding: 15px 18px;
+    }
+
+    #Blog_Section .swiper-slide {
+        height: auto;
     }
 
     #Blog_Section .category-filter {
@@ -58,14 +64,6 @@
         color: white !important;
     }
 
-    .widget_categories a:hover,
-    .widget_categories a.active,
-    .tagcloud a:hover,
-    .tagcloud a:active {
-        background-color: #106c97 !important;
-        color: white !important;
-    }
-
     .recent-post .media-img img {
         object-fit: cover !important;
     }
@@ -83,34 +81,27 @@
         object-fit: contain !important;
     }
 </style>
-
 @endsection
 
+
 @section('content')
-
-
 <main>
 
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg')}}">
-        <div class="container">
-            <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Blog</h1>
-                <ul class="breadcumb-menu">
-                    <li><a href="home-seo-agency.html">Home</a></li>
-                    <li>Blog</li>
-                </ul>
-            </div>
+    <section style="margin-top: 68px;">
+        <div class="full-width">
+            <picture>
+                <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/blog/Blogs.png')}}" loading="lazy">
+                <img src="{{ asset('frontend-assets/img/blog/Blogs.png')}}" alt="blogs" loading="lazy">
+            </picture>
         </div>
-    </div>
+    </section>
     <section class="th-blog-wrapper space-top space-extra-bottom" id="Blog_Section">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-8 col-lg-8">
                     <div class="row">
-
-                        @foreach($blogs as $blog)
-                        @if ($blog->status == 'active')
-                        <div class="col-md-6" data-category="{{ implode(', ', $blog->category_names) ?: 'No Category' }}">
+                        @foreach($otherBlogs as $blog)
+                        <div class="col-md-6 blog-item" data-category="{{ implode(',', array_map('strtolower', $blog->category_names)) }}">
 
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
                                 <div class="blog-img box-blog">
@@ -120,21 +111,18 @@
                                 </div>
                                 <div class="blog-content content-padding">
                                     <div class="blog-meta">
-                                        <a href=""><i class="fa-light fa-calendar"></i> {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}</a>
-                                        <!-- <a href="#"><i class="fa-regular fa-clock"></i> 08 min read</a> -->
-                                        <a href=""><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->category_names) ?: 'No Category' }}</a>
+                                        <a href="#"><i class="fa-light fa-calendar"></i> {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}</a>
+                                        <a href="#"><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->category_names) ?: 'No Category' }}</a>
                                     </div>
                                     <h3 class="blog-title blog-title-text"><a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">{{ $blog->blog_name }}</a></h3>
                                     <p class="blog-text">{{ Str::limit(strip_tags($blog->content), 100) }}</p>
                                     <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}" class="th-btn black-border th-icon th-radius">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
                             </div>
-
                         </div>
-                        @endif
                         @endforeach
-
                     </div>
+
                     <div class="th-pagination ">
                         <ul>
                             {{-- Previous Page Link --}}
@@ -173,16 +161,20 @@
                                 @endif
                         </ul>
                     </div>
-
                 </div>
                 <div class="col-xxl-4 col-lg-4">
                     <aside class="sidebar-area">
+
                         <div class="box widget widget_categories">
                             <h3 class="widget_title">Categories</h3>
                             <ul>
-                                <li><a href="{{ route('blog') }}" class="category-filter" data-category="all">All Categories</a></li>
+                                <li><a href="#" class="category-filter active" data-category="all">All Categories</a></li>
                                 @foreach ($categories as $category)
-                                <li><a href="{{ route('categoryBlog', ['slug' => $category->slug]) }}" class="category-filter">{{ $category->category_name }}</a></li>
+                                <li>
+                                    <a href="#" class="category-filter" data-category="{{ strtolower($category->category_name) }}">
+                                        {{ $category->category_name }}
+                                    </a>
+                                </li>
                                 @endforeach
                             </ul>
                         </div>
@@ -216,6 +208,7 @@
                                 @endforeach
                             </div>
                         </div>
+
                         <div class="box widget widget_tag_cloud   ">
                             <h3 class="widget_title">Popular Tags</h3>
                             <div class="tagcloud">
@@ -229,8 +222,49 @@
                 </div>
             </div>
         </div>
-    </section><!--============================== -->
-
+    </section>
 </main>
 
 @endsection
+@push('script')
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        console.log("Script loaded!");
+        const categoryLinks = document.querySelectorAll(".category-filter");
+        const blogItems = document.querySelectorAll(".blog-item");
+
+        categoryLinks.forEach(link => {
+            link.addEventListener("click", function(e) {
+                e.preventDefault();
+
+                const selectedCategory = this.getAttribute("data-category").toLowerCase();
+
+                blogItems.forEach(blog => {
+                    const categories = blog.getAttribute("data-category").toLowerCase().split(',').map(cat => cat.trim());
+
+                    if (selectedCategory === "all" || categories.includes(selectedCategory)) {
+                        blog.style.display = "block";
+                    } else {
+                        blog.style.display = "none";
+                    }
+                });
+
+                categoryLinks.forEach(cat => cat.classList.remove("active"));
+                this.classList.add("active");
+            });
+        });
+
+        const defaultCategory = document.querySelector('.category-filter[data-category="all"]');
+        if (defaultCategory) {
+            defaultCategory.click();
+        }
+    });
+</script>
+
+<style>
+    .category-filter.active {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+</style>
+@endpush

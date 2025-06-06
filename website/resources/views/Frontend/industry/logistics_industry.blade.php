@@ -333,6 +333,7 @@
                         Clients We've <span class="text-blue"> Worked With</span>
                     </h2>
                 </div>
+                  @include('Frontend.partial.industry.commonIndustry')
                 <div class="filter-menu d-none filter-menu-active mt-md-5 mb-md-4">
                     <button data-filter="*" class="tab-btn active" type="button">All</button>
                     <button data-filter=".cat1" class="tab-btn" type="button">Digital Marketing</button>
@@ -344,7 +345,7 @@
                     <button data-filter=".cat6" class="tab-btn" type="button">Production & Photography</button>
 
                 </div>
-                <div class="portfolio-area" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1200"
+                <div class="portfolio-area d-none" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1200"
                     data-aos-easing="ease-in-out">
                     <div class="row gy-4 filter-active garally-row-height mt-md-0 mt-4">
                         <div class="col-md-3 col-6 col-xl-auto filter-item cat1 cat5 cat7 cat3">
