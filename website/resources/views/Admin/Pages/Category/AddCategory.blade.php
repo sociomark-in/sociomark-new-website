@@ -41,6 +41,14 @@
                             <label>Description</label>
                             <textarea name="description" class="form-control"></textarea>
                         </div>
+                        <div class="mb-3">
+                            <label>canonical</label>
+                            <input type="url" name="canonicals" id="canonicals" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label>Schema</label>
+                            <input type="text" name="blog_schema" id="blog_schema" class="form-control">
+                        </div>
                         <button type="submit" class="btn btn-success">Save</button>
                     </form>
 

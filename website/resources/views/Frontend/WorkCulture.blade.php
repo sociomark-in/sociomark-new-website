@@ -228,7 +228,7 @@
             <picture>
                 <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/work.jpg') }}"
                     class="w-100" loading="lazy">
-                <img src="{{ asset('frontend-assets/img/banners/work.jpg') }}" alt="" class="w-100"
+                <img src="{{ asset('frontend-assets/img/banners/work.jpg') }}" alt="work-culture" class="w-100"
                     loading="lazy">
             </picture>
         </div>
@@ -284,7 +284,7 @@
 
     </section>
 
-    <section class="key-point-about-us mb-md-5 mb-3 d-none" id="key-point-about-us">
+    <!-- <section class="key-point-about-us mb-md-5 mb-3 d-none" id="key-point-about-us">
         <div class="container">
             <div class="row d-flex justify-content-between align-items-center">
                 <div class="col-md-4 pe-md-5">
@@ -307,7 +307,7 @@
                 </div>
                 <div class="col-md-8 mt-5 mt-md-0">
                     <div class="row justify-content-center gx-4 gy-5 ">
-                        <!-- Card 1 -->
+                       
                         <div class="col-md-4 col-6">
                             <div class="card text-center" data-aos="zoom-in" data-aos-delay="300">
                                 <div class="card-top-left"></div>
@@ -321,7 +321,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Card 2 -->
+             
                         <div class="col-md-4 col-6">
                             <div class="card text-center" data-aos="zoom-in" data-aos-delay="400">
                                 <div class="card-top-left"></div>
@@ -334,7 +334,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Card 3 -->
+                      
                         <div class="col-md-4 col-6">
                             <div class="card text-center" data-aos="zoom-in" data-aos-delay="500">
                                 <div class="card-top-left"></div>
@@ -347,7 +347,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Card 4 -->
+                       
                         <div class="col-md-4 col-6">
                             <div class="card text-center" data-aos="zoom-in" data-aos-delay="600">
                                 <div class="card-top-left"></div>
@@ -360,7 +360,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Card 5 -->
+                       
                         <div class="col-md-4 col-6">
                             <div class="card text-center" data-aos="zoom-in" data-aos-delay="700">
                                 <div class="card-top-left"></div>
@@ -373,7 +373,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Card 6 -->
+                 
                         <div class="col-md-4 col-6">
                             <div class="card text-center" data-aos="zoom-in" data-aos-delay="800">
                                 <div class="card-top-left"></div>
@@ -390,8 +390,8 @@
                 </div>
             </div>
         </div>
-    </section>
-
+    </section> -->
+<!-- 
     <section class="space bg-grey d-none">
         <div class="container-fluid">
             <div class="section-vertical">
@@ -634,7 +634,7 @@
             </script>
             @endpush
         </div>
-    </section>
+    </section> -->
 
     <section class="space bg-grey">
         <div class="container">
@@ -1011,35 +1011,35 @@
                         <a href="{{ asset('frontend-assets/img/gallery/workplace/2020 (' . $i . ').jpg') }}"
                         class="filter-item mb-3 cat-2020 project-item box-img">
                         <img src="{{ asset('frontend-assets/img/gallery/workplace/2020 (' . $i . ').jpg') }}"
-                            class="w-100" alt="" loading="lazy">
+                            class="w-100" alt="Workplace 2020 - Image {{ $i }}" loading="lazy">
                         </a>
                         @endfor
                         @for ($i = 1; $i <= 6; $i++)
                             <a href="{{ asset('frontend-assets/img/gallery/workplace/2022 (' . $i . ').jpg') }}"
                             class="filter-item mb-3 cat-2022 project-item box-img">
                             <img src="{{ asset('frontend-assets/img/gallery/workplace/2022 (' . $i . ').jpg') }}"
-                                class="w-100" alt="" loading="lazy">
+                                class="w-100" alt="Workplace 2022 - Image {{ $i }}" loading="lazy">
                             </a>
                             @endfor
                             @for ($i = 1; $i <= 3; $i++)
                                 <a href="{{ asset('frontend-assets/img/gallery/workplace/2023 (' . $i . ').jpg') }}"
                                 class="filter-item mb-3 cat-2023 project-item box-img">
                                 <img src="{{ asset('frontend-assets/img/gallery/workplace/2023 (' . $i . ').jpg') }}"
-                                    class="w-100" alt="" loading="lazy">
+                                    class="w-100" alt="Workplace 2023 - Image {{ $i }}" loading="lazy">
                                 </a>
                                 @endfor
                                 @for ($i = 1; $i <= 15; $i++)
                                     <a href="{{ asset('frontend-assets/img/gallery/workplace/2024 (' . $i . ').jpg') }}"
                                     class="filter-item mb-3 cat-2024 project-item box-img">
                                     <img src="{{ asset('frontend-assets/img/gallery/workplace/2024 (' . $i . ').jpg') }}"
-                                        class="w-100" alt="" loading="lazy">
+                                        class="w-100" alt="Workplace 2024 - Image {{ $i }}" loading="lazy">
                                     </a>
                                     @endfor
                                     @for ($i = 1; $i <= 5; $i++)
                                         <a href="{{ asset('frontend-assets/img/gallery/workplace/2025 (' . $i . ').jpg') }}"
                                         class="filter-item mb-3 cat-2025 project-item box-img">
                                         <img src="{{ asset('frontend-assets/img/gallery/workplace/2025 (' . $i . ').jpg') }}"
-                                            class="w-100" alt="" loading="lazy">
+                                            class="w-100" alt="Workplace 2025 - Image {{ $i }}" loading="lazy">
                                         </a>
                                         @endfor
                 </div>

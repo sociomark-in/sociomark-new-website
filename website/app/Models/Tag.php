@@ -9,10 +9,14 @@ class Tag extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'slug'];
+    protected $fillable = [
+        'name',
+        'slug',
+        'canonicals',
+        'blog_schema',
+    ];
     public function tags()
-{
-    return $this->belongsToMany(Tag::class);
+    {
+        return $this->belongsToMany(Tag::class);
+    }
 }
-}
-

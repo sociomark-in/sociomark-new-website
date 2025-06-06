@@ -52,7 +52,7 @@ class BlogController extends Controller
             'status' => 'required|in:active,draft,inactive',
             'display_on_home' => 'boolean',
             'canonicals' => 'url|nullable',
-            'blog_schema' => 'string|nallable',
+            'blog_schema' => 'string|nullable',
         ]);
 
         // Store images

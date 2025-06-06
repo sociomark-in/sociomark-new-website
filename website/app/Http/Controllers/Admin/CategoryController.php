@@ -30,12 +30,16 @@ class CategoryController extends Controller
         $request->validate([
             'category_name' => 'required|unique:categories,category_name|max:255',
             'description' => 'nullable|string',
+            'canonicals' => 'url|nullable',
+            'blog_schema' => 'string|nullable',
         ]);
 
         Category::create([
             'category_name' => $request->category_name,
             'description' => $request->description,
             'slug' => Str::slug($request->category_name),
+            'canonicals' => $request->canonicals,
+            'blog_schema' => $request->blog_schema,
         ]);
 
         return redirect()->route('blogs.index')->with('success', 'Category created successfully.');
@@ -56,12 +60,16 @@ class CategoryController extends Controller
         $request->validate([
             'category_name' => 'required|max:255|unique:categories,category_name,' . $category->id,
             'description' => 'nullable|string',
+            'canonicals' => 'url|nullable',
+            'blog_schema' => 'string|nullable',
         ]);
 
         $category->update([
             'category_name' => $request->category_name,
             'description' => $request->description,
             'slug' => Str::slug($request->category_name),
+            'canonicals' => $request->canonicals,
+            'blog_schema' => $request->blog_schema,
         ]);
 
         return redirect()->route('categories.index')->with('success', 'Category updated successfully.');
