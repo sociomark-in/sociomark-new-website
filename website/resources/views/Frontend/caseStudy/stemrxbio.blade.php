@@ -131,7 +131,7 @@
                     <img src="{{ asset('frontend-assets/img/case-study/stemrx/sale_growth.png') }}" alt="">
                 </div>
             </div>
-           
+
             <div class="row align-items-center">
                 <div class="col-md-6 col-12">
                     <h2 class="mt-4 sub-sec-title text-blue">Changed Title On Amazon</h2>
@@ -143,6 +143,20 @@
                 </div>
                 <div class="col-md-4 col-12">
                     <img src="{{ asset('frontend-assets/img/case-study/stemrx/title_on_amazon.png') }}" alt=""
+                        class="img-border">
+                </div>
+            </div>
+
+            <div class="row">
+                <h2 class="mt-4 sub-sec-title text-blue">We Created A Store Front on Amazon
+                </h2>
+                <ul>
+                    <li class="sec-para">Creation of Amazon Store Front increased the online presence of business, customer
+                        reach and sales growth.</li>
+                    <li class="sec-para">Customers able to view all products in a single page of view</li>
+                </ul>
+                <div class="col-12 text-center">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/store_front_amaz.webp') }}" alt=""
                         class="img-border">
                 </div>
             </div>
@@ -191,31 +205,63 @@
                 </div>
             </div>
 
-            <h2 class="sec-title text-center pt-5">What We Did For  <span class="text-blue">Our
-                Website?</h2>
-            <div class="row">
-                <h2 class="mt-4 sub-sec-title text-blue">
-                    We Focused Working On Content
-                </h2>
-                <p class="sec-para">We added 30 key-words on website
-                </p>
+            <h2 class="sec-title text-center pt-5">What We Did For <span class="text-blue">Our
+                    Website?</h2>
+            <div class="row g-3">
+                <div class="col-12">
+                    <h2 class="mt-4 sub-sec-title text-blue">
+                        We Focused Working On Content
+                    </h2>
+                    <p class="sec-para">We added 30 key-words on website
+                    </p>
+                </div>
                 <div class="col-md-6 col-6">
                     <h2 class="mt-4 sub-sec-title text-blue">Before</h2>
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/review_before.png') }}" alt="" class="img-border">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/review_before.png') }}" alt=""
+                        class="img-border">
                 </div>
                 <div class="col-md-6 col-6">
                     <h2 class="mt-4 sub-sec-title text-blue">After</h2>
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/review_After.png') }}" alt="" class="img-border">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/review_After.png') }}" alt=""
+                        class="img-border">
                 </div>
+
+                <div class="col-lg-5 col-md-6 col-12">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/product_desc.png') }}" alt=""
+                        class="img-border">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/faq.png') }}" alt=""
+                        class="img-border">
+                    <div class="col-12">
+                        <div class="pt-3">
+                            <ul>
+                                <li class="sec-para">We Updated Product Descriptions With
+                                    High-Search-Volume Keywords.</li>
+                                <li class="sec-para">We used high-volume keywords in titles to
+                                    boost SERP value and enhance search
+                                    visibility.</li>
+                                <li class="sec-para">Updated FAQs to help users resolve their
+                                    queries more effectively.</li>
+                                <li class="sec-para">We optimized the footer with clear links to
+                                    key pages like "Contact Us," "Privacy Policy,"
+                                    and "Terms of Service," along with internal
+                                    links to important pages and blog posts for
+                                    easy navigation.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
             <div class="row">
                 <h2 class="mt-4 sub-sec-title text-blue">Updated Blogs</h2>
-            <p class="sec-para">We added blogs to our previously blog-free website, enhancing
-                freshness and relevance. This boosted search engine rankings
-                and attracted visitors.</p>
-            <p class="sec-para">Each new post targets relevant keywords, significantly
-                increasing organic traffic and drawing potential customers.</p>
+                <p class="sec-para">We added blogs to our previously blog-free website, enhancing
+                    freshness and relevance. This boosted search engine rankings
+                    and attracted visitors.</p>
+                <p class="sec-para">Each new post targets relevant keywords, significantly
+                    increasing organic traffic and drawing potential customers.</p>
                 <div class="col-12 text-center">
                     <img src="{{ asset('frontend-assets/img/case-study/stemrx/blog.jpg') }}" alt=""
                         class="img-border">
@@ -240,7 +286,7 @@
                         class="img-border">
                 </div>
             </div>
-           
+
 
 
             <h2 class="mt-4 sub-sec-title text-blue">Listings Were Eligible For Fulfilment By Amazon</h2>
