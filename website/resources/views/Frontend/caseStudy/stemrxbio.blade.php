@@ -78,17 +78,17 @@
             <p class="sec-para">We Worked On A 90 Day Game Plan</p>
 
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-4 mt-2">
                     <div class="sec-para plan text-center">
                         We Analyzed The Problem
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4  mt-2">
                     <div class="sec-para plan text-center">
                         We Created The Solution
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4  mt-2">
                     <div class="sec-para plan text-center">
                         Put That Into Execution
                     </div>
@@ -133,17 +133,18 @@
             </div>
 
             <div class="row align-items-center">
-                <div class="col-md-6 col-12">
+
+                <div class="col-md-4 col-12">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/title_on_amazon.png') }}" alt=""
+                        class="img-border">
+                </div>
+                <div class="col-md-6 col-12 offset-lg-1">
                     <h2 class="mt-4 sub-sec-title text-blue">Changed Title On Amazon</h2>
                     <ul>
                         <li class="sec-para">Simplified Content</li>
                         <li class="sec-para">SEO-Friendly Content</li>
                         <li class="sec-para">High-Ranked Keywords</li>
                     </ul>
-                </div>
-                <div class="col-md-4 col-12">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/title_on_amazon.png') }}" alt=""
-                        class="img-border">
                 </div>
             </div>
 
@@ -215,12 +216,12 @@
                     <p class="sec-para">We added 30 key-words on website
                     </p>
                 </div>
-                <div class="col-md-6 col-6">
+                <div class="col-md-6 col-12">
                     <h2 class="mt-4 sub-sec-title text-blue">Before</h2>
                     <img src="{{ asset('frontend-assets/img/case-study/stemrx/review_before.png') }}" alt=""
                         class="img-border">
                 </div>
-                <div class="col-md-6 col-6">
+                <div class="col-md-6 col-12">
                     <h2 class="mt-4 sub-sec-title text-blue">After</h2>
                     <img src="{{ asset('frontend-assets/img/case-study/stemrx/review_After.png') }}" alt=""
                         class="img-border">
@@ -252,7 +253,21 @@
                         </div>
                     </div>
                 </div>
-
+            </div>
+            <div class="row align-items-center pt-3">
+                <div class="col-md-6 col-12">
+                    <h2 class="mt-4 sub-sec-title text-blue">Website Traffic Growth</h2>
+                    <ul>
+                        <li class="sec-para">From November 2023 to May 2024, we gained 129% in organic traffic.</li>
+                        <li class="sec-para">From No sales to Organically getting sales of 10,000 in every month.</li>
+                        <li class="sec-para">Increase in organic clicks and impressions.</li>
+                        <li class="sec-para">Created Brand awareness in SERP features.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-12">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/website_traffic.jpg') }}" alt=""
+                        class="img-border">
+                </div>
             </div>
 
             <div class="row">
@@ -267,6 +282,8 @@
                         class="img-border">
                 </div>
             </div>
+
+
 
 
             <div class="row align-items-center pt-3">
@@ -297,7 +314,7 @@
 
 
             <div class="row">
-                <div class="col-md-6 col-6">
+                <div class="col-md-6 col-12">
                     <h2 class="mt-4 sub-sec-title text-blue">Before</h2>
                     <p class="sec-para">
                         Before the brand came to us, their feed was lacking vibrant colors and focus on the ingredients of
@@ -308,7 +325,7 @@
                     </p>
                     <img src="{{ asset('frontend-assets/img/case-study/stemrx/before_sm.png') }}" alt="">
                 </div>
-                <div class="col-md-6 col-6">
+                <div class="col-md-6 col-12">
                     <h2 class="mt-4 sub-sec-title text-blue">After</h2>
                     <p class="sec-para">
                         We added more vibrant colors and focused on the ingredients of the products.
@@ -351,22 +368,21 @@
             <h2 class="mt-4 sub-sec-title text-blue">Created A Unique Organ-Led Post To Promote The Efficacy Of The
                 Product.</h2>
             <div class="row">
-                <div class="col-md-6 col-6 mt-3">
+                <div class="col-md-3 col-6 mt-3">
                     <img src="{{ asset('frontend-assets/img/case-study/stemrx/summer.png') }}" alt="">
                 </div>
-                <div class="col-md-6 col-6 mt-3">
+                <div class="col-md-3 col-6 mt-3">
                     <img src="{{ asset('frontend-assets/img/case-study/stemrx/upset_stomach.png') }}" alt="">
                 </div>
-                <div class="col-md-6 col-6 mt-3">
+                <div class="col-md-3 col-6 mt-3">
                     <img src="{{ asset('frontend-assets/img/case-study/stemrx/fisten.png') }}" alt="">
                 </div>
-                <div class="col-md-6 col-6 mt-3">
+                <div class="col-md-3 col-6 mt-3">
                     <img src="{{ asset('frontend-assets/img/case-study/stemrx/mitochondrial.png') }}" alt="">
                 </div>
             </div>
 
             <h2 class="mt-4 sub-sec-title text-blue">We Used The Ingredient Of The Product To Showcase Our Benefits</h2>
-
             <div class="row">
                 <div class="col-md-6 col-6 mt-3">
                     <img src="{{ asset('frontend-assets/img/case-study/stemrx/vita_c.png') }}" alt="">
@@ -375,8 +391,8 @@
                     <img src="{{ asset('frontend-assets/img/case-study/stemrx/avocado.png') }}" alt="">
                 </div>
             </div>
-            <h2 class="mt-4 sub-sec-title text-blue">Topical Days Posts</h2>
 
+            <h2 class="mt-4 sub-sec-title text-blue">Topical Days Posts</h2>
             <div class="row">
                 <div class="col-md-6 col-6 mt-3">
                     <img src="{{ asset('frontend-assets/img/case-study/stemrx/mental.png') }}" alt="">
@@ -385,6 +401,8 @@
                     <img src="{{ asset('frontend-assets/img/case-study/stemrx/republic.png') }}" alt="">
                 </div>
             </div>
+
+
             <h2 class="mt-4 sub-sec-title text-blue"> We Also Worked On Human-Based Reels As The Page Was Missing Any
                 Human-Based Content.</h2>
             <p class="sec-para">Which resulted in a growth in views from two digits to six digits, boosting the sales of
