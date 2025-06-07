@@ -91,17 +91,14 @@
 @section('content')
 <main>
 
-    <div class="breadcumb-wrapper " data-bg-src="{{ asset('frontend-assets/img/bg/breadcumb-bg.jpg')}}">
-        <div class="container">
-            <div class="breadcumb-content">
-                <h1 class="breadcumb-title">Blog</h1>
-                <ul class="breadcumb-menu">
-                    <li><a href="home-seo-agency.html">Home</a></li>
-                    <li>Blog</li>
-                </ul>
-            </div>
+    <section style="margin-top: 68px;">
+        <div class="full-width">
+            <picture>
+                <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/blog/Blogs.png')}}" loading="lazy">
+                <img src="{{ asset('frontend-assets/img/blog/Blogs.png')}}" alt="sociopedia" loading="lazy">
+            </picture>
         </div>
-    </div>
+    </section>
     <section class="th-blog-wrapper space-top space-extra-bottom" id="Blog_Section">
         <div class="container">
             <div class="row">
@@ -115,7 +112,7 @@
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
                                 <div class="blog-img box-blog">
                                     <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                        <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image" class="w-100 h-100 object-fit-cover">
+                                        <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="{{ $blog->blog_name }}" class="w-100 h-100 object-fit-cover">
                                     </a>
                                 </div>
                                 <div class="blog-content content-padding">
@@ -194,7 +191,7 @@
                                 <div class="recent-post">
                                     <div class="media-img recent_blog_img">
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                            <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="{{ $blog->blog_name }}" class="w-100 h-100 object-fit-cover">
                                         </a>
                                     </div>
                                     <div class="media-body">

@@ -134,7 +134,7 @@
             <div class="full-width">
                 <picture>
                     <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/contact-us.jpg') }}">
-                    <img src="{{ asset('frontend-assets/img/banners/contact-us.jpg') }}" alt="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/banners/contact-us.jpg') }}" alt="contact" class="w-100">
                 </picture>
             </div>
         </section>
