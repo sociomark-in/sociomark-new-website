@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/repute.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/banner/repute.jpg') }}" alt="repute"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -71,19 +71,19 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/repute/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/repute/1.png') }}" alt="repute"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/repute/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/repute/2.png') }}" alt="repute"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/repute/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/repute/3.png') }}" alt="repute"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/repute/toilet-paper-1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/repute/toilet-paper-1.png') }}" alt="repute"
                             srcset="" class="w-100">
                     </div>
                 </div>
@@ -134,13 +134,13 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'jivana']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="repute" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'grill-box']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/grill-box/grill3.jpeg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/grill-box/grill3.jpeg') }}" alt="repute" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Grill Box</b></p>
                 </a>
             </div>

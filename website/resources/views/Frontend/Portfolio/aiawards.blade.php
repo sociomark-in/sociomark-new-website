@@ -11,24 +11,24 @@
                     <div class="swiper-slide">
 
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/ai-awards/1.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/ai-awards/1.jpg') }}" alt="aiawards"
                                 srcset="" class="w-100">
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/ai-awards/2.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/ai-awards/2.jpg') }}" alt="aiawards"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/ai-awards/3.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/ai-awards/3.jpg') }}" alt="aiawards"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/ai-awards/4.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/ai-awards/4.jpg') }}" alt="aiawards"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/ai-awards/5.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/ai-awards/5.jpg') }}" alt="aiawards"
                             srcset="" class="w-100">
                     </div>
                 </div>
@@ -103,19 +103,19 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/a') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/a') }}" alt="aiawards Creative" srcset=""
                             class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/m4u/2.jpeg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/m4u/2.jpeg') }}" alt="aiawards Creative" srcset=""
                             class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/m4u/3.jpeg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/m4u/3.jpeg') }}" alt="aiawards Creative" srcset=""
                             class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/m4u/4.jpeg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/m4u/4.jpeg') }}" alt="aiawards Creative" srcset=""
                             class="w-100">
                     </div>
 

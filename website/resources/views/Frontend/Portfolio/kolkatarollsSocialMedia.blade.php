@@ -11,24 +11,24 @@
                     <div class="swiper-slide">
 
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/kolkata-rolls/1.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/kolkata-rolls/1.jpg') }}" alt="kolkata rolls"
                                 srcset="" class="w-100">
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/kolkata-rolls/2.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/kolkata-rolls/2.jpg') }}" alt="kolkata rolls"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/kolkata-rolls/3.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/kolkata-rolls/3.jpg') }}" alt="kolkata rolls"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/kolkata-rolls/4.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/kolkata-rolls/4.jpg') }}" alt="kolkata rolls"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/kolkata-rolls/5.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/kolkata-rolls/5.jpg') }}" alt="kolkata rolls"
                             srcset="" class="w-100">
                     </div>
                 </div>

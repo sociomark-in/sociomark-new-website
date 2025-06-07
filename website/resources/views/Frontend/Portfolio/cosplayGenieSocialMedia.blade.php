@@ -11,16 +11,16 @@
                     <div class="swiper-slide">
 
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/cosplay-genie/1.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/cosplay-genie/1.jpg') }}" alt="casplay genie"
                                 srcset="" class="w-100">
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/cosplay-genie/2.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/cosplay-genie/2.jpg') }}" alt="casplay genie"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/cosplay-genie/3.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/cosplay-genie/3.jpg') }}" alt="casplay genie"
                             srcset="" class="w-100">
                     </div>
 

@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/market4you.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/banner/market4you.jpg') }}" alt="m4u"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -74,19 +74,19 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/m4u/1.jpeg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/m4u/1.jpeg') }}" alt="m4u" srcset=""
                             class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/m4u/2.jpeg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/m4u/2.jpeg') }}" alt="m4u" srcset=""
                             class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/m4u/3.jpeg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/m4u/3.jpeg') }}" alt="m4u" srcset=""
                             class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/m4u/4.jpeg') }}" alt="" srcset=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/m4u/4.jpeg') }}" alt="m4u" srcset=""
                             class="w-100">
                     </div>
 
@@ -137,19 +137,19 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="m4u" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Ayushakti</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'jivana']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="m4u" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'cyber-power']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="m4u" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
                 </a>
             </div>

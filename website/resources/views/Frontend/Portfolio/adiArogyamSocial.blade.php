@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/adi_arogyam.png') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/banner/adi_arogyam.png') }}" alt="adiarogyam"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -85,31 +85,31 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/1.png') }}" alt="adiagogram Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/2.png') }}" alt="adiagogram Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/3.png') }}" alt="adiagogram Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/4.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/4.png') }}" alt="adiagogram Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/5.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/5.png') }}" alt="adiagogram Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/6.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/6.jpg') }}" alt="adiagogram Creative"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/7.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/adiarogyam/7.jpg') }}" alt="adiagogram Creative"
                             srcset="" class="w-100">
                     </div>
                 </div>

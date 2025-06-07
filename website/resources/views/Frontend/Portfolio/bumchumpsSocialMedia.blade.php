@@ -11,16 +11,16 @@
                     <div class="swiper-slide">
 
                         <div class="col-12">
-                            <img src="	https://www.sociomark.in/assets/img/work/ayushakti/ayu1.jpeg" alt=""
+                            <img src="	https://www.sociomark.in/assets/img/work/ayushakti/ayu1.jpeg" alt="bumchum"
                                 srcset="" class="w-100">
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="https://www.sociomark.in/assets/img/work/ayushakti/ayu2.jpeg" alt=""
+                        <img src="https://www.sociomark.in/assets/img/work/ayushakti/ayu2.jpeg" alt="bumchum"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="https://www.sociomark.in/assets/img/work/ayushakti/ayu3.jpeg" alt=""
+                        <img src="https://www.sociomark.in/assets/img/work/ayushakti/ayu3.jpeg" alt="bumchum"
                             srcset="" class="w-100">
                     </div>
                 </div>

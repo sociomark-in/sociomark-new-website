@@ -79,7 +79,7 @@
                 <div class="swiper-wrapper">
                     @for ($i = 1; $i <= 9; $i++)
                         <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/Build Track/' . $i . '.jpg') }}" alt="build track creatives"
+                        <img src="{{ asset('frontend-assets/img/portfolio/Build Track/' . $i . '.jpg') }}" alt="build track creatives - {{ $i }}"
                             srcset="" class="w-100">
                 </div>
                 @endfor
