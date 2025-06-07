@@ -929,7 +929,7 @@
                 </div>
             </div> <!-- / Title row -->
 
-            <div class="swiper teamSwiper d-none">
+            {{-- <div class="swiper teamSwiper d-none">
                 <div class="swiper-wrapper">
                     @for ($i = 0; $i < 10; $i++)
                         <div class="swiper-slide">
@@ -961,7 +961,7 @@
                         </div>
                 </div>
                 @endfor
-            </div>
+            </div> --}}
         </div>
         @push('scripts')
         <script>
