@@ -281,7 +281,7 @@
                     <div class="img">
                         <div class="shadow-title">01</div>
                         <div class=" icon ">
-                            <img src="{{ asset('frontend-assets/img/icon/about/Pick.png') }}" alt="">
+                            <img src="{{ asset('frontend-assets/img/icon/about/Pick.png') }}" alt="pick what you need">
                         </div>
                     </div>
                     <div class="text mt-1 mt-3 d-flex justify-content-center align-items-center flex-column">
@@ -302,7 +302,7 @@
                         <div class="shadow-title">02</div>
 
                         <div class="icon">
-                            <img src="{{ asset('frontend-assets/img/icon/about/Vision.png') }}" alt="">
+                            <img src="{{ asset('frontend-assets/img/icon/about/Vision.png') }}" alt="share your vision">
                         </div>
 
                     </div>
@@ -313,7 +313,7 @@
                     <div class="img ">
                         <div class="shadow-title">03</div>
                         <div class="icon">
-                            <img src="{{ asset('frontend-assets/img/icon/about/Talk.png') }}" alt="">
+                            <img src="{{ asset('frontend-assets/img/icon/about/Talk.png') }}" alt="lets talk">
                         </div>
                     </div>
                     <div class="text mt-1 mt-3 d-flex justify-content-center align-items-center flex-column">
@@ -332,7 +332,7 @@
                     <div class="img mt-0 mt-md-3">
                         <div class="shadow-title">04</div>
                         <div class="icon position-absolute-img">
-                            <img src="{{ asset('frontend-assets/img/icon/about/Alive.png') }}" alt="">
+                            <img src="{{ asset('frontend-assets/img/icon/about/Alive.png') }}" alt="watch it come alive">
                         </div>
                     </div>
                 </div>
@@ -359,7 +359,7 @@
                     </div>
                 </div>
                 <div class="col-xl-6 text-center" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="{{ asset('frontend-assets/img/about/90days.png') }}" alt="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/about/90days.png') }}" alt="gameplan" class="w-100">
                 </div>
 
             </div>
@@ -644,7 +644,7 @@
                         <div
                             class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                             <img src="{{ asset('frontend-assets/img/icon/about/Quality Content.png') }}"
-                                alt="" class="h-50 w-50">
+                                alt="quality content" class="h-50 w-50">
                             <h4 class="sub-sec-title">Quality Content</h4>
                         </div>
                         <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
@@ -659,7 +659,7 @@
                         <div
                             class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                             <img src="{{ asset('frontend-assets/img/icon/about/Custumized Content.png') }}"
-                                alt="" class="h-50 w-50">
+                                alt="Customized Strategy" class="h-50 w-50">
                             <h4 class="sub-sec-title">Customized Strategy</h4>
                         </div>
                         <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
@@ -672,7 +672,7 @@
                     <div class="flip-box-inner h-100">
                         <div
                             class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
-                            <img src="{{ asset('frontend-assets/img/icon/about/Result Driven.png') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/icon/about/Result Driven.png') }}" alt="Results-Driven"
                                 class="h-50 w-50">
                             <h4 class="sub-sec-title">Results-Driven</h4>
                         </div>
@@ -688,7 +688,7 @@
                         <div
                             class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                             <img src="{{ asset('frontend-assets/img/icon/about/Creative distinction.png') }}"
-                                alt="" class="h-50 w-50">
+                                alt="Creative Distinction" class="h-50 w-50">
                             <h4 class="sub-sec-title">Creative Distinction</h4>
                         </div>
                         <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
@@ -703,7 +703,7 @@
                         <div
                             class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                             <img src="{{ asset('frontend-assets/img/icon/about/Collaborative Growth.png') }}"
-                                alt="" class="h-50 w-50">
+                                alt="Collaborative Growth" class="h-50 w-50">
                             <h4 class="sub-sec-title">Collaborative Growth</h4>
                         </div>
                         <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
@@ -718,7 +718,7 @@
                         <div
                             class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
                             <img src="{{ asset('frontend-assets/img/icon/about/Quick Approach.png') }}"
-                                alt="" class="h-50 w-50">
+                                alt="Quirky Approach" class="h-50 w-50">
                             <h4 class="sub-sec-title">Quirky Approach </h4>
                         </div>
                         <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
@@ -732,7 +732,7 @@
                     <div class="flip-box-inner h-100">
                         <div
                             class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
-                            <img src="{{ asset('frontend-assets/img/icon/about/Turn-around.png') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/icon/about/Turn-around.png') }}" alt="Quick Turn Around Time"
                                 class="h-50 w-50">
                             <h4 class="sub-sec-title">Quick Turn Around Time</h4>
                         </div>
