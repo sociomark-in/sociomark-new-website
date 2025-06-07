@@ -3,7 +3,7 @@
 <main id="industries">
     <section class="p-0" style="margin-top: 66px;">
         <div class="full-width">
-            <img src="{{ asset('frontend-assets/img/industry/News_Media.png') }}" alt="" srcset=""
+            <img src="{{ asset('frontend-assets/img/industry/News_Media.png') }}" alt="new and media industry" srcset=""
                 class="w-100" loading="lazy">
         </div>
     </section>
@@ -73,7 +73,7 @@
                     <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
                         <div class="counter-box">
                             <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}"
-                                    width="60" alt=""></div>
+                                    width="60" alt="Successfull Campaigns"></div>
                             <h3 class="box-number"><span class="counter-number">200</span><sup>+</sup></h3>
                             <div class="media-body">
                                 <p class=" counter-text mb-n1">Successfull Campaigns</p>
@@ -83,7 +83,7 @@
                     <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
                         <div class="counter-box">
                             <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}"
-                                    width="60" alt=""></div>
+                                    width="60" alt="Awards"></div>
                             <h3 class="box-number"><span class="counter-number">15</span><sup>+</sup></h3>
                             <div class="media-body">
                                 <p class=" counter-text mb-n1">Awards</p>
@@ -93,7 +93,7 @@
                     <div class="col-xxl-auto col-xl-3 col-lg-6 col-12">
                         <div class="counter-box">
                             <div class="box-icon"><img src="{{ asset('frontend-assets/img/icon/target.png') }}"
-                                    width="60" alt=""></div>
+                                    width="60" alt="Creatives Designed"></div>
                             <h3 class="box-number"><span class="counter-number">150</span>K<sup>+</sup></h3>
                             <div class="media-body">
                                 <p class=" counter-text mb-n1">Creatives Designed</p>
@@ -249,7 +249,7 @@
                                 <div class="counter-box">
                                     <div class="box-icon"><img
                                             src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"
-                                            alt=""></div>
+                                            alt="Experienced Team"></div>
                                     <h3 class="box-number"><span class="counter-number">200</span><sup>+</sup></h3>
                                     <div class="media-body">
                                         <p class=" counter-text mb-n1">Experienced Team</p>
@@ -260,7 +260,7 @@
                                 <div class="counter-box">
                                     <div class="box-icon"><img
                                             src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"
-                                            alt=""></div>
+                                            alt="Experienced Team"></div>
                                     <h3 class="box-number"><span class="counter-number">200</span><sup>+</sup></h3>
                                     <div class="media-body">
                                         <p class=" counter-text mb-n1">Experienced Team</p>
@@ -274,7 +274,7 @@
                                 <div class="counter-box">
                                     <div class="box-icon"><img
                                             src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"
-                                            alt=""></div>
+                                            alt="Experienced Team"></div>
                                     <h3 class="box-number"><span class="counter-number">200</span><sup>+</sup></h3>
                                     <div class="media-body">
                                         <p class=" counter-text mb-n1">Experienced Team</p>
@@ -285,7 +285,7 @@
                                 <div class="counter-box">
                                     <div class="box-icon"><img
                                             src="{{ asset('frontend-assets/img/icon/target.png') }}" width="60"
-                                            alt=""></div>
+                                            alt="Experienced Team"></div>
                                     <h3 class="box-number"><span class="counter-number">200</span><sup>+</sup></h3>
                                     <div class="media-body">
                                         <p class=" counter-text mb-n1">Experienced Team</p>
