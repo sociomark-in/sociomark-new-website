@@ -1,16 +1,16 @@
 <?php
 
 return [
-    'okinawa' => [
-        'industry' => 'automobile',
-        'name' => 'Okinawa',
-        // 'view' => 'Frontend/Portfolio/okinawaSocial',
-        'meta' =>   [
-            'title' => 'Digital marketing services for Okinawa| Sociomark Portoflio ​',
-            'description' => "Explore how we boosted Okinawa's online visibility through targeted digital marketing, SEO to drive engagement and lead generation."
-        ],
-        'image' => 'frontend-assets/img/clients/okinawa.jpg'
-    ],
+    // 'okinawa' => [
+    //     'industry' => 'automobile',
+    //     'name' => 'Okinawa',
+    //     // 'view' => 'Frontend/Portfolio/okinawaSocial',
+    //     'meta' =>   [
+    //         'title' => 'Digital marketing services for Okinawa| Sociomark Portoflio ​',
+    //         'description' => "Explore how we boosted Okinawa's online visibility through targeted digital marketing, SEO to drive engagement and lead generation."
+    //     ],
+    //     'image' => 'frontend-assets/img/clients/okinawa.jpg'
+    // ],
     'bem' => [
         'industry' => 'logistics',
         'name' => 'bem',
@@ -24,7 +24,7 @@ return [
         'social' => [
             'facebook' => '',
             'instagram' => '',
-            'twitter' => '',
+            'x' => '',
             'linkdin' => 'https://in.linkedin.com/company/blueenergymotor',
         ],
     ],
@@ -52,7 +52,7 @@ return [
         'social' => [
             'facebook' => 'https://www.facebook.com/Ayushakti/',
             'instagram' => 'https://www.instagram.com/ayushakti/p/DKTfnpwSNAG/?hl=en',
-            'twitter' => '',
+            'x' => '',
             'linkdin' => '',
         ],
     ],
@@ -86,57 +86,57 @@ return [
         'social' => [
             'facebook' => 'https://www.facebook.com/newhorizonairoli/',
             'instagram' => '',
-            'twitter' => '',
+            'x' => '',
             'linkdin' => '',
         ],
     ],
-    'nhspsa' => [
-        'industry' => 'education',
-        'name' => 'NHS',
-        'view' => 'Frontend/Portfolio/nhssSocial',
-        'image' => 'frontend-assets/img/clients/nhspsa.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/banner/NHS.jpg'
-    ],
-    'nhs-international' => [
-        'industry' => 'education',
-        'name' => 'NHS International',
-        'view' => 'Frontend/Portfolio/nhssSocial',
-        'image' => 'frontend-assets/img/clients/nhsinternational.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/banner/NHS.jpg'
-    ],
-    'eduauraa' => [
-        'industry' => 'education',
-        'name' => 'Eduaura',
-        'image' => 'frontend-assets/img/clients/eduauraa.jpg'
-    ],
-    'tilak' => [
-        'industry' => 'education',
-        'name' => 'Tilak',
+    // 'nhspsa' => [
+    //     'industry' => 'education',
+    //     'name' => 'NHS',
+    //     'view' => 'Frontend/Portfolio/nhssSocial',
+    //     'image' => 'frontend-assets/img/clients/nhspsa.jpg',
+    //     'portfolio-image' => 'frontend-assets/img/work/banner/NHS.jpg'
+    // ],
+    // 'nhs-international' => [
+    //     'industry' => 'education',
+    //     'name' => 'NHS International',
+    //     'view' => 'Frontend/Portfolio/nhssSocial',
+    //     'image' => 'frontend-assets/img/clients/nhsinternational.jpg',
+    //     'portfolio-image' => 'frontend-assets/img/work/banner/NHS.jpg'
+    // ],
+    // 'eduauraa' => [
+    //     'industry' => 'education',
+    //     'name' => 'Eduaura',
+    //     'image' => 'frontend-assets/img/clients/eduauraa.jpg'
+    // ],
+    // 'tilak' => [
+    //     'industry' => 'education',
+    //     'name' => 'Tilak',
 
-        'image' => 'frontend-assets/img/clients/tilak.jpg'
-    ],
-    'dypatil' => [
-        'industry' => 'education',
-        'name' => 'Dy Patil',
-        'image' => 'frontend-assets/img/clients/dyp01.jpg'
-    ],
-    'dy-patil-ambi' => [
-        'industry' => 'education',
-        'name' => 'Dy Patil',
-        'image' => 'frontend-assets/img/clients/dyp_ambi.jpg'
-    ],
-    'dy-patil' => [
-        'industry' => 'education',
-        'name' => 'Dy Patil',
-        'view' => 'Frontend/Portfolio/dyPatilSocial',
-        'image' => 'frontend-assets/img/clients/dpu.jpg'
-    ],
-    'world-grad' => [
-        'industry' => 'education',
-        'name' => 'World Grad',
-        'view' => 'Frontend/Portfolio/worldGradSocial',
-        'image' => 'frontend-assets/img/clients/worldgrad.jpg'
-    ],
+    //     'image' => 'frontend-assets/img/clients/tilak.jpg'
+    // ],
+    // 'dypatil' => [
+    //     'industry' => 'education',
+    //     'name' => 'Dy Patil',
+    //     'image' => 'frontend-assets/img/clients/dyp01.jpg'
+    // ],
+    // 'dy-patil-ambi' => [
+    //     'industry' => 'education',
+    //     'name' => 'Dy Patil',
+    //     'image' => 'frontend-assets/img/clients/dyp_ambi.jpg'
+    // ],
+    // 'dy-patil' => [
+    //     'industry' => 'education',
+    //     'name' => 'Dy Patil',
+    //     'view' => 'Frontend/Portfolio/dyPatilSocial',
+    //     'image' => 'frontend-assets/img/clients/dpu.jpg'
+    // ],
+    // 'world-grad' => [
+    //     'industry' => 'education',
+    //     'name' => 'World Grad',
+    //     'view' => 'Frontend/Portfolio/worldGradSocial',
+    //     'image' => 'frontend-assets/img/clients/worldgrad.jpg'
+    // ],
     'jivana' => [
         'industry' => 'fmcg',
         'name' => 'Jivana',
@@ -155,36 +155,36 @@ return [
         ],
 
     ],
-    'total' => [
-        'industry' => 'fmcg',
-        'name' => 'Total',
+    // 'total' => [
+    //     'industry' => 'fmcg',
+    //     'name' => 'Total',
 
-        'image' => 'frontend-assets/img/clients/total.jpg'
-    ],
-    'othnanaimo' => [
-        'industry' => 'fmcg',
-        'name' => 'Othnanaimo',
+    //     'image' => 'frontend-assets/img/clients/total.jpg'
+    // ],
+    // 'othnanaimo' => [
+    //     'industry' => 'fmcg',
+    //     'name' => 'Othnanaimo',
 
-        'image' => 'frontend-assets/img/clients/othnanaimo.jpg'
-    ],
-    'Troller' => [
-        'industry' => 'fmcg',
-        'name' => 'Trollers',
+    //     'image' => 'frontend-assets/img/clients/othnanaimo.jpg'
+    // ],
+    // 'troller' => [
+    //     'industry' => 'fmcg',
+    //     'name' => 'Trollers',
 
-        'image' => 'frontend-assets/img/clients/trollers.jpg'
-    ],
-    'kinnal' => [
-        'industry' => 'fmcg',
-        'name' => 'Kinnal',
+    //     'image' => 'frontend-assets/img/clients/trollers.jpg'
+    // ],
+    // 'kinnal' => [
+    //     'industry' => 'fmcg',
+    //     'name' => 'Kinnal',
 
-        'image' => 'frontend-assets/img/clients/kinnal.jpg'
-    ],
-    'trollersfishnchips' => [
-        'industry' => 'fmcg',
-        'name' => 'Trollersfishnchips',
+    //     'image' => 'frontend-assets/img/clients/kinnal.jpg'
+    // ],
+    // 'trollersfishnchips' => [
+    //     'industry' => 'fmcg',
+    //     'name' => 'Trollersfishnchips',
 
-        'image' => 'frontend-assets/img/clients/trollersfishnchips.jpg'
-    ],
+    //     'image' => 'frontend-assets/img/clients/trollersfishnchips.jpg'
+    // ],
     'tata-play' => [
         'industry' => 'news-media',
         'name' => 'Tata Play new',
@@ -215,7 +215,7 @@ return [
         'social' => [
             'facebook' => 'https://www.facebook.com/BuildTrack/',
             'instagram' => 'https://www.instagram.com/buildtrack/reel/DKPKxaLSVu3/?hl=en',
-            'twitter' => 'https://x.com/buildtrack?lang=en',
+            'x' => 'https://x.com/buildtrack?lang=en',
             'linkdin' => 'https://in.linkedin.com/showcase/buildtrack---smart-automation-solutions/',
         ],
 
@@ -244,19 +244,19 @@ return [
         'social' => [
             'facebook' => 'https://www.facebook.com/people/Qubero-by-Nirali-BG/61557072792605/?mibextid=ZbWKwL',
             'instagram' => 'https://www.instagram.com/qubero_by_nirali_bg/p/DKW7Thtt2nl/?hl=en',
-            'twitter' => '',
+            'x' => '',
             'linkdin' => 'https://www.linkedin.com/posts/qubero-by-nirali-bg_qubero-quberobyniralibg-customizedkitchens-activity-7193580372490641408-nj6v',
         ],
     ],
-    'bumchums' => [
-        'industry' => 'fashion',
-        'name' => 'bumchums',
-        'meta' => [
-            'title' => 'Creative Campaigns Designed for Bumchums | Sociomark',
-            'description' => "Designed engaging and youth-centric creatives for Bumchums to boost brand appeal, connect with their audience, and enhance social media presence."
-        ],
-        'image' => 'frontend-assets/img/clients/bumchums.jpg'
-    ],
+    // 'bumchums' => [
+    //     'industry' => 'fashion',
+    //     'name' => 'bumchums',
+    //     'meta' => [
+    //         'title' => 'Creative Campaigns Designed for Bumchums | Sociomark',
+    //         'description' => "Designed engaging and youth-centric creatives for Bumchums to boost brand appeal, connect with their audience, and enhance social media presence."
+    //     ],
+    //     'image' => 'frontend-assets/img/clients/bumchums.jpg'
+    // ],
     'euro' => [
         'industry' => 'fashion',
         'name' => 'Euro',
@@ -269,8 +269,8 @@ return [
         'portfolio-image' => 'frontend-assets/img/work/euro/Euro.jpg',
         'social' => [
             'facebook' => 'https://www.facebook.com/EuroFashions/',
-            'instagram' => '',
-            'twitter' => '',
+            'instagram' => 'https://www.instagram.com/p/C4F8YbMotJX/?hl=en',
+            'x' => '',
             'linkdin' => '',
         ],
     ],
@@ -287,32 +287,32 @@ return [
         'social' => [
             'facebook' => '',
             'instagram' => 'https://www.instagram.com/shahenazindia/p/DJgGvf-oEpm/?hl=en',
-            'twitter' => '',
+            'x' => '',
             'linkdin' => 'https://in.linkedin.com/company/shahenaz',
         ],
     ],
-    'watch' => [
-        'industry' => 'fashion',
-        'name' => 'Watch',
-        'view' => 'Frontend/Portfolio/watchSocial',
-        'image' => 'frontend-assets/img/clients/watch.jpg'
-    ],
-    'desiavatar' => [
-        'industry' => 'fashion',
-        'name' => 'Desi Avatar',
-        'meta' => [
-            'title' => 'Digital marketing services for Desi- Avatar| Sociomark​',
-            'description' => "Managed SEO, social media, and creative design for Desi Avatar to enhance brand visibility, drive engagement, and build a strong digital presence."
-        ],
+    // 'watch' => [
+    //     'industry' => 'fashion',
+    //     'name' => 'Watch',
+    //     'view' => 'Frontend/Portfolio/watchSocial',
+    //     'image' => 'frontend-assets/img/clients/watch.jpg'
+    // ],
+    // 'desiavatar' => [
+    //     'industry' => 'fashion',
+    //     'name' => 'Desi Avatar',
+    //     'meta' => [
+    //         'title' => 'Digital marketing services for Desi- Avatar| Sociomark​',
+    //         'description' => "Managed SEO, social media, and creative design for Desi Avatar to enhance brand visibility, drive engagement, and build a strong digital presence."
+    //     ],
 
-        'image' => 'frontend-assets/img/clients/desiavatar.jpg'
-    ],
-    'out-of-office' => [
-        'industry' => 'fashion',
-        'name' => 'Out Of Office',
+    //     'image' => 'frontend-assets/img/clients/desiavatar.jpg'
+    // ],
+    // 'out-of-office' => [
+    //     'industry' => 'fashion',
+    //     'name' => 'Out Of Office',
 
-        'image' => 'frontend-assets/img/clients/outofoffice.jpg'
-    ],
+    //     'image' => 'frontend-assets/img/clients/outofoffice.jpg'
+    // ],
     'vedco' => [
         'industry' => 'fashion',
         'name' => 'Vedco',
@@ -324,12 +324,12 @@ return [
         'image' => 'frontend-assets/img/clients/vedco.jpg',
         'portfolio-image' => 'frontend-assets/img/work/banner/vedco.png'
     ],
-    'stickerly' => [
-        'industry' => 'fashion',
-        'name' => 'Stickerly',
+    // 'stickerly' => [
+    //     'industry' => 'fashion',
+    //     'name' => 'Stickerly',
 
-        'image' => 'frontend-assets/img/clients/stickerly.jpg'
-    ],
+    //     'image' => 'frontend-assets/img/clients/stickerly.jpg'
+    // ],
     'jop' => [
         'industry' => 'real-estate',
         'name' => 'JOP',
@@ -343,7 +343,7 @@ return [
         'social' => [
             'facebook' => 'https://www.facebook.com/JopPalmsRtk/?locale=ga_IE',
             'instagram' => 'https://www.instagram.com/jop.group/reel/DKSCqZhv8Ki/?hl=en',
-            'twitter' => '',
+            'x' => '',
             'linkdin' => '',
         ],
     ],
@@ -360,7 +360,7 @@ return [
         'social' => [
             'facebook' => 'https://www.facebook.com/NODWINGaming/',
             'instagram' => 'https://www.instagram.com/nodwingaming/p/DKW0hRFMoFr/?hl=en',
-            'twitter' => 'https://x.com/NodwinGaming?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
+            'x' => 'https://x.com/NodwinGaming?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
             'linkdin' => 'https://in.linkedin.com/company/nodwin_gaming',
         ],
     ],
@@ -487,7 +487,7 @@ return [
         'social' => [
             'facebook' => '',
             'instagram' => 'https://www.instagram.com/grillbox_chennai/?hl=en',
-            'twitter' => '',
+            'x' => '',
             'linkdin' => '',
         ],
     ],
@@ -515,7 +515,7 @@ return [
         'social' => [
             'facebook' => 'https://www.facebook.com/inifdvashifd/',
             'instagram' => '',
-            'twitter' => '',
+            'x' => '',
             'linkdin' => 'https://in.linkedin.com/company/inifd-vashi',
         ],
     ],
@@ -532,7 +532,7 @@ return [
         'social' => [
             'facebook' => '',
             'instagram' => 'https://www.instagram.com/p/DKR8SZJRw3s/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==',
-            'twitter' => '',
+            'x' => '',
             'linkdin' => '',
         ],
     ],
@@ -582,7 +582,7 @@ return [
         'social' => [
             'facebook' => '',
             'instagram' => 'https://www.instagram.com/markets4you_india/reel/DEHDJUKM1j-/?hl=en',
-            'twitter' => '',
+            'x' => '',
             'linkdin' => 'https://vg.linkedin.com/company/markets4you',
         ],
     ],
@@ -621,7 +621,7 @@ return [
         'social' => [
             'facebook' => 'https://www.facebook.com/NMMConline/',
             'instagram' => 'https://www.instagram.com/p/DKeUgPzNY0g/?hl=en&img_index=1',
-            'twitter' => 'https://x.com/nmmconline?lang=en',
+            'x' => 'https://x.com/nmmconline?lang=en',
             'linkdin' => 'https://in.linkedin.com/company/nmmconline',
         ],
     ],
@@ -660,7 +660,7 @@ return [
         'social' => [
             'facebook' => 'https://www.facebook.com/repute.mart/',
             'instagram' => 'https://www.instagram.com/reputemart.in/p/DBteR8_IkTq/?hl=en',
-            'twitter' => '',
+            'x' => '',
             'linkdin' => '',
         ],
 
@@ -733,7 +733,7 @@ return [
         'social' => [
             'facebook' => 'https://www.facebook.com/theprofessionalcouriers/',
             'instagram' => '',
-            'twitter' => 'https://x.com/TPCGlobeCares?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
+            'x' => 'https://x.com/TPCGlobeCares?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor',
             'linkdin' => 'https://in.linkedin.com/company/the-professional-courier',
         ],
     ],
@@ -750,7 +750,7 @@ return [
         'social' => [
             'facebook' => 'https://www.facebook.com/ThaneSmartCityLtd/',
             'instagram' => 'https://www.instagram.com/smartcity_thane/p/DKTvKpszV37/',
-            'twitter' => 'https://x.com/city_thane',
+            'x' => 'https://x.com/city_thane',
             'linkdin' => 'https://in.linkedin.com/in/thane-smart-city-limited-516733253',
         ],
     ],

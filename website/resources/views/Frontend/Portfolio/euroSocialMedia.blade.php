@@ -56,7 +56,7 @@
             <ul>
                 <li class="sec-para">Social media marketing</li>
                 <li class="sec-para">Instagram Reels</li>
-                <li class="sec-para">product shoots</li>
+                <li class="sec-para">product shoots new</li>
             </ul>
             @include('Frontend.partial.socialMediaLinkInPortfolio')
             <div class="mt-3 d-none">

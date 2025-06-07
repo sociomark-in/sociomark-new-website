@@ -51,6 +51,9 @@
             <p class="sec-para"><b>About the Brand:</b> Tata Play is one of the top names in the world of home entertainment. It brings seamless access to content to Indian households. With its advanced entertainment features, it has made a huge transformation in the way we experience television. It is very well known for its <strong>DTH services;</strong> Tata Play offers a wide range of channels and streaming options. The brand continues to innovate, blending traditional television with modern tech. It's a trusted choice for families seeking quality <strong>digital entertainment</strong> every day.
             </p>
             <p class="sec-para"><b>Services Offered:</b> </p>
+            <ul>
+                <li class="sec-para">Graphic Designing</li>
+            </ul>
 
             @include('Frontend.partial.socialMediaLinkInPortfolio')
 
