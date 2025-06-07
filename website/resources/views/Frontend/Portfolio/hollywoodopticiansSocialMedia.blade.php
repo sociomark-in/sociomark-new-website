@@ -11,24 +11,24 @@
                     <div class="swiper-slide">
 
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/hollywood-opticians/1.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/hollywood-opticians/1.jpg') }}" alt="hollywood opticians"
                                 srcset="" class="w-100">
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/hollywood-opticians/2.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/hollywood-opticians/2.jpg') }}" alt="hollywood opticians"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/hollywood-opticians/3.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/hollywood-opticians/3.jpg') }}" alt="hollywood opticians"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/hollywood-opticians/4.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/hollywood-opticians/4.jpg') }}" alt="hollywood opticians"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/hollywood-opticians/5.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/hollywood-opticians/5.jpg') }}" alt="hollywood opticians"
                             srcset="" class="w-100">
                     </div>
                 </div>

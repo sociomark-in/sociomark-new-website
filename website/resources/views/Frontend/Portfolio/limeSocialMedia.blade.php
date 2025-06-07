@@ -11,24 +11,24 @@
                     <div class="swiper-slide">
 
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/lime/1.jpg') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/lime/1.jpg') }}" alt="lime"
                                 srcset="" class="w-100">
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/lime/2.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/lime/2.jpg') }}" alt="lime"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/lime/3.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/lime/3.jpg') }}" alt="lime"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/lime/4.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/lime/4.jpg') }}" alt="lime"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/work/lime/5.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/work/lime/5.jpg') }}" alt="lime"
                             srcset="" class="w-100">
                     </div>
                 </div>
@@ -80,27 +80,27 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/lime/lime1.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/lime/lime1.jpg') }}" alt="lime"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/lime/lime2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/lime/lime2.png') }}" alt="lime"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/lime/lime3.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/lime/lime3.jpg') }}" alt="lime"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/lime/lime4.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/lime/lime4.jpg') }}" alt="lime"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/lime/lime4.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/lime/lime4.png') }}" alt="lime"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/lime/lime5.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/lime/lime5.png') }}" alt="lime"
                             srcset="" class="w-100">
                     </div>
                 </div>

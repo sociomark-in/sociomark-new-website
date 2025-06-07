@@ -10,7 +10,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12 p-0">
-                        <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/Hero.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/Hero.png') }}" alt="content marketing"
                             srcset="" width="100%">
                     </div>
                 </div>
@@ -146,7 +146,7 @@
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/Service/Understand What Works.png') }}"
-                                alt="" class="rounded-overflow">
+                                alt="understanding what works" class="rounded-overflow">
                             <p class="sec-para text">We begin with <b>Keyword Research</b> to learn what your audience is
                                 searching for.
                             </p>
@@ -159,7 +159,7 @@
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/Service/Smart Planning.png') }}"
-                                alt="" class="rounded-overflow">
+                                alt="Smart Planning " class="rounded-overflow">
                             <p class="sec-para text"> Our <b>content marketing strategy</b> covers everything from what to
                                 post to where and when.
 
@@ -172,7 +172,7 @@
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/Service/Create with Purpose.png') }}"
-                                alt="" class="rounded-overflow">
+                                alt="Create with Purpose" class="rounded-overflow">
                             <p class="sec-para text">We <b>Create infographics and visuals</b> that not only inform but
                                 stand out.
 
@@ -185,7 +185,7 @@
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/Service/Reach the Right People.png') }}"
-                                alt="" class="rounded-overflow">
+                                alt="Reach the Right People" class="rounded-overflow">
                             <p class="sec-para text">We <b>Promote your content</b> through channels which will amplify and
                                 enhance the reach and visibility.
                             </p>
@@ -197,7 +197,7 @@
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/Service/Build Trust Over Time.png') }}"
-                                alt="" class="rounded-overflow">
+                                alt="Build Trust Over Time " class="rounded-overflow">
                             <p class="sec-para text">We consistently <b>build links</b> to help your content rank better
                                 and earn authority.
 
@@ -206,12 +206,12 @@
                     </div>
                 </div>
             </div>
-            <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img
+            <!-- <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img
                     src="assets/img/shape/shape-9.png" alt=""></div>
             <div class="shape-mockup d-none d-lg-block" data-top="2%" data-left="0%"><img
                     src="assets/img/shape/shape-13.png" alt=""></div>
             <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img
-                    src="assets/img/shape/shape-14.png" alt=""></div>
+                    src="assets/img/shape/shape-14.png" alt=""></div> -->
 
         </section>
 

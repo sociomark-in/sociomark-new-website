@@ -134,7 +134,7 @@
                         <div class="box-blog th-blog blog-single has-post-thumbnail">
                             <div class="blog-img box-blog">
                                 <a href="">
-                                    <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image" class="w-100 h-100 object-fit-cover">
+                                    <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="{{ $blog->blog_name }}" class="w-100 h-100 object-fit-cover">
                                 </a>
                             </div>
                             <div class="blog-content content-padding">
@@ -184,7 +184,7 @@
                                 <div class="recent-post">
                                     <div class="media-img recent_blog_img">
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                            <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="Blog Image" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="{{ $blog->blog_name }}" class="w-100 h-100 object-fit-cover">
                                         </a>
                                     </div>
                                     <div class="media-body">

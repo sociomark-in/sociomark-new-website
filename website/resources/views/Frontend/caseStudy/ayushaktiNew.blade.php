@@ -177,9 +177,9 @@
             </div>
 
             <div class="row">
-                <div class="col-4"><img src="{{ asset('frontend-assets/img/case-study/ayushkatiNew/1.png') }}" alt=""></div>
-                <div class="col-4"><img src="{{ asset('frontend-assets/img/case-study/ayushkatiNew/2.png') }}" alt=""></div>
-                <div class="col-4"><img src="{{ asset('frontend-assets/img/case-study/ayushkatiNew/3.png') }}" alt=""></div>
+                <div class="col-4"><img src="{{ asset('frontend-assets/img/case-study/ayushkatiNew/1.png') }}" alt="Post for womens day "></div>
+                <div class="col-4"><img src="{{ asset('frontend-assets/img/case-study/ayushkatiNew/2.png') }}" alt="Post for womens day "></div>
+                <div class="col-4"><img src="{{ asset('frontend-assets/img/case-study/ayushkatiNew/3.png') }}" alt="Post for womens day "></div>
             </div>
             <li class="sec-para mt-4"> <b>Valentine's Day Campaigns</b> </li>
             <ul>
@@ -249,15 +249,15 @@
 
             </div>
             <div class="row">
-                <div class="col-4"><img src="{{ asset('frontend-assets/img/case-study/ayushkatiNew/4.png') }}" alt=""></div>
-                <div class="col-4"><img src="{{ asset('frontend-assets/img/case-study/ayushkatiNew/9.png') }}" alt=""></div>
-                <div class="col-4"><img src="{{ asset('frontend-assets/img/case-study/ayushkatiNew/5.png') }}" alt=""></div>
+                <div class="col-4"><img src="{{ asset('frontend-assets/img/case-study/ayushkatiNew/4.png') }}" alt="Logo Launch Post "></div>
+                <div class="col-4"><img src="{{ asset('frontend-assets/img/case-study/ayushkatiNew/9.png') }}" alt="Logo Launch Post "></div>
+                <div class="col-4"><img src="{{ asset('frontend-assets/img/case-study/ayushkatiNew/5.png') }}" alt="Logo Launch Post "></div>
             </div>
 
             <div class="row mt-4">
-                <div class="col-4"><img src="{{ asset('frontend-assets/img/case-study/ayushkatiNew/8.png') }}" alt=""></div>
-                <div class="col-4"><img src="{{ asset('frontend-assets/img/case-study/ayushkatiNew/7.png') }}" alt=""></div>
-                <div class="col-4"><img src="{{ asset('frontend-assets/img/case-study/ayushkatiNew/6.png') }}" alt=""></div>
+                <div class="col-4"><img src="{{ asset('frontend-assets/img/case-study/ayushkatiNew/8.png') }}" alt="Logo Launch Post "></div>
+                <div class="col-4"><img src="{{ asset('frontend-assets/img/case-study/ayushkatiNew/7.png') }}" alt="Logo Launch Post "></div>
+                <div class="col-4"><img src="{{ asset('frontend-assets/img/case-study/ayushkatiNew/6.png') }}" alt="Logo Launch Post "></div>
             </div>
             <li class="sec-para mt-4"> <b>Trend Integration</b> </li>
             <ul>

@@ -7,7 +7,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="col-12">
-                            <img src="{{ asset('frontend-assets/img/work/banner/tata_play.png') }}" alt=""
+                            <img src="{{ asset('frontend-assets/img/work/banner/tata_play.png') }}" alt="tata play"
                                 srcset="" class="w-100">
                         </div>
                     </div>
@@ -66,31 +66,31 @@
             <div class="swiper creativeSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/tataplay/1.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tataplay/1.png') }}" alt="tata play"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/tataplay/2.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tataplay/2.png') }}" alt="tata play"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/tataplay/3.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tataplay/3.png') }}" alt="tata play"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/tataplay/4.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tataplay/4.png') }}" alt="tata play"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/tataplay/5.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tataplay/5.png') }}" alt="tata play"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/tataplay/6.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tataplay/6.jpg') }}" alt="tata play"
                             srcset="" class="w-100">
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('frontend-assets/img/portfolio/tataplay/7.jpg') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/portfolio/tataplay/7.jpg') }}" alt="tata play"
                             srcset="" class="w-100">
                     </div>
                 </div>
@@ -140,19 +140,19 @@
 
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'ayushakti']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/ayushakti/ayu1.jpeg') }}" alt="tata play" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Ayushakti</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'jivana']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/jivana/Jivana.jpg') }}" alt="tata play" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Jivana</b></p>
                 </a>
             </div>
             <div class="col lg-4 col-md-4 col-12">
                 <a href="{{ route('social_media', ['client'=>'cyber-power']) }}">
-                    <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="" srcset="" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/work/cyberpwer/Cyberpower.jpg') }}" alt="tata play" srcset="" class="w-100">
                     <p class="sec-para text-center text-blue mt-2"><b>Cyber Power</b></p>
                 </a>
             </div>

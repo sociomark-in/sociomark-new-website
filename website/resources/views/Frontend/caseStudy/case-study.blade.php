@@ -95,7 +95,7 @@
         <div class="full-width">
             <picture>
                 <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/case-studies.png') }}" loading="lazy">
-                <img src="{{ asset('frontend-assets/img/banners/case-studies.png') }}" alt="" loading="lazy">
+                <img src="{{ asset('frontend-assets/img/banners/case-studies.png') }}" alt="case study" loading="lazy">
             </picture>
         </div>
     </section>

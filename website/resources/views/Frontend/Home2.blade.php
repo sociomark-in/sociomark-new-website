@@ -1681,7 +1681,7 @@
                                 <a href="{{url($pr->link)  }}">
                                     <img loading="lazy"
                                         src="{{ url('storage/app/public/' . ($pr->img?? 'default.jpg')) }}"
-                                        alt="pr Image" class="w-100 h-100 object-fit-cover">
+                                        alt="pr Image - {{ $pr->card_title }}" class="w-100 h-100 object-fit-cover">
                                 </a>
                             </div>
                             <div class="blog-content content-padding">

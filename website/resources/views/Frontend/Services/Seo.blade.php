@@ -61,7 +61,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 p-0">
-                    <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Hero.png') }}" alt="" srcset=""
+                    <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Hero.png') }}" alt="seo" srcset=""
                         width="100%">
                 </div>
             </div>
@@ -219,7 +219,7 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Services/Ecommerce Seo.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="Ecommerce SEO" class="rounded-overflow">
                         <p class="sec-para text">Transform passive visitors into engaged customers.
                             Our strategies are designed to boost website traffic and conversions through a combination
                             of content optimization, in-depth website audits, and keyword research.
@@ -234,7 +234,7 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Services/International Seo.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="International SEO" class="rounded-overflow">
                         <p class="sec-para text">We excel in international SEO. Our strategies focus on key elements
                             like multilingual keyword research, in-depth audience analysis, and optimized website
                             structure. We also specialize in geo-targeting, ensuring your content reaches the right
@@ -250,7 +250,7 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Services/Mobile Seo.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="App Store SEO" class="rounded-overflow">
                         <p class="sec-para text"> Optimizing your app's visibility is key to attracting the right
                             users. By enhancing keywords, reviews, and user interaction, we ensure your app stands out
                             and gets more downloads.
@@ -266,7 +266,7 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Services/Local Seo.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="Local SEO" class="rounded-overflow">
                         <p class="sec-para text">We focus on enhancing customer engagement at the offline stores,
                             increasing their online audience who are often unaware of their local presence, and getting
                             them on the map with Google Listings.
@@ -280,7 +280,7 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Services/Seo Audit.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="AI SEO" class="rounded-overflow">
                         <p class="sec-para text">By leveraging AI, we enhance your website’s visibility with smart,
                             data-driven adjustments. This approach ensures you're always ahead of the curve, delivering
                             results that matter.
@@ -295,11 +295,9 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Services/Goodle Analytics and Report.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="GEO" class="rounded-overflow">
                         <p class="sec-para text">Crafting content that speaks your brand’s truth while aligning with
-                            how AI engines search and rank. We focus on making your digital presence more authentic,
-                            visible, and valuable.
-
+                            how AI engines search and rank. We focus on making your digital presence more authentic, visible, and valuable.
                         </p>
 
                     </div>
@@ -308,12 +306,12 @@
 
 
         </div>
-        <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img
+        <!-- <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img
                 src="assets/img/shape/shape-9.png" alt=""></div>
         <div class="shape-mockup d-none d-lg-block" data-top="2%" data-left="0%"><img
                 src="assets/img/shape/shape-13.png" alt=""></div>
         <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img
-                src="assets/img/shape/shape-14.png" alt=""></div>
+                src="assets/img/shape/shape-14.png" alt=""></div> -->
 
     </section>
 

@@ -5,7 +5,7 @@
             <div class="full-width">
                 <picture>
                     <source media="(min-width: 1400px)" srcset="https://placehold.co/1920x900">
-                    <img src="https://placehold.co/1080x1080" alt="">
+                    <img src="https://placehold.co/1080x1080" alt="industry">
                 </picture>
             </div>
         </section>

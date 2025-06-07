@@ -94,8 +94,8 @@
 
         <h2 class="mt-4 sub-sec-title text-blue">Growth Snapshots:</h2>
         <div class="row">
-            <div class="col-6"><img src="{{ asset('frontend-assets/img/case-study/organic1.png') }}" alt=""></div>
-            <div class="col-6"><img src="{{ asset('frontend-assets/img/case-study/organic2.png') }}" alt=""></div>
+            <div class="col-6"><img src="{{ asset('frontend-assets/img/case-study/organic1.png') }}" alt="Growth Snapshots"></div>
+            <div class="col-6"><img src="{{ asset('frontend-assets/img/case-study/organic2.png') }}" alt="Growth Snapshots"></div>
         </div>
     </div>
     @include('Frontend/partial/commonCaseStudy')

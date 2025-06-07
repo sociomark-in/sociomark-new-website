@@ -66,10 +66,10 @@
         <p class="sec-para">Topical posts are posts that are trending and make use of moment marketing to promote the brand.</p>
         <div class="row justify-content-center">
             <div class="col-md-3 col-12">
-               <img src="{{ asset('frontend-assets/img/case-study/tpc/tropical1.jpg') }}" alt="">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/tropical1.jpg') }}" alt="the professional couriers">
             </div>
             <div class="col-md-3 col-12">
-                <img src="{{ asset('frontend-assets/img/case-study/tpc/tropical2.jpg') }}" alt="">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/tropical2.jpg') }}" alt="the professional couriers">
             </div>
         </div>
         <div class="clearfix"></div>
@@ -79,10 +79,10 @@
 
         <div class="row justify-content-center">
             <div class="col-md-3 col-12">
-                <img src="{{ asset('frontend-assets/img/case-study/tpc/metaphoic1.jpg') }}" alt="">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/metaphoic1.jpg') }}" alt="the professional couriers">
             </div>
             <div class="col-md-3 col-12">
-               <img src="{{ asset('frontend-assets/img/case-study/tpc/metaphoric2.jpg') }}" alt="">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/metaphoric2.jpg') }}" alt="the professional couriers">
             </div>
         </div>
         <div class="clearfix"></div>
@@ -91,24 +91,24 @@
         <!-- <p class="sec-para">Celebratory posts are posts that revolve around holidays and festival wishing.</p> -->
         <div class="row justify-content-center">
             <div class="col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/case-study/tpc/rakshabandhan1.jpg') }}" alt="">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/rakshabandhan1.jpg') }}" alt="the professional couriers">
             </div>
             <div class="col-md-4 col-12">
-               <img src="{{ asset('frontend-assets/img/case-study/tpc/rakshabandhan2.jpg') }}" alt="">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/rakshabandhan2.jpg') }}" alt="the professional couriers">
             </div>
              <div class="col-md-4 col-12">
-               <img src="{{ asset('frontend-assets/img/case-study/tpc/rakshabandhan3.jpg') }}" alt="">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/rakshabandhan3.jpg') }}" alt="the professional couriers">
             </div>
         </div>
          <div class="row justify-content-center">
             <div class="col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/case-study/tpc/rakshabandhan4.jpg') }}" alt="">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/rakshabandhan4.jpg') }}" alt="the professional couriers">
             </div>
             <div class="col-md-4 col-12">
-               <img src="{{ asset('frontend-assets/img/case-study/tpc/rakshabandhan5.jpg') }}" alt="">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/rakshabandhan5.jpg') }}" alt="the professional couriers">
             </div>
              <div class="col-md-4 col-12">
-               <img src="{{ asset('frontend-assets/img/case-study/tpc/rakshabandhan6.jpg') }}" alt="">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/rakshabandhan6.jpg') }}" alt="the professional couriers">
             </div>
         </div>
         
@@ -116,59 +116,59 @@
         <!-- <p class="sec-para">Promotion of their services through social media creatives.</p> -->
         <div class="row justify-content-center">
             <div class="col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/case-study/tpc/christmus1.jpg') }}" alt="">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/christmus1.jpg') }}" alt="the professional couriers">
             </div>
             <div class="col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/case-study/tpc/christmus2.jpg') }}" alt="">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/christmus2.jpg') }}" alt="the professional couriers">
             </div>
             <div class="col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/case-study/tpc/christmus3.jpg') }}" alt="">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/christmus3.jpg') }}" alt="the professional couriers">
             </div>
         </div>
         <h2 class="mt-4 sub-sec-title text-blue">Valentines Day Campaign:</h2>
         <div class="row justify-content-center">
             <div class="col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/case-study/tpc/Valentines1.jpg') }}" alt="">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/Valentines1.jpg') }}" alt="the professional couriers">
             </div>
             <div class="col-md-4 col-12">
-               <img src="{{ asset('frontend-assets/img/case-study/tpc/Valentines2.jpg') }}" alt="">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/Valentines2.jpg') }}" alt="the professional couriers">
             </div>
              <div class="col-md-4 col-12">
-               <img src="{{ asset('frontend-assets/img/case-study/tpc/Valentines3.jpg') }}" alt="">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/Valentines3.jpg') }}" alt="the professional couriers">
             </div>
         </div>
          <div class="row justify-content-center">
             <div class="col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/case-study/tpc/Valentines4.jpg') }}" alt="">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/Valentines4.jpg') }}" alt="the professional couriers">
             </div>
             <div class="col-md-4 col-12">
-               <img src="{{ asset('frontend-assets/img/case-study/tpc/Valentines5.jpg') }}" alt="">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/Valentines5.jpg') }}" alt="the professional couriers">
             </div>
              <div class="col-md-4 col-12">
-               <img src="{{ asset('frontend-assets/img/case-study/tpc/Valentines6.jpg') }}" alt="">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/Valentines6.jpg') }}" alt="the professional couriers">
             </div>
         </div>
         <h2 class="mt-4 sub-sec-title text-blue">Mothers Day Campaign:</h2>
         <div class="row justify-content-center">
             <div class="col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/case-study/tpc/Mothers1.jpg') }}" alt="">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/Mothers1.jpg') }}" alt="the professional couriers">
             </div>
             <div class="col-md-4 col-12">
-               <img src="{{ asset('frontend-assets/img/case-study/tpc/Mothers2.jpg') }}" alt="">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/Mothers2.jpg') }}" alt="the professional couriers">
             </div>
              <div class="col-md-4 col-12">
-               <img src="{{ asset('frontend-assets/img/case-study/tpc/Mothers3.jpg') }}" alt="">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/Mothers3.jpg') }}" alt="the professional couriers">
             </div>
         </div>
          <div class="row justify-content-center">
             <div class="col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/case-study/tpc/Mothers4.jpg') }}" alt="">
+                <img src="{{ asset('frontend-assets/img/case-study/tpc/Mothers4.jpg') }}" alt="the professional couriers">
             </div>
             <div class="col-md-4 col-12">
-               <img src="{{ asset('frontend-assets/img/case-study/tpc/Mothers5.jpg') }}" alt="">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/Mothers5.jpg') }}" alt="the professional couriers">
             </div>
              <div class="col-md-4 col-12">
-               <img src="{{ asset('frontend-assets/img/case-study/tpc/Mothers6.jpg') }}" alt="">
+               <img src="{{ asset('frontend-assets/img/case-study/tpc/Mothers6.jpg') }}" alt="the professional couriers">
             </div>
         </div>
         <h2 class="mt-4 sub-sec-title text-blue">What numbers did we achieve overall:</h2>

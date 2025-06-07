@@ -52,7 +52,7 @@ class PortfolioController extends Controller
                 $clientIndustries = (array) ($c['industry'] ?? []);
                 return count(array_intersect($clientIndustries, $industries)) > 0;
             })
-            ->take(3);
+            ->take(10);
 
         return view($view, compact('meta', 'relatedClients', 'data'));
     }

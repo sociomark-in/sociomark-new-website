@@ -54,7 +54,7 @@
         <div class="container-fluid p-0">
             <div class="row">
                 <div class="col-12">
-                    <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/hero.png') }}" alt="" srcset="" width="100%">
+                    <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/hero.png') }}" alt="perfomance marketing" srcset="" width="100%">
                 </div>
             </div>
         </div>
@@ -194,7 +194,7 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Understand the Audience.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="Understand the Audience" class="rounded-overflow">
                         <p class="sec-para text">People don’t click what doesn’t connect. So we start with understanding about them and their needs.
                         </p>
 
@@ -206,7 +206,7 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Dig Into Keywords.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="Dig Into Keywords" class="rounded-overflow">
                         <p class="sec-para text">Effective <b>sem marketing</b> relies on strong keyword research. We pick high-intent words that lead to results
 
                         </p>
@@ -218,7 +218,7 @@
                         <h3 class="box-title text-center text-md-start">Build Campaigns That Fit</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Build Campaigns That Fit.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Build Campaigns That Fit.png') }}" alt="Build Campaigns That Fit"
                             class="rounded-overflow">
                         <p class="sec-para text">One-size ads don’t perform. From <b>LinkedIn paid ads</b> to dynamic remarketing, we tailor it all.
                         </p>
@@ -230,7 +230,7 @@
                         <h3 class="box-title text-center text-md-start">Launch, Monitor, Adapt</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Launch, Monitor, Adapt.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Launch, Monitor, Adapt.png') }}" alt="Launch, Monitor, Adapt"
                             class="rounded-overflow">
                         <p class="sec-para text"> Campaigns go live with a plan—and a backup. Because digital never sleeps, and neither do we.
                         </p>
@@ -243,7 +243,7 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Stay On Top.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="Stay On Top" class="rounded-overflow">
                         <p class="sec-para text">With ongoing <b>ppc management services</b>, we keep campaigns sharp and in-sync with trends.
                         </p>
 
@@ -253,12 +253,12 @@
 
 
         </div>
-        <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img
+        <!-- <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img
                 src="assets/img/shape/shape-9.png" alt=""></div>
         <div class="shape-mockup d-none d-lg-block" data-top="2%" data-left="0%"><img
                 src="assets/img/shape/shape-13.png" alt=""></div>
         <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img
-                src="assets/img/shape/shape-14.png" alt=""></div>
+                src="assets/img/shape/shape-14.png" alt=""></div> -->
 
     </section>
 
