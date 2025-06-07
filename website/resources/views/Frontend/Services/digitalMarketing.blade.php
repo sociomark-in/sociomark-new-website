@@ -62,7 +62,7 @@
             <div class="row">
                 <div class="col-12">
                     <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Digital Marketing.png') }}"
-                        alt="" srcset="" width="100%">
+                        alt="digital marketing" srcset="" width="100%">
                 </div>
             </div>
         </div>
@@ -210,22 +210,19 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Services/Understand the Brand Inside Out.png') }}"
-                            alt="" class="rounded-overflow">
-                        <p class="sec-para text">We dive into your business, market, and audience to know exactly what
-                            makes your brand tick.
+                            alt="Understand the Brand Inside Out" class="rounded-overflow">
+                        <p class="sec-para text">We dive into your business, market, and audience to know exactly what makes your brand tick.
                         </p>
-
                     </div>
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">Study Competitors and Gaps</h3>
+                        <h3 class="box-title text-center text-md-start">c</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Services/Study Competitors and Gaps.png') }}"
-                            alt="" class="rounded-overflow">
-                        <p class="sec-para text">We study what others in your space are doing—and how we can help you
-                            stand out.
+                            alt="Understand the Brand Inside Out" class="rounded-overflow">
+                        <p class="sec-para text">We study what others in your space are doing—and how we can help you stand out.
                         </p>
 
                     </div>
@@ -236,9 +233,8 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Services/Plan with Precision.png') }}"
-                            alt="" class="rounded-overflow">
-                        <p class="sec-para text"> We build detailed plans with timelines and touchpoints so everything
-                            flows smoothly from day one.
+                            alt="Plan with Precision" class="rounded-overflow">
+                        <p class="sec-para text"> We build detailed plans with timelines and touchpoints so everything flows smoothly from day one.
                         </p>
 
                     </div>
@@ -249,7 +245,7 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Services/Create with Intent.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="Create with Intent" class="rounded-overflow">
                         <p class="sec-para text"> Every creative is built to speak your brand’s language, and every
                             word is placed with purpose.
                         </p>
@@ -262,7 +258,7 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Services/Execute and Optimise.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="Execute and Optimise" class="rounded-overflow">
                         <p class="sec-para text">We run your campaigns, track results, and keep fine-tuning so every
                             effort moves the needle.
                         </p>
@@ -273,12 +269,12 @@
 
 
         </div>
-        <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img
+        <!-- <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img
                 src="assets/img/shape/shape-9.png" alt=""></div>
         <div class="shape-mockup d-none d-lg-block" data-top="2%" data-left="0%"><img
                 src="assets/img/shape/shape-13.png" alt=""></div>
         <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img
-                src="assets/img/shape/shape-14.png" alt=""></div>
+                src="assets/img/shape/shape-14.png" alt=""></div> -->
 
     </section>
 

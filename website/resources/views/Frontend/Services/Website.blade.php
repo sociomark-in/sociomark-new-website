@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="col-12 p-0">
                     <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/web_development.png') }}"
-                        alt="" srcset="" width="100%">
+                        alt="website development" srcset="" width="100%">
                 </div>
             </div>
         </div>
@@ -160,7 +160,7 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/Services/Know your Audience.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="Know Your Audience" class="rounded-overflow">
                         <p class="sec-para text">We begin by understanding your users—what they want, and how they
                             behave online.
                         </p>
@@ -173,7 +173,7 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/Services/Study the competition.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="Study the Competition" class="rounded-overflow">
                         <p class="sec-para text"> We check out the competition and find ways to outperform them and
                             emerge as an industry leader.
                         </p>
@@ -185,7 +185,7 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/Services/Plan your website structure.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="Plan Your Website Structure" class="rounded-overflow">
                         <p class="sec-para text">Every section has a purpose. Every word, a reason to be there.
                         </p>
                     </div>
@@ -196,7 +196,7 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/Services/Create with Strategy.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="Create with Strategy" class="rounded-overflow">
                         <p class="sec-para text">As a leading <b>web design agency</b>, we design layouts that guide
                             users naturally.
                         </p>
@@ -208,7 +208,7 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/Services/Launch with support.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="Launch with Support" class="rounded-overflow">
                         <p class="sec-para text"> Your site goes live, but we stay on board to improve, update, and
                             scale with you.
                         </p>
@@ -216,12 +216,12 @@
                 </div>
             </div>
         </div>
-        <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img
+        <!-- <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img
                 src="assets/img/shape/shape-9.png" alt=""></div>
         <div class="shape-mockup d-none d-lg-block" data-top="2%" data-left="0%"><img
                 src="assets/img/shape/shape-13.png" alt=""></div>
         <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img
-                src="assets/img/shape/shape-14.png" alt=""></div>
+                src="assets/img/shape/shape-14.png" alt=""></div> -->
 
     </section>
 

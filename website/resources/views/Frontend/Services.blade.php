@@ -117,7 +117,7 @@
                         <div class="service-process">
                             <div class="align-content-center service-process_img"><img
                                     src="{{ asset('frontend-assets/img/icon/service/Social.png') }}"
-                                    height="50" alt="">
+                                    height="50" alt="Social Media Marketing">
                             </div>
                             <div class="service-process_centent">
                                 <h5 class="service-process_title">Social Media Marketing</h5>
@@ -128,7 +128,7 @@
                         <div class="service-process">
                             <div class="align-content-center service-process_img"><img
                                     src="{{ asset('frontend-assets/img/icon/service/SEO.png') }}"
-                                    height="50" alt="">
+                                    height="50" alt="Search Engine Optimization">
                             </div>
                             <div class="service-process_centent">
                                 <h5 class="service-process_title">Search Engine Optimization </h5>
@@ -139,7 +139,7 @@
                         <div class="service-process">
                             <div class="align-content-center service-process_img"><img
                                     src="{{ asset('frontend-assets/img/icon/service/Website.png') }}"
-                                    height="50" alt="">
+                                    height="50" alt="Website Development">
                             </div>
                             <div class="service-process_centent">
                                 <h5 class="service-process_title">Website Development</h5>
@@ -152,7 +152,7 @@
                         <div class="service-process">
                             <div class="align-content-center service-process_img"><img
                                     src="{{ asset('frontend-assets/img/icon/service/Digital.png') }}"
-                                    height="50" alt="">
+                                    height="50" alt="Digital Marketing">
                             </div>
                             <a href="{{ route('digitalMarketing') }}">
                                 <div class="service-process_centent">
@@ -166,7 +166,7 @@
                         <div class="service-process">
                             <div class="align-content-center service-process_img"><img
                                     src="{{ asset('frontend-assets/img/icon/service/mark.png') }}"
-                                    height="50" alt="">
+                                    height="50" alt="Performance Marketing">
                             </div>
                             <div class="service-process_centent">
                                 <h5 class="service-process_title"> Performance Marketing</h5>
@@ -177,7 +177,7 @@
                         <div class="service-process">
                             <div class="align-content-center service-process_img"><img
                                     src="{{ asset('frontend-assets/img/icon/service/content.png') }}"
-                                    height="50" alt="">
+                                    height="50" alt="Content Marketing">
                             </div>
                             <div class="service-process_centent">
                                 <h5 class="service-process_title">Content Marketing</h5>
@@ -188,7 +188,7 @@
                         <div class="service-process">
                             <div class="align-content-center service-process_img"><img
                                     src="{{ asset('frontend-assets/img/icon/service/mark.png') }}"
-                                    height="50" alt="">
+                                    height="50" alt="Photography & Video Production">
                             </div>
                             <div class="service-process_centent">
                                 <h5 class="service-process_title">Photography & Video Production</h5>
@@ -218,7 +218,7 @@
                         <div class="service-process" data-aos="fade-left" data-aos-duration="1000">
                             <div class="align-content-center service-process_img"><img
                                     src="{{ asset('frontend-assets/img/icon/service/Social.png') }}" height="50"
-                                    alt="">
+                                    alt="Social Media Marketing">
                             </div>
                             <a href="{{ route('socialMedia') }}">
                                 <div class="service-process_centent">
@@ -231,7 +231,7 @@
                         <div class="service-process" data-aos="fade-left" data-aos-duration="2000">
                             <div class="align-content-center service-process_img"><img
                                     src="{{ asset('frontend-assets/img/icon/service/SEO.png') }}" height="50"
-                                    alt="">
+                                    alt="SEO">
                             </div>
                             <a href="{{ route('seo') }}">
                                 <div class="service-process_centent">
@@ -244,7 +244,7 @@
                         <div class="service-process" data-aos="fade-left" data-aos-duration="3000">
                             <div class="align-content-center service-process_img"><img
                                     src="{{ asset('frontend-assets/img/icon/service/Website.png') }}" height="50"
-                                    alt="">
+                                    alt="Website Development">
                             </div>
                             <a href="{{ route('website') }}">
                                 <div class="service-process_centent">
@@ -257,7 +257,7 @@
                         <div class="service-process" data-aos="fade-left" data-aos-duration="4000">
                             <div class="align-content-center service-process_img"><img
                                     src="{{ asset('frontend-assets/img/icon/service/Digital.png') }}" height="50"
-                                    alt="">
+                                    alt="Digital Marketing">
                             </div>
                             <a href="{{ route('digitalMarketing') }}">
                                 <div class="service-process_centent">
@@ -270,7 +270,7 @@
                         <div class="service-process" data-aos="fade-left" data-aos-duration="5000">
                             <div class="align-content-center service-process_img"><img
                                     src="{{ asset('frontend-assets/img/icon/service/SEM.png') }}" height="50"
-                                    alt="">
+                                    alt="Performance Marketing">
                             </div>
                             <a href="{{ route('sem') }}">
                                 <div class="service-process_centent">
@@ -283,7 +283,7 @@
                         <div class="service-process" data-aos="fade-left" data-aos-duration="6000">
                             <div class="align-content-center service-process_img"><img
                                     src="{{ asset('frontend-assets/img/icon/service/content.png') }}" height="50"
-                                    alt="">
+                                    alt="Content Marketing">
                             </div>
                             <a href="{{ route('contentMarketing') }}">
                                 <div class="service-process_centent">
@@ -328,7 +328,7 @@
                                     srcset="https://www.sociomark.in/lp/assets/media/images/case-study/banner-nw18.png">
                                 <img loading="lazy"
                                     src="https://www.sociomark.in/lp/assets/media/images/case-study/banner-nw18.png"
-                                    alt="" class="w-100 img-border">
+                                    alt="exposure" class="w-100 img-border">
                             </picture>
                         </div>
                         <div class="swiper-slide">
@@ -341,7 +341,7 @@
                                     srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannermob_nodwin.png">
                                 <img loading="lazy"
                                     src="https://www.sociomark.in/lp/assets/media/images/case-study/bannermob_nodwin.png"
-                                    alt="" class="w-100 img-border">
+                                    alt="exposure" class="w-100 img-border">
                             </picture>
                         </div>
                         <div class="swiper-slide">
@@ -354,7 +354,7 @@
                                     srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannermob_times_network.png">
                                 <img loading="lazy"
                                     src="https://www.sociomark.in/lp/assets/media/images/case-study/bannermob_times_network.png"
-                                    alt="" class="w-100 img-border">
+                                    alt="exposure" class="w-100 img-border">
                             </picture>
                         </div>
                         <div class="swiper-slide">
@@ -367,7 +367,7 @@
                                     srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannerdmob_shahenaz.png">
                                 <img loading="lazy"
                                     src="https://www.sociomark.in/lp/assets/media/images/case-study/bannerdmob_shahenaz.png"
-                                    alt="" class="w-100 img-border">
+                                    alt="exposure" class="w-100 img-border">
                             </picture>
                         </div>
                         <div class="swiper-slide">
@@ -380,7 +380,7 @@
                                     srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannermob_aha_homes.png">
                                 <img loading="lazy"
                                     src="https://www.sociomark.in/lp/assets/media/images/case-study/bannermob_aha_homes.png"
-                                    alt="" class="w-100 img-border">
+                                    alt="exposure" class="w-100 img-border">
                             </picture>
                         </div>
                         <div class="swiper-slide">
@@ -393,7 +393,7 @@
                                     srcset="https://www.sociomark.in/lp/assets/media/images/case-study/bannermob_ayushakti.png.png">
                                 <img loading="lazy"
                                     src="https://www.sociomark.in/lp/assets/media/images/case-study/bannermob_ayushakti.png.png"
-                                    alt="" class="w-100 img-border">
+                                    alt="exposure" class="w-100 img-border">
                             </picture>
                         </div>
                     </div>

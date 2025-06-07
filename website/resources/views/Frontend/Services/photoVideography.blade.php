@@ -11,7 +11,7 @@
                 <div class="row">
                     <div class="col-12">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Photography and Video/hero.png') }}"
-                            alt="" srcset="" width="100%">
+                            alt="photo videography" srcset="" width="100%">
                     </div>
                 </div>
             </div>
@@ -158,7 +158,7 @@
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Photography and Video/Services/Creative Discovery.png') }}"
-                                alt="" class="rounded-overflow">
+                                alt="Creative Discovery" class="rounded-overflow">
                             <p class="sec-para text">Every great visual begins with a great brief. Understanding your
                                 story, your audience, and your goals is our first step.
                             </p>
@@ -171,7 +171,7 @@
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Photography and Video/Services/Concept Planning.png') }}"
-                                alt="" class="rounded-overflow">
+                                alt="Concept Planning" class="rounded-overflow">
                             <p class="sec-para text">We map out what the visuals will look like and feel like—from mood
                                 boards to shot lists—so there are no surprises on set.
                             </p>
@@ -183,7 +183,7 @@
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Photography and Video/Services/production with Purpose.png') }}"
-                                alt="" class="rounded-overflow">
+                                alt="Production with Purpose" class="rounded-overflow">
                             <p class="sec-para text">Our team captures content with intention, whether it’s for a short ad,
                                 event, or long-form campaign.
                             </p>
@@ -196,7 +196,7 @@
                         </div>
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Photography and Video/Services/Post-Production Magic.png') }}"
-                                alt="" class="rounded-overflow">
+                                alt="Post-Production Magic" class="rounded-overflow">
                             <p class="sec-para text">From editing to colour correction, our finishing touches bring clarity
                                 and polish to every frame.
                             </p>
@@ -207,12 +207,12 @@
 
 
             </div>
-            <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img
+            <!-- <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img
                     src="assets/img/shape/shape-9.png" alt=""></div>
             <div class="shape-mockup d-none d-lg-block" data-top="2%" data-left="0%"><img
                     src="assets/img/shape/shape-13.png" alt=""></div>
             <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img
-                    src="assets/img/shape/shape-14.png" alt=""></div>
+                    src="assets/img/shape/shape-14.png" alt=""></div> -->
 
         </section>
 

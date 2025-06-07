@@ -68,7 +68,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 p-0">
-                    <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/hero.png') }}" alt="" srcset="" width="100%">
+                    <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/hero.png') }}" alt="social media" srcset="" width="100%">
                 </div>
             </div>
         </div>
@@ -225,7 +225,7 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Services/Discovery & Goal Setting.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="Discovery & Goal Setting" class="rounded-overflow">
                         <p class="sec-para text">We begin by learning about your business, audience, and your end
                             goal. It’s all about setting a clear direction from day one.
                         </p>
@@ -238,7 +238,7 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Services/Strategy That Fits You.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="Strategy That Fits You" class="rounded-overflow">
                         <p class="sec-para text">No copy-paste templates here. We craft a custom plan to match your
                             voice, values, and vision—so your brand feels consistent across platforms.
 
@@ -250,11 +250,9 @@
                         <h3 class="box-title text-center text-md-start">Visuals + Voice, together</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Services/Visuals + Voice, together.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Services/Visuals + Voice, together.png') }}" alt="Visuals + Voice, together"
                             class="rounded-overflow">
-                        <p class="sec-para text"> Our creative team builds content that looks great and sounds like
-                            you. From graphics to captions, we focus on creating scroll-stopping posts.
-
+                        <p class="sec-para text"> Our creative team builds content that looks great and sounds like you. From graphics to captions, we focus on creating scroll-stopping posts.
                         </p>
                     </div>
                 </div>
@@ -263,11 +261,9 @@
                         <h3 class="box-title text-center text-md-start">Smart Campaign Execution</h3>
                     </div>
                     <div class="according-img">
-                        <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Services/Smart Campaign Execution.png') }}" alt=""
+                        <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Services/Smart Campaign Execution.png') }}" alt="Smart Campaign Execution"
                             class="rounded-overflow">
-                        <p class="sec-para text">Once the plan is ready, we bring it to life. With targeted <b>social
-                                media advertising,</b> we help you reach the people that matter to your brand aka your
-                            target audience..
+                        <p class="sec-para text">Once the plan is ready, we bring it to life. With targeted <b>social media advertising,</b> we help you reach the people that matter to your brand aka your target audience..
                         </p>
                     </div>
                 </div>
@@ -277,7 +273,7 @@
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Services/Track, Learn, improve.png') }}"
-                            alt="" class="rounded-overflow">
+                            alt="Track, Learn, improve" class="rounded-overflow">
                         <p class="sec-para text">We monitor performance closely and make regular adjustments. As a
                             <b>social media management company</b>, we ensure every step moves you closer to your goals.
                         </p>
@@ -285,12 +281,12 @@
                 </div>
             </div>
         </div>
-        <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img
+        <!-- <div class="shape-mockup spin d-none d-lg-block" data-top="5%" data-right="2%"><img
                 src="assets/img/shape/shape-9.png" alt=""></div>
         <div class="shape-mockup d-none d-lg-block" data-top="2%" data-left="0%"><img
                 src="assets/img/shape/shape-13.png" alt=""></div>
         <div class="shape-mockup d-none d-lg-block" data-bottom="0%" data-left="50%"><img
-                src="assets/img/shape/shape-14.png" alt=""></div>
+                src="assets/img/shape/shape-14.png" alt=""></div> -->
 
     </section>
 
