@@ -71,7 +71,7 @@
         </h2>
         <div class="row">
             <div class="col-md-4 col-12">
-                <img src="{{ asset('frontend-assets/img/case-study/rts/1.jpg') }}" class="my-3" alt="Social Media Services,Digital Marketing Company in Mumbai">
+                <img src="{{ asset('frontend-assets/img/case-study/rts/1.jpg') }}" class="my-3" alt="road to safety">
             </div>
             <div class="col-md-4 col-12">
                 <img src="{{ asset('frontend-assets/img/case-study/rts/2.jpg') }}" class="my-3" alt="Social Media Agency in Mumbai,Social Media Agency in Mumbai">

@@ -128,14 +128,14 @@
                     </ul>
                 </div>
                 <div class="col-md-4 col-12">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/sale_growth.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/sale_growth.png') }}" alt="stemrxbio">
                 </div>
             </div>
 
             <div class="row align-items-center">
 
                 <div class="col-md-4 col-12">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/title_on_amazon.png') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/title_on_amazon.png') }}" alt="stemrxbio"
                         class="img-border">
                 </div>
                 <div class="col-md-6 col-12 offset-lg-1">
@@ -156,7 +156,7 @@
                     <li class="sec-para">Customers able to view all products in a single page of view</li>
                 </ul>
                 <div class="col-12 text-center">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/store_front_amaz.webp') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/store_front_amaz.webp') }}" alt="stemrxbio"
                         class="img-border">
                 </div>
             </div>
@@ -164,7 +164,7 @@
                 <h2 class="mt-4 sub-sec-title text-blue text-center">We Created A+ Listings on Amazon
                 </h2>
                 <div class="col-12 text-center">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/a_plus_amaz.webp') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/a_plus_amaz.webp') }}" alt="stemrxbio"
                         class="img-border">
                 </div>
             </div>
@@ -172,12 +172,12 @@
             <div class="row">
                 <div class="col-md-6 col-12">
                     <h2 class="mt-4 sub-sec-title text-blue">Listings Were Eligible For Fulfilment By Amazon</h2>
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/listing.png') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/listing.png') }}" alt="stemrxbio"
                         class="img-border">
                 </div>
                 <div class="col-md-6 col-12">
                     <h2 class="mt-4 sub-sec-title text-blue">Amazon Choice Tag Achieved</h2>
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/choice_tag.png') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/choice_tag.png') }}" alt="stemrxbio"
                         class="img-border">
                 </div>
             </div>
@@ -185,13 +185,13 @@
             <div class="row">
                 <div class="col-md-6 col-12">
                     <h2 class="mt-4 sub-sec-title text-blue">Products ranked in TOP 100 as Best Selling Products</h2>
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/best_selling.png') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/best_selling.png') }}" alt="stemrxbio"
                         class="img-border">
                 </div>
                 <div class="col-md-6 col-12">
                     <h2 class="mt-4 sub-sec-title text-blue">We Recieved Excellent Feedbacks From Customers On All 28
                         Products </h2>
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/feedback.webp') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/feedback.webp') }}" alt="stemrxbio"
                         class="img-border">
                 </div>
             </div>
@@ -200,15 +200,15 @@
             <p class="sec-para">Built Marketplace OnResulted In Overall Order Increase By 30%</p>
             <div class="row text-center">
                 <div class="col-md-4 col-12">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/flipkart.jpg') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/flipkart.jpg') }}" alt="stemrxbio"
                         class="img-border">
                 </div>
                 <div class="col-md-4 col-12">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/tatamg.png') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/tatamg.png') }}" alt="stemrxbio"
                         class="img-border">
                 </div>
                 <div class="col-md-4 col-12">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/herbkart.jpg') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/herbkart.jpg') }}" alt="stemrxbio"
                         class="img-border">
                 </div>
             </div>
@@ -225,21 +225,21 @@
                 </div>
                 <div class="col-md-6 col-12">
                     <h2 class="mt-4 sub-sec-title text-blue">Before</h2>
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/review_before.png') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/review_before.png') }}" alt="stemrxbio"
                         class="img-border">
                 </div>
                 <div class="col-md-6 col-12">
                     <h2 class="mt-4 sub-sec-title text-blue">After</h2>
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/review_After.png') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/review_After.png') }}" alt="stemrxbio"
                         class="img-border">
                 </div>
 
                 <div class="col-lg-5 col-md-6 col-12">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/product_desc.png') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/product_desc.png') }}" alt="stemrxbio"
                         class="img-border">
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/faq.png') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/faq.png') }}" alt="stemrxbio"
                         class="img-border">
                     <div class="col-12">
                         <div class="pt-3">
@@ -272,7 +272,7 @@
                     </ul>
                 </div>
                 <div class="col-md-6 col-12">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/website_traffic.jpg') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/website_traffic.jpg') }}" alt="stemrxbio"
                         class="img-border">
                 </div>
             </div>
@@ -285,7 +285,7 @@
                 <p class="sec-para">Each new post targets relevant keywords, significantly
                     increasing organic traffic and drawing potential customers.</p>
                 <div class="col-12 text-center">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/blog.jpg') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/blog.jpg') }}" alt="stemrxbio"
                         class="img-border">
                 </div>
             </div>
@@ -306,7 +306,7 @@
                     </ul>
                 </div>
                 <div class="col-md-4 col-12">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/google_review.png') }}" alt=""
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/google_review.png') }}" alt="stemrxbio"
                         class="img-border">
                 </div>
             </div>
@@ -330,7 +330,7 @@
                     <p class="sec-para">
                         Their posts were more of inforgraohic we transformed it to product centric in visually appealing way
                     </p>
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/before_sm.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/before_sm.png') }}" alt="stemrxbio">
                 </div>
                 <div class="col-md-6 col-12">
                     <h2 class="mt-4 sub-sec-title text-blue">After</h2>
@@ -340,7 +340,7 @@
                     <p class="sec-para">
                         We made it more quirky and visually appealing.
                     </p>
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/after_sm.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/after_sm.png') }}" alt="stemrxbio">
                 </div>
             </div>
 
@@ -348,64 +348,64 @@
             <h2 class="mt-4 sub-sec-title text-blue">9Days9Benefits- Campaign For Navratri</h2>
             <div class="row">
                 <div class="col-md-3 col-6 mt-3">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/vit_c.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/vit_c.png') }}" alt="stemrxbio">
                 </div>
                 <div class="col-md-3 col-6 mt-3">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/pqq.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/pqq.png') }}" alt="stemrxbio">
                 </div>
                 <div class="col-md-3 col-6 mt-3">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/Phospha.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/Phospha.png') }}" alt="stemrxbio">
                 </div>
                 <div class="col-md-3 col-6 mt-3">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/coenzy (1).png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/coenzy (1).png') }}" alt="stemrxbio">
                 </div>
                 <div class="col-md-3 col-6 mt-3">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/heart_armour (1).png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/heart_armour (1).png') }}" alt="stemrxbio">
                 </div>
                 <div class="col-md-3 col-6 mt-3">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/berberine (1).png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/berberine (1).png') }}" alt="stemrxbio">
                 </div>
                 <div class="col-md-3 col-6 mt-3">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/sabuck.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/sabuck.png') }}" alt="stemrxbio">
                 </div>
                 <div class="col-md-3 col-6 mt-3">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/joint_armour.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/joint_armour.png') }}" alt="stemrxbio">
                 </div>
             </div>
             <h2 class="mt-4 sub-sec-title text-blue">Created A Unique Organ-Led Post To Promote The Efficacy Of The
                 Product.</h2>
             <div class="row">
                 <div class="col-md-3 col-6 mt-3">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/summer.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/summer.png') }}" alt="stemrxbio">
                 </div>
                 <div class="col-md-3 col-6 mt-3">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/upset_stomach.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/upset_stomach.png') }}" alt="stemrxbio">
                 </div>
                 <div class="col-md-3 col-6 mt-3">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/fisten.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/fisten.png') }}" alt="stemrxbio">
                 </div>
                 <div class="col-md-3 col-6 mt-3">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/mitochondrial.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/mitochondrial.png') }}" alt="stemrxbio">
                 </div>
             </div>
 
             <h2 class="mt-4 sub-sec-title text-blue">We Used The Ingredient Of The Product To Showcase Our Benefits</h2>
             <div class="row">
                 <div class="col-md-6 col-6 mt-3">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/vita_c.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/vita_c.png') }}" alt="stemrxbio">
                 </div>
                 <div class="col-md-6 col-6 mt-3">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/avocado.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/avocado.png') }}" alt="stemrxbio">
                 </div>
             </div>
 
             <h2 class="mt-4 sub-sec-title text-blue">Topical Days Posts</h2>
             <div class="row">
                 <div class="col-md-6 col-6 mt-3">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/mental.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/mental.png') }}" alt="stemrxbio">
                 </div>
                 <div class="col-md-6 col-6 mt-3">
-                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/republic.png') }}" alt="">
+                    <img src="{{ asset('frontend-assets/img/case-study/stemrx/republic.png') }}" alt="stemrxbio">
                 </div>
             </div>
 
@@ -414,7 +414,7 @@
                 Human-Based Content.</h2>
             <p class="sec-para">Which resulted in a growth in views from two digits to six digits, boosting the sales of
                 the website.</p>
-            <img src="{{ asset('frontend-assets/img/case-study/stemrx/stem1.png') }}" alt="">
+            <img src="{{ asset('frontend-assets/img/case-study/stemrx/stem1.png') }}" alt="stemrxbio">
         </div>
         <div class="header-button mb-5 d-flex align-items-center justify-content-center">
             <a href="{{ route('social_media', ['client' => 'stemrx-bioscience']) }}" class="th-btn th-icon">View

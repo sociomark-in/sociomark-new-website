@@ -120,10 +120,10 @@
             <div class="col-12 col-md-6" style="height: 400px;">
                 <div class="row h-100" >
                     <div class="col-6 h-100">
-                        <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/1.png') }}" alt="shahenaz" class="w-100 h-100">
+                        <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/1.png') }}" alt="get the hook" class="w-100 h-100">
                     </div>
                     <div class="col-6 h-100">
-                        <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/2.png') }}" alt="shahenaz" class="w-100 h-100">
+                        <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/2.png') }}" alt="get the hook" class="w-100 h-100">
                     </div>
                 </div>
 
@@ -146,7 +146,7 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <div class="imgs">
-                    <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/3.png') }}" alt="shahenaz">
+                    <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/3.png') }}" alt="get the hook">
                 </div>
             </div>
             <div class="col-md-6">
@@ -162,7 +162,7 @@
             </div>
             <div class="col-md-6">
                 <div class="imgs">
-                    <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/4.png') }}" alt="shahenaz">
+                    <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/4.png') }}" alt="get the hook">
                 </div>
             </div>
 
@@ -172,7 +172,7 @@
         <div class="row align-items-center ">
             <div class="col-md-6">
                 <div class="imgs">
-                    <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/5.png') }}" alt="shahenaz">
+                    <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/5.png') }}" alt="get the hook">
                 </div>
             </div>
             <div class="col-md-6">
@@ -188,7 +188,7 @@
             </div>
             <div class="col-md-6">
                 <div class="imgs">
-                    <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/6.png') }}" alt="shahenaz">
+                    <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/6.png') }}" alt="get the hook">
                 </div>
             </div>
 
@@ -199,10 +199,10 @@
 
         <div class="row">
             <div class="col-4">
-                <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/7.png') }}" alt="shahenaz" class="w-100 h-100">
+                <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/7.png') }}" alt="get the hook" class="w-100 h-100">
             </div>
             <div class="col-4">
-                <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/8.png') }}" alt="shahenaz" class="w-100 h-100">
+                <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/8.png') }}" alt="get the hook" class="w-100 h-100">
             </div>
         </div>
 
@@ -269,7 +269,7 @@
             </div>
             <div class="col-6 col-md-4">
 
-                <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/9.jpeg') }}" alt="shahenaz" class="w-100 h-100">
+                <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/9.jpeg') }}" alt="get the hook" class="w-100 h-100">
             </div>
             <div class="col-6 col-md-4">
 
@@ -291,7 +291,7 @@
         <h2 class="mt-4 sub-sec-title text-blue">Keywords Growth
         </h2>
 
-        <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/10.jpeg') }}" alt="shahenaz">
+        <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/10.jpeg') }}" alt="get the hook">
         <p class="sec-para">From February 2024 to July 2024, Offthehookgrabandgo’s organic keyword performance has improved significantly:</p>
         <ul class="mb-md-4">
             <li class="sec-para"><b>Top 3 Positions: </b>Increase in keywords.</li>
@@ -307,7 +307,7 @@
 
         </h2>
 
-        <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/11.jpeg') }}" alt="shahenaz">
+        <img src="{{ asset('frontend-assets/img/case-study/Off the Hook/11.jpeg') }}" alt="get the hook">
         <p class="sec-para">From February 2024 to July 2024, website demonstrated significant growth and visibility:
         </p>
         <ul class="mb-md-4">

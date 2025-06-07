@@ -187,17 +187,17 @@
         <div class="row cgi">
             <div class="col-md-4 col-6 mt-3 h-100">
                 <a href="https://www.instagram.com/reel/DATFu9WOkmR/">
-                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/cgi1.png') }}" alt="" class="w-100 h-100" style="object-fit: contain;">
+                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/cgi1.png') }}" alt="CGI Videos" class="w-100 h-100" style="object-fit: contain;">
                 </a>
             </div>
             <div class="col-md-4 col-6 mt-3 h-100">
                 <a href="https://www.instagram.com/reel/DC_321QSZqU/ ">
-                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/cgi2.png') }}" alt="" class="w-100 h-100" style="object-fit: contain;">
+                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/cgi2.png') }}" alt="CGI Videos" class="w-100 h-100" style="object-fit: contain;">
                 </a>
             </div>
             <div class="col-md-4 col-6 mt-3 h-100">
                 <a href="https://www.instagram.com/reel/DEQXOGbyWId/">
-                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/cgi3.png') }}" alt="" class="w-100 h-100" style="object-fit: contain;">
+                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/cgi3.png') }}" alt="CGI Videos" class="w-100 h-100" style="object-fit: contain;">
                 </a>
             </div>
 
@@ -206,17 +206,17 @@
         <div class="row meme">
             <div class="col-md-4 col-6 mt-3 h-100">
                 <a href="https://www.instagram.com/reel/DAdrGhGszqh/">
-                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/meme1.png') }}" alt="" class="w-100 h-100" style="object-fit: contain;">
+                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/meme1.png') }}" alt="Meme/Moment Marketing Videos" class="w-100 h-100" style="object-fit: contain;">
                 </a>
             </div>
             <div class="col-md-4 col-6 mt-3 h-100">
                 <a href="https://www.instagram.com/reel/DAtNwW8ovO9/">
-                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/meme2.png') }}" alt="" class="w-100 h-100" style="object-fit: contain;">
+                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/meme2.png') }}" alt="Meme/Moment Marketing Videos" class="w-100 h-100" style="object-fit: contain;">
                 </a>
             </div>
             <div class="col-md-4 col-6 mt-3 h-100">
                 <a href="https://www.instagram.com/reel/DC9JCPfoIph/">
-                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/meme4.png') }}" alt="" class="w-100 h-100" style="object-fit: contain;">
+                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/meme4.png') }}" alt="Meme/Moment Marketing Videos" class="w-100 h-100" style="object-fit: contain;">
                 </a>
             </div>
 
@@ -227,15 +227,15 @@
         <div class="row ai" >
             <div class="col-md-4 col-6 mt-3 h-100">
                 <a href="https://www.instagram.com/reel/DBGlpgRt0zs/">
-                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/ai1.png') }}" alt="" class="w-100 h-100" style="object-fit: contain;"></a>
+                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/ai1.png') }}" alt="AI Based Videos" class="w-100 h-100" style="object-fit: contain;"></a>
             </div>
             <div class="col-md-4 col-6 mt-3 h-100">
                 <a href="https://www.instagram.com/reel/DEKmv2gS1Av/">
-                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/ai2.png') }}" alt="" class="w-100 h-100" style="object-fit: contain;"></a>
+                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/ai2.png') }}" alt="AI Based Videos" class="w-100 h-100" style="object-fit: contain;"></a>
             </div>
             <div class="col-md-4 col-6 mt-3 h-100">
                 <a href="https://www.instagram.com/reel/DG-zrWfSz38/">
-                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/ai3.png') }}" alt="" class="w-100 h-100" style="object-fit: contain;"></a>
+                    <img src="{{ asset('frontend-assets/img/case-study/buildtrack/ai3.png') }}" alt="AI Based Videos" class="w-100 h-100" style="object-fit: contain;"></a>
             </div>
         </div>
 

@@ -49,7 +49,7 @@
         <h1 class="sec-title text-center">Shahenaz- Clothing & Home Decor <span class="text-blue">Brand</span></h1>
         <p class="sec-para">Shahenaz is a premium clothing and home decor brand that celebrates India's rich cultural heritage by blending Mughal elegance with modern designs. Specializing in hand block prints, Shahenaz has a legacy of more than 30 years. The brand believes in sustainability and is proudly made in India.</p>
         <h2 class="my-3 sec-title text-blue text-center"><span class="orange">SOCIAL</span> MEDIA</h2>
-        <img src="{{ asset('frontend-assets/img/case-study/shahenaz/1 (2).jpeg') }}" alt="">
+        <img src="{{ asset('frontend-assets/img/case-study/shahenaz/1 (2).jpeg') }}" alt="shahenaz">
         <h2 class="mt-4 sub-sec-title text-blue">The Problem:</h2>
         <h3 class="fs-5 text-blue">Limited Brand Awareness:</h3>
         <ul>
@@ -395,7 +395,7 @@
         <h2 class="mt-4 sub-sec-title text-blue">Keywords Growth
         </h2>
         <p class="sec-para">From October 2022 to July 2024, Shahenaz's organic keyword performance has improved significantly:</p>
-        <img src="{{ asset('frontend-assets/img/case-study/shahenaz/2 (3).png') }}" alt="">
+        <img src="{{ asset('frontend-assets/img/case-study/shahenaz/2 (3).png') }}" alt="shahenaz">
 
         <div class="col-md-12 my-md-4">
             <ul>
