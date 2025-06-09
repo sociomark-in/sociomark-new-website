@@ -163,8 +163,6 @@
                 </div>
 
             </div>
-            <!-- <div class="project-btn mt-60"><a href="portfolio.html" class="th-btn th-radius">View All Portfolio</a>
-                                </div> -->
         </div>
     </div>
 </section>
