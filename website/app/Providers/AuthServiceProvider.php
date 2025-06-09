@@ -18,22 +18,19 @@ class AuthServiceProvider extends ServiceProvider
         });
 
         Gate::define('all-access', function ($user) {
-            return in_array($user->role, ['hr', 'admin','business', 'user']);
+            return in_array($user->role, ['hr', 'admin', 'business', 'user']);
         });
-        
+
         Gate::define('hr-access', function ($user) {
             return in_array($user->role, ['hr', 'admin']);
         });
-        
+
         Gate::define('business-access', function ($user) {
             return in_array($user->role, ['business', 'admin']);
         });
-        
+
         Gate::define('user-access', function ($user) {
             return in_array($user->role, ['user', 'admin']);
         });
-        
-        
     }
-    
 }
