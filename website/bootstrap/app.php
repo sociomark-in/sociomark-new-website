@@ -3,8 +3,6 @@
 use App\Http\Middleware\AdminMiddleware;
 use App\Http\Middleware\CheckGate;
 use App\Http\Middleware\EditOwnProfile;
-use App\Http\Middleware\LanguageMiddleware;
-use App\Http\Middleware\LogVisit;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
@@ -29,8 +27,6 @@ return Application::configure(basePath: dirname(__DIR__))
             'admin' => AdminMiddleware::class,
             'canGate' => CheckGate::class,
             'edit-profile' => EditOwnProfile::class,
-            'web' => LogVisit::class,
-            'language' => LanguageMiddleware::class,
         ]);
     })
 

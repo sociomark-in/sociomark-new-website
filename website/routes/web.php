@@ -113,7 +113,7 @@ Route::get('/blog/tag/{slug}', [BlogWebController::class, 'tagBlog'])->name('tag
 
 Route::get('/pr', [PRWebController::class, 'index'])->name('pr');
 
-Route::get('/industries', [IndustryController::class, 'home'])->name('industry_home');
+// Route::get('/industries', [IndustryController::class, 'home'])->name('industry_home');
 Route::get('/industry/{segment}', [IndustryController::class, 'single'])->name('industry_single');
 
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');

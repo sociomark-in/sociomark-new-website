@@ -43,7 +43,9 @@ class BlogWebController extends Controller
             return $page;
         });
 
-        $otherBlogs = Blog::where('status', 'active')->paginate(4);
+        $otherBlogs = Blog::where('status', 'active')
+            ->orderBy('created_at', 'desc')
+            ->paginate(4);
 
         // 🔽 Tell Laravel to generate pretty pagination URLs like /blog/page2
         $otherBlogs->withPath(url('/blog/page'));
@@ -64,7 +66,9 @@ class BlogWebController extends Controller
         $categories = Category::all();
         // $blog = Blog::findOrFail($slug);
         $blog = Blog::where('slug', $slug)->firstOrFail();
-        $blogs = Blog::get();
+        $blogs = Blog::where('status', 'active')
+            ->orderBy('created_at', 'desc')->get();
+
         $tags = Tag::all();
         // Extract meta data from the blog
         $meta = [
@@ -83,7 +87,9 @@ class BlogWebController extends Controller
         // Get all categories and tags
         $categories = Category::all();
         $tags = Tag::all();
-        $otherBlogs = Blog::where('status', 'active')->paginate(4);
+        $otherBlogs = Blog::where('status', 'active')
+            ->orderBy('created_at', 'desc')
+            ->paginate(4);
 
         // 🔽 Tell Laravel to generate pretty pagination URLs like /blog/page2
         $otherBlogs->withPath(url('/blog/page'));
@@ -92,7 +98,9 @@ class BlogWebController extends Controller
         $blog_schema = $category->blog_schema;
 
         // Blogs under the selected category
-        $blogs = Blog::whereJsonContains('categories', (string) $category->id)->paginate(10);
+        $blogs = Blog::whereJsonContains('categories', (string) $category->id)
+        ->orderBy('created_at', 'desc')
+        ->paginate(4);
 
         // Pass everything to the view
         return view('Frontend.Blog.CategoryBlog', compact(
@@ -111,7 +119,9 @@ class BlogWebController extends Controller
         $tag = Tag::where('slug', $slug)->firstOrFail();
         $categories = Category::all();
         $tags = Tag::all();
-        $otherBlogs = Blog::where('status', 'active')->paginate(4);
+        $otherBlogs = Blog::where('status', 'active')
+            ->orderBy('created_at', 'desc')
+            ->paginate(4);
 
         // 🔽 Tell Laravel to generate pretty pagination URLs like /blog/page2
         $otherBlogs->withPath(url('/blog/page'));

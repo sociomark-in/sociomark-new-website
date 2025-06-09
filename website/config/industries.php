@@ -31,19 +31,19 @@ return [
         'description' => 'Sociomark is a digital marketing agency in UAE that helps real estate companies get more leads with online ads, SEO, and social media marketing.',
         'view' => 'Frontend/industry/realestate_industry',
     ],
-    'logistics' => [
-        'title' => 'Healthcare marekting agency in UAE| Sociomark',
-        'description' => 'Sociomark, a digital marketing agency in UAE, offers healthcare marketing solutions using SEO, content, and social media to connect providers with patients online.',
-        'view' => 'Frontend/industry/logistics_industry',
-    ],
+    // 'logistics' => [
+    //     'title' => 'Healthcare marekting agency in UAE| Sociomark',
+    //     'description' => 'Sociomark, a digital marketing agency in UAE, offers healthcare marketing solutions using SEO, content, and social media to connect providers with patients online.',
+    //     'view' => 'Frontend/industry/logistics_industry',
+    // ],
     'fashion' => [
         'title' => 'Fashion Marketing Services in UAE | Sociomark',
         'description' => 'Sociomark, a digital marketing agency in UAE, helps fashion brands grow online with smart SEO, ads, and social media to boost sales and brand awareness.',
         'view' => 'Frontend/industry/fashion_and_lifestyle_industry',
     ],
     'gaming' => [
-        'title' => 'Healthcare marekting agency in UAE| Sociomark',
-        'description' => 'Sociomark, a digital marketing agency in UAE, offers healthcare marketing solutions using SEO, content, and social media to connect providers with patients online.',
+        'title' => 'Top Gaming Industry Marketing Agency in UAE | Sociomark',
+        'description' => 'Power up your gaming brand with leading digital marketing agency in Dubai offering SEO, social media, and creative strategies for next-level growth',
         'view' => 'Frontend/industry/gaming_industry',
     ],
     'home-interior' => [
@@ -51,16 +51,16 @@ return [
         'description' => 'Sociomark, a digital marketing agency in UAE, helps home interior brands grow with SEO, social media, and online ads to reach the right audience effectively.',
         'view' => 'Frontend/industry/interior_industry',
     ],
-    'travel' => [
-        'title' => 'Healthcare marekting agency in UAE| Sociomark',
-        'description' => 'Sociomark, a digital marketing agency in UAE, offers healthcare marketing solutions using SEO, content, and social media to connect providers with patients online.',
-        'view' => 'Frontend/industry/travel_industry',
-    ],
-    'b2b' => [
-        'title' => 'Healthcare marekting agency in UAE| Sociomark',
-        'description' => 'Sociomark, a digital marketing agency in UAE, offers healthcare marketing solutions using SEO, content, and social media to connect providers with patients online.',
-        'view' => 'Frontend/industry/b2b_industry',
-    ],
+    // 'travel' => [
+    //     'title' => 'Healthcare marekting agency in UAE| Sociomark',
+    //     'description' => 'Sociomark, a digital marketing agency in UAE, offers healthcare marketing solutions using SEO, content, and social media to connect providers with patients online.',
+    //     'view' => 'Frontend/industry/travel_industry',
+    // ],
+    // 'b2b' => [
+    //     'title' => 'Healthcare marekting agency in UAE| Sociomark',
+    //     'description' => 'Sociomark, a digital marketing agency in UAE, offers healthcare marketing solutions using SEO, content, and social media to connect providers with patients online.',
+    //     'view' => 'Frontend/industry/b2b_industry',
+    // ],
     'public-sector' => [
         'title' => 'Public Sector Digital Marketing in UAE | Sociomark',
         'description' => 'Sociomark, a digital marketing agency in UAE, supports public sector organizations with online strategies like SEO, social media, and outreach campaigns.',
