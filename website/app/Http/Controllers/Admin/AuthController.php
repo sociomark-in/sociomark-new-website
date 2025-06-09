@@ -93,4 +93,30 @@ class AuthController extends Controller
 
         return redirect()->route('login');
     }
+
+    public function editRegisterForm($id)
+    {
+        $user = User::findOrFail($id);
+        return view('admin/editUser', compact('user'));
+    }
+
+    // Handle Registration
+    public function update(Request $request)
+    {
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required|email|unique:users',
+            'password' => 'required|min:6|confirmed',
+            'role' => 'required'
+        ]);
+
+        User::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'role' => $request->role,
+            'password' => Hash::make($request->password),
+        ]);
+
+        return redirect()->route('login')->with('success', 'Registration successful. Please login.');
+    }
 }

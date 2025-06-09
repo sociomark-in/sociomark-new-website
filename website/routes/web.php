@@ -125,19 +125,27 @@ Route::get('/terms-and-condition', [HomeController::class, 'termsAndcondition'])
 Route::get('/thank-you', [HomeController::class, 'thankYou'])->name('thankYou');
 
 // admin
+Route::get('/admin/login', [AuthController::class, 'showLoginForm'])->name('login');
+Route::post('/admin/login', [AuthController::class, 'login']);
+Route::post('/admin/logout', [AuthController::class, 'logout'])->name('logout');
+
 Route::middleware(['auth', 'admin:admin'])->group(function () {
     Route::get('/admin/register', [AuthController::class, 'showRegisterForm'])->name('register');
     Route::post('/admin/register', [AuthController::class, 'register'])->name('storeregister');
 });
 
-Route::get('/admin/login', [AuthController::class, 'showLoginForm'])->name('login');
-Route::post('/admin/login', [AuthController::class, 'login']);
-Route::post('/admin/logout', [AuthController::class, 'logout'])->name('logout');
+// Own Profile can Edit only || use middleware
+Route::middleware('edit-profile')->group(function () {
+     Route::get('/admin/edit-user/{id}', [AuthController::class, 'editRegisterForm'])->name('editUser');
+    Route::get('/admin/update-user/{id}', [AuthController::class, 'update'])->name('updateUser');
+});
 
+// All role have access of this url || view can adjust by @can directory
 Route::middleware(['canGate:all-access'])->group(function () {
     Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 });
 
+// Only Seo user have access of this url
 Route::middleware(['canGate:user-access'])->group(function () {
     Route::get('/admin/addservices', [ServicesController::class, 'addServices'])->name('addservices');
     Route::resource('/admin/categories', CategoryController::class);
@@ -146,6 +154,7 @@ Route::middleware(['canGate:user-access'])->group(function () {
     Route::resource('prs', PRController::class);
 });
 
+// Only Business user have access of this url
 Route::middleware(['canGate:business-access'])->group(function () {
     Route::get('/admin/dashboard/leads/{type}/{id}/edit', [DashboardController::class, 'edit'])->name('leadsEdit');
     Route::get('/admin/dashboard/leads/{type}/{id}', [DashboardController::class, 'show'])->name('leads.show');
@@ -169,4 +178,3 @@ Route::middleware(['canGate:business-access'])->group(function () {
     Route::get('/admin/calendar/events', [CalenderController::class, 'index']); // for FullCalendar AJAX
     Route::post('/admin/calendar/events/store', [calenderController::class, 'store'])->name('eventsStore');
 });
-
