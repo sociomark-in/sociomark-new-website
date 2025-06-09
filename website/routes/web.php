@@ -23,18 +23,18 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactListController;
 use App\Http\Controllers\Website\PRWebController;
 
-Route::get('/welcome', function () {
-    return view('welcome');
-});
-Route::get('/dashboard', function () {
-    return view('Frontend/dashboard');
-});
-Route::get('/test', function () {
-    return view('Frontend/test');
-});
-Route::get('/home', [HomeController::class, 'HomeNew'])->name('homenew');
-Route::get('/home2', [HomeController::class, 'Home2'])->name('home2');
-Route::get('/myHome', [HomeController::class, 'myHome'])->name('myHome');
+// Route::get('/welcome', function () {
+//     return view('welcome');
+// });
+// Route::get('/dashboard', function () {
+//     return view('Frontend/dashboard');
+// });
+// Route::get('/test', function () {
+//     return view('Frontend/test');
+// });
+// Route::get('/home', [HomeController::class, 'HomeNew'])->name('homenew');
+// Route::get('/home2', [HomeController::class, 'Home2'])->name('home2');
+// Route::get('/myHome', [HomeController::class, 'myHome'])->name('myHome');
 
 
 Route::fallback(function () {
@@ -134,19 +134,21 @@ Route::get('/admin/login', [AuthController::class, 'showLoginForm'])->name('logi
 Route::post('/admin/login', [AuthController::class, 'login']);
 Route::post('/admin/logout', [AuthController::class, 'logout'])->name('logout');
 
-Route::middleware(['admin:admin,hr,business,user'])->group(function () {
+Route::middleware(['canGate:all-access'])->group(function () {
     Route::get('/admin/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+});
 
-    Route::get('/admin/dashboard/leads/{type}/{id}/edit', [DashboardController::class, 'edit'])->name('leadsEdit');
-    Route::get('/admin/dashboard/leads/{type}/{id}', [DashboardController::class, 'show'])->name('leads.show');
-
-
-
+Route::middleware(['canGate:user-access'])->group(function () {
     Route::get('/admin/addservices', [ServicesController::class, 'addServices'])->name('addservices');
     Route::resource('/admin/categories', CategoryController::class);
     Route::resource('/admin/tags', TagController::class);
     Route::resource('/admin/blogs', BlogController::class);
     Route::resource('prs', PRController::class);
+});
+
+Route::middleware(['canGate:business-access'])->group(function () {
+    Route::get('/admin/dashboard/leads/{type}/{id}/edit', [DashboardController::class, 'edit'])->name('leadsEdit');
+    Route::get('/admin/dashboard/leads/{type}/{id}', [DashboardController::class, 'show'])->name('leads.show');
     Route::get('admin/outbound-lead', [outboundLeadController::class, 'addLead'])->name('addlead');
     Route::post('admin/outbound-lead', [outboundLeadController::class, 'StoreLead'])->name('storeLead');
     Route::get('admin/outbound-lead-list', [outboundLeadController::class, 'listLead'])->name('listLead');
@@ -158,8 +160,6 @@ Route::middleware(['admin:admin,hr,business,user'])->group(function () {
     Route::get('admin/Work-gallary/create', [AdminWorkCultureController::class, 'create']);
     // Route::get('admin/enquiryList', [ContatListController::class,'index'])->name('contactList');
     Route::get('admin/enquiryList', [ContatListController::class, 'popContact'])->name('popUpcontactList');
-
-
     Route::get('/admin/contact-graph', [ContatListController::class, 'graph'])->name('contactList');
     Route::get('admin/inbound-lead-edit/{id}', [ContatListController::class, 'editLead'])->name('ineditLead');
     Route::put('admin/inbound-lead-update/{id}', [ContatListController::class, 'updateLead'])->name('inupdateLead');
@@ -169,3 +169,4 @@ Route::middleware(['admin:admin,hr,business,user'])->group(function () {
     Route::get('/admin/calendar/events', [CalenderController::class, 'index']); // for FullCalendar AJAX
     Route::post('/admin/calendar/events/store', [calenderController::class, 'store'])->name('eventsStore');
 });
+
