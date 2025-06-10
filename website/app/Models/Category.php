@@ -16,6 +16,8 @@ class Category extends Model
         'slug',
         'canonicals',
         'blog_schema',
+        'meta_title',
+        'meta_description',
     ];
 
     // Automatically set slug on creating category

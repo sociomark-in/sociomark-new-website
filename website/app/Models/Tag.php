@@ -14,6 +14,8 @@ class Tag extends Model
         'slug',
         'canonicals',
         'blog_schema',
+        'meta_title',
+        'meta_description',
     ];
     public function tags()
     {
