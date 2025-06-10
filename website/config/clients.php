@@ -196,12 +196,12 @@ return [
         'image' => 'frontend-assets/img/clients/tataplay.png',
         'portfolio-image' => 'frontend-assets/img/work/banner/tata_play.png'
     ],
-    'times' => [
-        'industry' => 'news-media',
-        'name' => 'times',
+    // 'times' => [
+    //     'industry' => 'news-media',
+    //     'name' => 'times',
 
-        'image' => 'frontend-assets/img/clients/times.jpg'
-    ],
+    //     'image' => 'frontend-assets/img/clients/times.jpg'
+    // ],
     'bulid-track' => [
         'industry' => 'home-interior',
         'name' => 'Build Track',

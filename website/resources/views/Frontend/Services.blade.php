@@ -84,7 +84,7 @@
             <div class="row align-items-center">
                 <div class="col-xxl-4 col-lg-4">
                     <div class="page-img global-img mb-35" data-aos="fade-right" data-aos-duration="3000">
-                        <img src="{{ asset('frontend-assets/img/icon/service/mark.png') }}"
+                        <img src="{{ asset('frontend-assets/img/service/services.png') }}"
                             alt="Service Image">
                     </div>
                 </div>
