@@ -12,11 +12,6 @@
                     <div class="col-12">
                         <div class="breadcumb-content breadcrumb-light">
                             <h1 class="breadcumb-title">B2B Industry</h1>
-                            <ul class="breadcumb-menu">
-                                <li><a href="{{ route('home') }}">Home</a></li>
-                                <li><a href="{{ route('industry_home')}}">Industries</a></li>
-                                <li>B2B Industry</li>
-                            </ul>
                         </div>
                     </div>
                 </div>

@@ -12,11 +12,7 @@
                 <div class="col-12">
                     <div class="breadcumb-content breadcrumb-light ">
                         <h1 class="breadcumb-title text-center text-md-start">Healthcare Industry</h1>
-                        <ul class="breadcumb-menu d-none">
-                            <li><a href="{{ route('home') }}">Home</a></li>
-                            {{-- <li><a href="{{ route('ind')}}">Services</a></li> --}}
-                            <li>Healthcare Industry</li>
-                        </ul>
+                       
                     </div>
                 </div>
             </div>
