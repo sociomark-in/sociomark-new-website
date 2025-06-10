@@ -41,6 +41,16 @@
                             <label>Description</label>
                             <textarea name="description" class="form-control"></textarea>
                         </div>
+                          <div class="mb-3">
+                            <label class="form-label">SEO Meta Title</label>
+                            <input type="text" class="form-control" name="meta_title" id="title" onkeyup="updateSlug()">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">SEO Meta Description</label>
+                            <input type="text" class="form-control" name="meta_description">
+                        </div>
+
                         <div class="mb-3">
                             <label>canonical</label>
                             <input type="url" name="canonicals" id="canonicals" class="form-control">

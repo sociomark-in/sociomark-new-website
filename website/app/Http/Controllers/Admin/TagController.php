@@ -26,6 +26,8 @@ class TagController extends Controller
             'name' => 'required|unique:tags,name',
             'canonicals' => 'url|nullable',
             'blog_schema' => 'string|nullable',
+            'meta_title'      => 'nullable|string',
+            'meta_description' => 'nullable|string',
         ]);
 
         Tag::create([
@@ -33,6 +35,8 @@ class TagController extends Controller
             'slug' => Str::slug($request->name),
             'canonicals' => $request->canonicals,
             'blog_schema' => $request->blog_schema,
+            'meta_title' => $request->meta_title,
+            'meta_description' => $request->meta_description,
         ]);
 
         return redirect()->route('tags.create')->with('success', 'Tag created successfully!');
@@ -50,6 +54,8 @@ class TagController extends Controller
             'name' => 'required|unique:tags,name,' . $tag->id,
             'canonicals' => 'url|nullable',
             'blog_schema' => 'string|nullable',
+            'meta_title'      => 'nullable|string',
+            'meta_description' => 'nullable|string',
         ]);
 
         $tag->update([
@@ -57,6 +63,8 @@ class TagController extends Controller
             'slug' => Str::slug($request->name),
             'canonicals' => $request->canonicals,
             'blog_schema' => $request->blog_schema,
+            'meta_title'       => $request->input('meta_title'),
+            'meta_description' => $request->input('meta_description'),
         ]);
 
         return redirect()->route('tags.index')->with('success', 'Tag updated successfully!');

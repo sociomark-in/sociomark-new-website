@@ -33,6 +33,8 @@ class CategoryController extends Controller
             'description' => 'nullable|string',
             'canonicals' => 'url|nullable',
             'blog_schema' => 'string|nullable',
+             'meta_title'      => 'nullable|string',
+            'meta_description' => 'nullable|string',
         ]);
 
         Category::create([
@@ -41,6 +43,9 @@ class CategoryController extends Controller
             'slug' => Str::slug($request->category_name),
             'canonicals' => $request->canonicals,
             'blog_schema' => $request->blog_schema,
+            'meta_title' => $request->meta_title,
+             'meta_description' => $request->meta_description,
+               
         ]);
 
         return redirect()->route('blogs.index')->with('success', 'Category created successfully.');
@@ -64,6 +69,8 @@ class CategoryController extends Controller
             'description' => 'nullable|string',
             'canonicals' => 'url|nullable',
             'blog_schema' => 'string|nullable',
+            'meta_title'      => 'nullable|string',
+            'meta_description' => 'nullable|string',
         ]);
 
         $category->update([
@@ -72,6 +79,8 @@ class CategoryController extends Controller
             'slug' => Str::slug($request->category_name),
             'canonicals' => $request->canonicals,
             'blog_schema' => $request->blog_schema,
+              'meta_title'       => $request->input('meta_title'),
+            'meta_description' => $request->input('meta_description'),
         ]);
 
         return redirect()->route('categories.index')->with('success', 'Category updated successfully.');

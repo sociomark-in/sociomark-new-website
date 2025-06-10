@@ -37,6 +37,15 @@
                             <input type="text" name="slug" id="slug" class="form-control" value="{{ old('slug', $tag->slug) }}">
                         </div>
                         <div class="mb-3">
+                            <label class="form-label">SEO Meta Title</label>
+                            <input type="text" class="form-control" name="meta_title" id="title" onkeyup="updateSlug()" value="{{ old('meta_title', $blog->meta_title) }}">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">SEO Meta Description</label>
+                            <input type="text" class="form-control" name="meta_description" value="{{ old('meta_description', $blog->meta_description) }}">
+                        </div>
+                        <div class="mb-3">
                             <label>canonical</label>
                             <input type="url" name="canonicals" id="canonicals" class="form-control" value="{{ old('url', $tag->url) }}">
                         </div>
