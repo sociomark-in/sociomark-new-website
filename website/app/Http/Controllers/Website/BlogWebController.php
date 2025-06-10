@@ -91,16 +91,19 @@ class BlogWebController extends Controller
             ->orderBy('created_at', 'desc')
             ->paginate(4);
 
-        // 🔽 Tell Laravel to generate pretty pagination URLs like /blog/page2
+        // Tell Laravel to generate pretty pagination URLs like /blog/page2
         $otherBlogs->withPath(url('/blog/page'));
         // Canonical and schema (from DB columns)
         $canonical = $category->canonicals ?: url()->current(); // use fallback
         $blog_schema = $category->blog_schema;
 
+        $meta = [
+            'meta_title' => $category->meta_title ?? 'Sociomark',
+            'meta_desciption' => $category->meta_description ?? 'Read the latest blog on Sociomark',
+        ];
+
         // Blogs under the selected category
-        $blogs = Blog::whereJsonContains('categories', (string) $category->id)
-        ->orderBy('created_at', 'desc')
-        ->paginate(4);
+        $blogs = Blog::whereJsonContains('categories', (string) $category->id)->orderBy('created_at', 'desc')->paginate(4);
 
         // Pass everything to the view
         return view('Frontend.Blog.CategoryBlog', compact(
@@ -110,7 +113,8 @@ class BlogWebController extends Controller
             'category',
             'tags',
             'canonical',
-            'blog_schema'
+            'blog_schema',
+            'meta'
         ));
     }
     public function tagBlog($slug)
@@ -123,13 +127,13 @@ class BlogWebController extends Controller
             ->orderBy('created_at', 'desc')
             ->paginate(4);
 
-        // 🔽 Tell Laravel to generate pretty pagination URLs like /blog/page2
+        //  Tell Laravel to generate pretty pagination URLs like /blog/page2
         $otherBlogs->withPath(url('/blog/page'));
         // Fetch blogs that contain the category name in the JSON field
-        $blogs = Blog::whereJsonContains('tags', (string) $tag->id)->paginate(2);
+        $blogs = Blog::whereJsonContains('tags', (string) $tag->id)->orderBy('created_at', 'desc')->paginate(4);
         $meta = [
-            'title' => 'SEO Strategies & Tips | Sociopedia Blog',
-            'description' => 'Master the art of SEO with Sociopedia. Get expert advice, latest trends, and actionable tips to improve your website’s ranking and drive organic traffic.'
+            'meta_title' => $tag->meta_title ?? 'Sociomark',
+            'meta_desciption' => $tag->meta_description ?? 'Read the latest blog on Sociomark',
         ];
         $canonical = $tag->canonicals ?: url()->current();
         $blog_schema = $tag->blog_schema;

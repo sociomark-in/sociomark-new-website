@@ -1,4 +1,5 @@
 @extends('Frontend.layout.blogapp')
+
 @section('canonical')
 <link rel="canonical" href="{{ $canonical }}" />
 @endsection

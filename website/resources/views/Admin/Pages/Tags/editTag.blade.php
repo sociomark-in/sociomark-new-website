@@ -38,12 +38,12 @@
                         </div>
                         <div class="mb-3">
                             <label class="form-label">SEO Meta Title</label>
-                            <input type="text" class="form-control" name="meta_title" id="title" onkeyup="updateSlug()" value="{{ old('meta_title', $blog->meta_title) }}">
+                            <input type="text" class="form-control" name="meta_title" id="title" onkeyup="updateSlug()" value="{{ old('meta_title', $tag->meta_title) }}">
                         </div>
 
                         <div class="mb-3">
                             <label class="form-label">SEO Meta Description</label>
-                            <input type="text" class="form-control" name="meta_description" value="{{ old('meta_description', $blog->meta_description) }}">
+                            <input type="text" class="form-control" name="meta_description" value="{{ old('meta_description', $tag->meta_description) }}">
                         </div>
                         <div class="mb-3">
                             <label>canonical</label>
