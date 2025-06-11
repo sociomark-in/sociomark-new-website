@@ -102,7 +102,11 @@
                                     <a><i class="fa fa-envelope"></i></a>
                                 </div>
                                 <div class="box-text">
-                                    <a href="mailto:business@sociomark.in" class="box-link">business@sociomark.in</a>
+                                    <!-- <a href="mailto:business@sociomark.in" class="box-link">business@sociomark.in</a> -->
+                                    <a href="mailto:&#98;&#117;&#115;&#105;&#110;&#101;&#115;&#115;&#64;&#115;&#111;&#99;&#105;&#111;&#109;&#97;&#114;&#107;&#46;&#105;&#110;" class="box-link">
+                                        &#98;&#117;&#115;&#105;&#110;&#101;&#115;&#115;&#64;&#115;&#111;&#99;&#105;&#111;&#109;&#97;&#114;&#107;&#46;&#105;&#110;
+                                    </a>
+
                                 </div>
                             </div>
                         </div>
