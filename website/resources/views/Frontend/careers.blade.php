@@ -191,31 +191,42 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6 col-12">
                         <div class="row career-media align-items-center">
-                            <div class="col-9">
+                            <div class="col-12">
                                 <div class="p-3">
                                     <div class="media-body">
                                         <h4 class="sub-sec-title text-blue"><strong>Business Development</strong></h4>
-                                        <h3 class="sec-para text-blue mb-2"><b>Job Description</b></h3>
+                                        {{-- <h3 class="sec-para text-blue mb-2"><b>Job Description</b></h3> --}}
                                         <p class="">As a Business Development, you will be an integral part of our
                                             dynamic team, assisting in the growth and expansion of our business.</p>
 
+                                        <div class="row g-3 g-md-4">
+                                            <p class="col-md-auto col-12">
+                                                <i class="fa fa-briefcase"></i>&nbsp;&nbsp;Up to 2 years <br>
+                                            </p>
+                                            <p class="col-md-auto col-12">
+                                                <i class="fa fa-map-marker"></i>&nbsp;&nbsp;UAE
+                                            </p>
+                                        </div>
+                                        
 
-                                        <h3 class="sec-para text-blue mb-2"><b>Preferred Location</b></h3>
-                                        <p class="">UAE(Remote)</p>
+{{-- 
+                                        <h3 class="sec-para text-blue align-items-baseline d-flex"></p></h3>
+                                        <h3 class="sec-para text-blue align-items-baseline d-flex"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;<p class="">UAE</p></h3>
+                                         --}}
 
                                         <a href="{{ route('business') }}" class="th-btn th-icon">View More Description<i
                                                 class="fa-solid fa-arrow-right ms-2"></i></a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-3 p-0">
+                            {{-- <div class="col-3 p-0">
                                 <div class="">
                                     <picture>
                                         <source media="(min-width: 1400px)" srcset="https://placehold.co/300x700">
                                         <img src="https://placehold.co/300x600" alt="contact" class="w-100">
                                     </picture>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
