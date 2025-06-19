@@ -161,24 +161,24 @@ return [
 
     //     'image' => 'frontend-assets/img/clients/total.jpg'
     // ],
-    // 'othnanaimo' => [
-    //     'industry' => 'fmcg',
-    //     'name' => 'Othnanaimo',
+    'othnanaimo' => [
+        'industry' => 'fmcg',
+        'name' => 'Othnanaimo',
 
-    //     'image' => 'frontend-assets/img/clients/othnanaimo.jpg'
-    // ],
+        'image' => 'frontend-assets/img/clients/othnanaimo.jpg'
+    ],
     // 'troller' => [
     //     'industry' => 'fmcg',
     //     'name' => 'Trollers',
 
     //     'image' => 'frontend-assets/img/clients/trollers.jpg'
     // ],
-    // 'kinnal' => [
-    //     'industry' => 'fmcg',
-    //     'name' => 'Kinnal',
+    'kinnal' => [
+        'industry' => 'fmcg',
+        'name' => 'Kinnal',
 
-    //     'image' => 'frontend-assets/img/clients/kinnal.jpg'
-    // ],
+        'image' => 'frontend-assets/img/clients/kinnal.jpg'
+    ],
     // 'trollersfishnchips' => [
     //     'industry' => 'fmcg',
     //     'name' => 'Trollersfishnchips',
