@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\admin\admincareerController;
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\BlogController;
 use App\Http\Controllers\Admin\ContatListController;
@@ -104,7 +105,7 @@ Route::get('/case-study/build-track', [CaseStudyController::class, 'buildTrack']
 
 Route::get('/work-culture', [WorkCultureController::class, 'index'])->name('workculture');
 Route::get('/careers', [HomeController::class, 'careers'])->name('careers');
-Route::get('/inside-Career', [careerController::class, 'innerCareer'])->name('business');
+Route::get('/business-developmet', [careerController::class, 'innerCareer'])->name('business');
 Route::post('/job/store', [careerController::class, 'store'])->name('jobStore');
 
 Route::get('/blog', [BlogWebController::class, 'index'])->name('blog');
@@ -139,7 +140,7 @@ Route::middleware(['auth', 'admin:admin'])->group(function () {
 
 // Own Profile can Edit only || use middleware
 Route::middleware('edit-profile')->group(function () {
-     Route::get('/admin/edit-user/{id}', [AuthController::class, 'editRegisterForm'])->name('editUser');
+    Route::get('/admin/edit-user/{id}', [AuthController::class, 'editRegisterForm'])->name('editUser');
     Route::get('/admin/update-user/{id}', [AuthController::class, 'update'])->name('updateUser');
 });
 
@@ -180,4 +181,9 @@ Route::middleware(['canGate:business-access'])->group(function () {
     Route::get('/admin/calender', [calenderController::class, 'calender'])->name('calender');
     Route::get('/admin/calendar/events', [CalenderController::class, 'index']); // for FullCalendar AJAX
     Route::post('/admin/calendar/events/store', [calenderController::class, 'store'])->name('eventsStore');
+});
+
+// Only Seo user have access of this url
+Route::middleware(['canGate:user-access'])->group(function () {
+    Route::get('/admin/job-leads', [admincareerController::class, 'jobLeads'])->name('job');
 });

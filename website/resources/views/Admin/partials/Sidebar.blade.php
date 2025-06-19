@@ -3,7 +3,7 @@
     <div class="sidebar-header">
         <a href="#" class="sidebar-brand w-100 h-100">
             <!-- Noble<span>UI</span> -->
-             <img src="{{ asset('frontend-assets/img/logo/sc-colored-horizontal.png') }}" alt="" class="w-100 h-100" style="object-fit: contain;">
+            <img src="{{ asset('frontend-assets/img/logo/sc-colored-horizontal.png') }}" alt="" class="w-100 h-100" style="object-fit: contain;">
         </a>
         <div class="sidebar-toggler">
             <span></span>
@@ -58,7 +58,7 @@
                     <span class="link-title">Add Tags</span>
                 </a>
             </li>
-             <li class="nav-item">
+            <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="collapse" href="#uiComponents" role="button" aria-expanded="false" aria-controls="uiComponents">
                     <i class="link-icon" data-feather="mail"></i>
                     <span class="link-title">PR</span>
@@ -80,21 +80,19 @@
             @can('hr-access')
             <!-- <p>HR Access is working!</p> -->
             <li class="nav-item nav-category">Hr Portal</li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="collapse" href="#uiComponents" role="button" aria-expanded="false" aria-controls="uiComponents">
                     <i class="link-icon" data-feather="feather"></i>
                     <span class="link-title">Jobs</span>
                     <i class="link-arrow" data-feather="chevron-down"></i>
-                </a>
-                <div class="collapse" data-bs-parent="#sidebarNav" id="uiComponents">
+                </a> -->
+                <!-- <div class="collapse" data-bs-parent="#sidebarNav" id="uiComponents">
                     <ul class="nav sub-menu">
-                        <li class="nav-item">
-                            <a href="pages/ui-components/accordion.html" class="nav-link">Add Jobs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="pages/ui-components/alerts.html" class="nav-link">Jobs</a>
-                        </li>
                         <!-- <li class="nav-item">
+                            <a href="pages/ui-components/accordion.html" class="nav-link">Add Jobs</a>
+                        </li> -->
+
+                <!-- <li class="nav-item">
                             <a href="pages/ui-components/badges.html" class="nav-link">Badges</a>
                         </li>
                         <li class="nav-item">
@@ -112,7 +110,7 @@
                         <li class="nav-item">
                             <a href="pages/ui-components/carousel.html" class="nav-link">Carousel</a>
                         </li> -->
-                        <!-- <li class="nav-item">
+                <!-- <li class="nav-item">
                             <a href="pages/ui-components/collapse.html" class="nav-link">Collapse</a>
                         </li>
                         <li class="nav-item">
@@ -136,7 +134,7 @@
                         <li class="nav-item">
                             <a href="pages/ui-components/pagination.html" class="nav-link">Pagination</a>
                         </li> -->
-                        <!-- <li class="nav-item">
+                <!-- <li class="nav-item">
                             <a href="pages/ui-components/popover.html" class="nav-link">Popovers</a>
                         </li>
                         <li class="nav-item">
@@ -156,12 +154,12 @@
                         </li>
                         <li class="nav-item">
                             <a href="pages/ui-components/tooltips.html" class="nav-link">Tooltips</a>
-                        </li> -->
+                        </li> 
                     </ul>
-                </div>
+                </div> -->
             </li>
             <li class="nav-item">
-                <a href="pages/apps/chat.html" class="nav-link">
+                <a href="{{ route('job') }}" class="nav-link">
                     <i class="link-icon" data-feather="message-square"></i>
                     <span class="link-title">Job Leads</span>
                 </a>
@@ -323,7 +321,7 @@
                     </ul>
                 </div>
             </li> -->
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="collapse" href="#errorPages" role="button" aria-expanded="false" aria-controls="errorPages">
                     <i class="link-icon" data-feather="cloud-off"></i>
                     <span class="link-title">Error</span>
@@ -339,26 +337,26 @@
                         </li>
                     </ul>
                 </div>
-            </li>
+            </li> -->
             @endcan
 
             @can('business-access')
             <!-- <p>Business Access is working!</p> -->
             <li class="nav-item nav-category">Business Leads</li>
             <li class="nav-item">
-                <a href="{{ route('contactList') }}"  class="nav-link">
+                <a href="{{ route('contactList') }}" class="nav-link">
                     <i class="link-icon" data-feather="hash"></i>
                     <span class="link-title">Inbound Leads</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a href="{{ route('listLead') }}"  class="nav-link">
+                <a href="{{ route('listLead') }}" class="nav-link">
                     <i class="link-icon" data-feather="hash"></i>
                     <span class="link-title">Outbound Leads</span>
                 </a>
             </li>
             <li class="nav-item mt-2">
-                <a href="{{ route('seclistLead') }}"  class="nav-link">
+                <a href="{{ route('seclistLead') }}" class="nav-link">
                     <i class="link-icon" data-feather="hash"></i>
                     <span class="link-title">Second FollowUp <br>outbound Leads</span>
                 </a>
