@@ -122,7 +122,7 @@ Header Area
                     <div class="col-auto d-none d-lg-block">
                         <div class="header-button">
                             <!-- <button type="button" class="icon-btn searchBoxToggler"><i class="fal fa-search"></i></button> -->
-                            {{-- <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a> --}}
+                           <!-- <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>  -->
                             <a href="{{ route('contact') }}" class="th-btn th-icon">Get A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
@@ -137,7 +137,7 @@ Header Area
 
 <!-- popup modal  start-->
 <!-- Modal -->
-<div class="modal fade" id="getAQuoteModal" tabindex="-1" aria-labelledby="getAQuoteModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="getAQuoteModal" tabindex="-1" aria-labelledby="getAQuoteModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content contact-form style2">
             <div class="modal-header">
@@ -152,7 +152,7 @@ Header Area
                         </div>
                     @endif
 
-                    <!-- Contact Popup Form -->
+                   
                     <form action="{{ route('popUpContact.store') }}" method="POST" id="popupForm">
                         @csrf
                         <div class="row">
@@ -252,7 +252,7 @@ Header Area
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- popup modal  end-->
 
 @section('custome-style')

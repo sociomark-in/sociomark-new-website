@@ -21,6 +21,7 @@ use App\Http\Controllers\Website\PortfolioController;
 use App\Http\Controllers\Website\ServiceController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactListController;
+use App\Http\Controllers\website\careerController;
 use App\Http\Controllers\Website\PRWebController;
 
 // Route::get('/welcome', function () {
@@ -103,6 +104,8 @@ Route::get('/case-study/build-track', [CaseStudyController::class, 'buildTrack']
 
 Route::get('/work-culture', [WorkCultureController::class, 'index'])->name('workculture');
 Route::get('/careers', [HomeController::class, 'careers'])->name('careers');
+Route::get('/inside-Career', [careerController::class, 'innerCareer'])->name('business');
+Route::post('/job/store', [careerController::class, 'store'])->name('jobStore');
 
 Route::get('/blog', [BlogWebController::class, 'index'])->name('blog');
 Route::get('/blog/page/{page?}', [BlogWebController::class, 'index'])->name('blog.page');
