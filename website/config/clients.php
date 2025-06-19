@@ -544,7 +544,7 @@ return [
             'title' => 'Marketing Services for Kolkata Rolls| Sociomark Dubai​',
             'description' => "Sociomark, a digital marketing agency, provided end-to-end marketing strategy, social media, ORM, content and website development for Kolkata Rolls."
         ],
-        // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
+        'image' => 'frontend-assets/img/clients/kolkata.jpg',
         'portfolio-image' => 'frontend-assets/img/work/kolkata-rolls/1.jpg'
     ],
     'lime' => [
