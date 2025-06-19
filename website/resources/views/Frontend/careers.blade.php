@@ -85,8 +85,8 @@
         }
 
         .career-media {
-            border: 5px solid #106c97;
-            border-radius: 20px 0px 0px 20px;
+            border: 3px solid #106c97;
+            border-radius: 20px 20px 20px 20px;
         }
     </style>
     <!-- form 2 start Plugin: JQuery Validator  -->
@@ -119,7 +119,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="title-area text-center text-xl-center col-md-12 head-text-div mt-1">
-                        <h1 class="sec-title head-text head-mbl-text " data-aos="fade-right" data-aos-delay="100"
+                        <h1 class="sec-title" data-aos="fade-right" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
                             <span class="text-blue"> We Hire Crazy People</span>
                         </h1>

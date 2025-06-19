@@ -105,7 +105,7 @@ Route::get('/case-study/build-track', [CaseStudyController::class, 'buildTrack']
 
 Route::get('/work-culture', [WorkCultureController::class, 'index'])->name('workculture');
 Route::get('/careers', [HomeController::class, 'careers'])->name('careers');
-Route::get('/business-developmet', [careerController::class, 'innerCareer'])->name('business');
+Route::get('/careers/business-developmet', [careerController::class, 'innerCareer'])->name('business');
 Route::post('/job/store', [careerController::class, 'store'])->name('jobStore');
 
 Route::get('/blog', [BlogWebController::class, 'index'])->name('blog');
