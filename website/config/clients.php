@@ -475,14 +475,14 @@ return [
         'portfolio-image' => 'frontend-assets/img/work/foresight-opticals/1.jpg'
     ],
     'grill-box' => [
-        'industry' => 'gaming',
+        'industry' => 'fmcg',
         'name' => 'Grill Box',
         'view' => 'Frontend/Portfolio/grillboxSocialMedia',
         'meta' => [
             'title' => 'Grill Box Social Media Work | Sociomark UAE​',
             'description' => "Sociomark, a digital marketing agency in UAE, created engaging social media campaigns for Grill Box to boost brand awareness and connect with food lovers online."
         ],
-        // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
+        'image' => 'frontend-assets/img/clients/grillbox.jpg',
         'portfolio-image' => 'frontend-assets/img/work/grill-box/grill1.jpeg',
         'social' => [
             'facebook' => '',
@@ -537,7 +537,7 @@ return [
         ],
     ],
     'kolkata-rolls' => [
-        'industry' => 'gaming',
+        'industry' => 'fmcg',
         'name' => 'Kolkata Rolls',
         'view' => 'Frontend/Portfolio/kolkatarollsSocialMedia',
         'meta' => [
@@ -626,7 +626,7 @@ return [
         ],
     ],
     'patankar-farm' => [
-        // 'industry' => 'gaming',
+        // 'industry' => 'fmcg',
         'name' => 'Patankar Farm',
         'view' => 'Frontend/Portfolio/patankarFarmSocial',
         'meta' => [
@@ -655,7 +655,7 @@ return [
             'title' => 'Boosting Repute’s Social Media Presence| Sociomark UAE​',
             'description' => "Enhanced Repute’s online engagement and visibility through strategic social media management and tailored content creation."
         ],
-        // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
+        'image' => 'frontend-assets/img/clients/repute.jpg',
         'portfolio-image' => 'frontend-assets/img/work/banner/repute.jpg',
         'social' => [
             'facebook' => 'https://www.facebook.com/repute.mart/',
