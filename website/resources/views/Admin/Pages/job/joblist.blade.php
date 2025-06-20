@@ -37,7 +37,7 @@
                                     <td>{{ $job->email }}</td>
                                     <td>{{ $job->phone }}</td>
                                     <td>
-                                        <a href="{{ asset('storage/' . $job->cv) }}" target="_blank" class="btn btn-sm btn-primary">
+                                        <a href="{{ url('storage/app/public/' . ($job->cv)) }}" target="_blank" class="btn btn-sm btn-primary">
                                             View CV
                                         </a>
                                     </td>
