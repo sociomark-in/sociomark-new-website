@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\admin\admincareerController;
+use App\Http\Controllers\Admin\admincareerController;
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\BlogController;
 use App\Http\Controllers\Admin\ContatListController;
@@ -23,7 +23,7 @@ use App\Http\Controllers\Website\PortfolioController;
 use App\Http\Controllers\Website\ServiceController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactListController;
-use App\Http\Controllers\website\careerController;
+use App\Http\Controllers\Website\careerController;
 use App\Http\Controllers\Website\PRWebController;
 
 // Route::get('/welcome', function () {
