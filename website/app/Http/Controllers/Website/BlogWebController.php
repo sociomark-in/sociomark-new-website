@@ -47,7 +47,7 @@ class BlogWebController extends Controller
             ->orderBy('created_at', 'desc')
             ->paginate(4);
 
-        // 🔽 Tell Laravel to generate pretty pagination URLs like /blog/page2
+        // Tell Laravel to generate pretty pagination URLs like /blog/page2
         $otherBlogs->withPath(url('/blog/page'));
 
         $meta = [

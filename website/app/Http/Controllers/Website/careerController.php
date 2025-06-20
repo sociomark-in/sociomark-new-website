@@ -5,13 +5,21 @@ namespace App\Http\Controllers\website;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\JobApplication;
+use App\Models\Jobpost;
 
 class careerController extends Controller
 {
-    public function innerCareer()
+    // public function innerCareer()
+    // {
+    //     return view('frontend.innerCareers');
+    // }
+    // app/Http/Controllers/JobController.php
+    public function innerCareer($id)
     {
-        return view('frontend.innerCareers');
+        $job = Jobpost::findOrFail($id);
+        return view('frontend.innerCareers', compact('job'));
     }
+
     public function store(Request $request)
     {
         $request->validate([

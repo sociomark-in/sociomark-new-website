@@ -15,6 +15,7 @@ use App\Http\Controllers\Website\IndustryController;
 use App\Http\Controllers\Website\WorkCultureController;
 use App\Http\Controllers\Admin\AdminWorkCultureController;
 use App\Http\Controllers\Admin\calenderController;
+use App\Http\Controllers\admin\jobController;
 use App\Http\Controllers\Admin\outboundLeadController;
 use App\Http\Controllers\Admin\PRController;
 use App\Http\Controllers\Website\CaseStudyController;
@@ -105,7 +106,7 @@ Route::get('/case-study/build-track', [CaseStudyController::class, 'buildTrack']
 
 Route::get('/work-culture', [WorkCultureController::class, 'index'])->name('workculture');
 Route::get('/careers', [HomeController::class, 'careers'])->name('careers');
-Route::get('/careers/business-developmet', [careerController::class, 'innerCareer'])->name('business');
+Route::get('/careers/{slug}', [careerController::class, 'innerCareer'])->name('business');
 Route::post('/job/store', [careerController::class, 'store'])->name('jobStore');
 
 Route::get('/blog', [BlogWebController::class, 'index'])->name('blog');
@@ -184,6 +185,8 @@ Route::middleware(['canGate:business-access'])->group(function () {
 });
 
 // Only Seo user have access of this url
-Route::middleware(['canGate:user-access'])->group(function () {
+Route::middleware(['canGate:hr-access'])->group(function () {
     Route::get('/admin/job-leads', [admincareerController::class, 'jobLeads'])->name('job');
+    Route::get('/admin/job/create', [jobController::class, 'create'])->name('job.create');
+    Route::post('/admin/job/store', [jobController::class, 'store'])->name('job.store');
 });
