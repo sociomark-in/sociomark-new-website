@@ -57,8 +57,7 @@
         </div>
     </div>
 </section>
-@include('Frontend.partial.portfolio.similarIndustry')
-<!-- <section class="porfolio-text overflow-hidden space ">
+<section class="porfolio-text overflow-hidden space ">
     <div class="container">
         <div class="row">
             <h1 class="text-blue sec-title mb-20">Mahindra World City and CNBC-Awaaz presents Smart Cities of India: Jaipur</h1>
@@ -70,5 +69,7 @@
             </div>
         </div>
     </div>
-</section> -->
+</section>
+@include('Frontend.partial.portfolio.similarIndustry')
+
 @endsection
