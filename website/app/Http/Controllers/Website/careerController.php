@@ -3,9 +3,11 @@
 namespace App\Http\Controllers\website;
 
 use App\Http\Controllers\Controller;
+use App\Mail\NewJobLead;
 use Illuminate\Http\Request;
 use App\Models\JobApplication;
 use App\Models\Jobpost;
+use Illuminate\Support\Facades\Mail;
 
 class careerController extends Controller
 {
@@ -14,10 +16,10 @@ class careerController extends Controller
     //     return view('frontend.innerCareers');
     // }
     // app/Http/Controllers/JobController.php
-    public function innerCareer($id)
+    public function innerCareer()
     {
-        $job = Jobpost::findOrFail($id);
-        return view('frontend.innerCareers', compact('job'));
+        // $job = Jobpost::findOrFail($id);
+        return view('frontend.innerCareers');
     }
 
     public function store(Request $request)
@@ -32,14 +34,15 @@ class careerController extends Controller
 
         $cvPath = $request->file('cv')->store('cvs', 'public');
 
-        JobApplication::create([
+        $lead =   JobApplication::create([
             'name'   => $request->name,
             'email'  => $request->email,
             'phone'  => $request->phone,
             'cv'     => $cvPath,
             'plinks' => $request->plinks,
         ]);
-
+        // Send email to HR about job
+        Mail::to('hr@sociomark.in')->send(new NewJobLead($lead));
         return back()->with('success', 'Application submitted successfully!');
     }
 }

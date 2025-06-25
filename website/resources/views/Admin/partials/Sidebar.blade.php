@@ -163,6 +163,10 @@
                     <i class="link-icon" data-feather="message-square"></i>
                     <span class="link-title">Job Leads</span>
                 </a>
+                <a href="{{ route('job.create') }}" class="nav-link">
+                    <i class="link-icon" data-feather="message-square"></i>
+                    <span class="link-title">Add Job</span>
+                </a>
             </li>
 
             <!-- <li class="nav-item">

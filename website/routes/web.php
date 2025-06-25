@@ -58,8 +58,9 @@ Route::get('/service/content-marketing-agency-dubai', [ServiceController::class,
 Route::get('/service/performance-marketing-agency', [ServiceController::class, 'sem'])->name('sem');
 Route::get('/service/photography-videography', [ServiceController::class, 'photoVideography'])->name('photoVideography');
 
-Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');
-Route::get('/portfolio/social-media', [PortfolioController::class, 'portfolioInside'])->name('portfolioSocio');
+// Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');
+Route::get('/portfolio/social-media', [PortfolioController::class, 'portfolioInside'])->name('portfolio');
+
 
 Route::get('/portfolio/ayushakti/website-work', [PortfolioController::class, 'ayushaktiweb'])->name('ayushaktiweb');
 Route::get('/portfolio/electrocare/website-work', [PortfolioController::class, 'electrocareweb'])->name('electrocareweb');
@@ -90,7 +91,7 @@ Route::get('/case-study/the-professional-couriers', [CaseStudyController::class,
 Route::get('/case-study/eduauraa', [CaseStudyController::class, 'eduauraa'])->name('eduauraa');
 Route::get('/case-study/shahenaz', [CaseStudyController::class, 'shahenaz'])->name('shahenaz');
 Route::get('/case-study/okinawascooters', [CaseStudyController::class, 'okinawascooters'])->name('okinawascooters');
-Route::get('/case-study/ayushakti', [CaseStudyController::class, 'ayushakti'])->name('ayushakti');
+Route::get('/case-study/ayushakti', [CaseStudyController::class, 'ayushaktiNew'])->name('ayushakti');
 Route::get('/case-study/nodwin-gaming', [CaseStudyController::class, 'nodwinGaming'])->name('nodwinGaming');
 Route::get('/case-study/lime', [CaseStudyController::class, 'lime'])->name('lime');
 Route::get('/case-study/button-dabao-desh-banao', [CaseStudyController::class, 'buttondabaodeshbanao'])->name('buttondabaodeshbanao');
@@ -100,13 +101,13 @@ Route::get('/case-study/smarter-india', [CaseStudyController::class, 'smarterInd
 Route::get('/case-study/real-estate-awards', [CaseStudyController::class, 'realestateawards'])->name('realestateawards');
 Route::get('/case-study/nhs', [CaseStudyController::class, 'nhs'])->name('nhs');
 Route::get('/case-study/off-the-hook', [CaseStudyController::class, 'getTheHook'])->name('getTheHook');
-Route::get('/case-study/ayushakti-new', [CaseStudyController::class, 'ayushaktiNew'])->name('ayushaktiNew');
+Route::get('/case-study/ayushakti-new', [CaseStudyController::class, 'ayushakti'])->name('ayushaktiNew');
 Route::get('/case-study/cyber-power', [CaseStudyController::class, 'cyberPower'])->name('cyberPower');
 Route::get('/case-study/build-track', [CaseStudyController::class, 'buildTrack'])->name('buildTrack');
 
 Route::get('/work-culture', [WorkCultureController::class, 'index'])->name('workculture');
 Route::get('/careers', [HomeController::class, 'careers'])->name('careers');
-Route::get('/careers/{slug}', [careerController::class, 'innerCareer'])->name('business');
+Route::get('/careers/business-developmet', [careerController::class, 'innerCareer'])->name('business');
 Route::post('/job/store', [careerController::class, 'store'])->name('jobStore');
 
 Route::get('/blog', [BlogWebController::class, 'index'])->name('blog');
@@ -189,4 +190,5 @@ Route::middleware(['canGate:hr-access'])->group(function () {
     Route::get('/admin/job-leads', [admincareerController::class, 'jobLeads'])->name('job');
     Route::get('/admin/job/create', [jobController::class, 'create'])->name('job.create');
     Route::post('/admin/job/store', [jobController::class, 'store'])->name('job.store');
+
 });

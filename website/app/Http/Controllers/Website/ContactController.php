@@ -50,8 +50,13 @@ class ContactController extends Controller
         // $lead = Contact::create($request->all());
 
         // Send email to business analyst
-        Mail::to('shruti.sociomark@gmail.com')->send(new NewLeadNotification($lead));
+        // Mail::to('shruti.sociomark@gmail.com')->send(new NewLeadNotification($lead));
+        $recipients = [
+            'shruti.sociomark@gmail.com',
+            'shrupatil1319@gmail.com'
+        ];
 
+        Mail::to($recipients)->send(new NewLeadNotification($lead));
         return redirect()->route('thankYou')->with('success', 'Your message has been sent successfully!');
     }
 

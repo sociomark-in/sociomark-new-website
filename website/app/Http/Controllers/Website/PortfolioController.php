@@ -18,9 +18,15 @@ class PortfolioController extends Controller
     }
     public function portfolioInside()
     {
-        return view('Frontend/Portfolio/insidePortfolio');
-    }
+        $clients = config('clients');
 
+        // Filter only those that have image and portfolio-image
+        $activeClients = array_filter($clients, function ($client) {
+            return !empty($client['portfolio-image']);
+        });
+
+        return view('Frontend/Portfolio/insidePortfolio', compact('activeClients'));
+    }
     public function social_media($client)
     {
         $clients = config('clients');
@@ -54,7 +60,7 @@ class PortfolioController extends Controller
             })
             ->take(10);
 
-        return view($view, compact('meta', 'relatedClients', 'data'));
+        return view($view, compact('meta', 'relatedClients', 'data', 'clients'));
     }
 
     // public function social_media($client)

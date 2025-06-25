@@ -13,23 +13,37 @@ class jobController extends Controller
         return view('admin.Pages.job.create');
     }
     public function store(Request $request)
-{
-    $job = new Jobpost();
+    {
+        $request->validate([
+            'title' => 'required|string|max:255',
+            'description' => 'required|string',
+            'location' => 'required|string',
+            'compensation' => 'required|string',
+            'role_overview' => 'required|string',
+            'responsibilities' => 'required|string',
+            'requirements' => 'required|string',
+            'target_services' => 'required|string',
+            'industry' => 'required|string',
+            'position' => 'required|string',
+            'experience' => 'required|string',
+        ]);
 
-    $job->title = $request->title;
-     $job->description = $request->description;
-    $job->location = $request->location;
-    $job->compensation = $request->compensation;
-    $job->role_overview = $request->role_overview;
-    $job->responsibilities = json_encode($request->responsibilities);
-    $job->requirements = json_encode($request->requirements);
-    $job->target_services = json_encode($request->target_services);
-    $job->industry = $request->industry;
-    $job->position = $request->position;
-    $job->experience = $request->experience;
+        $job = new Jobpost();
 
-    $job->save();
+        $job->title = $request->title;
+        $job->description = $request->description;
+        $job->location = $request->location;
+        $job->compensation = $request->compensation;
+        $job->role_overview = $request->role_overview;
+        $job->responsibilities = json_encode(preg_split("/\r\n|\n|\r/", $request->responsibilities));
+        $job->requirements = json_encode(preg_split("/\r\n|\n|\r/", $request->requirements));
+        $job->target_services = json_encode(preg_split("/\r\n|\n|\r/", $request->target_services));
+        $job->industry = $request->industry;
+        $job->position = $request->position;
+        $job->experience = $request->experience;
 
-    return redirect()->back()->with('success', 'Job Posted Successfully!');
-}
+        $job->save();
+
+        return redirect()->back()->with('success', 'Job Posted Successfully!');
+    }
 }

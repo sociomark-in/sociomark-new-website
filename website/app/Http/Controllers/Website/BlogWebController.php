@@ -57,7 +57,18 @@ class BlogWebController extends Controller
 
         // if ($page > 1) {
         //     $meta['title'] .= ' - Page ' . $page;
+        //     $meta['description'] .= ' - Page ' . $page;
         // }
+        if ($page == 2) {
+            $meta['title'] = 'Must-Read Digital Marketing Tips - Page 2';
+            $meta['description'] = 'Page 2 covers SEO tips, PPC strategies, and analytics advice for growing your brand online.';
+        } elseif ($page == 3) {
+            $meta['title'] = 'Expert Blogging Strategies for UAE Businesses - Page 3';
+            $meta['description'] = 'Discover content marketing ideas and blog SEO tactics on page 3 of our blog series.';
+        } elseif ($page > 3) {
+            $meta['title'] .= ' - Page ' . $page;
+            $meta['description'] .= ' - Page ' . $page;
+        }
 
         return view('Frontend/Blog/Blog', compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags', 'meta'));
     }
