@@ -60,11 +60,11 @@ class BlogWebController extends Controller
         //     $meta['description'] .= ' - Page ' . $page;
         // }
         if ($page == 2) {
-            $meta['title'] = 'Must-Read Digital Marketing Tips - Page 2';
-            $meta['description'] = 'Page 2 covers SEO tips, PPC strategies, and analytics advice for growing your brand online.';
+            $meta['title'] = 'Sociomark Blog 2 | Digital Marketing Insights in UAE';
+            $meta['description'] = "Stay updated with Sociomark's blog, featuring digital trends, campaign ideas, case studies, and expert tips to boost your brand online.";
         } elseif ($page == 3) {
-            $meta['title'] = 'Expert Blogging Strategies for UAE Businesses - Page 3';
-            $meta['description'] = 'Discover content marketing ideas and blog SEO tactics on page 3 of our blog series.';
+            $meta['title'] = 'Sociomark Blog 1 | Digital Marketing Insights in UAE';
+            $meta['description'] = 'Sociomark’s blog brings you powerful marketing insights, creative ideas, and trend analyses to help you stay ahead in the digital game.';
         } elseif ($page > 3) {
             $meta['title'] .= ' - Page ' . $page;
             $meta['description'] .= ' - Page ' . $page;
