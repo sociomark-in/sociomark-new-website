@@ -771,17 +771,17 @@ return [
 
 
 
-    'stemrxbio' => [
-        // 'industry' => 'gaming',
-        'name' => 'Stemrxbio',
-        'view' => 'Frontend/Portfolio/stemRXBioScience',
-        'meta' => [
-            'title' => 'StemRx Bioscience Social Media | Sociomark Portfolio​',
-            'description' => "Explore how our digital marketing agency in Dubai helped StemRx Bioscience grow online with smart social media strategies and engaging content."
-        ],
-        // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
-        'portfolio-image' => 'frontend-assets/img/work/banner/stemrx.jpg'
-    ],
+    // 'stemrxbio' => [
+    //     // 'industry' => 'gaming',
+    //     'name' => 'Stemrxbio',
+    //     'view' => 'Frontend/Portfolio/stemRXBioScience',
+    //     'meta' => [
+    //         'title' => 'StemRx Bioscience Social Media | Sociomark Portfolio​',
+    //         'description' => "Explore how our digital marketing agency in Dubai helped StemRx Bioscience grow online with smart social media strategies and engaging content."
+    //     ],
+    //     // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
+    //     'portfolio-image' => 'frontend-assets/img/work/banner/stemrx.jpg'
+    // ],
 
 
 
