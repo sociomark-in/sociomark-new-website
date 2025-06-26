@@ -1,11 +1,203 @@
 @extends('Frontend.layout.app')
-@section('title', 'Portfolio')
-@section('author', 'Your Company Name')
-@section('description', 'This is a dynamic description for the home page.')
-@section('keywords', 'seo, marketing, agency, web design')
-@section('robots', 'INDEX,FOLLOW')
-
 @section('custome-style')
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Work portfolio",
+            "item": "https://www.sociomark.ae/portfolio"
+        }, {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "TATA PLAY",
+            "item": "https://www.sociomark.ae/portfolio/tata-play/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "StemRx Bioscience",
+            "item": "https://www.sociomark.ae/portfolio/stemrx-bioscience/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "JOP",
+            "item": "https://www.sociomark.ae/portfolio/jop/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Euro",
+            "item": "https://www.sociomark.ae/portfolio/euro/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Navi Mumbai Municipal Corporation",
+            "item": "https://www.sociomark.ae/portfolio/nmmc/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "The Professional Couriers",
+            "item": "https://www.sociomark.ae/portfolio/the-professional-couriers/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "BuildTrack",
+            "item": "https://www.sociomark.ae/portfolio/bulid-track/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "Indian School of Media (ISM)",
+            "item": "https://www.sociomark.ae/portfolio/ism/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Qubero by Nirali BG",
+            "item": "https://www.sociomark.ae/portfolio/qubero/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 11,
+            "name": "TMC",
+            "item": "https://www.sociomark.ae/portfolio/tmc/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 12,
+            "name": "Repute",
+            "item": "https://www.sociomark.ae/portfolio/repute/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 13,
+            "name": "Ayu health",
+            "item": "https://www.sociomark.ae/portfolio/ayu-health/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 14,
+            "name": "Blue energy Motors",
+            "item": "https://www.sociomark.ae/portfolio/bem/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 15,
+            "name": "Cyber Power",
+            "item": "https://www.sociomark.ae/portfolio/cyber-power/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 16,
+            "name": "Jivana",
+            "item": "https://www.sociomark.ae/portfolio/jivana/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 17,
+            "name": "Markets4you",
+            "item": "https://www.sociomark.ae/portfolio/m4u/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 18,
+            "name": "New Horizon School",
+            "item": "https://www.sociomark.ae/portfolio/nhss/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 19,
+            "name": "Shahenaz",
+            "item": "https://www.sociomark.ae/portfolio/shahenaz/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 20,
+            "name": "NODWIN Gaming ( India, Africa)",
+            "item": "https://www.sociomark.ae/portfolio/nodwin-gaming/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 21,
+            "name": "Road to safety",
+            "item": "https://www.sociomark.ae/portfolio/road-to-safety/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 22,
+            "name": "Ayushakti Ayurved",
+            "item": "https://www.sociomark.ae/portfolio/ayushakti/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 23,
+            "name": "HUL & CNBC-TV18 presents L.I.M.E.",
+            "item": "https://www.sociomark.ae/portfolio/lime/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 24,
+            "name": "RP Sanjiv Goenka & Network18 presents Button Dabao Desh Banao",
+            "item": "https://www.sociomark.ae/portfolio/button-dabao-desh-banao/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 25,
+            "name": "Castrol Activ & Network18 presents Protect India’s Engine",
+            "item": "https://www.sociomark.ae/portfolio/castrol/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 26,
+            "name": "ICICI Prudential Life Insurance and CNBC-TV18 presents Mission Insure India",
+            "item": "https://www.sociomark.ae/portfolio/mission-insure-india/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 27,
+            "name": "Real estate awards",
+            "item": "https://www.sociomark.ae/portfolio/real-estate-awards/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 28,
+            "name": "Cosplay Genie",
+            "item": "https://www.sociomark.ae/portfolio/cosplay-genie/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 29,
+            "name": "Smarter India",
+            "item": "https://www.sociomark.ae/portfolio/smarter-india/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 30,
+            "name": "Mahindra First Choice Services",
+            "item": "https://www.sociomark.ae/portfolio/mahindra-first-choice-services/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 31,
+            "name": "MasterCard & Network18 presents Team Cashless India",
+            "item": "https://www.sociomark.ae/portfolio/team-cashless-india/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 32,
+            "name": "Sportz consult",
+            "item": "https://www.sociomark.ae/portfolio/sportz-consult/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 33,
+            "name": "AI Awards",
+            "item": "https://www.sociomark.ae/portfolio/ai-awards/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 34,
+            "name": "Grill box",
+            "item": "https://www.sociomark.ae/portfolio/grill-box/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 35,
+            "name": "Kolkata Rolls",
+            "item": "https://www.sociomark.ae/portfolio/kolkata-rolls/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 36,
+            "name": "Hollywood Opticians",
+            "item": "https://www.sociomark.ae/portfolio/hollywood-opticians/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 37,
+            "name": "Foresight Opticals",
+            "item": "https://www.sociomark.ae/portfolio/foresight-opticals/social-media-work"
+        }, {
+            "@type": "ListItem",
+            "position": 38,
+            "name": "INIFD Vashi",
+            "item": "https://www.sociomark.ae/portfolio/inifd-vashi/social-media-work"
+        }]
+    }
+</script>
+
 <style>
     #brand .contact-head {
         padding: 3rem 0rem 3rem 0rem;

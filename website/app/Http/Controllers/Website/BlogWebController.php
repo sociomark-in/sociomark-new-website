@@ -69,8 +69,8 @@ class BlogWebController extends Controller
             $meta['title'] .= ' - Page ' . $page;
             $meta['description'] .= ' - Page ' . $page;
         }
-
-        return view('Frontend/Blog/Blog', compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags', 'meta'));
+        $currentUrl = url("/blog" . ($page > 1 ? "/page/$page" : ""));
+        return view('Frontend/Blog/Blog', compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags', 'meta', 'page', 'currentUrl'));
     }
     public function innerBlog($slug)
     {

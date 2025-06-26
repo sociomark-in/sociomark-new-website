@@ -1,4 +1,32 @@
 @extends('Frontend.layout.app')
+
+@section('custome-style')
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Blog {{ $page >= 1 ? 'page ' . $page : '' }}",
+                "item": "{{ $currentUrl }}"
+            }
+            @php $position = 2;@endphp
+            @foreach($otherBlogs as $blog), {
+                "@type": "ListItem",
+                "position": {
+                    {
+                        $position
+                    }
+                },
+                "name": "{{ $blog->blog_name }}",
+                "item": "{{ url('/blog/' . $blog->slug) }}"
+            }
+            @php $position++;@endphp
+            @endforeach
+        ]
+    }
+</script>
 <style>
     #Blog_Section .box {
         padding: 28px 20px;
@@ -71,7 +99,7 @@
         object-fit: contain !important;
     }
 </style>
-
+@endsection
 @section('content')
 <main>
 
@@ -218,12 +246,12 @@
 @endsection
 @push('script')
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function() {
         const categoryLinks = document.querySelectorAll(".category-filter");
         const blogItems = document.querySelectorAll(".blog-item");
 
         categoryLinks.forEach(link => {
-            link.addEventListener("click", function (e) {
+            link.addEventListener("click", function(e) {
                 e.preventDefault();
 
                 const selectedCategory = this.getAttribute("data-category").toLowerCase();

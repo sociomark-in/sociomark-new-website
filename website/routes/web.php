@@ -59,7 +59,7 @@ Route::get('/service/performance-marketing-agency', [ServiceController::class, '
 Route::get('/service/photography-videography', [ServiceController::class, 'photoVideography'])->name('photoVideography');
 
 // Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');
-Route::get('/portfolio/social-media', [PortfolioController::class, 'portfolioInside'])->name('portfolio');
+Route::get('/portfolio', [PortfolioController::class, 'portfolioInside'])->name('portfolio');
 
 
 Route::get('/portfolio/ayushakti/website-work', [PortfolioController::class, 'ayushaktiweb'])->name('ayushaktiweb');
