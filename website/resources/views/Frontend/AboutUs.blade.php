@@ -359,7 +359,7 @@
                     </div>
                 </div>
                 <div class="col-xl-6 text-center" data-aos="zoom-in" data-aos-delay="200">
-                    <img src="{{ asset('frontend-assets/img/about/90days.png') }}" alt="gameplan" class="w-100">
+                    <img src="{{ asset('frontend-assets/img/about/90days.png') }}" alt="gameplan" class="w-75">
                 </div>
 
             </div>

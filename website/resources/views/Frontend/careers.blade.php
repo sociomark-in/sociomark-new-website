@@ -109,8 +109,8 @@
         <section style="margin-top: 66px;">
             <div class="full-width">
                 <picture>
-                    <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/contact-us.jpg') }}">
-                    <img src="{{ asset('frontend-assets/img/banners/contact-us.jpg') }}" alt="contact" class="w-100">
+                    <source media="(min-width: 1400px)" srcset="{{ asset('frontend-assets/img/banners/Career.png') }}">
+                    <img src="{{ asset('frontend-assets/img/banners/Career.png') }}" alt="contact" class="w-100">
                 </picture>
             </div>
         </section>
