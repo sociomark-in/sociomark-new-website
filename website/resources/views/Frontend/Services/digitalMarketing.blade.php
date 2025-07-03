@@ -83,31 +83,21 @@
                 </div>
                 <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">Your digital presence is more than just a
-                        checklist. It's an ongoing conversation between your brand and the world. At Sociomark, we
-                        understand that every touchpoint matters, and we bring a blend of strategy, creativity, and
-                        technical know-how to make sure your brand stands out.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">Your digital presence is more than just a checklist. It's an ongoing conversation between your brand and the world. At Sociomark, we understand that every touchpoint matters, and we bring a blend of strategy, creativity, and technical know-how to make sure your brand stands out.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">Whether you're looking for <b>search
-                            engine optimization</b> to increase your visibility, or a smart <b>social media
-                            marketing</b> plan to build meaningful connections with your audience, we've got you
-                        covered. We know that a webpage isn’t just a page but the foundation of your digital identity.
-                        This is reason why our <b>website development</b> services aim on crafting user-friendly,
-                        SEO-optimized platforms that make a lasting impression.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">We offer the best options for you, whether you're looking for professional <b>SEO services in Dubai</b> to increase your online presence or a smart <b>social media marketing in Ajmal</b> to interact with and expand your audience. We are aware that your website is the foundation of your online presence and is more than just a page. Therefore, the creation of user-friendly, responsive, and SEO-optimized websites that have a lasting effect and produce tangible results is the main goal of our website development services.
+                    </p>
+                    
+                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">We don't just create; we ensure your brand gets noticed and converts. Amplify your reach with our <b>paid advertising services in the UAE,</b> expertly designed to drive engagement and conversions. Because content is key, our <b>content marketing services in the Ajmal</b> ensure you deliver value to your audience while powerfully telling your brand's story.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">We don’t stop at just creating. We
-                        amplify your reach through <b>paid ads</b> that drive engagement and conversions. And because
-                        content is key, our <b>content marketing services</b> ensure that you create value for your
-                        audience while telling your brand’s story. Need visuals to capture attention? Our <b>photography
-                            & video production</b> services bring your brand’s personality to life in the most engaging
-                        way possible.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">Need captivating visuals? Our professional photography and video production services bring your brand's unique personality to life in the most engaging way possible, from <b>corporate video services in Dubai</b> to product photography . Let us help your brand shine!
+
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">Sociomark doesn't just offer services—we
-                        offer a partnership to help you grow. As per your needs we customize our plan of action so that
-                        every piece of your online presence works together to help you shine.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">Sociomark doesn't just offer services, we offer a partnership to help you grow. As per your needs we customize our plan of action so that every piece of your online presence works together to help you shine.
                     </p>
                 </div>
             </div>
@@ -181,7 +171,7 @@
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Refine as We Go</h4>
-                            <p class="sec-para">Digital is always moving. We monitor, analyse, and tweak regularly to
+                            <p class="sec-para"><a href="{{ route('digitalMarketing') }}"><b>Digital Marketing</b></a> is always moving. We monitor, analyse, and tweak regularly to
                                 keep your growth steady.</p>
                         </div>
                     </div>

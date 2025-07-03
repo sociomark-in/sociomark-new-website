@@ -91,7 +91,7 @@
                         data-aos-duration="1200" data-aos-easing="ease-in-out">With our expertise in <strong>SEO in
                             Dubai,</strong> we tailor each approach to fit your unique goals. From local market
                         insights to global trends, we ensure that you gain visibility where it matters the most. We
-                        focus on the things that create real, lasting results—like technical optimisation and content
+                        focus on the things that create real, lasting results—like technical optimisation and <a href="{{ route('contentMarketing') }}"><b>content marketing</b> </a>
                         that speaks to your audience. We don't just chase rankings; we chase meaningful engagement.
                         Through our strategies, we help our clients to increase visibility, drive meaningful traffic and
                         enhance the user experience. As one of the <strong>top SEO companies in Dubai,</strong> we help
@@ -358,7 +358,7 @@
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Perfect Integration of SEO and Web Development</h4>
-                                <p class="sec-para"> By combining SEO with expert <strong>web development,</strong> we
+                                <p class="sec-para"> By combining SEO with expert <a href="{{ route('website') }}"><b>web development</b> </a>, we
                                     ensure that your website is optimised for both performance and user experience.
                                 </p>
                             </div>
