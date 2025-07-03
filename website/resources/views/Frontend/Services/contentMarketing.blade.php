@@ -24,15 +24,14 @@
                         <div class="title-area mb-md-3 mb-2 mt-n1">
                             <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                                 data-aos-duration="1000" data-aos-easing="ease-in-out">
-                                Turn Content into a <span class="text-blue"> Business Advantage</span>
+                                Turn Content into a Business Advantage with Our <span class="text-blue"> Content Marketing Agency in Ajman</span>
                             </h1>
                         </div>
                     </div>
                     <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
                         <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                             data-aos-duration="1200" data-aos-easing="ease-in-out"> Words have power. And when they’re used
-                            right, they can grow your business. We help brands do just that with effective <b>content
-                                marketing</b>. From social posts to long-form blogs, our aim is to make content that will
+                            right, they can grow your business. We help brands do just that with effective <b>content marketing agency in Ajman</b>. From social posts to long-form <a href="{{ route('blog') }}"><b>blogs</b></a>, our aim is to make content that will
                             bring results. At Sociomark, our team blends creativity with data to form a competent <b>digital
                                 content strategy</b>.
                         </p>
@@ -107,8 +106,7 @@
                             </div>
                             <div class="benefit-block border-start border-4">
                                 <h4 class="sub-sec-title">Create Videos</h4>
-                                <p class="sec-para"> Videos help boost engagement. We ensure that the message we put out is
-                                    not only crystal clear but also it is remembered.</b>.
+                                <p class="sec-para">Boost your <a href="{{ route('socialMedia') }}"><b>social media marketing engagement</b></a> with videos from us, ensuring your message is crystal clear and remembered.
                                 </p>
                             </div>
                             <div class="benefit-block border-start border-4">
@@ -147,7 +145,7 @@
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/Service/Understand What Works.png') }}"
                                 alt="understanding what works" class="rounded-overflow">
-                            <p class="sec-para text">We begin with <b>Keyword Research</b> to learn what your audience is
+                            <p class="sec-para text">We begin with <a href="{{ route('seo') }}"><b>Keyword Research</b></a> to learn what your audience is
                                 searching for.
                             </p>
 
@@ -173,8 +171,7 @@
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/Service/Create with Purpose.png') }}"
                                 alt="Create with Purpose" class="rounded-overflow">
-                            <p class="sec-para text">We <b>Create infographics and visuals</b> that not only inform but
-                                stand out.
+                            <p class="sec-para text">We're a <a href="{{ route('photoVideography') }}"><b>photography and videography agency</b></a> dedicated to creating visuals that don't just inform, but truly stand out
 
                             </p>
                         </div>

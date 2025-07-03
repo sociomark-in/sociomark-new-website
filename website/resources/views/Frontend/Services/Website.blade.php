@@ -24,7 +24,7 @@
                     <div class="title-area mb-md-3 mb-2 mt-n1">
                         <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            Make Your First Click Count with Expert <span class="text-blue">Website Development</span>
+                            Make Your First Click Count with Expert <span class="text-blue">Website Development Company in Dubai</span>
                         </h1>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out"> A website is not a show piece. It should
                         work hard for your brand—pulling in visitors, guiding them, and leaving a lasting impression.
-                        That’s where a skilled <b>website development agency</b> steps in.
+                        That’s where a skilled <b>website development agency in Ajman</b> steps in.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out">At Sociomark, the goal is to turn ideas
@@ -270,8 +270,7 @@
                                 <h4 class="sub-sec-title">Reliable Team</h4>
                                 <p class="sec-para"> We’re responsive, creative, and genuinely excited to work with
                                     you. Be it <b>Ecommerce websites, portfolio websites</b> or the need is for
-                                    <b>website builders for small business</b> or a multinational firm, as a <b>web
-                                        design company</b> we cater to all and deliver exceptional results every time.
+                                    <b>website builders for small business</b> or a multinational firm, as a <b>web design company in the UAE</b> we cater to all and deliver exceptional results every time.
                                 </p>
                             </div>
                         </div>

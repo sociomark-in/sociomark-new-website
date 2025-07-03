@@ -58,7 +58,7 @@ Route::get('/service/content-marketing-agency-dubai', [ServiceController::class,
 Route::get('/service/performance-marketing-agency', [ServiceController::class, 'sem'])->name('sem');
 Route::get('/service/photography-videography', [ServiceController::class, 'photoVideography'])->name('photoVideography');
 
-// Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');
+// Route::get('/portfolio-inside', [PortfolioController::class, 'index'])->name('portfolio');
 Route::get('/portfolio', [PortfolioController::class, 'portfolioInside'])->name('portfolio');
 
 

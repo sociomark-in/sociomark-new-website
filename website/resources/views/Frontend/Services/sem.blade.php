@@ -73,7 +73,7 @@
                         </h1> --}}
                         <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            <span class="text-blue">Performance marketing agency in Dubai</span> helping brands grow smarter Seen
+                            <span class="text-blue">Performance marketing agency in Dubai</span> helping brands grow smarter
                         </h1>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
                         data-aos-duration="1200" data-aos-easing="ease-in-out">No cookie-cutter templates here. Your
                         goals guide the approach. Want to boost traffic? Sell a product? Capture leads? There’s a paid
                         solution for that. With <b>SEM</b>, you get targeted visibility that translates into action.
-                        From <b>Google pay per click</b> to <b>LinkedIn paid advertising</b>, we help you tap into the
+                        From <b>google ads</b> to <b>LinkedIn paid advertising</b>, we help you tap into the
                         platforms that matter.Your budget works smarter, your results go further, and your brand is
                         under the spotlight that it needs.
                     </p>
@@ -282,7 +282,7 @@
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title"> Strategy Over Spray</h4>
-                                <p class="sec-para">We don’t throw ads into the wind. As a <b>paid ads agency</b>, each of our campaign starts with intent, insight and ends with tangible results.</p>
+                                <p class="sec-para">We don’t throw ads into the wind. As a <a href="{{ route('sem') }}"><b>Performance marketing agency in Dubai</b></a>, each of our campaign starts with intent, insight and ends with tangible results.</p>
                             </div>
                         </div>
                         <div class="choose-feature">

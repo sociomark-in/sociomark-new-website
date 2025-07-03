@@ -91,7 +91,7 @@
                         data-aos-duration="1200" data-aos-easing="ease-in-out">With our expertise in <strong>SEO in
                             Dubai,</strong> we tailor each approach to fit your unique goals. From local market
                         insights to global trends, we ensure that you gain visibility where it matters the most. We
-                        focus on the things that create real, lasting results—like technical optimisation and content
+                        focus on the things that create real, lasting results—like technical optimisation and <a href="{{ route('contentMarketing') }}"><b>content marketing</b> </a>
                         that speaks to your audience. We don't just chase rankings; we chase meaningful engagement.
                         Through our strategies, we help our clients to increase visibility, drive meaningful traffic and
                         enhance the user experience. As one of the <strong>top SEO companies in Dubai,</strong> we help
@@ -315,7 +315,95 @@
 
     </section>
 
-    <section class="overflow-hidden space bg-grey" id="about-sec2">
+
+    <section class="overflow-hidden position-relative space bg-grey" id="about-flip">
+        <div class="container">
+            <div class="row text-center d-flex justify-content-center justify-content-md-end">
+
+                <div class="col-md-12 col-12 pe-0 pe-md-5">
+                    <h2 class="fw-bold sec-title my-3" data-aos="fade-down" data-aos-delay="100">
+                        The Process That Sets Us Apart as an
+                        <span class="text-blue"> SEO Expert in Ajman</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center mt-4" data-aos="fade-right" data-aos-delay="400">
+                <div class="col-12 col-md-3 first-feature-card feature-card flip-box p-0 mt-3 mx-2"
+                    data-aos="fade-left" data-aos-delay=" 300">
+                    <div class="h-100">
+                        <div
+                            class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
+
+                            <h4 class="sub-sec-title text-blue"><b>Free Audit</b></h4>
+                            <p class="sec-para">Start with a thorough analysis of your website’s performance to uncover strengths, weaknesses, and opportunities. This audit is the basis on which we form a customised strategy.</p>
+                        </div>
+                        <!-- <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
+                            <p class="sec-para">Start with a thorough analysis of your website’s performance to uncover strengths, weaknesses, and opportunities. This audit is the basis on which we form a customised strategy.</p>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 second-feature-card feature-card flip-box p-0 mt-3 mx-2"
+                    data-aos="fade-left" data-aos-delay="300">
+                    <div class="h-100">
+                        <div
+                            class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-start flex-column">
+
+                            <h4 class="sub-sec-title text-blue"><b>Strategy Development</b></h4>
+                            <p class="sec-para">Based on the audit, an SEO strategy is developed that aligns with your business goals and target audiences. Our <b>SEO services in Abu Dhabi</b> and UAE are crafted to meet the specific needs of your industry.</p>
+                        </div>
+                        <!-- <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
+                            <p class="sec-para">Based on the audit, an SEO strategy is developed that aligns with your business goals and target audiences. Our <b>SEO services in Abu Dhabi</b> and UAE are crafted to meet the specific needs of your industry.</p>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-12 col-md-3  feature-card flip-box p-0 mt-3 mx-2">
+                    <div class="h-100">
+                        <div
+                            class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-start flex-column">
+                            <!-- <img src="{{ asset('frontend-assets/img/icon/about/Result Driven.png') }}" alt="Results-Driven"
+                                class="h-50 w-50"> -->
+                            <h4 class="sub-sec-title text-blue"><b>Implementation</b></h4>
+                            <p class="sec-para">The strategy is put into action, which includes technical fixes, optimising existing content, creating new content, improving site structure, and applying SEO best practices.</p>
+                        </div>
+                        <!-- <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
+                            <p class="sec-para">The strategy is put into action, which includes technical fixes, optimising existing content, creating new content, improving site structure, and applying SEO best practices.</p>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-12 col-md-3  feature-card flip-box p-0 mt-3 mx-2" data-aos="fade-right"
+                    data-aos-delay="400">
+                    <div class="h-100">
+                        <div
+                            class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-start flex-column">
+
+                            <h4 class="sub-sec-title text-blue"><b>Monitoring & Optimisation</b></h4>
+                            <p class="sec-para">SEO requires continuous optimisation. <a href="{{ route('sem') }}"><b>Performance</b></a> is tracked, and strategies are adjusted to keep the website ahead in search engine rankings. Through our <b>SEO services in Ajman,</b> we ensure that the website remains competitive and effective.</p>
+                        </div>
+                        <!-- <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
+                            <p class="sec-para">SEO requires continuous optimisation. <a href="{{ route('sem') }}"><b>Performance</b></a> is tracked, and strategies are adjusted to keep the website ahead in search engine rankings. Through our <b>SEO services in Ajman,</b> we ensure that the website remains competitive and effective.</p>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-12 col-md-3  feature-card flip-box p-0 mt-3 mx-2" data-aos="fade-right"
+                    data-aos-delay="400">
+                    <div class="h-100">
+                        <div
+                            class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-start flex-column">
+
+                            <h4 class="sub-sec-title text-blue"><b>Reporting</b></h4>
+                            <p class="sec-para">Receive detailed yet clear reports every month, showing key performance metrics and the impact of the SEO strategy on website performance.</p>
+                        </div>
+                        <!-- <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
+                            <p class="sec-para">Receive detailed yet clear reports every month, showing key performance metrics and the impact of the SEO strategy on website performance.</p>
+                        </div> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="overflow-hidden space" id="about-sec2">
         <div class="container">
             <div class="row align-items-end">
                 <div class="col-xl-8" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
@@ -358,7 +446,7 @@
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Perfect Integration of SEO and Web Development</h4>
-                                <p class="sec-para"> By combining SEO with expert <strong>web development,</strong> we
+                                <p class="sec-para"> By combining SEO with expert <a href="{{ route('website') }}"><b>web development</b> </a>, we
                                     ensure that your website is optimised for both performance and user experience.
                                 </p>
                             </div>
@@ -924,4 +1012,18 @@
     });
     // services tab end
 </script>
+@endpush
+
+@push('styles')
+<style>
+    #about-flip .flip-box {
+        width: 400px;
+        height: 320px;
+    }
+
+    #about-flip .flip-box-front {
+        padding: 20px;
+    }
+</style>
+
 @endpush

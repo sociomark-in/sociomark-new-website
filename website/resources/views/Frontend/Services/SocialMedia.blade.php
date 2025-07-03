@@ -81,7 +81,7 @@
                     <div class="title-area mb-md-3 mb-2 mt-n1">
                         <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            Boost Your Brand’s Voice with Expert <span class="text-blue"> Social Media Marketing</span>
+                            Boost Your Brand’s Voice with Expert <span class="text-blue"> Social Media Marketing Agency</span>
                         </h1>
                     </div>
                 </div>
@@ -89,7 +89,7 @@
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out"> In the current world, your audience is
                         scrolling, and your brand should be part of that conversation. We help businesses stand out with
-                        creative, effective <b>social media marketing</b> strategies tailored for a global audience,
+                        creative, effective <b>social media marketing agency in Ajman</b> strategies tailored for a global audience,
                         including markets like the UAE.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
@@ -183,9 +183,7 @@
 
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Create Personalized Content </h4>
-                            <p class="sec-para">Every post is tailored to resemble the unique voice of your brand. Our
-                                main aim is to make content that addresses the needs and desires of your audience,
-                                crafted by experienced <b>social media specialists</b>.</p>
+                            <p class="sec-para">We don’t believe in one-size-fits-all posts. Every piece of content we create is shaped by your brand’s voice and made to truly speak to your audience. With a deep understanding of your customer’s needs and smart strategies in marketing through social media, we make sure your brand doesn’t just show up, but stands out.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Engage & Interact Regularly</h4>
@@ -196,8 +194,8 @@
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Track and Adjust Performance</h4>
                             <p class="sec-para"> We don’t just post and forget. With every post, we track performance
-                                and make adjustments to keep improving, so your brand continues to achieve <b>social
-                                    media growth</b> and long-term success.</p>
+                                and make adjustments to keep improving, so your brand continues to achieve <a href="{{ route('portfolio') }}"><b>social
+                                    media growth</b> </a>and long-term success.</p>
                         </div>
                     </div>
                 </div>
@@ -263,7 +261,7 @@
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Services/Smart Campaign Execution.png') }}" alt="Smart Campaign Execution"
                             class="rounded-overflow">
-                        <p class="sec-para text">Once the plan is ready, we bring it to life. With targeted <b>social media advertising,</b> we help you reach the people that matter to your brand aka your target audience..
+                        <p class="sec-para text">Once the plan is ready, we bring it to life. With targeted <a href="{{ route('sem') }}"><b>social media advertising,</b> </a>we help you reach the people that matter to your brand aka your target audience..
                         </p>
                     </div>
                 </div>
@@ -275,7 +273,7 @@
                         <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Services/Track, Learn, improve.png') }}"
                             alt="Track, Learn, improve" class="rounded-overflow">
                         <p class="sec-para text">We monitor performance closely and make regular adjustments. As a
-                            <b>social media management company</b>, we ensure every step moves you closer to your goals.
+                            <b>social media management company in Dubai</b>, we ensure every step moves you closer to your goals.
                         </p>
                     </div>
                 </div>
@@ -321,7 +319,7 @@
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Global, Local Fit</h4>
-                                <p class="sec-para">As a <b>social media marketing agency</b> we work with brands
+                                <p class="sec-para">As a <b>social media marketing agency in Ajman</b> we work with brands
                                     across different regions across the globe. So, we know how to keep your content
                                     relevant no matter where your audience is. Every post is shaped to reflect your
                                     voice and your market.</p>
