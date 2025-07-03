@@ -322,7 +322,8 @@
 
                 <div class="col-md-12 col-12 pe-0 pe-md-5">
                     <h2 class="fw-bold sec-title my-3" data-aos="fade-down" data-aos-delay="100">
-                        What Makes Us <span class="text-blue"> Remarkable</span>
+                        The Process That Sets Us Apart as an
+                        <span class="text-blue"> SEO Expert in Ajman</span>
                     </h2>
                 </div>
             </div>
