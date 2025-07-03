@@ -207,7 +207,7 @@
                 </div>
                 <div class="according-list hover-item">
                     <div class="accordion-item2">
-                        <h3 class="box-title text-center text-md-start">c</h3>
+                        <h3 class="box-title text-center text-md-start">Study Competitors and Gaps</h3>
                     </div>
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Digital marketing/Services/Study Competitors and Gaps.png') }}"
