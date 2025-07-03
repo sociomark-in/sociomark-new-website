@@ -274,7 +274,7 @@
             <span id="consent-error" class="text-danger mt-1 d-block"></span>
         </div>
         <div class="col-12 form-group mb-0 text-center">
-            <button type="submit" class="th-btn th-radius">Book Free Strategy Call</button>
+            <button type="submit" class="th-btn th-radius">Book A Free Strategy Call</button>
         </div>
 
     </div>
