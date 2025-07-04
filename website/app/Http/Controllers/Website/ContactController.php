@@ -15,7 +15,8 @@ class ContactController extends Controller
     {
         $meta = [
             'title' => 'Contact Sociomark UAE | Digital Marketing Agency in Dubai',
-            'description' => "Get in touch with Sociomark, a leading digital marketing agency in Dubai. Reach out via our contact form or call us at +971 50 426 6118 for expert marketing solutions."
+            'description' => "Get in touch with Sociomark, a leading digital marketing agency in Dubai. Reach out via our contact form or call us at +971 50 426 6118 for expert marketing solutions.",
+            'keywords' => 'Sociomark, Contact Us, Best quote, Cheapest digital marketing services,Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ];
         return view("Frontend/ContactUs", compact('meta'));
     }

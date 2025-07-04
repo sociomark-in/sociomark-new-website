@@ -22,7 +22,8 @@ class IndustryController extends Controller
 
         $meta = [
             'title' => $industryMeta[$segment]['title'],
-            'description' => $industryMeta[$segment]['description']
+            'description' => $industryMeta[$segment]['description'],
+            'keywords' => $industryMeta[$segment]['keywords']
         ];
         $view = $industryMeta[$segment]['view'];
 

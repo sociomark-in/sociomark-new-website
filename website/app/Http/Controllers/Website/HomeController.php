@@ -60,7 +60,8 @@ class HomeController extends Controller
     {
         $meta = [
             'title' => 'Creative Marketing Agency in Dubai | Sociomark​​',
-            'description' => "Learn about Sociomark, a trusted digital marketing company in UAE, offering innovative strategies to grow your online presence and drive real results."
+            'description' => "Learn about Sociomark, a trusted digital marketing company in UAE, offering innovative strategies to grow your online presence and drive real results.",
+            'keywords' => 'About us, Sociomark, Best digital marleting agency in Ajman, Best Digital marketing agency in UAE, SEO agency in Dubai'
         ];
         return view("Frontend/AboutUs", compact('meta'));
     }
@@ -68,7 +69,8 @@ class HomeController extends Controller
     {
         $meta = [
             'title' => 'Digital Marketing Services Dubai | SEO, PPC, SMM | Sociomark​​',
-            'description' => "Explore Digital Marketing Services in Dubai with Sociomark. We offer SEO, Social Media, PPC & more to grow your brand online."
+            'description' => "Explore Digital Marketing Services in Dubai with Sociomark. We offer SEO, Social Media, PPC & more to grow your brand online.",
+            'keywords' => 'digital marketing services UAE, SEO PPC social media, content strategy UAE,  Performance marketing agency in UAE, Video editing in ajman '
         ];
         return view("Frontend/Services", compact('meta'));
     }

@@ -79,7 +79,7 @@ class ServiceController extends Controller
         $meta = [
             'title' => 'SEO Agency in UAE | Boost Your Rankings with Sociomark',
             'description' => "Boost your online presence with Dubai's leading SEO Company. Our SEO Services help improve rankings, increase traffic, and grow your business effectively.",
-            'keywords' => 'SEO Agency in UAE, SEO company in Dubai'
+            'keywords' => 'SEO agency Dubai, UAE search optimization, local SEO Dubai, SEO company UAE,  Digital marketing agency in Ajman, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ];
         $categories = Category::all();
         $tags = Tag::all();
@@ -95,7 +95,7 @@ class ServiceController extends Controller
         $meta = [
             'title' => 'Website Development Company in UAE | Build Your Online Presence',
             'description' => 'Looking for a top website development agency in Dubai? Our experts build responsive, user-friendly websites that drive conversions and boost online presence.',
-            'keywords' => 'Website Development Company in UAE, website development agency in Dubai'
+            'keywords' => 'website development UAE, web design Dubai, custom web solutions Dubai,  Digital marketing agency in Ajman, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ];
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
         $this->data['clients'] = [
@@ -116,7 +116,7 @@ class ServiceController extends Controller
         $meta = [
             'title' => 'Social Media Marketing Agency in UAE | Sociomark',
             'description' => 'Boost your brand with expert social media agency services in Dubai. Customized strategies to grow your online presence and engage your audience effectively.',
-            'keywords' => 'Social Media Marketing Agency in UAE, Social Media Marketing Company in Dubai'
+            'keywords' => 'social media agency Dubai, SMO UAE, social campaigns Dubai, influencer marketing UAE,  Digital marketing agency in Ajman, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ];
         $categories = Category::all();
         $tags = Tag::all();
@@ -132,7 +132,7 @@ class ServiceController extends Controller
         $meta = [
             'title' => 'Leading Digital Marketing Company in UAE | Grow with Experts',
             'description' => 'Get top Digital Marketing Agency Services in Dubai with Sociomark. Drive traffic, boost your online presence, and grow your business with expert digital solutions.',
-            'keywords' => 'digital marketing in Dubai, Digital Marketing in UAE '
+            'keywords' => 'digital marketing Dubai, SEO PPC social media UAE, online marketing Dubai,  Digital marketing agency in Ajman, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ];
         $categories = Category::all();
         $tags = Tag::all();
@@ -148,7 +148,7 @@ class ServiceController extends Controller
         $meta = [
             'title' => 'Top Content Marketing Agency in UAE | Sociomark',
             'description' => 'Get more engagement and grow your business with professional Content Marketing Services from Sociomark, a trusted agency in Dubai delivering impactful results.',
-            'keywords' => 'Content Marketing Agency in UAE, content marketing services in Dubai'
+            'keywords' => 'content marketing Dubai, blog marketing UAE, content strategy UAE,  Digital marketing agency in Ajman, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ];
 
         $categories = Category::all();
@@ -165,7 +165,7 @@ class ServiceController extends Controller
         $meta = [
             'title' => 'Performance Marketing Agency in UAE | Sociomark',
             'description' => 'Sociomark, a digital marketing agency in UAE, offers Performance Marketing Services that help your business grow online. We build effective campaigns to increase sales and reach.',
-            'keywords' => 'Performance Marketing Agency in UAE, performance marketing company in Dubai'
+            'keywords' => 'performance marketing UAE, PPC ads Dubai, ROI digital campaigns,  Digital marketing agency in Ajman, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ];
         $categories = Category::all();
         $tags = Tag::all();
@@ -181,7 +181,7 @@ class ServiceController extends Controller
         $meta = [
             'title' => 'Top Photography and Videography Services in UAE | Sociomark',
             'description' => 'Get quality Photography and Videography Services in Dubai with Sociomark. We help you capture special moments in a simple and professional way.',
-            'keywords' => 'Photography and Videography Company in UAE, photography and videography services in Dubai'
+            'keywords' => 'brand photography Dubai, corporate videography UAE, video content marketing,  Digital marketing agency in Ajman, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ];
         $categories = Category::all();
         $tags = Tag::all();

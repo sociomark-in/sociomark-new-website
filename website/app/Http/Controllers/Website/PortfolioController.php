@@ -11,13 +11,19 @@ class PortfolioController extends Controller
     {
         $meta = [
             'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
-            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms."
+            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms.",
+            'keywords' => 'best digital marketing agency in Ajman, digital marketing agency in UAE, digital marketing company in Dubai, best digital marketing to work with, Viral Campaigns, Client work, Sociomark website development company in Ajman'
         ];
         return view('Frontend/Portfolio/insidePortfolio', compact('meta'));
         // return view('Frontend/Portfolio/ListPortfolioCat' , compact('meta'));
     }
     public function portfolioInside()
     {
+        $meta = [
+            'title' => 'Our Work Portfolio | Sociomark Digital Agency UAE​',
+            'description' => "Explore the success stories by Sociomark, a digital marketing agency in UAE, showcasing creative campaigns and results across various industries and platforms.",
+            'keywords' => 'best digital marketing agency in Ajman, digital marketing agency in UAE, digital marketing company in Dubai, best digital marketing to work with, Viral Campaigns, Client work, Sociomark website development company in Ajman'
+        ];
         $clients = config('clients');
 
         // Filter only those that have image and portfolio-image
@@ -25,7 +31,7 @@ class PortfolioController extends Controller
             return !empty($client['portfolio-image']);
         });
 
-        return view('Frontend/Portfolio/insidePortfolio', compact('activeClients'));
+        return view('Frontend/Portfolio/insidePortfolio', compact('activeClients', 'meta'));
     }
     public function social_media($client)
     {
@@ -39,7 +45,7 @@ class PortfolioController extends Controller
 
         // Ensure all required keys are present
         if (
-            !isset($data['meta']['title'], $data['meta']['description'], $data['view'], $data['industry']) ||
+            !isset($data['meta']['title'], $data['meta']['description'], $data['meta']['keywords'], $data['view'], $data['industry']) ||
             !view()->exists($data['view'])
         ) {
             abort(404);

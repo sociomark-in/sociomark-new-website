@@ -7,7 +7,8 @@ return [
         'view' => 'Frontend/Portfolio/tataplaySocial',
         'meta' => [
             'title' => 'Tata Play Social Media | Sociomark Portfolio Dubai​',
-            'description' => "Discover how our digital marketing agency in Dubai helped Tata Play enhance engagement through creative and effective social media campaigns."
+            'description' => "Discover how our digital marketing agency in Dubai helped Tata Play enhance engagement through creative and effective social media campaigns.",
+            'keywords' => 'Best Digital marketing agency for Entertainment industry, Digital marketing agency in Ajman, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         'image' => 'frontend-assets/img/clients/tataplay.png',
         'portfolio-image' => 'frontend-assets/img/work/banner/tata_play.png'
@@ -52,7 +53,8 @@ return [
         'view' => 'Frontend/Portfolio/euroSocialMedia',
         'meta' => [
             'title' => 'EURO Social Media Campaign | Sociomark UAE​',
-            'description' => "See how Sociomark, a Digital marketing agency in uae, boosted EURO’s social media engagement with creative content, ads, and strategies for brand growth."
+            'description' => "See how Sociomark, a Digital marketing agency in uae, boosted EURO’s social media engagement with creative content, ads, and strategies for brand growth.",
+            'keywords' => 'fashion marketing, clothing brand digital strategy, apparel social media, fashion brand SEO, ethnic wear marketing, lifestyle brand promotions'
         ],
         'image' => 'frontend-assets/img/clients/euro.jpg',
         'portfolio-image' => 'frontend-assets/img/work/euro/Euro.jpg',
@@ -86,7 +88,8 @@ return [
         'view' => 'Frontend/Portfolio/theProffessionalCouriersSocialMedia',
         'meta' => [
             'title' => 'The Professional Couriers | Social Media by Sociomark​',
-            'description' => "Sociomark, a digital marketing agency in UAE, helped The Professional Couriers grow online with smart social media content, branding, and audience reach."
+            'description' => "Sociomark, a digital marketing agency in UAE, helped The Professional Couriers grow online with smart social media content, branding, and audience reach.",
+            'keywords' => 'courier services marketing, logistics digital campaigns, transportation SEO, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/the prfessional courier/The Professional Couriers.jpg',
@@ -103,7 +106,8 @@ return [
         'view' => 'Frontend/Portfolio/bulidTrackSocial',
         'meta' => [
             'title' => 'Build Track Social Media Work | Sociomark​',
-            'description' => "Discover how Sociomark, Digital marketing agency in uae, boosted Build Track’s social media with engaging content, targeted ads, and strategic campaigns."
+            'description' => "Discover how Sociomark, Digital marketing agency in uae, boosted Build Track’s social media with engaging content, targeted ads, and strategic campaigns.",
+            'keywords' => 'home automation marketing, hotel automation solutions, smart switches digital strategy, IoT touch keypads promotion, smart home technology UAE, automation brand social media, Build Track digital marketing, Best digital marketing agency in Dubai'
         ],
         'image' => 'frontend-assets/img/clients/buildtrack (1).png',
         'portfolio-image' => 'frontend-assets/img/work/build track/Buildtrack.jpg',
@@ -121,7 +125,8 @@ return [
         'view' => 'Frontend/Portfolio/ismSocial',
         'meta' => [
             'title' => 'Comprehensive Digital Solutions for ISM | Sociomark Dubai​',
-            'description' => "Find out how ISM grew its digital presence with smart social media management, SEO, and high-impact Google and Meta ad campaigns."
+            'description' => "Find out how ISM grew its digital presence with smart social media management, SEO, and high-impact Google and Meta ad campaigns.",
+            'keywords' => 'ISM education marketing, school social media, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/banner/ism.jpg',
@@ -138,7 +143,8 @@ return [
         'view' => 'Frontend/Portfolio/quberoSocial',
         'meta' => [
             'title' => 'Digital Marketing Solutions for Qubero | Sociomark UAE​',
-            'description' => "Exlpore how Sociomark managed social media, created content, produced videos, designed graphics, ran campaigns, and handled community and marketing for Qubero."
+            'description' => "Exlpore how Sociomark managed social media, created content, produced videos, designed graphics, ran campaigns, and handled community and marketing for Qubero.",
+            'keywords' => ' kitchen interior branding, home interior digital strategy, Qubero social media, kitchen design promotion UAE, interior design advertising, smart kitchen solutions UAE',
         ],
         'image' => 'frontend-assets/img/clients/quebero.jpg',
         'portfolio-image' => 'frontend-assets/img/work/banner/qubero.jpg',
@@ -155,7 +161,8 @@ return [
         'view' => 'Frontend/Portfolio/tmcSocial',
         'meta' => [
             'title' => 'Social Media Management for TMC | Sociomark UAE​',
-            'description' => "Handled TMC’s social media to boost engagement, grow followers, and create consistent, impactful content across platforms."
+            'description' => "Handled TMC’s social media to boost engagement, grow followers, and create consistent, impactful content across platforms.",
+            'keywords' => 'public sector digital marketing, government social media campaigns, municipal branding UAE, Thane Municipal Corporation promotion, civic engagement marketing, TMC digital outreach, urban services marketing'
         ],
         'image' => 'frontend-assets/img/clients/tmc.jpg',
         'portfolio-image' => 'frontend-assets/img/work/banner/tmc.jpg',
@@ -172,7 +179,8 @@ return [
         'view' => 'Frontend/Portfolio/reputeSocial',
         'meta' => [
             'title' => 'Boosting Repute’s Social Media Presence| Sociomark UAE​',
-            'description' => "Enhanced Repute’s online engagement and visibility through strategic social media management and tailored content creation."
+            'description' => "Enhanced Repute’s online engagement and visibility through strategic social media management and tailored content creation.",
+            'keywords' => 'FMCG marketing UAE, consumer goods digital strategy, everyday essentials branding, Repute social media campaigns, product marketing UAE, retail brand promotion, fast-moving consumer goods advertising'
         ],
         'image' => 'frontend-assets/img/clients/repute.jpg',
         'portfolio-image' => 'frontend-assets/img/work/banner/repute.jpg',
@@ -190,7 +198,8 @@ return [
         'view' => 'Frontend/Portfolio/ayuHealthSocial',
         'meta' => [
             'title' => 'Ayu Health Social Media | Campaign by Sociomark​',
-            'description' => "Sociomark, a digital marketing agency in UAE, crafted Ayu Health’s social media presence with engaging content, improving reach and brand visibility online."
+            'description' => "Sociomark, a digital marketing agency in UAE, crafted Ayu Health’s social media presence with engaging content, improving reach and brand visibility online.",
+            'keywords' => 'Ayushakti wellness marketing, healthcare digital, Ayurveda social media, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         'image' => 'frontend-assets/img/clients/ayuhealth.jpg',
         'portfolio-image' => 'frontend-assets/img/work/ayu health/ayu health.jpg'
@@ -201,7 +210,8 @@ return [
         'view' => 'Frontend/Portfolio/cyberPowerSocial',
         'meta' => [
             'title' => 'Elevating CyberPowerPC’s Social Media Impact| Sciomark Dubai​',
-            'description' => "As a digital marketing agency, we boosted CyberPowerPC’s social media with strategic management, engaging content, and targeted audience growth."
+            'description' => "As a digital marketing agency, we boosted CyberPowerPC’s social media with strategic management, engaging content, and targeted audience growth.",
+            'keywords' => 'gaming PC marketing, tech brand digital strategy, esports PC branding,Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/cyberpwer/Cyberpower.jpg'
@@ -212,7 +222,9 @@ return [
         'view' => 'Frontend/Portfolio/jivanaSocialMedia',
         'meta' => [
             'title' => 'Jivana Social Media Campaign | Sociomark UAE​',
-            'description' => "Sociomark, a Digital marketing agency in uae, helped Jivana grow online with creative social posts, targeted campaigns, and higher audience engagement."
+            'description' => "Sociomark, a Digital marketing agency in uae, helped Jivana grow online with creative social posts, targeted campaigns, and higher audience engagement.",
+            'keywords' => 'FMCG food marketing, spice brand promotion, sugar brand digital strategy, turmeric product branding, grocery marketing UAE, Jivana social media campaigns '
+
         ],
         'image' => 'frontend-assets/img/clients/jivana.jpg',
         'portfolio-image' => 'frontend-assets/img/work/jivana/Jivana.jpg',
@@ -230,7 +242,8 @@ return [
         'view' => 'Frontend/Portfolio/m4uSocial',
         'meta' => [
             'title' => 'Digital Marketing Services for Markets4You| Sociomark UAE​',
-            'description' => "Provided digital marketing services for Markets4You, including social media management and influencer marketing, to boost engagement."
+            'description' => "Provided digital marketing services for Markets4You, including social media management and influencer marketing, to boost engagement.",
+            'keywords' => 'online trading platform marketing, fintech digital strategy, M4U trading promotions, forex trading campaigns, investment platform branding, financial services marketing UAE, stock trading social media'
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/banner/market4you.jpg',
@@ -247,7 +260,8 @@ return [
         'view' => 'Frontend/Portfolio/nhssSocial',
         'meta' => [
             'title' => 'NHSS Social Media Campaign | Sociomark UAE​',
-            'description' => "Sociomark, a digital marketing agency in UAE, enhanced NHSS’s social media with strategic content and campaigns to increase brand reach and audience engagement."
+            'description' => "Sociomark, a digital marketing agency in UAE, enhanced NHSS’s social media with strategic content and campaigns to increase brand reach and audience engagement.",
+            'keywords' => 'school digital marketing, education branding UAE, NHSS school promotions, admissions marketing strategy, school social media campaigns, academic institution marketing, education sector SEO'
         ],
         'image' => 'frontend-assets/img/clients/nhs_logo.png',
         'portfolio-image' => 'frontend-assets/img/work/banner/NHS.jpg',
@@ -264,7 +278,8 @@ return [
         'view' => 'Frontend/Portfolio/shahenazSocial',
         'meta' => [
             'title' => 'Shahenaz Social Media Campaign | Sociomark UAE​',
-            'description' => "Sociomark, a digital marketing agency in UAE, delivered creative social media strategies for Shahenaz to increase brand visibility and engage their target audience."
+            'description' => "Sociomark, a digital marketing agency in UAE, delivered creative social media strategies for Shahenaz to increase brand visibility and engage their target audience.",
+            'keywords' => 'fashion marketing, clothing brand digital strategy, apparel social media, fashion brand SEO, ethnic wear marketing, lifestyle brand promotions'
         ],
         'image' => 'frontend-assets/img/clients/shahenaz.jpg',
         'portfolio-image' => 'frontend-assets/img/work/banner/Shahenaz.jpg',
@@ -281,7 +296,8 @@ return [
         'view' => 'Frontend/Portfolio/nodwinSocialMedia',
         'meta' => [
             'title' => 'NODWIN Social Media Campaign | Sociomark UAE​',
-            'description' => "Sociomark, a digital marketing agency in uae, helped NODWIN boost social media engagement with strategic posts, targeted ads, and audience growth."
+            'description' => "Sociomark, a digital marketing agency in uae, helped NODWIN boost social media engagement with strategic posts, targeted ads, and audience growth.",
+            'keywords' => 'Nodwin Gaming esports marketing, gaming digital campaigns, esports SEO, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/nodwin/N2.jpg',
@@ -298,7 +314,8 @@ return [
         'view' => 'Frontend/Portfolio/roadToSafetySocialMedia',
         'meta' => [
             'title' => 'Road to Safety Social Media Campaign | Sociomark​',
-            'description' => "Explore our Road to Safety social media project by Sociomark, Digital marketing agency in uae, showcasing creative content, engagement growth, and community impact."
+            'description' => "Explore our Road to Safety social media project by Sociomark, Digital marketing agency in uae, showcasing creative content, engagement growth, and community impact.",
+            'keywords' => 'road safety marketing, public sector digital campaigns, CSR SEO, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/rts/1.jpg'
@@ -309,7 +326,8 @@ return [
         'view' => 'Frontend/Portfolio/cosplayGenieSocialMedia',
         'meta' => [
             'title' => 'Social Media Management for Cosplay Genie | Sociomark UAE​',
-            'description' => "Sociomark, a digital marketing agency, provided social media management, content & script writing, graphic design, 2D animation, and ORM for Cosplay Genie."
+            'description' => "Sociomark, a digital marketing agency, provided social media management, content & script writing, graphic design, 2D animation, and ORM for Cosplay Genie.",
+            'keywords' => 'cosplay brand marketing, cosplay costume promotions, pop culture fashion campaigns, Cosplay Genie branding,Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/cosplay-genie/1.jpg'
@@ -330,7 +348,8 @@ return [
         'view' => 'Frontend/Portfolio/bemSocial',
         'meta' =>   [
             'title' => 'BEM Social Media Campaign | Sociomark ​',
-            'description' => "Sociomark, a digital marketing agency in UAE, created impactful social media strategies for BEM to enhance brand awareness and connect with the right audience."
+            'description' => "Sociomark, a digital marketing agency in UAE, created impactful social media strategies for BEM to enhance brand awareness and connect with the right audience.",
+            'keywords' => 'truck company marketing, logistics branding UAE, BEM truck promotion, automotive social media campaigns, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         'image' => 'frontend-assets/img/clients/bem.jpg',
         'portfolio-image' => 'frontend-assets/img/work/banner/BEM.png',
@@ -348,7 +367,8 @@ return [
         'view' => 'Frontend/Portfolio/ayushaktiSocialMedia',
         'meta' => [
             'title' => 'Ayushakti Social Media Work | Sociomark​',
-            'description' => "Sociomark, a digital marketing agency in UAE, boosted Ayushakti’s online presence with creative social media campaigns and targeted audience engagement."
+            'description' => "Sociomark, a digital marketing agency in UAE, boosted Ayushakti’s online presence with creative social media campaigns and targeted audience engagement.",
+            'keywords' => 'Ayushakti wellness marketing, healthcare digital, Ayurveda social media, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         'image' => 'frontend-assets/img/clients/ayushakti.jpg',
         'portfolio-image' => 'frontend-assets/img/work/ayushakti/ayu1.jpeg',
@@ -366,7 +386,8 @@ return [
         'view' => 'Frontend/Portfolio/limeSocialMedia',
         'meta' => [
             'title' => 'Lime Social Media Campaign | Sociomark UAE​',
-            'description' => "Check out how Sociomark, a digital marketing agency in UAE, helped Lime grow online with creative posts, better reach, and strong social media strategy."
+            'description' => "Check out how Sociomark, a digital marketing agency in UAE, helped Lime grow online with creative posts, better reach, and strong social media strategy.",
+            'keywords' => 'LIME case study, brand strategy initiatives, corporate marketing education,Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE '
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/case-study/lime_logo.png'
@@ -377,7 +398,8 @@ return [
         'view' => 'Frontend/Portfolio/buttonbabaoDeshBanaoSocialMedia',
         'meta' => [
             'title' => 'Button Dabao Campaign | Social Media by Sociomark​',
-            'description' => "Sociomark, a digital marketing agency in UAE, led the Button Dabao Desh Banao campaign with creative social media strategies to drive awareness and impact."
+            'description' => "Sociomark, a digital marketing agency in UAE, led the Button Dabao Desh Banao campaign with creative social media strategies to drive awareness and impact.",
+            'keywords' => 'public service digital campaigns, Button Dabao Desh Banao, social media for voting rights, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/case-study/bddb.png'
@@ -388,7 +410,8 @@ return [
         'view' => 'Frontend/Portfolio/castrolSocialMedia',
         'meta' => [
             'title' => 'Protect India’s Engine Social Media Campaign| Sociomark UAE​',
-            'description' => "As a digital marketing company, we delivered Digital marketing solutions for Castrol Activ & Network18 Protect India's Engine Campaign."
+            'description' => "As a digital marketing company, we delivered Digital marketing solutions for Castrol Activ & Network18 Protect India's Engine Campaign.",
+            'keywords' => 'engine oil marketing, Castrol Active promotion, automotive lubricant branding, bike engine oil campaign, vehicle maintenance products UAE, motor oil social media, automobile product marketing'
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/castrol/1.jpg'
@@ -399,7 +422,8 @@ return [
         'view' => 'Frontend/Portfolio/missionInsureIndiaSocialMedia',
         'meta' => [
             'title' => 'Digital Marketing for Mission Insure India | Sociomark UAE​',
-            'description' => "Provided digital marketing services for ICICI Prudential & CNBC-TV18, including strategy, social media, ORM, content writing, ads, and blog creation."
+            'description' => "Provided digital marketing services for ICICI Prudential & CNBC-TV18, including strategy, social media, ORM, content writing, ads, and blog creation.",
+            'keywords' => 'life insurance marketing, insurance brand promotion, digital marketing for insurance, insurance lead generation UAE, financial services advertising, insurance company SEO, life cover branding UAE,'
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/mission-insure-india/1.jpg'
@@ -410,7 +434,8 @@ return [
         'view' => 'Frontend/Portfolio/realEstateAwardSocialMedia',
         'meta' => [
             'title' => 'Real Estate Awards | Social Media by Sociomark UAE​',
-            'description' => "Explore how Sociomark, a leading digital marketing company, boosted Real Estate Awards' visibility through impactful and engaging social media campaigns."
+            'description' => "Explore how Sociomark, a leading digital marketing company, boosted Real Estate Awards' visibility through impactful and engaging social media campaigns.",
+            'keywords' => 'real estate awards campaign, property marketing, realty digital, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/case-study/rea.png'
@@ -421,7 +446,8 @@ return [
         'view' => 'Frontend/Portfolio/smarterindiaSocialMedia',
         'meta' => [
             'title' => 'Digital Campaign for Mahindra World City & CNBC-Awaaz| Sociomark​',
-            'description' => "Sociomark, a digital marketing company, provided social media creatives, print design, and more for Mahindra World City & CNBC-Awaaz’s Jaipur campaign."
+            'description' => "Sociomark, a digital marketing company, provided social media creatives, print design, and more for Mahindra World City & CNBC-Awaaz’s Jaipur campaign.",
+            'keywords' => 'education initiative marketing, Smarter India campaign, digital learning promotion, youth empowerment strategy, educational social media, government education projects UAE'
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/case-study/smarter-logo.png'
@@ -432,7 +458,8 @@ return [
         'view' => 'Frontend/Portfolio/mahidraFirstChoiceSocialMedia',
         'meta' => [
             'title' => 'Social Media Campaign for Mahindra First Choice| Sociomark UAE​',
-            'description' => "Sociomark, a digital marketing company, executed a targeted social media campaign for Mahindra First Choice Services to boost engagement and brand visibility."
+            'description' => "Sociomark, a digital marketing company, executed a targeted social media campaign for Mahindra First Choice Services to boost engagement and brand visibility.",
+            'keywords' => 'automotive service marketing, Mahindra First Choice branding, auto repair promotions UAE, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/mahindra-first-choice-services/1.jpg'
@@ -443,7 +470,8 @@ return [
         'view' => 'Frontend/Portfolio/teamCashlessIndiaSocialMedia',
         'meta' => [
             'title' => 'Social Media services for Team Cashless India| Sociomark UAE​',
-            'description' => "Sociomark, a digital marketing company, provided social media services for MasterCard & Network18’s Team Cashless India campaign to drive awareness and reach."
+            'description' => "Sociomark, a digital marketing company, provided social media services for MasterCard & Network18’s Team Cashless India campaign to drive awareness and reach.",
+            'keywords' => 'cashless payment campaign, fintech awareness marketing, digital payments promotion, Team Cashless India branding, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/team-cashless-india/1.jpg'
@@ -454,7 +482,8 @@ return [
         'view' => 'Frontend/Portfolio/sportzConsultSocialMedia',
         'meta' => [
             'title' => 'Creative Services for Sportz Consult| Sociomark UAE​',
-            'description' => "Sociomark, a digital marketing agency, provided social and offline creatives, strategy, and email design & management for Sportz Consult’s brand initiatives."
+            'description' => "Sociomark, a digital marketing agency, provided social and offline creatives, strategy, and email design & management for Sportz Consult’s brand initiatives.",
+            'keywords' => 'sports consultancy marketing, fitness campaign branding, Sportz Consult digital promotions, sports management SEO,Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/sportz-consult/1.jpg'
@@ -465,7 +494,8 @@ return [
         'view' => 'Frontend/Portfolio/aiawards',
         'meta' => [
             'title' => 'Website & Social Media services for AI Awards| Sociomark UAE​',
-            'description' => "Sociomark, a digital marketing agency, provided website development and social media management services to enhance the online presence of AI Awards."
+            'description' => "Sociomark, a digital marketing agency, provided website development and social media management services to enhance the online presence of AI Awards.",
+            'keywords' => 'AI awards promotion, tech awards digital strategy, innovation recognition campaign, AI event marketing UAE, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/ai-awards/1.jpg'
@@ -476,7 +506,8 @@ return [
         'view' => 'Frontend/Portfolio/grillboxSocialMedia',
         'meta' => [
             'title' => 'Grill Box Social Media Work | Sociomark UAE​',
-            'description' => "Sociomark, a digital marketing agency in UAE, created engaging social media campaigns for Grill Box to boost brand awareness and connect with food lovers online."
+            'description' => "Sociomark, a digital marketing agency in UAE, created engaging social media campaigns for Grill Box to boost brand awareness and connect with food lovers online.",
+            'keywords' => 'restaurant branding UAE, Grill Box marketing, fast food digital strategy, grill restaurant social media campaigns,Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE '
         ],
         'image' => 'frontend-assets/img/clients/grillbox.jpg',
         'portfolio-image' => 'frontend-assets/img/work/grill-box/grill1.jpeg',
@@ -493,7 +524,8 @@ return [
         'view' => 'Frontend/Portfolio/kolkatarollsSocialMedia',
         'meta' => [
             'title' => 'Marketing Services for Kolkata Rolls| Sociomark Dubai​',
-            'description' => "Sociomark, a digital marketing agency, provided end-to-end marketing strategy, social media, ORM, content and website development for Kolkata Rolls."
+            'description' => "Sociomark, a digital marketing agency, provided end-to-end marketing strategy, social media, ORM, content and website development for Kolkata Rolls.",
+            'keywords' => 'regional food marketing, Kolkata Rolls promotion, quick service restaurant branding, Indian street food advertising, F&B social media strategy UAE'
         ],
         'image' => 'frontend-assets/img/clients/kolkata.jpg',
         'portfolio-image' => 'frontend-assets/img/work/kolkata-rolls/1.jpg'
@@ -504,7 +536,8 @@ return [
         'view' => 'Frontend/Portfolio/hollywoodopticiansSocialMedia',
         'meta' => [
             'title' => 'Digital Marketing for Hollywood Opticians| Sociomark UAE​',
-            'description' => "Sociomark, a digital marketing agency, delivered social media, content, ads, 2D videos, ORM, print ads, and in-store branding for Hollywood Opticians."
+            'description' => "Sociomark, a digital marketing agency, delivered social media, content, ads, 2D videos, ORM, print ads, and in-store branding for Hollywood Opticians.",
+            'keywords' => 'optical store marketing, eyewear brand promotion, Hollywood Opticians social media, eye care digital strategy, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/hollywood-opticians/1.jpg'
@@ -515,7 +548,8 @@ return [
         'view' => 'Frontend/Portfolio/foresightopticalsSocialMedia',
         'meta' => [
             'title' => 'Digital Marketing for Foresight Opticals| Sociomark UAE​',
-            'description' => "Sociomark, a digital marketing company, provided social media, content, ads, 2D videos, ORM, print ads, and in-store branding for Foresight Opticals."
+            'description' => "Sociomark, a digital marketing company, provided social media, content, ads, 2D videos, ORM, print ads, and in-store branding for Foresight Opticals.",
+            'keywords' => 'optical retail marketing, Foresight Opticals branding, eyeglass store digital strategy, eyewear advertising UAE, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/foresight-opticals/1.jpg'
@@ -528,7 +562,8 @@ return [
         'view' => 'Frontend/Portfolio/inifdvashiSocialMedia',
         'meta' => [
             'title' => 'Digital Marketing for INIFD Vashi| Sociomark Dubai ​',
-            'description' => "Explore how SEO, Google Ads, social media, content, 2D videos, and ORM boosted INIFD Vashi’s online presence."
+            'description' => "Explore how SEO, Google Ads, social media, content, 2D videos, and ORM boosted INIFD Vashi’s online presence.",
+            'keywords' => 'fashion institute marketing, INIFD branding, fashion school digital campaigns, fashion education social media UAE, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         // 'image' => 'frontend-assets/img/clients/nodwin.jpg',
         'portfolio-image' => 'frontend-assets/img/work/inifd-vashi/1.jpg',
