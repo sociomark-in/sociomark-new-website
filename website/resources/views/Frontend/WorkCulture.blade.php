@@ -1028,14 +1028,14 @@
                                     class="w-100" alt="Workplace 2023 - Image {{ $i }}" loading="lazy">
                                 </a>
                                 @endfor
-                                @for ($i = 1; $i <= 15; $i++)
+                                @for ($i = 1; $i <= 37; $i++)
                                     <a href="{{ asset('frontend-assets/img/gallery/workplace/2024 (' . $i . ').jpg') }}"
                                     class="filter-item mb-3 cat-2024 project-item box-img">
                                     <img src="{{ asset('frontend-assets/img/gallery/workplace/2024 (' . $i . ').jpg') }}"
                                         class="w-100" alt="Workplace 2024 - Image {{ $i }}" loading="lazy">
                                     </a>
                                     @endfor
-                                    @for ($i = 1; $i <= 5; $i++)
+                                    @for ($i = 1; $i <= 22; $i++)
                                         <a href="{{ asset('frontend-assets/img/gallery/workplace/2025 (' . $i . ').jpg') }}"
                                         class="filter-item mb-3 cat-2025 project-item box-img">
                                         <img src="{{ asset('frontend-assets/img/gallery/workplace/2025 (' . $i . ').jpg') }}"
