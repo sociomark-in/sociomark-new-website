@@ -12,5 +12,6 @@ class JobApplication extends Model
         'phone',
         'cv',
         'plinks',
+        'page_url',
     ];
 }

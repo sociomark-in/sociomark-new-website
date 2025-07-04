@@ -7,7 +7,7 @@ use App\Models\Tag;
 use App\Models\PR;
 use App\Models\Category;
 use App\Models\Blog;
-use App\Models\Jobpost;
+// use App\Models\Jobpost;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -76,8 +76,8 @@ class HomeController extends Controller
     }
     public function careers()
     {
-        $jobs = Jobpost::all();
-        return view("Frontend/careers", compact('jobs'));
+        // $jobs = Jobpost::all();
+        return view("Frontend/careers");
     }
     public function privacyAndPolicy()
     {

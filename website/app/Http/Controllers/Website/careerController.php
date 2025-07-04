@@ -19,7 +19,7 @@ class careerController extends Controller
     public function innerCareer()
     {
         // $job = Jobpost::findOrFail($id);
-        return view('frontend.innerCareers');
+        return view('Frontend.innerCareers');
     }
 
     public function store(Request $request)
@@ -30,6 +30,7 @@ class careerController extends Controller
             'phone'  => 'required|digits:10',
             'cv'     => 'required|file|mimes:pdf,doc,docx|max:2048',
             'plinks' => 'nullable|string|max:500',
+            'page_url' => 'nullable|url|max:1000',
         ]);
 
         $cvPath = $request->file('cv')->store('cvs', 'public');
@@ -40,6 +41,7 @@ class careerController extends Controller
             'phone'  => $request->phone,
             'cv'     => $cvPath,
             'plinks' => $request->plinks,
+            'page_url' => $request->page_url,
         ]);
         // Send email to HR about job
         Mail::to('hr@sociomark.in')->send(new NewJobLead($lead));

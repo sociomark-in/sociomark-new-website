@@ -26,6 +26,7 @@
                                     <th>Phone</th>
                                     <th>CV</th>
                                     <th>Profile Links</th>
+                                     <th>Profile</th>
                                     <th>Date</th>
                                 </tr>
                             </thead>
@@ -43,6 +44,7 @@
                                     </td>
 
                                     <td>{{ $job->plinks }}</td>
+                                    <td>{{ $job->page_url }}</td>
                                     <td>{{ $job->created_at->format('Y-m-d') }}</td>
                                 </tr>
                                 @endforeach

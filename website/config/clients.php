@@ -19,7 +19,8 @@ return [
         'view' => 'Frontend/Portfolio/stemRXBioScience',
         'meta' => [
             'title' => 'StemRx Bioscience Social Media | Sociomark Portfolio​',
-            'description' => "Explore how our digital marketing agency in Dubai helped StemRx Bioscience grow online with smart social media strategies and engaging content."
+            'description' => "Explore how our digital marketing agency in Dubai helped StemRx Bioscience grow online with smart social media strategies and engaging content.",
+            'keywords' =>'STEMRxBio marketing, healthcare digital marketing, pharma social media, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         'image' => 'frontend-assets/img/clients/stemrx.jpg',
         'portfolio-image' => 'frontend-assets/img/work/banner/stemrx.jpg',
@@ -36,7 +37,8 @@ return [
         'view' => 'Frontend/Portfolio/jopSocial',
         'meta' => [
             'title' => 'JOP Social Media Campaign | Sociomark Dubai​',
-            'description' => "Discover how our digital marketing agency in Dubai helped JOP boost social media engagement and brand visibility with creative and targeted strategies."
+            'description' => "Discover how our digital marketing agency in Dubai helped JOP boost social media engagement and brand visibility with creative and targeted strategies.",
+            'keywords' => 'real estate awards campaign, property marketing, realty digital, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         'image' => 'frontend-assets/img/clients/jop_palm.jpg',
         'portfolio-image' => 'frontend-assets/img/portfolio/jop/JOP.png',
@@ -71,7 +73,8 @@ return [
         'view' => 'Frontend/Portfolio/nmmcSocial',
         'meta' => [
             'title' => 'NMMC Social Media Work | Sociomark Portfolio​',
-            'description' => "Explore how Sociomark, a digital marketing agency, helped NMMC boost engagement and public awareness through creative social media strategies."
+            'description' => "Explore how Sociomark, a digital marketing agency, helped NMMC boost engagement and public awareness through creative social media strategies.",
+            'keywords' => 'public sector digital marketing, government social media campaigns, municipal branding UAE, civic engagement marketing, Nmmc digital outreach, urban services marketing'
         ],
         'image' => 'frontend-assets/img/clients/nmmc.jpg',
         'portfolio-image' => 'frontend-assets/img/portfolio/nmmc/banner.jpg',

@@ -11,7 +11,8 @@ class CaseStudyController extends Controller
     {
         $meta = [
             'title' => 'Case Studies | Sociomark Digital Marketing in UAE​​',
-            'description' => "See how Sociomark, a digital marketing agency in UAE, helped brands grow with smart online strategies like SEO, ads, and social media marketing."
+            'description' => "See how Sociomark, a digital marketing agency in UAE, helped brands grow with smart online strategies like SEO, ads, and social media marketing.",
+            'keywords' => 'Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ];
         return view('Frontend/caseStudy/case-study', compact('meta'));
     }
@@ -149,7 +150,7 @@ LIME Season XII by promoting the hastags for this year which was #marketingisbus
         $meta = [
             'title' => 'NHS Case Study | Sociomark UAE​',
             'description' => "Discover how Sociomark, a leading digital marketing company, helped NHS boost engagement and awareness with strategic digital campaigns and creative solutions.",
-            'keywords' => ''
+            'keywords' => 'ISM education marketing, school social media, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ];
         return view('Frontend/caseStudy/nhs', compact('meta'));
     }
@@ -159,7 +160,7 @@ LIME Season XII by promoting the hastags for this year which was #marketingisbus
         $meta = [
             'title' => 'Off The Hook Case Study | Sociomark UAE​​',
             'description' => "Sociomark, a leading digital marketing company, elevated Off The Hook’s brand with creative social media strategies to drive engagement.",
-            'keywords' => ''
+            'keywords' => 'restaurant digital marketing, Off The Hook branding, food and beverage promotion UAE, casual dining social media campaigns, seafood restaurant advertising, F&B marketing strategy, dine-in and delivery promotions'
         ];
         return view('Frontend/caseStudy/getTheHook', compact('meta'));
     }
@@ -168,7 +169,7 @@ LIME Season XII by promoting the hastags for this year which was #marketingisbus
         $meta = [
             'title' => 'Ayushakti Case Study | Sociomark Dubai ​​',
             'description' => "See how our digital marketing efforts helped Ayushakti expand its reach, strengthen brand presence, through strategic content, SEO, and social media.",
-            'keywords' => ''
+            'keywords' => 'Ayushakti wellness marketing, healthcare digital, Ayurveda social media, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ];
         return view('Frontend/caseStudy/ayushaktiNew', compact('meta'));
     }
@@ -177,7 +178,7 @@ LIME Season XII by promoting the hastags for this year which was #marketingisbus
         $meta = [
             'title' => 'Cyber Power Case Study | Sociomark UAE​​',
             'description' => "Learn how Sociomark, a premier digital marketing company, empowered Cyber Power to enhance brand awareness and drive leads through innovative online strategies.",
-            'keywords' => ''
+            'keywords' => 'gaming PC marketing, tech brand digital strategy, esports PC branding,Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ];
         return view('Frontend/caseStudy/cyberPower', compact('meta'));
     }
@@ -186,7 +187,7 @@ LIME Season XII by promoting the hastags for this year which was #marketingisbus
         $meta = [
             'title' => 'Build Track Case Study | Sociomark UAE​',
             'description' => "Discover how Sociomark, a top digital marketing company, transformed Build Track's online presence with targeted strategies, driving growth and engagement.",
-            'keywords' => ''
+            'keywords' => 'home automation marketing, hotel automation solutions, smart switches digital strategy, IoT touch keypads promotion, smart home technology UAE, automation brand social media, Build Track digital marketing, Best digital marketing agency in Dubai'
         ];
         return view('Frontend/caseStudy/buildTrack', compact('meta'));
     }

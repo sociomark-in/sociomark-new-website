@@ -16,4 +16,5 @@
 {{-- Personal Links --}}
 @if(!empty($job->plinks))
 <p><strong>Links:</strong> {{ $job->plinks }}</p>
+ <td><strong>Profile: </strong>{{ $job->page_url }}</td>
 @endif

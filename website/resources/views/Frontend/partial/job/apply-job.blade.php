@@ -21,6 +21,9 @@
                             enctype="multipart/form-data">
                             @csrf
                             <div class="row">
+                                <input type="hidden" name="page_url" id="page_url">
+                                <!-- <input type="hidden" name="page_url" value="{{ url()->current() }}"> -->
+                                <!-- <input type="hidden" name="page_url" value="{{ request()->get('page_url') }}"> -->
                                 <div class="form-group col-md-6">
                                     <label for="name"><b>Your Name</b><span class="text-danger">*</span></label>
                                     <input type="text" class="form-control @error('name') is-invalid @enderror"
@@ -105,7 +108,6 @@
                                         minlength: 10,
                                         maxlength: 10,
                                     },
-
                                 },
                                 messages: {
                                     name: {
@@ -118,15 +120,35 @@
                                         minlength: 'Phone number must be 10 digits',
                                         maxlength: 'Phone number must be 10 digits',
                                     },
-
                                     email: 'Please enter a Valid Email Id',
-
                                 },
                                 submitHandler: function(form) {
+                                    const pageUrlField = document.getElementById("page_url");
+                                    if (pageUrlField) {
+                                        pageUrlField.value = window.location.href;
+                                        console.log("page_url set to:", pageUrlField.value);
+                                    }
                                     form.submit();
                                 }
                             });
                         </script>
+
+                        <script>
+                            document.addEventListener("DOMContentLoaded", function() {
+                                const form = document.getElementById("popupForm");
+                                if (form) {
+                                    form.addEventListener("submit", function() {
+                                        const pageUrlField = document.getElementById("page_url");
+                                        if (pageUrlField) {
+                                            pageUrlField.value = window.location.href;
+                                            console.log("page_url set to:", pageUrlField.value);
+                                        }
+                                    });
+                                }
+                            });
+                        </script>
+
+
 
 
                     </div>
