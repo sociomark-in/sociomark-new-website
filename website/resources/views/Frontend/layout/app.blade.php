@@ -6,6 +6,7 @@
     <title>{!! $meta['title'] ?? 'Sociomark' !!}</title>
     <meta name="description" content="{!!  $meta['description'] ?? 'Sociomark' !!}">
     <meta name="keywords" content="{{ $meta['keywords'] ?? 'Sociomark' }}">
+    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
     @php
     $canonicalList = config('canonical');
     $currentPath = request()->getPathInfo(); // returns e.g., /blog
