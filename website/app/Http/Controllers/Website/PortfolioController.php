@@ -33,6 +33,43 @@ class PortfolioController extends Controller
 
         return view('Frontend/Portfolio/insidePortfolio', compact('activeClients', 'meta'));
     }
+
+    // public function social_media($client)
+    // {
+    //     $clients = config('clients');
+
+    //     if (!array_key_exists($client, $clients)) {
+    //         abort(404);
+    //     }
+
+    //     $data = $clients[$client];
+
+    //     // Ensure all required keys are present
+    //     if (
+    //         !isset($data['meta']['title'], $data['meta']['description'], $data['meta']['keywords'], $data['view'], $data['industry']) ||
+    //         !view()->exists($data['view'])
+    //     ) {
+    //         abort(404);
+    //     }
+
+    //     $meta = $data['meta'];
+    //     $view = $data['view'];
+    //     $name = $data['name'];
+    //     $industries = (array) $data['industry']; // renamed to avoid confusion
+
+    //     // Get related clients based on shared industries
+    //     $relatedClients = collect($clients)
+    //         ->filter(function ($c, $key) use ($client, $industries) {
+    //             if ($key === $client) return false;
+
+    //             $clientIndustries = (array) ($c['industry'] ?? []);
+    //             return count(array_intersect($clientIndustries, $industries)) > 0;
+    //         })
+    //         ->take(10);
+
+    //     return view($view, compact('meta', 'relatedClients', 'data', 'clients'));
+    // }
+
     public function social_media($client)
     {
         $clients = config('clients');
@@ -43,24 +80,40 @@ class PortfolioController extends Controller
 
         $data = $clients[$client];
 
-        // Ensure all required keys are present
-        if (
-            !isset($data['meta']['title'], $data['meta']['description'], $data['meta']['keywords'], $data['view'], $data['industry']) ||
-            !view()->exists($data['view'])
-        ) {
+        // Check if the required meta keys exist
+        $hasMeta = isset($data['meta']['title'], $data['meta']['description'], $data['meta']['keywords']);
+
+        $viewExists = isset($data['view']) && view()->exists($data['view']);
+
+        if (!$viewExists) {
+            if (isset($data['route'])) {
+                $params = $data['params'] ?? [];
+                // Optional safety check if route exists
+                if (\Route::has($data['route'])) {
+                    return redirect()->route($data['route'], $params);
+                } else {
+                    abort(404, 'Defined route does not exist.');
+                }
+            }
+
+            // Fallback if only industry is set
+            if (isset($data['industry'])) {
+                return redirect()->route('industry_single', ['segment' => $data['industry']]);
+            }
+
             abort(404);
         }
+
 
         $meta = $data['meta'];
         $view = $data['view'];
         $name = $data['name'];
-        $industries = (array) $data['industry']; // renamed to avoid confusion
+        $industries = (array) $data['industry'];
 
-        // Get related clients based on shared industries
+        // Get related clients from same industries
         $relatedClients = collect($clients)
             ->filter(function ($c, $key) use ($client, $industries) {
                 if ($key === $client) return false;
-
                 $clientIndustries = (array) ($c['industry'] ?? []);
                 return count(array_intersect($clientIndustries, $industries)) > 0;
             })
@@ -68,6 +121,7 @@ class PortfolioController extends Controller
 
         return view($view, compact('meta', 'relatedClients', 'data', 'clients'));
     }
+
 
     // public function social_media($client)
     // {

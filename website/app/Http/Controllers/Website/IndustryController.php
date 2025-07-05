@@ -20,11 +20,25 @@ class IndustryController extends Controller
             abort(404);
         }
 
+        // Redirect if 'view' not found but 'route' is present
+        if (!isset($industryMeta[$segment]['view'])) {
+            if (isset($industryMeta[$segment]['redirect_to_segment'])) {
+                return redirect()->route('industry_single', ['segment' => $industryMeta[$segment]['redirect_to_segment']]);
+            }
+            abort(404);
+        }
+
+        // // Still 404 if neither 'view' nor 'route' is defined
+        // if (!isset($industryMeta[$segment]['view'])) {
+        //     abort(404);
+        // }
+
         $meta = [
             'title' => $industryMeta[$segment]['title'],
             'description' => $industryMeta[$segment]['description'],
             'keywords' => $industryMeta[$segment]['keywords']
         ];
+
         $view = $industryMeta[$segment]['view'];
 
         // ✅ FILTER CLIENTS THAT CONTAIN THE SEGMENT IN THEIR INDUSTRY ARRAY
@@ -34,6 +48,7 @@ class IndustryController extends Controller
 
         return view($view, compact('meta', 'clients'));
     }
+
 
 
     // public function single($segment)

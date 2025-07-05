@@ -20,7 +20,7 @@ return [
         'meta' => [
             'title' => 'StemRx Bioscience Social Media | Sociomark Portfolio​',
             'description' => "Explore how our digital marketing agency in Dubai helped StemRx Bioscience grow online with smart social media strategies and engaging content.",
-            'keywords' =>'STEMRxBio marketing, healthcare digital marketing, pharma social media, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
+            'keywords' => 'STEMRxBio marketing, healthcare digital marketing, pharma social media, Best digital marketing agency in Dubai, Best digital marketing agency to work with in Ajman, Digital marketing agency in UAE'
         ],
         'image' => 'frontend-assets/img/clients/stemrx.jpg',
         'portfolio-image' => 'frontend-assets/img/work/banner/stemrx.jpg',
@@ -591,25 +591,28 @@ return [
     //     'image' => 'frontend-assets/img/clients/nhsinternational.jpg',
     //     'portfolio-image' => 'frontend-assets/img/work/banner/NHS.jpg'
     // ],
-    // 'eduauraa' => [
-    //     'industry' => 'education',
-    //     'name' => 'Eduaura',
-    //     'image' => 'frontend-assets/img/clients/eduauraa.jpg'
-    // ],
-    // 'tilak' => [
-    //     'industry' => 'education',
-    //     'name' => 'Tilak',
-
-    //     'image' => 'frontend-assets/img/clients/tilak.jpg'
-    // ],
-    // 'dypatil' => [
-    //     'industry' => 'education',
-    //     'name' => 'Dy Patil',
-    //     'image' => 'frontend-assets/img/clients/dyp01.jpg'
-    // ],
+    'eduauraa' => [
+        'industry' => 'education',
+        'name' => 'Eduaura',
+        'route' => 'eduauraa',
+        'image' => 'frontend-assets/img/clients/eduauraa.jpg'
+    ],
+    'tilak' => [
+        'industry' => 'education',
+        'name' => 'Tilak',
+        'route' => 'portfolio',
+        'image' => 'frontend-assets/img/clients/tilak.jpg'
+    ],
+    'dypatil' => [
+        'industry' => 'education',
+        'name' => 'Dy Patil',
+        'route' => 'portfolio',
+        'image' => 'frontend-assets/img/clients/dyp01.jpg'
+    ],
     // 'dy-patil-ambi' => [
     //     'industry' => 'education',
     //     'name' => 'Dy Patil',
+    //     'route'  => 'nhss', 
     //     'image' => 'frontend-assets/img/clients/dyp_ambi.jpg'
     // ],
     // 'dy-patil' => [
@@ -618,12 +621,13 @@ return [
     //     'view' => 'Frontend/Portfolio/dyPatilSocial',
     //     'image' => 'frontend-assets/img/clients/dpu.jpg'
     // ],
-    // 'world-grad' => [
-    //     'industry' => 'education',
-    //     'name' => 'World Grad',
-    //     'view' => 'Frontend/Portfolio/worldGradSocial',
-    //     'image' => 'frontend-assets/img/clients/worldgrad.jpg'
-    // ],
+    'world-grad' => [
+        'industry' => 'education',
+        'name' => 'World Grad',
+        // 'view' => 'Frontend/Portfolio/worldGradSocial',
+        'route' => 'portfolio',
+        'image' => 'frontend-assets/img/clients/worldgrad.jpg'
+    ],
 
     // 'total' => [
     //     'industry' => 'fmcg',
@@ -634,7 +638,8 @@ return [
     'othnanaimo' => [
         'industry' => 'fmcg',
         'name' => 'Othnanaimo',
-
+        // 'redirect_to_segment' => 'getTheHook',
+        'route' => 'getTheHook',
         'image' => 'frontend-assets/img/clients/othnanaimo.jpg'
     ],
     // 'troller' => [
@@ -643,12 +648,22 @@ return [
 
     //     'image' => 'frontend-assets/img/clients/trollers.jpg'
     // ],
+    // 'kinnal' => [
+    //     'industry' => 'fmcg',
+    //     'name' => 'Kinnal',
+    //     'view' => 'Frontend/industry/fashion_and_lifestyle_industry',
+    //     'image' => 'frontend-assets/img/clients/kinnal.jpg',
+    //     'portfolio-image' => 'frontend-assets/img/portfolio/pare/banner.jpg'
+    // ],
+
     'kinnal' => [
         'industry' => 'fmcg',
         'name' => 'Kinnal',
-
+        // 'view' => 'Frontend/industry/fashion_and_lifestyle_industry', // Let's assume this is missing
+        'redirect_to_segment' => 'fashion',
         'image' => 'frontend-assets/img/clients/kinnal.jpg'
     ],
+
     // 'trollersfishnchips' => [
     //     'industry' => 'fmcg',
     //     'name' => 'Trollersfishnchips',
@@ -656,12 +671,12 @@ return [
     //     'image' => 'frontend-assets/img/clients/trollersfishnchips.jpg'
     // ],
 
-    // 'times' => [
-    //     'industry' => 'news-media',
-    //     'name' => 'times',
-
-    //     'image' => 'frontend-assets/img/clients/times.jpg'
-    // ],
+    'times' => [
+        'industry' => 'news-media',
+        'name' => 'times',
+        'route' => 'roadtosafetyinitiative',
+        'image' => 'frontend-assets/img/clients/times.jpg'
+    ],
 
     'pare' => [
         'industry' => 'home-interior',
