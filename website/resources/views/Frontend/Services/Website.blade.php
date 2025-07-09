@@ -32,7 +32,7 @@
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out"> A website is not a show piece. It should
                         work hard for your brand—pulling in visitors, guiding them, and leaving a lasting impression.
-                        That’s where a skilled <b>website development agency in Ajman</b> steps in.
+                        That’s where a skilled website development agency in Ajman steps in.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out">At Sociomark, the goal is to turn ideas
@@ -126,8 +126,8 @@
 
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Develop with Care </h4>
-                            <p class="sec-para"> Clean code, fast loads, and safe structure—that’s how our <b>web
-                                    development company</b> works.</b>.</p>
+                            <p class="sec-para"> Clean code, fast loads, and safe structure—that’s how our web
+                                    development company works.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Test and Refine</h4>
@@ -197,7 +197,7 @@
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Website Developement/Services/Create with Strategy.png') }}"
                             alt="Create with Strategy" class="rounded-overflow">
-                        <p class="sec-para text">As a leading <b>web design agency</b>, we design layouts that guide
+                        <p class="sec-para text">As a leading web design agency, we design layouts that guide
                             users naturally.
                         </p>
                     </div>
@@ -257,7 +257,7 @@
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Built for You</h4>
-                                <p class="sec-para"> Every brand is different. As a <b>website design company</b>, we
+                                <p class="sec-para"> Every brand is different. As a website design company, we
                                     tailor every pixel to your story.</p>
                             </div>
                         </div>
@@ -269,8 +269,8 @@
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Reliable Team</h4>
                                 <p class="sec-para"> We’re responsive, creative, and genuinely excited to work with
-                                    you. Be it <b>Ecommerce websites, portfolio websites</b> or the need is for
-                                    <b>website builders for small business</b> or a multinational firm, as a <b>web design company in the UAE</b> we cater to all and deliver exceptional results every time.
+                                    you. Be it Ecommerce websites, portfolio websites or the need is for
+                                    website builders for small business or a multinational firm, as a web design company in the UAE we cater to all and deliver exceptional results every time.
                                 </p>
                             </div>
                         </div>

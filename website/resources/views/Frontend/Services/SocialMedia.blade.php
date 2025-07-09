@@ -89,12 +89,12 @@
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out"> In the current world, your audience is
                         scrolling, and your brand should be part of that conversation. We help businesses stand out with
-                        creative, effective <b>social media marketing agency in Ajman</b> strategies tailored for a global audience,
+                        creative, effective social media marketing agency in Ajman strategies tailored for a global audience,
                         including markets like the UAE.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out">No two brands are the same, and that’s
-                        why we don’t follow one-size-fits-all plans. Our approach to <b>social media management</b> is
+                        why we don’t follow one-size-fits-all plans. Our approach to social media management is
                         hands-on, thoughtful, and data-driven. From curating a strong content mix to posting at the
                         right times, we ensure your message lands with impact.
                     </p>
@@ -176,7 +176,7 @@
                             <h4 class="sub-sec-title">Develop a Social Media Calendar</h4>
                             <p class="sec-para"> Planning is essential. We build a schedule that keeps your content
                                 consistent and your audience engaged, no matter the time zone, allowing for effective
-                                <b>social media marketing strategy</b>.
+                                social media marketing strategy.
                             </p>
                         </div>
 
@@ -195,7 +195,7 @@
                             <h4 class="sub-sec-title">Track and Adjust Performance</h4>
                             <p class="sec-para"> We don’t just post and forget. With every post, we track performance
                                 and make adjustments to keep improving, so your brand continues to achieve <a href="{{ route('portfolio') }}"><b>social
-                                    media growth</b> </a>and long-term success.</p>
+                                        media growth</b> </a>and long-term success.</p>
                         </div>
                     </div>
                 </div>
@@ -273,7 +273,7 @@
                         <img src="{{ asset('frontend-assets/img/ServicePages/Social Media Marketing/Services/Track, Learn, improve.png') }}"
                             alt="Track, Learn, improve" class="rounded-overflow">
                         <p class="sec-para text">We monitor performance closely and make regular adjustments. As a
-                            <b>social media management company in Dubai</b>, we ensure every step moves you closer to your goals.
+                            social media management company in Dubai, we ensure every step moves you closer to your goals.
                         </p>
                     </div>
                 </div>
@@ -319,7 +319,7 @@
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Global, Local Fit</h4>
-                                <p class="sec-para">As a <b>social media marketing agency in Ajman</b> we work with brands
+                                <p class="sec-para">As a social media marketing agency in Ajman we work with brands
                                     across different regions across the globe. So, we know how to keep your content
                                     relevant no matter where your audience is. Every post is shaped to reflect your
                                     voice and your market.</p>
@@ -331,7 +331,7 @@
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Purposeful Posting</h4>
-                                <p class="sec-para"> Our approach to <b>social media planning</b> focuses on regular
+                                <p class="sec-para"> Our approach to social media planning focuses on regular
                                     updates, clear messaging, and long-term growth. Every posting that we do is inspired
                                     by a purpose rather than just to keep the ball rolling.
                                 </p>

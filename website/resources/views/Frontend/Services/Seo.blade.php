@@ -88,13 +88,13 @@
                         growth.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">With our expertise in <strong>SEO in
-                            Dubai,</strong> we tailor each approach to fit your unique goals. From local market
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">With our expertise in SEO in
+                            Dubai, we tailor each approach to fit your unique goals. From local market
                         insights to global trends, we ensure that you gain visibility where it matters the most. We
                         focus on the things that create real, lasting results—like technical optimisation and <a href="{{ route('contentMarketing') }}"><b>content marketing</b> </a>
                         that speaks to your audience. We don't just chase rankings; we chase meaningful engagement.
                         Through our strategies, we help our clients to increase visibility, drive meaningful traffic and
-                        enhance the user experience. As one of the <strong>top SEO companies in Dubai,</strong> we help
+                        enhance the user experience. As one of the top SEO companies in Dubai, we help
                         businesses across the world grow, not just appear on search engines.
 
                     </p>
@@ -152,7 +152,7 @@
                             <h4 class="sub-sec-title">Competitor Analysis</h4>
                             <p class="sec-para">We deep-dive into what your competitors are doing—what’s working, what’s
                                 not. These insights help shape a smarter strategy tailored to your goals, especially in
-                                the space of <strong>search engine optimisation in Dubai</strong> and UAE. </p>
+                                the space of search engine optimisation in Dubai and UAE. </p>
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Technical SEO Audit</h4>
@@ -164,7 +164,7 @@
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Content Strategy</h4>
                             <p class="sec-para">Crafting meaningful content that connects with the audience and aligns
-                                with your brand voice. As an <strong>SEO optimisation agency</strong>, we ensure every
+                                with your brand voice. As an SEO optimisation agency, we ensure every
                                 piece is polished to boost discoverability and delivers long-term value.</p>
                         </div>
 
@@ -191,7 +191,7 @@
                             <h4 class="sub-sec-title">Traffic Analysis</h4>
                             <p class="sec-para">Tracking how users reach your website and what they do once they land.
                                 These insights help fine-tune performance and conversions over time for businesses
-                                seeking a trusted <strong>SEO company in Abu Dhabi and UAE.</strong></p>
+                                seeking a trusted SEO company in Abu Dhabi and UAE.</p>
                         </div>
                     </div>
                 </div>
@@ -349,7 +349,7 @@
                             class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-start flex-column">
 
                             <h4 class="sub-sec-title text-blue"><b>Strategy Development</b></h4>
-                            <p class="sec-para">Based on the audit, an SEO strategy is developed that aligns with your business goals and target audiences. Our <b>SEO services in Abu Dhabi</b> and UAE are crafted to meet the specific needs of your industry.</p>
+                            <p class="sec-para">Based on the audit, an SEO strategy is developed that aligns with your business goals and target audiences. Our SEO services in Abu Dhabi and UAE are crafted to meet the specific needs of your industry.</p>
                         </div>
                         <!-- <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
                             <p class="sec-para">Based on the audit, an SEO strategy is developed that aligns with your business goals and target audiences. Our <b>SEO services in Abu Dhabi</b> and UAE are crafted to meet the specific needs of your industry.</p>
@@ -377,7 +377,7 @@
                             class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-start flex-column">
 
                             <h4 class="sub-sec-title text-blue"><b>Monitoring & Optimisation</b></h4>
-                            <p class="sec-para">SEO requires continuous optimisation. <a href="{{ route('sem') }}"><b>Performance</b></a> is tracked, and strategies are adjusted to keep the website ahead in search engine rankings. Through our <b>SEO services in Ajman,</b> we ensure that the website remains competitive and effective.</p>
+                            <p class="sec-para">SEO requires continuous optimisation. <a href="{{ route('sem') }}"><b>Performance</b></a> is tracked, and strategies are adjusted to keep the website ahead in search engine rankings. Through our SEO services in Ajman, we ensure that the website remains competitive and effective.</p>
                         </div>
                         <!-- <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
                             <p class="sec-para">SEO requires continuous optimisation. <a href="{{ route('sem') }}"><b>Performance</b></a> is tracked, and strategies are adjusted to keep the website ahead in search engine rankings. Through our <b>SEO services in Ajman,</b> we ensure that the website remains competitive and effective.</p>

@@ -243,6 +243,11 @@
     .accordion-card .accordion-button:after {
         color: white;
     }
+
+    a:hover {
+        color: white;
+
+    }
 </style>
 @endpush
 
@@ -337,7 +342,7 @@
                         </h1>
                     </div>
                     <p class="sec-para text-white-50" data-aos="fade-right" data-aos-delay="300">We're more than just a
-                        <strong>digital marketing agency</strong>—we're your creative and strategic partners in the
+                        <strong> <a href="{{ route('digitalMarketing') }}">digital marketing agency</a></strong>—we're your creative and strategic partners in the
                         digital realm.
                         From crafting high-performing websites to executing smart SEO strategies, running impactful ad
                         campaigns and managing your brand's social presence, we do it all with purpose.
