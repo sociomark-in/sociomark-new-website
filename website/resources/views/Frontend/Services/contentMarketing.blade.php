@@ -31,13 +31,13 @@
                     <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
                         <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                             data-aos-duration="1200" data-aos-easing="ease-in-out"> Words have power. And when they’re used
-                            right, they can grow your business. We help brands do just that with effective <b>content marketing agency in Ajman</b>. From social posts to long-form <a href="{{ route('blog') }}"><b>blogs</b></a>, our aim is to make content that will
-                            bring results. At Sociomark, our team blends creativity with data to form a competent <b>digital
-                                content strategy</b>.
+                            right, they can grow your business. We help brands do just that with effective content marketing agency in Ajman. From social posts to long-form <a href="{{ route('blog') }}"><b>blogs</b></a>, our aim is to make content that will
+                            bring results. At Sociomark, our team blends creativity with data to form a competent digital
+                                content strategy.
                         </p>
                         <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                             data-aos-duration="1200" data-aos-easing="ease-in-out">Every line we write and every design we
-                            build is backed by purpose. Being a <b>content marketing agency</b>, telling stories isn’t just
+                            build is backed by purpose. Being a content marketing agency, telling stories isn’t just
                             what we do —we solve problems too. Need your brand to rank better or connect deeper? We’ll
                             handle that. With visuals, blogs, and smart messaging, your content becomes more than just
                             words. It becomes your best-performing asset.
@@ -158,7 +158,7 @@
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/Service/Smart Planning.png') }}"
                                 alt="Smart Planning " class="rounded-overflow">
-                            <p class="sec-para text"> Our <b>content marketing strategy</b> covers everything from what to
+                            <p class="sec-para text"> Our content marketing strategy covers everything from what to
                                 post to where and when.
 
                             </p>
@@ -183,7 +183,7 @@
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/Service/Reach the Right People.png') }}"
                                 alt="Reach the Right People" class="rounded-overflow">
-                            <p class="sec-para text">We <b>Promote your content</b> through channels which will amplify and
+                            <p class="sec-para text">We Promote your content through channels which will amplify and
                                 enhance the reach and visibility.
                             </p>
                         </div>
@@ -195,7 +195,7 @@
                         <div class="according-img">
                             <img src="{{ asset('frontend-assets/img/ServicePages/Content Marketing/Service/Build Trust Over Time.png') }}"
                                 alt="Build Trust Over Time " class="rounded-overflow">
-                            <p class="sec-para text">We consistently <b>build links</b> to help your content rank better
+                            <p class="sec-para text">We consistently build links to help your content rank better
                                 and earn authority.
 
                             </p>
@@ -245,7 +245,7 @@
                                 </div>
                                 <div class="media-body">
                                     <h4 class="sub-sec-title">Strategy Meets Story</h4>
-                                    <p class="sec-para"> As a team offering <b>content marketing services</b>, we build
+                                    <p class="sec-para"> As a team offering content marketing services, we build
                                         content that fits into your business goals, not the other way around.</p>
                                 </div>
                             </div>

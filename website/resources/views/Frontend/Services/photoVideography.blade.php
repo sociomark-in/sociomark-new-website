@@ -32,8 +32,8 @@
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out">People remember emotions and feelings
                         over mere facts. And nothing captures those better than powerful visuals. At Sociomark, we help
-                        brands speak the visual language of today through striking <b>Product Photography</b> and high-impact
-                        <a href="{{ route('photoVideography') }}"> <b>video editing in ajman dubai.</b></a>.
+                        brands speak the visual language of today through striking Product Photography and high-impact
+                        <a href="{{ route('photoVideography') }}"> video editing in ajman dubai.</a>.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out">No matter if you are launching a product,
@@ -127,7 +127,7 @@
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Tailor the Story for Your Audience</h4>
-                            <p class="sec-para"> Visuals aren't one-size-fits-all. That's why we specialize in creating custom visual content that truly resonates. Whether you need <b>professional photography services in Dubai </b> or compelling <b>brand storytelling through video</b>, we meticulously craft each piece to deliver maximum impact and connect with your audience.
+                            <p class="sec-para"> Visuals aren't one-size-fits-all. That's why we specialize in creating custom visual content that truly resonates. Whether you need professional photography services in Dubai or compelling brand storytelling through video, we meticulously craft each piece to deliver maximum impact and connect with your audience.
 
                             </p>
                         </div>
@@ -258,8 +258,8 @@
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Always on Brand</h4>
-                                <p class="sec-para"> Whether it's sleek <b>product photography</b> or immersive
-                                    <b>corporate video production in Ajman</b>.
+                                <p class="sec-para"> Whether it's sleek product photography or immersive
+                                    corporate video production in Ajman.
                                 </p>
                             </div>
                         </div>

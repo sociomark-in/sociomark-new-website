@@ -90,8 +90,8 @@
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
                         data-aos-duration="1200" data-aos-easing="ease-in-out">No cookie-cutter templates here. Your
                         goals guide the approach. Want to boost traffic? Sell a product? Capture leads? There’s a paid
-                        solution for that. With <b>SEM</b>, you get targeted visibility that translates into action.
-                        From <b>google ads</b> to <b>LinkedIn paid advertising</b>, we help you tap into the
+                        solution for that. With SEM, you get targeted visibility that translates into action.
+                        From google ads to LinkedIn paid advertising, we help you tap into the
                         platforms that matter.Your budget works smarter, your results go further, and your brand is
                         under the spotlight that it needs.
                     </p>
@@ -150,18 +150,18 @@
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title"> Precision Targeting</h4>
-                            <p class="sec-para">With <b>paid search advertising</b>, we go beyond demographics. Behaviour, intent, location—we zero in on what matters.
+                            <p class="sec-para">With paid search advertising, we go beyond demographics. Behaviour, intent, location—we zero in on what matters.
                             </p>
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Creative That Converts</h4>
-                            <p class="sec-para"> Ad fatigue is real. That’s why our creatives—from <b>YouTube paid ads</b> to carousel posts—are built to engage and convert.</p>
+                            <p class="sec-para"> Ad fatigue is real. That’s why our creatives—from YouTube paid ads to carousel posts—are built to engage and convert.</p>
                         </div>
 
 
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Smart Spend Allocation</h4>
-                            <p class="sec-para"> Your money deserves better. We place every rupee where it works hardest, from <b>Google paid search</b> to retargeting.</p>
+                            <p class="sec-para"> Your money deserves better. We place every rupee where it works hardest, from Google paid search to retargeting.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title"> Reports That Make Sense</h4>
@@ -207,7 +207,7 @@
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Dig Into Keywords.png') }}"
                             alt="Dig Into Keywords" class="rounded-overflow">
-                        <p class="sec-para text">Effective <b>sem marketing</b> relies on strong keyword research. We pick high-intent words that lead to results
+                        <p class="sec-para text">Effective sem marketing relies on strong keyword research. We pick high-intent words that lead to results
 
                         </p>
 
@@ -220,7 +220,7 @@
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Build Campaigns That Fit.png') }}" alt="Build Campaigns That Fit"
                             class="rounded-overflow">
-                        <p class="sec-para text">One-size ads don’t perform. From <b>LinkedIn paid ads</b> to dynamic remarketing, we tailor it all.
+                        <p class="sec-para text">One-size ads don’t perform. From LinkedIn paid ads to dynamic remarketing, we tailor it all.
                         </p>
 
                     </div>
@@ -244,7 +244,7 @@
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/Performance Marketing/Services/Stay On Top.png') }}"
                             alt="Stay On Top" class="rounded-overflow">
-                        <p class="sec-para text">With ongoing <b>ppc management services</b>, we keep campaigns sharp and in-sync with trends.
+                        <p class="sec-para text">With ongoing ppc management services, we keep campaigns sharp and in-sync with trends.
                         </p>
 
                     </div>
@@ -291,7 +291,7 @@
                             </div>
                             <div class="media-body">
                                 <h4 class="sub-sec-title">Platform Power</h4>
-                                <p class="sec-para">From <b>YouTube paid promotion</b> to <b>Facebook paid ads</b>, we know what works where—and why.</p>
+                                <p class="sec-para">From YouTube paid promotion to Facebook paid ads, we know what works where—and why.</p>
                             </div>
                         </div>
                         <div class="choose-feature">
