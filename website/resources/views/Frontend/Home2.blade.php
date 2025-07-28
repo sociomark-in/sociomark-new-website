@@ -1445,7 +1445,7 @@
                 <div class="row justify-content-center">
                     <div class="col-xxl-10 col-xl-10 col-md-10 col-12">
                         <div class="slider-area">
-                            <div class="swiper testimonial testimonialSwiper has-shadow">
+                            <div dir="rtl" class="swiper testimonial testimonialSwiper has-shadow">
                                 <div class="swiper-wrapper">
 
                                     <div class="swiper-slide testimonial-card">
@@ -1742,7 +1742,7 @@
                         </div>
                     </div>
                     <div class="col-12">
-                        <div class="swiper prSwiper">
+                        <div dir="rtl" class="swiper prSwiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <a href="">
