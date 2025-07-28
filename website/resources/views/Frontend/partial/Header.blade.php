@@ -128,6 +128,7 @@ Header Area
                             <!-- <button type="button" class="icon-btn searchBoxToggler"><i class="fal fa-search"></i></button> -->
                             <!-- <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>  -->
                             <a href="{{ route('contact') }}" class="th-btn th-icon">Get A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
+                            <div id="google_translate_element"></div>
                         </div>
                     </div>
                     <!-- <div class="col-auto d-none d-lg-block">
@@ -152,6 +153,41 @@ Header Area
         </div>
     </div>
 </header>
+
+<!-- Google Translate Script -->
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en', // Default language of your page
+            includedLanguages: 'en,ar', // Include English, Hindi, Marathi
+            // layout: google.translate.TranslateElement.InlineLayout.SIMPLE, // Simple dropdown
+            // autoDisplay: true // Do not automatically display the Google Translate bar
+        }, 'google_translate_element');
+    }
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<style>
+                            #google_translate_element {
+                                height: 2.6rem;
+                                overflow: hidden;
+                            }
+
+                            #google_translate_element .goog-te-combo {
+                                font-size: 1rem;
+                                padding: 0.5rem;
+                                margin: 0;
+                                background-color: #106c97;
+                                color: white;
+                            }
+
+                            iframe.skiptranslate {
+                                display: none !important;
+                            }
+
+                            body {
+                                top: 0px !important;
+                            }
+</style>
 
 <!-- popup modal  start-->
 <!-- Modal -->
