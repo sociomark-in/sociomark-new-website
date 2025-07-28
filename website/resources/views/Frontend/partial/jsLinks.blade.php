@@ -2,7 +2,7 @@
     All Js File
 ============================== -->
  <!-- Swiper Slider -->
- <script src="{{ asset('frontend-assets/js/swiper-bundle.min.js') }}"></script>
+ {{-- <script src="{{ asset('frontend-assets/js/swiper-bundle.min.js') }}"></script> --}}
  <!-- Bootstrap -->
  <script src="{{ asset('frontend-assets/js/bootstrap.min.js') }}"></script>
  <!-- Magnific Popup -->
