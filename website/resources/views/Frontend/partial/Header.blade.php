@@ -37,19 +37,22 @@ Mobile Menu
                         <li><a href="{{ route('industry_single', ['segment' => 'fmcg']) }}">FMCG</a></li>
                         <li><a href="{{ route('industry_single', ['segment' => 'news-media']) }}">News & Media</a></li>
                         <li><a href="{{ route('industry_single', ['segment' => 'real-estate']) }}">Real Estate</a></li>
-                        {{-- <li><a href="{{ route('industry_single', ['segment' => 'logistics']) }}">Logistics</a></li> --}}
-                        <li><a href="{{ route('industry_single', ['segment' => 'fashion']) }}">Fashion & Lifestyle</a></li>
-                        <li><a href="{{ route('industry_single', ['segment' => 'gaming']) }}">Gaming</a></li>
-                        <li><a href="{{ route('industry_single', ['segment' => 'home-interior']) }}">Home & Interior</a></li>
-                        <li><a href="{{ route('industry_single', ['segment' => 'automobile']) }}">Automobile</a></li>
-                        {{-- <li><a href="{{ route('industry_single', ['segment' => "b2b"]) }}">B2B</a></li> --}}
-                        {{-- <li><a href="{{ route('industry_single', ['segment' => "travel"]) }}">Travel</a></li> --}}
-                        <li><a href="{{ route('industry_single', ['segment' => 'public-sector']) }}">Government
-                                Bodies</a>
-                        </li>
-                    </ul>
+                        {{-- <li><a href="{{ route('industry_single', ['segment' => 'logistics']) }}">Logistics</a>
+                </li> --}}
+                <li><a href="{{ route('industry_single', ['segment' => 'fashion']) }}">Fashion & Lifestyle</a></li>
+                <li><a href="{{ route('industry_single', ['segment' => 'gaming']) }}">Gaming</a></li>
+                <li><a href="{{ route('industry_single', ['segment' => 'home-interior']) }}">Home & Interior</a></li>
+                <li><a href="{{ route('industry_single', ['segment' => 'automobile']) }}">Automobile</a></li>
+                {{-- <li><a href="{{ route('industry_single', ['segment' => "b2b"]) }}">B2B</a></li> --}}
+                {{-- <li><a href="{{ route('industry_single', ['segment' => "travel"]) }}">Travel</a></li> --}}
+                <li><a href="{{ route('industry_single', ['segment' => 'public-sector']) }}">Government
+                        Bodies</a>
                 </li>
             </ul>
+            </li>
+            </ul>
+
+
         </div>
     </div>
 </div><!--==============================
@@ -100,18 +103,19 @@ Header Area
                                         <li><a href="{{ route('industry_single', ['segment' => 'fmcg']) }}">FMCG</a></li>
                                         <li><a href="{{ route('industry_single', ['segment' => 'news-media']) }}">News & Media</a></li>
                                         <li><a href="{{ route('industry_single', ['segment' => 'real-estate']) }}">Real Estate</a></li>
-                                        {{-- <li><a href="{{ route('industry_single', ['segment' => 'logistics']) }}">Logistics</a></li> --}}
-                                        <li><a href="{{ route('industry_single', ['segment' => 'fashion']) }}">Fashion & Lifestyle</a></li>
-                                        <li><a href="{{ route('industry_single', ['segment' => 'gaming']) }}">Gaming</a></li>
-                                        <li><a href="{{ route('industry_single', ['segment' => 'home-interior']) }}">Home & Interior</a></li>
-                                        <li><a href="{{ route('industry_single', ['segment' => 'automobile']) }}">Automobile</a></li>
-                                        {{-- <li><a href="{{ route('industry_single', ['segment' => "b2b"]) }}">B2B</a></li> --}}
-                                        {{-- <li><a href="{{ route('industry_single', ['segment' => "travel"]) }}">Travel</a></li> --}}
-                                        <li><a href="{{ route('industry_single', ['segment' => 'public-sector']) }}">Government
-                                                Bodies</a>
-                                        </li>
-                                    </ul>
+                                        {{-- <li><a href="{{ route('industry_single', ['segment' => 'logistics']) }}">Logistics</a>
+                                </li> --}}
+                                <li><a href="{{ route('industry_single', ['segment' => 'fashion']) }}">Fashion & Lifestyle</a></li>
+                                <li><a href="{{ route('industry_single', ['segment' => 'gaming']) }}">Gaming</a></li>
+                                <li><a href="{{ route('industry_single', ['segment' => 'home-interior']) }}">Home & Interior</a></li>
+                                <li><a href="{{ route('industry_single', ['segment' => 'automobile']) }}">Automobile</a></li>
+                                {{-- <li><a href="{{ route('industry_single', ['segment' => "b2b"]) }}">B2B</a></li> --}}
+                                {{-- <li><a href="{{ route('industry_single', ['segment' => "travel"]) }}">Travel</a></li> --}}
+                                <li><a href="{{ route('industry_single', ['segment' => 'public-sector']) }}">Government
+                                        Bodies</a>
                                 </li>
+                            </ul>
+                            </li>
                             </ul>
                         </nav>
                         <div class="header-button">
@@ -122,10 +126,24 @@ Header Area
                     <div class="col-auto d-none d-lg-block">
                         <div class="header-button">
                             <!-- <button type="button" class="icon-btn searchBoxToggler"><i class="fal fa-search"></i></button> -->
-                           <!-- <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>  -->
+                            <!-- <a href="#" class="th-btn th-icon" data-bs-toggle="modal" data-bs-target="#getAQuoteModal">Get A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>  -->
                             <a href="{{ route('contact') }}" class="th-btn th-icon">Get A Quote <i class="fa-solid fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
+                    <!-- <div class="col-auto d-none d-lg-block">
+                       <form>
+                        <select id="language" onchange="changeLanguage(this.value)">
+                            <option value="en" {{ app()->getLocale() == 'en' ? 'selected' : '' }}>English</option>
+                            <option value="hi" {{ app()->getLocale() == 'hi' ? 'selected' : '' }}>हिन्दी</option>
+                            <option value="ar" {{ app()->getLocale() == 'ar' ? 'selected' : '' }}>عربي</option>
+                        </select>
+                    </form>
+                    </div> -->
+
+
+
+
+
                     {{-- <div class="col-auto d-none d-lg-block">
                         <div id="google_translate_element"></div>
                     </div> --}}
@@ -256,18 +274,18 @@ Header Area
 <!-- popup modal  end-->
 
 @section('custome-style')
-    <style>
-        .modal {
-            position: fixed;
-            z-index: 99;
-        }
-    </style>
-    <!-- form 2 start Plugin: JQuery Validator  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
-        integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/additional-methods.min.js"
-        integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- Plugin: JQuery Validator  -->
+<style>
+    .modal {
+        position: fixed;
+        z-index: 99;
+    }
+</style>
+<!-- form 2 start Plugin: JQuery Validator  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"
+    integrity="sha512-WMEKGZ7L5LWgaPeJtw9MBM4i5w5OSBlSjTjCtSnvFJGSVD26gE5+Td12qN5pvWXhuWaWcVwF++F7aqu9cvqP0A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/additional-methods.min.js"
+    integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- Plugin: JQuery Validator  -->
 @endsection

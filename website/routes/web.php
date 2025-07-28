@@ -24,7 +24,11 @@ use App\Http\Controllers\Website\ServiceController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactListController;
 use App\Http\Controllers\Website\careerController;
+use App\Http\Controllers\Website\LanguageController;
 use App\Http\Controllers\Website\PRWebController;
+use Illuminate\Support\Facades\Session;
+use App\Http\Middleware\SetLocale;
+
 
 // Route::get('/welcome', function () {
 //     return view('welcome');
@@ -43,8 +47,9 @@ use App\Http\Controllers\Website\PRWebController;
 Route::fallback(function () {
     return view('errors.404');
 });
-
-
+// Localized routes group
+// Route::middleware([SetLocale::class])->prefix('{locale}')->group(function () {
+// Route::middleware([SetLocale::class])->group(function () {
 Route::get('/', [HomeController::class, 'Home'])->name('home');
 Route::get('/about', [HomeController::class, 'About'])->name('about');
 Route::get('/our-team', [HomeController::class, 'About'])->name('team');
@@ -129,7 +134,7 @@ Route::post('/contact/popUpStore', [ContactController::class, 'popUpStore'])->na
 Route::get('/privacy-and-policy', [HomeController::class, 'privacyAndPolicy'])->name('privacyAndPolicy');
 Route::get('/terms-and-condition', [HomeController::class, 'termsAndcondition'])->name('termsAndcondition');
 Route::get('/thank-you', [HomeController::class, 'thankYou'])->name('thankYou');
-
+// });
 // admin
 Route::get('/admin/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('/admin/login', [AuthController::class, 'login']);
@@ -192,3 +197,24 @@ Route::middleware(['canGate:hr-access'])->group(function () {
     Route::post('/admin/job/store', [jobController::class, 'store'])->name('job.store');
 
 });
+
+
+
+// Route::get('/lang/{locale}', function ($locale) {
+//     if (!in_array($locale, ['en', 'ar'])) {
+//         abort(400); // Optional: invalid locale
+//     }
+//     Session::put('locale', $locale);
+//     return redirect()->back();
+// })->name('lang.switch');
+
+
+Route::get('/switch-locale/{locale}', [LanguageController::class, 'switchLocale'])->name('switch-language');
+
+// Route::post('/lang/{locale}', function ($locale) {
+//     if (!in_array($locale, ['en', 'ar'])) {
+//         abort(400);
+//     }
+//     Session::put('locale', $locale);
+//     return redirect()->back();
+// })->name('lang.switch');
