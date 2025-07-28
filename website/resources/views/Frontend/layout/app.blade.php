@@ -1,12 +1,15 @@
 <!doctype html>
-<html class="no-js" lang="en-ae">
+<!-- <html lang="{{ app()->getLocale() }}" dir="{{ app()->getLocale() == 'ar' ? 'rtl' : 'ltr' }}"> -->
+<html lang="{{ app()->getLocale() }}">
+
+<!-- <html class="no-js" lang="en-ae"> -->
 
 <head>
 
     <title>{!! $meta['title'] ?? 'Sociomark' !!}</title>
     <meta name="description" content="{!!  $meta['description'] ?? 'Sociomark' !!}">
     <meta name="keywords" content="{{ $meta['keywords'] ?? 'Sociomark' }}">
-    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+    <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
     @php
     $canonicalList = config('canonical');
     $currentPath = request()->getPathInfo(); // returns e.g., /blog
@@ -14,6 +17,16 @@
 
     @if (array_key_exists($currentPath, $canonicalList))
     <link rel="canonical" href="{{ $canonicalList[$currentPath] }}" />
+    @endif
+    <!-- @if(app()->getLocale() == 'ar')
+    <link href="{{ asset('css/rtl.css') }}" rel="stylesheet">
+    @else
+    <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+    @endif -->
+
+     @if (app()->getLocale() === 'ar')
+        <!-- Arabic-specific styles -->
+        <link rel="stylesheet" href="{{ asset('frontend-assets/css/arabic.css') }}">
     @endif
 
     @include('Frontend/partial/styleLinks')
@@ -25,16 +38,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.20.0/additional-methods.min.js"
         integrity="sha512-TiQST7x/0aMjgVTcep29gi+q5Lk5gVTUPE9XgN0g96rwtjEjLpod4mlBRKWHeBcvGBAEvJBmfDqh2hfMMmg+5A=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({
                 pageLanguage: 'en'
             }, 'google_translate_element');
         }
-    </script>
+    </script> -->
 
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-    </script>
+    <!-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script> -->
+    <!-- <style>
+        body {
+            direction: rtl;
+            text-align: right;
+            font-family: 'Cairo', sans-serif;
+            /* Optional Arabic-friendly font */
+        }
+
+        .navbar,
+        .content {
+            text-align: right;
+        }
+    </style> -->
 </head>
 
 <body>
@@ -69,6 +95,11 @@
             z-index: 99999;
         }
     </style>
+    <script>
+        function changeLanguage(lang) {
+            window.location.href = "{{ url('switch-locale') }}/" + lang;
+        }
+    </script>
     <script>
         // $("a").each(function() { // Use .each() to iterate over jQuery elements
         //     $(this).on('mouseenter', () => { // 'this' refers to the current 'a' element
