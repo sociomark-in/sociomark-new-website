@@ -54,7 +54,7 @@
 <!-- Magnific Popup -->
 <link rel="stylesheet" href="{{ asset('frontend-assets/css/magnific-popup.min.css') }}">
 <!-- Swiper Slider -->
-<link rel="stylesheet" href="{{ asset('frontend-assets/css/swiper-bundle.min.css') }}">
+{{-- <link rel="stylesheet" href="{{ asset('frontend-assets/css/swiper-bundle.min.css') }}"> --}}
 <!-- imageRevealHover -->
 <link rel="stylesheet" href="{{ asset('frontend-assets/css/imageRevealHover.css') }}">
 <!-- Theme Custom CSS -->
