@@ -1884,11 +1884,11 @@
                                             </div>
                                             <h3 class="blog-title blog-title-text">
                                                 <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                                    {{ $blog->card_title }}
+                                                   {{ $blog->card_title[$locale] ?? $blog->card_title['en'] }}
                                                 </a>
                                             </h3>
 
-                                            <p class="blog-text d-none">{{ Str::limit(strip_tags($blog->content), 80) }}
+                                            <p class="blog-text d-none">{{ Str::limit(strip_tags($blog->content[$locale] ?? $blog->content['en']), 80) }}
                                             </p>
                                             <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}"
                                                 class="th-btn white-border th-icon th-radius">

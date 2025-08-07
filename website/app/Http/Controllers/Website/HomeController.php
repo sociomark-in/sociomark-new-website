@@ -31,7 +31,8 @@ class HomeController extends Controller
 
         // ✅ Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Home2", compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags', 'meta', 'prs'));
+        $locale = app()->getLocale();
+        return view("Frontend/Home2", compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags', 'meta', 'prs','locale'));
     }
     public function HomeNew()
     {
