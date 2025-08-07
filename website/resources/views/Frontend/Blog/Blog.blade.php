@@ -88,7 +88,7 @@
 
     .blog-img {
         width: 400px;
-        height: 230px;
+        height: 218px;
     }
 
     .blog-single {
