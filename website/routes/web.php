@@ -49,7 +49,7 @@ Route::fallback(function () {
 });
 // Localized routes group
 // Route::middleware([SetLocale::class])->prefix('{locale}')->group(function () {
-// Route::middleware([SetLocale::class])->group(function () {
+Route::middleware([SetLocale::class])->group(function () {
 Route::get('/', [HomeController::class, 'Home'])->name('home');
 Route::get('/about', [HomeController::class, 'About'])->name('about');
 Route::get('/our-team', [HomeController::class, 'About'])->name('team');
@@ -134,7 +134,7 @@ Route::post('/contact/popUpStore', [ContactController::class, 'popUpStore'])->na
 Route::get('/privacy-and-policy', [HomeController::class, 'privacyAndPolicy'])->name('privacyAndPolicy');
 Route::get('/terms-and-condition', [HomeController::class, 'termsAndcondition'])->name('termsAndcondition');
 Route::get('/thank-you', [HomeController::class, 'thankYou'])->name('thankYou');
-// });
+});
 // admin
 Route::get('/admin/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('/admin/login', [AuthController::class, 'login']);

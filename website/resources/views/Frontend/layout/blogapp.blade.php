@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html lang="{{ app()->getLocale() }}">
 
 <head>
     <title>{{ $meta['meta_title'] ?? 'Sociomark' }}</title>
@@ -88,6 +88,11 @@
     {{-- This will render all scripts pushed with @push('scripts') --}}
 
     <!-- Before </body> -->
+    <script>
+        function changeLanguage(lang) {
+            window.location.href = "{{ url('switch-locale') }}/" + lang;
+        }
+    </script>
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
         AOS.init({

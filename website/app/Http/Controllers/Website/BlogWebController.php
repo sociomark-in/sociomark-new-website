@@ -70,7 +70,8 @@ class BlogWebController extends Controller
             $meta['description'] .= ' - Page ' . $page;
         }
         $currentUrl = url("/blog" . ($page > 1 ? "/page/$page" : ""));
-        return view('Frontend/Blog/Blog', compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags', 'meta', 'page', 'currentUrl'));
+        $locale = app()->getLocale();
+        return view('Frontend/Blog/Blog', compact('firstBlog', 'otherBlogs', 'categories', 'blogs', 'tags', 'meta', 'page', 'currentUrl', 'locale'));
     }
     public function innerBlog($slug)
     {
@@ -88,7 +89,8 @@ class BlogWebController extends Controller
         ];
         $canonical = $blog->canonicals ?: url()->current();
         $blog_schema = $blog->blog_schema;
-        return view('Frontend/Blog/InnerBlog', compact('categories', 'blogs', 'blog', 'tags', 'meta', 'canonical', 'blog_schema'));
+        $locale = app()->getLocale();
+        return view('Frontend/Blog/InnerBlog', compact('categories', 'blogs', 'blog', 'tags', 'meta', 'canonical', 'blog_schema', 'locale'));
     }
     public function categoryBlog($slug)
     {
@@ -115,7 +117,7 @@ class BlogWebController extends Controller
 
         // Blogs under the selected category
         $blogs = Blog::whereJsonContains('categories', (string) $category->id)->orderBy('created_at', 'desc')->paginate(4);
-
+        $locale = app()->getLocale();
         // Pass everything to the view
         return view('Frontend.Blog.CategoryBlog', compact(
             'categories',
@@ -125,7 +127,8 @@ class BlogWebController extends Controller
             'tags',
             'canonical',
             'blog_schema',
-            'meta'
+            'meta',
+            'locale'
         ));
     }
     public function tagBlog($slug)
@@ -148,6 +151,7 @@ class BlogWebController extends Controller
         ];
         $canonical = $tag->canonicals ?: url()->current();
         $blog_schema = $tag->blog_schema;
-        return view('Frontend/Blog/TagBlog', compact('categories', 'blogs', 'tag', 'tags', 'meta', 'otherBlogs'));
+        $locale = app()->getLocale();
+        return view('Frontend/Blog/TagBlog', compact('categories', 'blogs', 'tag', 'tags', 'meta', 'otherBlogs', 'locale'));
     }
 }

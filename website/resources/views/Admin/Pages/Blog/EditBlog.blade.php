@@ -25,22 +25,36 @@
                         <h6 class="card-title">Add Blog</h6>
 
                         <div class="mb-3">
-                            <label>Blog Card Name</label>
-                            <input type="text" name="card_title" class="form-control" required value="{{ old('card_title', $blog->card_title) }}">
+                            <label>Card Name (English)</label>
+                            <input type="text" name="card_title[en]" class="form-control"
+                                value="{{ old('card_title.en', $blog->card_title['en'] ?? '') }}" required>
                         </div>
+                        <div class="mb-3">
+                            <label>Card Name (Arabic)</label>
 
+                            <input type="text" name="card_title[ar]" class="form-control"
+                                value="{{ old('card_title.ar', $blog->card_title['ar'] ?? '') }}" required>
+                        </div>
 
                         <div class="mb-3">
-                            <label>Blog Name</label>
-                            <input type="text" name="blog_name" class="form-control" required value="{{ old('blog_name', $blog->blog_name) }}">
+                            <label>Blog Name (English)</label>
+                            <input type="text" name="blog_name[en]" class="form-control" required value="{{ old('blog_name.en', $blog->blog_name['en'] ?? '') }}">
                         </div>
 
                         <div class="mb-3">
-                            <label class="form-label">Content</label>
-                            <textarea id="summernote" name="content">{{ old('content', $blog->content) }}</textarea>
-
+                            <label>Blog Name (Arabic)</label>
+                            <input type="text" name="blog_name[ar]" class="form-control" required value="{{ old('blog_name.ar', $blog->blog_name['ar'] ?? '')  }}">
                         </div>
 
+                        <div class="mb-3">
+                            <label class="form-label">Content (English)</label>
+                            <textarea name="content[en]" id="summernote_en">{{ old('content.en', $blog->content['en'] ?? '') }}</textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Content (Arabic)</label>
+                            <textarea name="content[ar]" id="summernote_ar">{{ old('content.ar', $blog->content['ar'] ?? '') }}</textarea>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -81,14 +95,23 @@
                             <div class="text-danger">{{ $message }}</div>
                             @enderror
                         </div>
+
                         <div class="mb-3">
                             <label>Categories</label>
                             <select name="categories[]" class="form-control select2" multiple>
+                                @php
+                                $selectedCategories = old('categories', $blog->categories ?? []);
+                                @endphp
+
                                 @foreach ($categories as $category)
-                                <option value="{{ $category->id }}" {{ (collect(old('categories', $blog->categories))->contains($category->id)) ? 'selected' : '' }}>{{ $category->category_name }}</option>
+                                <option value="{{ $category->id }}"
+                                    {{ in_array($category->id, $selectedCategories) ? 'selected' : '' }}>
+                                    {{ $category->category_name[$locale] ?? $category->category_name['en'] }}
+                                </option>
                                 @endforeach
                             </select>
                         </div>
+
                         <div class="mb-3">
                             <label class="form-label">Display On Home</label>
                             <div>
@@ -183,6 +206,16 @@
 <!-- Dropzone JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js"></script>
 <script>
+    $(document).ready(function() {
+        $('#summernote_en').summernote({
+            height: 200
+        });
+        $('#summernote_ar').summernote({
+            height: 200
+        });
+    });
+</script>
+<script>
     // $(document).ready(function() {
     //     $('#summernote').summernote({
     //         height: 100
@@ -195,9 +228,6 @@
     // });
 
     $(document).ready(function() {
-        $('#summernote').summernote({
-            height: 100
-        });
 
         $('.select2').select2({
             tags: true,

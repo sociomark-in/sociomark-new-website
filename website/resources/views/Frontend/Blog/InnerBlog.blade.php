@@ -120,26 +120,33 @@
         <div class="container">
             <div class="row">
                 <div class="col-xxl-8 col-lg-8">
-                    <div class="col-md-12" data-category="{{ implode(', ', $blog->category_names) ?: 'No Category' }}">
+                    @php
+                    $locale = app()->getLocale();
+                    $categoryNames = $blog->category_names[$locale] ?? [];
+                    if (!is_array($categoryNames)) {
+                    $categoryNames = [$categoryNames]; // convert string to array
+                    }
+
+                    @endphp
+                    @php $locale = app()->getLocale(); @endphp
+                    <div class="col-md-12" data-category="{{ implode(',', array_map(fn($name) => strtolower(trim($name)), $categoryNames)) }}">
                         <div class="blog-content mb-3">
                             <div class="blog-meta">
                                 <a href="#"><i class="fa-light fa-calendar"></i> {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}</a>
                                 <a href="#"><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->category_names) ?: 'No Category' }}</a>
                             </div>
-                            <h1 class=" blog-title blog-title-text"><a href="" class="sec-title">{{ $blog->blog_name }}</a></h1>
+                            <h1 class=" blog-title blog-title-text"><a href="" class="sec-title">{{ $blog->blog_name[$locale] ?? $blog->blog_name['en'] }}</a></h1>
 
                         </div>
                         <div class="box-blog th-blog blog-single has-post-thumbnail">
                             <div class="blog-img box-blog">
                                 <a href="">
-                                    <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="{{ $blog->blog_name }}" class="w-100 h-100 object-fit-cover">
+                                    <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="" class="w-100 h-100 object-fit-cover">
                                 </a>
                             </div>
                             <div class="blog-content content-padding">
 
-                                <div class="mt-md-5 mt-3">{!! $blog->content !!}</div>
-
-                                <!-- <p class="blog-text">{!! nl2br(e($blog->content)) !!}</p> -->
+                                <div class="mt-md-5 mt-3">{!! $blog->content[$locale] ?? $blog->content['en'] !!}</div>
 
                             </div>
                         </div>
@@ -163,18 +170,21 @@
 
                         </div>
 
+                        
                         <div class="box widget widget_categories">
                             <h3 class="widget_title">Categories</h3>
                             <ul>
-                                <li><a href="{{ route('blog') }}" class="category-filter" data-category="all">All Categories</a></li>
+                                <li><a href="#" class="category-filter active" data-category="all">All Categories</a></li>
                                 @foreach ($categories as $category)
-
-                                <li><a href="{{ route('categoryBlog', ['slug' => $category->slug]) }}" class="category-filter">{{ $category->category_name }}</a></li>
+                                <li>
+                                    <a href="#" class="category-filter" data-category="{{ implode(',', array_map(fn($name) => strtolower(trim($name)), $categoryNames)) }}">
+                                        {{ $category->category_name[$locale] ?? $blog->blog_name['en'] }}
+                                    </a>
+                                </li>
                                 @endforeach
-
-
                             </ul>
                         </div>
+
                         <div class="widget box">
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
@@ -182,7 +192,7 @@
                                 <div class="recent-post">
                                     <div class="media-img recent_blog_img">
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                            <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="{{ $blog->blog_name }}" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="" class="w-100 h-100 object-fit-cover">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -194,7 +204,7 @@
                                         </div>
                                         <h4 class="post-title recent_post_title">
                                             <a class="text-inherit" href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                                {{ $blog->blog_name }}
+
                                             </a>
                                         </h4>
                                     </div>

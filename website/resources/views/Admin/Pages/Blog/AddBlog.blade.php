@@ -24,154 +24,163 @@
     <form action="{{ route('blogs.store') }}" method="POST" enctype="multipart/form-data">
         @csrf
 
+        @php $locale = app()->getLocale(); @endphp
+
         <div class="row">
+            <!-- Main Form (Left Side) -->
             <div class="col-md-8 grid-margin stretch-card">
                 <div class="card">
                     <div class="card-body">
-
                         <h6 class="card-title">Add Blog</h6>
 
+                        <!-- Card Titles -->
                         <div class="mb-3">
-                            <label>Blog Card Name</label>
-                            <input type="text" name="card_title" class="form-control" required>
+                            <label>Card Name (English)</label>
+                            <input type="text" name="card_title[en]" class="form-control" required value="{{ old('card_title.en') }}">
                         </div>
 
                         <div class="mb-3">
-                            <label>Blog Name</label>
-                            <input type="text" name="blog_name" class="form-control" required>
+                            <label>Card Name (Arabic)</label>
+                            <input type="text" name="card_title[ar]" class="form-control" required value="{{ old('card_title.ar') }}">
+                        </div>
+
+                        <!-- Blog Names -->
+                        <div class="mb-3">
+                            <label>Blog Name (English)</label>
+                            <input type="text" name="blog_name[en]" class="form-control" required value="{{ old('blog_name.en') }}">
                         </div>
 
                         <div class="mb-3">
-                            <label class="form-label">Content</label>
-                            <textarea id="summernote" name="content"></textarea>
-
+                            <label>Blog Name (Arabic)</label>
+                            <input type="text" name="blog_name[ar]" class="form-control" value="{{ old('blog_name.ar') }}">
                         </div>
 
+                        <!-- Contents -->
+                        <div class="mb-3">
+                            <label class="form-label">Content (English)</label>
+                            <textarea id="summernote_en" name="content[en]">{{ old('content.en') }}</textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Content (Arabic)</label>
+                            <textarea id="summernote_ar" name="content[ar]">{{ old('content.ar') }}</textarea>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Right Sidebar -->
             <div class="col-md-4 grid-margin stretch-card">
                 <div class="card">
                     <div class="card-body">
+                        <h6 class="card-title">Blog Options</h6>
 
-                        <h6 class="card-title">Horizontal Form</h6>
+                        <!-- Status -->
                         <div class="mb-3">
                             <label class="form-label">Status</label>
                             <div>
                                 <div class="form-check form-check-inline">
-                                    <input type="radio" class="form-check-input" name="status" id="active" value="active">
-                                    <label class="form-check-label" for="active">
-                                        Active
-                                    </label>
+                                    <input type="radio" class="form-check-input" name="status" id="active" value="active" {{ old('status') == 'active' ? 'checked' : '' }}>
+                                    <label class="form-check-label" for="active">Active</label>
                                 </div>
                                 <div class="form-check form-check-inline">
-                                    <input type="radio" class="form-check-input" name="status" id="inactive" value="inactive">
-                                    <label class="form-check-label" for="inactive">
-                                        Inactive
-                                    </label>
+                                    <input type="radio" class="form-check-input" name="status" id="inactive" value="inactive" {{ old('status') == 'inactive' ? 'checked' : '' }}>
+                                    <label class="form-check-label" for="inactive">Inactive</label>
                                 </div>
                             </div>
                         </div>
 
+                        <!-- Tags -->
                         <div class="mb-3">
                             <label>Tags</label>
                             <select name="tags[]" class="form-control select2" multiple>
                                 @foreach ($tags as $tag)
-                                <option value="{{ $tag->id }}">{{ $tag->name }}</option>
+                                <option value="{{ $tag->id }}" {{ collect(old('tags'))->contains($tag->id) ? 'selected' : '' }}>{{ $tag->name }}</option>
                                 @endforeach
                             </select>
                         </div>
 
+                        <!-- Categories -->
                         <div class="mb-3">
                             <label>Categories</label>
                             <select name="categories[]" class="form-control select2" multiple>
                                 @foreach ($categories as $category)
-                                <option value="{{ $category->id }}">{{ $category->category_name }}</option>
+                                <option value="{{ $category->id }}" {{ collect(old('categories'))->contains($category->id) ? 'selected' : '' }}>
+                                    {{ $category->category_name[$locale] ?? $category->category_name['en'] }}
+                                </option>
                                 @endforeach
                             </select>
                         </div>
-                        <!-- <div class="mb-3">
-                            <input type="checkbox" name="display_on_home" value="1"> Display on Home
-                        </div> -->
 
+                        <!-- Display on Home -->
                         <div class="mb-3">
                             <label class="form-label">Display On Home</label>
-                            <div>
-                                <div class="form-check form-check-inline">
-                                    <input type="checkbox" name="display_on_home" class="form-check-input" id="display_on_home" value="1">
-                                    <label class="form-check-label" for="display_on_home">
-                                        Display on Home
-                                </div>
-                                </label>
+                            <div class="form-check">
+                                <input type="checkbox" name="display_on_home" class="form-check-input" id="display_on_home" value="1" {{ old('display_on_home') ? 'checked' : '' }}>
+                                <label class="form-check-label" for="display_on_home">Display on Home</label>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-        </div>
 
-        <div class="row">
+            <!-- SEO + Image Section -->
             <div class="col-md-8 grid-margin stretch-card">
                 <div class="card">
                     <div class="card-body">
-                        <h6 class="card-title">Inputs</h6>
+                        <h6 class="card-title">SEO & Slug</h6>
+
                         <div class="mb-3">
                             <label class="form-label">SEO Meta Title</label>
-                            <input type="text" class="form-control" name="meta_title" id="title" onkeyup="updateSlug()">
+                            <input type="text" class="form-control" name="meta_title" id="title" onkeyup="updateSlug()" value="{{ old('meta_title') }}">
                         </div>
 
                         <div class="mb-3">
                             <label class="form-label">SEO Meta Description</label>
-                            <input type="text" class="form-control" name="meta_description">
+                            <input type="text" class="form-control" name="meta_description" value="{{ old('meta_description') }}">
                         </div>
 
                         <div class="mb-3">
                             <label class="form-label">SEO Meta Keywords</label>
-                            <input type="text" class="form-control" name="meta_keywords">
+                            <input type="text" class="form-control" name="meta_keywords" value="{{ old('meta_keywords') }}">
                         </div>
+
                         <div class="mb-3">
                             <label>Slug</label>
-                            <input type="text" name="slug" id="slug" class="form-control">
+                            <input type="text" name="slug" id="slug" class="form-control" value="{{ old('slug') }}">
                         </div>
+
                         <div class="mb-3">
-                            <label>canonical</label>
-                            <input type="url" name="canonicals" id="canonicals" class="form-control">
+                            <label>Canonical URL</label>
+                            <input type="url" name="canonicals" id="canonicals" class="form-control" value="{{ old('canonicals') }}">
                         </div>
-                         <div class="mb-3">
-                            <label>Schema</label>
-                            <input type="text" name="blog_schema" id="blog_schema" class="form-control">
+
+                        <div class="mb-3">
+                            <label>Blog Schema (JSON-LD)</label>
+                            <input type="text" name="blog_schema" id="blog_schema" class="form-control" value="{{ old('blog_schema') }}">
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="col-md-4 grid-margin stretch-card">
                 <div class="card">
                     <div class="card-body">
-
-                        <h6 class="card-title">Image</h6>
+                        <h6 class="card-title">Images</h6>
 
                         <div class="mb-3">
-                            <label class="form-label">Image</label>
-                            <input type="file" name="images[]" multiple class="form-control">
+                            <label class="form-label">Upload Blog Images</label>
+                            <input type="file" name="images[]" class="form-control" multiple>
                         </div>
-                        <!-- <div class="mb-3">
-                            <label>Upload Images</label>
-                            <input type="file" name="images[]" multiple class="form-control">
-                            <input type="file" id="myDropify"/>
-                        </div> -->
-                        <!-- <div class="mb-3">
-                            <label class="form-label">Upload Images</label>
-                            <div class="dropzone" id="imageDropzone"></div>
-                        </div> -->
-
-
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Submit -->
         <button type="submit" class="btn btn-success">Submit</button>
     </form>
+
 </div>
 
 @push('scripts')
@@ -188,6 +197,17 @@
 <!-- Dropzone JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js"></script>
 <script>
+    $(document).ready(function() {
+        $('#summernote_en').summernote({
+            height: 200
+        });
+        $('#summernote_ar').summernote({
+            height: 200
+        });
+    });
+</script>
+
+<script>
     // $(document).ready(function() {
     //     $('#summernote').summernote({
     //         height: 100
@@ -200,10 +220,6 @@
     // });
 
     $(document).ready(function() {
-        $('#summernote').summernote({
-            height: 100
-        });
-
         $('.select2').select2({
             tags: true,
             tokenSeparators: [',']
@@ -252,6 +268,14 @@
         this.dataset.edited = true;
     });
 </script>
+<!-- <script>
+function updateSlug() {
+    let title = document.getElementById('title').value;
+    let slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)+/g, '');
+    document.getElementById('slug').value = slug;
+}
+</script> -->
+
 @endpush
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
 

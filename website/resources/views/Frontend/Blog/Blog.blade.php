@@ -19,7 +19,7 @@
                         $position
                     }
                 },
-                "name": "{{ $blog->blog_name }}",
+                "name": "{{ $blog->blog_name[$locale] ?? $blog->blog_name['en'] }}",
                 "item": "{{ url('/blog/' . $blog->slug) }}"
             }
             @php $position++;@endphp
@@ -117,13 +117,21 @@
                 <div class="col-xxl-8 col-lg-8">
                     <div class="row">
                         @foreach($otherBlogs as $blog)
+                        @php
+                        $locale = app()->getLocale();
+                        $categoryNames = $blog->category_names[$locale] ?? [];
+                        if (!is_array($categoryNames)) {
+                        $categoryNames = [$categoryNames]; // convert string to array
+                        }
+                        @endphp
+
                         <div class="col-md-6 blog-item"
-                            data-category="{{ implode(',', array_map(fn($name) => strtolower(trim($name)), $blog->category_names)) }}">
+                            data-category="{{ implode(',', array_map(fn($name) => strtolower(trim($name)), $categoryNames)) }}">
 
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
                                 <div class="blog-img box-blog">
                                     <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                        <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="{{ $blog->blog_name }}" class="w-100 h-100 object-fit-cover">
+                                        <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="{{ $blog->blog_name[$locale] ?? $blog->blog_name['en'] }}" class="w-100 h-100 object-fit-cover">
                                     </a>
                                 </div>
                                 <div class="blog-content content-padding">
@@ -131,9 +139,10 @@
                                         <a href="#"><i class="fa-light fa-calendar"></i> {{ $blog->created_at ? $blog->created_at->format('F d, Y') : 'Unpublished' }}</a>
                                         <a href="#"><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->category_names) ?: 'No Category' }}</a>
                                     </div>
-                                    <h3 class="blog-title blog-title-text"><a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">{{ $blog->blog_name }}</a></h3>
-                                    <p class="blog-text">{{ Str::limit(strip_tags($blog->content), 100) }}</p>
-                                    <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}" class="th-btn black-border th-icon th-radius">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
+                                    <h3 class="blog-title blog-title-text"><a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">{{ $blog->blog_name[$locale] ?? $blog->blog_name['en'] }}</a></h3>
+
+                                    <p class="blog-text">{{ Str::limit(strip_tags($blog->content[$locale] ?? $blog->content['en']), 100) }}</p>
+                                    <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}" class="th-btn black-border th-icon th-radius">{{ __('messages.read') }}<i class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -188,8 +197,8 @@
                                 <li><a href="#" class="category-filter active" data-category="all">All Categories</a></li>
                                 @foreach ($categories as $category)
                                 <li>
-                                    <a href="#" class="category-filter" data-category="{{ strtolower($category->category_name) }}">
-                                        {{ $category->category_name }}
+                                    <a href="#" class="category-filter" data-category="{{ implode(',', array_map(fn($name) => strtolower(trim($name)), $categoryNames)) }}">
+                                        {{ $category->category_name[$locale] ?? $blog->blog_name['en'] }}
                                     </a>
                                 </li>
                                 @endforeach
@@ -205,7 +214,7 @@
                                 <div class="recent-post">
                                     <div class="media-img recent_blog_img">
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                            <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="{{ $blog->blog_name }}" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="{{ $blog->blog_name[$locale] ?? $blog->blog_name['en'] }}" class="w-100 h-100 object-fit-cover">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -217,7 +226,7 @@
                                         </div>
                                         <h4 class="post-title recent_post_title">
                                             <a class="text-inherit" href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                                {{ $blog->blog_name }}
+                                                {{ $blog->blog_name[$locale] ?? $blog->blog_name['en'] }}
                                             </a>
                                         </h4>
                                     </div>

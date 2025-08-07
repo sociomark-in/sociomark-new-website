@@ -8,7 +8,7 @@ use Illuminate\Support\Str;
 
 class Category extends Model
 {
-
+    use HasFactory;
 
     protected $fillable = [
         'category_name',
@@ -20,14 +20,24 @@ class Category extends Model
         'meta_description',
     ];
 
-    // Automatically set slug on creating category
+    protected $casts = [
+        'category_name' => 'array', // for multilingual category name
+    ];
+
+    // Automatically set slug when creating a category
     protected static function boot()
     {
         parent::boot();
+
         static::creating(function ($category) {
-            $category->slug = Str::slug($category->category_name);
+            // Assuming category_name is an array like ['en' => 'Web Design', 'hi' => 'वेब डिज़ाइन']
+            $defaultLanguage = 'en'; // Change based on your default language
+            $name = $category->category_name[$defaultLanguage] ?? reset($category->category_name);
+            $category->slug = Str::slug($name);
         });
     }
+
+    // Remove this if not doing self-referencing many-to-many
     public function categories()
     {
         return $this->belongsToMany(Category::class);

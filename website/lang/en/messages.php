@@ -10,4 +10,5 @@ return [
     'back_to_blogs' => 'Back to Blogs',
     'blog_added' => 'Blog added successfully!',
    'blog_name' => 'Blog name',
+   'read' => 'Read'
 ];
