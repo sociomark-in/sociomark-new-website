@@ -76,10 +76,21 @@
     </script>
     <div id="cursor" class="d-none d-md-block"></div>
     <aside class="showreel-fixed d-none d-md-block">
+        <button class="th-btn style1 showreel-close position-absolute"><i class="fa-solid fa-close"></i></button>
         <a class="wrapper" href="https://www.instagram.com/reel/C53hrnWSGXQ/" target="_blank">
             <img src="{{ asset('frontend-assets/img/showreel.gif') }}" alt="Showreel">
         </a>
     </aside>
+    <script>
+        $(".showreel-close").on("click", () => {
+            $("aside.showreel-fixed").toggleClass('collapsed');
+            if ($("aside.showreel-fixed").hasClass('collapsed')) {
+                $(".showreel-close").html('<i class="fa-solid fa-expand"></i>');
+            } else {
+                $(".showreel-close").html('<i class="fa-solid fa-close"></i>');
+            }
+        });
+    </script>
     <main class="overflow-hidden">
         @yield('content')
     </main>

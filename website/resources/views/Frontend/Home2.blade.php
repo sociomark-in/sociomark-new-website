@@ -334,12 +334,12 @@
                 <div class="row g-4 g-md-5 align-items-center">
                     <div class="col-xl-6 pe-5">
                         <div class="title-area mb-20">
-                            <!-- <h1 class="sec-title hero-title" data-aos="fade-right" data-aos-delay="300">Remarkable
+                            <h1 class="sec-title hero-title" data-aos="fade-right" data-aos-delay="300">Remarkable
                                 <br>Digital Marketing
                                 <br>Company
                                 <span class="text-orange"> for Brands that Think <span class="">Bigger</span></span>
-                            </h1> -->
-                             <h1 class="sec-title hero-title" data-aos="fade-right" data-aos-delay="300"> {{ __('messages.welcome') }}</h1>
+                            </h1>
+                             <!-- <h1 class="sec-title hero-title" data-aos="fade-right" data-aos-delay="300"> {{ __('messages.welcome') }}</h1> -->
                             
                         </div>
                         <p class="sec-para text-white-50" data-aos="fade-right" data-aos-delay="300">We're more than just a

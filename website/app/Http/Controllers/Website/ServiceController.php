@@ -86,9 +86,10 @@ class ServiceController extends Controller
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
         $firstBlog = Blog::latest()->first(); // Get latest blog
 
-        // ✅ Paginate other blogs instead of using `take()`
+        // Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/Seo", compact('blogs', 'meta'));
+        $locale = app()->getLocale();
+        return view("Frontend/Services/Seo", compact('blogs', 'meta', 'locale'));
     }
     public function website()
     {
@@ -109,7 +110,8 @@ class ServiceController extends Controller
                 ]
             ]
         ];
-        return view("Frontend/Services/Website", compact('blogs', 'meta'));
+        $locale = app()->getLocale();
+        return view("Frontend/Services/Website", compact('blogs', 'meta', 'locale'));
     }
     public function socialMedia()
     {
@@ -123,9 +125,10 @@ class ServiceController extends Controller
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
         $firstBlog = Blog::latest()->first(); // Get latest blog
 
-        // ✅ Paginate other blogs instead of using `take()`
+        //Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/SocialMedia", compact('blogs', 'meta'));
+        $locale = app()->getLocale();
+        return view("Frontend/Services/SocialMedia", compact('blogs', 'meta' , 'locale'));
     }
     public function digitalMarketing()
     {
@@ -139,9 +142,10 @@ class ServiceController extends Controller
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
         $firstBlog = Blog::latest()->first(); // Get latest blog
 
-        // ✅ Paginate other blogs instead of using `take()`
+        //Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/digitalMarketing", compact('blogs', 'meta'));
+        $locale = app()->getLocale();
+        return view("Frontend/Services/digitalMarketing", compact('blogs', 'meta', 'locale'));
     }
     public function contentMarketing()
     {
@@ -156,9 +160,10 @@ class ServiceController extends Controller
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
         $firstBlog = Blog::latest()->first(); // Get latest blog
 
-        // ✅ Paginate other blogs instead of using `take()`
+        //Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/contentMarketing", compact('blogs', 'meta'));
+        $locale = app()->getLocale();
+        return view("Frontend/Services/contentMarketing", compact('blogs', 'meta' , 'locale'));
     }
     public function sem()
     {
@@ -172,9 +177,10 @@ class ServiceController extends Controller
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
         $firstBlog = Blog::latest()->first(); // Get latest blog
 
-        // ✅ Paginate other blogs instead of using `take()`
+        //Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/sem", compact('blogs', 'meta'));
+        $locale = app()->getLocale();
+        return view("Frontend/Services/sem", compact('blogs', 'meta', 'locale'));
     }
     public function photoVideography()
     {
@@ -188,8 +194,9 @@ class ServiceController extends Controller
         $blogs = Blog::latest()->paginate(4); // Paginate all blogs
         $firstBlog = Blog::latest()->first(); // Get latest blog
 
-        // ✅ Paginate other blogs instead of using `take()`
+        //Paginate other blogs instead of using `take()`
         $otherBlogs = Blog::paginate(4);
-        return view("Frontend/Services/photoVideography", compact('blogs', 'meta'));
+        $locale = app()->getLocale();
+        return view("Frontend/Services/photoVideography", compact('blogs', 'meta', 'locale'));
     }
 }

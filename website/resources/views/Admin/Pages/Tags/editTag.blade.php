@@ -29,8 +29,12 @@
                         @csrf
                         @method('PUT')
                         <div class="mb-3">
-                            <label>Tag Name</label>
-                            <input type="text" name="name" id="name" class="form-control" required onkeyup="updateSlug()" value="{{ old('name', $tag->name) }}">
+                            <label>Tag Name (English)</label>
+                            <input type="text" name="name[en]" id="name" class="form-control" required onkeyup="updateSlug()" value="{{ old('name.en', $tag->name['en'] ?? '') }}">
+                        </div>
+                           <div class="mb-3">
+                            <label>Tag Name (Arabic)</label>
+                            <input type="text" name="name[ar]" id="name" class="form-control" required onkeyup="updateSlug()" value="{{ old('name.ar', $tag->name['ar'] ?? '') }}">
                         </div>
                         <div class="mb-3">
                             <label>Slug</label>
@@ -47,7 +51,7 @@
                         </div>
                         <div class="mb-3">
                             <label>canonical</label>
-                            <input type="url" name="canonicals" id="canonicals" class="form-control" value="{{ old('url', $tag->url) }}">
+                            <input type="url" name="canonicals" id="canonicals" class="form-control" value="{{ old('canonicals', $tag->canonicals) }}">
                         </div>
                         <div class="mb-3">
                             <label>Schema</label>

@@ -24,9 +24,9 @@
     <link href="{{ asset('css/main.css') }}" rel="stylesheet">
     @endif -->
 
-     @if (app()->getLocale() === 'ar')
-        <!-- Arabic-specific styles -->
-        <link rel="stylesheet" href="{{ asset('frontend-assets/css/arabic.css') }}">
+    @if (app()->getLocale() === 'ar')
+    <!-- Arabic-specific styles -->
+    <link rel="stylesheet" href="{{ asset('frontend-assets/css/arabic.css') }}">
     @endif
 
     @include('Frontend/partial/styleLinks')

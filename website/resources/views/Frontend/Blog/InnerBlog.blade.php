@@ -159,7 +159,7 @@
                         <div class="box widget widget_tag_cloud">
                             <h3 class="widget_title">Tags</h3>
                             <div class="tagcloud">
-                                @if (!empty($blog->tag_names))
+                                @if (!empty($blog->tag_names[$locale] ?? $blog->blog_name['en']))
                                 @foreach ($blog->tag_names as $tag)
                                 <a href="#" class="tag-filter" data-tag="{{ $tag }}">{{ $tag }}</a>
                                 @endforeach
@@ -188,11 +188,12 @@
                         <div class="widget box">
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
-                                @foreach ($blogs->take(3) as $blog)
+                                 @foreach ($blogs->take(3) as $blog)
+                                @if ($blog->status == 'active')
                                 <div class="recent-post">
                                     <div class="media-img recent_blog_img">
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                            <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="{{ $blog->blog_name[$locale] ?? $blog->blog_name['en'] }}" class="w-100 h-100 object-fit-cover">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -204,19 +205,20 @@
                                         </div>
                                         <h4 class="post-title recent_post_title">
                                             <a class="text-inherit" href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-
+                                                {{ $blog->blog_name[$locale] ?? $blog->blog_name['en'] }}
                                             </a>
                                         </h4>
                                     </div>
                                 </div>
+                                @endif
                                 @endforeach
                             </div>
                         </div>
-                        <div class="box widget widget_tag_cloud">
+                         <div class="box widget widget_tag_cloud   ">
                             <h3 class="widget_title">Popular Tags</h3>
                             <div class="tagcloud">
                                 @foreach ($tags->take(6) as $tag)
-                                <a href="{{ route('tagBlog', ['slug' => $tag->slug]) }}">{{ $tag->name }}</a>
+                                <a href="{{ route('tagBlog', ['slug' => $tag->slug]) }}">{{ $tag->name[$locale] ?? $blog->blog_name['en'] }}</a>
                                 @endforeach
 
                             </div>

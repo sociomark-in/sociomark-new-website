@@ -180,7 +180,7 @@
                             <ul>
                                 <li><a href="{{ route('blog') }}" class="category-filter" data-category="all">All Categories</a></li>
                                 @foreach ($categories as $category)
-                                <li><a href="{{ route('categoryBlog', ['slug' => $category->slug]) }}" class="category-filter">{{ $category->category_name }}</a></li>
+                                <li><a href="{{ route('categoryBlog', ['slug' => $category->slug]) }}" class="category-filter">{{ $category->category_name[$locale] ?? $blog->blog_name['en'] }}</a></li>
                                 @endforeach
                             </ul>
                         </div>
@@ -218,7 +218,7 @@
                             <h3 class="widget_title">Popular Tags</h3>
                             <div class="tagcloud">
                                 @foreach ($tags->take(6) as $tag)
-                                <a href="{{ route('tagBlog', ['slug' => $tag->slug]) }}">{{ $tag->name }}</a>
+                                <a href="{{ route('tagBlog', ['slug' => $tag->slug]) }}">{{ $tag->name[$locale] ?? $blog->blog_name['en'] }}</a>
                                 @endforeach
 
                             </div>

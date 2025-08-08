@@ -12,7 +12,8 @@ class TagController extends Controller
     public function index()
     {
         $tags = Tag::all();
-        return view('admin/Pages/Tags/listTag', compact('tags'));
+        $locale = app()->getLocale();
+        return view('admin/Pages/Tags/listTag', compact('tags', 'locale'));
     }
 
     public function create()
@@ -22,21 +23,23 @@ class TagController extends Controller
 
     public function store(Request $request)
     {
-        $request->validate([
-            'name' => 'required|unique:tags,name',
+        $validated =  $request->validate([
+            'name.en' => 'required|unique:tags,name',
+            'name.ar' => 'required|unique:tags,name',
+            'slug' => 'required',
             'canonicals' => 'url|nullable',
             'blog_schema' => 'string|nullable',
             'meta_title'      => 'nullable|string',
             'meta_description' => 'nullable|string',
         ]);
 
-        Tag::create([
-            'name' => $request->name,
-            'slug' => Str::slug($request->name),
-            'canonicals' => $request->canonicals,
-            'blog_schema' => $request->blog_schema,
-            'meta_title' => $request->meta_title,
-            'meta_description' => $request->meta_description,
+        $tag = Tag::create([
+            'name' => $validated['name'],
+            'slug' => Str::slug($validated['slug']),
+            'canonicals' => $validated['canonicals'],
+            'blog_schema' => $validated['blog_schema'],
+            'meta_title' => $validated['meta_title'],
+            'meta_description' => $validated['meta_description'],
         ]);
 
         return redirect()->route('tags.create')->with('success', 'Tag created successfully!');
@@ -50,8 +53,10 @@ class TagController extends Controller
 
     public function update(Request $request, Tag $tag)
     {
-        $request->validate([
-            'name' => 'required|unique:tags,name,' . $tag->id,
+        $validated = $request->validate([
+            'name.en' => 'required|unique:tags,name->en,' . $tag->id,
+            'name.ar' => 'required|unique:tags,name->ar,' . $tag->id,
+            'slug' => 'required',
             'canonicals' => 'url|nullable',
             'blog_schema' => 'string|nullable',
             'meta_title'      => 'nullable|string',
@@ -59,12 +64,12 @@ class TagController extends Controller
         ]);
 
         $tag->update([
-            'name' => $request->name,
-            'slug' => Str::slug($request->name),
-            'canonicals' => $request->canonicals,
-            'blog_schema' => $request->blog_schema,
-            'meta_title'       => $request->input('meta_title'),
-            'meta_description' => $request->input('meta_description'),
+            'name' => $validated['name'],
+            'slug' => Str::slug($validated['slug']),
+            'canonicals' => $validated['canonicals'],
+            'blog_schema' => $validated['blog_schema'],
+            'meta_title' => $validated['meta_title'],
+            'meta_description' => $validated['meta_description'],
         ]);
 
         return redirect()->route('tags.index')->with('success', 'Tag updated successfully!');
