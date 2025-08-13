@@ -31,8 +31,15 @@
                         @csrf
                         @method('PUT')
                         <div class="mb-3">
-                            <label>Category Name</label>
-                            <input type="text" name="category_name" id="category_name" class="form-control" required onkeyup="updateSlug()" value="{{ old('category_name', $category->category_name) }}">
+                            <label>Category Name (English)</label>
+                            <input type="text" name="category_name[en]" id="category_name" class="form-control" required onkeyup="updateSlug()" value="{{ old('category_name.en', $category->category_name['en'] ?? '') }}">
+                            
+                        </div>
+                        <div class="mb-3">
+                            <label>Category Name (Arabic)</label>
+                            <input type="text" name="category_name[ar]" id="category_name" class="form-control" required onkeyup="updateSlug()" value="{{ old('category_name.ar', $category->category_name['ar'] ?? '') }}">
+
+
                         </div>
                         <div class="mb-3">
                             <label>Slug</label>

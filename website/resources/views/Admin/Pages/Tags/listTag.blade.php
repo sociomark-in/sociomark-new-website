@@ -32,7 +32,7 @@
                             <tbody>
                                 @foreach ($tags as $tag)
                                 <tr>
-                                    <td>{{ $tag->name }}</td>
+                                    <td>{{ $tag->name[$locale] ?? $blog->blog_name['en']}}</td>
                                     <td>{{ $tag->canonicals }}</td>
 
                                     <td>{{ $tag->created_at->format('Y-m-d') }}</td>

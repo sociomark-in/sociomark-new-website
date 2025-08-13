@@ -485,8 +485,6 @@
         </div>
     </section>
 
-
-
     <section class="mb-2 founder space" id="our-founder">
         <div class="container">
             <div class="row align-items-center justify-content-center">
@@ -774,9 +772,11 @@
             }
         }
     });
+</script>
+@endpush
 
-    // about-sec4
-
+@push('scripts')
+<script>
     document.addEventListener("DOMContentLoaded", function() {
         const images = document.querySelectorAll(".gallery-img");
 
@@ -794,7 +794,6 @@
 
         images.forEach((img) => {
             img.addEventListener("mouseenter", function() {
-                // Remove active from all
                 images.forEach((image) => image.classList.remove("default-active"));
                 const allOverlays = document.querySelectorAll(".img-overlay");
                 allOverlays.forEach(overlay => {
@@ -805,7 +804,6 @@
                     descs.forEach(desc => desc.classList.add("d-none"));
                 });
 
-                // Set active
                 this.classList.add("default-active");
                 const currentOverlay = this.parentElement.querySelector(".img-overlay");
                 const currentDescs = currentOverlay.querySelectorAll(".desc-text");
@@ -817,8 +815,5 @@
             });
         });
     });
-
-
-    // about-sec4 end
 </script>
 @endpush

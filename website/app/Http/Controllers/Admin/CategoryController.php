@@ -15,7 +15,8 @@ class CategoryController extends Controller
     public function index()
     {
         $categories = Category::all();
-        return view('admin/Pages/Category/listCat', compact('categories'));
+        $locale = app()->getLocale();
+        return view('admin/Pages/Category/listCat', compact('categories', 'locale'));
     }
 
     /**
@@ -28,24 +29,25 @@ class CategoryController extends Controller
 
     public function store(Request $request)
     {
-        $request->validate([
-            'category_name' => 'required|unique:categories,category_name|max:255',
+        $validated =   $request->validate([
+            'category_name.en' => 'required|unique:categories,category_name|max:255',
+            'category_name.ar' => 'required|unique:categories,category_name|max:255',
             'description' => 'nullable|string',
+            'slug' => 'nullable|string',
             'canonicals' => 'url|nullable',
             'blog_schema' => 'string|nullable',
-             'meta_title'      => 'nullable|string',
+            'meta_title'      => 'nullable|string',
             'meta_description' => 'nullable|string',
         ]);
 
-        Category::create([
-            'category_name' => $request->category_name,
-            'description' => $request->description,
-            'slug' => Str::slug($request->category_name),
-            'canonicals' => $request->canonicals,
-            'blog_schema' => $request->blog_schema,
-            'meta_title' => $request->meta_title,
-             'meta_description' => $request->meta_description,
-               
+        $category =  Category::create([
+            'category_name' => $validated['category_name'],
+            'description' => $validated['description'],
+            'slug' => $validated['slug'],
+            'canonicals' => $validated['canonicals'],
+            'blog_schema' => $validated['blog_schema'],
+            'meta_title' => $validated['meta_title'],
+            'meta_description' => $validated['meta_description'],
         ]);
 
         return redirect()->route('blogs.index')->with('success', 'Category created successfully.');
@@ -56,7 +58,7 @@ class CategoryController extends Controller
         return view('categories.show', compact('category'));
     }
 
-    public function edit( $id)
+    public function edit($id)
     {
         $category = category::findOrFail($id);
         return view('admin/Pages/Category/editCat', compact('category'));
@@ -64,27 +66,29 @@ class CategoryController extends Controller
 
     public function update(Request $request, Category $category)
     {
-        $request->validate([
-            'category_name' => 'required|max:255|unique:categories,category_name,' . $category->id,
+        $validated = $request->validate([
+            'category_name.en' => 'required|max:255|unique:categories,category_name->en,' . $category->id,
+            'category_name.ar' => 'required|max:255|unique:categories,category_name->ar,' . $category->id,
             'description' => 'nullable|string',
             'canonicals' => 'url|nullable',
             'blog_schema' => 'string|nullable',
-            'meta_title'      => 'nullable|string',
+            'meta_title' => 'nullable|string',
             'meta_description' => 'nullable|string',
         ]);
 
         $category->update([
-            'category_name' => $request->category_name,
-            'description' => $request->description,
-            'slug' => Str::slug($request->category_name),
-            'canonicals' => $request->canonicals,
-            'blog_schema' => $request->blog_schema,
-              'meta_title'       => $request->input('meta_title'),
-            'meta_description' => $request->input('meta_description'),
+            'category_name' => $validated['category_name'], // 
+            'description' => $validated['description'] ?? null,
+            'slug' => Str::slug($validated['category_name']['en']), // 
+            'canonicals' => $validated['canonicals'] ?? null,
+            'blog_schema' => $validated['blog_schema'] ?? null,
+            'meta_title' => $validated['meta_title'] ?? null,
+            'meta_description' => $validated['meta_description'] ?? null,
         ]);
 
         return redirect()->route('categories.index')->with('success', 'Category updated successfully.');
     }
+
 
     public function destroy(Category $category)
     {

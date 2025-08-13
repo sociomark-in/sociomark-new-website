@@ -30,9 +30,15 @@
                     <form action="{{ route('categories.store') }}" method="POST">
                         @csrf
                         <div class="mb-3">
-                            <label>Category Name</label>
-                            <input type="text" name="category_name" id="category_name" class="form-control" required onkeyup="updateSlug()">
+                            <label>Category Name (English)</label>
+                            <input type="text" name="category_name[en]" class="form-control" required>
                         </div>
+
+                        <div class="mb-3">
+                            <label>Category Name (Arabic)</label>
+                            <input type="text" name="category_name[ar]" class="form-control" required>
+                        </div>
+
                         <div class="mb-3">
                             <label>Slug</label>
                             <input type="text" name="slug" id="slug" class="form-control">
@@ -41,7 +47,7 @@
                             <label>Description</label>
                             <textarea name="description" class="form-control"></textarea>
                         </div>
-                          <div class="mb-3">
+                        <div class="mb-3">
                             <label class="form-label">SEO Meta Title</label>
                             <input type="text" class="form-control" name="meta_title" id="title" onkeyup="updateSlug()">
                         </div>

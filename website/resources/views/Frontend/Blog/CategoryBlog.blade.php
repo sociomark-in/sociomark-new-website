@@ -6,7 +6,9 @@
 
 @section('schema')
 <script type="application/ld+json">
-    {!!$blog_schema!!}
+    {
+        !!$blog_schema!!
+    }
 </script>
 @endsection
 
@@ -76,7 +78,7 @@
 
     .blog-img {
         width: 400px;
-        height: 230px;
+        height: 218px;
     }
 
     .blog-single {
@@ -108,12 +110,22 @@
 
                         @foreach($blogs as $blog)
                         @if ($blog->status == 'active')
-                        <div class="col-md-6" data-category="{{ implode(', ', $blog->category_names) ?: 'No Category' }}">
+
+                        @php
+                        $locale = app()->getLocale();
+                        $categoryNames = $blog->category_names[$locale] ?? [];
+                        if (!is_array($categoryNames)) {
+                        $categoryNames = [$categoryNames];
+                        }
+                        @endphp
+
+                        <div class="col-md-6 blog-item"
+                            data-category="{{ implode(',', array_map(fn($name) => strtolower(trim($name)), $categoryNames)) }}">
 
                             <div class="box-blog th-blog blog-single has-post-thumbnail">
                                 <div class="blog-img box-blog">
                                     <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                        <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="{{ $blog->blog_name }}" class="w-100 h-100 object-fit-cover">
+                                        <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="{{ $blog->blog_name[$locale] ?? $blog->blog_name['en'] }}" class="w-100 h-100 object-fit-cover">
                                     </a>
                                 </div>
                                 <div class="blog-content content-padding">
@@ -122,8 +134,9 @@
                                         <!-- <a href="#"><i class="fa-regular fa-clock"></i> 08 min read</a> -->
                                         <a href=""><i class="fa-light fa-tags"></i> {{ implode(', ', $blog->category_names) ?: 'No Category' }}</a>
                                     </div>
-                                    <h3 class="blog-title blog-title-text"><a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">{{ $blog->blog_name }}</a></h3>
-                                    <p class="blog-text">{{ Str::limit(strip_tags($blog->content), 100) }}</p>
+                                    <h3 class="blog-title blog-title-text"><a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">{{ $blog->blog_name[$locale] ?? $blog->blog_name['en'] }}</a></h3>
+
+                                    <p class="blog-text">{{ Str::limit(strip_tags($blog->content[$locale] ?? $blog->content['en']), 100) }}</p>
                                     <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}" class="th-btn black-border th-icon th-radius">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
                                 </div>
                             </div>
@@ -177,12 +190,17 @@
                         <div class="box widget widget_categories">
                             <h3 class="widget_title">Categories</h3>
                             <ul>
-                                <li><a href="{{ route('blog') }}" class="category-filter" data-category="all">All Categories</a></li>
+                                <li><a href="#" class="category-filter active" data-category="all">All Categories</a></li>
                                 @foreach ($categories as $category)
-                                <li><a href="{{ route('categoryBlog', ['slug' => $category->slug]) }}" class="category-filter">{{ $category->category_name }}</a></li>
+                                <li>
+                                    <a href="#" class="category-filter" data-category="{{ implode(',', array_map(fn($name) => strtolower(trim($name)), $categoryNames)) }}">
+                                        {{ $category->category_name[$locale] ?? $blog->blog_name['en'] }}
+                                    </a>
+                                </li>
                                 @endforeach
                             </ul>
                         </div>
+
 
                         <div class="widget box">
                             <h3 class="widget_title">Recent Posts</h3>
@@ -192,7 +210,7 @@
                                 <div class="recent-post">
                                     <div class="media-img recent_blog_img">
                                         <a href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                            <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="{{ $blog->blog_name }}" class="w-100 h-100 object-fit-cover">
+                                            <img src="{{ url('storage/app/public/' . ($blog->images[0] ?? 'default.jpg')) }}" alt="{{ $blog->blog_name[$locale] ?? $blog->blog_name['en'] }}" class="w-100 h-100 object-fit-cover">
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -204,7 +222,7 @@
                                         </div>
                                         <h4 class="post-title recent_post_title">
                                             <a class="text-inherit" href="{{ route('blog-inner', ['slug' => $blog->slug]) }}">
-                                                {{ $blog->blog_name }}
+                                                {{ $blog->blog_name[$locale] ?? $blog->blog_name['en'] }}
                                             </a>
                                         </h4>
                                     </div>
@@ -217,7 +235,7 @@
                             <h3 class="widget_title">Popular Tags</h3>
                             <div class="tagcloud">
                                 @foreach ($tags->take(6) as $tag)
-                                <a href="{{ route('tagBlog', ['slug' => $tag->slug]) }}">{{ $tag->name }}</a>
+                                <a href="{{ route('tagBlog', ['slug' => $tag->slug]) }}">{{ $tag->name[$locale] ?? $blog->blog_name['en'] }}</a>
                                 @endforeach
 
                             </div>

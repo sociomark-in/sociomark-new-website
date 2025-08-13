@@ -27,6 +27,9 @@ class Blog extends Model
     ];
 
     protected $casts = [
+        'card_title' => 'array',
+        'blog_name' => 'array',
+        'content' => 'array',
         'tags' => 'array',
         'categories' => 'array',
         'images' => 'array',
@@ -45,11 +48,18 @@ class Blog extends Model
         return Tag::whereIn('id', $this->tags ?? [])->get();
     }
 
-    // ✅ Used in Blade: $blog->category_names
+    // Used in Blade: $blog->category_names
     public function getCategoryNamesAttribute()
     {
-        return Category::whereIn('id', $this->categories ?? [])->pluck('category_name')->toArray();
+        $locale = app()->getLocale(); // or 'en' as default
+        return Category::whereIn('id', $this->categories ?? [])
+            ->get()
+            ->map(function ($category) use ($locale) {
+                return $category->category_name[$locale] ?? $category->category_name['en'] ?? 'Unknown';
+            })
+            ->toArray();
     }
+
 
     public function getTagNamesAttribute()
     {

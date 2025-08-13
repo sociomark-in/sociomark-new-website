@@ -17,6 +17,9 @@ class Tag extends Model
         'meta_title',
         'meta_description',
     ];
+    protected $casts = [
+        'name' => 'array',
+    ];
     public function tags()
     {
         return $this->belongsToMany(Tag::class);

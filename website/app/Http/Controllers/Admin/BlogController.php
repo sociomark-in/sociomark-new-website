@@ -23,9 +23,9 @@ class BlogController extends Controller
     public function index()
     {
         $blogs = Blog::latest()->get();
-        return view('admin/Pages/Blog/Blogs', compact('blogs'));
+        $locale = app()->getLocale();
+        return view('admin/Pages/Blog/Blogs', compact('blogs', 'locale'));
     }
-
     // Show form to create blog
     public function create()
     {
@@ -33,29 +33,29 @@ class BlogController extends Controller
         $tags = Tag::all(); // Fetch all tags
         return view('admin/Pages/Blog/AddBlog', compact('categories', 'tags'));
     }
-
-
-
     // Store blog
     public function store(Request $request)
     {
-        $request->validate([
-            'card_title' => 'required|string|max:255',
-            'blog_name' => 'required|string|max:255',
-            'content' => 'required',
+        $validated = $request->validate([
+            'card_title.en' => 'required|string|max:255',
+            'card_title.ar' => 'required|string|max:255',
+            'blog_name.en' => 'required|string',
+            'blog_name.ar' => 'nullable|string',
+            'content.en' => 'required',
+            'content.ar' => 'required',
             'meta_title' => 'nullable|string|max:255',
             'meta_description' => 'nullable|string',
             'meta_keywords' => 'nullable|string',
             'tags' => 'nullable|array',
             'categories' => 'nullable|array',
-            'images.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048', // Validate each image
+            'images.*' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             'status' => 'required|in:active,draft,inactive',
             'display_on_home' => 'boolean',
             'canonicals' => 'url|nullable',
             'blog_schema' => 'string|nullable',
         ]);
 
-        // Store images
+
         $imagePaths = [];
         if ($request->hasFile('images')) {
             foreach ($request->file('images') as $image) {
@@ -64,53 +64,55 @@ class BlogController extends Controller
             }
         }
 
-        // Create blog
-        Blog::create([
-            'card_title' => $request->card_title,
-            'blog_name' => $request->blog_name,
-            'content' => $request->content,
-            'meta_title' => $request->meta_title,
-            'meta_description' => $request->meta_description,
-            'meta_keywords' => $request->meta_keywords,
-            'slug' => Str::slug($request->blog_name),
-            'tags' => $request->tags,
-            'categories' => $request->categories,
+        $blog = Blog::create([
+            'card_title' => $validated['card_title'],
+            'blog_name' => $validated['blog_name'], // ← this is now ['en' => ..., 'ar' => ...]
+            'content' => $validated['content'],
+            'meta_title' => $validated['meta_title'],
+            'meta_description' => $validated['meta_description'],
+            'meta_keywords' => $validated['meta_keywords'],
+            'slug' => Str::slug($validated['blog_name']['en']),
+            'tags' => $validated['tags'],
+            'categories' => $validated['categories'],
             'images' => $imagePaths,
-            'status' => $request->status,
-            'display_on_home' => $request->display_on_home ?? false,
-            'canonicals' => $request->canonicals,
-            'blog_schema' => $request->blog_schema,
+            'status' => $validated['status'],
+            'display_on_home' => $validated['display_on_home'] ?? false,
+            'canonicals' => $validated['canonicals'],
+            'blog_schema' => $validated['blog_schema'],
         ]);
 
         return redirect()->route('blogs.index')->with('success', 'Blog created successfully.');
     }
-
-
-    // Show blog details
-    // public function show(Blog $blog)
-    // {
-    //     return view('admin/Pages/Blog/EditBlog', compact('blog'));
-    // }
-
-    // Show form to edit blog
-
     public function edit($id)
     {
         $blog = Blog::findOrFail($id);
-        $categories = Category::all(); // Assuming you have a Category model
+        $categories = Category::all();
         $tags = Tag::all();
-        return view('admin/Pages/Blog/EditBlog', compact('blog', 'categories', 'tags'));
-    }
+        $locale = app()->getLocale();
 
+        return view('admin/Pages/Blog/EditBlog', compact('blog', 'categories', 'tags', 'locale'));
+    }
+    // public function edit($id)
+    // {
+    //     $blog = Blog::with(['categories', 'tags'])->findOrFail($id);
+    //     $categories = Category::all();
+    //     $tags = Tag::all();
+    //     $locale = app()->getLocale();
+
+    //     return view('admin.Pages.Blog.EditBlog', compact('blog', 'categories', 'tags', 'locale'));
+    // }
 
     public function update(Request $request, $id)
     {
         $blog = Blog::findOrFail($id);
 
         $request->validate([
-            'card_title'      => 'required|string|max:255',
-            'blog_name'       => 'required|string|max:255',
-            'content'         => 'required',
+            'card_title.en' => 'required|string|max:255',
+            'card_title.ar' => 'required|string|max:255',
+            'blog_name.en' => 'required|string',
+            'blog_name.ar' => 'nullable|string',
+            'content.en' => 'required',
+            'content.ar' => 'required',
             'status'          => 'required|in:draft,active,inactive',
             'tags'            => 'nullable|array',
             'categories'      => 'nullable|array',
@@ -131,15 +133,14 @@ class BlogController extends Controller
             'meta_title'       => $request->input('meta_title'),
             'meta_description' => $request->input('meta_description'),
             'meta_keywords'    => $request->input('meta_keywords'),
-            'slug'             => Str::slug($request->input('blog_name')),
+            'slug'             => Str::slug($request->input('blog_name.en')),
             'tags'             => $request->input('tags', []),
             'categories'       => $request->input('categories', []),
             'status'           => $request->input('status'),
             'display_on_home'  => (bool) $request->input('display_on_home', false),
             'canonicals'       => $request->input('canonicals'),
-            'blog_schema'           => $request->input('blog_schema'),
+            'blog_schema'      => $request->input('blog_schema'),
         ];
-
         // Only if the user has uploaded new images do we delete old ones and store new
         if ($request->hasFile('images')) {
             // 1) Delete old images from disk (if any)
@@ -162,10 +163,6 @@ class BlogController extends Controller
 
         return redirect()->route('blogs.index')->with('success', 'Blog updated successfully.');
     }
-
-
-
-
     // Delete blog
     public function destroy(Blog $blog)
     {

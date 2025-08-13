@@ -33,7 +33,7 @@
                                 @foreach ($categories as $category)
                                 <tr>
                                     <td>{{ $category->id }}</td>
-                                    <td>{{ $category->category_name }}</td>
+                                    <td>{{ $category->category_name[$locale] ?? $category->category_name['en']}}</td>
                                     <td>{{ $category->canonicals }}</td>
                                     <td>
                                         <!-- Edit Icon -->

@@ -36,8 +36,8 @@
                                 @foreach ($blogs as $blog)
                                 <tr>
                                     <td>{{ $blog->id }}</td>
-                                    <td>{{ $blog->card_title }}</td>
-                                    <td>{{ $blog->blog_name }}</td>
+                                    <td>{{ $blog->card_title[$locale] ?? $blog->card_title['en']}}</td>
+                                    <td>{{ $blog->blog_name[$locale] ?? $blog->blog_name['en'] }}</td>
                                     <td>
                                         @if ($blog->display_on_home == 1)
                                         <i data-feather="check" style="color: green;"></i>
