@@ -559,7 +559,7 @@
                             title="Sociomark Showreel" frameborder="0" allow="autoplay;  picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> --}}
                             <video preload="auto" class="w-100" playsinline autoplay muted loop>
-                                <source src="{{ asset('frontend-assets/sociomark_showreel.mp4') }}">
+                                <source src="{{ asset('frontend-assets/video/sociomark_showreel.mp4') }}">
                             </video>
                         </div>
                         @push('scripts')

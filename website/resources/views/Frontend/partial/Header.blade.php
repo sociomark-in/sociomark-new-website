@@ -170,9 +170,18 @@ Header Area
         </div>
     </div>
 </header>
-
+<style>
+    /* --- RTL Specific Styles for Arabic Language --- */
+        /* These styles apply when the body has dir="rtl" */
+        body[dir="rtl"] {
+            text-align: right !important; /* Align all text to the right by default */
+        }
+        body[dir="ltr"] {
+            text-align: left !important; /* Align all text to the right by default */
+        }
+</style>
 <!-- Google Translate Script -->
-<script type="text/javascript">
+{{-- <script type="text/javascript">
     function googleTranslateElementInit() {
         new google.translate.TranslateElement({
             pageLanguage: 'en', // Default language of your page
@@ -180,6 +189,50 @@ Header Area
             // layout: google.translate.TranslateElement.InlineLayout.SIMPLE, // Simple dropdown
             // autoDisplay: true // Do not automatically display the Google Translate bar
         }, 'google_translate_element');
+    }
+</script> --}}
+
+ <!-- Google Translate Script -->
+ <script type="text/javascript">
+    // Declare testimonialSwiperInstance globally or in a scope accessible by the event listener
+    let testimonialSwiperInstance;
+
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en', // Default language of your page
+            includedLanguages: 'en,ar', // Include English, Hindi, Marathi, Arabic
+            // layout: google.translate.TranslateElement.InlineLayout.SIMPLE, // Simple dropdown
+            // autoDisplay: false // Do not automatically display the Google Translate bar
+        }, 'google_translate_element');
+
+        setTimeout(() => {
+            const translateDropdown = document.querySelector('.goog-te-combo');
+            if (translateDropdown) {
+                translateDropdown.addEventListener('change', function() {
+                    const selectedLang = this.value;
+                    const body = document.body;
+                    // Select all elements that might need direction adjustment, e.g., Swiper containers
+                    const swiperContainers = document.querySelectorAll('.swiper');
+
+                    if (selectedLang === 'ar') {
+                        body.setAttribute('dir', 'rtl');
+                        swiperContainers.forEach(swiper => swiper.setAttribute('dir', 'rtl'));
+                        // Explicitly change direction for testimonialSwiperInstance
+                        if (testimonialSwiperInstance) {
+                            testimonialSwiperInstance.changeDirection('rtl');
+                        }
+                    } else {
+                        body.setAttribute('dir', 'ltr');
+                        swiperContainers.forEach(swiper => swiper.setAttribute('dir', 'ltr'));
+                        // Explicitly change direction for testimonialSwiperInstance
+                        if (testimonialSwiperInstance) {
+                            testimonialSwiperInstance.changeDirection('ltr');
+                        }
+                    }
+                    window.dispatchEvent(new Event('resize'));
+                });
+            }
+        }, 500); 
     }
 </script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
