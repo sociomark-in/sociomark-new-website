@@ -250,8 +250,111 @@
         }
     </style>
 @endpush
+@push('styles')
+<style>
+    
+
+     #wrapper {
+         position: relative;
+         text-align: center;
+         padding: 0;
+         width: 100%;
+         height: 100%;
+     }
+
+     #effect {
+         background-color: #610B0B;
+         position: relative;
+         width: 90%;
+         max-width: 380px;
+         height: 220px;
+         margin: 0 auto;
+         box-shadow: 0px 0px 10px 0px #610B0B;
+         /* Ensures the content inside is centered */
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         overflow: hidden;
+         z-index: 1; /* Keep the effect element above the curtains for content visibility */
+     }
+
+     #effect p {
+         font-size: 30px;
+         color: #F79F81;
+         z-index: 2; /* Ensures text is visible */
+     }
+
+     #curtain1, #curtain2 {
+         position: fixed; /* Use fixed positioning to cover the entire viewport */
+         top: 0;
+         height: 100vh; /* Cover the full viewport height */
+         /* Add a smooth transition for the width property */
+         transition: width 5s ease-in-out; 
+         z-index: 10; /* Make sure curtains are on top of everything else */
+         
+         /* Styles for the curtain images */
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+     }
+     
+     #curtain1 {
+         left: 0;
+         width: 50vw; /* Initial width is 50% of the viewport width */
+         /* Use a placeholder image for the left curtain */
+         background-image: url("{{ asset('frontend-assets/img/curtain1.jpg') }}");
+     }
+
+     #curtain2 {
+         right: 0;
+         width: 50vw; /* Initial width is 50% of the viewport width */
+         /* Use a placeholder image for the right curtain */
+         background-image: url("{{ asset('frontend-assets/img/curtain2.jpg') }}");
+     }
+     
+     #curtain_buttons {
+         position: fixed;
+         bottom: 20px;
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         gap: 20px;
+         z-index: 11; /* Keep buttons above the curtains */
+     }
+
+     #curtain_buttons input[type="button"] {
+         width: 150px;
+         height: 45px;
+         border-radius: 8px;
+         color: white;
+         background-color: #B43104;
+         border: none;
+         cursor: pointer;
+         font-size: 16px;
+         border-bottom: 6px solid #8A2908;
+         transition: all 0.2s ease-in-out;
+         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     }
+
+     #curtain_buttons input[type="button"]:active {
+         transform: translateY(2px);
+         border-bottom: 2px solid #8A2908;
+     }
+     
+     /* The CSS class to open the curtains */
+     .open-curtains #curtain1,
+     .open-curtains #curtain2 {
+         width: 0; /* Animate the width to 0 to "open" the curtains */
+     }
+</style>
+@endpush
+
 
 @section('content')
+      <!-- The curtains will now cover the entire viewport due to fixed positioning -->
+      {{-- <div id="curtain1"></div>
+      <div id="curtain2"></div> --}}
+
     <main id="home">
         {{-- Video Section --}}
         <section class="overflow-hidden video-heading height-full mb-md-3">
@@ -2224,4 +2327,18 @@
         });
         // services tab end
     </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // Wait a moment before starting the animation for a smoother effect
+            setTimeout(function() {
+                // Add the class to start the CSS transition
+                $("body").addClass("open-curtains");
+            }, 500); // 500ms delay
+        });
+   
+        // Optional function to manually close the curtains
+        function close_curtain() {
+            $("body").removeClass("open-curtains");
+        }
+   </script>
 @endpush

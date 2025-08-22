@@ -198,7 +198,7 @@ Route::middleware(['canGate:hr-access'])->group(function () {
 
 });
 
-
+// Route::get('/download-pdf', [HomeController::class, 'downloadPdf']);
 
 // Route::get('/lang/{locale}', function ($locale) {
 //     if (!in_array($locale, ['en', 'ar'])) {

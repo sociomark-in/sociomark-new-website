@@ -100,4 +100,13 @@ class HomeController extends Controller
     {
         return view("Frontend/thankYou");
     }
+
+    // public function downloadPdf()
+    // {
+    //     $filePath = public_path('frontend-assets/CRED DECK SOCIOMARK_2025.pdf');
+    //     if (!file_exists($filePath)) {
+    //         return response()->json(['error' => 'File not found.'], 404);
+    //     }
+    //     return response()->download($filePath);
+    // }
 }
