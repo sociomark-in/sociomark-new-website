@@ -42,11 +42,13 @@ class ContactController extends Controller
             'utm_medium' => 'nullable|string|max:255',
             'utm_campaign' => 'nullable|string|max:255',
             'utm_term' => 'nullable|string|max:255',
-            'utm_content' => 'nullable|string|max:255',
+            'utm_content' => 'nullable|string|max:255'
+            // 'source' => 'nullable'
         ]);
         $data['phone'] = $data['countryCode'] . ' ' . $data['phone'];
         $data['service'] = implode(', ', $data['service']);
 
+        $data['source'] = $request->headers->get('referer');
         $lead = Contact::create($data);
         // $lead = Contact::create($request->all());
 
@@ -54,9 +56,11 @@ class ContactController extends Controller
         // Mail::to('shruti.sociomark@gmail.com')->send(new NewLeadNotification($lead));
         $recipients = [
             'shruti.sociomark@gmail.com',
-            'kartik@sociomark.in',
+            'brandsolution@sociomark.in',
             'business@sociomark.in',
-            'heta@sociomark.in'
+            'heta@sociomark.in',
+            'rishi@sociomark.in',
+            'sonali@sociomark.in'
         ];
 
         Mail::to($recipients)->send(new NewLeadNotification($lead));

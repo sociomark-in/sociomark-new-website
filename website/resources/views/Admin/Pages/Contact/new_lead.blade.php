@@ -1,4 +1,4 @@
-<h2>New Lead Notification</h2>
+<h2>New Lead Notification From UAE</h2>
 
 <p><strong>Name:</strong> {{ $lead->name }}</p>
 <p><strong>Email:</strong> {{ $lead->email }}</p>
@@ -7,6 +7,7 @@
 <p><strong>Budget:</strong> {{ $lead->budget }}</p>
 <p><strong>About Us:</strong> {{ $lead->aboutUs }}</p>
 <p><strong>Message:</strong> {{ $lead->messageforus ?? 'N/A' }}</p>
+<p><strong>Source Page URL: </strong>{{ $lead->source ?? 'N/A' }}</p>
 
 @if($lead->utm_source)
     <h4>UTM Parameters:</h4>
