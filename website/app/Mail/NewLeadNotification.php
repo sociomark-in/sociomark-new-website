@@ -19,7 +19,7 @@ class NewLeadNotification extends Mailable
 
     public function build()
     {
-        return $this->subject('New Lead Received')
+        return $this->subject('New Lead Received From UAE')
                     ->view('admin.Pages.Contact.new_lead'); // Make sure this view exists
     }
 }
