@@ -136,6 +136,10 @@
     {{-- This will render all scripts pushed with @push('scripts') --}}
     @stack('scripts')
     <!-- Before </body> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Readmore.js/2.0.2/readmore.min.js"></script>
+
+    @include('Frontend/partial/wordCountScript')
+    <!-- Before </body> -->
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
         AOS.init({
