@@ -75,27 +75,18 @@
                     <div class="title-area mb-md-3 mb-2 mt-n1">
                         <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            Accelerate your digital growth with a reliable <span class="text-blue"> SEO Agency in
-                                UAE</span>
+                            Not just rankings, an agency that
+                            <span class="text-blue">grows your revenue.
+                            </span>
                         </h1>
                     </div>
                 </div>
                 <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">SEO is more than just showing up in
-                        search results. It is about getting recognised by the audience that matters to you. No matter if
-                        you are a new startup or an MNC company, at Sociomark, we make strategies that drive real
-                        growth.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">The term "SEO" refers to Search Engine Optimization. SEO involves optimizing your website to rank higher in search engine results by using relevant keywords and improving content quality. It also includes technical improvements like enhancing site speed and mobile-friendliness. Additionally, building high-quality backlinks helps increase your site's authority and visibility.
                     </p>
                     <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">With our expertise in SEO in
-                            Dubai, we tailor each approach to fit your unique goals. From local market
-                        insights to global trends, we ensure that you gain visibility where it matters the most. We
-                        focus on the things that create real, lasting results—like technical optimisation and <a href="{{ route('contentMarketing') }}"><b>content marketing</b> </a>
-                        that speaks to your audience. We don't just chase rankings; we chase meaningful engagement.
-                        Through our strategies, we help our clients to increase visibility, drive meaningful traffic and
-                        enhance the user experience. As one of the top SEO companies in Dubai, we help
-                        businesses across the world grow, not just appear on search engines.
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">The main purpose of SEO is to boost your website traffic and show it up in the search results. Because the higher your page appears, the more customers are likely to visit the website, and your business generates sales. SEO is one of the major marketing strategies in the whole digital marketing services that businesses opt for in order to increase their business. No matter the size of the company or the stage, whether it be a startup or a big, well-established firm, SEO is needed for all. It helps your business to have a competitive advantage over others.
 
                     </p>
                 </div>
@@ -117,20 +108,200 @@
             max-height: 60vh;
         }
     </style>
-    <section class="overflow-hidden space bg-grey" id="work-flow">
+    <section class="overflow-hidden space bg-grey" id="about-sec2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-7 mb-3 mb-lg-0" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
+                    data-aos-easing="ease-in-out">
+                    <div class="title-area mb-20">
+                        <h2 class="sec-title mb-md-3 mb-2">
+                            From Zero presence to ranking on 50+keywords in
+                            <span class="text-blue">just 90 days!</span>
+                        </h2>
+                    </div>
+                    <ul>
+                        <li class="sec-para">
+                            PARÉ went from almost invisible online to owning the first page.
+                        </li>
+                        <li class="sec-para">300% more visibility and 15 high-ranking keywords marked a strong shift in their visibility.</li>
+                        <li class="sec-para">The result? 2.5x organic growth in product inquiries, and much more.</li>
+                    </ul>
+
+                    <!-- <a href="{{ route('workculture') }}" class="th-btn th-icon text-white p-3 logo-info mt-2"
+                        data-aos="fade-left" data-aos-delay="100">Download</a> -->
+                    <!-- <a href="#" class="th-btn th-icon" data-bs-toggle="modal"
+                        data-bs-target="#getAQuoteModal">Download the Pare Case study<i class="fa-solid fa-arrow-right ms-2"></i></a> -->
+                    <a href="#" class="th-btn th-icon openFormBtn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#getAQuoteModal"
+                        data-pdf="Pare case study.pdf">
+                        Download the PARÉ case study now<i class="fa-solid fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+                <div class="col-xl-5" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1200"
+                    data-aos-easing="ease-in-out">
+                    <div class="choose-image">
+                        <div class="tilt-active">
+                            {{-- <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}"
+                            alt="Choose" class="w-100"> --}}
+                            <img src="{{ asset('frontend-assets/img/ServicePages/SEO/caseStudy/pare.png') }}" alt="Choose"
+                                class="w-100">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- popup modal  start-->
+    <!-- Modal -->
+    <div class="modal fade" id="getAQuoteModal" tabindex="-1" aria-labelledby="getAQuoteModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content contact-form style2" style="padding: 10px 10px;">
+                <div class="modal-header">
+                    <h2 class="modal-title fs-5 text-blue" id="getAQuoteModalLabel">Apply Now</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="">
+                        @if (session('success'))
+                        <div class="alert alert-success">
+                            {{ session('success') }}
+                        </div>
+                        @endif
+
+                        <!-- Contact Popup Form -->
+                        <!-- Contact Popup Form -->
+                        <form action="{{ route('caseStudyForm') }}" method="POST" id="popupForm"
+                            enctype="multipart/form-data">
+                            @csrf
+                            <input type="hidden" name="url" value="{{ url()->current() }}">
+                            <input type="hidden" name="pdf" id="pdfInput">
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="name"><b>Your Name</b><span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control @error('name') is-invalid @enderror"
+                                        name="name" id="popName" placeholder="Enter your Name"
+                                        value="{{ old('name') }}">
+                                    @error('name')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <label for="email"><b>Email</b><span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control @error('email') is-invalid @enderror"
+                                        name="email" id="popEmail" placeholder="Enter your Email"
+                                        value="{{ old('email') }}">
+                                    @error('email')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+
+                                <div class="form-group col-md-6">
+                                    <label for="phone"><b>Phone</b><span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control @error('phone') is-invalid @enderror"
+                                        name="phone" id="popPhone" placeholder="Enter your Phone"
+                                        value="{{ old('phone') }}" maxlength="10" pattern="\d{10}">
+                                    @error('phone')
+                                    <span class="text-danger">{{ $message }}</span>
+                                    @enderror
+                                </div>
+
+
+
+
+
+                                <div class="col-12 form-group mb-0 text-center">
+                                    <button type="submit" class="th-btn th-radius">Send</button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <script type="text/javascript">
+                            $.validator.addMethod("emailregex", function(value, element) {
+                                return this.optional(element) || /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/i.test(value);
+                            });
+
+                            $.validator.addMethod("letters", function(value, element) {
+                                return this.optional(element) || /^[a-zA-Z\s']*$/i.test(value);
+                            });
+
+                            $.validator.addMethod("numbers", function(value, element) {
+                                return this.optional(element) || /^[0-9]{10}$/.test(value);
+                            });
+
+                            $('#popupForm').validate({
+                                rules: {
+                                    name: {
+                                        required: true,
+                                        letters: true,
+                                    },
+                                    email: {
+                                        required: true,
+                                        emailregex: true,
+                                    },
+                                    phone: {
+                                        required: true,
+                                        numbers: true,
+                                        minlength: 10,
+                                        maxlength: 10,
+                                    },
+
+                                },
+                                messages: {
+                                    name: {
+                                        required: 'This Name field is required',
+                                        letters: 'Only Letters & Spaces are Allowed.'
+                                    },
+                                    phone: {
+                                        required: 'This Phone field is required',
+                                        numbers: 'Please enter 10 digits',
+                                        minlength: 'Phone number must be 10 digits',
+                                        maxlength: 'Phone number must be 10 digits',
+                                    },
+
+                                    email: 'Please enter a Valid Email Id',
+
+                                },
+                                submitHandler: function(form) {
+                                    form.submit();
+                                }
+                            });
+                        </script>
+                        <script>
+                            document.addEventListener('DOMContentLoaded', function() {
+                                const pageUrlField = document.getElementById('page_url');
+                                if (pageUrlField) {
+                                    pageUrlField.value = window.location.href;
+                                }
+                            });
+                        </script>
+
+                    </div>
+                </div>
+                <div class="modal-footer d-none">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- popup modal  end-->
+
+
+    <section class="overflow-hidden space" id="work-flow">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-xl-8">
+                <div class="col-xl-12 ">
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            Our Way of
-                            <span class="text-blue"> Creating Impact</span>.
+                            An Approach That Puts You
+                            <span class="text-blue"> Ahead in Search</span>.
                         </h2>
-                        {{-- <p class="sec-para">Here are a few of the SEO strategies that we as a Leading Digital Marketing
-                                Agency in Mumbai
-                                implement, so that the website that we build for our clients stand out from the rest. This
-                                in turn gives them a major advantage over its competitors.</p> --}}
+                        <p class="sec-para" data-aos="fade-right" data-aos-delay="100"
+                            data-aos-duration="1000" data-aos-easing="ease-in-out">As a digital marketing agency, we focus on making your brand easier to find and creating measurable impact. A stronger SEO ranking brings more people to you, giving your business both reach and an edge. Our approach is about staying consistent and visible online.</p>
                     </div>
                 </div>
             </div>
@@ -140,7 +311,7 @@
                     <div class="circle-wrapper" data-aos="fade-right" data-aos-delay="200" data-tilt data-tilt-max="10">
                         <div class="circle" data-tilt data-tilt-max="10">
                             <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Creating Impact.png') }}"
-                                alt="Key" class="key-image mt-3">
+                                alt="Key" class="mt-3">
                         </div>
                     </div>
                 </div>
@@ -149,65 +320,90 @@
                 <div class="col-md-6 mt-4 mt-md-0">
                     <div id="benefits">
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Competitor Analysis</h4>
-                            <p class="sec-para">We deep-dive into what your competitors are doing—what’s working, what’s
-                                not. These insights help shape a smarter strategy tailored to your goals, especially in
-                                the space of search engine optimisation in Dubai and UAE. </p>
+                            <h4 class="sub-sec-title">Competitor Deep Dive</h4>
+                            <p class="sec-para truncate" data-collapsed-words="23">As a successful SEO company in Mumbai, we research who your biggest competitors are. What they are doing. What works and what doesn’t. This helps us to formulate strategies that will help you get faster and better results. The reason being, with a thorough research and analysis, we can dodge the mistakes that others may have done and learn from it.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Technical SEO Audit</h4>
-                            <p class="sec-para">Identifying what’s slowing your site down or holding it back from
-                                better
-                                rankings. From crawling issues to broken links, we fix the technical gaps that matter.
+                            <h4 class="sub-sec-title">SEO Infrastructure Check</h4>
+                            <p class="sec-para truncate" data-collapsed-words="34">This part involves SEO / website audit. Including both on-page and off page Seo. We identify what is holding you back from better rankings, the reason behind the slowing of your site and so on. Be it crawling issues to broken links, our team of dedicated SEO professionals fix all the gaps that create a hurdle.
                             </p>
                         </div>
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Content Strategy</h4>
-                            <p class="sec-para">Crafting meaningful content that connects with the audience and aligns
-                                with your brand voice. As an SEO optimisation agency, we ensure every
-                                piece is polished to boost discoverability and delivers long-term value.</p>
+                            <h4 class="sub-sec-title">Content roadmap</h4>
+                            <p class="sec-para">Content is one of the main ingredients that helps a website perform best. Content which solves a problem and has good readability can do wonders for the SEO. We do so by also keeping the brand's voice in mind.</p>
                         </div>
 
 
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">On Page SEO </h4>
-                            <p class="sec-para">Optimisation of every element—meta tags, headers, internal links—to
-                                make your pages more search-friendly. It's about making sure your content speaks clearly
-                                to both users and search engines.</p>
+                            <p class="sec-para">Content should speak clearly not only to users but also to search engines. We make this happen by optimising important elements like headers, meta tags and internal links. This makes your pages more search-friendly.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">GMB Optimisation</h4>
-                            <p class="sec-para">We fine-tune your Google Business Profile to enhance visibility in
-                                local searches. This is key for location-based traffic and local engagement.</p>
+                            <p class="sec-para">Google My Business is the digital storefront of your business and it should be managed well. We fine-tune it so that your business shines in the local searches. It is one of the biggest factors for local engagement and local foot traffic.</p>
                         </div>
                         <div class="benefit-block border-start border-4">
                             <h4 class="sub-sec-title">Off-Page SEO</h4>
-                            <p class="sec-para">Building a strong online reputation with valuable backlinks from
-                                trusted and reputed sources. Implementing strategies to increase your website’s
-                                authority and credibility through external platforms.</p>
+                            <p class="sec-para">Backlinks build trust. We do so by getting them from reputed and valuable sources. This in turn attracts more audience and improves the website’s credibility and authority via other sites.</p>
                         </div>
 
                         <div class="benefit-block border-start border-4">
-                            <h4 class="sub-sec-title">Traffic Analysis</h4>
-                            <p class="sec-para">Tracking how users reach your website and what they do once they land.
-                                These insights help fine-tune performance and conversions over time for businesses
-                                seeking a trusted SEO company in Abu Dhabi and UAE.</p>
+                            <h4 class="sub-sec-title">Visitor pattern review</h4>
+                            <p class="sec-para">Traffic analysis helps us track the important statistics about the visitors on your website. These insights are then used to fine-tune our strategies and enhance the overall SEO performance.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <section class="overflow-hidden space bg-grey" id="">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-5 mt-3 mb-3 mt-lg-0" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1200"
+                    data-aos-easing="ease-in-out">
+                    <div class="choose-image">
+                        <div class="tilt-active">
+                            {{-- <img src="{{ asset('frontend-assets/img/Services-page/Why choose Seo.png') }}"
+                            alt="Choose" class="w-100"> --}}
+                            <img src="{{ asset('frontend-assets/img/ServicePages/SEO/caseStudy/totalfood.png') }}" alt="Choose"
+                                class="w-100">
 
-    <section class="overflow-hidden space mb-5 mb-md-0" id="about-sec3">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-7" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1200"
+                    data-aos-easing="ease-in-out">
+                    <div class="title-area mb-20">
+                        <h2 class="sec-title mb-md-3 mb-2">
+                            150% Growth, a real chicken dinner win
+                            <span class="text-blue">for the client!</span>
+                        </h2>
+                    </div>
+                    <ul>
+                        <li class="sec-para">From a restricted presence to top-ranking keywords, Total Foods saw a major shift.</li>
+                        <li class="sec-para">Organic growth rose by 150% while impressions grew 179%.</li>
+                        <li class="sec-para">We also helped cut back their dependence on quick commerce platforms.</li>
+                    </ul>
+                    <a href="#" class="th-btn th-icon openFormBtn"
+                        data-bs-toggle="modal"
+                        data-bs-target="#getAQuoteModal"
+                        data-pdf="Total Foods Case Study.pdf">
+                        Download the Total Foods case study now<i class="fa-solid fa-arrow-right ms-2"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="overflow-hidden space mb-5 mb-md-0 " id="about-sec3">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
                     <div class="title-area text-center">
                         <h2 class="fw-bold mb-5 sec-title" data-aos="fade-right" data-aos-delay="100"
                             data-aos-duration="1000" data-aos-easing="ease-in-out">
-                            SEO Solutions that are
-                            <span class="text-blue"> Tailored for Every Industry</span>
+                            Solutions that put your brand in
+                            <span class="text-blue"> front of the right audience</span>
                         </h2>
                     </div>
                 </div>
@@ -220,10 +416,7 @@
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Services/Ecommerce Seo.png') }}"
                             alt="Ecommerce SEO" class="rounded-overflow">
-                        <p class="sec-para text">Transform passive visitors into engaged customers.
-                            Our strategies are designed to boost website traffic and conversions through a combination
-                            of content optimization, in-depth website audits, and keyword research.
-                            We'll help you dominate search engine results and attract quality leads.
+                        <p class="sec-para text">Optimize your online store to reach more customers. Improve product and category pages to rank higher in search. Drive more traffic, engagement, and sales with targeted SEO.
                         </p>
 
                     </div>
@@ -235,11 +428,7 @@
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Services/International Seo.png') }}"
                             alt="International SEO" class="rounded-overflow">
-                        <p class="sec-para text">We excel in international SEO. Our strategies focus on key elements
-                            like multilingual keyword research, in-depth audience analysis, and optimized website
-                            structure. We also specialize in geo-targeting, ensuring your content reaches the right
-                            people in the right places.
-
+                        <p class="sec-para text">International SEO helps your brand reach audiences across countries and languages. By optimizing your website for global search, you can connect with the right customers wherever they are. This approach increases visibility, drives relevant traffic, and supports business growth worldwide.
                         </p>
 
                     </div>
@@ -251,10 +440,7 @@
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Services/Mobile Seo.png') }}"
                             alt="App Store SEO" class="rounded-overflow">
-                        <p class="sec-para text"> Optimizing your app's visibility is key to attracting the right
-                            users. By enhancing keywords, reviews, and user interaction, we ensure your app stands out
-                            and gets more downloads.
-
+                        <p class="sec-para text"> Our App Store SEO helps your app get discovered by the right users. We optimize keywords, descriptions, and visuals to improve ranking and visibility. The result is more downloads, higher engagement, and measurable growth for your app.
 
                         </p>
 
@@ -267,9 +453,7 @@
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Services/Local Seo.png') }}"
                             alt="Local SEO" class="rounded-overflow">
-                        <p class="sec-para text">We focus on enhancing customer engagement at the offline stores,
-                            increasing their online audience who are often unaware of their local presence, and getting
-                            them on the map with Google Listings.
+                        <p class="sec-para text">Making your business easy to find locally is what we do. By improving your presence on search engines and maps, we connect you with customers nearby who are looking for your services. The focus is on increasing real visits, calls, and leads from your area.
                         </p>
 
                     </div>
@@ -281,10 +465,7 @@
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Services/Seo Audit.png') }}"
                             alt="AI SEO" class="rounded-overflow">
-                        <p class="sec-para text">By leveraging AI, we enhance your website’s visibility with smart,
-                            data-driven adjustments. This approach ensures you're always ahead of the curve, delivering
-                            results that matter.
-
+                        <p class="sec-para text">Our AI SEO solution leverages intelligent tools to understand search behaviour and optimize content automatically. It improves rankings, increases relevant traffic, and helps your website get noticed by the right audience.
                         </p>
 
                     </div>
@@ -296,8 +477,7 @@
                     <div class="according-img">
                         <img src="{{ asset('frontend-assets/img/ServicePages/SEO/Services/Goodle Analytics and Report.png') }}"
                             alt="GEO" class="rounded-overflow">
-                        <p class="sec-para text">Crafting content that speaks your brand’s truth while aligning with
-                            how AI engines search and rank. We focus on making your digital presence more authentic, visible, and valuable.
+                        <p class="sec-para text">We help your business reach customers where they are. By optimizing your website and listings for specific areas, more people nearby can find and engage with your brand. This increases local visits, calls, and meaningful interactions.
                         </p>
 
                     </div>
@@ -322,8 +502,8 @@
 
                 <div class="col-md-12 col-12 pe-0 pe-md-5">
                     <h2 class="fw-bold sec-title my-3" data-aos="fade-down" data-aos-delay="100">
-                        The Process That Sets Us Apart as an
-                        <span class="text-blue"> SEO Expert in Ajman</span>
+                        The process That Sets Us Apart as the
+                        <span class="text-blue"> Best SEO Agency</span>
                     </h2>
                 </div>
             </div>
@@ -332,10 +512,10 @@
                     data-aos="fade-left" data-aos-delay=" 300">
                     <div class="h-100">
                         <div
-                            class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-center flex-column">
+                            class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-start flex-column">
 
                             <h4 class="sub-sec-title text-blue"><b>Free Audit</b></h4>
-                            <p class="sec-para">Start with a thorough analysis of your website’s performance to uncover strengths, weaknesses, and opportunities. This audit is the basis on which we form a customised strategy.</p>
+                            <p class="sec-para">Get a clear picture of your website’s performance with our free audit. We identify issues, uncover opportunities, and show how your SEO can improve.</p>
                         </div>
                         <!-- <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
                             <p class="sec-para">Start with a thorough analysis of your website’s performance to uncover strengths, weaknesses, and opportunities. This audit is the basis on which we form a customised strategy.</p>
@@ -349,10 +529,10 @@
                             class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-start flex-column">
 
                             <h4 class="sub-sec-title text-blue"><b>Strategy Development</b></h4>
-                            <p class="sec-para">Based on the audit, an SEO strategy is developed that aligns with your business goals and target audiences. Our SEO services in Abu Dhabi and UAE are crafted to meet the specific needs of your industry.</p>
+                            <p class="sec-para">We build a focused SEO strategy that aligns with your goals and market needs. The plan guides every action to boost rankings, traffic, and conversions. </p>
                         </div>
                         <!-- <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
-                            <p class="sec-para">Based on the audit, an SEO strategy is developed that aligns with your business goals and target audiences. Our <b>SEO services in Abu Dhabi</b> and UAE are crafted to meet the specific needs of your industry.</p>
+                            <p class="sec-para">Based on the audit, an SEO strategy is developed that aligns with your business goals and target audiences. Our <b>SEO services in Navi Mumabi</b> and Mumabi are crafted to meet the specific needs of your industry.</p>
                         </div> -->
                     </div>
                 </div>
@@ -363,7 +543,7 @@
                             <!-- <img src="{{ asset('frontend-assets/img/icon/about/Result Driven.png') }}" alt="Results-Driven"
                                 class="h-50 w-50"> -->
                             <h4 class="sub-sec-title text-blue"><b>Implementation</b></h4>
-                            <p class="sec-para">The strategy is put into action, which includes technical fixes, optimising existing content, creating new content, improving site structure, and applying SEO best practices.</p>
+                            <p class="sec-para">This is where action happens, while also correcting the issues, optimising content and improving things along the way.</p>
                         </div>
                         <!-- <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
                             <p class="sec-para">The strategy is put into action, which includes technical fixes, optimising existing content, creating new content, improving site structure, and applying SEO best practices.</p>
@@ -377,7 +557,7 @@
                             class="flip-box-front second-feature-card h-100 d-flex align-items-center justify-content-start flex-column">
 
                             <h4 class="sub-sec-title text-blue"><b>Monitoring & Optimisation</b></h4>
-                            <p class="sec-para">SEO requires continuous optimisation. <a href="{{ route('sem') }}"><b>Performance</b></a> is tracked, and strategies are adjusted to keep the website ahead in search engine rankings. Through our SEO services in Ajman, we ensure that the website remains competitive and effective.</p>
+                            <p class="sec-para">We continuously monitor performance and optimise strategies for better results. You can see the impact of our work in any one of our SEO Case Studies.</p>
                         </div>
                         <!-- <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
                             <p class="sec-para">SEO requires continuous optimisation. <a href="{{ route('sem') }}"><b>Performance</b></a> is tracked, and strategies are adjusted to keep the website ahead in search engine rankings. Through our <b>SEO services in Ajman,</b> we ensure that the website remains competitive and effective.</p>
@@ -391,7 +571,7 @@
                             class="flip-box-front first-feature-card h-100 d-flex align-items-center justify-content-start flex-column">
 
                             <h4 class="sub-sec-title text-blue"><b>Reporting</b></h4>
-                            <p class="sec-para">Receive detailed yet clear reports every month, showing key performance metrics and the impact of the SEO strategy on website performance.</p>
+                            <p class="sec-para">We provide monthly reports that highlight key metrics and performance insights. This keeps you informed about progress, results, and the impact of our SEO efforts.</p>
                         </div>
                         <!-- <div class="flip-box-back d-flex justify-content-center align-items-center h-100">
                             <p class="sec-para">Receive detailed yet clear reports every month, showing key performance metrics and the impact of the SEO strategy on website performance.</p>
@@ -410,7 +590,8 @@
                     data-aos-easing="ease-in-out">
                     <div class="title-area mb-20">
                         <h2 class="sec-title mb-md-3 mb-2">
-                            The impact of partnering with <span class="text-blue">Sociomark</span>
+                            How a Partnership with 
+                            <span class="text-blue">Us Makes a Difference</span>
                         </h2>
                     </div>
                     <p class="sec-para d-none ">Our SEO strategies are designed to improve your website’s ranking on
@@ -423,9 +604,8 @@
                                     width="60" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h4 class="sub-sec-title">Comprehensive Digital Solutions</h4>
-                                <p class="sec-para"> We provide cost-effective SEO strategies that enhance your
-                                    visibility and bring measurable growth to your business.</p>
+                                <h4 class="sub-sec-title">End-to-End Digital Services</h4>
+                                <p class="sec-para">We deliver affordable SEO solutions designed to boost your online presence and drive tangible growth for your business.</p>
                             </div>
                         </div>
                         <div class="choose-feature">
@@ -434,9 +614,8 @@
                                     width="60" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h4 class="sub-sec-title">Tailored Strategies for Long-term Growth</h4>
-                                <p class="sec-para">Our approach focuses on sustainable results, ensuring that your
-                                    brand ranks higher and stays relevant in the market.</p>
+                                <h4 class="sub-sec-title">Customized Strategies for Lasting Results</h4>
+                                <p class="sec-para">Our methods focus on sustainable performance, helping your brand rank higher and remain competitive over time.</p>
                             </div>
                         </div>
                         <div class="choose-feature">
@@ -445,9 +624,8 @@
                                     width="60" alt="Icon">
                             </div>
                             <div class="media-body">
-                                <h4 class="sub-sec-title">Perfect Integration of SEO and Web Development</h4>
-                                <p class="sec-para"> By combining SEO with expert <a href="{{ route('website') }}"><b>web development</b> </a>, we
-                                    ensure that your website is optimised for both performance and user experience.
+                                <h4 class="sub-sec-title">Seamless SEO and Web Development Integration</h4>
+                                <p class="sec-para"> By aligning SEO with professional web development, we make sure your site performs efficiently while providing an excellent user experience.
                                 </p>
                             </div>
                         </div>
@@ -464,6 +642,29 @@
 
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="overflow-hidden mb-md-5 md-2 pt-5 bg-grey" id="about-sec">
+        <div class="container">
+            <div class="row align-items-end justify-content-center">
+                <div class="col-lg-9 col-12 d-flex justify-content-center align-items-center flex-column">
+                    <div class="title-area mb-md-3 mb-2 mt-n1">
+                        <h1 class="text-center fw-bold sec-title my-3" data-aos="zoom-in" data-aos-delay="100"
+                            data-aos-duration="1000" data-aos-easing="ease-in-out">
+                            From almost invisible to unmissable, read our case studies to witness
+                            <span class="text-blue"> the results we have achieved.
+                            </span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-12 d-flex justify-content-center align-items-center flex-column">
+                    <p class="mt-n2 mb-25 sec-para text-left" data-aos="fade-down" data-aos-delay="200"
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">Explore the best SEO case study to see how a properly planned strategy can lead to significant and measurable growth. Every case study for SEO demonstrates the impact of our approach on real businesses.
+                    </p>
+
                 </div>
             </div>
         </div>
@@ -1012,6 +1213,34 @@
     });
     // services tab end
 </script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const pdfInput = document.getElementById('pdfInput');
+
+        // Attach click event to all "Download" buttons
+        document.querySelectorAll('.openFormBtn').forEach(button => {
+            button.addEventListener('click', function() {
+                const pdfFile = this.getAttribute('data-pdf');
+                pdfInput.value = pdfFile; // 🔹 Set hidden input value
+            });
+        });
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const form = document.getElementById("popupForm");
+
+        form.addEventListener("submit", function() {
+            // Wait until request is finished (after redirect/download)
+            setTimeout(() => {
+                form.reset(); // clears inputs
+                document.getElementById('pdfInput').value = ''; // clear hidden pdf
+            }, 500);
+        });
+    });
+</script>
+
+
 @endpush
 
 @push('styles')
