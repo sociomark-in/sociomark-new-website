@@ -199,4 +199,24 @@ class ServiceController extends Controller
         $locale = app()->getLocale();
         return view("Frontend/Services/photoVideography", compact('blogs', 'meta', 'locale'));
     }
+    public function caseStudyForm(Request $request)
+    {
+        $request->validate([
+            'name'   => 'required|string|max:255',
+            'email'  => 'required|email|max:255',
+            'phone'  => 'required|digits:10',
+            'url' =>'required',
+            'pdf'    => 'required|string', 
+        ]);
+
+        caseStudyForm::create($request->only('name', 'email', 'phone', 'url'));
+
+        $pdfFilePath = public_path('frontend-assets/img/ServicePages/SEO/caseStudy/pdf/' . $request->pdf);
+
+        if (file_exists($pdfFilePath)) {
+            return response()->download($pdfFilePath);
+        }
+
+        return redirect()->back()->with('error', 'PDF not found.');
+    }
 }
